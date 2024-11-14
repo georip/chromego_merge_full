@@ -55,21 +55,6 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip23.6016725.xyz
-- name: CA_Canada_vmess_03
-  type: vmess
-  server: 23.227.38.3
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip23.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip23.6016725.xyz
 - name: US_United States_vmess_04
   type: vmess
   server: 104.19.38.12
@@ -1345,21 +1330,6 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip23.6016725.xyz
-- name: CA_Canada_vmess_093
-  type: vmess
-  server: shopify.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip23.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip23.6016725.xyz
 - name: US_United States_vmess_094
   type: vmess
   server: icook.tw
@@ -1567,37 +1537,11 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- cipher: chacha20-ietf-poly1305
-  name: LT_Lithuania_ss_111
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: LT_Lithuania_ss_113
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: LT_Lithuania_ss_114
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
 - cipher: aes-256-gcm
   name: US_United States_ss_115
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.75.136.117
-  type: ss
-- cipher: aes-256-cfb
-  name: KR_South Korea_ss_118
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_119
@@ -1715,42 +1659,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: NL_The Netherlands_vmess_1118
-  network: ws
-  port: 443
-  server: 45.149.12.84
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
   name: US_United States_vmess_1119
   network: ws
   port: 443
   server: obdii.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: SE_Sweden_vmess_1120
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  servername: obdii.cfd
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1785,50 +1697,6 @@ proxies:
   sni: z-v2-003274.kailib.com
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: CN_China_ss_1127
-  password: OBYKR2MBSCVSRDG2
-  port: 15007
-  server: 120.241.45.50
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: CN_China_vmess_1128
-  port: 56601
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: FR_France_ss_1129
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 33769
-  server: lsjd.yunxiang8.mom
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: SG_Singapore_vmess_1131
-  port: 2902
-  server: 143.92.42.65
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 64
-  cipher: auto
-  name: CN_China_vmess_1132
-  port: 58002
-  server: 120.232.153.27
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: US_United States_ss_1136
   password: shadowsocks
@@ -1843,75 +1711,11 @@ proxies:
   skip-cert-verify: false
   sni: demise.meijireform.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: CN_China_vmess_1138
-  network: ws
-  port: '33202'
-  server: yd2.ainivp.com
-  servername: yd2.ainivp.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- cipher: chacha20-ietf-poly1305
-  name: CN_China_ss_1139
-  password: 7a2f5570-f469-4549-9273-549a5c85fb52
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: GB_United Kingdom_vmess_1140
-  port: 35448
-  server: 45.94.68.144
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
-- cipher: chacha20-ietf
-  name: SG_Singapore_ss_1141
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: CN_China_vmess_1142
-  port: 40002
-  server: 183.236.48.163
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: GB_United Kingdom_ss_1144
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.131
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   name: US_United States_ss_1145
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 38.114.114.143
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: GB_United Kingdom_ss_1146
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1947,16 +1751,6 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
-- alterId: 0
-  cipher: auto
-  name: CN_China_vmess_1160
-  network: tcp
-  port: '443'
-  server: 42.236.73.72
-  servername: www.zitian.cn
-  tls: true
-  type: vmess
-  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1965,7 +1759,6 @@ proxy-groups:
   - DIRECT
   - US_United States_vmess_01
   - US_United States_vmess_02
-  - CA_Canada_vmess_03
   - US_United States_vmess_04
   - US_United States_vmess_05
   - US_United States_vmess_06
@@ -2051,7 +1844,6 @@ proxy-groups:
   - US_United States_vmess_090
   - US_United States_vmess_091
   - US_United States_vmess_092
-  - CA_Canada_vmess_093
   - US_United States_vmess_094
   - US_United States_vmess_095
   - US_United States_vmess_096
@@ -2065,11 +1857,7 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
-  - LT_Lithuania_ss_111
-  - LT_Lithuania_ss_113
-  - LT_Lithuania_ss_114
   - US_United States_ss_115
-  - KR_South Korea_ss_118
   - US_United States_ss_119
   - US_United States_ssr_1111
   - US_United States_vmess_1112
@@ -2078,31 +1866,16 @@ proxy-groups:
   - US_United States_vmess_1115
   - US_United States_vmess_1116
   - US_United States_vmess_1117
-  - NL_The Netherlands_vmess_1118
   - US_United States_vmess_1119
-  - SE_Sweden_vmess_1120
   - US_United States_vmess_1121
   - US_United States_trojan_1122
-  - CN_China_ss_1127
-  - CN_China_vmess_1128
-  - FR_France_ss_1129
-  - SG_Singapore_vmess_1131
-  - CN_China_vmess_1132
   - US_United States_ss_1136
   - US_United States_trojan_1137
-  - CN_China_vmess_1138
-  - CN_China_ss_1139
-  - GB_United Kingdom_vmess_1140
-  - SG_Singapore_ss_1141
-  - CN_China_vmess_1142
-  - GB_United Kingdom_ss_1144
   - US_United States_ss_1145
-  - GB_United Kingdom_ss_1146
   - US_United States_ss_1148
   - US_United States_ss_1149
   - US_United States_ss_1150
   - US_United States_trojan_1159
-  - CN_China_vmess_1160
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2111,7 +1884,6 @@ proxy-groups:
   proxies:
   - US_United States_vmess_01
   - US_United States_vmess_02
-  - CA_Canada_vmess_03
   - US_United States_vmess_04
   - US_United States_vmess_05
   - US_United States_vmess_06
@@ -2197,7 +1969,6 @@ proxy-groups:
   - US_United States_vmess_090
   - US_United States_vmess_091
   - US_United States_vmess_092
-  - CA_Canada_vmess_093
   - US_United States_vmess_094
   - US_United States_vmess_095
   - US_United States_vmess_096
@@ -2211,11 +1982,7 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
-  - LT_Lithuania_ss_111
-  - LT_Lithuania_ss_113
-  - LT_Lithuania_ss_114
   - US_United States_ss_115
-  - KR_South Korea_ss_118
   - US_United States_ss_119
   - US_United States_ssr_1111
   - US_United States_vmess_1112
@@ -2224,31 +1991,16 @@ proxy-groups:
   - US_United States_vmess_1115
   - US_United States_vmess_1116
   - US_United States_vmess_1117
-  - NL_The Netherlands_vmess_1118
   - US_United States_vmess_1119
-  - SE_Sweden_vmess_1120
   - US_United States_vmess_1121
   - US_United States_trojan_1122
-  - CN_China_ss_1127
-  - CN_China_vmess_1128
-  - FR_France_ss_1129
-  - SG_Singapore_vmess_1131
-  - CN_China_vmess_1132
   - US_United States_ss_1136
   - US_United States_trojan_1137
-  - CN_China_vmess_1138
-  - CN_China_ss_1139
-  - GB_United Kingdom_vmess_1140
-  - SG_Singapore_ss_1141
-  - CN_China_vmess_1142
-  - GB_United Kingdom_ss_1144
   - US_United States_ss_1145
-  - GB_United Kingdom_ss_1146
   - US_United States_ss_1148
   - US_United States_ss_1149
   - US_United States_ss_1150
   - US_United States_trojan_1159
-  - CN_China_vmess_1160
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
