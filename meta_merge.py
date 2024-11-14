@@ -40,7 +40,7 @@ def process_clash(data, index):
             continue
 
         location = get_physical_location(server)
-        if re.search('RU', location):
+        if not re.search('US', location):
             continue
 
         proxy["name"] = f"{location}_{proxy['type']}_{index}{i + 1}"
