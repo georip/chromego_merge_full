@@ -40,6 +40,9 @@ def process_clash(data, index):
             continue
 
         location = get_physical_location(server)
+        if re.search('RU', location):
+            continue
+
         proxy["name"] = f"{location}_{proxy['type']}_{index}{i + 1}"
         unique_servers[server] = True
         unique_proxies.append(proxy)
@@ -58,6 +61,7 @@ def get_physical_location(address):
         # 这里的路径需要指向你自己的数据库文件
         response = geo_reader.country(ip_address)
         iso_code = response.registered_country.iso_code
+
         country = response.registered_country.name
         return f"{iso_code}_{country}"
     except geoip2.errors.AddressNotFoundError as e:
