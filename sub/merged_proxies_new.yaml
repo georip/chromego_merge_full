@@ -1537,6 +1537,79 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
+- cipher: aes-256-cfb
+  name: US_United States_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 13.212.78.66
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1128
+  password: amazonskr05
+  port: 443
+  server: 52.77.236.51
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1129
+  password: amazonskr05
+  port: 443
+  server: 43.203.218.87
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1130
+  network: ws
+  port: '2086'
+  server: cdn3.bpcdn.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fbe5943b-58ad-4862-8af3-30e8b4f10dd0
+  ws-opts:
+    headers:
+      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
+    path: /
+- name: US_United States_trojan_1141
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: ip.164746.xyz
+  skip-cert-verify: false
+  sni: bpb.macser.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bpb.macser.us.kg
+    path: /tr?ed=2560
+- name: US_United States_trojan_1142
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.64.150.145
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
+- name: US_United States_trojan_1143
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.37.111
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1643,6 +1716,13 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
+  - US_United States_vmess_1130
+  - US_United States_trojan_1141
+  - US_United States_trojan_1142
+  - US_United States_trojan_1143
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1749,6 +1829,13 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
+  - US_United States_vmess_1130
+  - US_United States_trojan_1141
+  - US_United States_trojan_1142
+  - US_United States_trojan_1143
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
