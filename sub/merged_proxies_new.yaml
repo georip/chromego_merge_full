@@ -1537,27 +1537,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
-- cipher: aes-256-gcm
-  name: US_United States_ss_113
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.86.135.141
-  type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_118
+  name: US_United States_ss_111
   password: amazonskr05
   port: 443
   server: 13.229.182.85
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ssr_1119
+  name: US_United States_ssr_118
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- name: US_United States_trojan_1121
+- name: US_United States_trojan_1110
   network: tcp
   password: 8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3
   port: 443
@@ -1567,7 +1561,7 @@ proxies:
   type: trojan
 - alterId: 64
   cipher: auto
-  name: US_United States_vmess_1136
+  name: US_United States_vmess_1125
   network: ws
   port: '38007'
   server: 142.4.108.140
@@ -1582,21 +1576,21 @@ proxies:
       Host: ''
     path: /path/081412110418
 - cipher: aes-256-cfb
-  name: US_United States_ss_1137
+  name: US_United States_ss_1126
   password: amazonskr05
   port: 443
   server: 13.212.229.251
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1138
+  name: US_United States_ss_1127
   password: amazonskr05
   port: 443
   server: 13.214.193.121
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1139
+  name: US_United States_ss_1128
   password: amazonskr05
   port: 443
   server: 54.254.186.175
@@ -1708,14 +1702,13 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
-  - US_United States_ss_113
-  - US_United States_ss_118
-  - US_United States_ssr_1119
-  - US_United States_trojan_1121
-  - US_United States_vmess_1136
-  - US_United States_ss_1137
-  - US_United States_ss_1138
-  - US_United States_ss_1139
+  - US_United States_ss_111
+  - US_United States_ssr_118
+  - US_United States_trojan_1110
+  - US_United States_vmess_1125
+  - US_United States_ss_1126
+  - US_United States_ss_1127
+  - US_United States_ss_1128
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1822,14 +1815,13 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
-  - US_United States_ss_113
-  - US_United States_ss_118
-  - US_United States_ssr_1119
-  - US_United States_trojan_1121
-  - US_United States_vmess_1136
-  - US_United States_ss_1137
-  - US_United States_ss_1138
-  - US_United States_ss_1139
+  - US_United States_ss_111
+  - US_United States_ssr_118
+  - US_United States_trojan_1110
+  - US_United States_vmess_1125
+  - US_United States_ss_1126
+  - US_United States_ss_1127
+  - US_United States_ss_1128
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
