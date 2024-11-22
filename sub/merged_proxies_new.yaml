@@ -1537,6 +1537,49 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
+- cipher: aes-256-cfb
+  name: US_United States_ssr_113
+  obfs: tls1.2_ticket_auth
+  password: fou8MBGij
+  port: 8081
+  protocol: origin
+  server: us-am3.eqnode.net
+  type: ssr
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_116
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/102206282005
+- cipher: aes-256-cfb
+  name: US_United States_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 3.39.240.246
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1128
+  password: amazonskr05
+  port: 443
+  server: 3.35.167.90
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1129
+  password: amazonskr05
+  port: 443
+  server: 43.202.57.197
+  tfo: false
+  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1643,6 +1686,11 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
+  - US_United States_ssr_113
+  - US_United States_vmess_116
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1749,6 +1797,11 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
+  - US_United States_ssr_113
+  - US_United States_vmess_116
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
