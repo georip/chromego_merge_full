@@ -1538,7 +1538,7 @@ proxies:
     headers:
       Host: ip30.6929198.xyz
 - cipher: aes-256-cfb
-  name: US_United States_ssr_114
+  name: US_United States_ssr_112
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -1549,7 +1549,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: US_United States_vmess_115
+  name: US_United States_vmess_113
   network: ws
   port: 443
   server: 188.114.96.3
@@ -1563,7 +1563,58 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1126
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_114
+  network: ws
+  port: 443
+  server: 172.67.175.56
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_115
+  network: ws
+  port: 443
+  server: 172.67.71.160
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_117
+  network: ws
+  port: 443
+  server: 188.114.97.2
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1129
   port: 38692
   server: 38.147.165.185
   skip-cert-verify: false
@@ -1572,43 +1623,27 @@ proxies:
   type: vmess
   uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
 - cipher: aes-256-cfb
-  name: US_United States_ss_1127
+  name: US_United States_ss_1130
   password: amazonskr05
   port: 443
   server: 54.199.66.30
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1128
+  name: US_United States_ss_1131
   password: amazonskr05
   port: 443
   server: 3.112.124.200
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1129
+  name: US_United States_ss_1132
   password: amazonskr05
   port: 443
   server: 35.89.254.222
   tfo: false
   type: ss
-- name: US_United States_trojan_1137
-  password: b21dc611-652c-3081-bd10-b239f2ae25e4
-  port: 443
-  server: 18.179.44.127
-  skip-cert-verify: true
-  sni: steampipe-kr.akamaized.net
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1138
-  password: b21dc611-652c-3081-bd10-b239f2ae25e4
-  port: 443
-  server: 35.75.8.137
-  skip-cert-verify: true
-  sni: steampipe-partner.akamaized.net
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1139
+- name: US_United States_trojan_1140
   network: ws
   password: dns68
   port: 443
@@ -1726,15 +1761,16 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
-  - US_United States_ssr_114
+  - US_United States_ssr_112
+  - US_United States_vmess_113
+  - US_United States_vmess_114
   - US_United States_vmess_115
-  - US_United States_vmess_1126
-  - US_United States_ss_1127
-  - US_United States_ss_1128
-  - US_United States_ss_1129
-  - US_United States_trojan_1137
-  - US_United States_trojan_1138
-  - US_United States_trojan_1139
+  - US_United States_vmess_117
+  - US_United States_vmess_1129
+  - US_United States_ss_1130
+  - US_United States_ss_1131
+  - US_United States_ss_1132
+  - US_United States_trojan_1140
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1841,15 +1877,16 @@ proxy-groups:
   - US_United States_vmess_13
   - US_United States_vmess_14
   - US_United States_vmess_21
-  - US_United States_ssr_114
+  - US_United States_ssr_112
+  - US_United States_vmess_113
+  - US_United States_vmess_114
   - US_United States_vmess_115
-  - US_United States_vmess_1126
-  - US_United States_ss_1127
-  - US_United States_ss_1128
-  - US_United States_ss_1129
-  - US_United States_trojan_1137
-  - US_United States_trojan_1138
-  - US_United States_trojan_1139
+  - US_United States_vmess_117
+  - US_United States_vmess_1129
+  - US_United States_ss_1130
+  - US_United States_ss_1131
+  - US_United States_ss_1132
+  - US_United States_trojan_1140
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
