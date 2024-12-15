@@ -15005,40 +15005,35 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: m32.155857.xyz
+  servername: m45.155857.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: m32.155857.xyz
+      Host: m45.155857.xyz
+- cipher: aes-256-cfb
+  name: US_United States_ss_111
+  password: amazonskr05
+  port: 443
+  server: 35.91.173.159
+  type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_113
   password: amazonskr05
   port: 443
-  server: 18.237.72.225
+  server: 54.202.63.77
   type: ss
-- cipher: rc4-md5
-  name: US_United States_ss_114
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1116
+- name: US_United States_trojan_119
   network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
-  servername: ''
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b2295415-b953-4959-8be0-88b358111e95
+  sni: tr.koiok.us.kg
+  type: trojan
   ws-opts:
     headers:
-      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
-    path: /
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: US_United States_vmess_1118
@@ -15055,7 +15050,7 @@ proxies:
     headers:
       Host: down.dingtalk.com
     path: /bby
-- name: US_United States_trojan_1122
+- name: US_United States_trojan_1123
   network: ws
   password: ouo
   port: 14491
@@ -15068,26 +15063,34 @@ proxies:
       Host: tr.koiok.us.kg
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: US_United States_ss_1124
-  password: amazonskr05
-  port: 443
-  server: 18.143.139.72
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1125
-  password: amazonskr05
-  port: 443
-  server: 54.178.84.59
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_1126
   password: amazonskr05
   port: 443
-  server: 54.151.196.32
+  server: 18.141.187.153
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 54.248.142.136
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1128
+  password: amazonskr05
+  port: 443
+  server: 43.207.81.209
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1129
+  network: tcp
+  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  port: 443
+  server: vn.mjt000.com
+  skip-cert-verify: false
+  sni: vn.mjt000.com
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -16093,14 +16096,15 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_vmess_32
+  - US_United States_ss_111
   - US_United States_ss_113
-  - US_United States_ss_114
-  - US_United States_vmess_1116
+  - US_United States_trojan_119
   - US_United States_vmess_1118
-  - US_United States_trojan_1122
-  - US_United States_ss_1124
-  - US_United States_ss_1125
+  - US_United States_trojan_1123
   - US_United States_ss_1126
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_trojan_1129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -17106,14 +17110,15 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_vmess_32
+  - US_United States_ss_111
   - US_United States_ss_113
-  - US_United States_ss_114
-  - US_United States_vmess_1116
+  - US_United States_trojan_119
   - US_United States_vmess_1118
-  - US_United States_trojan_1122
-  - US_United States_ss_1124
-  - US_United States_ss_1125
+  - US_United States_trojan_1123
   - US_United States_ss_1126
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_trojan_1129
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
