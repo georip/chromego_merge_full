@@ -15007,6 +15007,169 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: rc4-md5
+  name: US_United States_ss_111
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_112
+  password: amazonskr05
+  port: 443
+  server: 3.34.255.220
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 34.222.132.123
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_115
+  password: amazonskr05
+  port: 443
+  server: 3.35.206.24
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_116
+  password: amazonskr05
+  port: 443
+  server: 18.179.197.216
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_117
+  password: amazonskr05
+  port: 443
+  server: 54.201.174.149
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_119
+  password: amazonskr05
+  port: 443
+  server: 52.32.68.164
+  type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_1110
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.110.1.46
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: amazonskr05
+  port: 443
+  server: 54.218.229.170
+  type: ss
+- cipher: rc4-md5
+  name: US_United States_ss_1114
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1118
+  password: amazonskr05
+  port: 443
+  server: 52.68.44.53
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1121
+  password: amazonskr05
+  port: 443
+  server: 52.79.248.193
+  type: ss
+- cipher: aes-128-gcm
+  name: US_United States_ss_1122
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1124
+  password: amazonskr05
+  port: 443
+  server: 18.181.152.92
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1125
+  password: amazonskr05
+  port: 443
+  server: 13.114.67.166
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1128
+  password: amazonskr05
+  port: 443
+  server: 34.222.136.128
+  type: ss
+- cipher: rc4-md5
+  name: US_United States_ss_1130
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 23.251.121.242
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1133
+  password: amazonskr05
+  port: 443
+  server: 43.203.141.93
+  type: ss
+- cipher: aes-128-gcm
+  name: US_United States_ss_1145
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: US_United States_vmess_1148
+  network: grpc
+  port: '443'
+  server: America.com
+  servername: us.anycast.us.kg
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+- cipher: aes-256-cfb
+  name: US_United States_ss_1149
+  password: amazonskr05
+  port: 443
+  server: 18.181.162.137
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1150
+  password: amazonskr05
+  port: 443
+  server: 54.238.219.226
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1151
+  network: tcp
+  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  port: 443
+  server: vn.mjt000.com
+  skip-cert-verify: false
+  sni: vn.mjt000.com
+  type: trojan
+- name: US_United States_trojan_1152
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.176.29.99
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -16012,6 +16175,30 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_115
+  - US_United States_ss_116
+  - US_United States_ss_117
+  - US_United States_ss_119
+  - US_United States_ss_1110
+  - US_United States_ss_1112
+  - US_United States_ss_1114
+  - US_United States_ss_1118
+  - US_United States_ss_1121
+  - US_United States_ss_1122
+  - US_United States_ss_1124
+  - US_United States_ss_1125
+  - US_United States_ss_1128
+  - US_United States_ss_1130
+  - US_United States_ss_1133
+  - US_United States_ss_1145
+  - US_United States_vmess_1148
+  - US_United States_ss_1149
+  - US_United States_ss_1150
+  - US_United States_trojan_1151
+  - US_United States_trojan_1152
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -17017,6 +17204,30 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_115
+  - US_United States_ss_116
+  - US_United States_ss_117
+  - US_United States_ss_119
+  - US_United States_ss_1110
+  - US_United States_ss_1112
+  - US_United States_ss_1114
+  - US_United States_ss_1118
+  - US_United States_ss_1121
+  - US_United States_ss_1122
+  - US_United States_ss_1124
+  - US_United States_ss_1125
+  - US_United States_ss_1128
+  - US_United States_ss_1130
+  - US_United States_ss_1133
+  - US_United States_ss_1145
+  - US_United States_vmess_1148
+  - US_United States_ss_1149
+  - US_United States_ss_1150
+  - US_United States_trojan_1151
+  - US_United States_trojan_1152
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
