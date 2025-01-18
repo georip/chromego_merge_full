@@ -15007,6 +15007,103 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_114
+  password: amazonskr05
+  port: 443
+  server: 54.218.237.217
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: US_United States_ss_115
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.253
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_119
+  password: amazonskr05
+  port: 443
+  server: 13.125.6.123
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ssr_1113
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 52.38.9.34
+  type: ssr
+- name: US_United States_trojan_1115
+  password: m3fdSqqtcr
+  port: 443
+  server: sg.235261.xyz
+  skip-cert-verify: false
+  sni: sg.235261.xyz
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1116
+  password: jehOWFQKcP
+  port: 443
+  server: 3-112-210-66.nip.io
+  skip-cert-verify: false
+  sni: 3-112-210-66.nip.io
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1117
+  password: vZl3dFcxdE
+  port: 443
+  server: 18-189-26-136.nip.io
+  skip-cert-verify: false
+  sni: 18-189-26-136.nip.io
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1133
+  password: amazonskr05
+  port: 443
+  server: 3.34.189.113
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1134
+  password: amazonskr05
+  port: 443
+  server: 54.199.222.156
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1135
+  password: amazonskr05
+  port: 443
+  server: 13.212.31.129
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1143
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw02.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: tw02.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1144
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: tw01.trojanyyds.xyz
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1145
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: us01.trojanyyds.xyz
+  type: trojan
+  udp: true
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16068,6 +16165,19 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_114
+  - US_United States_ss_115
+  - US_United States_ss_119
+  - US_United States_ssr_1113
+  - US_United States_trojan_1115
+  - US_United States_trojan_1116
+  - US_United States_trojan_1117
+  - US_United States_ss_1133
+  - US_United States_ss_1134
+  - US_United States_ss_1135
+  - US_United States_trojan_1143
+  - US_United States_trojan_1144
+  - US_United States_trojan_1145
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17077,6 +17187,19 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_114
+  - US_United States_ss_115
+  - US_United States_ss_119
+  - US_United States_ssr_1113
+  - US_United States_trojan_1115
+  - US_United States_trojan_1116
+  - US_United States_trojan_1117
+  - US_United States_ss_1133
+  - US_United States_ss_1134
+  - US_United States_ss_1135
+  - US_United States_trojan_1143
+  - US_United States_trojan_1144
+  - US_United States_trojan_1145
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
