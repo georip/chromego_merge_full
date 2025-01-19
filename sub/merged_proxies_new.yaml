@@ -15007,60 +15007,37 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-gcm
-  name: US_United States_ss_111
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.114.114.69
-  type: ss
-- cipher: rc4-md5
-  name: US_United States_ss_117
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.45
-  type: ss
-- cipher: rc4-md5
-  name: US_United States_ss_1120
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.253
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1121
+  name: US_United States_ss_111
   password: amazonskr05
   port: 443
-  server: 54.179.76.173
+  server: 54.95.11.184
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1126
+  name: US_United States_ss_112
   password: amazonskr05
   port: 443
   server: 13.125.6.123
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: US_United States_vmess_1134
-  network: ws
+- cipher: aes-256-cfb
+  name: US_United States_ss_114
+  password: amazonskr05
   port: 443
-  server: 00.likelike.us.kg
-  servername: 00.likelike.us.kg
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 680e91d7-01ff-4082-b71a-472d5236adee
-  ws-opts:
-    headers:
-      Host: 00.likelike.us.kg
-    path: /serv00?ed=2048
+  server: 34.222.155.226
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1110
+  password: amazonskr05
+  port: 443
+  server: 54.199.222.156
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: US_United States_vmess_1136
+  name: US_United States_vmess_1127
   port: 54735
   server: 38.147.160.151
   type: vmess
@@ -15070,7 +15047,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: US_United States_vmess_1137
+  name: US_United States_vmess_1130
   network: ws
   port: 38007
   server: 142.4.108.141
@@ -15083,60 +15060,20 @@ proxies:
     headers:
       Host: www.66827194.xyz
     path: /path/1723457615032
-- name: US_United States_trojan_1138
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 258
-  server: t38.emoyes.top
-  skip-cert-verify: true
-  sni: www.python.org
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1140
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 657
-  server: t37.emoyes.top
-  skip-cert-verify: true
-  sni: www.python.org
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1142
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 257
-  server: t36.emoyes.top
-  skip-cert-verify: true
-  sni: www.python.org
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1158
-  password: amazonskr05
+- name: US_United States_trojan_1132
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
-  server: 3.34.189.113
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1159
-  password: amazonskr05
-  port: 443
-  server: 54.199.222.156
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1160
-  password: amazonskr05
-  port: 443
-  server: 13.212.31.129
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1167
-  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
-  port: 661
-  server: t34.emoyes.top
-  skip-cert-verify: true
-  sni: www.python.org
+  server: tw02.trojanyyds.xyz
+  sni: tw02.trojanyyds.xyz
   type: trojan
   udp: true
-- name: US_United States_trojan_1173
+- name: US_United States_trojan_1133
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw01.trojanyyds.xyz
+  sni: tw01.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1134
   password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
   port: 657
   server: t39.emoyes.top
@@ -15144,7 +15081,78 @@ proxies:
   sni: www.python.org
   type: trojan
   udp: true
-- name: US_United States_trojan_1175
+- name: US_United States_trojan_1135
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 657
+  server: t37.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1136
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 257
+  server: t36.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1137
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: us01.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1138
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg02.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1139
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1140
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 258
+  server: t38.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1141
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: in01.trojanyyds.xyz
+  sni: in01.trojanyyds.xyz
+  type: trojan
+- cipher: aes-256-cfb
+  name: US_United States_ss_1156
+  password: amazonskr05
+  port: 443
+  server: 3.34.189.113
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1157
+  password: amazonskr05
+  port: 443
+  server: 13.212.31.129
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1164
+  password: c9d1e9e4-2812-4a50-a113-a6c914e9c832
+  port: 661
+  server: t34.emoyes.top
+  skip-cert-verify: true
+  sni: www.python.org
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1170
   password: '3723507166611775488'
   port: 443
   server: organic-hare.boa152.lol
@@ -15152,7 +15160,7 @@ proxies:
   sni: organic-hare.boa152.lol
   type: trojan
   udp: true
-- name: US_United States_trojan_1176
+- name: US_United States_trojan_1172
   password: '3723507166611775488'
   port: 443
   server: 166.1.227.184
@@ -15160,7 +15168,7 @@ proxies:
   sni: organic-hare.boa152.lol
   type: trojan
   udp: true
-- name: US_United States_trojan_1177
+- name: US_United States_trojan_1174
   network: ws
   password: Aimer
   port: 2083
@@ -16235,24 +16243,27 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_ss_117
-  - US_United States_ss_1120
-  - US_United States_ss_1121
-  - US_United States_ss_1126
-  - US_United States_vmess_1134
-  - US_United States_vmess_1136
-  - US_United States_vmess_1137
+  - US_United States_ss_112
+  - US_United States_ss_114
+  - US_United States_ss_1110
+  - US_United States_vmess_1127
+  - US_United States_vmess_1130
+  - US_United States_trojan_1132
+  - US_United States_trojan_1133
+  - US_United States_trojan_1134
+  - US_United States_trojan_1135
+  - US_United States_trojan_1136
+  - US_United States_trojan_1137
   - US_United States_trojan_1138
+  - US_United States_trojan_1139
   - US_United States_trojan_1140
-  - US_United States_trojan_1142
-  - US_United States_ss_1158
-  - US_United States_ss_1159
-  - US_United States_ss_1160
-  - US_United States_trojan_1167
-  - US_United States_trojan_1173
-  - US_United States_trojan_1175
-  - US_United States_trojan_1176
-  - US_United States_trojan_1177
+  - US_United States_trojan_1141
+  - US_United States_ss_1156
+  - US_United States_ss_1157
+  - US_United States_trojan_1164
+  - US_United States_trojan_1170
+  - US_United States_trojan_1172
+  - US_United States_trojan_1174
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17263,24 +17274,27 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_ss_117
-  - US_United States_ss_1120
-  - US_United States_ss_1121
-  - US_United States_ss_1126
-  - US_United States_vmess_1134
-  - US_United States_vmess_1136
-  - US_United States_vmess_1137
+  - US_United States_ss_112
+  - US_United States_ss_114
+  - US_United States_ss_1110
+  - US_United States_vmess_1127
+  - US_United States_vmess_1130
+  - US_United States_trojan_1132
+  - US_United States_trojan_1133
+  - US_United States_trojan_1134
+  - US_United States_trojan_1135
+  - US_United States_trojan_1136
+  - US_United States_trojan_1137
   - US_United States_trojan_1138
+  - US_United States_trojan_1139
   - US_United States_trojan_1140
-  - US_United States_trojan_1142
-  - US_United States_ss_1158
-  - US_United States_ss_1159
-  - US_United States_ss_1160
-  - US_United States_trojan_1167
-  - US_United States_trojan_1173
-  - US_United States_trojan_1175
-  - US_United States_trojan_1176
-  - US_United States_trojan_1177
+  - US_United States_trojan_1141
+  - US_United States_ss_1156
+  - US_United States_ss_1157
+  - US_United States_trojan_1164
+  - US_United States_trojan_1170
+  - US_United States_trojan_1172
+  - US_United States_trojan_1174
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
