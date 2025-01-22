@@ -15007,6 +15007,98 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_111
+  password: amazonskr05
+  port: 443
+  server: 3.34.189.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_112
+  password: amazonskr05
+  port: 443
+  server: 54.190.19.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 54.187.174.202
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_114
+  password: amazonskr05
+  port: 443
+  server: 13.230.174.203
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_116
+  password: amazonskr05
+  port: 443
+  server: 54.202.49.210
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_117
+  password: amazonskr05
+  port: 443
+  server: 34.210.56.216
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_118
+  password: amazonskr05
+  port: 443
+  server: 18.182.13.204
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: amazonskr05
+  port: 443
+  server: 3.36.116.141
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: US_United States_vmess_1120
+  network: http
+  port: 2082
+  server: 64.225.109.206
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- cipher: aes-256-cfb
+  name: US_United States_ss_1140
+  password: amazonskr05
+  port: 443
+  server: 47.128.244.15
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1141
+  password: amazonskr05
+  port: 443
+  server: 54.255.240.168
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1142
+  password: amazonskr05
+  port: 443
+  server: 18.142.225.149
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16068,6 +16160,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_114
+  - US_United States_ss_116
+  - US_United States_ss_117
+  - US_United States_ss_118
+  - US_United States_ss_1112
+  - US_United States_vmess_1120
+  - US_United States_ss_1140
+  - US_United States_ss_1141
+  - US_United States_ss_1142
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17077,6 +17181,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_114
+  - US_United States_ss_116
+  - US_United States_ss_117
+  - US_United States_ss_118
+  - US_United States_ss_1112
+  - US_United States_vmess_1120
+  - US_United States_ss_1140
+  - US_United States_ss_1141
+  - US_United States_ss_1142
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
