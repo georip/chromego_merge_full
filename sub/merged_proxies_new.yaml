@@ -15014,57 +15014,73 @@ proxies:
   server: 54.179.54.70
   type: ss
   udp: true
-- name: US_United States_trojan_119
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+- cipher: aes-256-cfb
+  name: US_United States_ss_112
+  password: amazonskr05
   port: 443
-  server: us01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
+  server: 18.142.225.149
+  type: ss
   udp: true
-- name: US_United States_trojan_1110
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 13.231.234.231
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: US_United States_vmess_119
+  network: http
+  port: 2082
+  server: 64.225.109.206
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- name: US_United States_trojan_1111
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: tw01.trojanyyds.xyz
   sni: tw01.trojanyyds.xyz
   type: trojan
-- name: US_United States_trojan_1111
+- name: US_United States_trojan_1112
+  password: '3760559353321758720'
+  port: 443
+  server: dear-sunbeam.treefrog761.one
+  skip-cert-verify: true
+  sni: dear-sunbeam.treefrog761.one
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1113
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: sg02.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1114
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: in01.trojanyyds.xyz
+  sni: in01.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1115
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: tw02.trojanyyds.xyz
   sni: tw02.trojanyyds.xyz
   type: trojan
   udp: true
-- name: US_United States_trojan_1112
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: true
-  sni: us01.trojanyyds.xyz
-  type: trojan
-- name: US_United States_trojan_1113
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: in01.trojanyyds.xyz
-  sni: in01.trojanyyds.xyz
-  type: trojan
-- name: US_United States_trojan_1114
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: sg02.trojanyyds.xyz
-  type: trojan
-- name: US_United States_trojan_1123
+- name: US_United States_trojan_1124
   password: '3760559353321758720'
   port: 443
   server: crisp-collie.treefrog761.one
   skip-cert-verify: true
   sni: crisp-collie.treefrog761.one
-  type: trojan
-- name: US_United States_trojan_1126
-  password: '3760559353321758720'
-  port: 443
-  server: dear-sunbeam.treefrog761.one
-  skip-cert-verify: true
-  sni: dear-sunbeam.treefrog761.one
   type: trojan
 - cipher: aes-256-cfb
   name: US_United States_ss_1131
@@ -15087,16 +15103,6 @@ proxies:
   server: 52.78.205.26
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1134
-  port: 2082
-  server: 64.225.109.206
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
 - name: US_United States_trojan_1140
   network: tcp
   password: 61834c10-4218-4918-b836-9b852b7add70
@@ -15104,20 +15110,12 @@ proxies:
   server: sg.mjt000.com
   sni: sg.mjt000.com
   type: trojan
-- name: US_United States_trojan_1142
-  password: c443be95-725d-4da3-a60f-d35af5bfbff8
-  port: 17728
-  server: in.pptv-tv.store
-  skip-cert-verify: false
-  sni: data.52daishu.life
-  type: trojan
-  udp: true
 - name: US_United States_trojan_1143
-  password: c443be95-725d-4da3-a60f-d35af5bfbff8
-  port: 17728
-  server: 150.230.139.203
+  password: bc5cf4d1-2efb-49f5-98c3-c350f08c1f51
+  port: 443
+  server: us3.p9999.space
   skip-cert-verify: true
-  sni: data.52daishu.life
+  sni: bilibili.com
   type: trojan
   udp: true
 - name: TW_Taiwan_reality_0
@@ -16182,20 +16180,19 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_trojan_119
-  - US_United States_trojan_1110
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_vmess_119
   - US_United States_trojan_1111
   - US_United States_trojan_1112
   - US_United States_trojan_1113
   - US_United States_trojan_1114
-  - US_United States_trojan_1123
-  - US_United States_trojan_1126
+  - US_United States_trojan_1115
+  - US_United States_trojan_1124
   - US_United States_ss_1131
   - US_United States_ss_1132
   - US_United States_ss_1133
-  - US_United States_vmess_1134
   - US_United States_trojan_1140
-  - US_United States_trojan_1142
   - US_United States_trojan_1143
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
@@ -17207,20 +17204,19 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_trojan_119
-  - US_United States_trojan_1110
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_vmess_119
   - US_United States_trojan_1111
   - US_United States_trojan_1112
   - US_United States_trojan_1113
   - US_United States_trojan_1114
-  - US_United States_trojan_1123
-  - US_United States_trojan_1126
+  - US_United States_trojan_1115
+  - US_United States_trojan_1124
   - US_United States_ss_1131
   - US_United States_ss_1132
   - US_United States_ss_1133
-  - US_United States_vmess_1134
   - US_United States_trojan_1140
-  - US_United States_trojan_1142
   - US_United States_trojan_1143
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
