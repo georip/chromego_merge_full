@@ -15008,40 +15008,24 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_111
+  name: US_United States_ssr_112
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 47.129.156.1
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_112
-  password: amazonskr05
-  port: 443
-  server: 3.36.115.19
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_114
-  password: amazonskr05
-  port: 443
-  server: 18.181.167.251
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_119
-  password: amazonskr05
-  port: 443
-  server: 52.195.218.219
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1110
-  password: amazonskr05
-  port: 443
-  server: 3.112.149.177
-  type: ss
+  protocol: origin
+  server: 52.37.136.134
+  type: ssr
+- name: US_United States_trojan_116
+  password: f6f037b8-d6f5-4892-9bb5-0f915cac5b3b
+  port: 158
+  server: 107.149.254.26
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-256-cfb
   name: US_United States_ss_1111
   password: amazonskr05
   port: 443
-  server: 54.250.238.74
+  server: 13.229.90.203
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_1123
@@ -16125,11 +16109,8 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_112
-  - US_United States_ss_114
-  - US_United States_ss_119
-  - US_United States_ss_1110
+  - US_United States_ssr_112
+  - US_United States_trojan_116
   - US_United States_ss_1111
   - US_United States_ss_1123
   - US_United States_ss_1124
@@ -17143,11 +17124,8 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_112
-  - US_United States_ss_114
-  - US_United States_ss_119
-  - US_United States_ss_1110
+  - US_United States_ssr_112
+  - US_United States_trojan_116
   - US_United States_ss_1111
   - US_United States_ss_1123
   - US_United States_ss_1124
