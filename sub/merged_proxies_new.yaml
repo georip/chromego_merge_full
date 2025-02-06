@@ -15011,80 +15011,152 @@ proxies:
   name: US_United States_ss_111
   password: amazonskr05
   port: 443
-  server: 54.249.170.37
+  server: 18.141.24.255
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_116
+  name: US_United States_ss_114
   password: amazonskr05
   port: 443
-  server: 52.195.218.219
+  server: 52.78.178.243
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1118
-  port: 57658
-  server: 38.147.188.17
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: US_United States_vmess_115
+  network: http
+  port: 8881
+  server: 66.42.86.202
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: aes-256-cfb
+  name: US_United States_ssr_116
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 18.236.161.128
+  type: ssr
+- cipher: aes-256-cfb
+  name: US_United States_ss_117
+  password: amazonskr05
+  port: 443
+  server: 54.190.43.178
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 52.79.249.199
+  type: ss
+- name: US_United States_trojan_1113
+  password: '65086520307764900'
+  port: 443
+  server: engaged-cattle.shiner427.skin
+  skip-cert-verify: false
+  sni: engaged-cattle.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1119
+  port: 49838
+  server: 38.147.189.115
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7f004471-a725-4efb-9a19-6bf17a61cf46
+  uuid: e413fd92-afde-423a-8ba2-b337bf5d7ca2
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1121
+  port: 40755
+  server: 38.147.189.158
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 837d93be-fe14-4a50-bd11-ead5c00585d3
 - name: US_United States_trojan_1128
   password: '65086520307764900'
   port: 443
-  server: useful-jennet.shiner427.skin
+  server: dynamic-shrew.shiner427.skin
   skip-cert-verify: false
-  sni: useful-jennet.shiner427.skin
+  sni: dynamic-shrew.shiner427.skin
   type: trojan
 - name: US_United States_trojan_1129
   password: '65086520307764900'
   port: 443
-  server: hopeful-seagull.shiner427.skin
+  server: summary-sawfish.shiner427.skin
   skip-cert-verify: false
-  sni: hopeful-seagull.shiner427.skin
+  sni: summary-sawfish.shiner427.skin
   type: trojan
 - name: US_United States_trojan_1130
-  password: '65086520307764900'
-  port: 443
-  server: relieved-raccoon.shiner427.skin
-  skip-cert-verify: false
-  sni: relieved-raccoon.shiner427.skin
+  network: tcp
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  skip-cert-verify: true
   type: trojan
 - name: US_United States_trojan_1131
   password: '65086520307764900'
   port: 443
-  server: robust-redfish.shiner427.skin
+  server: arriving-longhorn.shiner427.skin
   skip-cert-verify: false
-  sni: robust-redfish.shiner427.skin
+  sni: arriving-longhorn.shiner427.skin
   type: trojan
 - name: US_United States_trojan_1132
   password: '65086520307764900'
   port: 443
-  server: moral-rat.shiner427.skin
+  server: grateful-lark.shiner427.skin
   skip-cert-verify: false
-  sni: moral-rat.shiner427.skin
+  sni: grateful-lark.shiner427.skin
   type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1133
-  password: amazonskr05
-  port: 443
-  server: 18.143.78.171
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1133
+  port: 44447
+  server: 38.147.161.47
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
 - cipher: aes-256-cfb
   name: US_United States_ss_1134
   password: amazonskr05
   port: 443
-  server: 52.78.197.177
+  server: 3.35.138.163
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_1135
   password: amazonskr05
   port: 443
-  server: 52.192.75.193
+  server: 47.129.38.168
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1136
+  password: amazonskr05
+  port: 443
+  server: 18.141.25.54
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1151
+  password: '65086520307764900'
+  port: 443
+  server: relieved-raccoon.shiner427.skin
+  skip-cert-verify: false
+  sni: relieved-raccoon.shiner427.skin
+  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16147,16 +16219,24 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_ss_116
-  - US_United States_vmess_1118
+  - US_United States_ss_114
+  - US_United States_vmess_115
+  - US_United States_ssr_116
+  - US_United States_ss_117
+  - US_United States_ss_1111
+  - US_United States_trojan_1113
+  - US_United States_vmess_1119
+  - US_United States_vmess_1121
   - US_United States_trojan_1128
   - US_United States_trojan_1129
   - US_United States_trojan_1130
   - US_United States_trojan_1131
   - US_United States_trojan_1132
-  - US_United States_ss_1133
+  - US_United States_vmess_1133
   - US_United States_ss_1134
   - US_United States_ss_1135
+  - US_United States_ss_1136
+  - US_United States_trojan_1151
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17167,16 +17247,24 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_ss_116
-  - US_United States_vmess_1118
+  - US_United States_ss_114
+  - US_United States_vmess_115
+  - US_United States_ssr_116
+  - US_United States_ss_117
+  - US_United States_ss_1111
+  - US_United States_trojan_1113
+  - US_United States_vmess_1119
+  - US_United States_vmess_1121
   - US_United States_trojan_1128
   - US_United States_trojan_1129
   - US_United States_trojan_1130
   - US_United States_trojan_1131
   - US_United States_trojan_1132
-  - US_United States_ss_1133
+  - US_United States_vmess_1133
   - US_United States_ss_1134
   - US_United States_ss_1135
+  - US_United States_ss_1136
+  - US_United States_trojan_1151
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
