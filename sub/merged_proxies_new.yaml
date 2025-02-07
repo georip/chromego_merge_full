@@ -15007,6 +15007,50 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 18.236.161.128
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1112
+  port: 12926
+  server: 38.147.189.163
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea
+- cipher: aes-256-cfb
+  name: US_United States_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 54.180.248.97
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1128
+  password: amazonskr05
+  port: 443
+  server: 52.195.0.55
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1129
+  password: amazonskr05
+  port: 443
+  server: 13.125.94.61
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1133
+  password: '65086520307764900'
+  port: 443
+  server: relieved-raccoon.shiner427.skin
+  skip-cert-verify: false
+  sni: relieved-raccoon.shiner427.skin
+  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16068,6 +16112,12 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_113
+  - US_United States_vmess_1112
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
+  - US_United States_trojan_1133
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17077,6 +17127,12 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_113
+  - US_United States_vmess_1112
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
+  - US_United States_trojan_1133
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
