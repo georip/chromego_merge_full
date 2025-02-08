@@ -14998,8 +14998,7 @@ proxies:
 - name: US_United States_hysteria_61
   type: hysteria
   server: 208.87.243.151
-  port: 38670
-  ports: 10000-20000
+  port: 17549
   auth_str: dongtaiwang.com
   alpn:
   - h3
@@ -15008,97 +15007,53 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_111
+  name: US_United States_ss_114
   password: amazonskr05
   port: 443
-  server: 54.168.25.210
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_113
-  password: amazonskr05
-  port: 443
-  server: 54.248.22.251
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_118
-  password: amazonskr05
-  port: 443
-  server: 54.190.43.178
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 43.203.206.63
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1112
-  password: amazonskr05
-  port: 443
-  server: 18.236.161.128
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1113
-  password: amazonskr05
-  port: 443
-  server: 52.74.90.75
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1114
-  password: amazonskr05
-  port: 443
-  server: 3.113.0.222
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1115
-  password: amazonskr05
-  port: 443
-  server: 13.229.128.74
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1116
-  password: amazonskr05
-  port: 443
-  server: 18.183.142.200
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1117
-  password: amazonskr05
-  port: 443
-  server: 54.178.45.63
+  server: 52.79.249.199
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1122
-  port: 12926
-  server: 38.147.189.163
+  name: US_United States_vmess_115
+  port: 18423
+  server: 38.147.188.94
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea
+  uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_116
+  port: 32450
+  server: 38.147.188.160
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1fa824bb-a682-4827-821f-9adc444a2a0f
 - cipher: aes-256-cfb
-  name: US_United States_ss_1137
+  name: US_United States_ss_1122
   password: amazonskr05
   port: 443
-  server: 54.180.248.97
+  server: 13.230.208.187
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1138
+  name: US_United States_ss_1123
   password: amazonskr05
   port: 443
-  server: 52.195.0.55
+  server: 13.113.168.96
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1139
+  name: US_United States_ss_1124
   password: amazonskr05
   port: 443
-  server: 13.125.94.61
+  server: 54.178.45.63
   tfo: false
   type: ss
-- name: US_United States_trojan_1143
+- name: US_United States_trojan_1129
   password: '65086520307764900'
   port: 443
   server: relieved-raccoon.shiner427.skin
@@ -16166,21 +16121,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_113
-  - US_United States_ss_118
-  - US_United States_ss_1111
-  - US_United States_ss_1112
-  - US_United States_ss_1113
-  - US_United States_ss_1114
-  - US_United States_ss_1115
-  - US_United States_ss_1116
-  - US_United States_ss_1117
-  - US_United States_vmess_1122
-  - US_United States_ss_1137
-  - US_United States_ss_1138
-  - US_United States_ss_1139
-  - US_United States_trojan_1143
+  - US_United States_ss_114
+  - US_United States_vmess_115
+  - US_United States_vmess_116
+  - US_United States_ss_1122
+  - US_United States_ss_1123
+  - US_United States_ss_1124
+  - US_United States_trojan_1129
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17190,21 +17137,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_113
-  - US_United States_ss_118
-  - US_United States_ss_1111
-  - US_United States_ss_1112
-  - US_United States_ss_1113
-  - US_United States_ss_1114
-  - US_United States_ss_1115
-  - US_United States_ss_1116
-  - US_United States_ss_1117
-  - US_United States_vmess_1122
-  - US_United States_ss_1137
-  - US_United States_ss_1138
-  - US_United States_ss_1139
-  - US_United States_trojan_1143
+  - US_United States_ss_114
+  - US_United States_vmess_115
+  - US_United States_vmess_116
+  - US_United States_ss_1122
+  - US_United States_ss_1123
+  - US_United States_ss_1124
+  - US_United States_trojan_1129
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
