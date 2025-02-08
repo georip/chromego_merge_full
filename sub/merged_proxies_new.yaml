@@ -15007,10 +15007,23 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_114
+  name: US_United States_ss_111
   password: amazonskr05
   port: 443
-  server: 52.79.249.199
+  server: 52.79.216.192
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_112
+  password: amazonskr05
+  port: 443
+  server: 18.141.25.54
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 52.77.240.71
   type: ss
 - alterId: 0
   cipher: auto
@@ -16121,7 +16134,9 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_114
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
   - US_United States_vmess_115
   - US_United States_vmess_116
   - US_United States_ss_1122
@@ -17137,7 +17152,9 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_114
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
   - US_United States_vmess_115
   - US_United States_vmess_116
   - US_United States_ss_1122
