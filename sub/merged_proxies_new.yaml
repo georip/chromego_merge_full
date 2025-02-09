@@ -15006,88 +15006,16 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
-  name: US_United States_ss_111
-  password: amazonskr05
-  port: 443
-  server: 13.125.126.52
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_114
-  password: amazonskr05
-  port: 443
-  server: 3.0.17.42
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_115
-  password: amazonskr05
-  port: 443
-  server: 13.229.181.179
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_119
-  password: amazonskr05
-  port: 443
-  server: 3.36.105.11
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1110
-  password: amazonskr05
-  port: 443
-  server: 13.250.12.185
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 3.36.57.236
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1112
-  password: amazonskr05
-  port: 443
-  server: 18.143.140.150
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1114
-  password: amazonskr05
-  port: 443
-  server: 35.95.26.187
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1117
-  password: amazonskr05
-  port: 443
-  server: 18.143.174.188
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1118
-  password: amazonskr05
-  port: 443
-  server: 3.0.147.242
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1136
-  password: amazonskr05
-  port: 443
-  server: 13.212.92.41
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1137
-  password: amazonskr05
-  port: 443
-  server: 54.180.143.115
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1142
-  password: '65086520307764900'
-  port: 443
-  server: relieved-raccoon.shiner427.skin
-  skip-cert-verify: false
-  sni: relieved-raccoon.shiner427.skin
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_111
+  network: tcp
+  port: '443'
+  server: web.51.la
+  servername: web.51.la
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16149,19 +16077,7 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_114
-  - US_United States_ss_115
-  - US_United States_ss_119
-  - US_United States_ss_1110
-  - US_United States_ss_1111
-  - US_United States_ss_1112
-  - US_United States_ss_1114
-  - US_United States_ss_1117
-  - US_United States_ss_1118
-  - US_United States_ss_1136
-  - US_United States_ss_1137
-  - US_United States_trojan_1142
+  - US_United States_vmess_111
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17171,19 +17087,7 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_114
-  - US_United States_ss_115
-  - US_United States_ss_119
-  - US_United States_ss_1110
-  - US_United States_ss_1111
-  - US_United States_ss_1112
-  - US_United States_ss_1114
-  - US_United States_ss_1117
-  - US_United States_ss_1118
-  - US_United States_ss_1136
-  - US_United States_ss_1137
-  - US_United States_trojan_1142
+  - US_United States_vmess_111
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
