@@ -15006,16 +15006,114 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_1162
+  password: amazonskr05
+  port: 443
+  server: 13.124.62.225
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1163
+  password: amazonskr05
+  port: 443
+  server: 35.86.249.1
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1164
+  password: amazonskr05
+  port: 443
+  server: 43.203.208.32
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1165
+  password: amazonskr05
+  port: 443
+  server: 3.112.216.127
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1166
+  password: amazonskr05
+  port: 443
+  server: 18.141.9.206
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1168
+  password: amazonskr05
+  port: 443
+  server: 52.41.168.231
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1170
+  password: amazonskr05
+  port: 443
+  server: 35.92.121.207
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1171
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: south-korea-2.keenvpn.me
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1172
+  password: amazonskr05
+  port: 443
+  server: 52.12.191.72
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1173
+  password: amazonskr05
+  port: 443
+  server: 3.39.248.156
+  type: ss
+- name: US_United States_trojan_1175
+  network: tcp
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: US_United States_ss_1192
+  password: LKG8G8VL60RSB59P
+  port: 17003
+  server: 23.185.248.13
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_111
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
+  name: US_United States_vmess_1193
+  port: 31909
+  server: 23.224.152.62
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: aes-256-cfb
+  name: US_United States_ss_1194
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.88
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1195
+  password: amazonskr05
+  port: 443
+  server: 13.124.66.120
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1196
+  password: amazonskr05
+  port: 443
+  server: 13.114.153.253
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16077,7 +16175,22 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_111
+  - US_United States_ss_1162
+  - US_United States_ss_1163
+  - US_United States_ss_1164
+  - US_United States_ss_1165
+  - US_United States_ss_1166
+  - US_United States_ss_1168
+  - US_United States_ss_1170
+  - US_United States_ss_1171
+  - US_United States_ss_1172
+  - US_United States_ss_1173
+  - US_United States_trojan_1175
+  - US_United States_ss_1192
+  - US_United States_vmess_1193
+  - US_United States_ss_1194
+  - US_United States_ss_1195
+  - US_United States_ss_1196
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17087,7 +17200,22 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_111
+  - US_United States_ss_1162
+  - US_United States_ss_1163
+  - US_United States_ss_1164
+  - US_United States_ss_1165
+  - US_United States_ss_1166
+  - US_United States_ss_1168
+  - US_United States_ss_1170
+  - US_United States_ss_1171
+  - US_United States_ss_1172
+  - US_United States_ss_1173
+  - US_United States_trojan_1175
+  - US_United States_ss_1192
+  - US_United States_vmess_1193
+  - US_United States_ss_1194
+  - US_United States_ss_1195
+  - US_United States_ss_1196
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
