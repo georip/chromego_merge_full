@@ -15007,79 +15007,19 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1131
-  password: amazonskr05
-  port: 443
-  server: 52.194.186.197
-  type: ss
-- cipher: aes-128-gcm
-  name: US_United States_ss_1133
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_1134
   password: amazonskr05
   port: 443
-  server: 52.195.215.236
+  server: 13.229.180.183
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ssr_1135
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 35.94.23.23
-  type: ssr
-- cipher: aes-256-cfb
-  name: US_United States_ss_1136
-  password: amazonskr05
-  port: 443
-  server: 54.245.222.80
-  type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_1137
   password: amazonskr05
   port: 443
-  server: 18.179.112.66
+  server: 18.236.132.239
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ssr_1140
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 52.12.191.72
-  type: ssr
-- cipher: aes-256-cfb
-  name: US_United States_ss_1141
-  password: amazonskr05
-  port: 443
-  server: 13.114.96.104
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1142
-  password: amazonskr05
-  port: 443
-  server: 43.203.212.161
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1143
-  password: amazonskr05
-  port: 443
-  server: 3.39.248.156
-  type: ss
-- name: US_United States_trojan_1145
-  password: '3782591447421952000'
-  port: 443
-  server: composed-mustang.treefrog761.one
-  skip-cert-verify: true
-  sni: composed-mustang.treefrog761.one
-  type: trojan
-- name: US_United States_trojan_1147
+- name: US_United States_trojan_1139
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -15087,7 +15027,7 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
-- name: US_United States_trojan_1162
+- name: US_United States_trojan_1155
   network: tcp
   password: '3747000103274291200'
   port: 443
@@ -15095,7 +15035,8 @@ proxies:
   skip-cert-verify: false
   sni: polished-ox.treefrog761.one
   type: trojan
-- name: US_United States_trojan_1163
+  udp: true
+- name: US_United States_trojan_1156
   network: tcp
   password: '3747000103274291200'
   port: 443
@@ -15103,27 +15044,151 @@ proxies:
   skip-cert-verify: false
   sni: fluent-bat.treefrog761.one
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1164
+  name: US_United States_ss_1157
   password: amazonskr05
   port: 443
   server: 18.143.149.127
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1165
+  name: US_United States_ss_1158
   password: amazonskr05
   port: 443
   server: 47.129.7.198
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1166
+  name: US_United States_ss_1159
   password: amazonskr05
   port: 443
   server: 54.169.104.136
   tfo: false
   type: ss
+- name: US_United States_trojan_1161
+  password: '3782591447421952000'
+  port: 443
+  server: composed-mustang.treefrog761.one
+  skip-cert-verify: true
+  sni: composed-mustang.treefrog761.one
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1162
+  password: '3747000103274291200'
+  port: 443
+  server: fond-moth.treefrog761.one
+  skip-cert-verify: false
+  sni: fond-moth.treefrog761.one
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1163
+  password: '3747000103274291200'
+  port: 443
+  server: cuddly-slug.treefrog761.one
+  skip-cert-verify: false
+  sni: cuddly-slug.treefrog761.one
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1164
+  password: '3747000103274291200'
+  port: 443
+  server: rich-sturgeon.treefrog761.one
+  skip-cert-verify: false
+  sni: rich-sturgeon.treefrog761.one
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1165
+  password: '3782591447421952000'
+  port: 443
+  server: equipped-mouse.treefrog761.one
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1167
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 206.238.237.81
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: US_United States_trojan_1168
+  password: '3747000103274291200'
+  port: 443
+  server: deciding-sunbeam.treefrog761.one
+  skip-cert-verify: false
+  sni: deciding-sunbeam.treefrog761.one
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1169
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: 137.184.120.86
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1170
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: us1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1171
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 108.165.152.59
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: US_United States_trojan_1172
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- name: US_United States_trojan_1173
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.36
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: US_United States_trojan_1174
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16185,23 +16250,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1131
-  - US_United States_ss_1133
   - US_United States_ss_1134
-  - US_United States_ssr_1135
-  - US_United States_ss_1136
   - US_United States_ss_1137
-  - US_United States_ssr_1140
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_ss_1143
-  - US_United States_trojan_1145
-  - US_United States_trojan_1147
+  - US_United States_trojan_1139
+  - US_United States_trojan_1155
+  - US_United States_trojan_1156
+  - US_United States_ss_1157
+  - US_United States_ss_1158
+  - US_United States_ss_1159
+  - US_United States_trojan_1161
   - US_United States_trojan_1162
   - US_United States_trojan_1163
-  - US_United States_ss_1164
-  - US_United States_ss_1165
-  - US_United States_ss_1166
+  - US_United States_trojan_1164
+  - US_United States_trojan_1165
+  - US_United States_trojan_1167
+  - US_United States_trojan_1168
+  - US_United States_trojan_1169
+  - US_United States_trojan_1170
+  - US_United States_trojan_1171
+  - US_United States_trojan_1172
+  - US_United States_trojan_1173
+  - US_United States_trojan_1174
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17211,23 +17280,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1131
-  - US_United States_ss_1133
   - US_United States_ss_1134
-  - US_United States_ssr_1135
-  - US_United States_ss_1136
   - US_United States_ss_1137
-  - US_United States_ssr_1140
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_ss_1143
-  - US_United States_trojan_1145
-  - US_United States_trojan_1147
+  - US_United States_trojan_1139
+  - US_United States_trojan_1155
+  - US_United States_trojan_1156
+  - US_United States_ss_1157
+  - US_United States_ss_1158
+  - US_United States_ss_1159
+  - US_United States_trojan_1161
   - US_United States_trojan_1162
   - US_United States_trojan_1163
-  - US_United States_ss_1164
-  - US_United States_ss_1165
-  - US_United States_ss_1166
+  - US_United States_trojan_1164
+  - US_United States_trojan_1165
+  - US_United States_trojan_1167
+  - US_United States_trojan_1168
+  - US_United States_trojan_1169
+  - US_United States_trojan_1170
+  - US_United States_trojan_1171
+  - US_United States_trojan_1172
+  - US_United States_trojan_1173
+  - US_United States_trojan_1174
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
