@@ -15006,42 +15006,31 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
-  name: US_United States_ss_1132
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2187
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1134
+  network: ws
   port: 443
-  server: 18.183.221.195
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1133
-  password: amazonskr05
-  port: 443
-  server: 13.230.110.170
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1134
-  password: amazonskr05
-  port: 443
-  server: 13.229.96.253
-  type: ss
+  server: eu9.998998.best
+  servername: server54-4.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      HOST: server54-4.998877.best
+    path: /jsedr6deersed6h?ed=2560
 - cipher: aes-256-cfb
   name: US_United States_ss_1136
   password: amazonskr05
   port: 443
   server: 54.179.221.27
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1137
-  password: amazonskr05
-  port: 443
-  server: 18.183.232.26
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1138
-  password: amazonskr05
-  port: 443
-  server: 18.181.198.147
   type: ss
 - name: US_United States_trojan_1169
   network: tcp
@@ -16147,12 +16136,8 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1132
-  - US_United States_ss_1133
-  - US_United States_ss_1134
+  - US_United States_vmess_1134
   - US_United States_ss_1136
-  - US_United States_ss_1137
-  - US_United States_ss_1138
   - US_United States_trojan_1169
   - US_United States_vmess_1177
   - US_United States_ss_1186
@@ -17167,12 +17152,8 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1132
-  - US_United States_ss_1133
-  - US_United States_ss_1134
+  - US_United States_vmess_1134
   - US_United States_ss_1136
-  - US_United States_ss_1137
-  - US_United States_ss_1138
   - US_United States_trojan_1169
   - US_United States_vmess_1177
   - US_United States_ss_1186
