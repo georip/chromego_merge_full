@@ -15006,45 +15006,83 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: US_United States_trojan_1131
-  password: DEzpFlNpZCTT7RyZzuAYSnDxA33SyClFpyY3RYaS3O2q8gEXA8lO90xDaAw2YjpBC7cx0
-  port: 18331
-  server: orlang.protocolbuffer.com
-  sni: orlang.protocolbuffer.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1133
-  password: amazonskr05
-  port: 443
-  server: 47.129.37.231
-  type: ss
-- name: US_United States_trojan_1135
-  password: Au8FD7eTewSu46Y3xa90ZB3YxeYg3COORSapYaRl4DEDIl3A9Z8yCDj8gnyACSxSKx3Z6
-  port: 28335
-  server: derrick.meijireform.com
-  sni: derrick.meijireform.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1136
-  password: amazonskr05
-  port: 443
-  server: 13.230.142.42
-  type: ss
-- name: US_United States_trojan_1137
-  password: YZCCXpEN94la0wz4a6jFuO5pS0uCZ3BR9yX3cOcR3IDRDy2glqDexSNF683FE3DYlKnay
-  port: 28332
-  server: peruby.protocolbuffer.com
-  sni: peruby.protocolbuffer.com
-  type: trojan
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  delay: 1360
+  name: US_United States_vmess_1132
+  network: ws
+  port: 443
+  server: la02.818185.XyZ
+  servername: la02.818185.XyZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la02.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1134
+  network: ws
+  port: 443
+  server: lA01.818185.xyZ
+  servername: lA01.818185.xyZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la01.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1135
+  network: ws
+  port: 443
+  server: LA03.818185.Xyz
+  servername: LA03.818185.Xyz
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la03.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1136
+  network: ws
+  port: 443
+  server: la02.852224.GGfF.NET
+  servername: la02.852224.GGfF.NET
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la02.852224.ggff.net
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1137
+  network: ws
+  port: 443
+  server: la04.818185.XyZ
+  servername: la04.818185.XyZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la04.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
   name: US_United States_vmess_1138
   network: ws
   port: 443
-  server: 172.67.169.40
+  server: 104.21.95.16
   servername: hms03.dongfeng.cfd
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
@@ -15052,103 +15090,165 @@ proxies:
     headers:
       Host: hms03.dongfeng.cfd
     path: /linkws
-- cipher: aes-128-cfb
-  name: US_United States_ssr_1139
-  obfs: plain
-  password: shadowsocks
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1140
+  network: ws
   port: 443
-  protocol: origin
-  server: 184.170.241.194
-  type: ssr
-- name: US_United States_trojan_1140
-  password: FeCOjFDq3aXx8BD39R2O4zxSxNDY3R4zl3x6K2SZaZY3ElTRaO5EeR08yNnSI0Zew9lyC
+  server: la01.890604.FILEgEAR-sG.me
+  servername: la01.890604.FILEgEAR-sG.me
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la01.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1141
+  network: ws
   port: 443
-  server: mailbox.meijireform.com
-  sni: mailbox.meijireform.com
-  type: trojan
-- name: US_United States_trojan_1141
-  password: SECCzF5l3xeFN6z76DyuKZ83wTS4gBClpOARp83glBnqXjaI78nZp2eReSXxCY9SlDDFa
-  port: 443
-  server: spirit.koreanbbq.link
-  sni: spirit.koreanbbq.link
-  type: trojan
+  server: La04.818185.xYZ
+  servername: La04.818185.xYZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la04.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
 - name: US_United States_trojan_1142
-  password: Aa3xCDR7DZa4YxNSKxCye3OR8xCzepYlY47COSwaFplTYjRDDl6nDAE9AZS0wZF2cRy5X
-  port: 18331
-  server: compost.meijireform.com
-  sni: compost.meijireform.com
+  password: 7AZzxwaCl5caZaBnASIYOCS28eEF036BelDXED6ZKK3u3COXSe3SSqYZ5C43DOqySTRuR
+  port: 28333
+  server: grater.homeofbrave.net
+  sni: grater.homeofbrave.net
   type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1143
-  password: amazonskr05
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1143
+  network: ws
   port: 443
-  server: 54.238.186.53
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1145
-  password: YCz0uZ484pjDCFyKqRZ3823SqxDXEBSwNnNYlay3yeuDaA0aISDR533eFglaaOTO3lF8A
-  port: 443
-  server: garland.taiwanesefood.link
-  sni: garland.taiwanesefood.link
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1146
-  password: amazonskr05
-  port: 443
-  server: 54.199.239.230
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1147
-  password: amazonskr05
-  port: 443
-  server: 18.142.182.250
-  type: ss
-- name: US_United States_trojan_1148
-  password: 9wSlq29Ta3DD633lCcXzFe3qAa3AyC8eO7T7RaFayZRYF3z43ExZuYaEjS0XppgAOg4BC
-  port: 28334
-  server: boohoo.meijireform.com
-  sni: boohoo.meijireform.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1149
-  password: amazonskr05
-  port: 443
-  server: 13.230.168.61
-  type: ss
-- name: US_United States_trojan_1150
+  server: lA04.818185.Xyz
+  servername: lA04.818185.Xyz
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la04.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- name: US_United States_trojan_1144
   password: p0axgx3pXT6yjp4SwSRaaYeCDxCFOFaAlRYDNaRjF8OycXn3ZE3ABaYgnDIx3Eeq9C0ce
   port: 443
   server: huzzah.meijireform.com
   sni: huzzah.meijireform.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1151
+  name: US_United States_ss_1145
   password: amazonskr05
   port: 443
-  server: 54.95.26.81
+  server: 13.230.142.42
   type: ss
-- name: US_United States_trojan_1152
-  password: Y8aYpzDTE9XBO3Kyca0nZAe3cpFD7eDRqaZxuASIweD5Dyq2Yxxz4SlZ3OpN8jR4OR0ay
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1146
+  network: ws
   port: 443
-  server: mineral.protocolbuffer.com
-  sni: mineral.protocolbuffer.com
+  server: LA02.818185.xYz
+  servername: LA02.818185.xYz
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la02.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1147
+  network: ws
+  port: 443
+  server: LA04.890603.XYz
+  servername: LA04.890603.XYz
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la04.890603.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1148
+  network: ws
+  port: 443
+  server: La02.890604.filEGEAr-sG.me
+  servername: La02.890604.filEGEAr-sG.me
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la02.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1149
+  network: ws
+  port: 443
+  server: La01.818185.XYZ
+  servername: La01.818185.XYZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la01.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- name: US_United States_trojan_1150
+  password: 9wSlq29Ta3DD633lCcXzFe3qAa3AyC8eO7T7RaFayZRYF3z43ExZuYaEjS0XppgAOg4BC
+  port: 28334
+  server: boohoo.meijireform.com
+  sni: boohoo.meijireform.com
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1153
+  network: ws
+  port: 443
+  server: lA03.818185.XYZ
+  servername: lA03.818185.XYZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la03.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
 - cipher: aes-256-cfb
-  name: US_United States_ss_1153
+  name: US_United States_ss_1154
   password: amazonskr05
   port: 443
   server: 47.128.154.164
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1171
+  name: US_United States_ss_1172
+  password: amazonskr05
+  port: 443
+  server: 54.238.186.53
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1173
   password: amazonskr05
   port: 443
   server: 18.136.193.92
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1172
+  name: US_United States_ss_1174
   password: amazonskr05
   port: 443
   server: 3.0.54.96
@@ -15156,7 +15256,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1178
+  name: US_United States_vmess_1180
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -16225,29 +16325,29 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1131
-  - US_United States_ss_1133
-  - US_United States_trojan_1135
-  - US_United States_ss_1136
-  - US_United States_trojan_1137
+  - US_United States_vmess_1132
+  - US_United States_vmess_1134
+  - US_United States_vmess_1135
+  - US_United States_vmess_1136
+  - US_United States_vmess_1137
   - US_United States_vmess_1138
-  - US_United States_ssr_1139
-  - US_United States_trojan_1140
-  - US_United States_trojan_1141
+  - US_United States_vmess_1140
+  - US_United States_vmess_1141
   - US_United States_trojan_1142
-  - US_United States_ss_1143
-  - US_United States_trojan_1145
-  - US_United States_ss_1146
-  - US_United States_ss_1147
-  - US_United States_trojan_1148
-  - US_United States_ss_1149
+  - US_United States_vmess_1143
+  - US_United States_trojan_1144
+  - US_United States_ss_1145
+  - US_United States_vmess_1146
+  - US_United States_vmess_1147
+  - US_United States_vmess_1148
+  - US_United States_vmess_1149
   - US_United States_trojan_1150
-  - US_United States_ss_1151
-  - US_United States_trojan_1152
-  - US_United States_ss_1153
-  - US_United States_ss_1171
+  - US_United States_vmess_1153
+  - US_United States_ss_1154
   - US_United States_ss_1172
-  - US_United States_vmess_1178
+  - US_United States_ss_1173
+  - US_United States_ss_1174
+  - US_United States_vmess_1180
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17257,29 +17357,29 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1131
-  - US_United States_ss_1133
-  - US_United States_trojan_1135
-  - US_United States_ss_1136
-  - US_United States_trojan_1137
+  - US_United States_vmess_1132
+  - US_United States_vmess_1134
+  - US_United States_vmess_1135
+  - US_United States_vmess_1136
+  - US_United States_vmess_1137
   - US_United States_vmess_1138
-  - US_United States_ssr_1139
-  - US_United States_trojan_1140
-  - US_United States_trojan_1141
+  - US_United States_vmess_1140
+  - US_United States_vmess_1141
   - US_United States_trojan_1142
-  - US_United States_ss_1143
-  - US_United States_trojan_1145
-  - US_United States_ss_1146
-  - US_United States_ss_1147
-  - US_United States_trojan_1148
-  - US_United States_ss_1149
+  - US_United States_vmess_1143
+  - US_United States_trojan_1144
+  - US_United States_ss_1145
+  - US_United States_vmess_1146
+  - US_United States_vmess_1147
+  - US_United States_vmess_1148
+  - US_United States_vmess_1149
   - US_United States_trojan_1150
-  - US_United States_ss_1151
-  - US_United States_trojan_1152
-  - US_United States_ss_1153
-  - US_United States_ss_1171
+  - US_United States_vmess_1153
+  - US_United States_ss_1154
   - US_United States_ss_1172
-  - US_United States_vmess_1178
+  - US_United States_ss_1173
+  - US_United States_ss_1174
+  - US_United States_vmess_1180
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
