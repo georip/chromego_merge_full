@@ -15006,109 +15006,76 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_111
-  network: ws
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  name: US_United States_trojan_111
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   port: 443
-  server: 188.114.97.3
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
+  server: 192.3.130.103
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
 - cipher: aes-256-cfb
-  name: US_United States_ss_112
+  name: US_United States_ssr_116
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 54.202.63.169
-  type: ss
+  protocol: origin
+  server: 54.184.74.88
+  type: ssr
 - cipher: aes-256-cfb
-  name: US_United States_ss_113
+  delay: 2426
+  name: US_United States_ssr_117
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 34.221.169.63
+  protocol: origin
+  server: 35.86.111.233
+  type: ssr
+- cipher: aes-256-cfb
+  delay: 1072
+  name: US_United States_ss_118
+  password: amazonskr05
+  port: 443
+  server: 52.78.98.141
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_115
+  country: 🇯🇵JP
+  delay: 633
+  name: US_United States_ss_119
+  password: amazonskr05
+  port: 443
+  server: 13.114.55.245
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1110
+  password: amazonskr05
+  port: 443
+  server: 34.210.253.95
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  delay: 318
+  name: US_United States_ss_1113
+  password: amazonskr05
+  port: 443
+  server: 18.181.194.77
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1114
   password: amazonskr05
   port: 443
   server: 47.129.39.129
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_116
-  password: amazonskr05
-  port: 443
-  server: 3.34.253.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_117
-  network: ws
-  port: 443
-  server: 188.114.97.210
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 1253
-  name: US_United States_ss_118
-  password: d4213735ae33596a
-  port: 29003
-  server: 163.171.142.57
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_119
-  password: amazonskr05
-  port: 443
-  server: 3.36.51.187
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1110
-  network: ws
-  port: 443
-  server: 188.114.97.79
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- name: US_United States_trojan_1111
-  password: qZx3OYCOgCROCn9Bx8w0auce6DlI8OIT8aaa3y9qFZzyDYXCl8ZAySF34BCASegFE5SDn
-  port: 443
-  server: teapat.taiwanesefood.link
-  sni: teapat.taiwanesefood.link
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1113
+  name: US_United States_ss_1116
   password: amazonskr05
   port: 443
   server: 13.215.250.172
   tfo: false
   type: ss
-- name: US_United States_trojan_1129
+- name: US_United States_trojan_1131
   network: tcp
   password: 3gSFTSaSFB29S37DD3D6ne6q93nOCZz4FxYYpRacjp0ITRyRSc24AZypZCll88DXuaCDl
   port: 28332
@@ -15116,7 +15083,7 @@ proxies:
   skip-cert-verify: false
   sni: morlin.protocolbuffer.com
   type: trojan
-- name: US_United States_trojan_1130
+- name: US_United States_trojan_1132
   network: tcp
   password: N5T0K3aYpYFSO4O3gnD73OcFwp6BCqCyCa3jlIxDXyZRDE282ljCASADaTN4CzZZYllFI
   port: 18333
@@ -15124,7 +15091,7 @@ proxies:
   skip-cert-verify: false
   sni: pricing.protocolbuffer.com
   type: trojan
-- name: US_United States_trojan_1133
+- name: US_United States_trojan_1135
   network: tcp
   password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
   port: 443
@@ -15133,21 +15100,21 @@ proxies:
   sni: bedsheet.homeofbrave.net
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1134
+  name: US_United States_ss_1136
   password: amazonskr05
   port: 443
   server: 13.229.233.60
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1135
+  name: US_United States_ss_1137
   password: amazonskr05
   port: 443
   server: 18.141.138.125
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1136
+  name: US_United States_ss_1138
   password: amazonskr05
   port: 443
   server: 54.151.230.240
@@ -15155,7 +15122,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1144
+  name: US_United States_vmess_1146
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -16224,24 +16191,22 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_111
-  - US_United States_ss_112
-  - US_United States_ss_113
-  - US_United States_ss_115
-  - US_United States_ss_116
-  - US_United States_vmess_117
+  - US_United States_trojan_111
+  - US_United States_ssr_116
+  - US_United States_ssr_117
   - US_United States_ss_118
   - US_United States_ss_119
-  - US_United States_vmess_1110
-  - US_United States_trojan_1111
+  - US_United States_ss_1110
   - US_United States_ss_1113
-  - US_United States_trojan_1129
-  - US_United States_trojan_1130
-  - US_United States_trojan_1133
-  - US_United States_ss_1134
-  - US_United States_ss_1135
+  - US_United States_ss_1114
+  - US_United States_ss_1116
+  - US_United States_trojan_1131
+  - US_United States_trojan_1132
+  - US_United States_trojan_1135
   - US_United States_ss_1136
-  - US_United States_vmess_1144
+  - US_United States_ss_1137
+  - US_United States_ss_1138
+  - US_United States_vmess_1146
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17251,24 +17216,22 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_111
-  - US_United States_ss_112
-  - US_United States_ss_113
-  - US_United States_ss_115
-  - US_United States_ss_116
-  - US_United States_vmess_117
+  - US_United States_trojan_111
+  - US_United States_ssr_116
+  - US_United States_ssr_117
   - US_United States_ss_118
   - US_United States_ss_119
-  - US_United States_vmess_1110
-  - US_United States_trojan_1111
+  - US_United States_ss_1110
   - US_United States_ss_1113
-  - US_United States_trojan_1129
-  - US_United States_trojan_1130
-  - US_United States_trojan_1133
-  - US_United States_ss_1134
-  - US_United States_ss_1135
+  - US_United States_ss_1114
+  - US_United States_ss_1116
+  - US_United States_trojan_1131
+  - US_United States_trojan_1132
+  - US_United States_trojan_1135
   - US_United States_ss_1136
-  - US_United States_vmess_1144
+  - US_United States_ss_1137
+  - US_United States_ss_1138
+  - US_United States_vmess_1146
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
