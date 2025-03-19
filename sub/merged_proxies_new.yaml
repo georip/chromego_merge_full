@@ -15006,30 +15006,14 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-128-cfb
-  name: US_United States_ss_1132
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: US_United States_ss_1134
-  password: amazonskr05
-  port: 443
-  server: 34.210.253.95
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1165
+  name: US_United States_ss_1164
   password: amazonskr05
   port: 443
   server: 13.229.209.178
   tfo: false
   type: ss
-- name: US_United States_trojan_1175
+- name: US_United States_trojan_1174
   network: tcp
   password: l3ESwpOSN3FYFAR93RYe6SAyxa0XSFC2zlSaqTClDZ4OAanXOxweCDZznRc28DyY3yTID
   port: 28334
@@ -15037,7 +15021,7 @@ proxies:
   skip-cert-verify: false
   sni: sakoku.meijireform.com
   type: trojan
-- name: US_United States_trojan_1176
+- name: US_United States_trojan_1175
   network: tcp
   password: B3Kyp23AXFw95RaAwzlXZDASNeNDZz9ROEEpxBFae2yAR4O6Sc0YqCluOY3CxTDp83KxD
   port: 28335
@@ -15045,14 +15029,14 @@ proxies:
   skip-cert-verify: false
   sni: national.meijireform.com
   type: trojan
-- name: US_United States_trojan_1178
+- name: US_United States_trojan_1177
   password: TOZA9E6pyq4z3pFYeIeOC3ApaSDjR2wFueaO8uNDx0czDF3YCSwa3xjZ3qZAyB4YCKCZS
   port: 443
   server: swiftly.meijireform.com
   skip-cert-verify: false
   sni: swiftly.meijireform.com
   type: trojan
-- name: US_United States_trojan_1180
+- name: US_United States_trojan_1179
   network: tcp
   password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
   port: 443
@@ -15061,10 +15045,17 @@ proxies:
   sni: mention.protocolbuffer.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1181
+  name: US_United States_ss_1180
   password: amazonskr05
   port: 443
   server: 13.229.233.60
+  tfo: false
+  type: ss
+- cipher: aes-128-cfb
+  name: US_United States_ss_1185
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
   tfo: false
   type: ss
 - name: US_United States_trojan_1187
@@ -16167,14 +16158,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1132
-  - US_United States_ss_1134
-  - US_United States_ss_1165
+  - US_United States_ss_1164
+  - US_United States_trojan_1174
   - US_United States_trojan_1175
-  - US_United States_trojan_1176
-  - US_United States_trojan_1178
-  - US_United States_trojan_1180
-  - US_United States_ss_1181
+  - US_United States_trojan_1177
+  - US_United States_trojan_1179
+  - US_United States_ss_1180
+  - US_United States_ss_1185
   - US_United States_trojan_1187
   - US_United States_ss_1189
   - US_United States_ss_1190
@@ -17189,14 +17179,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1132
-  - US_United States_ss_1134
-  - US_United States_ss_1165
+  - US_United States_ss_1164
+  - US_United States_trojan_1174
   - US_United States_trojan_1175
-  - US_United States_trojan_1176
-  - US_United States_trojan_1178
-  - US_United States_trojan_1180
-  - US_United States_ss_1181
+  - US_United States_trojan_1177
+  - US_United States_trojan_1179
+  - US_United States_ss_1180
+  - US_United States_ss_1185
   - US_United States_trojan_1187
   - US_United States_ss_1189
   - US_United States_ss_1190
