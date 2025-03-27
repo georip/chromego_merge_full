@@ -15007,58 +15007,78 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1134
+  name: US_United States_ss_1165
   password: amazonskr05
   port: 443
-  server: 47.129.38.96
+  server: 43.202.67.225
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1136
+  name: US_United States_ss_1166
   password: amazonskr05
   port: 443
-  server: 54.169.188.214
+  server: 43.201.54.89
   type: ss
+- allowInsecure: ''
+  name: US_United States_trojan_1167
+  network: ws
+  password: Aimer
+  port: 27149
+  server: 23.94.213.132
+  skip-cert-verify: false
+  sni: agepn.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepn.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: US_United States_ss_1140
-  password: amazonskr05
-  port: 443
-  server: 54.169.64.23
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1141
+  name: US_United States_ss_1168
   password: amazonskr05
   port: 443
   server: 13.125.231.170
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1142
+  name: US_United States_ss_1169
   password: amazonskr05
   port: 443
-  server: 13.229.73.58
+  server: 52.76.22.133
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1143
+  name: US_United States_ss_1170
+  password: amazonskr05
+  port: 443
+  server: 3.36.26.148
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1172
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1173
   password: amazonskr05
   port: 443
   server: 3.0.50.161
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1163
+  name: US_United States_ss_1193
   password: amazonskr05
   port: 443
   server: 18.140.70.168
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1164
+  name: US_United States_ss_1194
   password: amazonskr05
   port: 443
   server: 18.181.175.212
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1165
+  name: US_United States_ss_1195
   password: amazonskr05
   port: 443
   server: 57.180.35.64
@@ -15066,7 +15086,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1172
+  name: US_United States_vmess_11102
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -16135,16 +16155,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1134
-  - US_United States_ss_1136
-  - US_United States_ss_1140
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_ss_1143
-  - US_United States_ss_1163
-  - US_United States_ss_1164
   - US_United States_ss_1165
-  - US_United States_vmess_1172
+  - US_United States_ss_1166
+  - US_United States_trojan_1167
+  - US_United States_ss_1168
+  - US_United States_ss_1169
+  - US_United States_ss_1170
+  - US_United States_ss_1172
+  - US_United States_ss_1173
+  - US_United States_ss_1193
+  - US_United States_ss_1194
+  - US_United States_ss_1195
+  - US_United States_vmess_11102
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17154,16 +17176,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1134
-  - US_United States_ss_1136
-  - US_United States_ss_1140
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_ss_1143
-  - US_United States_ss_1163
-  - US_United States_ss_1164
   - US_United States_ss_1165
-  - US_United States_vmess_1172
+  - US_United States_ss_1166
+  - US_United States_trojan_1167
+  - US_United States_ss_1168
+  - US_United States_ss_1169
+  - US_United States_ss_1170
+  - US_United States_ss_1172
+  - US_United States_ss_1173
+  - US_United States_ss_1193
+  - US_United States_ss_1194
+  - US_United States_ss_1195
+  - US_United States_vmess_11102
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
