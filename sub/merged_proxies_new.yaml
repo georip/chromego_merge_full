@@ -15006,46 +15006,84 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1032
+  network: ws
+  port: '2053'
+  server: usa.visa.com
+  servername: hax.hy.cloudns.ch
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d79261b1-b706-49f6-b39d-af2a0b8ebac5
+  ws-opts:
+    headers:
+      Host: hax.hy.cloudns.ch
+    path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1036
+  network: ws
+  port: 80
+  raw:
+    add: 172.67.204.22
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: us7-08.890602.xyz
+    id: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+    net: ws
+    path: /bua2hMcbA8wMzbGFtV
+    port: '80'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 172.67.204.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
+  ws-opts:
+    headers:
+      Host: us7-08.890602.xyz
+    path: /bua2hMcbA8wMzbGFtV
 - cipher: aes-256-cfb
-  name: US_United States_ss_1067
+  name: US_United States_ss_1037
   password: amazonskr05
   port: 443
-  server: 43.207.150.238
+  server: 57.181.29.160
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1039
+  port: 22324
+  server: 186.190.215.193
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-cfb
+  name: US_United States_ss_1040
+  password: amazonskr05
+  port: 443
+  server: 34.216.142.212
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1044
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
   type: ss
 - allowInsecure: ''
-  name: US_United States_trojan_1069
+  name: US_United States_trojan_1045
   network: ws
-  password: SD85M89IdW67
-  port: 2083
-  server: 104.21.64.1
-  skip-cert-verify: false
-  sni: yjc.twn24.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yjc.twn24.ir
-    path: /🆔@M3HDIO1
-- allowInsecure: ''
-  name: US_United States_trojan_1070
-  network: ws
-  password: SD85M89IdW67
-  port: 2083
-  server: 104.21.16.1
-  skip-cert-verify: false
-  sni: yjc.twn24.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yjc.twn24.ir
-    path: /🆔@M3HDIO1
-- allowInsecure: ''
-  name: US_United States_trojan_1074
-  network: ws
-  password: qXI16FpsEL72
+  password: lEqAIVYEBWxz
   port: 2096
-  server: mojnews.itn24.ir
+  server: 172.67.141.68
   skip-cert-verify: false
   sni: mojnews.itn24.ir
   tls: true
@@ -15055,124 +15093,52 @@ proxies:
       Host: mojnews.itn24.ir
     path: /🆔@M3HDIO1
 - cipher: aes-256-cfb
-  name: US_United States_ss_1077
+  name: US_United States_ss_1078
   password: amazonskr05
   port: 443
-  server: 18.141.139.23
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1080
-  password: amazonskr05
-  port: 443
-  server: 18.140.70.168
-  type: ss
-- allowInsecure: ''
-  name: US_United States_trojan_1081
-  network: ws
-  password: KsMF5kLudbU3
-  port: 2087
-  server: 104.21.44.185
-  skip-cert-verify: false
-  sni: econews.onetwothree123.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: econews.onetwothree123.ir
-    path: /🆔@M3HDIO1
-- allowInsecure: ''
-  name: US_United States_trojan_1085
-  network: ws
-  password: BWAbQx16kl2z
-  port: 2087
-  server: 172.67.202.155
-  skip-cert-verify: false
-  sni: econews.onetwothree123.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: econews.onetwothree123.ir
-    path: /🆔@M3HDIO1
-- cipher: aes-256-cfb
-  name: US_United States_ss_1086
-  password: amazonskr05
-  port: 443
-  server: 13.213.69.248
+  server: 43.203.206.73
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1092
+  name: US_United States_vmess_1079
   network: ws
-  port: '8443'
-  server: hk.ggpdx.ggff.net
-  servername: hk.ggpdx.ggff.net
+  port: '8880'
+  server: 107.151.245.175
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 0c08b87c-67d7-401e-93dc-7bcda12e795b
+  uuid: cd92310f-afcf-4861-ac10-aaa20aa2e0dc
   ws-opts:
     headers:
-      Host: hk.ggpdx.ggff.net
-    path: 0c08b87c-67d7-401e-93dc-7bcda12e795b-vm
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1099
-  network: ws
-  port: '19608'
-  server: lc.loc.cc
-  servername: lc.loc.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 3a5ca001-9884-4d96-a002-2b04f306747e
-  ws-opts:
-    headers:
-      Host: lc.loc.cc
-    path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_10102
-  network: ws
-  port: '443'
-  server: kr.ttcc.tech
-  servername: kr.ttcc.tech
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 41cfbd9d-d2da-4300-a142-b49068f7ad3d
-  ws-opts:
-    headers:
-      Host: kr.ttcc.tech
-    path: /41cfbd9d-d2da-4300-a142-b49068f7ad3d
+      Host: www.bing.com
+    path: cd92310f-afcf-4861-ac10-aaa20aa2e0dc-vm
 - cipher: aes-256-cfb
-  name: US_United States_ss_10107
+  name: US_United States_ss_1096
   password: amazonskr05
   port: 443
-  server: 43.201.54.89
+  server: 3.34.253.95
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10108
+  name: US_United States_ss_1097
   password: amazonskr05
   port: 443
-  server: 44.247.247.209
+  server: 43.207.150.238
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10109
+  name: US_United States_ss_1098
   password: amazonskr05
   port: 443
-  server: 3.36.26.148
+  server: 43.207.203.164
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_10115
+  name: US_United States_vmess_10100
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -15180,83 +15146,53 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- cipher: aes-256-cfb
-  name: US_United States_ss_1132
-  password: amazonskr05
-  port: 443
-  server: 52.195.209.247
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1134
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1139
-  password: amazonskr05
-  port: 443
-  server: 54.199.64.156
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1141
-  password: amazonskr05
-  port: 443
-  server: 47.128.245.70
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1142
-  password: amazonskr05
-  port: 443
-  server: 54.202.0.97
-  type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1146
+  name: US_United States_vmess_112
   network: ws
-  port: 443
+  port: 2053
   raw:
-    add: 104.17.137.127
-    aid: 0
+    add: aryanews.onetwothree123.ir
+    aid: '0'
     alpn: ''
     fp: ''
-    host: hk.niskakowski.ggff.net
-    id: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+    host: aryanews.onetwothree123.ir
+    id: f5183399-93ae-4e31-8e7c-48affcfcaab1
     net: ws
-    path: /aa
-    port: 443
+    path: /🆔@M3HDIO1
+    port: 2053
     ps: CloudFlare
-    scy: auto
+    scy: ''
     sni: ''
     tls: tls
-    type: none
+    type: ''
     v: '2'
-  server: 104.17.137.127
+  server: aryanews.onetwothree123.ir
   servername: ''
   tls: true
   type: vmess
-  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+  uuid: f5183399-93ae-4e31-8e7c-48affcfcaab1
   ws-opts:
     headers:
-      Host: hk.niskakowski.ggff.net
-    path: /aa
+      Host: aryanews.onetwothree123.ir
+    path: /🆔@M3HDIO1
 - cipher: aes-256-cfb
-  name: US_United States_ss_1148
+  name: US_United States_ss_1118
   password: amazonskr05
   port: 443
-  server: 34.222.2.112
+  server: 3.38.92.181
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1153
+  name: US_United States_ss_1119
   password: amazonskr05
   port: 443
-  server: 47.129.38.96
+  server: 18.140.70.168
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1154
-  password: amazonskr05
-  port: 443
-  server: 34.208.203.47
+- cipher: chacha20-ietf
+  name: US_United States_ss_1123
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
   type: ss
 - name: TW_Taiwan_reality_0
   type: vless
@@ -16319,31 +16255,23 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1067
-  - US_United States_trojan_1069
-  - US_United States_trojan_1070
-  - US_United States_trojan_1074
-  - US_United States_ss_1077
-  - US_United States_ss_1080
-  - US_United States_trojan_1081
-  - US_United States_trojan_1085
-  - US_United States_ss_1086
-  - US_United States_vmess_1092
-  - US_United States_vmess_1099
-  - US_United States_vmess_10102
-  - US_United States_ss_10107
-  - US_United States_ss_10108
-  - US_United States_ss_10109
-  - US_United States_vmess_10115
-  - US_United States_ss_1132
-  - US_United States_ss_1134
-  - US_United States_ss_1139
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_vmess_1146
-  - US_United States_ss_1148
-  - US_United States_ss_1153
-  - US_United States_ss_1154
+  - US_United States_vmess_1032
+  - US_United States_vmess_1036
+  - US_United States_ss_1037
+  - US_United States_vmess_1039
+  - US_United States_ss_1040
+  - US_United States_ss_1044
+  - US_United States_trojan_1045
+  - US_United States_ss_1078
+  - US_United States_vmess_1079
+  - US_United States_ss_1096
+  - US_United States_ss_1097
+  - US_United States_ss_1098
+  - US_United States_vmess_10100
+  - US_United States_vmess_112
+  - US_United States_ss_1118
+  - US_United States_ss_1119
+  - US_United States_ss_1123
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17353,31 +17281,23 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1067
-  - US_United States_trojan_1069
-  - US_United States_trojan_1070
-  - US_United States_trojan_1074
-  - US_United States_ss_1077
-  - US_United States_ss_1080
-  - US_United States_trojan_1081
-  - US_United States_trojan_1085
-  - US_United States_ss_1086
-  - US_United States_vmess_1092
-  - US_United States_vmess_1099
-  - US_United States_vmess_10102
-  - US_United States_ss_10107
-  - US_United States_ss_10108
-  - US_United States_ss_10109
-  - US_United States_vmess_10115
-  - US_United States_ss_1132
-  - US_United States_ss_1134
-  - US_United States_ss_1139
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_vmess_1146
-  - US_United States_ss_1148
-  - US_United States_ss_1153
-  - US_United States_ss_1154
+  - US_United States_vmess_1032
+  - US_United States_vmess_1036
+  - US_United States_ss_1037
+  - US_United States_vmess_1039
+  - US_United States_ss_1040
+  - US_United States_ss_1044
+  - US_United States_trojan_1045
+  - US_United States_ss_1078
+  - US_United States_vmess_1079
+  - US_United States_ss_1096
+  - US_United States_ss_1097
+  - US_United States_ss_1098
+  - US_United States_vmess_10100
+  - US_United States_vmess_112
+  - US_United States_ss_1118
+  - US_United States_ss_1119
+  - US_United States_ss_1123
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
