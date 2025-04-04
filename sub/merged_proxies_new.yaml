@@ -15006,74 +15006,61 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
-  name: US_United States_ss_1035
-  password: amazonskr05
-  port: 443
-  server: 54.169.64.13
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1036
-  password: amazonskr05
-  port: 443
-  server: 52.197.57.24
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1034
+  network: tcp
+  port: 22324
+  raw:
+    add: 186.190.215.93
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 04621bae-ab36-11ec-b909-0242ac120002
+    net: tcp
+    path: /
+    port: 22324
+    ps: 🇵🇦 PA_182
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 186.190.215.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-cfb
   name: US_United States_ss_1037
   password: amazonskr05
   port: 443
-  server: 52.195.212.217
+  server: 43.207.203.164
   type: ss
-- allowInsecure: ''
-  name: US_United States_trojan_1038
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 172.67.200.238
-  skip-cert-verify: false
-  sni: 3s.890689.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3s.890689.xyz
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1039
-  network: ws
-  port: 80
-  server: 104.18.23.68
-  tls: false
-  type: vmess
-  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
-  ws-opts:
-    headers:
-      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
-    path: /s15.html?ed=2048
 - cipher: aes-256-cfb
-  name: US_United States_ss_1073
+  name: US_United States_ss_1070
   password: amazonskr05
   port: 443
   server: 43.206.220.47
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1087
+  name: US_United States_ss_1084
   password: amazonskr05
   port: 443
   server: 47.129.51.201
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1088
+  name: US_United States_ss_1085
   password: amazonskr05
   port: 443
   server: 13.229.210.217
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1089
+  name: US_United States_ss_1086
   password: amazonskr05
   port: 443
   server: 52.76.47.112
@@ -16140,15 +16127,12 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1035
-  - US_United States_ss_1036
+  - US_United States_vmess_1034
   - US_United States_ss_1037
-  - US_United States_trojan_1038
-  - US_United States_vmess_1039
-  - US_United States_ss_1073
-  - US_United States_ss_1087
-  - US_United States_ss_1088
-  - US_United States_ss_1089
+  - US_United States_ss_1070
+  - US_United States_ss_1084
+  - US_United States_ss_1085
+  - US_United States_ss_1086
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17158,15 +17142,12 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1035
-  - US_United States_ss_1036
+  - US_United States_vmess_1034
   - US_United States_ss_1037
-  - US_United States_trojan_1038
-  - US_United States_vmess_1039
-  - US_United States_ss_1073
-  - US_United States_ss_1087
-  - US_United States_ss_1088
-  - US_United States_ss_1089
+  - US_United States_ss_1070
+  - US_United States_ss_1084
+  - US_United States_ss_1085
+  - US_United States_ss_1086
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
