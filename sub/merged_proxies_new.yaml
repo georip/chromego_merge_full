@@ -15006,56 +15006,125 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- allowInsecure: ''
-  name: US_United States_trojan_1037
+- name: US_United States_trojan_1037
   network: ws
-  password: Aimer
+  password: 6040a753-e35b-4384-8713-96f3c639b621
   port: 443
-  server: 172.64.35.236
+  server: 104.21.21.226
+  skip-cert-verify: true
+  sni: uK803.890689.Xyz
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: uK803.890689.Xyz
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
+- alterId: 0
+  cipher: auto
+  delay: 2741
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1038
+  network: ws
+  port: 38003
+  server: 137.175.10.241
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 38.14.107.225
+    path: /path/181721272114
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2691
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1043
+  network: ws
+  port: 2096
+  server: 1743919941.tencentapp.cn
+  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      HOST: 1743919978.speed.adl.cccp.freefly.pp.ua
+    path: /
+- allowInsecure: ''
+  name: US_United States_trojan_1045
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 172.67.210.210
   skip-cert-verify: false
-  sni: epccw.ambercc.filegear-sg.me
+  sni: sanjose02.852224.ggff.net
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: epccw.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
 - cipher: aes-256-cfb
-  country: 🇰🇷KR
-  delay: 657
-  name: US_United States_ss_1038
-  password: amazonskr05
-  port: 443
-  server: 52.79.247.8
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1074
+  name: US_United States_ss_1079
   password: amazonskr05
   port: 443
   server: 18.181.170.89
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1093
+  name: US_United States_ss_1099
   password: amazonskr05
   port: 443
   server: 13.250.5.171
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1094
+  name: US_United States_ss_10100
   password: amazonskr05
   port: 443
   server: 54.254.9.107
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1095
+  name: US_United States_ss_10101
   password: amazonskr05
   port: 443
   server: 54.199.64.156
   tfo: false
   type: ss
+- name: US_United States_trojan_1137
+  network: ws
+  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+  port: 443
+  server: 172.67.135.23
+  sni: uS6-16.890601.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uS6-16.890601.xyz
+    path: /ILLcisbMYUd6MQzxVoMQ
+- allowInsecure: ''
+  name: US_United States_trojan_1140
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 104.21.23.115
+  skip-cert-verify: false
+  sni: sanjose02.852224.ggff.net
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16118,11 +16187,15 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_trojan_1037
-  - US_United States_ss_1038
-  - US_United States_ss_1074
-  - US_United States_ss_1093
-  - US_United States_ss_1094
-  - US_United States_ss_1095
+  - US_United States_vmess_1038
+  - US_United States_vmess_1043
+  - US_United States_trojan_1045
+  - US_United States_ss_1079
+  - US_United States_ss_1099
+  - US_United States_ss_10100
+  - US_United States_ss_10101
+  - US_United States_trojan_1137
+  - US_United States_trojan_1140
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17133,11 +17206,15 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_trojan_1037
-  - US_United States_ss_1038
-  - US_United States_ss_1074
-  - US_United States_ss_1093
-  - US_United States_ss_1094
-  - US_United States_ss_1095
+  - US_United States_vmess_1038
+  - US_United States_vmess_1043
+  - US_United States_trojan_1045
+  - US_United States_ss_1079
+  - US_United States_ss_1099
+  - US_United States_ss_10100
+  - US_United States_ss_10101
+  - US_United States_trojan_1137
+  - US_United States_trojan_1140
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
