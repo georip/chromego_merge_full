@@ -15006,33 +15006,77 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- allowInsecure: ''
+  name: US_United States_trojan_1074
+  network: tcp
+  password: 20bc0771-1fde-45ee-8052-3c26249c43dc
+  port: 52803
+  server: 250407.jichang.my
+  skip-cert-verify: false
+  sni: seoul3.678789.xyz
+  tls: true
+  type: trojan
+- allowInsecure: ''
+  name: US_United States_trojan_1093
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.64.1
+  skip-cert-verify: false
+  sni: 1g.890699.xyZ
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1g.890699.xyz
+    path: /lXENb74xF4ylXngZ
 - cipher: aes-256-cfb
-  name: US_United States_ss_1080
+  name: US_United States_ss_1094
   password: amazonskr05
   port: 443
   server: 43.207.233.28
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10102
+  name: US_United States_ss_10115
   password: amazonskr05
   port: 443
   server: 54.249.151.205
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10103
+  name: US_United States_ss_10116
   password: amazonskr05
   port: 443
   server: 57.180.253.62
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10104
+  name: US_United States_ss_10117
   password: amazonskr05
   port: 443
   server: 52.78.214.206
   tfo: false
+  type: ss
+- allowInsecure: ''
+  name: US_United States_trojan_1157
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.96.1
+  skip-cert-verify: false
+  sni: 1g.890699.xyZ
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1g.890699.xyz
+    path: /lXENb74xF4ylXngZ
+- cipher: chacha20-ietf
+  name: US_United States_ss_1161
+  password: asd123456
+  port: 8388
+  server: 137.175.113.193
   type: ss
 - name: TW_Taiwan_reality_0
   type: vless
@@ -16095,10 +16139,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1080
-  - US_United States_ss_10102
-  - US_United States_ss_10103
-  - US_United States_ss_10104
+  - US_United States_trojan_1074
+  - US_United States_trojan_1093
+  - US_United States_ss_1094
+  - US_United States_ss_10115
+  - US_United States_ss_10116
+  - US_United States_ss_10117
+  - US_United States_trojan_1157
+  - US_United States_ss_1161
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17108,10 +17156,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1080
-  - US_United States_ss_10102
-  - US_United States_ss_10103
-  - US_United States_ss_10104
+  - US_United States_trojan_1074
+  - US_United States_trojan_1093
+  - US_United States_ss_1094
+  - US_United States_ss_10115
+  - US_United States_ss_10116
+  - US_United States_ss_10117
+  - US_United States_trojan_1157
+  - US_United States_ss_1161
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
