@@ -15006,44 +15006,61 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- allowInsecure: ''
-  name: US_United States_trojan_1045
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.171.119.248
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1069
+  network: ws
+  port: 12083
+  server: e9adbfcf-sux8g0-sw51rj-hkb8.se.plebai.net
+  tls: false
+  type: vmess
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-256-cfb
-  name: US_United States_ss_1078
+  name: US_United States_ss_1095
   password: amazonskr05
   port: 443
   server: 18.246.215.6
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10100
+  name: US_United States_ss_10117
   password: amazonskr05
   port: 443
   server: 3.34.192.249
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10101
+  name: US_United States_ss_10118
   password: amazonskr05
   port: 443
   server: 3.36.96.166
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10102
+  name: US_United States_ss_10119
   password: amazonskr05
   port: 443
   server: 18.179.174.138
   tfo: false
   type: ss
+- name: US_United States_trojan_1180
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.16.1
+  skip-cert-verify: true
+  sni: 1g.890699.xyZ
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 1g.890699.xyZ
+    path: /lXENb74xF4ylXngZ
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16105,11 +16122,12 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1045
-  - US_United States_ss_1078
-  - US_United States_ss_10100
-  - US_United States_ss_10101
-  - US_United States_ss_10102
+  - US_United States_vmess_1069
+  - US_United States_ss_1095
+  - US_United States_ss_10117
+  - US_United States_ss_10118
+  - US_United States_ss_10119
+  - US_United States_trojan_1180
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17119,11 +17137,12 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1045
-  - US_United States_ss_1078
-  - US_United States_ss_10100
-  - US_United States_ss_10101
-  - US_United States_ss_10102
+  - US_United States_vmess_1069
+  - US_United States_ss_1095
+  - US_United States_ss_10117
+  - US_United States_ss_10118
+  - US_United States_ss_10119
+  - US_United States_trojan_1180
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
