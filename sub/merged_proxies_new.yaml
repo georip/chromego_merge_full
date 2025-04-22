@@ -15006,65 +15006,101 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_1072
-  network: ws
-  port: 23451
-  server: 129.146.249.217
-  type: vmess
-  uuid: a833f373-7c6a-495d-8791-22a342454c45
-  ws-opts:
-    path: /
+- cipher: aes-128-cfb
+  name: US_United States_ss_1036
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1073
+  name: US_United States_ss_1097
   password: amazonskr05
   port: 443
   server: 47.128.155.142
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1088
+  name: US_United States_ss_10112
   password: '1234'
   port: 1234
   server: 3.36.57.145
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1089
+  name: US_United States_ss_10113
   password: '1234'
   port: 1234
   server: 13.125.129.4
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1094
+  name: US_United States_ss_10118
   password: '1234'
   port: 1234
   server: 97.107.140.236
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1096
+  name: US_United States_ss_10120
   password: amazonskr05
   port: 443
   server: 54.250.244.203
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1097
+  name: US_United States_ss_10121
   password: amazonskr05
   port: 443
   server: 13.230.173.71
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1098
+  name: US_United States_ss_10122
   password: amazonskr05
   port: 443
   server: 34.222.45.211
   tfo: false
   type: ss
+- name: US_United States_trojan_1139
+  network: ws
+  password: f82fb954-06a1-4f0b-9180-17e07585b61f
+  port: 443
+  server: 172.67.212.82
+  skip-cert-verify: false
+  sni: 6tghjk.131.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6tghjk.131.pp.ua
+    path: '%2FYu29UN3Yz8hcnI3SlZor0'
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1148
+  network: ws
+  port: 443
+  server: www.racknerd.com
+  servername: grants-andrews-lp-helpful.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
+  ws-opts:
+    headers:
+      Host: grants-andrews-lp-helpful.trycloudflare.com
+    path: /vmess-argo?ed=2048
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1161
+  network: ws
+  port: 8443
+  server: skk.moe
+  servername: digitaloceanus.lzj520hxw.dpdns.org
+  tls: true
+  type: vmess
+  uuid: ba516af9-329e-4c5c-8ff6-dc59f563269e
+  ws-opts:
+    headers:
+      Host: digitaloceanus.lzj520hxw.dpdns.org
+    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16126,14 +16162,17 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1072
-  - US_United States_ss_1073
-  - US_United States_ss_1088
-  - US_United States_ss_1089
-  - US_United States_ss_1094
-  - US_United States_ss_1096
+  - US_United States_ss_1036
   - US_United States_ss_1097
-  - US_United States_ss_1098
+  - US_United States_ss_10112
+  - US_United States_ss_10113
+  - US_United States_ss_10118
+  - US_United States_ss_10120
+  - US_United States_ss_10121
+  - US_United States_ss_10122
+  - US_United States_trojan_1139
+  - US_United States_vmess_1148
+  - US_United States_vmess_1161
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17143,14 +17182,17 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1072
-  - US_United States_ss_1073
-  - US_United States_ss_1088
-  - US_United States_ss_1089
-  - US_United States_ss_1094
-  - US_United States_ss_1096
+  - US_United States_ss_1036
   - US_United States_ss_1097
-  - US_United States_ss_1098
+  - US_United States_ss_10112
+  - US_United States_ss_10113
+  - US_United States_ss_10118
+  - US_United States_ss_10120
+  - US_United States_ss_10121
+  - US_United States_ss_10122
+  - US_United States_trojan_1139
+  - US_United States_vmess_1148
+  - US_United States_vmess_1161
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
