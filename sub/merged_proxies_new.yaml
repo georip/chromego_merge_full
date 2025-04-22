@@ -15006,28 +15006,29 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-128-cfb
-  name: US_United States_ss_1069
-  password: shadowsocks
+- cipher: aes-256-cfb
+  name: US_United States_ss_1072
+  password: amazonskr05
   port: 443
-  server: 184.170.241.194
+  server: 43.203.202.53
+  tfo: false
   type: ss
 - allowInsecure: ''
-  name: US_United States_trojan_1073
+  name: US_United States_trojan_1075
   network: ws
-  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
   port: 443
-  server: 104.21.86.44
+  server: 104.21.69.41
   skip-cert-verify: false
-  sni: 10xcvb.he2022.filegear-sg.me
+  sni: 1SdfghJk.890602.xyz
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: 10xcvb.he2022.filegear-sg.me
-    path: /VEP415T5mby2DulPWRIwOavJd
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
 - allowInsecure: ''
-  name: US_United States_trojan_1085
+  name: US_United States_trojan_1081
   network: ws
   password: 0212fab5-e93c-4904-b7a8-187fd535f354
   port: 443
@@ -15040,21 +15041,36 @@ proxies:
     headers:
       Host: 3wsxcvbn.890617.xyz
     path: /rFt8MpX4JNWO67qEaMINZ1
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: US_United States_vmess_1086
+  name: US_United States_vmess_1083
   network: ws
-  port: '443'
-  server: 158.180.228.226
+  port: 443
+  server: 66.179.48.117
+  servername: usargo.lzj520hxw.dpdns.org
   tls: true
   type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  uuid: 00a9a559-8bb0-425e-bc97-c9885a575455
   ws-opts:
     headers:
-      host: beyonddsz.cfd
-    path: /linkws
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vm?ed=2048
+- name: US_United States_trojan_1084
+  password: '3828095943467868160'
+  port: 443
+  server: main-hound.dolphin109.quest
+  skip-cert-verify: true
+  sni: main-hound.dolphin109.quest
+  type: trojan
+- name: US_United States_trojan_1085
+  password: '3828095943467868160'
+  port: 443
+  server: main-moose.dolphin109.quest
+  skip-cert-verify: true
+  sni: main-moose.dolphin109.quest
+  type: trojan
 - allowInsecure: ''
-  name: US_United States_trojan_1088
+  name: US_United States_trojan_1098
   network: ws
   password: 0212fab5-e93c-4904-b7a8-187fd535f354
   port: 443
@@ -15067,29 +15083,138 @@ proxies:
     headers:
       Host: 3wsxcvbn.890617.xyz
     path: /rFt8MpX4JNWO67qEaMINZ1
+- cipher: aes-128-cfb
+  name: US_United States_ss_10104
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- name: US_United States_trojan_10109
+  password: '3828095943467868160'
+  port: 443
+  server: direct-mollusk.dolphin109.quest
+  skip-cert-verify: true
+  sni: direct-mollusk.dolphin109.quest
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10121
+  network: ws
+  port: 40000
+  raw:
+    add: ml02.333210.xyz
+    aid: '0'
+    alpn: ''
+    fp: chrome
+    host: ''
+    id: f8d8531b-a2b2-4515-911b-10c2f8ab7f26
+    net: ws
+    path: /bby
+    port: '40000'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: ml02.333210.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8d8531b-a2b2-4515-911b-10c2f8ab7f26
+  ws-opts:
+    path: /bby
+- name: US_United States_trojan_10124
+  network: ws
+  password: 00a9a559-8bb0-425e-bc97-c9885a575455
+  port: 443
+  server: time.is
+  skip-cert-verify: true
+  sni: usargo.lzj520hxw.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-tr?ed=2048
+- allowInsecure: ''
+  name: US_United States_trojan_10126
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 172.67.204.22
+  skip-cert-verify: false
+  sni: 1SdfghJk.890602.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10128
+  network: tcp
+  port: 30251
+  raw:
+    add: 35.220.230.251
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 86c9c119-c46d-45a9-82a6-75a886e5e795
+    net: tcp
+    path: ''
+    port: '30251'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 35.220.230.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10132
+  network: ws
+  port: 443
+  server: www.racknerd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 247be9aa-0741-48a1-a69e-61fdaf5290c3
+  ws-opts:
+    headers:
+      Host: haxargo.lzj520hxw.dpdns.org
+    path: /vmess-argo?ed=2048
+- name: US_United States_trojan_10133
+  password: '3828095943467868160'
+  port: 443
+  server: trusty-mayfly.dolphin109.quest
+  skip-cert-verify: true
+  sni: trusty-mayfly.dolphin109.quest
+  type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1089
+  name: US_United States_ss_10135
   password: amazonskr05
   port: 443
   server: 47.128.230.36
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10106
-  password: amazonskr05
-  port: 443
-  server: 43.203.202.53
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_10107
+  name: US_United States_ss_10154
   password: amazonskr05
   port: 443
   server: 47.129.221.216
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10108
+  name: US_United States_ss_10155
   password: amazonskr05
   port: 443
   server: 3.36.89.243
@@ -15097,7 +15222,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_10116
+  name: US_United States_vmess_10164
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -15105,97 +15230,41 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: US_United States_trojan_1148
-  network: ws
-  password: amclubs
-  port: 2083
-  server: 104.16.134.27
-  skip-cert-verify: false
-  sni: tran.amclubs.rr.nu
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tran.amclubs.rr.nu
-    path: /?ed=2560
-- allowInsecure: ''
-  name: US_United States_trojan_1150
-  network: tcp
-  password: telegram-id-vlessconfig
-  port: 22222
-  server: 18.132.108.242
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-- allowInsecure: ''
-  name: US_United States_trojan_1152
-  network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
-  port: 443
-  server: 104.21.23.162
-  skip-cert-verify: false
-  sni: 6tghjk.131.pp.ua
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6tghjk.131.pp.ua
-    path: /Yu29UN3Yz8hcnI3SlZor0
-- allowInsecure: ''
-  name: US_United States_trojan_1154
-  network: ws
-  password: auto
-  port: 443
-  server: 172.66.45.2
-  skip-cert-verify: false
-  sni: dcf741e8.epeius-2gy.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dcf741e8.epeius-2gy.pages.dev
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1158
+  name: US_United States_vmess_1136
   network: ws
-  port: 8443
-  server: skk.moe
-  servername: digitaloceanus.lzj520hxw.dpdns.org
+  port: 2053
+  raw:
+    add: 104.21.96.1
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: mass3.890601.xyz
+    id: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+    net: ws
+    path: /
+    port: '2053'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: mass3.890601.xyz
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.96.1
+  servername: mass3.890601.xyz
   tls: true
   type: vmess
-  uuid: ba516af9-329e-4c5c-8ff6-dc59f563269e
+  uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
   ws-opts:
     headers:
-      Host: digitaloceanus.lzj520hxw.dpdns.org
-    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
-- cipher: aes-256-cfb
-  name: US_United States_ss_1159
-  password: amazonskr05
-  port: 443
-  server: 47.128.155.142
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1172
-  password: amazonskr05
-  port: 443
-  server: 54.250.244.203
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1173
-  password: amazonskr05
-  port: 443
-  server: 13.230.173.71
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1174
-  password: amazonskr05
-  port: 443
-  server: 34.222.45.211
-  tfo: false
+      Host: mass3.890601.xyz
+    path: /
+- cipher: chacha20-ietf
+  name: US_United States_ss_1145
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
   type: ss
 - name: TW_Taiwan_reality_0
   type: vless
@@ -16258,25 +16327,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1069
-  - US_United States_trojan_1073
+  - US_United States_ss_1072
+  - US_United States_trojan_1075
+  - US_United States_trojan_1081
+  - US_United States_vmess_1083
+  - US_United States_trojan_1084
   - US_United States_trojan_1085
-  - US_United States_vmess_1086
-  - US_United States_trojan_1088
-  - US_United States_ss_1089
-  - US_United States_ss_10106
-  - US_United States_ss_10107
-  - US_United States_ss_10108
-  - US_United States_vmess_10116
-  - US_United States_trojan_1148
-  - US_United States_trojan_1150
-  - US_United States_trojan_1152
-  - US_United States_trojan_1154
-  - US_United States_vmess_1158
-  - US_United States_ss_1159
-  - US_United States_ss_1172
-  - US_United States_ss_1173
-  - US_United States_ss_1174
+  - US_United States_trojan_1098
+  - US_United States_ss_10104
+  - US_United States_trojan_10109
+  - US_United States_vmess_10121
+  - US_United States_trojan_10124
+  - US_United States_trojan_10126
+  - US_United States_vmess_10128
+  - US_United States_vmess_10132
+  - US_United States_trojan_10133
+  - US_United States_ss_10135
+  - US_United States_ss_10154
+  - US_United States_ss_10155
+  - US_United States_vmess_10164
+  - US_United States_vmess_1136
+  - US_United States_ss_1145
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17286,25 +17357,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1069
-  - US_United States_trojan_1073
+  - US_United States_ss_1072
+  - US_United States_trojan_1075
+  - US_United States_trojan_1081
+  - US_United States_vmess_1083
+  - US_United States_trojan_1084
   - US_United States_trojan_1085
-  - US_United States_vmess_1086
-  - US_United States_trojan_1088
-  - US_United States_ss_1089
-  - US_United States_ss_10106
-  - US_United States_ss_10107
-  - US_United States_ss_10108
-  - US_United States_vmess_10116
-  - US_United States_trojan_1148
-  - US_United States_trojan_1150
-  - US_United States_trojan_1152
-  - US_United States_trojan_1154
-  - US_United States_vmess_1158
-  - US_United States_ss_1159
-  - US_United States_ss_1172
-  - US_United States_ss_1173
-  - US_United States_ss_1174
+  - US_United States_trojan_1098
+  - US_United States_ss_10104
+  - US_United States_trojan_10109
+  - US_United States_vmess_10121
+  - US_United States_trojan_10124
+  - US_United States_trojan_10126
+  - US_United States_vmess_10128
+  - US_United States_vmess_10132
+  - US_United States_trojan_10133
+  - US_United States_ss_10135
+  - US_United States_ss_10154
+  - US_United States_ss_10155
+  - US_United States_vmess_10164
+  - US_United States_vmess_1136
+  - US_United States_ss_1145
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
