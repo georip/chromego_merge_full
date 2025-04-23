@@ -15006,58 +15006,91 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- allowInsecure: ''
+  name: US_United States_trojan_1038
+  network: ws
+  password: 0212fab5-e93c-4904-b7a8-187fd535f354
+  port: 443
+  server: 104.21.49.59
+  skip-cert-verify: false
+  sni: 3sxcvbb.890617.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3sxcvbb.890617.xyz
+    path: /rFt8MpX4JNWO67qEaMINZ1
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_102
+  name: US_United States_vmess_1039
   network: ws
   port: 443
-  server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
+  raw:
+    add: 9uyiopsdfh.iran.pp.ua
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: 9uyiopsdfh.iran.pp.ua
+    id: 906ba92f-ef96-4133-8eee-f33202a5a721
+    net: ws
+    path: /DAxJddOdTd5pVam9w
+    port: 443
+    ps: 2|🇺🇸9 |  3.6MB/s
+    scy: auto
+    sni: 9uyiopsdfh.iran.pp.ua
+    tls: tls
+    type: none
+    v: '2'
+  server: 9uyiopsdfh.iran.pp.ua
+  servername: 9uyiopsdfh.iran.pp.ua
+  tls: true
+  type: vmess
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
+  ws-opts:
+    headers:
+      Host: 9uyiopsdfh.iran.pp.ua
+    path: /DAxJddOdTd5pVam9w
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1041
+  network: ws
+  port: 443
+  server: 7fa54343-7c0a-45c9.2031.pp.ua
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
   ws-opts:
     headers:
-      Host: D2860d7d-07ee-A0Db-EF7B-54808dB00b03.890601.pP.UA
-    path: /h7Rcu0y30lhjdVjJ3gc4aj
-- name: US_United States_trojan_105
-  password: '3828095943467868160'
-  port: 443
-  server: equipped-satyr.dolphin109.quest
-  skip-cert-verify: true
-  sni: equipped-satyr.dolphin109.quest
-  type: trojan
-  udp: true
-- name: US_United States_trojan_108
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 104.21.69.41
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: US_United States_trojan_109
-  password: '3828095943467868160'
-  port: 443
-  server: humble-snail.dolphin109.quest
-  skip-cert-verify: true
-  sni: humble-snail.dolphin109.quest
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1021
-  password: amazonskr05
-  port: 443
-  server: 35.85.52.8
-  tfo: false
-  type: ss
+      Host: 7fa54343-7c0a-45c9.2031.pp.ua
+    path: /usYhm60UxQ8YJFJxz
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1023
+  name: US_United States_vmess_1043
+  network: ws
+  port: 443
+  server: 3sdfgvcxxx.938.pp.ua
+  servername: 3sdfgvcxxx.938.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3sdfgvcxxx.938.pp.ua
+    path: /P879mtCoHQqaWO67qEaMINZ1
+- name: US_United States_trojan_1045
+  password: '3828095943467868160'
+  port: 443
+  server: 5.34.178.225
+  skip-cert-verify: true
+  sni: trusty-mayfly.dolphin109.quest
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1050
   network: ws
   port: 443
   server: 1wweerttt.131.pp.ua
@@ -15070,116 +15103,7 @@ proxies:
     headers:
       Host: 1WWeeRtTt.131.PP.ua
     path: /h7Rcu0y30lhjdVjJ3gc4aj
-- name: US_United States_trojan_1027
-  network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
-  port: 443
-  server: 104.21.23.162
-  skip-cert-verify: false
-  sni: 6tghjk.131.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6tghjk.131.pp.ua
-    path: '%2FYu29UN3Yz8hcnI3SlZor0'
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1028
-  network: ws
-  port: 443
-  server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
-  servername: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 2E21CEDc-fA8B-4020-8Ce0-390e7287D276.890603.Pp.uA
-    path: /h7Rcu0y30lhjdVjJ3gc4aj
-- name: US_United States_trojan_1034
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 172.67.204.22
-  skip-cert-verify: false
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 1sdfghjk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1039
-  network: ws
-  port: 443
-  raw:
-    add: 3sdfgvcxxx.938.pp.ua
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: 3sdfgvcxxx.938.pp.ua
-    id: 0212fab5-e93c-4904-b7a8-187fd535f354
-    net: ws
-    path: /P879mtCoHQqaWO67qEaMINZ1
-    port: 443
-    ps: 1|🇺🇸14 |  5.0MB/s
-    scy: auto
-    sni: 3sdfgvcxxx.938.pp.ua
-    tls: tls
-    type: none
-    v: '2'
-  server: 3sdfgvcxxx.938.pp.ua
-  servername: 3sdfgvcxxx.938.pp.ua
-  tls: true
-  type: vmess
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
-  ws-opts:
-    headers:
-      Host: 3sdfgvcxxx.938.pp.ua
-    path: /P879mtCoHQqaWO67qEaMINZ1
-- name: US_United States_trojan_1043
-  password: '3828095943467868160'
-  port: 443
-  server: 162.216.231.86
-  skip-cert-verify: true
-  sni: main-hound.dolphin109.quest
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ssr_1044
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 50.112.62.208
-  type: ssr
-- name: US_United States_trojan_1052
-  password: '3828095943467868160'
-  port: 443
-  server: main-hound.dolphin109.quest
-  skip-cert-verify: true
-  sni: main-hound.dolphin109.quest
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1053
-  network: ws
-  port: 443
-  server: 9x.938.pp.ua
-  servername: 9x.938.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
-  ws-opts:
-    headers:
-      Host: 9x.938.pp.ua
-    path: /DAxJddOdTd5pVam9w
-- name: US_United States_trojan_1058
+- name: US_United States_trojan_1059
   network: ws
   password: 2faaf996-d2b0-440d-8258-81f2b05dd0e4
   port: 443
@@ -15192,29 +15116,36 @@ proxies:
       Host: architects-optimize-rest-dow.trycloudflare.com
     path: /trojan-argo?ed=2560
 - cipher: aes-256-cfb
-  name: US_United States_ss_1061
+  name: US_United States_ss_1097
   password: amazonskr05
   port: 443
   server: 3.113.10.230
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1083
+  name: US_United States_ss_10115
   password: amazonskr05
   port: 443
   server: 18.142.242.5
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1084
+  name: US_United States_ss_10116
   password: amazonskr05
   port: 443
   server: 43.207.191.66
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_10117
+  password: amazonskr05
+  port: 443
+  server: 35.85.52.8
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1092
+  name: US_United States_vmess_10125
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -15222,7 +15153,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: US_United States_trojan_10107
+- name: US_United States_trojan_10145
   password: '3828095943467868160'
   port: 443
   server: trusty-mayfly.dolphin109.quest
@@ -15230,6 +15161,63 @@ proxies:
   sni: trusty-mayfly.dolphin109.quest
   type: trojan
   udp: true
+- name: US_United States_trojan_10146
+  password: '3828095943467868160'
+  port: 443
+  server: equipped-satyr.dolphin109.quest
+  skip-cert-verify: true
+  sni: equipped-satyr.dolphin109.quest
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1137
+  network: ws
+  port: 443
+  server: www.racknerd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 247be9aa-0741-48a1-a69e-61fdaf5290c3
+  ws-opts:
+    headers:
+      Host: haxargo.lzj520hxw.dpdns.org
+    path: /vmess-argo?ed=2048
+- name: US_United States_trojan_1138
+  password: '3828095943467868160'
+  port: 443
+  server: magical-lizard.dolphin109.quest
+  skip-cert-verify: true
+  sni: magical-lizard.dolphin109.quest
+  type: trojan
+- allowInsecure: ''
+  name: US_United States_trojan_1144
+  network: ws
+  password: 0212fab5-e93c-4904-b7a8-187fd535f354
+  port: 443
+  server: 3sxcvbb.890617.xyz
+  skip-cert-verify: false
+  sni: 3sxcvbb.890617.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3sxcvbb.890617.xyz
+    path: /rFt8MpX4JNWO67qEaMINZ1
+- allowInsecure: ''
+  name: US_United States_trojan_1149
+  network: ws
+  password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  port: 443
+  server: 104.21.34.159
+  skip-cert-verify: false
+  sni: 2qwert.2031.pp.ua
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 2qwert.2031.pp.ua
+    path: /4p35eUnmGxQ8YJFJxz
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16291,26 +16279,24 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_102
-  - US_United States_trojan_105
-  - US_United States_trojan_108
-  - US_United States_trojan_109
-  - US_United States_ss_1021
-  - US_United States_vmess_1023
-  - US_United States_trojan_1027
-  - US_United States_vmess_1028
-  - US_United States_trojan_1034
+  - US_United States_trojan_1038
   - US_United States_vmess_1039
-  - US_United States_trojan_1043
-  - US_United States_ssr_1044
-  - US_United States_trojan_1052
-  - US_United States_vmess_1053
-  - US_United States_trojan_1058
-  - US_United States_ss_1061
-  - US_United States_ss_1083
-  - US_United States_ss_1084
-  - US_United States_vmess_1092
-  - US_United States_trojan_10107
+  - US_United States_vmess_1041
+  - US_United States_vmess_1043
+  - US_United States_trojan_1045
+  - US_United States_vmess_1050
+  - US_United States_trojan_1059
+  - US_United States_ss_1097
+  - US_United States_ss_10115
+  - US_United States_ss_10116
+  - US_United States_ss_10117
+  - US_United States_vmess_10125
+  - US_United States_trojan_10145
+  - US_United States_trojan_10146
+  - US_United States_vmess_1137
+  - US_United States_trojan_1138
+  - US_United States_trojan_1144
+  - US_United States_trojan_1149
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17320,26 +17306,24 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_102
-  - US_United States_trojan_105
-  - US_United States_trojan_108
-  - US_United States_trojan_109
-  - US_United States_ss_1021
-  - US_United States_vmess_1023
-  - US_United States_trojan_1027
-  - US_United States_vmess_1028
-  - US_United States_trojan_1034
+  - US_United States_trojan_1038
   - US_United States_vmess_1039
-  - US_United States_trojan_1043
-  - US_United States_ssr_1044
-  - US_United States_trojan_1052
-  - US_United States_vmess_1053
-  - US_United States_trojan_1058
-  - US_United States_ss_1061
-  - US_United States_ss_1083
-  - US_United States_ss_1084
-  - US_United States_vmess_1092
-  - US_United States_trojan_10107
+  - US_United States_vmess_1041
+  - US_United States_vmess_1043
+  - US_United States_trojan_1045
+  - US_United States_vmess_1050
+  - US_United States_trojan_1059
+  - US_United States_ss_1097
+  - US_United States_ss_10115
+  - US_United States_ss_10116
+  - US_United States_ss_10117
+  - US_United States_vmess_10125
+  - US_United States_trojan_10145
+  - US_United States_trojan_10146
+  - US_United States_vmess_1137
+  - US_United States_trojan_1138
+  - US_United States_trojan_1144
+  - US_United States_trojan_1149
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
