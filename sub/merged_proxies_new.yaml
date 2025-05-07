@@ -15006,6 +15006,50 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_1064
+  password: awsps0501
+  port: 443
+  server: 52.195.211.35
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1082
+  password: awsps0501
+  port: 443
+  server: 18.183.225.74
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1083
+  password: awsps0501
+  port: 443
+  server: 13.114.102.184
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1091
+  network: kcp
+  port: '53893'
+  server: 47.74.41.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- name: US_United States_trojan_1094
+  network: ws
+  password: redfree8
+  port: 443
+  server: 104.17.147.22
+  skip-cert-verify: false
+  sni: ipsychO.SUEx12.Ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ipsychO.SUEx12.Ir
+    path: /trre5IzbZ9IZZMddtw?ed=2560
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16067,6 +16111,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_1064
+  - US_United States_ss_1082
+  - US_United States_ss_1083
+  - US_United States_vmess_1091
+  - US_United States_trojan_1094
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17076,6 +17125,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_1064
+  - US_United States_ss_1082
+  - US_United States_ss_1083
+  - US_United States_vmess_1091
+  - US_United States_trojan_1094
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
