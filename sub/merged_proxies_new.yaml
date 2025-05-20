@@ -15045,34 +15045,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: TW_Taiwan_reality_0
-  type: vless
-  server: 1.162.51.106
-  port: 37898
-  uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
-    short-id: e12d7fdb
-- name: TW_Taiwan_reality_1
-  type: vless
-  server: 1.162.51.106
-  port: 37898
-  uuid: ec302de4-6b3d-4f03-a228-3c6d303ed370
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: www.yahoo.com
-  reality-opts:
-    public-key: v6uWJJmVGFPd0K040QK3PJHCbPc74kXFoQmAhpu30jQ
-    short-id: e12d7fdb
 - name: TW_Taiwan_reality_2
   type: vless
   server: 1.162.51.106
@@ -16110,8 +16082,6 @@ proxy-groups:
   - US_United States_ss_1075
   - US_United States_ss_1089
   - US_United States_vmess_10100
-  - TW_Taiwan_reality_0
-  - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
   - TW_Taiwan_reality_3
 - name: 自动选择
@@ -17123,8 +17093,6 @@ proxy-groups:
   - US_United States_ss_1075
   - US_United States_ss_1089
   - US_United States_vmess_10100
-  - TW_Taiwan_reality_0
-  - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
   - TW_Taiwan_reality_3
 rules:
