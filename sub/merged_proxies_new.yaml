@@ -15023,14 +15023,14 @@ proxies:
     path: /lzjjj
 - cipher: aes-256-cfb
   name: US_United States_ss_1075
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 13.250.27.89
+  server: 13.114.71.161
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1097
+  name: US_United States_vmess_10102
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -15038,23 +15038,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: US_United States_trojan_10112
-  password: AACY9aXaD0ZDyuyOBzD3Onl2ICw6anBE8l3SRl38RCSDpw7FpYzcRj7NeaFSpR5qx85Su
-  port: 443
-  server: 13.114.65.253
-  skip-cert-verify: false
-  sni: forward.meijireform.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_10113
-  password: czaOZA3OxRYDl4u0RxT7D62FyNI3aC98ZCDDRnDax6zECS5I35wSqSKTXYAy3Nw3eXYaO
-  port: 28331
-  server: 154.17.11.217
-  skip-cert-verify: true
-  sni: cutting.homeofbrave.net
-  type: trojan
-  udp: true
-- name: US_United States_trojan_10114
+- name: US_United States_trojan_10111
   network: ws
   password: Ng35283528
   port: 443
@@ -15067,6 +15051,22 @@ proxies:
     headers:
       Host: c2.validbv3528.eu.org
     path: /?ed=2560
+- name: US_United States_trojan_1154
+  password: AACY9aXaD0ZDyuyOBzD3Onl2ICw6anBE8l3SRl38RCSDpw7FpYzcRj7NeaFSpR5qx85Su
+  port: 443
+  server: 13.114.65.253
+  skip-cert-verify: false
+  sni: forward.meijireform.com
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1155
+  password: czaOZA3OxRYDl4u0RxT7D62FyNI3aC98ZCDDRnDax6zECS5I35wSqSKTXYAy3Nw3eXYaO
+  port: 28331
+  server: 154.17.11.217
+  skip-cert-verify: true
+  sni: cutting.homeofbrave.net
+  type: trojan
+  udp: true
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16130,10 +16130,10 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_1037
   - US_United States_ss_1075
-  - US_United States_vmess_1097
-  - US_United States_trojan_10112
-  - US_United States_trojan_10113
-  - US_United States_trojan_10114
+  - US_United States_vmess_10102
+  - US_United States_trojan_10111
+  - US_United States_trojan_1154
+  - US_United States_trojan_1155
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17145,10 +17145,10 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_1037
   - US_United States_ss_1075
-  - US_United States_vmess_1097
-  - US_United States_trojan_10112
-  - US_United States_trojan_10113
-  - US_United States_trojan_10114
+  - US_United States_vmess_10102
+  - US_United States_trojan_10111
+  - US_United States_trojan_1154
+  - US_United States_trojan_1155
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
