@@ -15008,7 +15008,7 @@ proxies:
   down: 55 Mbps
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1068
+  name: US_United States_vmess_1037
   network: ws
   port: 443
   server: 38.47.96.30
@@ -15025,38 +15025,19 @@ proxies:
   name: US_United States_ss_1075
   password: awsps0501
   port: 443
-  server: 34.215.48.231
+  server: 54.248.176.238
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1089
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 18.140.199.169
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1080
-  port: 3000
-  server: 43.199.24.247
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1083
-  network: ws
-  port: '443'
-  server: n1735606087.ryjml.cn
-  servername: n1735606087.ryjml.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: f047f92c-cb20-4ccb-872f-bc484d848448
-  ws-opts:
-    headers:
-      Host: n1735606087.ryjml.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_10102
+  name: US_United States_vmess_1098
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -16125,11 +16106,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1068
+  - US_United States_vmess_1037
   - US_United States_ss_1075
-  - US_United States_vmess_1080
-  - US_United States_vmess_1083
-  - US_United States_vmess_10102
+  - US_United States_ss_1089
+  - US_United States_vmess_1098
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17139,11 +17119,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1068
+  - US_United States_vmess_1037
   - US_United States_ss_1075
-  - US_United States_vmess_1080
-  - US_United States_vmess_1083
-  - US_United States_vmess_10102
+  - US_United States_ss_1089
+  - US_United States_vmess_1098
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
