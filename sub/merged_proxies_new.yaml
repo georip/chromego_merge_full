@@ -15025,19 +15025,34 @@ proxies:
   name: US_United States_ss_1044
   password: awsps0501
   port: 443
-  server: 35.165.193.21
+  server: 44.243.102.33
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1048
+  network: tcp
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  port: 443
+  server: usla.mjt000.com
+  skip-cert-verify: false
+  sni: usla.mjt000.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1057
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 3.39.247.174
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1070
+  name: US_United States_vmess_1069
   network: kcp
-  port: '53893'
-  server: 47.74.41.147
+  port: '39253'
+  server: 47.76.92.36
   servername: ''
   tls: false
   type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16101,7 +16116,9 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_1037
   - US_United States_ss_1044
-  - US_United States_vmess_1070
+  - US_United States_trojan_1048
+  - US_United States_ss_1057
+  - US_United States_vmess_1069
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17113,7 +17130,9 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_1037
   - US_United States_ss_1044
-  - US_United States_vmess_1070
+  - US_United States_trojan_1048
+  - US_United States_ss_1057
+  - US_United States_vmess_1069
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
