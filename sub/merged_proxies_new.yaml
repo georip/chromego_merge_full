@@ -15028,14 +15028,6 @@ proxies:
   server: 34.212.26.32
   tfo: false
   type: ss
-- name: US_United States_trojan_1016
-  network: tcp
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 443
-  server: usla.mjt000.com
-  skip-cert-verify: false
-  sni: usla.mjt000.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1022
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
@@ -15064,6 +15056,14 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
+- name: US_United States_trojan_1116
+  network: tcp
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  port: 443
+  server: usla.mjt000.com
+  skip-cert-verify: false
+  sni: usla.mjt000.com
+  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16127,11 +16127,11 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_105
   - US_United States_ss_1012
-  - US_United States_trojan_1016
   - US_United States_ss_1022
   - US_United States_ss_1025
   - US_United States_trojan_1044
   - US_United States_trojan_1045
+  - US_United States_trojan_1116
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17143,11 +17143,11 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_105
   - US_United States_ss_1012
-  - US_United States_trojan_1016
   - US_United States_ss_1022
   - US_United States_ss_1025
   - US_United States_trojan_1044
   - US_United States_trojan_1045
+  - US_United States_trojan_1116
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
