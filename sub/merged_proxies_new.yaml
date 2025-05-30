@@ -15025,17 +15025,31 @@ proxies:
   name: US_United States_ss_1012
   password: awsps0501
   port: 443
-  server: 18.246.228.5
+  server: 34.212.26.32
   tfo: false
   type: ss
-- name: US_United States_trojan_1036
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1022
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 52.195.15.105
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1025
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 3.38.139.172
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1035
   password: Aa4cexaO3FReREXgAlp9CjyTjpaRNan3YDx6DxaDYFS3On0SqgF08CZcBpYxy3awXeEIC
   port: 28331
   server: huzzah.meijireform.com
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: US_United States_trojan_1038
+- name: US_United States_trojan_1037
   password: 4a3paxFKgSCxXBlaZn73Suc6AF3Dj3078l8FeDzDOXZOwyCDCICzeApyySAEgeTOSEZSZ
   port: 18333
   server: luber.protocolbuffer.com
@@ -15043,35 +15057,35 @@ proxies:
   sni: luber.protocolbuffer.com
   type: trojan
   udp: true
-- name: US_United States_trojan_1039
+- name: US_United States_trojan_1038
   password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x
   port: 28331
   server: cutlery.homeofbrave.net
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: US_United States_trojan_1041
+- name: US_United States_trojan_1040
   password: BIRCauz5R2S8O3pZ56eg8yC43yla4T3D7znxCDFxSCODO9jA3NxAcaE3YYK3Sq8u9DxZg
   port: 18332
   server: closet.homeofbrave.net
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: US_United States_trojan_1042
+- name: US_United States_trojan_1041
   password: CYjXlaFOAyEDZaTe0gZaCOCyy4RwSyKYDq9SSpDCxzF33eA3SS06O28aj65a3lY3znO88
   port: 28332
   server: handles.homeofbrave.net
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: US_United States_trojan_1043
+- name: US_United States_trojan_1042
   password: Ye8uA37l3C9FwpCwBCuZBy4SqlKTapDXEDnCZFRKSNlZCRSy0I3Yc8DxayzOeO3xaxjjg
   port: 28331
   server: fireplace.wireshop.net
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: US_United States_trojan_1044
+- name: US_United States_trojan_1043
   network: ws
   password: Aimer
   port: 2087
@@ -15084,7 +15098,7 @@ proxies:
     headers:
       Host: epmw.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: US_United States_trojan_1045
+- name: US_United States_trojan_1044
   network: ws
   password: Aimer
   port: 443
@@ -15097,7 +15111,7 @@ proxies:
     headers:
       Host: epmw.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: US_United States_trojan_1046
+- name: US_United States_trojan_1045
   network: ws
   password: Aimer
   port: 20080
@@ -15110,7 +15124,7 @@ proxies:
     headers:
       Host: epme.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: US_United States_trojan_1047
+- name: US_United States_trojan_1046
   network: ws
   password: tg-fq521free
   port: 443
@@ -16186,16 +16200,18 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_105
   - US_United States_ss_1012
-  - US_United States_trojan_1036
+  - US_United States_ss_1022
+  - US_United States_ss_1025
+  - US_United States_trojan_1035
+  - US_United States_trojan_1037
   - US_United States_trojan_1038
-  - US_United States_trojan_1039
+  - US_United States_trojan_1040
   - US_United States_trojan_1041
   - US_United States_trojan_1042
   - US_United States_trojan_1043
   - US_United States_trojan_1044
   - US_United States_trojan_1045
   - US_United States_trojan_1046
-  - US_United States_trojan_1047
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17207,16 +17223,18 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_105
   - US_United States_ss_1012
-  - US_United States_trojan_1036
+  - US_United States_ss_1022
+  - US_United States_ss_1025
+  - US_United States_trojan_1035
+  - US_United States_trojan_1037
   - US_United States_trojan_1038
-  - US_United States_trojan_1039
+  - US_United States_trojan_1040
   - US_United States_trojan_1041
   - US_United States_trojan_1042
   - US_United States_trojan_1043
   - US_United States_trojan_1044
   - US_United States_trojan_1045
   - US_United States_trojan_1046
-  - US_United States_trojan_1047
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
