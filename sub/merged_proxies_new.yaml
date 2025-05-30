@@ -15028,6 +15028,14 @@ proxies:
   server: 34.212.26.32
   tfo: false
   type: ss
+- name: US_United States_trojan_1016
+  network: tcp
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  port: 443
+  server: usla.mjt000.com
+  skip-cert-verify: false
+  sni: usla.mjt000.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1022
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
@@ -15042,101 +15050,20 @@ proxies:
   server: 3.38.139.172
   tfo: false
   type: ss
-- name: US_United States_trojan_1035
-  password: Aa4cexaO3FReREXgAlp9CjyTjpaRNan3YDx6DxaDYFS3On0SqgF08CZcBpYxy3awXeEIC
-  port: 28331
-  server: huzzah.meijireform.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1037
-  password: 4a3paxFKgSCxXBlaZn73Suc6AF3Dj3078l8FeDzDOXZOwyCDCICzeApyySAEgeTOSEZSZ
-  port: 18333
-  server: luber.protocolbuffer.com
-  skip-cert-verify: false
-  sni: luber.protocolbuffer.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1038
-  password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x
-  port: 28331
-  server: cutlery.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1040
-  password: BIRCauz5R2S8O3pZ56eg8yC43yla4T3D7znxCDFxSCODO9jA3NxAcaE3YYK3Sq8u9DxZg
-  port: 18332
-  server: closet.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1041
-  password: CYjXlaFOAyEDZaTe0gZaCOCyy4RwSyKYDq9SSpDCxzF33eA3SS06O28aj65a3lY3znO88
-  port: 28332
-  server: handles.homeofbrave.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1042
-  password: Ye8uA37l3C9FwpCwBCuZBy4SqlKTapDXEDnCZFRKSNlZCRSy0I3Yc8DxayzOeO3xaxjjg
-  port: 28331
-  server: fireplace.wireshop.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1043
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.58
-  skip-cert-verify: false
-  sni: epmw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epmw.ambercc.filegear-sg.me
-    path: /?ed=2560
 - name: US_United States_trojan_1044
-  network: ws
-  password: Aimer
+  password: 94Xn93e3F2uOxCE8De8upAAwnlI8ySRRj70Ol6zgYNBjZFCDK5Yaca3D8aT2qaxyEc0DK
   port: 443
-  server: 192.3.127.231
+  server: bapus.koreanbbq.link
   skip-cert-verify: false
-  sni: epmw.ambercc.filegear-sg.me
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: epmw.ambercc.filegear-sg.me
-    path: /?ed=2560
 - name: US_United States_trojan_1045
-  network: ws
-  password: Aimer
-  port: 20080
-  server: 192.210.207.89
+  password: YaN8FFNe58nga3xAu3yTx0CSllcSeOnDZOj3SXROCz3S34B9D3F7Ka0aYa8yaxpXCDRKZ
+  port: 18334
+  server: diagram.protocolbuffer.com
   skip-cert-verify: false
-  sni: epme.ambercc.filegear-sg.me
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: epme.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: US_United States_trojan_1046
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16200,18 +16127,11 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_105
   - US_United States_ss_1012
+  - US_United States_trojan_1016
   - US_United States_ss_1022
   - US_United States_ss_1025
-  - US_United States_trojan_1035
-  - US_United States_trojan_1037
-  - US_United States_trojan_1038
-  - US_United States_trojan_1040
-  - US_United States_trojan_1041
-  - US_United States_trojan_1042
-  - US_United States_trojan_1043
   - US_United States_trojan_1044
   - US_United States_trojan_1045
-  - US_United States_trojan_1046
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17223,18 +17143,11 @@ proxy-groups:
   - US_United States_hysteria_61
   - US_United States_vmess_105
   - US_United States_ss_1012
+  - US_United States_trojan_1016
   - US_United States_ss_1022
   - US_United States_ss_1025
-  - US_United States_trojan_1035
-  - US_United States_trojan_1037
-  - US_United States_trojan_1038
-  - US_United States_trojan_1040
-  - US_United States_trojan_1041
-  - US_United States_trojan_1042
-  - US_United States_trojan_1043
   - US_United States_trojan_1044
   - US_United States_trojan_1045
-  - US_United States_trojan_1046
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
