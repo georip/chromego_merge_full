@@ -15008,7 +15008,17 @@ proxies:
   down: 55 Mbps
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_105
+  name: US_United States_vmess_101
+  network: tcp
+  port: '443'
+  server: web.51.la
+  servername: web.51.la
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1167
   network: ws
   port: 443
   server: 38.47.96.30
@@ -15022,7 +15032,7 @@ proxies:
       Host: th.lzj520hxw.dpdns.org
     path: /lzjjj
 - cipher: aes-256-cfb
-  name: US_United States_ss_1042
+  name: US_United States_ss_1174
   password: yijian0503
   port: 443
   server: 3.34.131.22
@@ -15030,7 +15040,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1055
+  name: US_United States_vmess_1187
   port: 51036
   server: 206.237.127.188
   skip-cert-verify: false
@@ -16099,9 +16109,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_105
-  - US_United States_ss_1042
-  - US_United States_vmess_1055
+  - US_United States_vmess_101
+  - US_United States_vmess_1167
+  - US_United States_ss_1174
+  - US_United States_vmess_1187
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17111,9 +17122,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_105
-  - US_United States_ss_1042
-  - US_United States_vmess_1055
+  - US_United States_vmess_101
+  - US_United States_vmess_1167
+  - US_United States_ss_1174
+  - US_United States_vmess_1187
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
