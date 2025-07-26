@@ -15006,6 +15006,17 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: US_United States_hysteria_81
+  type: hysteria
+  server: 172.245.235.201
+  port: 38814
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: apple.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16067,6 +16078,7 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_hysteria_81
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17076,6 +17088,7 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_hysteria_81
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
