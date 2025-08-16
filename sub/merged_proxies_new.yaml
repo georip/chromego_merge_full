@@ -15429,6 +15429,31 @@ proxies:
     headers:
       Host: epgb.aimercc.dpdns.org
     path: /?ed=2560
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 18.184.59.16
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1114
+  network: tcp
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 103.252.116.138
+  skip-cert-verify: false
+  sni: hk.freeguard.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1131
+  network: kcp
+  port: '3351'
+  server: 47.83.181.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0bfc8acf-ac40-45c1-8dde-7f3417621286
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16524,6 +16549,9 @@ proxy-groups:
   - US_United States_trojan_1092
   - US_United States_trojan_1093
   - US_United States_trojan_1094
+  - US_United States_ss_1111
+  - US_United States_trojan_1114
+  - US_United States_vmess_1131
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17567,6 +17595,9 @@ proxy-groups:
   - US_United States_trojan_1092
   - US_United States_trojan_1093
   - US_United States_trojan_1094
+  - US_United States_ss_1111
+  - US_United States_trojan_1114
+  - US_United States_vmess_1131
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
