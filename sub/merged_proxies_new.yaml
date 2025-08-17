@@ -15430,6 +15430,21 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 34.242.33.79
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1123
+  network: tcp
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 52.194.230.74
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16525,6 +16540,8 @@ proxy-groups:
   - US_United States_trojan_1086
   - US_United States_trojan_1087
   - US_United States_trojan_1088
+  - US_United States_ss_1111
+  - US_United States_trojan_1123
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17568,6 +17585,8 @@ proxy-groups:
   - US_United States_trojan_1086
   - US_United States_trojan_1087
   - US_United States_trojan_1088
+  - US_United States_ss_1111
+  - US_United States_trojan_1123
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
