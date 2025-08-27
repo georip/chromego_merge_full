@@ -105,6 +105,29 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 108.129.163.206
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1116
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 3.112.225.166
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: US_United States_trojan_1122
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 40950
+  server: 43.199.63.145
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -146,6 +169,9 @@ proxy-groups:
   - US_United States_vmess_1021
   - US_United States_trojan_1025
   - US_United States_trojan_1026
+  - US_United States_ss_1111
+  - US_United States_trojan_1116
+  - US_United States_trojan_1122
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -161,6 +187,9 @@ proxy-groups:
   - US_United States_vmess_1021
   - US_United States_trojan_1025
   - US_United States_trojan_1026
+  - US_United States_ss_1111
+  - US_United States_trojan_1116
+  - US_United States_trojan_1122
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
