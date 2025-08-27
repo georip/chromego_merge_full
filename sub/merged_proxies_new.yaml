@@ -40,12 +40,35 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 34.249.82.191
+  server: 108.129.163.206
+  tfo: false
+  type: ss
+- name: US_United States_trojan_106
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 3.112.225.166
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: US_United States_trojan_1012
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 40950
+  server: 43.199.63.145
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1016
+  password: GhYEufnq9M9yvgAc1ylvfq
+  port: 18336
+  server: 165.22.61.177
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1015
+  name: US_United States_vmess_1017
   network: ws
   port: '443'
   server: ssssssssssssfffffffgh.2032.pp.ua
@@ -61,7 +84,7 @@ proxies:
     path: /6We3U9Df1WGxgFnoFPw1
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1020
+  name: US_United States_vmess_1021
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -71,7 +94,7 @@ proxies:
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1021
+  name: US_United States_vmess_1022
   network: kcp
   port: '37257'
   server: 47.74.57.10
@@ -79,7 +102,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: US_United States_trojan_1025
+- name: US_United States_trojan_1026
   network: ws
   password: tg-fq521free
   port: 443
@@ -92,7 +115,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: US_United States_trojan_1026
+- name: US_United States_trojan_1027
   network: ws
   password: tg-fq521free
   port: 443
@@ -105,29 +128,6 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 108.129.163.206
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1116
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 3.112.225.166
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: US_United States_trojan_1122
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 40950
-  server: 43.199.63.145
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -164,14 +164,14 @@ proxy-groups:
   - DIRECT
   - US_United States_hysteria_91
   - US_United States_ss_101
-  - US_United States_vmess_1015
-  - US_United States_vmess_1020
+  - US_United States_trojan_106
+  - US_United States_trojan_1012
+  - US_United States_ss_1016
+  - US_United States_vmess_1017
   - US_United States_vmess_1021
-  - US_United States_trojan_1025
+  - US_United States_vmess_1022
   - US_United States_trojan_1026
-  - US_United States_ss_1111
-  - US_United States_trojan_1116
-  - US_United States_trojan_1122
+  - US_United States_trojan_1027
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -182,14 +182,14 @@ proxy-groups:
   proxies:
   - US_United States_hysteria_91
   - US_United States_ss_101
-  - US_United States_vmess_1015
-  - US_United States_vmess_1020
+  - US_United States_trojan_106
+  - US_United States_trojan_1012
+  - US_United States_ss_1016
+  - US_United States_vmess_1017
   - US_United States_vmess_1021
-  - US_United States_trojan_1025
+  - US_United States_vmess_1022
   - US_United States_trojan_1026
-  - US_United States_ss_1111
-  - US_United States_trojan_1116
-  - US_United States_trojan_1122
+  - US_United States_trojan_1027
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
