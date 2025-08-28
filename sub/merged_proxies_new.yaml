@@ -43,32 +43,19 @@ proxies:
   server: 108.129.163.206
   tfo: false
   type: ss
-- name: US_United States_trojan_106
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 3.112.225.166
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: US_United States_trojan_1012
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 40950
-  server: 43.199.63.145
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1016
-  password: GhYEufnq9M9yvgAc1ylvfq
-  port: 18336
-  server: 165.22.61.177
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1017
+  name: US_United States_vmess_104
+  port: 31552
+  server: 38.147.189.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1016
   network: ws
   port: '443'
   server: ssssssssssssfffffffgh.2032.pp.ua
@@ -128,16 +115,6 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1114
-  port: 31552
-  server: 38.147.189.37
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -174,15 +151,12 @@ proxy-groups:
   - DIRECT
   - US_United States_hysteria_91
   - US_United States_ss_101
-  - US_United States_trojan_106
-  - US_United States_trojan_1012
-  - US_United States_ss_1016
-  - US_United States_vmess_1017
+  - US_United States_vmess_104
+  - US_United States_vmess_1016
   - US_United States_vmess_1021
   - US_United States_vmess_1022
   - US_United States_trojan_1026
   - US_United States_trojan_1027
-  - US_United States_vmess_1114
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -193,15 +167,12 @@ proxy-groups:
   proxies:
   - US_United States_hysteria_91
   - US_United States_ss_101
-  - US_United States_trojan_106
-  - US_United States_trojan_1012
-  - US_United States_ss_1016
-  - US_United States_vmess_1017
+  - US_United States_vmess_104
+  - US_United States_vmess_1016
   - US_United States_vmess_1021
   - US_United States_vmess_1022
   - US_United States_trojan_1026
   - US_United States_trojan_1027
-  - US_United States_vmess_1114
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
