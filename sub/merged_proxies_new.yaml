@@ -128,6 +128,16 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1114
+  port: 31552
+  server: 38.147.189.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -172,6 +182,7 @@ proxy-groups:
   - US_United States_vmess_1022
   - US_United States_trojan_1026
   - US_United States_trojan_1027
+  - US_United States_vmess_1114
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -190,6 +201,7 @@ proxy-groups:
   - US_United States_vmess_1022
   - US_United States_trojan_1026
   - US_United States_trojan_1027
+  - US_United States_vmess_1114
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
