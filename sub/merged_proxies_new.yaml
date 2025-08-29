@@ -45,33 +45,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_104
-  port: 31552
-  server: 38.147.189.37
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1016
-  network: ws
-  port: '443'
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  servername: ssssssssssssfffffffgh.2032.pp.ua
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1021
+  name: US_United States_vmess_1020
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -79,21 +53,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1022
-  network: kcp
-  port: '37257'
-  server: 47.74.57.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: US_United States_trojan_1026
+- name: US_United States_trojan_1025
   network: ws
   password: tg-fq521free
   port: 443
-  server: 216.24.57.30
+  server: 198.62.62.67
   skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
@@ -102,11 +66,11 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: US_United States_trojan_1027
+- name: US_United States_trojan_1026
   network: ws
   password: tg-fq521free
   port: 443
-  server: 198.62.62.67
+  server: 216.24.57.30
   skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
@@ -151,12 +115,9 @@ proxy-groups:
   - DIRECT
   - US_United States_hysteria_91
   - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_vmess_1016
-  - US_United States_vmess_1021
-  - US_United States_vmess_1022
+  - US_United States_vmess_1020
+  - US_United States_trojan_1025
   - US_United States_trojan_1026
-  - US_United States_trojan_1027
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -167,12 +128,9 @@ proxy-groups:
   proxies:
   - US_United States_hysteria_91
   - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_vmess_1016
-  - US_United States_vmess_1021
-  - US_United States_vmess_1022
+  - US_United States_vmess_1020
+  - US_United States_trojan_1025
   - US_United States_trojan_1026
-  - US_United States_trojan_1027
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
