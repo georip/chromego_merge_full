@@ -79,6 +79,13 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 18.195.55.29
+  tfo: false
+  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -118,6 +125,7 @@ proxy-groups:
   - US_United States_vmess_1020
   - US_United States_trojan_1025
   - US_United States_trojan_1026
+  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -131,6 +139,7 @@ proxy-groups:
   - US_United States_vmess_1020
   - US_United States_trojan_1025
   - US_United States_trojan_1026
+  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
