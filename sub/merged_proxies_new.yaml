@@ -53,6 +53,33 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1114
+  port: 51571
+  server: 38.147.188.96
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1128
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- cipher: aes-256-cfb
+  name: US_United States_ss_1131
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
+  tfo: false
+  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -90,6 +117,9 @@ proxy-groups:
   - US_United States_hysteria_91
   - US_United States_ss_101
   - US_United States_vmess_1020
+  - US_United States_vmess_1114
+  - US_United States_vmess_1128
+  - US_United States_ss_1131
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -101,6 +131,9 @@ proxy-groups:
   - US_United States_hysteria_91
   - US_United States_ss_101
   - US_United States_vmess_1020
+  - US_United States_vmess_1114
+  - US_United States_vmess_1128
+  - US_United States_ss_1131
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
