@@ -80,6 +80,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1114
+  port: 25013
+  server: 38.147.188.160
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e90bfc71-1a0a-43e8-9272-6be036e9d88e
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -120,6 +130,7 @@ proxy-groups:
   - US_United States_vmess_1018
   - US_United States_ss_1021
   - US_United States_vmess_1024
+  - US_United States_vmess_1114
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -134,6 +145,7 @@ proxy-groups:
   - US_United States_vmess_1018
   - US_United States_ss_1021
   - US_United States_vmess_1024
+  - US_United States_vmess_1114
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
