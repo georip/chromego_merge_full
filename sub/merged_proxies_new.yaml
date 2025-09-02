@@ -36,62 +36,6 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
-  name: US_United States_ss_101
-  password: amazonskr05
-  port: 443
-  server: 18.195.55.29
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_104
-  port: 25013
-  server: 38.147.188.160
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e90bfc71-1a0a-43e8-9272-6be036e9d88e
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1023
-  network: kcp
-  port: '28590'
-  server: 47.239.183.87
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- name: US_United States_trojan_1027
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 209.94.90.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: US_United States_trojan_1117
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: xx.avxqx.cn
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: US_United States_trojan_1122
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: xx.baku7.com
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -127,12 +71,6 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_hysteria_91
-  - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_vmess_1023
-  - US_United States_trojan_1027
-  - US_United States_trojan_1117
-  - US_United States_trojan_1122
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -142,12 +80,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_hysteria_91
-  - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_vmess_1023
-  - US_United States_trojan_1027
-  - US_United States_trojan_1117
-  - US_United States_trojan_1122
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
