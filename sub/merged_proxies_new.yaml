@@ -25,17 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: US_United States_hysteria_91
-  type: hysteria
-  server: 208.87.243.151
-  port: 38845
-  auth_str: dongtaiwang.com
-  alpn:
-  - h3
-  sni: www.bing.com
-  skip-cert-verify: true
-  up: 11 Mbps
-  down: 55 Mbps
 - cipher: aes-256-cfb
   name: US_United States_ss_101
   password: amazonskr05
@@ -46,14 +35,14 @@ proxies:
 - alterId: 0
   cipher: auto
   name: US_United States_vmess_104
-  port: 47405
-  server: 38.147.188.96
+  port: 51697
+  server: 38.147.188.160
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 84513b8e-2aad-4151-956e-09593c5f107c
-- name: US_United States_trojan_1012
+  uuid: 22babdc6-5437-4de0-b3a9-67c005a19e11
+- name: US_United States_trojan_1014
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4613
@@ -63,7 +52,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1022
+  name: US_United States_vmess_1023
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -71,20 +60,20 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- name: US_United States_trojan_1028
+- name: US_United States_trojan_1032
   network: ws
-  password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
+  password: trojan
   port: 443
-  server: aio.proxybox.dpdns.org
+  server: 104.24.57.5
   skip-cert-verify: false
-  sni: aio.proxybox.dpdns.org
+  sni: azadnet2-dl4.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: aio.proxybox.dpdns.org
-    path: /188.34.160.97-2053
-- name: US_United States_trojan_1029
+      Host: azadnet2-dl4.pages.dev
+    path: /?ed=2560
+- name: US_United States_trojan_1033
   network: ws
   password: slch2024
   port: 2096
@@ -97,11 +86,24 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1031
+- name: US_United States_trojan_1035
   network: ws
   password: slch2024
   port: 2096
   server: 199.68.156.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: US_United States_trojan_1036
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 216.24.57.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -144,14 +146,14 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_hysteria_91
   - US_United States_ss_101
   - US_United States_vmess_104
-  - US_United States_trojan_1012
-  - US_United States_vmess_1022
-  - US_United States_trojan_1028
-  - US_United States_trojan_1029
-  - US_United States_trojan_1031
+  - US_United States_trojan_1014
+  - US_United States_vmess_1023
+  - US_United States_trojan_1032
+  - US_United States_trojan_1033
+  - US_United States_trojan_1035
+  - US_United States_trojan_1036
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -160,14 +162,14 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_hysteria_91
   - US_United States_ss_101
   - US_United States_vmess_104
-  - US_United States_trojan_1012
-  - US_United States_vmess_1022
-  - US_United States_trojan_1028
-  - US_United States_trojan_1029
-  - US_United States_trojan_1031
+  - US_United States_trojan_1014
+  - US_United States_vmess_1023
+  - US_United States_trojan_1032
+  - US_United States_trojan_1033
+  - US_United States_trojan_1035
+  - US_United States_trojan_1036
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
