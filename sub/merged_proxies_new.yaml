@@ -112,6 +112,30 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1114
+  port: 15778
+  server: 38.147.188.234
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e4c54f8f-78bd-439d-8365-28f261078962
+- name: US_United States_trojan_1115
+  password: 253bc477d4e43c209f2d427272968280
+  port: 441
+  server: 18.162.156.99
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: US_United States_trojan_1116
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 18.162.147.157
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -154,6 +178,9 @@ proxy-groups:
   - US_United States_trojan_1033
   - US_United States_trojan_1035
   - US_United States_trojan_1036
+  - US_United States_vmess_1114
+  - US_United States_trojan_1115
+  - US_United States_trojan_1116
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -170,6 +197,9 @@ proxy-groups:
   - US_United States_trojan_1033
   - US_United States_trojan_1035
   - US_United States_trojan_1036
+  - US_United States_vmess_1114
+  - US_United States_trojan_1115
+  - US_United States_trojan_1116
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
