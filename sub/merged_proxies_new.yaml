@@ -35,14 +35,22 @@ proxies:
 - name: US_United States_trojan_1012
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 13345
+  port: 1924
   server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: US_United States_trojan_1013
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3957
+  server: 43.198.153.8
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1021
+  name: US_United States_vmess_1019
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -50,7 +58,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- name: US_United States_trojan_1047
+- name: US_United States_trojan_1045
   network: ws
   password: slch2024
   port: 2096
@@ -63,7 +71,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1048
+- name: US_United States_trojan_1046
   network: ws
   password: slch2024
   port: 2096
@@ -76,7 +84,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1049
+- name: US_United States_trojan_1047
   network: ws
   password: slch2024
   port: 2096
@@ -89,7 +97,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1051
+- name: US_United States_trojan_1049
   network: ws
   password: slch2024
   port: 2096
@@ -102,7 +110,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1052
+- name: US_United States_trojan_1050
   network: ws
   password: slch2024
   port: 2096
@@ -115,7 +123,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1053
+- name: US_United States_trojan_1051
   network: ws
   password: slch2024
   port: 2096
@@ -128,7 +136,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1055
+- name: US_United States_trojan_1053
   network: ws
   password: slch2024
   port: 2096
@@ -141,14 +149,6 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1123
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3957
-  server: 43.198.153.8
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -185,15 +185,15 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_trojan_1012
-  - US_United States_vmess_1021
+  - US_United States_trojan_1013
+  - US_United States_vmess_1019
+  - US_United States_trojan_1045
+  - US_United States_trojan_1046
   - US_United States_trojan_1047
-  - US_United States_trojan_1048
   - US_United States_trojan_1049
+  - US_United States_trojan_1050
   - US_United States_trojan_1051
-  - US_United States_trojan_1052
   - US_United States_trojan_1053
-  - US_United States_trojan_1055
-  - US_United States_trojan_1123
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -204,15 +204,15 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_trojan_1012
-  - US_United States_vmess_1021
+  - US_United States_trojan_1013
+  - US_United States_vmess_1019
+  - US_United States_trojan_1045
+  - US_United States_trojan_1046
   - US_United States_trojan_1047
-  - US_United States_trojan_1048
   - US_United States_trojan_1049
+  - US_United States_trojan_1050
   - US_United States_trojan_1051
-  - US_United States_trojan_1052
   - US_United States_trojan_1053
-  - US_United States_trojan_1055
-  - US_United States_trojan_1123
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
