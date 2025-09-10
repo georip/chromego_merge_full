@@ -29,13 +29,15 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 18.195.55.29
+  server: 51.21.249.115
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: US_United States_ss_106
   password: amazongreatvpn
   port: 16888
-  server: 18.163.165.61
+  server: 43.199.230.110
+  tfo: false
   type: ss
 - name: US_United States_trojan_107
   network: tcp
@@ -57,9 +59,10 @@ proxies:
   name: US_United States_ss_1015
   password: amazongreatvpn
   port: 16888
-  server: 3.115.20.29
+  server: 35.73.224.122
+  tfo: false
   type: ss
-- name: US_United States_trojan_1021
+- name: US_United States_trojan_1022
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 18233
@@ -69,7 +72,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1022
+  name: US_United States_vmess_1023
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -77,7 +80,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- name: US_United States_trojan_1071
+- name: US_United States_trojan_1072
   network: ws
   password: slch2024
   port: 2096
@@ -90,7 +93,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇮🇷ShadowProxy66
-- name: US_United States_trojan_1074
+- name: US_United States_trojan_1075
   network: ws
   password: slch2024
   port: 2096
@@ -103,7 +106,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram
-- name: US_United States_trojan_1075
+- name: US_United States_trojan_1076
   network: ws
   password: slch2024
   port: 2096
@@ -116,7 +119,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1076
+- name: US_United States_trojan_1077
   network: ws
   password: slch2024
   port: 2096
@@ -129,7 +132,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram
-- name: US_United States_trojan_1078
+- name: US_United States_trojan_1079
   network: ws
   password: slch2024
   port: 2096
@@ -142,7 +145,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram
-- name: US_United States_trojan_1080
+- name: US_United States_trojan_1081
   network: ws
   password: slch2024
   port: 2096
@@ -155,7 +158,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1082
+- name: US_United States_trojan_1083
   network: ws
   password: slch2024
   port: 2096
@@ -168,7 +171,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1084
+- name: US_United States_trojan_1085
   network: ws
   password: slch2024
   port: 2096
@@ -181,7 +184,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: US_United States_trojan_1085
+- name: US_United States_trojan_1086
   network: ws
   password: slch2024
   port: 2096
@@ -194,27 +197,6 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 51.21.249.115
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: US_United States_ss_1116
-  password: amazongreatvpn
-  port: 16888
-  server: 43.199.230.110
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: US_United States_ss_1125
-  password: amazongreatvpn
-  port: 16888
-  server: 35.73.224.122
-  tfo: false
-  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -254,20 +236,17 @@ proxy-groups:
   - US_United States_trojan_107
   - US_United States_trojan_1013
   - US_United States_ss_1015
-  - US_United States_trojan_1021
-  - US_United States_vmess_1022
-  - US_United States_trojan_1071
-  - US_United States_trojan_1074
+  - US_United States_trojan_1022
+  - US_United States_vmess_1023
+  - US_United States_trojan_1072
   - US_United States_trojan_1075
   - US_United States_trojan_1076
-  - US_United States_trojan_1078
-  - US_United States_trojan_1080
-  - US_United States_trojan_1082
-  - US_United States_trojan_1084
+  - US_United States_trojan_1077
+  - US_United States_trojan_1079
+  - US_United States_trojan_1081
+  - US_United States_trojan_1083
   - US_United States_trojan_1085
-  - US_United States_ss_1111
-  - US_United States_ss_1116
-  - US_United States_ss_1125
+  - US_United States_trojan_1086
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -281,20 +260,17 @@ proxy-groups:
   - US_United States_trojan_107
   - US_United States_trojan_1013
   - US_United States_ss_1015
-  - US_United States_trojan_1021
-  - US_United States_vmess_1022
-  - US_United States_trojan_1071
-  - US_United States_trojan_1074
+  - US_United States_trojan_1022
+  - US_United States_vmess_1023
+  - US_United States_trojan_1072
   - US_United States_trojan_1075
   - US_United States_trojan_1076
-  - US_United States_trojan_1078
-  - US_United States_trojan_1080
-  - US_United States_trojan_1082
-  - US_United States_trojan_1084
+  - US_United States_trojan_1077
+  - US_United States_trojan_1079
+  - US_United States_trojan_1081
+  - US_United States_trojan_1083
   - US_United States_trojan_1085
-  - US_United States_ss_1111
-  - US_United States_ss_1116
-  - US_United States_ss_1125
+  - US_United States_trojan_1086
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
