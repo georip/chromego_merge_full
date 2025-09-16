@@ -74,6 +74,14 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- name: US_United States_trojan_1026
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: fr.viefast.net
+  skip-cert-verify: true
+  sni: csapp.catch.net.tw
+  type: trojan
+  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -114,6 +122,7 @@ proxy-groups:
   - US_United States_trojan_1012
   - US_United States_ss_1014
   - US_United States_vmess_1023
+  - US_United States_trojan_1026
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -128,6 +137,7 @@ proxy-groups:
   - US_United States_trojan_1012
   - US_United States_ss_1014
   - US_United States_vmess_1023
+  - US_United States_trojan_1026
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
