@@ -32,18 +32,36 @@ proxies:
   server: 51.21.249.115
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_104
+  port: 21201
+  server: 149.104.15.178
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
 - cipher: aes-256-gcm
   name: US_United States_ss_106
   password: amazongreatvpn
   port: 16888
-  server: 16.162.87.199
+  server: 43.199.87.121
   tfo: false
   type: ss
+- name: US_United States_trojan_1012
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 133
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
 - cipher: aes-256-gcm
-  name: US_United States_ss_1015
+  name: US_United States_ss_1014
   password: amazongreatvpn
   port: 16888
-  server: 57.181.174.7
+  server: 57.183.17.7
   tfo: false
   type: ss
 - alterId: 0
@@ -91,8 +109,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
+  - US_United States_vmess_104
   - US_United States_ss_106
-  - US_United States_ss_1015
+  - US_United States_trojan_1012
+  - US_United States_ss_1014
   - US_United States_vmess_1023
   - Unknown_reality_0
   - Unknown_reality_3
@@ -103,8 +123,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
+  - US_United States_vmess_104
   - US_United States_ss_106
-  - US_United States_ss_1015
+  - US_United States_trojan_1012
+  - US_United States_ss_1014
   - US_United States_vmess_1023
   - Unknown_reality_0
   - Unknown_reality_3
