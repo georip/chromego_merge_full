@@ -84,19 +84,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 79f0cb97-d631-493e-84a1-82a0576fa952
-- name: US_United States_trojan_1137
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -138,7 +125,6 @@ proxy-groups:
   - US_United States_trojan_1014
   - US_United States_vmess_1024
   - US_United States_vmess_1025
-  - US_United States_trojan_1137
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -154,7 +140,6 @@ proxy-groups:
   - US_United States_trojan_1014
   - US_United States_vmess_1024
   - US_United States_vmess_1025
-  - US_United States_trojan_1137
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
