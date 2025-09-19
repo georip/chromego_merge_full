@@ -66,6 +66,27 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- name: US_United States_trojan_1030
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  skip-cert-verify: true
+  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1031
+  network: ws
+  password: juzi
+  port: 443
+  server: 154.29.155.249
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -105,6 +126,8 @@ proxy-groups:
   - US_United States_ss_106
   - US_United States_ss_1013
   - US_United States_vmess_1023
+  - US_United States_trojan_1030
+  - US_United States_trojan_1031
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -118,6 +141,8 @@ proxy-groups:
   - US_United States_ss_106
   - US_United States_ss_1013
   - US_United States_vmess_1023
+  - US_United States_trojan_1030
+  - US_United States_trojan_1031
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
