@@ -29,7 +29,7 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 51.21.249.115
+  server: 13.61.188.86
   tfo: false
   type: ss
 - alterId: 0
@@ -42,15 +42,32 @@ proxies:
   tls: false
   type: vmess
   uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
-- cipher: aes-256-gcm
-  name: US_United States_ss_106
-  password: amazongreatvpn
-  port: 16888
-  server: 54.46.38.22
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_108
+  network: http
+  port: 25119
+  server: 38.147.188.25
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 361f1769-cac1-4dd1-adca-92592929b3de
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_109
+  network: http
+  port: 28210
+  server: 38.147.188.53
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b738a6b6-7b7d-41a9-87a5-f246256c5c95
 - cipher: aes-256-gcm
-  name: US_United States_ss_1013
+  name: US_United States_ss_1016
   password: amazongreatvpn
   port: 16888
   server: 3.115.88.171
@@ -58,7 +75,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1023
+  name: US_United States_vmess_1030
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -66,7 +83,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- name: US_United States_trojan_1030
+- name: US_United States_trojan_1037
   password: installshield
   port: 8443
   server: 38.180.249.177
@@ -74,7 +91,7 @@ proxies:
   sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   type: trojan
   udp: true
-- name: US_United States_trojan_1031
+- name: US_United States_trojan_1038
   network: ws
   password: juzi
   port: 443
@@ -87,13 +104,6 @@ proxies:
     headers:
       Host: juzi8186-sr1.pages.dev
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 13.61.188.86
-  tfo: false
-  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -130,12 +140,12 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_vmess_104
-  - US_United States_ss_106
-  - US_United States_ss_1013
-  - US_United States_vmess_1023
-  - US_United States_trojan_1030
-  - US_United States_trojan_1031
-  - US_United States_ss_1111
+  - US_United States_vmess_108
+  - US_United States_vmess_109
+  - US_United States_ss_1016
+  - US_United States_vmess_1030
+  - US_United States_trojan_1037
+  - US_United States_trojan_1038
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -146,12 +156,12 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_vmess_104
-  - US_United States_ss_106
-  - US_United States_ss_1013
-  - US_United States_vmess_1023
-  - US_United States_trojan_1030
-  - US_United States_trojan_1031
-  - US_United States_ss_1111
+  - US_United States_vmess_108
+  - US_United States_vmess_109
+  - US_United States_ss_1016
+  - US_United States_vmess_1030
+  - US_United States_trojan_1037
+  - US_United States_trojan_1038
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
