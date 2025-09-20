@@ -87,6 +87,13 @@ proxies:
     headers:
       Host: juzi8186-sr1.pages.dev
     path: /?ed=2560
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 13.61.188.86
+  tfo: false
+  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -128,6 +135,7 @@ proxy-groups:
   - US_United States_vmess_1023
   - US_United States_trojan_1030
   - US_United States_trojan_1031
+  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -143,6 +151,7 @@ proxy-groups:
   - US_United States_vmess_1023
   - US_United States_trojan_1030
   - US_United States_trojan_1031
+  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
