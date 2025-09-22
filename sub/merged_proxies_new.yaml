@@ -42,50 +42,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
-- name: US_United States_trojan_1025
-  password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
-  port: 18332
-  server: blength.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1026
-  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-  port: 28333
-  server: connect.appagent.net
-  skip-cert-verify: true
-  sni: connect.appagent.net
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1027
-  password: CZC2eFReAwaON4nzF3zY7XC9nB3IqIaT3Eaa8S7D3B5Y3XuSEp8Z0ygl08S3SSxy6wDRC
-  port: 28332
-  server: blender.appagent.net
-  skip-cert-verify: true
-  sni: blender.appagent.net
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1029
-  password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
-  port: 28332
-  server: bolster.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1030
-  password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
-  port: 443
-  server: metallic.isquirrel.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1031
-  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
-  port: 28334
-  server: pricey.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -122,12 +78,6 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_vmess_1022
-  - US_United States_trojan_1025
-  - US_United States_trojan_1026
-  - US_United States_trojan_1027
-  - US_United States_trojan_1029
-  - US_United States_trojan_1030
-  - US_United States_trojan_1031
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -138,12 +88,6 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_vmess_1022
-  - US_United States_trojan_1025
-  - US_United States_trojan_1026
-  - US_United States_trojan_1027
-  - US_United States_trojan_1029
-  - US_United States_trojan_1030
-  - US_United States_trojan_1031
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
