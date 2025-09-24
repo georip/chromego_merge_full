@@ -25,6 +25,68 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- cipher: aes-256-cfb
+  name: US_United States_ss_101
+  password: amazonskr05
+  port: 443
+  server: 18.159.61.225
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1021
+  network: kcp
+  port: '21523'
+  server: 47.242.215.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6c894a3-f326-4807-9270-f236da4120c1
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 18.185.56.207
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1118
+  network: tcp
+  password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
+  port: 16327
+  server: auto.wgnmdgfw.com
+  skip-cert-verify: false
+  sni: eplcgame.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1132
+  network: kcp
+  port: '5043'
+  server: 47.242.186.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1133
+  network: tcp
+  port: '24939'
+  server: 38.147.188.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 928408df-3114-4b57-b852-f8d120ce056c
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1134
+  network: kcp
+  port: '5106'
+  server: 47.74.14.30
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cc84891-1657-4f71-97d0-287df565820e
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -59,6 +121,13 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - US_United States_ss_101
+  - US_United States_vmess_1021
+  - US_United States_ss_1111
+  - US_United States_trojan_1118
+  - US_United States_vmess_1132
+  - US_United States_vmess_1133
+  - US_United States_vmess_1134
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -67,6 +136,13 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - US_United States_ss_101
+  - US_United States_vmess_1021
+  - US_United States_ss_1111
+  - US_United States_trojan_1118
+  - US_United States_vmess_1132
+  - US_United States_vmess_1133
+  - US_United States_vmess_1134
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
