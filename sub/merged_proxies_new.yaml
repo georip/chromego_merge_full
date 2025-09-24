@@ -29,27 +29,22 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 18.159.61.225
+  server: 18.185.56.207
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1021
-  network: kcp
-  port: '21523'
-  server: 47.242.215.154
-  servername: ''
+  name: US_United States_vmess_108
+  network: http
+  port: 24939
+  server: 38.147.188.112
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: f6c894a3-f326-4807-9270-f236da4120c1
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 18.185.56.207
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1118
+  udp: true
+  uuid: 928408df-3114-4b57-b852-f8d120ce056c
+- name: US_United States_trojan_109
   network: tcp
   password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
   port: 16327
@@ -59,7 +54,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1132
+  name: US_United States_vmess_1023
   network: kcp
   port: '5043'
   server: 47.242.186.1
@@ -69,17 +64,7 @@ proxies:
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1133
-  network: tcp
-  port: '24939'
-  server: 38.147.188.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 928408df-3114-4b57-b852-f8d120ce056c
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1134
+  name: US_United States_vmess_1025
   network: kcp
   port: '5106'
   server: 47.74.14.30
@@ -122,12 +107,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_vmess_1021
-  - US_United States_ss_1111
-  - US_United States_trojan_1118
-  - US_United States_vmess_1132
-  - US_United States_vmess_1133
-  - US_United States_vmess_1134
+  - US_United States_vmess_108
+  - US_United States_trojan_109
+  - US_United States_vmess_1023
+  - US_United States_vmess_1025
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -137,12 +120,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_vmess_1021
-  - US_United States_ss_1111
-  - US_United States_trojan_1118
-  - US_United States_vmess_1132
-  - US_United States_vmess_1133
-  - US_United States_vmess_1134
+  - US_United States_vmess_108
+  - US_United States_trojan_109
+  - US_United States_vmess_1023
+  - US_United States_vmess_1025
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
