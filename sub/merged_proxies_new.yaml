@@ -72,6 +72,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 54.72.237.123
+  tfo: false
+  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -111,6 +118,7 @@ proxy-groups:
   - US_United States_trojan_109
   - US_United States_vmess_1023
   - US_United States_vmess_1025
+  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -124,6 +132,7 @@ proxy-groups:
   - US_United States_trojan_109
   - US_United States_vmess_1023
   - US_United States_vmess_1025
+  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
