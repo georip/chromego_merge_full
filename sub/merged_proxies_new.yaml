@@ -32,17 +32,9 @@ proxies:
   server: 54.72.237.123
   tfo: false
   type: ss
-- name: US_United States_trojan_107
-  network: tcp
-  password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
-  port: 16327
-  server: auto.wgnmdgfw.com
-  skip-cert-verify: false
-  sni: eplcgame.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1021
+  name: US_United States_vmess_1019
   network: kcp
   port: '5043'
   server: 47.242.186.1
@@ -52,7 +44,7 @@ proxies:
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1022
+  name: US_United States_vmess_1020
   network: kcp
   port: '5106'
   server: 47.74.14.30
@@ -60,6 +52,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
+- name: US_United States_trojan_1023
+  password: installshield
+  port: 8443
+  server: 23.162.152.30
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -95,9 +94,9 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_107
-  - US_United States_vmess_1021
-  - US_United States_vmess_1022
+  - US_United States_vmess_1019
+  - US_United States_vmess_1020
+  - US_United States_trojan_1023
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -107,9 +106,9 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_107
-  - US_United States_vmess_1021
-  - US_United States_vmess_1022
+  - US_United States_vmess_1019
+  - US_United States_vmess_1020
+  - US_United States_trojan_1023
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
