@@ -34,7 +34,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1014
+  name: US_United States_vmess_1015
   network: kcp
   port: '5043'
   server: 47.242.186.1
@@ -45,16 +45,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: US_United States_vmess_1016
-  network: kcp
-  port: '5106'
-  server: 47.74.14.30
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1126
   network: kcp
   port: '30391'
   server: 54.168.151.169
@@ -97,9 +87,8 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_vmess_1014
+  - US_United States_vmess_1015
   - US_United States_vmess_1016
-  - US_United States_vmess_1126
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -109,9 +98,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_vmess_1014
+  - US_United States_vmess_1015
   - US_United States_vmess_1016
-  - US_United States_vmess_1126
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
