@@ -52,6 +52,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1126
+  network: kcp
+  port: '30391'
+  server: 54.168.151.169
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c977388d-4550-4135-bbc6-0199daa76352
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -89,6 +99,7 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_1014
   - US_United States_vmess_1016
+  - US_United States_vmess_1126
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -100,6 +111,7 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_1014
   - US_United States_vmess_1016
+  - US_United States_vmess_1126
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
