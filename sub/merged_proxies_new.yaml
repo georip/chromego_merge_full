@@ -52,6 +52,29 @@ proxies:
   tls: false
   type: vmess
   uuid: c977388d-4550-4135-bbc6-0199daa76352
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1114
+  network: ws
+  port: 31469
+  server: 149.30.232.103
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1127
+  port: 57518
+  server: 23.236.68.161
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -89,6 +112,8 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_1015
   - US_United States_vmess_1016
+  - US_United States_vmess_1114
+  - US_United States_vmess_1127
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -100,6 +125,8 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_1015
   - US_United States_vmess_1016
+  - US_United States_vmess_1114
+  - US_United States_vmess_1127
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
