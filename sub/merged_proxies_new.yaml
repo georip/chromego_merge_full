@@ -25,59 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- cipher: aes-256-cfb
-  name: US_United States_ss_101
-  password: amazonskr05
-  port: 443
-  server: 3.250.25.159
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_104
-  network: ws
-  port: '31469'
-  server: 149.30.232.103
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1017
-  port: 57518
-  server: 23.236.68.161
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1019
-  network: kcp
-  port: '5043'
-  server: 47.242.186.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1020
-  network: kcp
-  port: '20932'
-  server: 43.207.83.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -112,11 +59,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_vmess_1017
-  - US_United States_vmess_1019
-  - US_United States_vmess_1020
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -125,11 +67,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_vmess_1017
-  - US_United States_vmess_1019
-  - US_United States_vmess_1020
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
