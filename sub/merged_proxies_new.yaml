@@ -52,6 +52,19 @@ proxies:
   tls: false
   type: vmess
   uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+- name: US_United States_trojan_1016
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -89,6 +102,7 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_1013
   - US_United States_vmess_1014
+  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -100,6 +114,7 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_1013
   - US_United States_vmess_1014
+  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
