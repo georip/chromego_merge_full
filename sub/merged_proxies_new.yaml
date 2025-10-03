@@ -29,42 +29,9 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 3.107.151.161
+  server: 34.245.185.129
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1013
-  network: kcp
-  port: '54483'
-  server: 13.231.211.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dc2fd6a5-36fe-4b06-8b31-a5c5d26add98
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1014
-  network: kcp
-  port: '20932'
-  server: 43.207.83.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
-- name: US_United States_trojan_1016
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs?ed=2560
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -100,9 +67,6 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_vmess_1013
-  - US_United States_vmess_1014
-  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -112,9 +76,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_vmess_1013
-  - US_United States_vmess_1014
-  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
