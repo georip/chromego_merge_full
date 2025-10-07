@@ -32,6 +32,19 @@ proxies:
   server: 34.245.185.129
   tfo: false
   type: ss
+- name: US_United States_trojan_1131
+  network: ws
+  password: YwuvGJk36B
+  port: 2053
+  server: creativecommons.org
+  skip-cert-verify: false
+  sni: kotlet.arshiacomplus.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kotlet.arshiacomplus.dpdns.org
+    path: /yamtekodasayahhh
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -67,6 +80,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
+  - US_United States_trojan_1131
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -76,6 +90,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
+  - US_United States_trojan_1131
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
