@@ -32,19 +32,28 @@ proxies:
   server: 34.245.185.129
   tfo: false
   type: ss
-- name: US_United States_trojan_1021
+- name: US_United States_trojan_1011
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 38.180.249.152
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1019
   network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  skip-cert-verify: false
-  sni: kotlet.arshiacomplus.dpdns.org
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kotlet.arshiacomplus.dpdns.org
-    path: /yamtekodasayahhh
+      Host: nodes.830901.xyz
+    path: /?ed=2560
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -80,7 +89,8 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_1021
+  - US_United States_trojan_1011
+  - US_United States_trojan_1019
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -90,7 +100,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_1021
+  - US_United States_trojan_1011
+  - US_United States_trojan_1019
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
