@@ -71,6 +71,14 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /?ed=2560
+- name: US_United States_trojan_1124
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 23.227.194.19
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -110,6 +118,7 @@ proxy-groups:
   - US_United States_trojan_1014
   - US_United States_trojan_1023
   - US_United States_trojan_1025
+  - US_United States_trojan_1124
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -123,6 +132,7 @@ proxy-groups:
   - US_United States_trojan_1014
   - US_United States_trojan_1023
   - US_United States_trojan_1025
+  - US_United States_trojan_1124
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
