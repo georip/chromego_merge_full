@@ -32,46 +32,7 @@ proxies:
   server: 34.245.185.129
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_104
-  port: 34310
-  server: 149.104.15.178
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c
 - name: US_United States_trojan_1014
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.234
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1023
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 38.180.249.152
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1025
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: US_United States_trojan_1124
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -79,6 +40,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -114,11 +76,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_vmess_104
   - US_United States_trojan_1014
-  - US_United States_trojan_1023
-  - US_United States_trojan_1025
-  - US_United States_trojan_1124
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -128,11 +86,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_vmess_104
   - US_United States_trojan_1014
-  - US_United States_trojan_1023
-  - US_United States_trojan_1025
-  - US_United States_trojan_1124
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
