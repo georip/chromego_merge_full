@@ -29,23 +29,16 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 34.245.185.129
+  server: 13.39.112.103
   tfo: false
   type: ss
-- name: US_United States_trojan_1023
+- name: US_United States_trojan_1020
   password: installshield
   port: 8443
   server: 38.180.106.124
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
-  server: 13.39.112.103
-  tfo: false
-  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -81,8 +74,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_1023
-  - US_United States_ss_1111
+  - US_United States_trojan_1020
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -92,8 +84,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_1023
-  - US_United States_ss_1111
+  - US_United States_trojan_1020
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
