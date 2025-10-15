@@ -42,11 +42,12 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: US_United States_trojan_1020
-  password: installshield
-  port: 8443
-  server: 38.180.106.124
+- name: US_United States_trojan_1019
+  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
+  port: 26004
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
   skip-cert-verify: true
+  sni: www.bilibili.com
   type: trojan
   udp: true
 - name: Unknown_reality_0
@@ -85,7 +86,7 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_vmess_1013
-  - US_United States_trojan_1020
+  - US_United States_trojan_1019
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -96,7 +97,7 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_vmess_1013
-  - US_United States_trojan_1020
+  - US_United States_trojan_1019
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
