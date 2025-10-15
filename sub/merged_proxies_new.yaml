@@ -39,6 +39,16 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1123
+  port: 22433
+  server: 47.245.106.193
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -75,6 +85,7 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_trojan_1020
+  - US_United States_vmess_1123
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -85,6 +96,7 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_trojan_1020
+  - US_United States_vmess_1123
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
