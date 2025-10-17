@@ -55,6 +55,19 @@ proxies:
   server: 174.138.29.1
   tfo: false
   type: ss
+- name: US_United States_trojan_1021
+  network: ws
+  password: d0728e94-82c2-456b-b5d4-eeab540599df
+  port: 443
+  server: 172.67.192.215
+  skip-cert-verify: false
+  sni: joss.krikkrik.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.krikkrik.xyz
+    path: /Free-VPN-CF-Geo-Project/AE5
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -92,6 +105,7 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_104
   - US_United States_ss_1016
+  - US_United States_trojan_1021
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -103,6 +117,7 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_vmess_104
   - US_United States_ss_1016
+  - US_United States_trojan_1021
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
