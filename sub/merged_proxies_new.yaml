@@ -32,30 +32,7 @@ proxies:
   server: 16.176.178.192
   tfo: false
   type: ss
-- alterId: 0
-  cipher: none
-  name: US_United States_vmess_104
-  network: ws
-  port: '41199'
-  server: 38.55.106.62
-  servername: hk-vmiss-n4.nebulacloud.win
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e18650e9-264b-4bf7-bbce-d846642dcf26
-  ws-opts:
-    headers:
-      Host: hk-vmiss-n4.nebulacloud.win
-    path: /hk-vmiss-n4/getData
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1016
-  password: X2UQXuTGxwxE1ZMaTQwtxS
-  port: 60523
-  server: 174.138.29.1
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1021
+- name: US_United States_trojan_1015
   network: ws
   password: d0728e94-82c2-456b-b5d4-eeab540599df
   port: 443
@@ -103,9 +80,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_ss_1016
-  - US_United States_trojan_1021
+  - US_United States_trojan_1015
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -115,9 +90,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_vmess_104
-  - US_United States_ss_1016
-  - US_United States_trojan_1021
+  - US_United States_trojan_1015
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
