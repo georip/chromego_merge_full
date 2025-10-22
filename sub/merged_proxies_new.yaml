@@ -32,6 +32,16 @@ proxies:
   server: 18.196.23.20
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_104
+  port: 42487
+  server: 38.147.188.110
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f7ca451f-7adf-4af1-858a-196edb1af799
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -67,6 +77,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
+  - US_United States_vmess_104
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -76,6 +87,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
+  - US_United States_vmess_104
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
