@@ -29,26 +29,6 @@ proxies:
   name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 18.170.77.155
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1024
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
-- cipher: aes-256-cfb
-  name: US_United States_ss_1111
-  password: amazonskr05
-  port: 443
   server: 3.66.163.109
   tfo: false
   type: ss
@@ -87,8 +67,6 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_1024
-  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -98,8 +76,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_1024
-  - US_United States_ss_1111
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
