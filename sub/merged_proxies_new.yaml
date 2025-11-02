@@ -32,6 +32,17 @@ proxies:
   server: 3.9.17.198
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1121
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @ripaojiedian)e9e4816:99990
+    mode: tls
+  port: 2377
+  server: 54.64.148.82
+  tfo: false
+  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -67,6 +78,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
+  - US_United States_ss_1121
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -76,6 +88,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
+  - US_United States_ss_1121
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
