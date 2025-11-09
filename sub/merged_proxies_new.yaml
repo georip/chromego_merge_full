@@ -32,6 +32,14 @@ proxies:
   server: 3.9.17.198
   tfo: false
   type: ss
+- name: US_United States_trojan_1024
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.27.162
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -67,6 +75,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
+  - US_United States_trojan_1024
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -76,6 +85,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
+  - US_United States_trojan_1024
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
