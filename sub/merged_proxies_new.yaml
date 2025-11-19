@@ -47,22 +47,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1021
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 108.165.255.5
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1022
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 96.126.190.132
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -100,8 +84,6 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_trojan_1015
   - US_United States_trojan_1017
-  - US_United States_trojan_1021
-  - US_United States_trojan_1022
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -113,8 +95,6 @@ proxy-groups:
   - US_United States_ss_101
   - US_United States_trojan_1015
   - US_United States_trojan_1017
-  - US_United States_trojan_1021
-  - US_United States_trojan_1022
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
