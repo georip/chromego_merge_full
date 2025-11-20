@@ -31,15 +31,7 @@ proxies:
   port: 443
   server: 3.9.17.198
   type: ss
-- name: US_United States_trojan_1015
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 2890
-  server: 52.196.180.54
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1017
+- name: US_United States_trojan_1016
   network: tcp
   password: BxceQaOe
   port: 2773
@@ -82,8 +74,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_1015
-  - US_United States_trojan_1017
+  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -93,8 +84,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_1015
-  - US_United States_trojan_1017
+  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
