@@ -46,6 +46,14 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: US_United States_trojan_1013
+  network: tcp
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 127
+  server: 18.177.138.138
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: US_United States_trojan_1017
   network: tcp
   password: BxceQaOe
@@ -88,14 +96,6 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
-- name: US_United States_trojan_1123
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 127
-  server: 18.177.138.138
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -132,11 +132,11 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_vmess_102
+  - US_United States_trojan_1013
   - US_United States_trojan_1017
   - US_United States_trojan_1020
   - US_United States_trojan_1025
   - US_United States_trojan_1028
-  - US_United States_trojan_1123
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -147,11 +147,11 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_vmess_102
+  - US_United States_trojan_1013
   - US_United States_trojan_1017
   - US_United States_trojan_1020
   - US_United States_trojan_1025
   - US_United States_trojan_1028
-  - US_United States_trojan_1123
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
