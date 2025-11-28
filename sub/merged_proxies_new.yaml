@@ -51,18 +51,12 @@ proxies:
 - name: US_United States_trojan_1016
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 18.183.209.234
+  port: 2173
+  server: 57.180.57.41
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1017
-  password: amazonskr05
-  port: 443
-  server: 107.23.148.46
-  type: ss
-- name: US_United States_trojan_1020
+- name: US_United States_trojan_1019
   network: ws
   password: 29ca24a5-e8aa-4cbd-9bcb-f96aba1d6f15
   port: 443
@@ -75,7 +69,7 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: US_United States_trojan_1021
+- name: US_United States_trojan_1020
   network: ws
   password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
   port: 443
@@ -88,7 +82,7 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
-- name: US_United States_trojan_1027
+- name: US_United States_trojan_1026
   password: telegram-id-privatevpns
   port: 22222
   server: 51.45.12.251
@@ -134,10 +128,9 @@ proxy-groups:
   - US_United States_vmess_1010
   - US_United States_trojan_1013
   - US_United States_trojan_1016
-  - US_United States_ss_1017
+  - US_United States_trojan_1019
   - US_United States_trojan_1020
-  - US_United States_trojan_1021
-  - US_United States_trojan_1027
+  - US_United States_trojan_1026
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -150,10 +143,9 @@ proxy-groups:
   - US_United States_vmess_1010
   - US_United States_trojan_1013
   - US_United States_trojan_1016
-  - US_United States_ss_1017
+  - US_United States_trojan_1019
   - US_United States_trojan_1020
-  - US_United States_trojan_1021
-  - US_United States_trojan_1027
+  - US_United States_trojan_1026
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
