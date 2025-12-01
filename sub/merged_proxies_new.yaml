@@ -31,21 +31,38 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_107
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_107
+  port: 31904
+  server: 47.243.69.126
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
+- name: US_United States_trojan_108
   network: tcp
   password: BxceQaOe
-  port: 1924
-  server: 13.231.194.84
+  port: 2145
+  server: 52.195.176.26
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1012
+- name: US_United States_trojan_1013
   network: tcp
   password: BxceQaOe
-  port: 2752
-  server: 52.199.129.13
+  port: 2673
+  server: 95.40.76.44
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1014
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 18.162.142.242
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: Unknown_reality_0
   type: vless
@@ -82,8 +99,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_107
-  - US_United States_trojan_1012
+  - US_United States_vmess_107
+  - US_United States_trojan_108
+  - US_United States_trojan_1013
+  - US_United States_trojan_1014
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -93,8 +112,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_107
-  - US_United States_trojan_1012
+  - US_United States_vmess_107
+  - US_United States_trojan_108
+  - US_United States_trojan_1013
+  - US_United States_trojan_1014
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
