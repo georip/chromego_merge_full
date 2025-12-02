@@ -66,6 +66,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_1023
+  network: ws
+  password: f42d1b0d-c398-43cb-be37-d739b1477a5d
+  port: 443
+  server: 107.189.3.96
+  skip-cert-verify: false
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/107.189.3.96=443
+- name: US_United States_trojan_1025
+  network: ws
+  password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
+  port: 8443
+  server: 192.227.138.249
+  skip-cert-verify: false
+  sni: joss.gpj4.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj4.web.id
+    path: /Free-VPN-CF-Geo-Project/192.227.138.249=8443
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -105,6 +131,8 @@ proxy-groups:
   - US_United States_trojan_1010
   - US_United States_ss_1013
   - US_United States_trojan_1016
+  - US_United States_trojan_1023
+  - US_United States_trojan_1025
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -118,6 +146,8 @@ proxy-groups:
   - US_United States_trojan_1010
   - US_United States_ss_1013
   - US_United States_trojan_1016
+  - US_United States_trojan_1023
+  - US_United States_trojan_1025
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
