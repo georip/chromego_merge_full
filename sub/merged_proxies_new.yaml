@@ -40,33 +40,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
-- name: US_United States_trojan_1010
+- name: US_United States_trojan_109
   network: tcp
   password: BxceQaOe
   port: 5156
-  server: 52.195.176.26
+  server: 13.115.187.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1013
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: e2322f9:87491
-    mode: tls
-  port: 2377
-  server: 172.237.6.53
-  type: ss
-- name: US_United States_trojan_1016
+- name: US_United States_trojan_1014
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 52.199.79.149
+  port: 2752
+  server: 16.163.138.120
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1023
+- name: US_United States_trojan_1017
+  network: tcp
+  password: BxceQaOe
+  port: 2569
+  server: 43.206.254.28
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1022
   network: ws
   password: f42d1b0d-c398-43cb-be37-d739b1477a5d
   port: 443
@@ -79,7 +77,7 @@ proxies:
     headers:
       Host: joss.gpj4.web.id
     path: /Free-VPN-CF-Geo-Project/107.189.3.96=443
-- name: US_United States_trojan_1025
+- name: US_United States_trojan_1024
   network: ws
   password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
   port: 8443
@@ -128,11 +126,11 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_vmess_107
-  - US_United States_trojan_1010
-  - US_United States_ss_1013
-  - US_United States_trojan_1016
-  - US_United States_trojan_1023
-  - US_United States_trojan_1025
+  - US_United States_trojan_109
+  - US_United States_trojan_1014
+  - US_United States_trojan_1017
+  - US_United States_trojan_1022
+  - US_United States_trojan_1024
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -143,11 +141,11 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_vmess_107
-  - US_United States_trojan_1010
-  - US_United States_ss_1013
-  - US_United States_trojan_1016
-  - US_United States_trojan_1023
-  - US_United States_trojan_1025
+  - US_United States_trojan_109
+  - US_United States_trojan_1014
+  - US_United States_trojan_1017
+  - US_United States_trojan_1022
+  - US_United States_trojan_1024
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
