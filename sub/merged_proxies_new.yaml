@@ -25,7 +25,13 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: US_United States_trojan_1117
+- cipher: aes-256-cfb
+  name: US_United States_ss_101
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- name: US_United States_trojan_107
   network: tcp
   password: BxceQaOe
   port: 5156
@@ -34,7 +40,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1120
+  name: US_United States_ss_1010
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -43,7 +49,7 @@ proxies:
   port: 2377
   server: 172.237.6.53
   type: ss
-- name: US_United States_trojan_1122
+- name: US_United States_trojan_1012
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 443
@@ -51,7 +57,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_1124
+- name: US_United States_trojan_1014
   network: tcp
   password: BxceQaOe
   port: 3579
@@ -59,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1126
+- name: US_United States_trojan_1016
   network: tcp
   password: BxceQaOe
   port: 1866
@@ -67,19 +73,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1131
-  password: 13eb9352-7d04-4523-af91-4d7e84066a95
-  port: 12210
-  server: oss-ydniddsasa-3.7.baidu.jjuu.shrestart.com
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1135
+- name: US_United States_trojan_1021
   password: telegram-id-privatevpns
   port: 22222
-  server: 52.57.238.174
+  server: 15.236.214.251
   skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - name: Unknown_reality_0
@@ -116,13 +115,13 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_trojan_1117
-  - US_United States_ss_1120
-  - US_United States_trojan_1122
-  - US_United States_trojan_1124
-  - US_United States_trojan_1126
-  - US_United States_trojan_1131
-  - US_United States_trojan_1135
+  - US_United States_ss_101
+  - US_United States_trojan_107
+  - US_United States_ss_1010
+  - US_United States_trojan_1012
+  - US_United States_trojan_1014
+  - US_United States_trojan_1016
+  - US_United States_trojan_1021
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -131,13 +130,13 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_trojan_1117
-  - US_United States_ss_1120
-  - US_United States_trojan_1122
-  - US_United States_trojan_1124
-  - US_United States_trojan_1126
-  - US_United States_trojan_1131
-  - US_United States_trojan_1135
+  - US_United States_ss_101
+  - US_United States_trojan_107
+  - US_United States_ss_1010
+  - US_United States_trojan_1012
+  - US_United States_trojan_1014
+  - US_United States_trojan_1016
+  - US_United States_trojan_1021
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
