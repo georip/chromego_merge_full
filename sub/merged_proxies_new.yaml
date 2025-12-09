@@ -31,37 +31,44 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_107
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_107
+  port: 44457
+  server: 47.242.145.160
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
+- name: US_United States_trojan_108
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 52.68.48.114
+  port: 2145
+  server: 54.95.4.90
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_108
+- name: US_United States_trojan_1011
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 1331
-  server: 13.231.156.35
+  port: 3145
+  server: 54.178.25.255
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1010
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: ed92259:137548
-    mode: tls
-  port: 2377
-  server: 172.237.6.53
-  type: ss
 - name: US_United States_trojan_1013
   network: tcp
   password: BxceQaOe
   port: 804
-  server: 3.112.225.115
+  server: 95.40.109.5
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1016
+  network: tcp
+  password: BxceQaOe
+  port: 4569
+  server: 54.95.80.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -100,10 +107,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_107
+  - US_United States_vmess_107
   - US_United States_trojan_108
-  - US_United States_ss_1010
+  - US_United States_trojan_1011
   - US_United States_trojan_1013
+  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -113,10 +121,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_107
+  - US_United States_vmess_107
   - US_United States_trojan_108
-  - US_United States_ss_1010
+  - US_United States_trojan_1011
   - US_United States_trojan_1013
+  - US_United States_trojan_1016
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
