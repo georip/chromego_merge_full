@@ -31,65 +31,31 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_108
+- name: US_United States_trojan_106
+  network: tcp
   password: BxceQaOe
-  port: 48756
-  server: 3.112.242.221
+  port: 5156
+  server: 13.231.191.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1010
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 3093
-  server: 18.179.7.49
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1014
+- name: US_United States_trojan_1012
+  network: tcp
   password: BxceQaOe
-  port: 804
-  server: 16.162.21.116
+  port: 2673
+  server: 95.40.71.25
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1017
-  password: BxceQaOe
-  port: 2173
-  server: 54.238.178.152
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1022
-  network: tcp
-  password: BxceQaOe
-  port: 1924
-  server: 52.195.194.77
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1024
-  network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3093
-  server: 54.238.222.14
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1025
-  network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 507
-  server: 18.183.180.31
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1031
+- name: US_United States_trojan_1015
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 43.198.243.183
+  server: 43.199.188.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1032
+- name: US_United States_trojan_1019
   network: ws
   password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
   port: 8443
@@ -102,7 +68,7 @@ proxies:
     headers:
       Host: cdn-node-oss-61.anycdn.de
     path: /profile/us1
-- name: US_United States_trojan_1033
+- name: US_United States_trojan_1020
   network: ws
   password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
   port: 8443
@@ -150,16 +116,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_108
-  - US_United States_trojan_1010
-  - US_United States_trojan_1014
-  - US_United States_trojan_1017
-  - US_United States_trojan_1022
-  - US_United States_trojan_1024
-  - US_United States_trojan_1025
-  - US_United States_trojan_1031
-  - US_United States_trojan_1032
-  - US_United States_trojan_1033
+  - US_United States_trojan_106
+  - US_United States_trojan_1012
+  - US_United States_trojan_1015
+  - US_United States_trojan_1019
+  - US_United States_trojan_1020
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -169,16 +130,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_108
-  - US_United States_trojan_1010
-  - US_United States_trojan_1014
-  - US_United States_trojan_1017
-  - US_United States_trojan_1022
-  - US_United States_trojan_1024
-  - US_United States_trojan_1025
-  - US_United States_trojan_1031
-  - US_United States_trojan_1032
-  - US_United States_trojan_1033
+  - US_United States_trojan_106
+  - US_United States_trojan_1012
+  - US_United States_trojan_1015
+  - US_United States_trojan_1019
+  - US_United States_trojan_1020
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
