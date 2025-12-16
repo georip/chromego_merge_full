@@ -35,52 +35,48 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 5156
-  server: 13.231.191.82
+  server: 13.113.164.125
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1012
+- name: US_United States_trojan_108
+  network: tcp
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 3169
+  server: 13.231.90.117
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_109
+  network: tcp
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 3145
+  server: 18.179.119.5
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_1011
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 95.40.71.25
+  port: 381
+  server: 43.199.144.199
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1015
+- name: US_United States_trojan_1014
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 43.199.188.28
+  port: 2173
+  server: 16.163.143.132
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1019
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.108
-  skip-cert-verify: false
-  sni: cdn-node-oss-61.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-61.anycdn.de
-    path: /profile/us1
-- name: US_United States_trojan_1020
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.18
-  skip-cert-verify: false
-  sni: cdn-node-oss-62.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-62.anycdn.de
-    path: /profile/us2
+- cipher: aes-128-gcm
+  name: US_United States_ss_1015
+  password: t6d26id0pjzdo3x5wtlf
+  port: 10878
+  server: 69.164.240.83
+  type: ss
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -117,10 +113,11 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_101
   - US_United States_trojan_106
-  - US_United States_trojan_1012
-  - US_United States_trojan_1015
-  - US_United States_trojan_1019
-  - US_United States_trojan_1020
+  - US_United States_trojan_108
+  - US_United States_trojan_109
+  - US_United States_trojan_1011
+  - US_United States_trojan_1014
+  - US_United States_ss_1015
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -131,10 +128,11 @@ proxy-groups:
   proxies:
   - US_United States_ss_101
   - US_United States_trojan_106
-  - US_United States_trojan_1012
-  - US_United States_trojan_1015
-  - US_United States_trojan_1019
-  - US_United States_trojan_1020
+  - US_United States_trojan_108
+  - US_United States_trojan_109
+  - US_United States_trojan_1011
+  - US_United States_trojan_1014
+  - US_United States_ss_1015
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
