@@ -69,34 +69,36 @@ proxies:
   port: 990
   server: 173.234.29.2
   type: ss
-- name: Unknown_reality_0
-  type: vless
-  server: 2001:bc8:32d7:302::13
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+- name: US_United States_trojan_1116
   network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
-- name: Unknown_reality_3
-  type: vless
-  server: 2001:bc8:32d7:302::13
-  port: 34324
-  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  password: BxceQaOe
+  port: 4012
+  server: 54.199.251.85
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1117
   network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dash.cloudflare.com
-  reality-opts:
-    public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
-    short-id: ''
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 3169
+  server: 43.206.213.82
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: rc4-md5
+  name: US_United States_ss_1120
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 172.105.199.111
+  type: ss
+- name: US_United States_trojan_1123
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 54.46.49.15
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -109,8 +111,10 @@ proxy-groups:
   - US_United States_trojan_1011
   - US_United States_trojan_1014
   - US_United States_ss_1015
-  - Unknown_reality_0
-  - Unknown_reality_3
+  - US_United States_trojan_1116
+  - US_United States_trojan_1117
+  - US_United States_ss_1120
+  - US_United States_trojan_1123
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -123,8 +127,10 @@ proxy-groups:
   - US_United States_trojan_1011
   - US_United States_trojan_1014
   - US_United States_ss_1015
-  - Unknown_reality_0
-  - Unknown_reality_3
+  - US_United States_trojan_1116
+  - US_United States_trojan_1117
+  - US_United States_ss_1120
+  - US_United States_trojan_1123
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
