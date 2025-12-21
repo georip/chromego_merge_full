@@ -31,38 +31,51 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_106
+- name: US_United States_trojan_108
   network: tcp
   password: BxceQaOe
   port: 4012
-  server: 13.115.156.232
+  server: 54.248.35.48
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_107
+- name: US_United States_trojan_109
   network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 3093
-  server: 52.194.215.22
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 3169
+  server: 13.114.27.223
   skip-cert-verify: false
   sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1011
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 3.112.190.129
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_1014
   network: tcp
   password: BxceQaOe
-  port: 968
-  server: 18.163.24.54
+  port: 381
+  server: 95.40.79.48
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1017
+  network: tcp
+  password: BxceQaOe
+  port: 4569
+  server: 3.112.30.103
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_1022
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -70,10 +83,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_106
-  - US_United States_trojan_107
-  - US_United States_trojan_1011
+  - US_United States_trojan_108
+  - US_United States_trojan_109
   - US_United States_trojan_1014
+  - US_United States_trojan_1017
+  - US_United States_trojan_1022
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -81,10 +95,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_106
-  - US_United States_trojan_107
-  - US_United States_trojan_1011
+  - US_United States_trojan_108
+  - US_United States_trojan_109
   - US_United States_trojan_1014
+  - US_United States_trojan_1017
+  - US_United States_trojan_1022
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
