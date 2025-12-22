@@ -31,39 +31,45 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_108
+- cipher: aes-256-cfb
+  name: US_United States_ss_103
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
+  type: ss
+- name: US_United States_trojan_107
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 54.248.35.48
+  port: 2762
+  server: 3.112.233.197
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_109
+- name: US_United States_trojan_108
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3169
-  server: 13.114.27.223
+  server: 3.112.16.3
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_1014
+- name: US_United States_trojan_1012
   network: tcp
   password: BxceQaOe
-  port: 381
-  server: 95.40.79.48
+  port: 804
+  server: 57.180.15.254
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1017
+- name: US_United States_trojan_1015
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 3.112.30.103
+  port: 1221
+  server: 43.206.210.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1022
+- name: US_United States_trojan_1020
   network: ws
   password: 5a2c16f9
   port: 443
@@ -76,44 +82,6 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- cipher: aes-256-cfb
-  name: US_United States_ss_1113
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
-- name: US_United States_trojan_1117
-  network: tcp
-  password: BxceQaOe
-  port: 2762
-  server: 3.112.233.197
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1118
-  network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 3169
-  server: 3.112.16.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1122
-  network: tcp
-  password: BxceQaOe
-  port: 804
-  server: 57.180.15.254
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1125
-  network: tcp
-  password: BxceQaOe
-  port: 1221
-  server: 43.206.210.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -121,16 +89,12 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
+  - US_United States_ss_103
+  - US_United States_trojan_107
   - US_United States_trojan_108
-  - US_United States_trojan_109
-  - US_United States_trojan_1014
-  - US_United States_trojan_1017
-  - US_United States_trojan_1022
-  - US_United States_ss_1113
-  - US_United States_trojan_1117
-  - US_United States_trojan_1118
-  - US_United States_trojan_1122
-  - US_United States_trojan_1125
+  - US_United States_trojan_1012
+  - US_United States_trojan_1015
+  - US_United States_trojan_1020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -138,16 +102,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
+  - US_United States_ss_103
+  - US_United States_trojan_107
   - US_United States_trojan_108
-  - US_United States_trojan_109
-  - US_United States_trojan_1014
-  - US_United States_trojan_1017
-  - US_United States_trojan_1022
-  - US_United States_ss_1113
-  - US_United States_trojan_1117
-  - US_United States_trojan_1118
-  - US_United States_trojan_1122
-  - US_United States_trojan_1125
+  - US_United States_trojan_1012
+  - US_United States_trojan_1015
+  - US_United States_trojan_1020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
