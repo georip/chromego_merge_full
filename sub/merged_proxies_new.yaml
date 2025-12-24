@@ -31,46 +31,9 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_107
-  network: tcp
-  password: BxceQaOe
-  port: 2762
-  server: 18.177.141.4
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1013
-  network: tcp
-  password: BxceQaOe
-  port: 804
-  server: 57.180.28.48
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1016
-  network: tcp
-  password: BxceQaOe
-  port: 1112
-  server: 95.40.14.227
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1023
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1113
+  name: US_United States_vmess_103
   network: ws
   port: '443'
   server: 154.38.116.8
@@ -83,7 +46,7 @@ proxies:
     headers:
       Host: hk.nbee.pp.ua
     path: /aa
-- name: US_United States_trojan_1118
+- name: US_United States_trojan_108
   network: ws
   password: 5a2c16f9
   port: 443
@@ -95,7 +58,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: US_United States_trojan_1119
+- name: US_United States_trojan_109
   network: tcp
   password: BxceQaOe
   port: 3760
@@ -103,7 +66,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1121
+- name: US_United States_trojan_1011
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
@@ -111,7 +74,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_1124
+- name: US_United States_trojan_1014
   network: tcp
   password: BxceQaOe
   port: 1691
@@ -119,7 +82,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1127
+- name: US_United States_trojan_1017
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -127,6 +90,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_1023
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_United States_trojan_1024
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_United States_trojan_1027
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -134,16 +136,15 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_107
-  - US_United States_trojan_1013
-  - US_United States_trojan_1016
+  - US_United States_vmess_103
+  - US_United States_trojan_108
+  - US_United States_trojan_109
+  - US_United States_trojan_1011
+  - US_United States_trojan_1014
+  - US_United States_trojan_1017
   - US_United States_trojan_1023
-  - US_United States_vmess_1113
-  - US_United States_trojan_1118
-  - US_United States_trojan_1119
-  - US_United States_trojan_1121
-  - US_United States_trojan_1124
-  - US_United States_trojan_1127
+  - US_United States_trojan_1024
+  - US_United States_trojan_1027
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -151,16 +152,15 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_107
-  - US_United States_trojan_1013
-  - US_United States_trojan_1016
+  - US_United States_vmess_103
+  - US_United States_trojan_108
+  - US_United States_trojan_109
+  - US_United States_trojan_1011
+  - US_United States_trojan_1014
+  - US_United States_trojan_1017
   - US_United States_trojan_1023
-  - US_United States_vmess_1113
-  - US_United States_trojan_1118
-  - US_United States_trojan_1119
-  - US_United States_trojan_1121
-  - US_United States_trojan_1124
-  - US_United States_trojan_1127
+  - US_United States_trojan_1024
+  - US_United States_trojan_1027
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
