@@ -68,6 +68,65 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1113
+  network: ws
+  port: '443'
+  server: 154.38.116.8
+  servername: hk.nbee.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      Host: hk.nbee.pp.ua
+    path: /aa
+- name: US_United States_trojan_1118
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_United States_trojan_1119
+  network: tcp
+  password: BxceQaOe
+  port: 3760
+  server: 54.65.145.17
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1121
+  network: tcp
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 3093
+  server: 13.231.130.241
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_1124
+  network: tcp
+  password: BxceQaOe
+  port: 1691
+  server: 3.112.42.86
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1127
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 13.115.1.198
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -79,6 +138,12 @@ proxy-groups:
   - US_United States_trojan_1013
   - US_United States_trojan_1016
   - US_United States_trojan_1023
+  - US_United States_vmess_1113
+  - US_United States_trojan_1118
+  - US_United States_trojan_1119
+  - US_United States_trojan_1121
+  - US_United States_trojan_1124
+  - US_United States_trojan_1127
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -90,6 +155,12 @@ proxy-groups:
   - US_United States_trojan_1013
   - US_United States_trojan_1016
   - US_United States_trojan_1023
+  - US_United States_vmess_1113
+  - US_United States_trojan_1118
+  - US_United States_trojan_1119
+  - US_United States_trojan_1121
+  - US_United States_trojan_1124
+  - US_United States_trojan_1127
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
