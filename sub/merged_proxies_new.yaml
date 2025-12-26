@@ -55,11 +55,11 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1019
+- name: US_United States_trojan_1025
   network: ws
   password: 5a2c16f9
   port: 443
-  server: cf.130519.xyz
+  server: freeyx.cloudflare88.eu.org
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -68,11 +68,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: US_United States_trojan_1020
+- name: US_United States_trojan_1026
   network: ws
   password: 5a2c16f9
   port: 443
-  server: freeyx.cloudflare88.eu.org
+  server: cf.130519.xyz
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -91,8 +91,8 @@ proxy-groups:
   - US_United States_trojan_107
   - US_United States_trojan_1011
   - US_United States_trojan_1014
-  - US_United States_trojan_1019
-  - US_United States_trojan_1020
+  - US_United States_trojan_1025
+  - US_United States_trojan_1026
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -103,8 +103,8 @@ proxy-groups:
   - US_United States_trojan_107
   - US_United States_trojan_1011
   - US_United States_trojan_1014
-  - US_United States_trojan_1019
-  - US_United States_trojan_1020
+  - US_United States_trojan_1025
+  - US_United States_trojan_1026
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
