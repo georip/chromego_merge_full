@@ -31,11 +31,11 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_107
+- name: US_United States_trojan_106
   network: tcp
   password: BxceQaOe
   port: 11945
-  server: 13.158.131.92
+  server: 52.194.193.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -43,15 +43,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 18.166.223.179
+  server: 18.167.99.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_1014
   network: tcp
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 4054
+  server: 18.162.244.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_1015
+  network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 95.40.81.42
+  port: 1112
+  server: 13.231.208.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -218,9 +226,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_107
+  - US_United States_trojan_106
   - US_United States_trojan_1011
   - US_United States_trojan_1014
+  - US_United States_trojan_1015
   - US_United States_trojan_1019
   - US_United States_trojan_1020
   - US_United States_trojan_1021
@@ -240,9 +249,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_107
+  - US_United States_trojan_106
   - US_United States_trojan_1011
   - US_United States_trojan_1014
+  - US_United States_trojan_1015
   - US_United States_trojan_1019
   - US_United States_trojan_1020
   - US_United States_trojan_1021
