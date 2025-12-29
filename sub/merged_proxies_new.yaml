@@ -31,38 +31,7 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_106
-  network: tcp
-  password: BxceQaOe
-  port: 11945
-  server: 3.112.5.63
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1011
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 95.40.19.252
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1013
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 443
-  server: 38.180.137.196
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1020
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1117
+- name: US_United States_trojan_107
   network: tcp
   password: BxceQaOe
   port: 2762
@@ -70,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1118
+- name: US_United States_trojan_108
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3093
@@ -78,7 +47,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_1121
+- name: US_United States_trojan_1011
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3901
@@ -86,7 +55,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_1126
+- name: US_United States_trojan_1016
   network: tcp
   password: BxceQaOe
   port: 4569
@@ -94,6 +63,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_1023
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -101,14 +77,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_101
-  - US_United States_trojan_106
+  - US_United States_trojan_107
+  - US_United States_trojan_108
   - US_United States_trojan_1011
-  - US_United States_trojan_1013
-  - US_United States_trojan_1020
-  - US_United States_trojan_1117
-  - US_United States_trojan_1118
-  - US_United States_trojan_1121
-  - US_United States_trojan_1126
+  - US_United States_trojan_1016
+  - US_United States_trojan_1023
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -116,14 +89,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_101
-  - US_United States_trojan_106
+  - US_United States_trojan_107
+  - US_United States_trojan_108
   - US_United States_trojan_1011
-  - US_United States_trojan_1013
-  - US_United States_trojan_1020
-  - US_United States_trojan_1117
-  - US_United States_trojan_1118
-  - US_United States_trojan_1121
-  - US_United States_trojan_1126
+  - US_United States_trojan_1016
+  - US_United States_trojan_1023
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
