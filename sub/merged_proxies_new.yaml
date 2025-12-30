@@ -34,8 +34,8 @@ proxies:
 - name: US_United States_trojan_07
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 18.182.16.254
+  port: 4012
+  server: 54.248.22.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -43,43 +43,11 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3093
-  server: 13.231.208.147
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_011
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3901
-  server: 13.115.111.129
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_016
-  network: tcp
-  password: BxceQaOe
-  port: 4569
-  server: 18.183.82.133
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_117
-  network: tcp
-  password: BxceQaOe
-  port: 4012
-  server: 54.248.22.131
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_118
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3093
   server: 18.177.146.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_123
+- name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
   port: 804
@@ -87,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_126
+- name: US_United States_trojan_016
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -104,12 +72,8 @@ proxy-groups:
   - US_United States_ss_01
   - US_United States_trojan_07
   - US_United States_trojan_08
-  - US_United States_trojan_011
+  - US_United States_trojan_013
   - US_United States_trojan_016
-  - US_United States_trojan_117
-  - US_United States_trojan_118
-  - US_United States_trojan_123
-  - US_United States_trojan_126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -119,12 +83,8 @@ proxy-groups:
   - US_United States_ss_01
   - US_United States_trojan_07
   - US_United States_trojan_08
-  - US_United States_trojan_011
+  - US_United States_trojan_013
   - US_United States_trojan_016
-  - US_United States_trojan_117
-  - US_United States_trojan_118
-  - US_United States_trojan_123
-  - US_United States_trojan_126
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
