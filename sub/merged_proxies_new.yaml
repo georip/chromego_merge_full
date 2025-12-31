@@ -55,6 +55,80 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_120
+  network: ws
+  port: '2087'
+  server: lv4.789900.xyz
+  servername: lv4.789900.xyz
+  tls: true
+  type: vmess
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  ws-opts:
+    headers:
+      Host: lv4.789900.xyz
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+- name: US_United States_trojan_136
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: US_United States_trojan_137
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F'
+- name: US_United States_trojan_141
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_143
+  network: ws
+  port: '443'
+  server: n1753598451.74qxv.top
+  servername: n1753598451.74qxv.top
+  tls: true
+  type: vmess
+  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+  ws-opts:
+    headers:
+      Host: n1753598451.74qxv.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_144
+  network: ws
+  port: '443'
+  server: n1753598448.74qxv.top
+  servername: n1753598448.74qxv.top
+  tls: true
+  type: vmess
+  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+  ws-opts:
+    headers:
+      Host: n1753598448.74qxv.top
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -65,6 +139,12 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_014
   - US_United States_trojan_017
+  - US_United States_vmess_120
+  - US_United States_trojan_136
+  - US_United States_trojan_137
+  - US_United States_trojan_141
+  - US_United States_vmess_143
+  - US_United States_vmess_144
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -75,6 +155,12 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_014
   - US_United States_trojan_017
+  - US_United States_vmess_120
+  - US_United States_trojan_136
+  - US_United States_trojan_137
+  - US_United States_trojan_141
+  - US_United States_vmess_143
+  - US_United States_vmess_144
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
