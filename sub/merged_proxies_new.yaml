@@ -129,6 +129,14 @@ proxies:
     headers:
       Host: n1753598448.74qxv.top
     path: /
+- name: US_United States_trojan_170
+  network: tcp
+  password: BxceQaOe
+  port: 2673
+  server: 43.207.71.183
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -145,6 +153,7 @@ proxy-groups:
   - US_United States_trojan_141
   - US_United States_vmess_143
   - US_United States_vmess_144
+  - US_United States_trojan_170
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -161,6 +170,7 @@ proxy-groups:
   - US_United States_trojan_141
   - US_United States_vmess_143
   - US_United States_vmess_144
+  - US_United States_trojan_170
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
