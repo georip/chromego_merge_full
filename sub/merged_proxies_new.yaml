@@ -68,80 +68,90 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_120
+- name: US_United States_trojan_111
   network: ws
-  port: '2087'
-  server: lv4.789900.xyz
-  servername: lv4.789900.xyz
-  tls: true
-  type: vmess
-  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
-  ws-opts:
-    headers:
-      Host: lv4.789900.xyz
-    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-- name: US_United States_trojan_136
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.24.131
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2087
+  server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: 17673588945452.206355.xyz
   type: trojan
   ws-opts:
-    path: '%2F'
-- name: US_United States_trojan_137
+    headers:
+      Host: 17673588946977.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US_United States_trojan_112
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2096
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588943109.796813.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588945338.796813.xyz
+    path: '%2Fagrbniuh'
+- name: US_United States_trojan_114
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588947548.796812.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588945007.796812.xyz
+    path: '%2Fagraeabtegrrh'
+- name: US_United States_trojan_161
   network: ws
   password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
+  port: 38066
+  server: 132.145.88.82
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: '%2F'
-- name: US_United States_trojan_141
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: US_United States_trojan_163
   network: ws
   password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
+  port: 10129
+  server: 138.2.59.96
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
   ws-opts:
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_143
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: US_United States_trojan_166
   network: ws
-  port: '443'
-  server: n1753598451.74qxv.top
-  servername: n1753598451.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+  password: 5a2c16f9
+  port: 8443
+  server: 162.220.13.14
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   ws-opts:
     headers:
-      Host: n1753598451.74qxv.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_144
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: US_United States_trojan_167
   network: ws
-  port: '443'
-  server: n1753598448.74qxv.top
-  servername: n1753598448.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   ws-opts:
     headers:
-      Host: n1753598448.74qxv.top
-    path: /
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 proxy-groups:
 - name: 节点选择
   type: select
@@ -153,12 +163,13 @@ proxy-groups:
   - US_United States_trojan_07
   - US_United States_trojan_014
   - US_United States_trojan_016
-  - US_United States_vmess_120
-  - US_United States_trojan_136
-  - US_United States_trojan_137
-  - US_United States_trojan_141
-  - US_United States_vmess_143
-  - US_United States_vmess_144
+  - US_United States_trojan_111
+  - US_United States_trojan_112
+  - US_United States_trojan_114
+  - US_United States_trojan_161
+  - US_United States_trojan_163
+  - US_United States_trojan_166
+  - US_United States_trojan_167
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -170,12 +181,13 @@ proxy-groups:
   - US_United States_trojan_07
   - US_United States_trojan_014
   - US_United States_trojan_016
-  - US_United States_vmess_120
-  - US_United States_trojan_136
-  - US_United States_trojan_137
-  - US_United States_trojan_141
-  - US_United States_vmess_143
-  - US_United States_vmess_144
+  - US_United States_trojan_111
+  - US_United States_trojan_112
+  - US_United States_trojan_114
+  - US_United States_trojan_161
+  - US_United States_trojan_163
+  - US_United States_trojan_166
+  - US_United States_trojan_167
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
