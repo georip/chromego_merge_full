@@ -34,40 +34,61 @@ proxies:
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 3194
-  server: 54.238.144.17
+  port: 26378
+  server: 54.199.47.127
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_07
+- name: US_United States_trojan_011
   network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 1933
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 3901
   server: 52.198.241.226
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_014
+- name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 3.113.31.15
+  port: 3127
+  server: 54.249.149.192
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_016
+  network: tcp
+  password: BxceQaOe
+  port: 1112
+  server: 18.181.195.198
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_016
+- name: US_United States_trojan_021
   network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: false
-  sni: nodes.830901.xyz
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
+      Host: epge.muarua.filegear-sg.me
     path: /
+- name: US_United States_trojan_023
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
 - name: US_United States_trojan_111
   network: ws
   password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
@@ -140,42 +161,6 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: US_United States_trojan_167
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: US_United States_trojan_1101
-  network: tcp
-  password: BxceQaOe
-  port: 26378
-  server: 54.199.47.127
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1108
-  network: tcp
-  password: BxceQaOe
-  port: 3127
-  server: 54.249.149.192
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1111
-  network: tcp
-  password: BxceQaOe
-  port: 1112
-  server: 18.181.195.198
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -184,19 +169,17 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_01
   - US_United States_trojan_06
-  - US_United States_trojan_07
-  - US_United States_trojan_014
+  - US_United States_trojan_011
+  - US_United States_trojan_013
   - US_United States_trojan_016
+  - US_United States_trojan_021
+  - US_United States_trojan_023
   - US_United States_trojan_111
   - US_United States_trojan_112
   - US_United States_trojan_114
   - US_United States_trojan_161
   - US_United States_trojan_163
   - US_United States_trojan_166
-  - US_United States_trojan_167
-  - US_United States_trojan_1101
-  - US_United States_trojan_1108
-  - US_United States_trojan_1111
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -205,19 +188,17 @@ proxy-groups:
   proxies:
   - US_United States_ss_01
   - US_United States_trojan_06
-  - US_United States_trojan_07
-  - US_United States_trojan_014
+  - US_United States_trojan_011
+  - US_United States_trojan_013
   - US_United States_trojan_016
+  - US_United States_trojan_021
+  - US_United States_trojan_023
   - US_United States_trojan_111
   - US_United States_trojan_112
   - US_United States_trojan_114
   - US_United States_trojan_161
   - US_United States_trojan_163
   - US_United States_trojan_166
-  - US_United States_trojan_167
-  - US_United States_trojan_1101
-  - US_United States_trojan_1108
-  - US_United States_trojan_1111
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
