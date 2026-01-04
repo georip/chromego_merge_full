@@ -31,52 +31,91 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_06
+- name: US_United States_trojan_07
   network: tcp
   password: BxceQaOe
-  port: 26378
-  server: 54.199.47.127
+  port: 3760
+  server: 57.180.10.245
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_011
+- name: US_United States_trojan_08
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 4006
+  server: 13.231.188.173
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_012
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 52.198.241.226
-  skip-cert-verify: false
+  server: 54.199.47.127
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 54.249.149.192
+  port: 804
+  server: 18.163.28.248
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_016
-  network: tcp
-  password: BxceQaOe
-  port: 1112
-  server: 18.181.195.198
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_021
+- name: US_United States_trojan_024
   network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: 64.181.227.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: US_United States_trojan_025
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
     path: /
-- name: US_United States_trojan_023
+- name: US_United States_trojan_026
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.237.219
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_United States_trojan_027
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.55
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_United States_trojan_028
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -89,6 +128,45 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
+- name: US_United States_trojan_029
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: US_United States_trojan_031
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 199.119.137.77
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram@V2rayAlpha
+- name: US_United States_trojan_032
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.65
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - name: US_United States_trojan_150
   network: ws
   password: a837c6d5-6af9-45c3-863d-3d5c1b9e4171
@@ -178,29 +256,6 @@ proxies:
   skip-cert-verify: true
   sni: tttyder.wsone.icu
   type: trojan
-- name: US_United States_trojan_1149
-  network: tcp
-  password: BxceQaOe
-  port: 3760
-  server: 57.180.10.245
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1150
-  network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
-  port: 4006
-  server: 13.231.188.173
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1153
-  network: tcp
-  password: BxceQaOe
-  port: 804
-  server: 18.163.28.248
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -208,12 +263,18 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_06
-  - US_United States_trojan_011
+  - US_United States_trojan_07
+  - US_United States_trojan_08
+  - US_United States_trojan_012
   - US_United States_trojan_013
-  - US_United States_trojan_016
-  - US_United States_trojan_021
-  - US_United States_trojan_023
+  - US_United States_trojan_024
+  - US_United States_trojan_025
+  - US_United States_trojan_026
+  - US_United States_trojan_027
+  - US_United States_trojan_028
+  - US_United States_trojan_029
+  - US_United States_trojan_031
+  - US_United States_trojan_032
   - US_United States_trojan_150
   - US_United States_trojan_151
   - US_United States_trojan_153
@@ -226,9 +287,6 @@ proxy-groups:
   - US_United States_trojan_1116
   - US_United States_trojan_1117
   - US_United States_trojan_1123
-  - US_United States_trojan_1149
-  - US_United States_trojan_1150
-  - US_United States_trojan_1153
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -236,12 +294,18 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_06
-  - US_United States_trojan_011
+  - US_United States_trojan_07
+  - US_United States_trojan_08
+  - US_United States_trojan_012
   - US_United States_trojan_013
-  - US_United States_trojan_016
-  - US_United States_trojan_021
-  - US_United States_trojan_023
+  - US_United States_trojan_024
+  - US_United States_trojan_025
+  - US_United States_trojan_026
+  - US_United States_trojan_027
+  - US_United States_trojan_028
+  - US_United States_trojan_029
+  - US_United States_trojan_031
+  - US_United States_trojan_032
   - US_United States_trojan_150
   - US_United States_trojan_151
   - US_United States_trojan_153
@@ -254,9 +318,6 @@ proxy-groups:
   - US_United States_trojan_1116
   - US_United States_trojan_1117
   - US_United States_trojan_1123
-  - US_United States_trojan_1149
-  - US_United States_trojan_1150
-  - US_United States_trojan_1153
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
