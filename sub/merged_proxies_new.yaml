@@ -178,6 +178,29 @@ proxies:
   skip-cert-verify: true
   sni: tttyder.wsone.icu
   type: trojan
+- name: US_United States_trojan_1149
+  network: tcp
+  password: BxceQaOe
+  port: 3760
+  server: 57.180.10.245
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1150
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 4006
+  server: 13.231.188.173
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_1153
+  network: tcp
+  password: BxceQaOe
+  port: 804
+  server: 18.163.28.248
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -203,6 +226,9 @@ proxy-groups:
   - US_United States_trojan_1116
   - US_United States_trojan_1117
   - US_United States_trojan_1123
+  - US_United States_trojan_1149
+  - US_United States_trojan_1150
+  - US_United States_trojan_1153
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -228,6 +254,9 @@ proxy-groups:
   - US_United States_trojan_1116
   - US_United States_trojan_1117
   - US_United States_trojan_1123
+  - US_United States_trojan_1149
+  - US_United States_trojan_1150
+  - US_United States_trojan_1153
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
