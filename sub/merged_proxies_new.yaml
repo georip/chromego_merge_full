@@ -1287,6 +1287,30 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: US_United States_trojan_1283
+  network: tcp
+  password: BxceQaOe
+  port: 3194
+  server: 54.199.226.29
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1288
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 43.199.187.111
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1290
+  network: tcp
+  password: BxceQaOe
+  port: 1112
+  server: 18.177.146.37
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1400,6 +1424,9 @@ proxy-groups:
   - US_United States_trojan_1246
   - US_United States_trojan_1249
   - US_United States_trojan_1251
+  - US_United States_trojan_1283
+  - US_United States_trojan_1288
+  - US_United States_trojan_1290
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1513,6 +1540,9 @@ proxy-groups:
   - US_United States_trojan_1246
   - US_United States_trojan_1249
   - US_United States_trojan_1251
+  - US_United States_trojan_1283
+  - US_United States_trojan_1288
+  - US_United States_trojan_1290
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
