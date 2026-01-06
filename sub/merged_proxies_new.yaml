@@ -55,32 +55,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_024
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 64.181.227.82
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: US_United States_trojan_025
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -91,8 +65,6 @@ proxy-groups:
   - US_United States_trojan_07
   - US_United States_trojan_013
   - US_United States_trojan_016
-  - US_United States_trojan_024
-  - US_United States_trojan_025
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -103,8 +75,6 @@ proxy-groups:
   - US_United States_trojan_07
   - US_United States_trojan_013
   - US_United States_trojan_016
-  - US_United States_trojan_024
-  - US_United States_trojan_025
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
