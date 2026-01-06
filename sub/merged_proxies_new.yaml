@@ -31,31 +31,31 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_06
+- name: US_United States_trojan_07
   network: tcp
   password: BxceQaOe
-  port: 3194
-  server: 54.199.226.29
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_011
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 43.199.187.111
+  port: 2595
+  server: 13.114.175.199
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 18.177.146.37
+  port: 804
+  server: 95.40.73.131
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_016
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 16.163.98.169
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_021
+- name: US_United States_trojan_024
   network: ws
   password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
   port: 443
@@ -68,7 +68,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: US_United States_trojan_022
+- name: US_United States_trojan_025
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -81,30 +81,6 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: US_United States_trojan_127
-  network: tcp
-  password: BxceQaOe
-  port: 2595
-  server: 13.114.175.199
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_132
-  network: tcp
-  password: BxceQaOe
-  port: 804
-  server: 95.40.73.131
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_135
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 16.163.98.169
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -112,14 +88,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_06
-  - US_United States_trojan_011
+  - US_United States_trojan_07
   - US_United States_trojan_013
-  - US_United States_trojan_021
-  - US_United States_trojan_022
-  - US_United States_trojan_127
-  - US_United States_trojan_132
-  - US_United States_trojan_135
+  - US_United States_trojan_016
+  - US_United States_trojan_024
+  - US_United States_trojan_025
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -127,14 +100,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_06
-  - US_United States_trojan_011
+  - US_United States_trojan_07
   - US_United States_trojan_013
-  - US_United States_trojan_021
-  - US_United States_trojan_022
-  - US_United States_trojan_127
-  - US_United States_trojan_132
-  - US_United States_trojan_135
+  - US_United States_trojan_016
+  - US_United States_trojan_024
+  - US_United States_trojan_025
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
