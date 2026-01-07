@@ -31,30 +31,35 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_07
+- name: US_United States_trojan_08
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 13.114.175.199
+  port: 3194
+  server: 3.112.45.28
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
-  port: 804
-  server: 95.40.73.131
+  port: 2673
+  server: 43.199.160.78
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_016
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 16.163.98.169
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- name: US_United States_trojan_019
+  network: ws
+  password: 97e79a62-f686-4b91-87a7-be39c9e57658
+  port: 443
+  server: 34.143.159.175
+  skip-cert-verify: false
+  sni: page.anjue39.qzz.io
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: page.anjue39.qzz.io
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -62,9 +67,9 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_07
+  - US_United States_trojan_08
   - US_United States_trojan_013
-  - US_United States_trojan_016
+  - US_United States_trojan_019
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -72,9 +77,9 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_07
+  - US_United States_trojan_08
   - US_United States_trojan_013
-  - US_United States_trojan_016
+  - US_United States_trojan_019
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
