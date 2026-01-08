@@ -31,23 +31,7 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_08
-  network: tcp
-  password: BxceQaOe
-  port: 3194
-  server: 3.112.45.28
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_013
-  network: tcp
-  password: BxceQaOe
-  port: 2673
-  server: 43.199.160.78
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_130
+- name: US_United States_trojan_07
   network: tcp
   password: BxceQaOe
   port: 3194
@@ -55,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_135
+- name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
   port: 381
@@ -63,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_138
+- name: US_United States_trojan_016
   network: tcp
   password: BxceQaOe
   port: 1112
@@ -71,6 +55,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_020
+  network: ws
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+  port: 2096
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: ts888.yumige.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ts888.yumige.dpdns.org
+    path: /http://45.32.19.198:30005
 proxy-groups:
 - name: 节点选择
   type: select
@@ -78,11 +75,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_08
+  - US_United States_trojan_07
   - US_United States_trojan_013
-  - US_United States_trojan_130
-  - US_United States_trojan_135
-  - US_United States_trojan_138
+  - US_United States_trojan_016
+  - US_United States_trojan_020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -90,11 +86,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_08
+  - US_United States_trojan_07
   - US_United States_trojan_013
-  - US_United States_trojan_130
-  - US_United States_trojan_135
-  - US_United States_trojan_138
+  - US_United States_trojan_016
+  - US_United States_trojan_020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
