@@ -61,6 +61,149 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_163
+  network: ws
+  port: '443'
+  server: frankfurt02.zgjok.com
+  servername: frankfurt02.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
+  ws-opts:
+    headers:
+      Host: frankfurt02.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_197
+  network: ws
+  port: '443'
+  server: n1761214904.wpg27.xyz
+  servername: n1761214904.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: 7f6f64ae-3778-434c-adfc-95cb67ee8b73
+  ws-opts:
+    headers:
+      Host: n1761214904.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_198
+  network: ws
+  port: '443'
+  server: n1761214908.wpg27.xyz
+  servername: n1761214908.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_199
+  network: ws
+  port: '443'
+  server: n1761214912.wpg27.xyz
+  servername: n1761214912.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: 4f86a909-836d-4643-b650-d812144a1fa9
+  ws-opts:
+    headers:
+      Host: n1761214912.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1100
+  network: tcp
+  port: '34128'
+  server: 216.167.26.220
+  tls: false
+  type: vmess
+  uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
+- name: US_United States_trojan_1102
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1103
+  network: tcp
+  port: '80'
+  server: 152.70.92.69
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1107
+  network: ws
+  port: '443'
+  server: tokyo01.zgjok.com
+  servername: tokyo01.zgjok.com
+  tls: true
+  type: vmess
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  ws-opts:
+    headers:
+      Host: tokyo01.zgjok.com
+    path: /
+- name: US_United States_trojan_1109
+  network: ws
+  password: d5d48bc6-87e7-4b40-ad03-d0628532e8ea
+  port: 2087
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17679677976362.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17679677975393.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US_United States_trojan_1117
+  network: ws
+  password: d5d48bc6-87e7-4b40-ad03-d0628532e8ea
+  port: 2087
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17679677978423.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17679677975745.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US_United States_trojan_1118
+  network: ws
+  password: d5d48bc6-87e7-4b40-ad03-d0628532e8ea
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17679677973958.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17679677973155.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US_United States_trojan_1119
+  network: ws
+  password: d5d48bc6-87e7-4b40-ad03-d0628532e8ea
+  port: 8443
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17679677972716.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17679677974071.206355.xyz
+    path: '%2Fvideomuaawe'
 proxy-groups:
 - name: 节点选择
   type: select
@@ -72,6 +215,18 @@ proxy-groups:
   - US_United States_ss_08
   - US_United States_trojan_012
   - US_United States_trojan_016
+  - US_United States_vmess_163
+  - US_United States_vmess_197
+  - US_United States_vmess_198
+  - US_United States_vmess_199
+  - US_United States_vmess_1100
+  - US_United States_trojan_1102
+  - US_United States_vmess_1103
+  - US_United States_vmess_1107
+  - US_United States_trojan_1109
+  - US_United States_trojan_1117
+  - US_United States_trojan_1118
+  - US_United States_trojan_1119
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -83,6 +238,18 @@ proxy-groups:
   - US_United States_ss_08
   - US_United States_trojan_012
   - US_United States_trojan_016
+  - US_United States_vmess_163
+  - US_United States_vmess_197
+  - US_United States_vmess_198
+  - US_United States_vmess_199
+  - US_United States_vmess_1100
+  - US_United States_trojan_1102
+  - US_United States_vmess_1103
+  - US_United States_vmess_1107
+  - US_United States_trojan_1109
+  - US_United States_trojan_1117
+  - US_United States_trojan_1118
+  - US_United States_trojan_1119
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
