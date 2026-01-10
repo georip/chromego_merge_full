@@ -204,6 +204,30 @@ proxies:
     headers:
       Host: 17679677974071.206355.xyz
     path: '%2Fvideomuaawe'
+- name: US_United States_trojan_1136
+  network: tcp
+  password: BxceQaOe
+  port: 2762
+  server: 3.112.71.26
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1141
+  network: tcp
+  password: BxceQaOe
+  port: 3579
+  server: 3.112.254.143
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1143
+  network: tcp
+  password: BxceQaOe
+  port: 4569
+  server: 43.199.60.168
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -227,6 +251,9 @@ proxy-groups:
   - US_United States_trojan_1117
   - US_United States_trojan_1118
   - US_United States_trojan_1119
+  - US_United States_trojan_1136
+  - US_United States_trojan_1141
+  - US_United States_trojan_1143
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -250,6 +277,9 @@ proxy-groups:
   - US_United States_trojan_1117
   - US_United States_trojan_1118
   - US_United States_trojan_1119
+  - US_United States_trojan_1136
+  - US_United States_trojan_1141
+  - US_United States_trojan_1143
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
