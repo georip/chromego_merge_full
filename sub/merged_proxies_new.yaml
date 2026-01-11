@@ -31,27 +31,27 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_05
+- name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 3.112.71.26
+  port: 2053
+  server: 43.207.232.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 3.112.254.143
+  port: 2673
+  server: 95.40.111.8
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_014
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 43.199.60.168
+  port: 2173
+  server: 43.198.151.117
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -198,30 +198,6 @@ proxies:
     headers:
       Host: 17679677974071.206355.xyz
     path: '%2Fvideomuaawe'
-- name: US_United States_trojan_1124
-  network: tcp
-  password: BxceQaOe
-  port: 2053
-  server: 43.207.232.58
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1129
-  network: tcp
-  password: BxceQaOe
-  port: 2673
-  server: 95.40.111.8
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1132
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 43.198.151.117
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -229,7 +205,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_05
+  - US_United States_trojan_06
   - US_United States_trojan_011
   - US_United States_trojan_014
   - US_United States_vmess_163
@@ -244,9 +220,6 @@ proxy-groups:
   - US_United States_trojan_1117
   - US_United States_trojan_1118
   - US_United States_trojan_1119
-  - US_United States_trojan_1124
-  - US_United States_trojan_1129
-  - US_United States_trojan_1132
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -254,7 +227,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_05
+  - US_United States_trojan_06
   - US_United States_trojan_011
   - US_United States_trojan_014
   - US_United States_vmess_163
@@ -269,9 +242,6 @@ proxy-groups:
   - US_United States_trojan_1117
   - US_United States_trojan_1118
   - US_United States_trojan_1119
-  - US_United States_trojan_1124
-  - US_United States_trojan_1129
-  - US_United States_trojan_1132
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
