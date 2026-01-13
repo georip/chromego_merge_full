@@ -55,6 +55,70 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_177
+  network: tcp
+  port: '80'
+  server: 152.70.92.69
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- name: US_United States_trojan_178
+  password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
+- name: US_United States_trojan_1180
+  network: ws
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17683099002036.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17683099002928.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: US_United States_trojan_1183
+  network: ws
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
+  port: 2087
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17683099002516.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17683099009360.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: US_United States_trojan_1186
+  network: ws
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
+  port: 2096
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17683099008424.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17683099003961.206352.xyz
+    path: '%2Fagraeabtegrrh'
+- name: US_United States_trojan_1189
+  network: ws
+  password: af37ba63-6b2e-4e24-b17d-bd75a3160680
+  port: 8443
+  server: bestcdn5.868863.xyz
+  skip-cert-verify: true
+  sni: 17683099007958.206352.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17683099008682.206352.xyz
+    path: '%2Fagraeabtegrrh'
 proxy-groups:
 - name: 节点选择
   type: select
@@ -65,6 +129,12 @@ proxy-groups:
   - US_United States_trojan_06
   - US_United States_trojan_011
   - US_United States_trojan_014
+  - US_United States_vmess_177
+  - US_United States_trojan_178
+  - US_United States_trojan_1180
+  - US_United States_trojan_1183
+  - US_United States_trojan_1186
+  - US_United States_trojan_1189
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -75,6 +145,12 @@ proxy-groups:
   - US_United States_trojan_06
   - US_United States_trojan_011
   - US_United States_trojan_014
+  - US_United States_vmess_177
+  - US_United States_trojan_178
+  - US_United States_trojan_1180
+  - US_United States_trojan_1183
+  - US_United States_trojan_1186
+  - US_United States_trojan_1189
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
