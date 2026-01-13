@@ -34,119 +34,12 @@ proxies:
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 11945
-  server: 57.181.26.116
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_014
-  network: tcp
-  password: BxceQaOe
-  port: 3579
-  server: 54.95.61.147
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_017
-  network: tcp
-  password: BxceQaOe
-  port: 1221
-  server: 95.40.125.94
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1147
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- name: US_United States_trojan_1167
-  password: 469c8135-8aea-4c7f-8ec2-c5fdfa980b48
-  port: 443
-  server: tuntro003.instconn.com
-  skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
-  type: trojan
-- name: US_United States_trojan_1351
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
-  skip-cert-verify: true
-  sni: tttyder.wsone.icu
-  type: trojan
-- name: US_United States_trojan_1354
-  network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17682226002903.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17682226004284.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: US_United States_trojan_1359
-  network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17682226002565.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17682226007035.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: US_United States_trojan_1360
-  network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17682226004871.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17682226007838.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1363
-  network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17682226002578.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17682226002017.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: US_United States_trojan_1364
-  network: ws
-  password: 6a940633-9d92-4f80-b635-75b4a45962c2
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17682226001301.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17682226008309.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1370
-  network: tcp
-  password: BxceQaOe
   port: 3760
   server: 54.248.199.75
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1375
+- name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
   port: 381
@@ -154,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_1378
+- name: US_United States_trojan_014
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -170,19 +63,8 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_01
   - US_United States_trojan_06
+  - US_United States_trojan_011
   - US_United States_trojan_014
-  - US_United States_trojan_017
-  - US_United States_vmess_1147
-  - US_United States_trojan_1167
-  - US_United States_trojan_1351
-  - US_United States_trojan_1354
-  - US_United States_trojan_1359
-  - US_United States_trojan_1360
-  - US_United States_trojan_1363
-  - US_United States_trojan_1364
-  - US_United States_trojan_1370
-  - US_United States_trojan_1375
-  - US_United States_trojan_1378
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -191,19 +73,8 @@ proxy-groups:
   proxies:
   - US_United States_ss_01
   - US_United States_trojan_06
+  - US_United States_trojan_011
   - US_United States_trojan_014
-  - US_United States_trojan_017
-  - US_United States_vmess_1147
-  - US_United States_trojan_1167
-  - US_United States_trojan_1351
-  - US_United States_trojan_1354
-  - US_United States_trojan_1359
-  - US_United States_trojan_1360
-  - US_United States_trojan_1363
-  - US_United States_trojan_1364
-  - US_United States_trojan_1370
-  - US_United States_trojan_1375
-  - US_United States_trojan_1378
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
