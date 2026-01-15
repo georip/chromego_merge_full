@@ -31,31 +31,39 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_07
+- name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 2053
-  server: 57.180.65.162
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_012
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 18.163.206.7
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_016
-  network: tcp
-  password: BxceQaOe
-  port: 1112
-  server: 13.113.239.128
+  port: 443
+  server: 52.196.143.203
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_08
+  network: tcp
+  password: BxceQaOe
+  port: 2053
+  server: 43.206.227.6
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_014
+  network: tcp
+  password: BxceQaOe
+  port: 1691
+  server: 43.199.73.206
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: US_United States_trojan_018
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 13.192.183.185
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_021
   network: ws
   password: k52nemqqdx9e
   port: 8443
@@ -132,38 +140,6 @@ proxies:
     headers:
       Host: 17683099008682.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1244
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 52.196.143.203
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1245
-  network: tcp
-  password: BxceQaOe
-  port: 2053
-  server: 43.206.227.6
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1251
-  network: tcp
-  password: BxceQaOe
-  port: 1691
-  server: 43.199.73.206
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1254
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 13.192.183.185
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -171,20 +147,17 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_07
-  - US_United States_trojan_012
-  - US_United States_trojan_016
+  - US_United States_trojan_05
+  - US_United States_trojan_08
+  - US_United States_trojan_014
   - US_United States_trojan_018
+  - US_United States_trojan_021
   - US_United States_vmess_177
   - US_United States_trojan_178
   - US_United States_trojan_1180
   - US_United States_trojan_1183
   - US_United States_trojan_1186
   - US_United States_trojan_1189
-  - US_United States_trojan_1244
-  - US_United States_trojan_1245
-  - US_United States_trojan_1251
-  - US_United States_trojan_1254
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -192,20 +165,17 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_07
-  - US_United States_trojan_012
-  - US_United States_trojan_016
+  - US_United States_trojan_05
+  - US_United States_trojan_08
+  - US_United States_trojan_014
   - US_United States_trojan_018
+  - US_United States_trojan_021
   - US_United States_vmess_177
   - US_United States_trojan_178
   - US_United States_trojan_1180
   - US_United States_trojan_1183
   - US_United States_trojan_1186
   - US_United States_trojan_1189
-  - US_United States_trojan_1244
-  - US_United States_trojan_1245
-  - US_United States_trojan_1251
-  - US_United States_trojan_1254
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
