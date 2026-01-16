@@ -34,48 +34,57 @@ proxies:
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 52.196.143.203
+  port: 3830
+  server: 95.40.93.39
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_08
+- name: US_United States_trojan_06
+  network: tcp
+  password: BxceQaOe
+  port: 3830
+  server: 95.40.53.47
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_07
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 43.206.227.6
+  server: 13.115.245.96
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_014
+- name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 43.199.73.206
+  port: 3579
+  server: 54.46.50.46
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_018
+  udp: true
+- name: US_United States_trojan_017
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 13.192.183.185
+  port: 1221
+  server: 54.199.172.151
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_021
+- name: US_United States_trojan_019
   network: ws
-  password: k52nemqqdx9e
-  port: 8443
-  server: 172.64.145.38
-  skip-cert-verify: true
-  sni: 8end0fr.zjde5.de5.net
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: 8end0fr.zjde5.de5.net
-    path: /?ed=2560
+      Host: epge.muarua.filegear-sg.me
+    path: /
 - alterId: 0
   cipher: auto
   name: US_United States_vmess_177
@@ -148,10 +157,11 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_01
   - US_United States_trojan_05
-  - US_United States_trojan_08
-  - US_United States_trojan_014
-  - US_United States_trojan_018
-  - US_United States_trojan_021
+  - US_United States_trojan_06
+  - US_United States_trojan_07
+  - US_United States_trojan_013
+  - US_United States_trojan_017
+  - US_United States_trojan_019
   - US_United States_vmess_177
   - US_United States_trojan_178
   - US_United States_trojan_1180
@@ -166,10 +176,11 @@ proxy-groups:
   proxies:
   - US_United States_ss_01
   - US_United States_trojan_05
-  - US_United States_trojan_08
-  - US_United States_trojan_014
-  - US_United States_trojan_018
-  - US_United States_trojan_021
+  - US_United States_trojan_06
+  - US_United States_trojan_07
+  - US_United States_trojan_013
+  - US_United States_trojan_017
+  - US_United States_trojan_019
   - US_United States_vmess_177
   - US_United States_trojan_178
   - US_United States_trojan_1180
