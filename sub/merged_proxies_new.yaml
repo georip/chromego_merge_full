@@ -164,6 +164,38 @@ proxies:
   skip-cert-verify: true
   sni: login-staticjpc.jasmine-douyin.top
   type: trojan
+- name: US_United States_trojan_1164
+  network: tcp
+  password: BxceQaOe
+  port: 4329
+  server: 13.115.134.113
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1166
+  network: tcp
+  password: BxceQaOe
+  port: 2053
+  server: 52.195.185.240
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1171
+  network: tcp
+  password: BxceQaOe
+  port: 3579
+  server: 57.180.49.42
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1175
+  network: tcp
+  password: BxceQaOe
+  port: 4569
+  server: 18.162.188.208
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -184,6 +216,10 @@ proxy-groups:
   - US_United States_trojan_128
   - US_United States_trojan_131
   - US_United States_trojan_140
+  - US_United States_trojan_1164
+  - US_United States_trojan_1166
+  - US_United States_trojan_1171
+  - US_United States_trojan_1175
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -204,6 +240,10 @@ proxy-groups:
   - US_United States_trojan_128
   - US_United States_trojan_131
   - US_United States_trojan_140
+  - US_United States_trojan_1164
+  - US_United States_trojan_1166
+  - US_United States_trojan_1171
+  - US_United States_trojan_1175
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
