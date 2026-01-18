@@ -31,39 +31,31 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_04
-  network: tcp
-  password: BxceQaOe
-  port: 4329
-  server: 13.115.134.113
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 2053
-  server: 52.195.185.240
+  port: 2595
+  server: 43.206.194.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_011
+- name: US_United States_trojan_013
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 57.180.49.42
+  port: 804
+  server: 52.196.143.203
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_015
+- name: US_United States_trojan_016
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 18.162.188.208
+  server: 13.114.104.131
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_017
+- name: US_United States_trojan_018
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro006.instconn.com
@@ -71,85 +63,29 @@ proxies:
   sni: torontorm1.686911.xyz
   type: trojan
   udp: true
-- name: US_United States_trojan_111
-  network: ws
-  password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17685523788254.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17685523784912.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: US_United States_trojan_119
-  network: ws
-  password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17685523782218.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17685523788506.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_122
-  network: ws
-  password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17685523783386.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17685523786024.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_125
-  network: ws
-  password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17685523781113.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17685523789625.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_128
-  network: ws
-  password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17685523785425.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17685523788736.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_131
-  network: ws
-  password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17685523787635.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17685523785874.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_140
+- name: US_United States_trojan_115
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro003.instconn.com
   skip-cert-verify: true
   sni: login-staticjpc.jasmine-douyin.top
   type: trojan
+- name: US_United States_trojan_119
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.16.16
+  skip-cert-verify: true
+  sni: 35.180.16.16
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_169
+  network: tcp
+  port: '35760'
+  server: 149.88.95.94
+  tls: false
+  type: vmess
+  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
 proxy-groups:
 - name: 节点选择
   type: select
@@ -157,18 +93,13 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_04
   - US_United States_trojan_06
-  - US_United States_trojan_011
-  - US_United States_trojan_015
-  - US_United States_trojan_017
-  - US_United States_trojan_111
+  - US_United States_trojan_013
+  - US_United States_trojan_016
+  - US_United States_trojan_018
+  - US_United States_trojan_115
   - US_United States_trojan_119
-  - US_United States_trojan_122
-  - US_United States_trojan_125
-  - US_United States_trojan_128
-  - US_United States_trojan_131
-  - US_United States_trojan_140
+  - US_United States_vmess_169
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -176,18 +107,13 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_04
   - US_United States_trojan_06
-  - US_United States_trojan_011
-  - US_United States_trojan_015
-  - US_United States_trojan_017
-  - US_United States_trojan_111
+  - US_United States_trojan_013
+  - US_United States_trojan_016
+  - US_United States_trojan_018
+  - US_United States_trojan_115
   - US_United States_trojan_119
-  - US_United States_trojan_122
-  - US_United States_trojan_125
-  - US_United States_trojan_128
-  - US_United States_trojan_131
-  - US_United States_trojan_140
+  - US_United States_vmess_169
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
