@@ -161,6 +161,38 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
+- name: US_United States_trojan_1133
+  network: tcp
+  password: BxceQaOe
+  port: 3292
+  server: 13.114.140.34
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1134
+  network: tcp
+  password: BxceQaOe
+  port: 3042
+  server: 16.162.252.215
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1135
+  network: tcp
+  password: BxceQaOe
+  port: 2053
+  server: 18.181.201.166
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1142
+  network: tcp
+  password: BxceQaOe
+  port: 4569
+  server: 16.162.22.195
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -181,6 +213,10 @@ proxy-groups:
   - US_United States_trojan_180
   - US_United States_trojan_1113
   - US_United States_trojan_1114
+  - US_United States_trojan_1133
+  - US_United States_trojan_1134
+  - US_United States_trojan_1135
+  - US_United States_trojan_1142
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -201,6 +237,10 @@ proxy-groups:
   - US_United States_trojan_180
   - US_United States_trojan_1113
   - US_United States_trojan_1114
+  - US_United States_trojan_1133
+  - US_United States_trojan_1134
+  - US_United States_trojan_1135
+  - US_United States_trojan_1142
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
