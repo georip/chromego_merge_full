@@ -25,17 +25,22 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- cipher: aes-256-cfb
+  name: US_United States_ss_01
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_02
-  network: tcp
-  port: '34659'
+  name: US_United States_vmess_03
+  port: 34659
   server: 47.242.192.233
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: US_United States_trojan_04
+- name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
   port: 3292
@@ -43,7 +48,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_05
+- name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
   port: 3042
@@ -51,7 +56,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_06
+- name: US_United States_trojan_07
   network: tcp
   password: BxceQaOe
   port: 2053
@@ -59,7 +64,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_011
+- name: US_United States_trojan_012
   network: tcp
   password: BxceQaOe
   port: 2673
@@ -67,7 +72,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_014
+- name: US_United States_trojan_015
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -75,7 +80,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_015
+- name: US_United States_trojan_019
   password: telegram-id-privatevpns
   port: 22222
   server: 18.196.155.223
@@ -83,14 +88,14 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: US_United States_trojan_017
+- name: US_United States_trojan_021
   password: telegram-id-directvpn
   port: 22223
   server: 51.44.124.96
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_United States_trojan_018
+- name: US_United States_trojan_022
   network: ws
   password: Aimer
   port: 2053
@@ -210,27 +215,22 @@ proxies:
     headers:
       Host: blackshadow.dpdns.org
     path: '%2F195.123.218.174-443'
-- cipher: aes-256-cfb
-  name: US_United States_ss_180
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_vmess_02
-  - US_United States_trojan_04
+  - US_United States_ss_01
+  - US_United States_vmess_03
   - US_United States_trojan_05
   - US_United States_trojan_06
-  - US_United States_trojan_011
-  - US_United States_trojan_014
+  - US_United States_trojan_07
+  - US_United States_trojan_012
   - US_United States_trojan_015
-  - US_United States_trojan_017
-  - US_United States_trojan_018
+  - US_United States_trojan_019
+  - US_United States_trojan_021
+  - US_United States_trojan_022
   - US_United States_trojan_111
   - US_United States_trojan_119
   - US_United States_trojan_122
@@ -241,22 +241,22 @@ proxy-groups:
   - US_United States_trojan_151
   - US_United States_vmess_176
   - US_United States_trojan_178
-  - US_United States_ss_180
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_vmess_02
-  - US_United States_trojan_04
+  - US_United States_ss_01
+  - US_United States_vmess_03
   - US_United States_trojan_05
   - US_United States_trojan_06
-  - US_United States_trojan_011
-  - US_United States_trojan_014
+  - US_United States_trojan_07
+  - US_United States_trojan_012
   - US_United States_trojan_015
-  - US_United States_trojan_017
-  - US_United States_trojan_018
+  - US_United States_trojan_019
+  - US_United States_trojan_021
+  - US_United States_trojan_022
   - US_United States_trojan_111
   - US_United States_trojan_119
   - US_United States_trojan_122
@@ -267,7 +267,6 @@ proxy-groups:
   - US_United States_trojan_151
   - US_United States_vmess_176
   - US_United States_trojan_178
-  - US_United States_ss_180
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
