@@ -87,6 +87,48 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2FeyJqdW5rIjoidmNzMWVlWHpNTVh4M2siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_176
+  network: tcp
+  port: '34659'
+  server: 47.242.192.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
+- name: US_United States_trojan_178
+  network: tcp
+  password: BxceQaOe
+  port: 3292
+  server: 13.159.22.132
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_180
+  network: tcp
+  password: BxceQaOe
+  port: 2053
+  server: 54.238.172.125
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_185
+  network: tcp
+  password: BxceQaOe
+  port: 2673
+  server: 43.198.16.69
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_188
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 16.162.252.227
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -100,6 +142,11 @@ proxy-groups:
   - US_United States_trojan_015
   - US_United States_trojan_155
   - US_United States_trojan_158
+  - US_United States_vmess_176
+  - US_United States_trojan_178
+  - US_United States_trojan_180
+  - US_United States_trojan_185
+  - US_United States_trojan_188
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -113,6 +160,11 @@ proxy-groups:
   - US_United States_trojan_015
   - US_United States_trojan_155
   - US_United States_trojan_158
+  - US_United States_vmess_176
+  - US_United States_trojan_178
+  - US_United States_trojan_180
+  - US_United States_trojan_185
+  - US_United States_trojan_188
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
