@@ -31,16 +31,7 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_03
-  port: 34659
-  server: 47.242.192.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: US_United States_trojan_05
+- name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
   port: 3292
@@ -48,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_06
+- name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
   port: 3042
@@ -56,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_07
+- name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
   port: 2053
@@ -64,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_012
+- name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
   port: 2673
@@ -72,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_015
+- name: US_United States_trojan_014
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -80,34 +71,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_019
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.196.155.223
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: US_United States_trojan_021
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.124.96
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_United States_trojan_022
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560
 - name: US_United States_trojan_111
   network: ws
   password: 50e90b26-760a-4d7c-90f4-751bc92206d7
@@ -222,15 +185,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_vmess_03
+  - US_United States_trojan_04
   - US_United States_trojan_05
   - US_United States_trojan_06
-  - US_United States_trojan_07
-  - US_United States_trojan_012
-  - US_United States_trojan_015
-  - US_United States_trojan_019
-  - US_United States_trojan_021
-  - US_United States_trojan_022
+  - US_United States_trojan_011
+  - US_United States_trojan_014
   - US_United States_trojan_111
   - US_United States_trojan_119
   - US_United States_trojan_122
@@ -248,15 +207,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_vmess_03
+  - US_United States_trojan_04
   - US_United States_trojan_05
   - US_United States_trojan_06
-  - US_United States_trojan_07
-  - US_United States_trojan_012
-  - US_United States_trojan_015
-  - US_United States_trojan_019
-  - US_United States_trojan_021
-  - US_United States_trojan_022
+  - US_United States_trojan_011
+  - US_United States_trojan_014
   - US_United States_trojan_111
   - US_United States_trojan_119
   - US_United States_trojan_122
