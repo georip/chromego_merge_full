@@ -154,6 +154,38 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /𒉭𓆩@rootface𒆜 Merry Christmas 🎄🥳🎁𒉭 @pwn_1337 TELEGRAM
+- name: US_United States_trojan_1163
+  network: tcp
+  password: BxceQaOe
+  port: 432
+  server: 16.162.90.147
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1165
+  network: tcp
+  password: BxceQaOe
+  port: 2762
+  server: 13.114.168.40
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1170
+  network: tcp
+  password: BxceQaOe
+  port: 1691
+  server: 3.112.224.244
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_1173
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 18.167.42.188
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -173,6 +205,10 @@ proxy-groups:
   - US_United States_trojan_143
   - US_United States_trojan_146
   - US_United States_vmess_1158
+  - US_United States_trojan_1163
+  - US_United States_trojan_1165
+  - US_United States_trojan_1170
+  - US_United States_trojan_1173
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -192,6 +228,10 @@ proxy-groups:
   - US_United States_trojan_143
   - US_United States_trojan_146
   - US_United States_vmess_1158
+  - US_United States_trojan_1163
+  - US_United States_trojan_1165
+  - US_United States_trojan_1170
+  - US_United States_trojan_1173
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
