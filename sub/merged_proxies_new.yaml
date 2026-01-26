@@ -31,29 +31,21 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_05
+- name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
   port: 432
-  server: 43.199.45.223
+  server: 18.182.8.233
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_06
+- name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 18.176.57.17
+  port: 1867
+  server: 54.250.244.16
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_011
-  network: tcp
-  password: BxceQaOe
-  port: 1691
-  server: 43.198.102.247
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_118
   network: ws
@@ -93,9 +85,8 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
+  - US_United States_trojan_04
   - US_United States_trojan_05
-  - US_United States_trojan_06
-  - US_United States_trojan_011
   - US_United States_trojan_118
   - US_United States_trojan_126
   - US_United States_trojan_127
@@ -106,9 +97,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
+  - US_United States_trojan_04
   - US_United States_trojan_05
-  - US_United States_trojan_06
-  - US_United States_trojan_011
   - US_United States_trojan_118
   - US_United States_trojan_126
   - US_United States_trojan_127
