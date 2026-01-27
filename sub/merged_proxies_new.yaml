@@ -55,14 +55,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_115
-  password: d51abb35-94a4-4529-9244-2808beaa4624
-  port: 27638
-  server: vn.yiciyuanquicken.online
-  skip-cert-verify: true
-  sni: vn.yiciyuanquicken.online
-  type: trojan
-- name: US_United States_trojan_120
+- name: US_United States_trojan_026
   network: ws
   password: 2238e2f3-1a01-485e-8c22-24b65764c68b
   port: 443
@@ -70,10 +63,44 @@ proxies:
   skip-cert-verify: true
   sni: gzjx.dpdns.org
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: gzjx.dpdns.org
-    path: '%2F51.91.253.83%3D8443'
+    path: /51.91.253.83=8443
+- name: US_United States_trojan_027
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 8443
+  server: 176.105.253.102
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: US_United States_trojan_028
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 54443
+  server: 173.249.201.109
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: US_United States_trojan_115
+  password: d51abb35-94a4-4529-9244-2808beaa4624
+  port: 27638
+  server: vn.yiciyuanquicken.online
+  skip-cert-verify: true
+  sni: vn.yiciyuanquicken.online
+  type: trojan
 - name: US_United States_trojan_143
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
@@ -91,8 +118,10 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_08
+  - US_United States_trojan_026
+  - US_United States_trojan_027
+  - US_United States_trojan_028
   - US_United States_trojan_115
-  - US_United States_trojan_120
   - US_United States_trojan_143
 - name: 自动选择
   type: url-test
@@ -104,8 +133,10 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_08
+  - US_United States_trojan_026
+  - US_United States_trojan_027
+  - US_United States_trojan_028
   - US_United States_trojan_115
-  - US_United States_trojan_120
   - US_United States_trojan_143
 rules:
 - DOMAIN,clash.razord.top,DIRECT
