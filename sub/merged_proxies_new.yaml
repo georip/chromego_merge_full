@@ -55,108 +55,32 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_139
+- name: US_United States_trojan_115
+  password: d51abb35-94a4-4529-9244-2808beaa4624
+  port: 27638
+  server: vn.yiciyuanquicken.online
+  skip-cert-verify: true
+  sni: vn.yiciyuanquicken.online
+  type: trojan
+- name: US_United States_trojan_120
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: true
+  sni: gzjx.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gzjx.dpdns.org
+    path: '%2F51.91.253.83%3D8443'
+- name: US_United States_trojan_143
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
-  server: tuntro003.instconn.com
+  server: tuntro006.instconn.com
   skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
+  sni: torontorm1.686911.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_195
-  network: tcp
-  port: '10151'
-  server: knd.balouliangzhimao.xyz
-  tls: false
-  type: vmess
-  uuid: d744bb69-3ef6-3d90-8695-87b59ac22a02
-- name: US_United States_trojan_197
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2087
-  server: bestcdn0.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096396358.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096395129.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: US_United States_trojan_1105
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096391369.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096392662.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1108
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096396288.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096394014.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1111
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096398158.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096395936.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1114
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096395894.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096397669.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1117
-  network: ws
-  password: 88cb8ee2-9286-444b-93a5-ccd06f0ea574
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17694096395148.206352.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17694096397836.206352.xyz
-    path: '%2Fagraeabtegrrh'
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1142
-  network: ws
-  password: '666'
-  port: 443
-  server: new.ssdxz.cn
-  skip-cert-verify: true
-  sni: 2new.ssdxz.cn
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2new.ssdxz.cn
-    path: '%2F'
 proxy-groups:
 - name: 节点选择
   type: select
@@ -167,15 +91,9 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_08
-  - US_United States_trojan_139
-  - US_United States_vmess_195
-  - US_United States_trojan_197
-  - US_United States_trojan_1105
-  - US_United States_trojan_1108
-  - US_United States_trojan_1111
-  - US_United States_trojan_1114
-  - US_United States_trojan_1117
-  - US_United States_trojan_1142
+  - US_United States_trojan_115
+  - US_United States_trojan_120
+  - US_United States_trojan_143
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -186,15 +104,9 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_08
-  - US_United States_trojan_139
-  - US_United States_vmess_195
-  - US_United States_trojan_197
-  - US_United States_trojan_1105
-  - US_United States_trojan_1108
-  - US_United States_trojan_1111
-  - US_United States_trojan_1114
-  - US_United States_trojan_1117
-  - US_United States_trojan_1142
+  - US_United States_trojan_115
+  - US_United States_trojan_120
+  - US_United States_trojan_143
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
