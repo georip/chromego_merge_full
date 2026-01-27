@@ -31,21 +31,36 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_04
-  network: tcp
-  password: BxceQaOe
-  port: 432
-  server: 18.182.8.233
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
   port: 1867
-  server: 54.250.244.16
+  server: 18.179.118.202
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_06
+  network: tcp
+  password: BxceQaOe
+  port: 2595
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_08
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 1933
+  server: 52.195.170.6
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_139
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
   type: trojan
 - alterId: 0
   cipher: auto
@@ -149,8 +164,10 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_04
   - US_United States_trojan_05
+  - US_United States_trojan_06
+  - US_United States_trojan_08
+  - US_United States_trojan_139
   - US_United States_vmess_195
   - US_United States_trojan_197
   - US_United States_trojan_1105
@@ -166,8 +183,10 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_04
   - US_United States_trojan_05
+  - US_United States_trojan_06
+  - US_United States_trojan_08
+  - US_United States_trojan_139
   - US_United States_vmess_195
   - US_United States_trojan_197
   - US_United States_trojan_1105
