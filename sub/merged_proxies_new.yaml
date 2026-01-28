@@ -108,6 +108,30 @@ proxies:
   skip-cert-verify: true
   sni: torontorm1.686911.xyz
   type: trojan
+- name: US_United States_trojan_171
+  network: tcp
+  password: BxceQaOe
+  port: 2266
+  server: 95.40.75.51
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_172
+  network: tcp
+  password: BxceQaOe
+  port: 2826
+  server: 52.196.16.120
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_173
+  network: tcp
+  password: BxceQaOe
+  port: 3760
+  server: 13.159.16.204
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -123,6 +147,9 @@ proxy-groups:
   - US_United States_trojan_028
   - US_United States_trojan_115
   - US_United States_trojan_143
+  - US_United States_trojan_171
+  - US_United States_trojan_172
+  - US_United States_trojan_173
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -138,6 +165,9 @@ proxy-groups:
   - US_United States_trojan_028
   - US_United States_trojan_115
   - US_United States_trojan_143
+  - US_United States_trojan_171
+  - US_United States_trojan_172
+  - US_United States_trojan_173
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
