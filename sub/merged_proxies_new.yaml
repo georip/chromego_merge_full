@@ -35,31 +35,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2266
-  server: 95.40.75.51
+  server: 95.40.16.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 2826
-  server: 52.196.16.120
+  port: 2266
+  server: 95.40.9.178
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 3760
-  server: 13.159.16.204
+  port: 2595
+  server: 57.181.41.46
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 13.158.129.83
+  port: 1196
+  server: 13.113.58.166
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -109,6 +109,13 @@ proxies:
   skip-cert-verify: true
   sni: vn.yiciyuanquicken.online
   type: trojan
+- name: US_United States_trojan_140
+  password: BxceQaOe
+  port: 3579
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: 13.158.129.83
+  type: trojan
 - name: US_United States_trojan_143
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
@@ -122,38 +129,6 @@ proxies:
   server: 52.195.170.6
   skip-cert-verify: true
   sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_176
-  network: tcp
-  password: BxceQaOe
-  port: 2266
-  server: 95.40.16.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_177
-  network: tcp
-  password: BxceQaOe
-  port: 2266
-  server: 95.40.9.178
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_178
-  network: tcp
-  password: BxceQaOe
-  port: 2595
-  server: 57.181.41.46
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_183
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 13.113.58.166
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 proxy-groups:
 - name: 节点选择
@@ -170,12 +145,9 @@ proxy-groups:
   - US_United States_trojan_028
   - US_United States_trojan_029
   - US_United States_trojan_115
+  - US_United States_trojan_140
   - US_United States_trojan_143
   - US_United States_trojan_152
-  - US_United States_trojan_176
-  - US_United States_trojan_177
-  - US_United States_trojan_178
-  - US_United States_trojan_183
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -191,12 +163,9 @@ proxy-groups:
   - US_United States_trojan_028
   - US_United States_trojan_029
   - US_United States_trojan_115
+  - US_United States_trojan_140
   - US_United States_trojan_143
   - US_United States_trojan_152
-  - US_United States_trojan_176
-  - US_United States_trojan_177
-  - US_United States_trojan_178
-  - US_United States_trojan_183
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
