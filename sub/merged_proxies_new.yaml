@@ -63,72 +63,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_027
-  network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+- name: US_United States_trojan_134
+  password: M7v%w11Se*
   port: 443
-  server: 208.103.161.231
+  server: tttyder.wsone.icu
   skip-cert-verify: true
-  sni: gzjx.dpdns.org
+  sni: tttyder.wsone.icu
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: gzjx.dpdns.org
-    path: /51.91.253.83=8443
-- name: US_United States_trojan_028
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_147
   network: ws
-  password: 42bbf526-5530-470a-aeec-3b919b21c58d
-  port: 8443
-  server: 176.105.253.102
-  skip-cert-verify: true
-  sni: 0000.hkvip.ip-ddns.com
-  type: trojan
-  udp: true
+  port: '443'
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
   ws-opts:
     headers:
-      Host: 0000.hkvip.ip-ddns.com
-    path: /?ed=2560
-- name: US_United States_trojan_029
-  network: ws
-  password: 42bbf526-5530-470a-aeec-3b919b21c58d
-  port: 54443
-  server: 173.249.201.109
-  skip-cert-verify: true
-  sni: 0000.hkvip.ip-ddns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 0000.hkvip.ip-ddns.com
-    path: /?ed=2560
-- name: US_United States_trojan_115
-  password: d51abb35-94a4-4529-9244-2808beaa4624
-  port: 27638
-  server: vn.yiciyuanquicken.online
-  skip-cert-verify: true
-  sni: vn.yiciyuanquicken.online
-  type: trojan
-- name: US_United States_trojan_140
-  password: BxceQaOe
-  port: 3579
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: 13.158.129.83
-  type: trojan
-- name: US_United States_trojan_143
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
+      Host: n1753598446.wpg27.xyz
+    path: /
+- name: US_United States_trojan_148
+  password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
-  server: tuntro006.instconn.com
+  server: 38.54.59.90
   skip-cert-verify: true
-  sni: torontorm1.686911.xyz
-  type: trojan
-- name: US_United States_trojan_152
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 491
-  server: 52.195.170.6
-  skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: 38.54.59.90
   type: trojan
 proxy-groups:
 - name: 节点选择
@@ -141,13 +102,9 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_011
-  - US_United States_trojan_027
-  - US_United States_trojan_028
-  - US_United States_trojan_029
-  - US_United States_trojan_115
-  - US_United States_trojan_140
-  - US_United States_trojan_143
-  - US_United States_trojan_152
+  - US_United States_trojan_134
+  - US_United States_vmess_147
+  - US_United States_trojan_148
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -159,13 +116,9 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_011
-  - US_United States_trojan_027
-  - US_United States_trojan_028
-  - US_United States_trojan_029
-  - US_United States_trojan_115
-  - US_United States_trojan_140
-  - US_United States_trojan_143
-  - US_United States_trojan_152
+  - US_United States_trojan_134
+  - US_United States_vmess_147
+  - US_United States_trojan_148
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
