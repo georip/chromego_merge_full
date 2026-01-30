@@ -31,37 +31,54 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_04
-  network: tcp
-  password: BxceQaOe
-  port: 2266
-  server: 95.40.16.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_03
+  port: 34659
+  server: 47.242.192.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 95.40.9.178
+  port: 2826
+  server: 43.207.157.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 57.181.41.46
+  port: 1867
+  server: 54.249.137.88
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_08
+  network: tcp
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 1933
+  server: 57.180.246.207
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_012
+  network: tcp
+  password: BxceQaOe
+  port: 1691
+  server: 43.199.207.224
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_011
+- name: US_United States_trojan_015
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 13.113.58.166
+  port: 1112
+  server: 52.195.175.115
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_134
   password: M7v%w11Se*
@@ -91,55 +108,6 @@ proxies:
   skip-cert-verify: true
   sni: 38.54.59.90
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_165
-  network: tcp
-  port: '34659'
-  server: 47.242.192.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: US_United States_trojan_166
-  network: tcp
-  password: BxceQaOe
-  port: 2826
-  server: 43.207.157.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_167
-  network: tcp
-  password: BxceQaOe
-  port: 1867
-  server: 54.249.137.88
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_169
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 1933
-  server: 57.180.246.207
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_173
-  network: tcp
-  password: BxceQaOe
-  port: 1691
-  server: 43.199.207.224
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_176
-  network: tcp
-  password: BxceQaOe
-  port: 1112
-  server: 52.195.175.115
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -147,19 +115,15 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_04
+  - US_United States_vmess_03
   - US_United States_trojan_05
   - US_United States_trojan_06
-  - US_United States_trojan_011
+  - US_United States_trojan_08
+  - US_United States_trojan_012
+  - US_United States_trojan_015
   - US_United States_trojan_134
   - US_United States_vmess_147
   - US_United States_trojan_148
-  - US_United States_vmess_165
-  - US_United States_trojan_166
-  - US_United States_trojan_167
-  - US_United States_trojan_169
-  - US_United States_trojan_173
-  - US_United States_trojan_176
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -167,19 +131,15 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_04
+  - US_United States_vmess_03
   - US_United States_trojan_05
   - US_United States_trojan_06
-  - US_United States_trojan_011
+  - US_United States_trojan_08
+  - US_United States_trojan_012
+  - US_United States_trojan_015
   - US_United States_trojan_134
   - US_United States_vmess_147
   - US_United States_trojan_148
-  - US_United States_vmess_165
-  - US_United States_trojan_166
-  - US_United States_trojan_167
-  - US_United States_trojan_169
-  - US_United States_trojan_173
-  - US_United States_trojan_176
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
