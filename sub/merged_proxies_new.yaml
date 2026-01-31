@@ -63,34 +63,53 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_134
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
+- name: US_United States_trojan_120
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2087
+  server: bestcdn0.868863.xyz
   skip-cert-verify: true
-  sni: tttyder.wsone.icu
+  sni: 17698512162997.682637.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512164336.682637.xyz
+    path: '%2Fahyrtuyjykl'
+- name: US_United States_trojan_121
+  network: ws
+  password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
+  port: 2083
+  server: bestcdn4.868863.xyz
+  skip-cert-verify: true
+  sni: 17698512161222.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17698512161457.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: US_United States_trojan_136
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  skip-cert-verify: true
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- name: US_United States_trojan_137
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro006.instconn.com
+  skip-cert-verify: true
+  sni: torontorm1.686911.xyz
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_147
-  network: ws
-  port: '443'
-  server: n1753598446.wpg27.xyz
-  servername: n1753598446.wpg27.xyz
-  tls: true
+  name: US_United States_vmess_141
+  network: tcp
+  port: '8080'
+  server: 47.236.78.132
+  tls: false
   type: vmess
-  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
-  ws-opts:
-    headers:
-      Host: n1753598446.wpg27.xyz
-    path: /
-- name: US_United States_trojan_148
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 38.54.59.90
-  skip-cert-verify: true
-  sni: 38.54.59.90
-  type: trojan
+  uuid: 542f6e13-9542-470c-974a-d31c0a05a37d
 proxy-groups:
 - name: 节点选择
   type: select
@@ -102,9 +121,11 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_010
   - US_United States_trojan_011
-  - US_United States_trojan_134
-  - US_United States_vmess_147
-  - US_United States_trojan_148
+  - US_United States_trojan_120
+  - US_United States_trojan_121
+  - US_United States_trojan_136
+  - US_United States_trojan_137
+  - US_United States_vmess_141
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -116,9 +137,11 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_010
   - US_United States_trojan_011
-  - US_United States_trojan_134
-  - US_United States_vmess_147
-  - US_United States_trojan_148
+  - US_United States_trojan_120
+  - US_United States_trojan_121
+  - US_United States_trojan_136
+  - US_United States_trojan_137
+  - US_United States_vmess_141
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
