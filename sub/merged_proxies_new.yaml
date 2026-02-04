@@ -142,6 +142,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 542f6e13-9542-470c-974a-d31c0a05a37d
+- name: US_United States_trojan_164
+  network: tcp
+  password: BxceQaOe
+  port: 2266
+  server: 18.177.138.102
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_166
+  network: tcp
+  password: BxceQaOe
+  port: 20539
+  server: 43.206.238.87
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_169
+  network: tcp
+  password: BxceQaOe
+  port: 3579
+  server: 18.182.62.89
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -162,6 +186,9 @@ proxy-groups:
   - US_United States_trojan_136
   - US_United States_trojan_137
   - US_United States_vmess_141
+  - US_United States_trojan_164
+  - US_United States_trojan_166
+  - US_United States_trojan_169
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -182,6 +209,9 @@ proxy-groups:
   - US_United States_trojan_136
   - US_United States_trojan_137
   - US_United States_vmess_141
+  - US_United States_trojan_164
+  - US_United States_trojan_166
+  - US_United States_trojan_169
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
