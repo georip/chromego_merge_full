@@ -534,20 +534,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_744
-  server: nl1.miyazono-kaori.com
-  port: 443
-  type: vless
-  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: www.philips.com
-  reality-opts:
-    public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
-    short-id: 92dca6
-  udp: true
 - name: US_United States_vless_775
   server: 143.20.213.128
   port: 8443
@@ -2387,183 +2373,62 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: US_United States_ss_1617
-  server: 154.53.34.27
-  type: ss
-  country: 🇺🇸US
-  port: 45234
-  password: 5d8680180abdb564
-  cipher: chacha20-ietf-poly1305
-  delay: 633
-- name: US_United States_vmess_1625
-  server: cvfgt.00890604.xyz
-  port: 80
-  type: vmess
-  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: US_United States_trojan_161
+  server: 13.39.127.100
+  type: trojan
+  country: 🇫🇷FR
+  port: 22222
+  password: telegram-id-privatevpns
+  sni: trojan.burgerip.co.uk
   skip-cert-verify: true
-  servername: cvfgt.00890604.xyz
-  network: ws
-  ws-opts:
-    path: /HISLfofvqzd3a3izxYyZXOF
-    headers:
-      Host: cvfgt.00890604.xyz
   udp: true
-  delay: 2755
-- name: US_United States_vmess_1628
-  server: vvddvbg.00890604.xyz
-  port: 80
+  delay: 1172
+- name: US_United States_vmess_165
+  server: 104.19.50.23
   type: vmess
-  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /HISLfofvqzd3a3izxYyZXOF
-    headers:
-      Host: vvddvbg.00890604.xyz
-  udp: true
-  client-fingerprint: chrome
-  servername: vvddvbg.00890604.xyz
-  delay: 1444
-- name: US_United States_vmess_1629
-  server: mmmkuy.un2026.indevs.in
-  port: 80
-  type: vmess
-  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /HISLfofvqzd3a3izxYyZXOF
-    headers:
-      Host: mmmkuy.un2026.indevs.in
-  udp: true
-  client-fingerprint: chrome
-  servername: mmmkuy.un2026.indevs.in
-  delay: 1417
-- name: US_United States_vless_1631
-  server: 162.120.94.138
-  port: 2096
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-  udp: true
-  servername: sni.111000.indevs.in
-  delay: 1401
-- name: US_United States_vless_1632
-  server: vip2.kaixincloud.top
+  country: 🏁ZZ
   port: 443
-  type: vless
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: blog.dezh.store
+  http-opts: {}
+  h2-opts: {}
   tls: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assets
-    headers:
-      Host: DiprOX.pages.DEV
-  udp: true
-  servername: DiprOX.pages.DEV
-  delay: 1593
-- name: US_United States_vmess_1633
-  server: ggbnhy.191262.xyz
-  port: 80
-  type: vmess
-  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /GgigazFGDLgFWDItkD5XgXAL
-    headers:
-      Host: gGBnhY.191262.xYz
-  udp: true
-  client-fingerprint: chrome
-  servername: GgbNHY.191262.xyZ
-  delay: 1473
-- name: US_United States_vmess_1634
-  server: bbgtr.7777198.xyz
-  port: 80
-  type: vmess
-  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
-  alterId: 0
-  cipher: auto
-  tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /GgigazFGDLgFWDItkD5XgXAL
-    headers:
-      Host: BBGTR.7777198.XYZ
-  udp: true
-  delay: 1396
-- name: US_United States_vmess_1636
-  server: nnnmjk.www890604.dpdns.org
-  port: 80
-  type: vmess
-  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: nnnmjk.www890604.dpdns.org
-  network: ws
-  ws-opts:
-    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
-    headers:
-      Host: nnnmjk.www890604.dpdns.org
-  udp: true
-  delay: 2906
-- name: US_United States_vmess_1637
-  server: nnnmjkiu.www890604.dpdns.org
-  port: 80
-  type: vmess
-  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
-    headers:
-      Host: nnnmjkiu.www890604.dpdns.org
-  udp: true
-  client-fingerprint: chrome
-  servername: nnnmjkiu.www890604.dpdns.org
-  delay: 1749
-- name: US_United States_vless_1639
-  server: mobile.twitter.now.cc
-  port: 443
-  type: vless
-  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
-  tls: true
-  client-fingerprint: chrome
-  network: ws
   ws-opts:
     path: /
     headers:
-      Host: 5465765525.ccfly.tech
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+      HOST: blog.dezh.store
+  delay: 2734
+- name: US_United States_ss_168
+  server: 57.180.244.229
+  port: 8989
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   udp: true
-  servername: 5465765525.ccfly.tech
-  delay: 1001
+  delay: 801
+- name: US_United States_vmess_1610
+  server: tokyo01.zgjok.com
+  type: vmess
+  country: 🇯🇵JP
+  port: 443
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: tokyo01.zgjok.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: tokyo01.zgjok.com
+  delay: 1801
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2617,7 +2482,6 @@ proxy-groups:
   - US_United States_vless_5102
   - US_United States_vless_735
   - US_United States_http_738
-  - US_United States_vless_744
   - US_United States_vless_775
   - US_United States_vless_776
   - US_United States_vless_777
@@ -2767,17 +2631,10 @@ proxy-groups:
   - US_United States_vless_12366
   - US_United States_vless_12372
   - US_United States_vless_12376
-  - US_United States_ss_1617
-  - US_United States_vmess_1625
-  - US_United States_vmess_1628
-  - US_United States_vmess_1629
-  - US_United States_vless_1631
-  - US_United States_vless_1632
-  - US_United States_vmess_1633
-  - US_United States_vmess_1634
-  - US_United States_vmess_1636
-  - US_United States_vmess_1637
-  - US_United States_vless_1639
+  - US_United States_trojan_161
+  - US_United States_vmess_165
+  - US_United States_ss_168
+  - US_United States_vmess_1610
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2831,7 +2688,6 @@ proxy-groups:
   - US_United States_vless_5102
   - US_United States_vless_735
   - US_United States_http_738
-  - US_United States_vless_744
   - US_United States_vless_775
   - US_United States_vless_776
   - US_United States_vless_777
@@ -2981,17 +2837,10 @@ proxy-groups:
   - US_United States_vless_12366
   - US_United States_vless_12372
   - US_United States_vless_12376
-  - US_United States_ss_1617
-  - US_United States_vmess_1625
-  - US_United States_vmess_1628
-  - US_United States_vmess_1629
-  - US_United States_vless_1631
-  - US_United States_vless_1632
-  - US_United States_vmess_1633
-  - US_United States_vmess_1634
-  - US_United States_vmess_1636
-  - US_United States_vmess_1637
-  - US_United States_vless_1639
+  - US_United States_trojan_161
+  - US_United States_vmess_165
+  - US_United States_ss_168
+  - US_United States_vmess_1610
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
