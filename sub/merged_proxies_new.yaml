@@ -118,6 +118,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 542f6e13-9542-470c-974a-d31c0a05a37d
+- name: US_United States_trojan_150
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3373
+  server: 43.207.108.97
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_151
+  network: tcp
+  password: BxceQaOe
+  port: 4183
+  server: 43.206.227.236
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_152
+  network: tcp
+  password: BxceQaOe
+  port: 3292
+  server: 52.68.254.155
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_154
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 1933
+  server: 52.198.102.170
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: US_United States_ss_162
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
@@ -135,6 +173,11 @@ proxy-groups:
   - US_United States_trojan_136
   - US_United States_trojan_137
   - US_United States_vmess_141
+  - US_United States_trojan_150
+  - US_United States_trojan_151
+  - US_United States_trojan_152
+  - US_United States_trojan_154
+  - US_United States_ss_162
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -152,6 +195,11 @@ proxy-groups:
   - US_United States_trojan_136
   - US_United States_trojan_137
   - US_United States_vmess_141
+  - US_United States_trojan_150
+  - US_United States_trojan_151
+  - US_United States_trojan_152
+  - US_United States_trojan_154
+  - US_United States_ss_162
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
