@@ -129,6 +129,93 @@ proxies:
   tls: false
   type: vmess
   uuid: 542f6e13-9542-470c-974a-d31c0a05a37d
+- name: US_United States_trojan_150
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3373
+  server: 54.95.118.21
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_151
+  network: tcp
+  password: BxceQaOe
+  port: 2266
+  server: 13.231.5.152
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_152
+  network: tcp
+  password: BxceQaOe
+  port: 2266
+  server: 52.196.168.206
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_154
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 1933
+  server: 18.181.173.100
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_155
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 4006
+  server: 54.168.105.60
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_156
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3076
+  server: 13.231.53.184
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_158
+  network: tcp
+  password: BxceQaOe
+  port: 8041
+  server: 43.199.59.14
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_160
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 276
+  server: 3.112.14.249
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_161
+  network: tcp
+  password: BxceQaOe
+  port: 1221
+  server: 18.166.210.2
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_164
+  network: ws
+  port: '443'
+  server: tokyo01.zgjok.com
+  servername: tokyo01.zgjok.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  ws-opts:
+    headers:
+      Host: tokyo01.zgjok.com
+    path: /
 - name: US_United States_vless_52
   network: ws
   port: 2443
@@ -534,6 +621,20 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
+- name: US_United States_vless_744
+  server: nl1.miyazono-kaori.com
+  port: 443
+  type: vless
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: www.philips.com
+  reality-opts:
+    public-key: AFQAIB5u9Uu6nf9fkP1BdcSHivSuUv97l4FH-LoFYgw
+    short-id: 92dca6
+  udp: true
 - name: US_United States_vless_775
   server: 143.20.213.128
   port: 8443
@@ -714,18 +815,6 @@ proxies:
   reality-opts:
     public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
     short-id: '20'
-- name: US_United States_vless_1234
-  type: vless
-  server: fr2.miyazono-kaori.com
-  port: 443
-  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-  servername: www.edf.fr
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: NbZDyyn7jiy3X59fcoVyL6WsCkE4K-sfOKQ383JAHD8
-    short-id: 04c9953800
 - name: US_United States_vless_1235
   type: vless
   server: us2.miyazono-kaori.com
@@ -738,6 +827,18 @@ proxies:
   reality-opts:
     public-key: OIVDQIpAT0W0VQ5E8qHlBZjXtcPOxrbWpx3CxN5L-iQ
     short-id: 2714177825354e
+- name: US_United States_vless_1237
+  type: vless
+  server: it2.miyazono-kaori.com
+  port: 443
+  uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+  servername: www.iveco.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: HHpfN0umgAIz0_1zc02YotLaXH0BiW3OShW8zILPlQE
+    short-id: 3adfd0142dc4a9
 - name: US_United States_vless_1238
   type: vless
   server: hk4.miyazono-kaori.com
@@ -2410,25 +2511,6 @@ proxies:
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   udp: true
   delay: 801
-- name: US_United States_vmess_1610
-  server: tokyo01.zgjok.com
-  type: vmess
-  country: 🇯🇵JP
-  port: 443
-  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: tokyo01.zgjok.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /
-    headers:
-      HOST: tokyo01.zgjok.com
-  delay: 1801
 proxy-groups:
 - name: 节点选择
   type: select
@@ -2447,6 +2529,16 @@ proxy-groups:
   - US_United States_trojan_136
   - US_United States_trojan_137
   - US_United States_vmess_141
+  - US_United States_trojan_150
+  - US_United States_trojan_151
+  - US_United States_trojan_152
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_158
+  - US_United States_trojan_160
+  - US_United States_trojan_161
+  - US_United States_vmess_164
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -2482,6 +2574,7 @@ proxy-groups:
   - US_United States_vless_5102
   - US_United States_vless_735
   - US_United States_http_738
+  - US_United States_vless_744
   - US_United States_vless_775
   - US_United States_vless_776
   - US_United States_vless_777
@@ -2496,8 +2589,8 @@ proxy-groups:
   - US_United States_vless_1230
   - US_United States_vless_1232
   - US_United States_vless_1233
-  - US_United States_vless_1234
   - US_United States_vless_1235
+  - US_United States_vless_1237
   - US_United States_vless_1238
   - US_United States_vless_1239
   - US_United States_vless_1240
@@ -2634,7 +2727,6 @@ proxy-groups:
   - US_United States_trojan_161
   - US_United States_vmess_165
   - US_United States_ss_168
-  - US_United States_vmess_1610
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2653,6 +2745,16 @@ proxy-groups:
   - US_United States_trojan_136
   - US_United States_trojan_137
   - US_United States_vmess_141
+  - US_United States_trojan_150
+  - US_United States_trojan_151
+  - US_United States_trojan_152
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_158
+  - US_United States_trojan_160
+  - US_United States_trojan_161
+  - US_United States_vmess_164
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -2688,6 +2790,7 @@ proxy-groups:
   - US_United States_vless_5102
   - US_United States_vless_735
   - US_United States_http_738
+  - US_United States_vless_744
   - US_United States_vless_775
   - US_United States_vless_776
   - US_United States_vless_777
@@ -2702,8 +2805,8 @@ proxy-groups:
   - US_United States_vless_1230
   - US_United States_vless_1232
   - US_United States_vless_1233
-  - US_United States_vless_1234
   - US_United States_vless_1235
+  - US_United States_vless_1237
   - US_United States_vless_1238
   - US_United States_vless_1239
   - US_United States_vless_1240
@@ -2840,7 +2943,6 @@ proxy-groups:
   - US_United States_trojan_161
   - US_United States_vmess_165
   - US_United States_ss_168
-  - US_United States_vmess_1610
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
