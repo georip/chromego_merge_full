@@ -736,6 +736,25 @@ proxies:
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   udp: true
   delay: 801
+- name: US_United States_vmess_1610
+  server: tokyo01.zgjok.com
+  type: vmess
+  country: 🇯🇵JP
+  port: 443
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: tokyo01.zgjok.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: tokyo01.zgjok.com
+  delay: 1801
 proxy-groups:
 - name: 节点选择
   type: select
@@ -804,6 +823,7 @@ proxy-groups:
   - US_United States_trojan_161
   - US_United States_vmess_165
   - US_United States_ss_168
+  - US_United States_vmess_1610
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -872,6 +892,7 @@ proxy-groups:
   - US_United States_trojan_161
   - US_United States_vmess_165
   - US_United States_ss_168
+  - US_United States_vmess_1610
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
