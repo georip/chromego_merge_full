@@ -31,51 +31,51 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_03
-  network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 4486
-  server: 35.77.81.137
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
   port: 2826
-  server: 18.183.242.254
+  server: 43.199.205.175
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 38301
-  server: 13.114.141.67
+  port: 2826
+  server: 13.231.159.122
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_08
+- name: US_United States_trojan_06
   network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 1933
-  server: 54.199.40.252
+  password: BxceQaOe
+  port: 2595
+  server: 54.248.12.71
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_09
+  network: tcp
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 3901
+  server: 43.207.73.82
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_011
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 95.40.77.248
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_012
   network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 443
-  server: 38.180.193.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_013
-  network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 443
-  server: 38.180.193.206
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 1281
+  server: 52.194.245.221
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -205,52 +205,6 @@ proxies:
     headers:
       Host: 17708034067982.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: US_United States_trojan_1105
-  network: tcp
-  password: BxceQaOe
-  port: 2826
-  server: 43.199.205.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1106
-  network: tcp
-  password: BxceQaOe
-  port: 2826
-  server: 13.231.159.122
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1107
-  network: tcp
-  password: BxceQaOe
-  port: 2595
-  server: 54.248.12.71
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1110
-  network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 3901
-  server: 43.207.73.82
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1112
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 95.40.77.248
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_1113
-  network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 1281
-  server: 52.194.245.221
-  sni: www.nintendogames.net
-  type: trojan
 - client-fingerprint: chrome
   name: US_United States_vless_44
   network: ws
@@ -852,6 +806,21 @@ proxies:
     headers:
       Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
   udp: true
+- name: US_United States_vless_741
+  server: www.wto.org
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  udp: true
 - name: US_United States_vless_742
   server: cloudflare-dns.com
   port: 2095
@@ -979,7 +948,573 @@ proxies:
   password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
   tls: true
   udp: true
+- name: US_United States_vmess_125
+  type: vmess
+  server: 47.251.91.241
+  port: 42899
+  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: US_United States_vmess_126
+  type: vmess
+  server: 20.193.153.19
+  port: 15834
+  uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: US_United States_vless_127
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+- name: US_United States_vless_128
+  type: vless
+  server: 15.204.97.149
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+- name: US_United States_vmess_129
+  type: vmess
+  server: 192.227.249.227
+  port: 27641
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: US_United States_vless_1210
+  type: vless
+  server: 15.204.97.169
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+- name: US_United States_vless_1211
+  type: vless
+  server: 137.184.218.169
+  port: 36925
+  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
+  servername: www.cloudflare.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+- name: US_United States_vless_1212
+  type: vless
+  server: 172.234.130.82
+  port: 10001
+  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+    short-id: 1a24af87
+- name: US_United States_vmess_1216
+  type: vmess
+  server: 172.233.229.91
+  port: 14102
+  uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 - name: US_United States_vless_1218
+  type: vless
+  server: fr-gt-01.com
+  port: 8443
+  uuid: 6f192450-a1ed-4072-898b-0dd55c4e3437
+  servername: tradingview.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: 364994a6f61fc955
+- name: US_United States_vless_1219
+  type: vless
+  server: 20.218.137.249
+  port: 443
+  uuid: jina
+  servername: jina-20218137249-direct.yektanet.co
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: US_United States_vless_1220
+  type: vless
+  server: 20.79.162.37
+  port: 443
+  uuid: jina
+  servername: jina-207916237-direct.yektanet.co
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: US_United States_vless_1233
+  type: vless
+  server: 20.79.160.49
+  port: 443
+  uuid: jina
+  servername: jina-207916049-direct.yektanet.co
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+- name: US_United States_vless_1242
+  type: vless
+  server: 64.188.104.168
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
+- name: US_United States_vless_1279
+  type: vless
+  server: 104.128.139.84
+  port: 47637
+  uuid: 4d7e4aad-4d74-49d2-95fd-1a470065a198
+  tls: false
+- name: US_United States_vless_1281
+  type: vless
+  server: 144.31.3.45
+  port: 5555
+  uuid: b42f7955-3741-406f-b95a-ed7b051ae5aa
+  servername: eurofurence.org
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+- name: US_United States_trojan_1284
+  type: trojan
+  server: amanm.wsone.icu
+  port: 443
+  password: M7v%w11Se*
+  skip-cert-verify: true
+  tls: true
+- name: US_United States_vless_1290
+  type: vless
+  server: 172.67.137.47
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  network: ws
+  servername: index.harmony510.workers.dev
+  tls: false
+  ws-opts:
+    path: /1qrxwiek8tujvr6h
+- name: US_United States_vless_1293
+  type: vless
+  server: 160.153.1.216
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_1294
+  type: vless
+  server: cf.008500.xyz
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: ws
+  servername: powered-by-surena.configfarsi695fd4636f1c8.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_1296
+  type: vless
+  server: 192.200.160.20
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_1297
+  type: vless
+  server: 104.16.244.232
+  port: 80
+  uuid: b00d9e6d-227d-4944-8ffd-b1a806196356
+  network: ws
+  servername: neuroonvpn.mamadjacki83.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_1298
+  type: vless
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_1299
+  type: vless
+  server: www.gov.se
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: snippet.fgfw.eu.org
+  tls: true
+  ws-opts:
+    path: /danfeng
+- name: US_United States_vless_12102
+  type: vless
+  server: 63.141.128.9
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12103
+  type: vless
+  server: 64.225.108.88
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12105
+  type: vless
+  server: 104.18.13.229
+  port: 2052
+  uuid: 25efc727-e853-49ba-9609-3c20009d0e7a
+  network: ws
+  servername: winbiss-0tpka6-v1.winbiss.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_12108
+  type: vless
+  server: africa.visa.com
+  port: 8880
+  uuid: 5b002005-7fb1-413e-8cbd-08e50c87c2ea
+  network: ws
+  servername: wetfleagidc-8tsbi8xd-v3.wet-flea-gidc.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_12109
+  type: vless
+  server: 172.66.44.54
+  port: 2083
+  uuid: 75afff14-dad5-43d2-bd47-207b15978630
+  network: ws
+  servername: abolcinfig1.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12110
+  type: vless
+  server: quick-edit.devprod.cloudflare.dev
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: snippet.fgfw.eu.org
+  tls: true
+  ws-opts:
+    path: /danfeng
+- name: US_United States_vless_12112
+  type: vless
+  server: 209.177.165.17
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12113
+  type: vless
+  server: 199.119.137.95
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed
+- name: US_United States_vless_12114
+  type: vless
+  server: 172.67.163.213
+  port: 2096
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  network: ws
+  servername: ems.arc-time.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /88ailh3l64gh
+- name: US_United States_vless_12115
+  type: vless
+  server: digitalocean.com
+  port: 443
+  uuid: 7e346122-2ee0-406e-b964-a8ee665f1814
+  network: ws
+  servername: paRMis-1Tk63J.PArMiS.WoRkeRs.DeV
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12117
+  type: vless
+  server: go2.lenovo.com
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: snippet.fgfw.eu.org
+  tls: true
+  ws-opts:
+    path: /danfeng
+- name: US_United States_trojan_12120
+  type: trojan
+  server: usa.visa.com
+  port: 443
+  password: zWFjJENcljZm
+  sni: vahidqaz-7o61u7.vahidqaz.workers.dev
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: vahidqaz-7o61u7.vahidqaz.workers.dev
+- name: US_United States_vless_12121
+  type: vless
+  server: 160.153.1.65
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12124
+  type: vless
+  server: 188.114.98.0
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12125
+  type: vless
+  server: pages.cloudflare.com
+  port: 2053
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: snippet.fgfw.eu.org
+  tls: true
+  ws-opts:
+    path: /danfeng
+- name: US_United States_vless_12126
+  type: vless
+  server: 160.153.1.70
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12127
+  type: vless
+  server: 135.84.74.55
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12130
+  type: vless
+  server: 104.18.117.159
+  port: 443
+  uuid: 82241d60-2bdf-4de7-9a29-2d57ebc09b76
+  network: ws
+  servername: h18i2jam-v6htjq-f-vwai0pvgltc6on.hghorbani-mc70.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoiSWVocjJHeWRvSGxYaThvIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+- name: US_United States_vless_12131
+  type: vless
+  server: 104.17.73.206
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  network: ws
+  servername: o00o.snip.qzz.io
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /Tel-@V2rayAlpha
+- name: US_United States_vless_12133
+  type: vless
+  server: 160.153.1.219
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12136
+  type: vless
+  server: 135.84.75.14
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12137
+  type: vless
+  server: 143.20.213.77
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12141
+  type: vless
+  server: 172.67.170.140
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  network: ws
+  servername: index.arcane509.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12142
+  type: vless
+  server: 135.84.73.122
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12146
+  type: vless
+  server: 188.114.96.6
+  port: 443
+  uuid: 82241d60-2bdf-4de7-9a29-2d57ebc09b76
+  network: ws
+  servername: h18i2jam-v6htjq-f-vwai0pvgltc6on.hghorbani-mc70.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoiSWVocjJHeWRvSGxYaThvIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
+- name: US_United States_vless_12148
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+  network: ws
+  servername: asmaos.uk
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12149
+  type: vless
+  server: s1.db-link.in
+  port: 443
+  uuid: 621a845a-48ea-35f0-9b9a-ca499c647ade
+  network: ws
+  servername: dabaihk.webn.cc
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /db1024e9df2f990b
+- name: US_United States_vless_12151
+  type: vless
+  server: 104.21.233.186
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  network: ws
+  servername: index.harmony610.workers.dev
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /vgn80ag4q5o0oxj5
+- name: US_United States_vless_12160
+  type: vless
+  server: 38.244.26.120
+  port: 80
+  uuid: rootface-hacker
+  network: ws
+  tls: false
+  ws-opts:
+    path: //𒉭𓆩@rootface𒆜𒉭+@pwn_1337+TELEGRAM
+- name: US_United States_vless_12161
+  type: vless
+  server: 128.241.229.14
+  port: 443
+  uuid: 5ce3dcf0-582f-4ce5-e226-e0fa6281a504
+  network: ws
+  tls: false
+  ws-opts:
+    path: /6f1cf7bd
+- name: US_United States_vmess_12162
+  type: vmess
+  server: mkirt.818185.xyz
+  port: 443
+  uuid: eed4a583-b20e-4787-bbdb-09018156e53f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /cI9XtKvjiIyvZXFAbvQEN
+    headers:
+      Host: mkirt.818185.xyz
+- name: US_United States_vless_12163
   type: vless
   server: jjjiu.99890604.xyz
   port: 443
@@ -990,70 +1525,376 @@ proxies:
   client-fingerprint: chrome
   ws-opts:
     path: /vzwyBIUYH4vYIKMBivnR3
-    headers:
-      Host: jjjiu.99890604.xyz
-- name: US_United States_trojan_1221
-  type: trojan
-  server: vvvbbbnhj.taipei102.indevs.in
+- name: US_United States_vmess_12166
+  type: vmess
+  server: vg.333756.xyz
   port: 443
-  password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  sni: vvvbbbnhj.taipei102.indevs.in
+  uuid: 603f6524-7a34-473c-94fe-a967b6b25095
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /czprTuhzc5gNlUuOCnhD
+    headers:
+      Host: vg.333756.xyz
+- name: US_United States_trojan_12168
+  type: trojan
+  server: ggbnh.7777198.xyz
+  port: 443
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  sni: GGbNH.7777198.xyZ
   skip-cert-verify: false
   tls: true
   ws-opts:
-    path: /2cO5FH0xUmT9oqnbBhmKb8nOkg
-- name: US_United States_vless_1222
+    path: /r862SIwqItkD5XgXAL
+    headers:
+      Host: GGbnh.7777198.xyzhttp/1.1
+- name: US_United States_vless_12169
   type: vless
-  server: 104.18.32.47
-  port: 80
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  server: ttghju.huangshang.site
+  port: 443
+  uuid: 5196aae7-1479-4f3c-978b-68e74977b509
   network: ws
+  servername: ttghju.huangshang.site
+  tls: true
+  ws-opts:
+    path: /vzwyBIUYH4vYIKMBivnR3
+- name: US_United States_vmess_12170
+  type: vmess
+  server: ert.859885.xyz
+  port: 443
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+    headers:
+      Host: ert.859885.xyz
+- name: US_United States_vless_12171
+  type: vless
+  server: khavar-narenji.global.ssl.fastly.net
+  port: 443
+  uuid: 0f7794ff-c024-4968-a6c7-6e44c7d188c7
+  network: ws
+  servername: khavar-narenji.global.ssl.fastly.net
+  tls: true
+  ws-opts:
+    path: site
+- name: US_United States_vless_12174
+  type: vless
+  server: 172.66.47.45
+  port: 2096
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  network: ws
+  servername: ca.adobe-connect.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12176
+  type: vless
+  server: 104.18.185.26
+  port: 2096
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  network: ws
+  servername: ca.adobe-connect.top
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12177
+  type: vless
+  server: 104.21.227.134
+  port: 2096
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  network: ws
+  servername: ca.adobe-connect.top
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12178
+  type: vless
+  server: 104.21.224.5
+  port: 2096
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  network: ws
+  servername: ca.adobe-connect.top
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_trojan_12179
+  type: trojan
+  server: 104.18.32.47
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_trojan_12181
+  type: trojan
+  server: 104.21.40.34
+  port: 443
+  password: humanity
+  sni: www.gossipglove.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+- name: US_United States_trojan_12184
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.creationlong.org
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_trojan_12186
+  type: trojan
+  server: www.multiplydose.com
+  port: 443
+  password: humanity
+  sni: www.multiplydose.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_vless_12188
+  type: vless
+  server: nodejs.org
+  port: 80
+  uuid: ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a
+  network: ws
+  servername: WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY.
   tls: false
   ws-opts:
     path: /?ed
-    headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-- name: US_United States_vless_1224
+- name: US_United States_vless_12191
   type: vless
-  server: italy2.bluehorizonjournal.site
-  port: 8443
-  uuid: 811632c6-f03f-42e8-a2c6-a9457f23e2fa
+  server: 172.64.33.91
+  port: 2096
+  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
   network: ws
-  servername: italy2.bluehorizonjournal.site
+  servername: hetz.x-smm.com
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-    headers:
-      Host: italy2.bluehorizonjournal.site
-- name: US_United States_vmess_1225
-  type: vmess
-  server: nmj.wc8.ccwu.cc
+    path: /
+- name: US_United States_vless_12193
+  type: vless
+  server: vip1.kaixincloud.top
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12194
+  type: vless
+  server: 104.17.147.22
+  port: 2096
+  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+  network: ws
+  servername: hetz.x-smm.com
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12197
+  type: vless
+  server: clyde.ns.cloudflare.com
+  port: 2096
+  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+  network: ws
+  servername: hetz.x-smm.com
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12198
+  type: vless
+  server: chatgpt.com
+  port: 2083
+  uuid: 96d9bcb0-9ad2-48be-85a2-a9ab3a005261
+  network: ws
+  servername: ds1-mx-fn154-protection.iranlease.com
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12199
+  type: vless
+  server: 104.20.1.252
   port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
+  uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
+  network: ws
+  servername: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
   tls: false
-  skip-cert-verify: false
-  network: ws
   ws-opts:
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-    headers:
-      Host: nmj.wc8.ccwu.cc
-- name: US_United States_vless_1226
-  type: vless
-  server: cccvffff.191288.xyz
+    path: /?ed
+- name: US_United States_trojan_12201
+  type: trojan
+  server: www.gossipglove.com
   port: 443
-  uuid: 4a7baca1-8048-4a91-8316-595b36657a54
+  password: humanity
+  sni: www.gossipglove.com
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_vless_12203
+  type: vless
+  server: serveruwofl.samanidempire.org
+  port: 443
+  uuid: ee4b0561-450d-4f5b-a8e2-f84c95def9b2
   network: ws
-  servername: ccCVfFff.191288.XYZ
+  servername: serveruwofl.samanidempire.org
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /v4mECBsrKh5tvsvinsGGg
+    path: /1ab3537d
+- name: US_United States_vless_12210
+  type: vless
+  server: 104.16.250.22
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_trojan_12211
+  type: trojan
+  server: v1.dabache.top
+  port: 443
+  password: humanity
+  sni: www.creationlong.org
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
     headers:
-      Host: ccCVfFff.191288.XYZ
-- name: US_United States_vmess_1227
+      Host: www.creationlong.org
+- name: US_United States_vless_12213
+  type: vless
+  server: 172.64.155.209
+  port: 443
+  uuid: d4e6cdff-91c8-49f5-b211-f6b349617c49
+  network: ws
+  servername: de001c.ketabv.ir
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /uqBYRQhpA2NzSIhejwuqjz
+- name: US_United States_trojan_12217
+  type: trojan
+  server: www.creationlong.org
+  port: 443
+  password: humanity
+  sni: www.creationlong.org
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_vless_12219
+  type: vless
+  server: www.speedtest.net
+  port: 2096
+  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+  network: ws
+  servername: hetz.x-smm.com
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_trojan_12220
+  type: trojan
+  server: www.calmlunch.com
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: US_United States_vless_12222
+  type: vless
+  server: cosmin.ns.cloudflare.com
+  port: 2096
+  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+  network: ws
+  servername: hetz.x-smm.com
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12224
+  type: vless
+  server: f1.springpaatogh8.store
+  port: 2087
+  uuid: 41c55d8d-44dd-4437-90ff-4c1eb869a67c
+  network: ws
+  servername: gamepc.sorza.ir
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12226
+  type: vless
+  server: 172.64.145.38
+  port: 2087
+  uuid: 41c55d8d-44dd-4437-90ff-4c1eb869a67c
+  network: ws
+  servername: gamepc.sorza.ir
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12230
+  type: vless
+  server: 104.21.3.219
+  port: 8443
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  network: ws
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /57ba2ab1
+- name: US_United States_vless_12233
+  type: vless
+  server: 173.245.59.244
+  port: 8080
+  uuid: 4307e484-6c8b-46d0-9df4-8b3983ab27b4
+  network: ws
+  servername: 029.electrocellco-cf-029.workers.dev
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12234
+  type: vless
+  server: ovhwuxian.pai50288.uk
+  port: 8443
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  network: ws
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /57ba2ab1
+- name: US_United States_vmess_12235
   type: vmess
   server: mmkio.tc6.ccwu.cc
   port: 80
@@ -1067,1554 +1908,438 @@ proxies:
     path: /kFK9O5cl8ZycyrxcJWNVFC21
     headers:
       Host: mmkio.tc6.ccwu.cc
-- name: US_United States_vmess_1228
-  type: vmess
-  server: mmkio.wc5.ccwu.cc
-  port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-    headers:
-      Host: mmkio.wc5.ccwu.cc
-- name: US_United States_vmess_1229
-  type: vmess
-  server: mmko.tt0.ccwu.cc
-  port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-    headers:
-      Host: mmko.tt0.ccwu.cc
-- name: US_United States_vmess_1230
-  type: vmess
-  server: yhj.tc1.ccwu.cc
-  port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-    headers:
-      Host: yhj.tc1.ccwu.cc
-- name: US_United States_vless_1232
+- name: US_United States_vless_12236
   type: vless
-  server: 151.101.9.80
-  port: 80
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  server: 188.114.98.224
+  port: 2087
+  uuid: 8443822d-6b68-4af2-d096-c03207ed880d
   network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-- name: US_United States_vless_1235
-  type: vless
-  server: china.embassy.gov.au
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
+  servername: vds.rahedarro.com
   tls: true
   ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vless_1236
+    path: /rahh
+- name: US_United States_vless_12258
   type: vless
-  server: pages.cloudflare.com
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
-  tls: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vless_1237
-  type: vless
-  server: quick-edit.devprod.cloudflare.dev
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
-  tls: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vless_1238
-  type: vless
-  server: one.dash.cloudflare.com
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
-  tls: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vless_1239
-  type: vless
-  server: go2.lenovo.com
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
-  tls: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vless_1240
-  type: vless
-  server: www.gov.se
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
-  tls: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vmess_1241
-  type: vmess
-  server: mkirt.818185.xyz
-  port: 443
-  uuid: eed4a583-b20e-4787-bbdb-09018156e53f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: mkirt.818185.xyz
-  network: ws
-  ws-opts:
-    path: /cI9XtKvjiIyvZXFAbvQEN
-    headers:
-      Host: mkirt.818185.xyz
-- name: US_United States_vmess_1242
-  type: vmess
-  server: yyyyu.taiwan2026.indevs.in
-  port: 443
-  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: yyyyu.taiwan2026.indevs.in
-  network: ws
-  ws-opts:
-    path: /eszjp4nTT8TxDHFepMpfNkCk8
-    headers:
-      Host: yyyyu.taiwan2026.indevs.in
-- name: US_United States_vless_1243
-  type: vless
-  server: uio.918918.shop
-  port: 443
-  uuid: 603f6524-7a34-473c-94fe-a967b6b25095
-  network: ws
-  servername: uio.918918.shop
-  tls: true
-  ws-opts:
-    path: /vVI1iHEtIglbCpWc5gNlUuOCnhD
-    headers:
-      Host: uio.918918.shop
-- name: US_United States_vmess_1244
-  type: vmess
-  server: bnmj.wc6.ccwu.cc
-  port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-    headers:
-      Host: bnmj.wc6.ccwu.cc
-- name: US_United States_vmess_1247
-  type: vmess
-  server: vg.333756.xyz
-  port: 443
-  uuid: 603f6524-7a34-473c-94fe-a967b6b25095
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: vg.333756.xyz
-  network: ws
-  ws-opts:
-    path: /czprTuhzc5gNlUuOCnhD
-    headers:
-      Host: vg.333756.xyz
-- name: US_United States_vless_1252
-  type: vless
-  server: 141.147.10.210
-  port: 8881
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1271
-  type: vless
-  server: 132.145.84.148
-  port: 39567
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1275
-  type: vless
-  server: 146.75.27.57
-  port: 80
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-- name: US_United States_vless_1288
-  type: vless
-  server: 160.153.1.46
+  server: 194.195.240.213
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1291
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12425
   type: vless
-  server: 160.153.1.219
+  server: 43.218.77.16
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1292
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12426
   type: vless
-  server: 160.153.1.54
+  server: 152.70.76.104
+  port: 46000
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12427
+  type: vless
+  server: 152.70.75.80
+  port: 15805
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12438
+  type: vless
+  server: 140.238.38.81
+  port: 587
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12441
+  type: vless
+  server: 150.230.5.34
+  port: 45681
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12442
+  type: vless
+  server: 138.2.39.24
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1293
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12443
   type: vless
-  server: 160.153.1.82
-  port: 443
+  server: 131.186.24.124
+  port: 587
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1294
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12444
   type: vless
-  server: 160.153.1.214
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1295
-  type: vless
-  server: 160.153.1.146
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1296
-  type: vless
-  server: 160.153.1.216
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1298
-  type: vless
-  server: 160.153.1.65
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_1299
-  type: vless
-  server: 160.153.1.155
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12101
-  type: vless
-  server: 160.153.1.23
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12102
-  type: vless
-  server: 160.153.1.44
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12103
-  type: vless
-  server: 160.153.1.179
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12104
-  type: vless
-  server: 160.153.1.70
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12117
-  type: vless
-  server: 143.20.213.9
+  server: 129.154.222.63
   port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12118
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12450
   type: vless
-  server: 104.194.143.34
+  server: 129.154.212.17
+  port: 20180
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12451
+  type: vless
+  server: 131.186.17.132
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12119
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12464
   type: vless
-  server: 209.177.165.17
+  server: 207.174.30.51
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12121
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12491
   type: vless
-  server: cloudflare.seeck.cn
-  port: 2053
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: snippet.fgfw.eu.org
-  tls: true
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.fgfw.eu.org
-- name: US_United States_vless_12122
-  type: vless
-  server: 143.20.160.195
+  server: 172.104.186.30
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12123
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12493
   type: vless
-  server: bbbnnhju.un2026.indevs.in
-  port: 443
-  uuid: f063dee0-f33c-4e6c-83f9-4d884b62ba9e
+  server: 138.2.95.61
+  port: 1111
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: bbbnnhju.un2026.indevs.in
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /2cCH0o9oSY1MFyEg1253o9NgB
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: bbbnnhju.un2026.indevs.in
-- name: US_United States_vless_12124
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12494
   type: vless
-  server: 69.84.182.13
-  port: 443
-  uuid: da793913-33ef-45c0-806d-f23644c555f2
+  server: 138.2.89.238
+  port: 43254
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: jp1-jp1.aiopen.sbs
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /kbjc/jp1
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: jp1-jp1.aiopen.sbs
-- name: US_United States_vless_12127
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12495
   type: vless
-  server: 135.84.74.190
+  server: 146.235.19.79
+  port: 28983
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12498
+  type: vless
+  server: 168.138.189.91
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12128
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12500
   type: vless
-  server: 135.84.75.14
+  server: 209.102.207.120
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12129
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12501
   type: vless
-  server: 63.141.128.9
+  server: 135.84.74.47
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12130
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12502
   type: vless
-  server: 192.200.160.20
+  server: 216.24.57.1
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12131
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12503
   type: vless
-  server: 135.84.73.239
+  server: 199.107.164.149
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12132
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12504
   type: vless
-  server: 199.34.228.50
+  server: 135.84.73.42
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12133
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12505
   type: vless
-  server: 135.84.74.166
+  server: 199.34.228.160
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12134
-  type: vless
-  server: 135.84.73.245
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12135
-  type: vless
-  server: 135.84.72.18
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12136
-  type: vless
-  server: 135.84.74.90
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12137
-  type: vless
-  server: 135.84.73.184
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12138
-  type: vless
-  server: 135.84.73.222
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12139
-  type: vless
-  server: 45.40.155.106
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12140
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12507
   type: vless
   server: 199.34.230.66
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12141
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12509
   type: vless
-  server: 135.84.73.96
+  server: 68.64.176.135
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12142
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12513
   type: vless
-  server: 135.84.73.123
+  server: 135.84.74.44
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12143
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12515
   type: vless
-  server: 135.84.64.244
+  server: 199.34.228.41
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12144
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12516
   type: vless
-  server: 135.84.74.34
+  server: 143.20.160.38
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12145
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12517
   type: vless
-  server: 135.84.64.79
+  server: 135.84.73.130
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12146
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12519
   type: vless
-  server: 135.84.67.96
+  server: 135.84.64.157
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12147
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12520
   type: vless
-  server: 135.84.72.42
+  server: 198.62.62.122
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12148
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12523
   type: vless
-  server: 199.107.164.217
+  server: 135.84.73.9
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12149
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12524
   type: vless
-  server: 135.84.64.74
+  server: 192.200.160.19
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12150
+      Host: sni.111000.v6.navy
+- name: US_United States_vless_12526
   type: vless
-  server: 216.24.57.4
+  server: 23.94.56.22
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.dynv6.net
+  servername: sni.111000.v6.navy
   tls: true
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12151
-  type: vless
-  server: 135.84.73.129
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12152
-  type: vless
-  server: 135.84.64.66
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12153
-  type: vless
-  server: 135.84.72.118
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12154
-  type: vless
-  server: 192.169.223.149
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12155
-  type: vless
-  server: 135.84.74.152
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12156
-  type: vless
-  server: 198.71.190.90
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vmess_12157
+      Host: sni.111000.v6.navy
+- name: US_United States_vmess_12527
   type: vmess
-  server: ggGBnHJ.890404.iNdEvs.iN
-  port: 443
-  uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639
+  server: tgju.org
+  port: 8080
+  uuid: nasnet
   alterId: 0
   cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: GGGbnhJ.890404.INDeVS.IN
-  network: ws
-  ws-opts:
-    path: /vitRvGVofV7ia41dH
-    headers:
-      Host: ggGBnHJ.890404.INDEVS.IN
-- name: US_United States_vless_12180
-  type: vless
-  server: 160.153.1.127
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12185
-  type: vless
-  server: 143.20.213.77
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12186
-  type: vless
-  server: 143.20.213.10
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12188
-  type: vless
-  server: 143.20.213.193
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12190
-  type: vless
-  server: bbbnmki.kk7.ccwu.cc
-  port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  network: ws
   tls: false
-  ws-opts:
-    path: /Ay6844iXSu2BDycyrxcJWNVFC21
-    headers:
-      Host: bbbnmki.kk7.ccwu.cc
-- name: US_United States_vless_12192
-  type: vless
-  server: 143.20.213.130
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12194
-  type: vless
-  server: 143.20.213.179
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vmess_12195
-  type: vmess
-  server: gggnjjik.huangshang.pp.ua
-  port: 443
-  uuid: a5e71861-2fba-4040-a8e4-a215305f37c4
-  alterId: 0
-  cipher: auto
-  tls: true
   skip-cert-verify: false
-  servername: gggnjjik.huangshang.pp.ua
   network: ws
   ws-opts:
-    path: /bkIJxIKIV4ENhXs7
+    path: /nasnet/cdn?ed=2560
     headers:
-      Host: gggnjjik.huangshang.pp.ua
-- name: US_United States_vless_12196
-  type: vless
-  server: vvvbnj.huangshang.pp.ua
-  port: 443
-  uuid: a5e71861-2fba-4040-a8e4-a215305f37c4
-  network: ws
-  servername: vvvbnj.huangshang.pp.ua
-  tls: true
-  ws-opts:
-    path: /nv8ntnDfr2XA4ENhXs7
-    headers:
-      Host: vvvbnj.huangshang.pp.ua
-- name: US_United States_vless_12199
-  type: vless
-  server: bbbnhju.un2026.indevs.in
-  port: 443
-  uuid: f063dee0-f33c-4e6c-83f9-4d884b62ba9e
-  network: ws
-  servername: bbbnhju.un2026.indevs.in
-  tls: true
-  ws-opts:
-    path: /2cCH0o9oSY1MFyEg1253o9NgB
-    headers:
-      Host: bbbnhju.un2026.indevs.in
-- name: US_United States_vmess_12200
-  type: vmess
-  server: NNnMJJu.131.PP.ua
-  port: 443
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: nnnmjJU.131.pP.uA
-  network: ws
-  ws-opts:
-    path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj
-    headers:
-      Host: NNnmJJu.131.PP.Ua
-- name: US_United States_vless_12201
-  type: vless
-  server: ggghju.131.pp.ua
-  port: 443
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  network: ws
-  servername: ggGHJu.131.PP.ua
-  tls: true
-  ws-opts:
-    path: /FHqOdFbetLpTGA5AqzZ2Mj
-    headers:
-      Host: gGGHJu.131.PP.UA
-- name: US_United States_vless_12202
-  type: vless
-  server: bbbnhj.288288.shop
-  port: 443
-  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
-  network: ws
-  servername: bBBNhj.288288.sHop
-  tls: true
-  ws-opts:
-    path: /s2VHv9VUVzg35A6ueyyZnWd
-    headers:
-      Host: BbbNHj.288288.SHop
-- name: US_United States_vless_12203
-  type: vless
-  server: bbbnhj.131.pp.ua
-  port: 443
-  uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  network: ws
-  servername: BBBNHj.131.Pp.uA
-  tls: true
-  ws-opts:
-    path: /FHqOdFbetLpTGA5AqzZ2Mj
-    headers:
-      Host: bbbNhj.131.PP.Ua
-- name: US_United States_vless_12206
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
-- name: US_United States_trojan_12207
-  type: trojan
-  server: ggbnh.7777198.xyz
-  port: 443
-  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
-  sni: GGbNH.7777198.xyZ
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /r862SIwqItkD5XgXAL
-    headers:
-      Host: GGbnh.7777198.xyz
-- name: US_United States_trojan_12209
-  type: trojan
-  server: eett.taiwan2026.indevs.in
-  port: 443
-  password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
-  sni: eett.taiwan2026.indevs.in
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /cSIyXrtyqeOFepMpfNkCk8
-    headers:
-      Host: eett.taiwan2026.indevs.in
-- name: US_United States_vless_12210
-  type: vless
-  server: mmkklop.191266.xyz
-  port: 443
-  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
-  network: ws
-  servername: mMkkLOp.191266.xYZ
-  tls: true
-  ws-opts:
-    path: /s2VHv9VUVzg35A6ueyyZnWd
-    headers:
-      Host: mMkKloP.191266.xYz
-- name: US_United States_vless_12211
-  type: vless
-  server: hhhnmjk.191268.xyz
-  port: 443
-  uuid: b9bb332d-5e0d-41af-adac-49362dde8661
-  network: ws
-  servername: hhhnmjk.191268.xyz
-  tls: true
-  ws-opts:
-    path: /8Midq8kt5Q2GkKGWRMg
-    headers:
-      Host: hhhnmjk.191268.xyz
-- name: US_United States_vmess_12212
-  type: vmess
-  server: ert.859885.xyz
-  port: 443
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: ert.859885.xyz
-  network: ws
-  ws-opts:
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-    headers:
-      Host: ert.859885.xyz
-- name: US_United States_trojan_12213
-  type: trojan
-  server: hhhnju.taipei102.indevs.in
-  port: 443
-  password: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
-  sni: hhhnju.taipei102.indevs.in
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /2cO5FH0xUmT9oqnbBhmKb8nOkg
-    headers:
-      Host: hhhnju.taipei102.indevs.in
-- name: US_United States_vless_12215
-  type: vless
-  server: 23.169.184.123
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12216
-  type: vless
-  server: 38.180.218.125
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12218
-  type: vless
-  server: eeeefrt5.7777198.xyz
-  port: 443
-  uuid: 4a7baca1-8048-4a91-8316-595b36657a54
-  network: ws
-  servername: eEEEfrt5.7777198.XYZ
-  tls: true
-  ws-opts:
-    path: /v4mECBsrKh5tvsvinsGGg
-    headers:
-      Host: eEEEfrt5.7777198.XYZ
-- name: US_United States_vless_12219
-  type: vless
-  server: 38.244.128.87
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12223
-  type: vless
-  server: 154.17.13.69
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12224
-  type: vless
-  server: 135.84.73.160
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12225
-  type: vless
-  server: 135.84.64.226
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12226
-  type: vless
-  server: 199.34.230.158
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12227
-  type: vless
-  server: 135.84.73.247
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12228
-  type: vless
-  server: 45.40.154.139
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12229
-  type: vless
-  server: 135.84.73.122
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12230
-  type: vless
-  server: 199.34.228.191
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12231
-  type: vless
-  server: 135.84.74.55
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12232
-  type: vless
-  server: 135.84.72.75
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12233
-  type: vless
-  server: 135.84.74.203
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12234
-  type: vless
-  server: 199.34.228.10
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12238
-  type: vless
-  server: 45.76.178.18
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12251
-  type: vless
-  server: 139.144.181.133
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12253
-  type: vless
-  server: 72.56.75.58
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12255
-  type: vless
-  server: 38.244.204.106
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12256
-  type: vless
-  server: 199.34.228.182
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12267
-  type: vless
-  server: mmko.852224.dpdns.org
-  port: 443
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  network: ws
-  servername: mmko.852224.dpdns.org
-  tls: true
-  ws-opts:
-    path: /15ZYK3adOPjqSc7fzeJr
-    headers:
-      Host: mmko.852224.dpdns.org
-- name: US_United States_vmess_12270
-  type: vmess
-  server: hhhjkklo0.890604.filegear-sg.me
-  port: 443
-  uuid: 39929006-c496-408a-b8b9-29a17173aa6a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: hhhjkklo0.890604.filegear-sg.me
-  network: ws
-  ws-opts:
-    path: /KygeZ2wfpnxBXt9uCu
-    headers:
-      Host: hhhjkklo0.890604.filegear-sg.me
-- name: US_United States_vless_12272
-  type: vless
-  server: 172.105.209.25
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12273
-  type: vless
-  server: 64.225.108.88
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12276
-  type: vless
-  server: 135.84.74.20
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12286
-  type: vless
-  server: vvvggyu.iran1912.dpdns.org
-  port: 443
-  uuid: 4a7baca1-8048-4a91-8316-595b36657a54
-  network: ws
-  servername: VvvGGyU.IrAN1912.DpDns.ORg
-  tls: true
-  ws-opts:
-    path: /v4mECBsrKh5tvsvinsGGg
-    headers:
-      Host: VvvGGyU.IrAN1912.DpDns.ORg
-- name: US_United States_vless_12289
-  type: vless
-  server: 132.145.88.82
-  port: 38066
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12291
-  type: vless
-  server: 160.153.1.86
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: US_United States_vless_12306
-  type: vless
-  server: flowershopsalzburg.de
-  port: 8443
-  uuid: d94b374a-9584-4a40-9b1d-3e697b5551f4
-  network: ws
-  tls: true
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: flowershopsalzburg.de
-- name: US_United States_vless_12309
-  type: vless
-  server: 172.67.193.88
-  port: 443
-  uuid: mahanvpn-free-iran
-  network: ws
-  servername: MAHANteAm.noD32Cpu.iR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assets
-    headers:
-      Host: MAHANteAm.noD32Cpu.iR
-- name: US_United States_vless_12310
-  type: vless
-  server: sh.shahab--web.com
-  port: 2083
-  uuid: b0191eca-a681-44a3-ceab-70560d5ca1a8
-  network: ws
-  servername: sh.shahab--web.com
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sh.shahab--web.com
-- name: US_United States_vless_12311
-  type: vless
-  server: ip1.adfeed.co.uk
-  port: 2053
-  uuid: 75626558-a697-45f5-80f3-f6ea08a8b7dc
-  network: ws
-  servername: dE12136C-C7A3-4537-BA70-B97a465367A0.StoCK-PHOto.Ir.
-  tls: true
-  client-fingerprint: firefox
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: dE12136C-C7A3-4537-BA70-B97a465367A0.StoCK-PHOto.Ir.
-- name: US_United States_vless_12314
-  type: vless
-  server: czech.boot-lee.ru
-  port: 8443
-  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
-  servername: m.vk.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: yrB2VhJUvGCCHXLP6XOmn5QM1wcthYLvLZqvQzt2THc
-    short-id: 5fe811ec9283ce51
-- name: US_United States_vless_12319
-  type: vless
-  server: 144.31.218.76
-  port: 8443
-  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
-  servername: m.vk.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: yrB2VhJUvGCCHXLP6XOmn5QM1wcthYLvLZqvQzt2THc
-    short-id: 5fe811ec9283ce51
-- name: US_United States_vless_12332
-  type: vless
-  server: netherland.boot-lee.ru
-  port: 8443
-  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
-  servername: yandex.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: 3JGwSDrfkiCPdU3rvQP5m0z4Ag_UB_2w8Qq3VMXmo28
-    short-id: abc123
+      Host: nasnet-571296497.iranpress.co
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1423
   password: 05d1a3ab-2ca8-42b2-8f21-527695250017
@@ -2836,6 +2561,23 @@ proxies:
         Gecko) Chrome/36.0.1985.125 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14165
+  network: ws
+  port: 443
+  server: 198.71.190.90
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - name: US_United States_anytls_14178
   password: 437bd464-b524-3812-ac02-85483bcf7407
   port: 17943
@@ -2879,6 +2621,23 @@ proxies:
       Host: sni.111000.dynv6.net
       User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14193
+  network: ws
+  port: 443
+  server: 160.153.1.179
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
@@ -2958,6 +2717,23 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
+  name: US_United States_vless_14216
+  network: ws
+  port: 443
+  server: 172.105.209.25
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
   name: US_United States_vless_14217
   network: ws
@@ -3028,10 +2804,10 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14223
+  name: US_United States_vless_14225
   network: ws
   port: 443
-  server: 216.24.57.1
+  server: 135.84.72.42
   servername: sni.111000.dynv6.net
   tls: true
   type: vless
@@ -3040,8 +2816,42 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14226
+  network: ws
+  port: 443
+  server: 160.153.1.54
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14228
+  network: ws
+  port: 443
+  server: 199.34.228.50
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
@@ -3093,6 +2903,23 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14238
+  network: ws
+  port: 443
+  server: 135.84.64.79
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - name: US_United States_anytls_14242
   password: cce70a49-2fe1-4e29-bccb-62e514fa6f48
   port: 23489
@@ -3100,6 +2927,23 @@ proxies:
   skip-cert-verify: true
   tfo: true
   type: anytls
+- client-fingerprint: chrome
+  name: US_United States_vless_14243
+  network: ws
+  port: 443
+  server: 160.153.1.155
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14245
   network: ws
@@ -3152,6 +2996,23 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
+  name: US_United States_vless_14252
+  network: ws
+  port: 443
+  server: 135.84.74.34
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
   name: US_United States_vless_14255
   network: ws
   port: 443
@@ -3175,6 +3036,23 @@ proxies:
   skip-cert-verify: true
   tfo: true
   type: anytls
+- client-fingerprint: chrome
+  name: US_United States_vless_14260
+  network: ws
+  port: 443
+  server: 199.34.230.158
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14262
   network: ws
@@ -3279,6 +3157,23 @@ proxies:
         Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14285
+  network: ws
+  port: 443
+  server: 216.24.57.4
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - name: US_United States_anytls_14288
   password: e2ebf6f8-e7ec-43fd-b14e-e21989a9b6d8
   port: 30002
@@ -3286,6 +3181,40 @@ proxies:
   skip-cert-verify: true
   tfo: true
   type: anytls
+- client-fingerprint: chrome
+  name: US_United States_vless_14292
+  network: ws
+  port: 443
+  server: 135.84.64.226
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14294
+  network: ws
+  port: 443
+  server: 135.84.74.166
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14307
   network: ws
@@ -3364,6 +3293,23 @@ proxies:
         Gecko) Chrome/45.0.2454.101 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14331
+  network: ws
+  port: 443
+  server: 135.84.73.123
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -3407,6 +3353,23 @@ proxies:
       Host: sni.111000.dynv6.net
       User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14339
+  network: ws
+  port: 8443
+  server: 143.20.213.179
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
@@ -3463,6 +3426,23 @@ proxies:
     path: /I5L10Eb9cWdR6MYe/MTQ3LjQ1LjczLjI0NQ==?ed=2560
   xudp: true
 - client-fingerprint: chrome
+  name: US_United States_vless_14363
+  network: ws
+  port: 8443
+  server: 143.20.213.130
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
   name: US_United States_vless_14364
   network: ws
   port: 443
@@ -3513,6 +3493,23 @@ proxies:
   uuid: a074b5ea-e037-4144-b772-5fc314407f05
   xudp: true
 - client-fingerprint: chrome
+  name: US_United States_vless_14390
+  network: ws
+  port: 443
+  server: 135.84.64.66
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   name: US_United States_vless_14391
@@ -3537,6 +3534,40 @@ proxies:
   type: vless
   udp: true
   uuid: a074b5ea-e037-4144-b772-5fc314407f05
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14408
+  network: ws
+  port: 443
+  server: 160.153.1.44
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14409
+  network: ws
+  port: 443
+  server: 139.144.181.133
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14410
@@ -3588,6 +3619,23 @@ proxies:
         Chrome/46.0.2490.71 Safari/537.36
     path: /tro8sFW1S91B6sZrM1?ed=2560
 - client-fingerprint: chrome
+  name: US_United States_vless_14417
+  network: ws
+  port: 443
+  server: 199.34.228.10
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
   name: US_United States_vless_14423
   network: ws
   port: 443
@@ -3617,6 +3665,57 @@ proxies:
   udp: true
   uuid: a074b5ea-e037-4144-b772-5fc314407f05
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14427
+  network: ws
+  port: 8443
+  server: 143.20.213.193
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14430
+  network: ws
+  port: 443
+  server: 160.153.1.127
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14431
+  network: ws
+  port: 443
+  server: 38.244.204.106
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - name: US_United States_anytls_14436
   password: 0b0c28e1-bb41-483f-a461-a62a47b80225
   port: 2087
@@ -3624,6 +3723,23 @@ proxies:
   skip-cert-verify: true
   tfo: true
   type: anytls
+- client-fingerprint: chrome
+  name: US_United States_vless_14439
+  network: ws
+  port: 443
+  server: 45.40.154.139
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
 - name: US_United States_http_14444
   password: 34ddff9e-049d-444d-8bee-ae45928019ef
   port: 4449
@@ -3785,23 +3901,6 @@ proxies:
   type: vless
   udp: true
   uuid: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
-- client-fingerprint: chrome
-  name: US_United States_vless_14480
-  network: ws
-  port: 443
-  server: 135.84.74.47
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-  xudp: true
 - name: US_United States_anytls_14492
   password: 437bd464-b524-3812-ac02-85483bcf7407
   port: 9999
@@ -3834,19 +3933,6 @@ proxies:
   server: 168.110.223.205
   tfo: true
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14499
-  network: tcp
-  port: 443
-  server: 20.79.162.37
-  servername: jina-207916237-direct.yektanet.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: jina
-  xudp: true
 - name: US_United States_trojan_161
   server: 13.39.127.100
   type: trojan
@@ -3910,12 +3996,12 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - US_United States_ss_01
-  - US_United States_trojan_03
   - US_United States_trojan_04
   - US_United States_trojan_05
-  - US_United States_trojan_08
+  - US_United States_trojan_06
+  - US_United States_trojan_09
+  - US_United States_trojan_011
   - US_United States_trojan_012
-  - US_United States_trojan_013
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_018
@@ -3928,12 +4014,6 @@ proxy-groups:
   - US_United States_trojan_144
   - US_United States_trojan_148
   - US_United States_trojan_152
-  - US_United States_trojan_1105
-  - US_United States_trojan_1106
-  - US_United States_trojan_1107
-  - US_United States_trojan_1110
-  - US_United States_trojan_1112
-  - US_United States_trojan_1113
   - US_United States_vless_44
   - US_United States_vmess_45
   - US_United States_vless_46
@@ -3984,6 +4064,7 @@ proxy-groups:
   - US_United States_vless_738
   - US_United States_vless_739
   - US_United States_vless_740
+  - US_United States_vless_741
   - US_United States_vless_742
   - US_United States_vless_743
   - US_United States_vless_744
@@ -3993,139 +4074,133 @@ proxy-groups:
   - US_United States_vless_749
   - US_United States_vless_751
   - US_United States_http_752
+  - US_United States_vmess_125
+  - US_United States_vmess_126
+  - US_United States_vless_127
+  - US_United States_vless_128
+  - US_United States_vmess_129
+  - US_United States_vless_1210
+  - US_United States_vless_1211
+  - US_United States_vless_1212
+  - US_United States_vmess_1216
   - US_United States_vless_1218
-  - US_United States_trojan_1221
-  - US_United States_vless_1222
-  - US_United States_vless_1224
-  - US_United States_vmess_1225
-  - US_United States_vless_1226
-  - US_United States_vmess_1227
-  - US_United States_vmess_1228
-  - US_United States_vmess_1229
-  - US_United States_vmess_1230
-  - US_United States_vless_1232
-  - US_United States_vless_1235
-  - US_United States_vless_1236
-  - US_United States_vless_1237
-  - US_United States_vless_1238
-  - US_United States_vless_1239
-  - US_United States_vless_1240
-  - US_United States_vmess_1241
-  - US_United States_vmess_1242
-  - US_United States_vless_1243
-  - US_United States_vmess_1244
-  - US_United States_vmess_1247
-  - US_United States_vless_1252
-  - US_United States_vless_1271
-  - US_United States_vless_1275
-  - US_United States_vless_1288
-  - US_United States_vless_1291
-  - US_United States_vless_1292
+  - US_United States_vless_1219
+  - US_United States_vless_1220
+  - US_United States_vless_1233
+  - US_United States_vless_1242
+  - US_United States_vless_1279
+  - US_United States_vless_1281
+  - US_United States_trojan_1284
+  - US_United States_vless_1290
   - US_United States_vless_1293
   - US_United States_vless_1294
-  - US_United States_vless_1295
   - US_United States_vless_1296
+  - US_United States_vless_1297
   - US_United States_vless_1298
   - US_United States_vless_1299
-  - US_United States_vless_12101
   - US_United States_vless_12102
   - US_United States_vless_12103
-  - US_United States_vless_12104
+  - US_United States_vless_12105
+  - US_United States_vless_12108
+  - US_United States_vless_12109
+  - US_United States_vless_12110
+  - US_United States_vless_12112
+  - US_United States_vless_12113
+  - US_United States_vless_12114
+  - US_United States_vless_12115
   - US_United States_vless_12117
-  - US_United States_vless_12118
-  - US_United States_vless_12119
+  - US_United States_trojan_12120
   - US_United States_vless_12121
-  - US_United States_vless_12122
-  - US_United States_vless_12123
   - US_United States_vless_12124
+  - US_United States_vless_12125
+  - US_United States_vless_12126
   - US_United States_vless_12127
-  - US_United States_vless_12128
-  - US_United States_vless_12129
   - US_United States_vless_12130
   - US_United States_vless_12131
-  - US_United States_vless_12132
   - US_United States_vless_12133
-  - US_United States_vless_12134
-  - US_United States_vless_12135
   - US_United States_vless_12136
   - US_United States_vless_12137
-  - US_United States_vless_12138
-  - US_United States_vless_12139
-  - US_United States_vless_12140
   - US_United States_vless_12141
   - US_United States_vless_12142
-  - US_United States_vless_12143
-  - US_United States_vless_12144
-  - US_United States_vless_12145
   - US_United States_vless_12146
-  - US_United States_vless_12147
   - US_United States_vless_12148
   - US_United States_vless_12149
-  - US_United States_vless_12150
   - US_United States_vless_12151
-  - US_United States_vless_12152
-  - US_United States_vless_12153
-  - US_United States_vless_12154
-  - US_United States_vless_12155
-  - US_United States_vless_12156
-  - US_United States_vmess_12157
-  - US_United States_vless_12180
-  - US_United States_vless_12185
-  - US_United States_vless_12186
+  - US_United States_vless_12160
+  - US_United States_vless_12161
+  - US_United States_vmess_12162
+  - US_United States_vless_12163
+  - US_United States_vmess_12166
+  - US_United States_trojan_12168
+  - US_United States_vless_12169
+  - US_United States_vmess_12170
+  - US_United States_vless_12171
+  - US_United States_vless_12174
+  - US_United States_vless_12176
+  - US_United States_vless_12177
+  - US_United States_vless_12178
+  - US_United States_trojan_12179
+  - US_United States_trojan_12181
+  - US_United States_trojan_12184
+  - US_United States_trojan_12186
   - US_United States_vless_12188
-  - US_United States_vless_12190
-  - US_United States_vless_12192
+  - US_United States_vless_12191
+  - US_United States_vless_12193
   - US_United States_vless_12194
-  - US_United States_vmess_12195
-  - US_United States_vless_12196
+  - US_United States_vless_12197
+  - US_United States_vless_12198
   - US_United States_vless_12199
-  - US_United States_vmess_12200
-  - US_United States_vless_12201
-  - US_United States_vless_12202
+  - US_United States_trojan_12201
   - US_United States_vless_12203
-  - US_United States_vless_12206
-  - US_United States_trojan_12207
-  - US_United States_trojan_12209
   - US_United States_vless_12210
-  - US_United States_vless_12211
-  - US_United States_vmess_12212
-  - US_United States_trojan_12213
-  - US_United States_vless_12215
-  - US_United States_vless_12216
-  - US_United States_vless_12218
+  - US_United States_trojan_12211
+  - US_United States_vless_12213
+  - US_United States_trojan_12217
   - US_United States_vless_12219
-  - US_United States_vless_12223
+  - US_United States_trojan_12220
+  - US_United States_vless_12222
   - US_United States_vless_12224
-  - US_United States_vless_12225
   - US_United States_vless_12226
-  - US_United States_vless_12227
-  - US_United States_vless_12228
-  - US_United States_vless_12229
   - US_United States_vless_12230
-  - US_United States_vless_12231
-  - US_United States_vless_12232
   - US_United States_vless_12233
   - US_United States_vless_12234
-  - US_United States_vless_12238
-  - US_United States_vless_12251
-  - US_United States_vless_12253
-  - US_United States_vless_12255
-  - US_United States_vless_12256
-  - US_United States_vless_12267
-  - US_United States_vmess_12270
-  - US_United States_vless_12272
-  - US_United States_vless_12273
-  - US_United States_vless_12276
-  - US_United States_vless_12286
-  - US_United States_vless_12289
-  - US_United States_vless_12291
-  - US_United States_vless_12306
-  - US_United States_vless_12309
-  - US_United States_vless_12310
-  - US_United States_vless_12311
-  - US_United States_vless_12314
-  - US_United States_vless_12319
-  - US_United States_vless_12332
+  - US_United States_vmess_12235
+  - US_United States_vless_12236
+  - US_United States_vless_12258
+  - US_United States_vless_12425
+  - US_United States_vless_12426
+  - US_United States_vless_12427
+  - US_United States_vless_12438
+  - US_United States_vless_12441
+  - US_United States_vless_12442
+  - US_United States_vless_12443
+  - US_United States_vless_12444
+  - US_United States_vless_12450
+  - US_United States_vless_12451
+  - US_United States_vless_12464
+  - US_United States_vless_12491
+  - US_United States_vless_12493
+  - US_United States_vless_12494
+  - US_United States_vless_12495
+  - US_United States_vless_12498
+  - US_United States_vless_12500
+  - US_United States_vless_12501
+  - US_United States_vless_12502
+  - US_United States_vless_12503
+  - US_United States_vless_12504
+  - US_United States_vless_12505
+  - US_United States_vless_12507
+  - US_United States_vless_12509
+  - US_United States_vless_12513
+  - US_United States_vless_12515
+  - US_United States_vless_12516
+  - US_United States_vless_12517
+  - US_United States_vless_12519
+  - US_United States_vless_12520
+  - US_United States_vless_12523
+  - US_United States_vless_12524
+  - US_United States_vless_12526
+  - US_United States_vmess_12527
   - US_United States_ss_1423
   - US_United States_ss_1424
   - US_United States_ss_1432
@@ -4148,30 +4223,39 @@ proxy-groups:
   - US_United States_vless_14153
   - US_United States_ss_14154
   - US_United States_vless_14160
+  - US_United States_vless_14165
   - US_United States_anytls_14178
   - US_United States_anytls_14181
   - US_United States_anytls_14183
   - US_United States_anytls_14187
   - US_United States_vless_14190
+  - US_United States_vless_14193
   - US_United States_vless_14194
   - US_United States_http_14197
   - US_United States_vless_14207
   - US_United States_vless_14209
   - US_United States_vless_14215
+  - US_United States_vless_14216
   - US_United States_vless_14217
   - US_United States_vless_14218
   - US_United States_vless_14220
   - US_United States_vless_14221
-  - US_United States_vless_14223
+  - US_United States_vless_14225
+  - US_United States_vless_14226
+  - US_United States_vless_14228
   - US_United States_vless_14229
   - US_United States_vless_14231
   - US_United States_vless_14233
+  - US_United States_vless_14238
   - US_United States_anytls_14242
+  - US_United States_vless_14243
   - US_United States_vless_14245
   - US_United States_vless_14246
   - US_United States_vless_14251
+  - US_United States_vless_14252
   - US_United States_vless_14255
   - US_United States_anytls_14258
+  - US_United States_vless_14260
   - US_United States_vless_14262
   - US_United States_anytls_14264
   - US_United States_vless_14267
@@ -4179,30 +4263,44 @@ proxy-groups:
   - US_United States_vless_14272
   - US_United States_vless_14277
   - US_United States_vless_14278
+  - US_United States_vless_14285
   - US_United States_anytls_14288
+  - US_United States_vless_14292
+  - US_United States_vless_14294
   - US_United States_vless_14307
   - US_United States_vmess_14311
   - US_United States_vless_14312
   - US_United States_vless_14321
   - US_United States_vless_14325
+  - US_United States_vless_14331
   - US_United States_vmess_14332
   - US_United States_vmess_14333
   - US_United States_vless_14338
+  - US_United States_vless_14339
   - US_United States_vless_14343
   - US_United States_vless_14354
   - US_United States_vless_14355
+  - US_United States_vless_14363
   - US_United States_vless_14364
   - US_United States_anytls_14377
   - US_United States_vless_14388
   - US_United States_vless_14389
+  - US_United States_vless_14390
   - US_United States_vless_14391
   - US_United States_vless_14392
+  - US_United States_vless_14408
+  - US_United States_vless_14409
   - US_United States_vless_14410
   - US_United States_vless_14414
   - US_United States_trojan_14416
+  - US_United States_vless_14417
   - US_United States_vless_14423
   - US_United States_vless_14426
+  - US_United States_vless_14427
+  - US_United States_vless_14430
+  - US_United States_vless_14431
   - US_United States_anytls_14436
+  - US_United States_vless_14439
   - US_United States_http_14444
   - US_United States_vless_14450
   - US_United States_vmess_14452
@@ -4215,11 +4313,9 @@ proxy-groups:
   - US_United States_anytls_14473
   - US_United States_vless_14474
   - US_United States_vless_14475
-  - US_United States_vless_14480
   - US_United States_anytls_14492
   - US_United States_vless_14496
   - US_United States_ss_14497
-  - US_United States_vless_14499
   - US_United States_trojan_161
   - US_United States_vmess_165
   - US_United States_ss_168
@@ -4231,12 +4327,12 @@ proxy-groups:
   tolerance: 50
   proxies:
   - US_United States_ss_01
-  - US_United States_trojan_03
   - US_United States_trojan_04
   - US_United States_trojan_05
-  - US_United States_trojan_08
+  - US_United States_trojan_06
+  - US_United States_trojan_09
+  - US_United States_trojan_011
   - US_United States_trojan_012
-  - US_United States_trojan_013
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_018
@@ -4249,12 +4345,6 @@ proxy-groups:
   - US_United States_trojan_144
   - US_United States_trojan_148
   - US_United States_trojan_152
-  - US_United States_trojan_1105
-  - US_United States_trojan_1106
-  - US_United States_trojan_1107
-  - US_United States_trojan_1110
-  - US_United States_trojan_1112
-  - US_United States_trojan_1113
   - US_United States_vless_44
   - US_United States_vmess_45
   - US_United States_vless_46
@@ -4305,6 +4395,7 @@ proxy-groups:
   - US_United States_vless_738
   - US_United States_vless_739
   - US_United States_vless_740
+  - US_United States_vless_741
   - US_United States_vless_742
   - US_United States_vless_743
   - US_United States_vless_744
@@ -4314,139 +4405,133 @@ proxy-groups:
   - US_United States_vless_749
   - US_United States_vless_751
   - US_United States_http_752
+  - US_United States_vmess_125
+  - US_United States_vmess_126
+  - US_United States_vless_127
+  - US_United States_vless_128
+  - US_United States_vmess_129
+  - US_United States_vless_1210
+  - US_United States_vless_1211
+  - US_United States_vless_1212
+  - US_United States_vmess_1216
   - US_United States_vless_1218
-  - US_United States_trojan_1221
-  - US_United States_vless_1222
-  - US_United States_vless_1224
-  - US_United States_vmess_1225
-  - US_United States_vless_1226
-  - US_United States_vmess_1227
-  - US_United States_vmess_1228
-  - US_United States_vmess_1229
-  - US_United States_vmess_1230
-  - US_United States_vless_1232
-  - US_United States_vless_1235
-  - US_United States_vless_1236
-  - US_United States_vless_1237
-  - US_United States_vless_1238
-  - US_United States_vless_1239
-  - US_United States_vless_1240
-  - US_United States_vmess_1241
-  - US_United States_vmess_1242
-  - US_United States_vless_1243
-  - US_United States_vmess_1244
-  - US_United States_vmess_1247
-  - US_United States_vless_1252
-  - US_United States_vless_1271
-  - US_United States_vless_1275
-  - US_United States_vless_1288
-  - US_United States_vless_1291
-  - US_United States_vless_1292
+  - US_United States_vless_1219
+  - US_United States_vless_1220
+  - US_United States_vless_1233
+  - US_United States_vless_1242
+  - US_United States_vless_1279
+  - US_United States_vless_1281
+  - US_United States_trojan_1284
+  - US_United States_vless_1290
   - US_United States_vless_1293
   - US_United States_vless_1294
-  - US_United States_vless_1295
   - US_United States_vless_1296
+  - US_United States_vless_1297
   - US_United States_vless_1298
   - US_United States_vless_1299
-  - US_United States_vless_12101
   - US_United States_vless_12102
   - US_United States_vless_12103
-  - US_United States_vless_12104
+  - US_United States_vless_12105
+  - US_United States_vless_12108
+  - US_United States_vless_12109
+  - US_United States_vless_12110
+  - US_United States_vless_12112
+  - US_United States_vless_12113
+  - US_United States_vless_12114
+  - US_United States_vless_12115
   - US_United States_vless_12117
-  - US_United States_vless_12118
-  - US_United States_vless_12119
+  - US_United States_trojan_12120
   - US_United States_vless_12121
-  - US_United States_vless_12122
-  - US_United States_vless_12123
   - US_United States_vless_12124
+  - US_United States_vless_12125
+  - US_United States_vless_12126
   - US_United States_vless_12127
-  - US_United States_vless_12128
-  - US_United States_vless_12129
   - US_United States_vless_12130
   - US_United States_vless_12131
-  - US_United States_vless_12132
   - US_United States_vless_12133
-  - US_United States_vless_12134
-  - US_United States_vless_12135
   - US_United States_vless_12136
   - US_United States_vless_12137
-  - US_United States_vless_12138
-  - US_United States_vless_12139
-  - US_United States_vless_12140
   - US_United States_vless_12141
   - US_United States_vless_12142
-  - US_United States_vless_12143
-  - US_United States_vless_12144
-  - US_United States_vless_12145
   - US_United States_vless_12146
-  - US_United States_vless_12147
   - US_United States_vless_12148
   - US_United States_vless_12149
-  - US_United States_vless_12150
   - US_United States_vless_12151
-  - US_United States_vless_12152
-  - US_United States_vless_12153
-  - US_United States_vless_12154
-  - US_United States_vless_12155
-  - US_United States_vless_12156
-  - US_United States_vmess_12157
-  - US_United States_vless_12180
-  - US_United States_vless_12185
-  - US_United States_vless_12186
+  - US_United States_vless_12160
+  - US_United States_vless_12161
+  - US_United States_vmess_12162
+  - US_United States_vless_12163
+  - US_United States_vmess_12166
+  - US_United States_trojan_12168
+  - US_United States_vless_12169
+  - US_United States_vmess_12170
+  - US_United States_vless_12171
+  - US_United States_vless_12174
+  - US_United States_vless_12176
+  - US_United States_vless_12177
+  - US_United States_vless_12178
+  - US_United States_trojan_12179
+  - US_United States_trojan_12181
+  - US_United States_trojan_12184
+  - US_United States_trojan_12186
   - US_United States_vless_12188
-  - US_United States_vless_12190
-  - US_United States_vless_12192
+  - US_United States_vless_12191
+  - US_United States_vless_12193
   - US_United States_vless_12194
-  - US_United States_vmess_12195
-  - US_United States_vless_12196
+  - US_United States_vless_12197
+  - US_United States_vless_12198
   - US_United States_vless_12199
-  - US_United States_vmess_12200
-  - US_United States_vless_12201
-  - US_United States_vless_12202
+  - US_United States_trojan_12201
   - US_United States_vless_12203
-  - US_United States_vless_12206
-  - US_United States_trojan_12207
-  - US_United States_trojan_12209
   - US_United States_vless_12210
-  - US_United States_vless_12211
-  - US_United States_vmess_12212
-  - US_United States_trojan_12213
-  - US_United States_vless_12215
-  - US_United States_vless_12216
-  - US_United States_vless_12218
+  - US_United States_trojan_12211
+  - US_United States_vless_12213
+  - US_United States_trojan_12217
   - US_United States_vless_12219
-  - US_United States_vless_12223
+  - US_United States_trojan_12220
+  - US_United States_vless_12222
   - US_United States_vless_12224
-  - US_United States_vless_12225
   - US_United States_vless_12226
-  - US_United States_vless_12227
-  - US_United States_vless_12228
-  - US_United States_vless_12229
   - US_United States_vless_12230
-  - US_United States_vless_12231
-  - US_United States_vless_12232
   - US_United States_vless_12233
   - US_United States_vless_12234
-  - US_United States_vless_12238
-  - US_United States_vless_12251
-  - US_United States_vless_12253
-  - US_United States_vless_12255
-  - US_United States_vless_12256
-  - US_United States_vless_12267
-  - US_United States_vmess_12270
-  - US_United States_vless_12272
-  - US_United States_vless_12273
-  - US_United States_vless_12276
-  - US_United States_vless_12286
-  - US_United States_vless_12289
-  - US_United States_vless_12291
-  - US_United States_vless_12306
-  - US_United States_vless_12309
-  - US_United States_vless_12310
-  - US_United States_vless_12311
-  - US_United States_vless_12314
-  - US_United States_vless_12319
-  - US_United States_vless_12332
+  - US_United States_vmess_12235
+  - US_United States_vless_12236
+  - US_United States_vless_12258
+  - US_United States_vless_12425
+  - US_United States_vless_12426
+  - US_United States_vless_12427
+  - US_United States_vless_12438
+  - US_United States_vless_12441
+  - US_United States_vless_12442
+  - US_United States_vless_12443
+  - US_United States_vless_12444
+  - US_United States_vless_12450
+  - US_United States_vless_12451
+  - US_United States_vless_12464
+  - US_United States_vless_12491
+  - US_United States_vless_12493
+  - US_United States_vless_12494
+  - US_United States_vless_12495
+  - US_United States_vless_12498
+  - US_United States_vless_12500
+  - US_United States_vless_12501
+  - US_United States_vless_12502
+  - US_United States_vless_12503
+  - US_United States_vless_12504
+  - US_United States_vless_12505
+  - US_United States_vless_12507
+  - US_United States_vless_12509
+  - US_United States_vless_12513
+  - US_United States_vless_12515
+  - US_United States_vless_12516
+  - US_United States_vless_12517
+  - US_United States_vless_12519
+  - US_United States_vless_12520
+  - US_United States_vless_12523
+  - US_United States_vless_12524
+  - US_United States_vless_12526
+  - US_United States_vmess_12527
   - US_United States_ss_1423
   - US_United States_ss_1424
   - US_United States_ss_1432
@@ -4469,30 +4554,39 @@ proxy-groups:
   - US_United States_vless_14153
   - US_United States_ss_14154
   - US_United States_vless_14160
+  - US_United States_vless_14165
   - US_United States_anytls_14178
   - US_United States_anytls_14181
   - US_United States_anytls_14183
   - US_United States_anytls_14187
   - US_United States_vless_14190
+  - US_United States_vless_14193
   - US_United States_vless_14194
   - US_United States_http_14197
   - US_United States_vless_14207
   - US_United States_vless_14209
   - US_United States_vless_14215
+  - US_United States_vless_14216
   - US_United States_vless_14217
   - US_United States_vless_14218
   - US_United States_vless_14220
   - US_United States_vless_14221
-  - US_United States_vless_14223
+  - US_United States_vless_14225
+  - US_United States_vless_14226
+  - US_United States_vless_14228
   - US_United States_vless_14229
   - US_United States_vless_14231
   - US_United States_vless_14233
+  - US_United States_vless_14238
   - US_United States_anytls_14242
+  - US_United States_vless_14243
   - US_United States_vless_14245
   - US_United States_vless_14246
   - US_United States_vless_14251
+  - US_United States_vless_14252
   - US_United States_vless_14255
   - US_United States_anytls_14258
+  - US_United States_vless_14260
   - US_United States_vless_14262
   - US_United States_anytls_14264
   - US_United States_vless_14267
@@ -4500,30 +4594,44 @@ proxy-groups:
   - US_United States_vless_14272
   - US_United States_vless_14277
   - US_United States_vless_14278
+  - US_United States_vless_14285
   - US_United States_anytls_14288
+  - US_United States_vless_14292
+  - US_United States_vless_14294
   - US_United States_vless_14307
   - US_United States_vmess_14311
   - US_United States_vless_14312
   - US_United States_vless_14321
   - US_United States_vless_14325
+  - US_United States_vless_14331
   - US_United States_vmess_14332
   - US_United States_vmess_14333
   - US_United States_vless_14338
+  - US_United States_vless_14339
   - US_United States_vless_14343
   - US_United States_vless_14354
   - US_United States_vless_14355
+  - US_United States_vless_14363
   - US_United States_vless_14364
   - US_United States_anytls_14377
   - US_United States_vless_14388
   - US_United States_vless_14389
+  - US_United States_vless_14390
   - US_United States_vless_14391
   - US_United States_vless_14392
+  - US_United States_vless_14408
+  - US_United States_vless_14409
   - US_United States_vless_14410
   - US_United States_vless_14414
   - US_United States_trojan_14416
+  - US_United States_vless_14417
   - US_United States_vless_14423
   - US_United States_vless_14426
+  - US_United States_vless_14427
+  - US_United States_vless_14430
+  - US_United States_vless_14431
   - US_United States_anytls_14436
+  - US_United States_vless_14439
   - US_United States_http_14444
   - US_United States_vless_14450
   - US_United States_vmess_14452
@@ -4536,11 +4644,9 @@ proxy-groups:
   - US_United States_anytls_14473
   - US_United States_vless_14474
   - US_United States_vless_14475
-  - US_United States_vless_14480
   - US_United States_anytls_14492
   - US_United States_vless_14496
   - US_United States_ss_14497
-  - US_United States_vless_14499
   - US_United States_trojan_161
   - US_United States_vmess_165
   - US_United States_ss_168
