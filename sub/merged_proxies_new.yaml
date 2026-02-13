@@ -2532,6 +2532,20 @@ proxies:
     path: /5QNROSRV
     headers:
       Host: oplg1.zhujicn2.com
+- name: US_United States_vmess_6500
+  server: v2ray.online
+  port: 443
+  type: vmess
+  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: Kansas.v2ray.online
 - name: US_United States_vmess_6501
   server: 103.21.244.70
   port: 8443
@@ -7086,20 +7100,6 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13/hd.m3u8
-- name: US_United States_vmess_62017
-  server: mycfwork.herokuapp.com
-  port: 443
-  type: vmess
-  uuid: 07a3a1e3-d52e-4acc-958e-c301681b5f09
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
-    headers:
-      Host: mycfwork.herokuapp.com
 - name: US_United States_vmess_62019
   server: 138.197.165.31
   port: 8080
@@ -20184,6 +20184,41 @@ proxies:
   server: 168.110.223.205
   tfo: true
   type: ss
+- name: US_United States_trojan_154
+  server: 43.207.171.246
+  port: 1820
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_155
+  server: 95.40.55.141
+  port: 2826
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_156
+  server: 13.113.192.229
+  port: 2595
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1513
+  server: 57.180.14.50
+  port: 2890
+  type: trojan
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_1514
+  server: 43.207.89.113
+  port: 3159
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
 - name: US_United States_vless_167
   type: vless
   server: 104.18.126.69
@@ -20500,6 +20535,7 @@ proxy-groups:
   - US_United States_vmess_6484
   - US_United States_vmess_6488
   - US_United States_vmess_6489
+  - US_United States_vmess_6500
   - US_United States_vmess_6501
   - US_United States_vmess_6505
   - US_United States_vmess_6506
@@ -20944,7 +20980,6 @@ proxy-groups:
   - US_United States_ss_61999
   - US_United States_ss_62003
   - US_United States_vmess_62016
-  - US_United States_vmess_62017
   - US_United States_vmess_62019
   - US_United States_vmess_62024
   - US_United States_vmess_62025
@@ -22021,6 +22056,11 @@ proxy-groups:
   - US_United States_anytls_14492
   - US_United States_vless_14496
   - US_United States_ss_14497
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_1513
+  - US_United States_trojan_1514
   - US_United States_vless_167
   - US_United States_vless_168
   - US_United States_vless_1611
@@ -22259,6 +22299,7 @@ proxy-groups:
   - US_United States_vmess_6484
   - US_United States_vmess_6488
   - US_United States_vmess_6489
+  - US_United States_vmess_6500
   - US_United States_vmess_6501
   - US_United States_vmess_6505
   - US_United States_vmess_6506
@@ -22703,7 +22744,6 @@ proxy-groups:
   - US_United States_ss_61999
   - US_United States_ss_62003
   - US_United States_vmess_62016
-  - US_United States_vmess_62017
   - US_United States_vmess_62019
   - US_United States_vmess_62024
   - US_United States_vmess_62025
@@ -23780,6 +23820,11 @@ proxy-groups:
   - US_United States_anytls_14492
   - US_United States_vless_14496
   - US_United States_ss_14497
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_1513
+  - US_United States_trojan_1514
   - US_United States_vless_167
   - US_United States_vless_168
   - US_United States_vless_1611
