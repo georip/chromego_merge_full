@@ -2647,6 +2647,20 @@ proxies:
     path: /5QNROSRV
     headers:
       Host: oplg1.zhujicn2.com
+- name: US_United States_vmess_6543
+  server: v2ray.online
+  port: 443
+  type: vmess
+  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: Kansas.v2ray.online
 - name: US_United States_vmess_6544
   server: 103.21.244.70
   port: 8443
@@ -7192,20 +7206,6 @@ proxies:
     path: /ws
     headers:
       Host: ahdaeph8.com
-- name: US_United States_vmess_61980
-  server: v2ray.online
-  port: 443
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /speedtest
-    headers:
-      Host: Phoenix.v2ray.online
 - name: US_United States_ss_62024
   server: 167.88.62.68
   port: 6679
@@ -21322,6 +21322,7 @@ proxy-groups:
   - US_United States_vmess_6527
   - US_United States_vmess_6531
   - US_United States_vmess_6532
+  - US_United States_vmess_6543
   - US_United States_vmess_6544
   - US_United States_vmess_6548
   - US_United States_vmess_6549
@@ -21765,7 +21766,6 @@ proxy-groups:
   - US_United States_vmess_61959
   - US_United States_trojan_61965
   - US_United States_vmess_61966
-  - US_United States_vmess_61980
   - US_United States_ss_62024
   - US_United States_ss_62026
   - US_United States_ss_62040
@@ -23161,6 +23161,7 @@ proxy-groups:
   - US_United States_vmess_6527
   - US_United States_vmess_6531
   - US_United States_vmess_6532
+  - US_United States_vmess_6543
   - US_United States_vmess_6544
   - US_United States_vmess_6548
   - US_United States_vmess_6549
@@ -23604,7 +23605,6 @@ proxy-groups:
   - US_United States_vmess_61959
   - US_United States_trojan_61965
   - US_United States_vmess_61966
-  - US_United States_vmess_61980
   - US_United States_ss_62024
   - US_United States_ss_62026
   - US_United States_ss_62040
