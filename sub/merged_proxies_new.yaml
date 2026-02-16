@@ -9577,6 +9577,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: US_United States_vmess_63951
+  server: 1af131.ff48fade.shop
+  port: 80
+  type: vmess
+  uuid: 53598401-31e1-4ce3-bb2e-6c00a8fc3e01
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02s.ff48fade.shop
 - name: US_United States_vmess_63952
   server: www.wto.org
   port: 2086
@@ -19085,6 +19099,30 @@ proxies:
   reality-opts:
     public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
     short-id: 69cc4c0d5e
+- name: US_United States_vless_12136
+  type: vless
+  server: fr1.miyazono-kaori.com
+  port: 443
+  uuid: 5dc07e5e-59dd-41f2-96b1-e8a8133a0dbc
+  servername: www.edf.fr
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: NAWeuunyBgF_WBml5ffXSOQ0DRX2_0m2OAuySHYrzwE
+    short-id: 86d7385c80b50a8b
+- name: US_United States_vless_12137
+  type: vless
+  server: fr2.miyazono-kaori.com
+  port: 443
+  uuid: 5dc07e5e-59dd-41f2-96b1-e8a8133a0dbc
+  servername: www.edf.fr
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZsKBMmmJMU_hx9SdeysOBecbtzD6bzolUv-naKJAqTk
+    short-id: c75a019cb3d6
 - name: US_United States_vless_12138
   type: vless
   server: it1.miyazono-kaori.com
@@ -20076,6 +20114,21 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14126
+  network: tcp
+  port: 58472
+  reality-opts:
+    public-key: f6jIBpzHwC1lDAwvJojvEIPlwZqyEkL0gVsJxmeRLCI
+    short-id: 44ef9a66271b4e
+  server: a.cdn-bilibili.cn
+  servername: www.discoverasr.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cb6724d6-4900-4188-ae20-5d89b626394d
 - client-fingerprint: random
   host: navi.bankrate.com
   name: US_United States_vless_14127
@@ -22233,6 +22286,7 @@ proxy-groups:
   - US_United States_vmess_63945
   - US_United States_vmess_63946
   - US_United States_vmess_63947
+  - US_United States_vmess_63951
   - US_United States_vmess_63952
   - US_United States_vmess_63953
   - US_United States_vmess_63955
@@ -22996,6 +23050,8 @@ proxy-groups:
   - US_United States_vless_12133
   - US_United States_vless_12134
   - US_United States_vless_12135
+  - US_United States_vless_12136
+  - US_United States_vless_12137
   - US_United States_vless_12138
   - US_United States_vless_12139
   - US_United States_vless_12140
@@ -23074,6 +23130,7 @@ proxy-groups:
   - US_United States_vless_14107
   - US_United States_vmess_14116
   - US_United States_http_14122
+  - US_United States_vless_14126
   - US_United States_vless_14127
   - US_United States_vless_14134
   - US_United States_vless_14136
@@ -24084,6 +24141,7 @@ proxy-groups:
   - US_United States_vmess_63945
   - US_United States_vmess_63946
   - US_United States_vmess_63947
+  - US_United States_vmess_63951
   - US_United States_vmess_63952
   - US_United States_vmess_63953
   - US_United States_vmess_63955
@@ -24847,6 +24905,8 @@ proxy-groups:
   - US_United States_vless_12133
   - US_United States_vless_12134
   - US_United States_vless_12135
+  - US_United States_vless_12136
+  - US_United States_vless_12137
   - US_United States_vless_12138
   - US_United States_vless_12139
   - US_United States_vless_12140
@@ -24925,6 +24985,7 @@ proxy-groups:
   - US_United States_vless_14107
   - US_United States_vmess_14116
   - US_United States_http_14122
+  - US_United States_vless_14126
   - US_United States_vless_14127
   - US_United States_vless_14134
   - US_United States_vless_14136
