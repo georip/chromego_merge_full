@@ -156,6 +156,54 @@ proxies:
     headers:
       Host: nasnet-571299667.rahavard365.co
     path: /NASNET/cdn?ed=2560
+- name: US_United States_trojan_153
+  network: tcp
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 3373
+  server: 18.183.109.29
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_154
+  network: tcp
+  password: BxceQaOe
+  port: 54548
+  server: 57.180.15.194
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_155
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 43.207.105.49
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_156
+  network: tcp
+  password: BxceQaOe
+  port: 2595
+  server: 43.206.226.70
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_161
+  network: tcp
+  password: BxceQaOe
+  port: 2673
+  server: 43.199.161.245
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_164
+  network: tcp
+  password: BxceQaOe
+  port: 38780
+  server: 57.181.39.168
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: US_United States_vless_52
   network: ws
   port: 2443
@@ -1597,6 +1645,17 @@ proxies:
     path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
     headers:
       Host: ju8.ae1.us.ci
+- name: US_United States_vless_12244
+  type: vless
+  server: 172.66.128.70
+  port: 2052
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
 - name: US_United States_vless_12245
   type: vless
   server: ko.890604.filegear-sg.me
@@ -1963,21 +2022,6 @@ proxies:
   server: 43.206.116.233
   tfo: true
   type: ss
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: US_United States_vless_1427
-  network: tcp
-  port: 58472
-  reality-opts:
-    public-key: f6jIBpzHwC1lDAwvJojvEIPlwZqyEkL0gVsJxmeRLCI
-    short-id: 44ef9a66271b4e
-  server: a.cdn-bilibili.cn
-  servername: www.discoverasr.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cb6724d6-4900-4188-ae20-5d89b626394d
 - name: US_United States_anytls_1444
   password: 437bd464-b524-3812-ac02-85483bcf7407
   port: 39999
@@ -2045,21 +2089,6 @@ proxies:
   tfo: true
   type: ss
 - client-fingerprint: chrome
-  name: US_United States_trojan_1498
-  network: ws
-  password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
-  port: 32205
-  server: W45uVy9MRGNIoEbZUcJz.a.karyl.top
-  skip-cert-verify: true
-  sni: s1.hdslb.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /
-- client-fingerprint: chrome
   name: US_United States_vless_14101
   network: ws
   port: 443
@@ -2090,6 +2119,36 @@ proxies:
     headers:
       Host: a926adb5.lfree.ccwu.cc
     path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
+- client-fingerprint: chrome
+  name: US_United States_trojan_14105
+  network: ws
+  password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
+  port: 32103
+  server: Fd1Dwrlyx4IfbUA0XORv.02.karyl.top
+  skip-cert-verify: true
+  sni: jp.karyl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+- client-fingerprint: chrome
+  name: US_United States_trojan_14111
+  network: ws
+  password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
+  port: 32100
+  server: zRamY29FSWAslkvxbCIB.01.karyl.top
+  skip-cert-verify: true
+  sni: tw.karyl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
 - client-fingerprint: chrome
   name: US_United States_vless_14143
   network: ws
@@ -2444,6 +2503,21 @@ proxies:
   tfo: true
   type: anytls
 - client-fingerprint: chrome
+  name: US_United States_trojan_14308
+  network: ws
+  password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
+  port: 32206
+  server: kfS0TqJOurhEI6ypiVc2.b.karyl.top
+  skip-cert-verify: true
+  sni: s1.hdslb.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /
+- client-fingerprint: chrome
   name: US_United States_vless_14309
   network: ws
   port: 443
@@ -2527,6 +2601,21 @@ proxies:
   tfo: true
   type: anytls
 - client-fingerprint: chrome
+  name: US_United States_trojan_14341
+  network: ws
+  password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
+  port: 32206
+  server: QZ7RGSwLImbet8ivqFon.a.karyl.top
+  skip-cert-verify: true
+  sni: s1.hdslb.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+- client-fingerprint: chrome
   name: US_United States_vless_14342
   network: raw
   port: 34045
@@ -2607,19 +2696,19 @@ proxies:
   tfo: true
   type: anytls
 - client-fingerprint: chrome
-  name: US_United States_trojan_14360
+  name: US_United States_trojan_14361
   network: ws
   password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
-  port: 32100
-  server: 6gR27loCWwBKjNh1JQFU.03.karyl.top
+  port: 32209
+  server: AyXJ1il6KMd7cj24GPnh.a.karyl.top
   skip-cert-verify: true
-  sni: tw.karyl.cc
+  sni: s1.hdslb.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
 - alpn:
   - ''
@@ -2672,21 +2761,6 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14382
-  network: ws
-  password: 362dfc91-1e4e-4147-a8eb-05c3b38b9043
-  port: 32202
-  server: cS2wYvPhrkbUm0eD87iO.b.karyl.top
-  skip-cert-verify: true
-  sni: s1.hdslb.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /
 - client-fingerprint: chrome
   name: US_United States_vless_14383
   network: ws
@@ -3304,6 +3378,12 @@ proxy-groups:
   - US_United States_trojan_138
   - US_United States_trojan_142
   - US_United States_vmess_147
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_161
+  - US_United States_trojan_164
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -3420,6 +3500,7 @@ proxy-groups:
   - US_United States_vless_12232
   - US_United States_vmess_12240
   - US_United States_vmess_12243
+  - US_United States_vless_12244
   - US_United States_vless_12245
   - US_United States_vless_12247
   - US_United States_vless_12248
@@ -3448,7 +3529,6 @@ proxy-groups:
   - US_United States_trojan_12332
   - US_United States_vless_12338
   - US_United States_ss_1420
-  - US_United States_vless_1427
   - US_United States_anytls_1444
   - US_United States_ss_1465
   - US_United States_ss_1466
@@ -3457,9 +3537,10 @@ proxy-groups:
   - US_United States_ss_1482
   - US_United States_vless_1483
   - US_United States_ss_1487
-  - US_United States_trojan_1498
   - US_United States_vless_14101
   - US_United States_vless_14104
+  - US_United States_trojan_14105
+  - US_United States_trojan_14111
   - US_United States_vless_14143
   - US_United States_vless_14146
   - US_United States_vmess_14178
@@ -3485,24 +3566,25 @@ proxy-groups:
   - US_United States_vless_14295
   - US_United States_trojan_14303
   - US_United States_anytls_14304
+  - US_United States_trojan_14308
   - US_United States_vless_14309
   - US_United States_vless_14315
   - US_United States_http_14317
   - US_United States_vless_14324
   - US_United States_vless_14325
   - US_United States_anytls_14337
+  - US_United States_trojan_14341
   - US_United States_vless_14342
   - US_United States_vmess_14345
   - US_United States_vless_14348
   - US_United States_anytls_14349
   - US_United States_vless_14358
   - US_United States_anytls_14359
-  - US_United States_trojan_14360
+  - US_United States_trojan_14361
   - US_United States_vmess_14362
   - US_United States_anytls_14375
   - US_United States_anytls_14376
   - US_United States_vless_14378
-  - US_United States_trojan_14382
   - US_United States_vless_14383
   - US_United States_vless_14389
   - US_United States_anytls_14397
@@ -3568,6 +3650,12 @@ proxy-groups:
   - US_United States_trojan_138
   - US_United States_trojan_142
   - US_United States_vmess_147
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_161
+  - US_United States_trojan_164
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -3684,6 +3772,7 @@ proxy-groups:
   - US_United States_vless_12232
   - US_United States_vmess_12240
   - US_United States_vmess_12243
+  - US_United States_vless_12244
   - US_United States_vless_12245
   - US_United States_vless_12247
   - US_United States_vless_12248
@@ -3712,7 +3801,6 @@ proxy-groups:
   - US_United States_trojan_12332
   - US_United States_vless_12338
   - US_United States_ss_1420
-  - US_United States_vless_1427
   - US_United States_anytls_1444
   - US_United States_ss_1465
   - US_United States_ss_1466
@@ -3721,9 +3809,10 @@ proxy-groups:
   - US_United States_ss_1482
   - US_United States_vless_1483
   - US_United States_ss_1487
-  - US_United States_trojan_1498
   - US_United States_vless_14101
   - US_United States_vless_14104
+  - US_United States_trojan_14105
+  - US_United States_trojan_14111
   - US_United States_vless_14143
   - US_United States_vless_14146
   - US_United States_vmess_14178
@@ -3749,24 +3838,25 @@ proxy-groups:
   - US_United States_vless_14295
   - US_United States_trojan_14303
   - US_United States_anytls_14304
+  - US_United States_trojan_14308
   - US_United States_vless_14309
   - US_United States_vless_14315
   - US_United States_http_14317
   - US_United States_vless_14324
   - US_United States_vless_14325
   - US_United States_anytls_14337
+  - US_United States_trojan_14341
   - US_United States_vless_14342
   - US_United States_vmess_14345
   - US_United States_vless_14348
   - US_United States_anytls_14349
   - US_United States_vless_14358
   - US_United States_anytls_14359
-  - US_United States_trojan_14360
+  - US_United States_trojan_14361
   - US_United States_vmess_14362
   - US_United States_anytls_14375
   - US_United States_anytls_14376
   - US_United States_vless_14378
-  - US_United States_trojan_14382
   - US_United States_vless_14383
   - US_United States_vless_14389
   - US_United States_anytls_14397
