@@ -235,6 +235,70 @@ proxies:
     headers:
       Host: ous3.dean52.top
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- name: US_United States_trojan_165
+  network: tcp
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 4856
+  server: 13.114.51.135
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_166
+  network: tcp
+  password: BxceQaOe
+  port: 504
+  server: 16.162.118.238
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_167
+  network: tcp
+  password: BxceQaOe
+  port: 3292
+  server: 43.198.185.201
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_168
+  network: tcp
+  password: BxceQaOe
+  port: 2595
+  server: 3.112.214.167
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_170
+  network: tcp
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 3423
+  server: 43.207.87.46
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_171
+  network: tcp
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 3901
+  server: 57.181.39.159
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_173
+  network: tcp
+  password: BxceQaOe
+  port: 52951
+  server: 43.198.17.4
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_175
+  network: tcp
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 4920
+  server: 13.231.123.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ssp
@@ -689,6 +753,17 @@ proxies:
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
+- name: US_United States_vless_1222
+  type: vless
+  server: germ-node.genadata.online
+  port: 2040
+  uuid: 14818654-7689-453a-9a1f-4c72f89782d5
+  servername: tradingview.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1RJ2ulM9UyAC8PFy194dV0RTZI6xF6U4CGClhNz9fTg
+    short-id: 50ed6f6007515d63
 - name: US_United States_vless_1228
   type: vless
   server: access-lv9.agveit.pro
@@ -794,6 +869,20 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: sni.111000.v6.navy
+- name: US_United States_vmess_12170
+  type: vmess
+  server: turk1.net.net
+  port: 80
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr1-smart.adelping.com.
 - name: US_United States_vless_12173
   type: vless
   server: 167.99.86.115
@@ -1375,6 +1464,14 @@ proxies:
     headers:
       Host: cnmfangbinxing.cnm-fangbinxingnmsl-666.workers.dev
   delay: 1044
+- name: US_United States_ss_167
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  udp: true
+  delay: 1744
 - name: US_United States_trojan_1622
   server: tttyder.wsone.icu
   type: trojan
@@ -1409,6 +1506,14 @@ proxy-groups:
   - US_United States_vmess_148
   - US_United States_vmess_149
   - US_United States_vmess_151
+  - US_United States_trojan_165
+  - US_United States_trojan_166
+  - US_United States_trojan_167
+  - US_United States_trojan_168
+  - US_United States_trojan_170
+  - US_United States_trojan_171
+  - US_United States_trojan_173
+  - US_United States_trojan_175
   - US_United States_vless_42
   - US_United States_vless_44
   - US_United States_vless_47
@@ -1449,6 +1554,7 @@ proxy-groups:
   - US_United States_vless_5102
   - US_United States_vless_123
   - US_United States_vless_125
+  - US_United States_vless_1222
   - US_United States_vless_1228
   - US_United States_vless_1232
   - US_United States_vless_1239
@@ -1458,6 +1564,7 @@ proxy-groups:
   - US_United States_vless_12166
   - US_United States_vless_12167
   - US_United States_vless_12168
+  - US_United States_vmess_12170
   - US_United States_vless_12173
   - US_United States_vless_12174
   - US_United States_vmess_12175
@@ -1505,6 +1612,7 @@ proxy-groups:
   - US_United States_trojan_162
   - US_United States_trojan_164
   - US_United States_vless_166
+  - US_United States_ss_167
   - US_United States_trojan_1622
 - name: 自动选择
   type: url-test
@@ -1532,6 +1640,14 @@ proxy-groups:
   - US_United States_vmess_148
   - US_United States_vmess_149
   - US_United States_vmess_151
+  - US_United States_trojan_165
+  - US_United States_trojan_166
+  - US_United States_trojan_167
+  - US_United States_trojan_168
+  - US_United States_trojan_170
+  - US_United States_trojan_171
+  - US_United States_trojan_173
+  - US_United States_trojan_175
   - US_United States_vless_42
   - US_United States_vless_44
   - US_United States_vless_47
@@ -1572,6 +1688,7 @@ proxy-groups:
   - US_United States_vless_5102
   - US_United States_vless_123
   - US_United States_vless_125
+  - US_United States_vless_1222
   - US_United States_vless_1228
   - US_United States_vless_1232
   - US_United States_vless_1239
@@ -1581,6 +1698,7 @@ proxy-groups:
   - US_United States_vless_12166
   - US_United States_vless_12167
   - US_United States_vless_12168
+  - US_United States_vmess_12170
   - US_United States_vless_12173
   - US_United States_vless_12174
   - US_United States_vmess_12175
@@ -1628,6 +1746,7 @@ proxy-groups:
   - US_United States_trojan_162
   - US_United States_trojan_164
   - US_United States_vless_166
+  - US_United States_ss_167
   - US_United States_trojan_1622
 rules:
 - DOMAIN,clash.razord.top,DIRECT
