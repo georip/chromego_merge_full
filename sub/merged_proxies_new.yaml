@@ -34,8 +34,8 @@ proxies:
 - name: US_United States_trojan_03
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4856
-  server: 13.114.51.135
+  port: 2255
+  server: 13.231.143.120
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -43,23 +43,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 504
-  server: 16.162.118.238
+  server: 43.198.101.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 3292
-  server: 43.198.185.201
+  port: 445
+  server: 13.115.229.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 3.112.214.167
+  port: 26378
+  server: 13.231.58.134
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -67,33 +67,25 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
-  server: 43.207.87.46
+  server: 54.250.241.85
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_09
+- name: US_United States_trojan_010
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3901
-  server: 57.181.39.159
-  skip-cert-verify: false
+  server: 35.77.90.248
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
   port: 52951
-  server: 43.198.17.4
+  server: 16.163.102.116
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_013
-  network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
-  port: 4920
-  server: 13.231.123.180
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - alterId: 0
   cipher: auto
@@ -231,62 +223,6 @@ proxies:
   server: 5.180.79.168
   skip-cert-verify: true
   sni: 5.180.79.168
-  type: trojan
-- name: US_United States_trojan_194
-  network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
-  port: 2255
-  server: 13.231.143.120
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_195
-  network: tcp
-  password: BxceQaOe
-  port: 504
-  server: 43.198.101.173
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_196
-  network: tcp
-  password: BxceQaOe
-  port: 445
-  server: 13.115.229.23
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_197
-  network: tcp
-  password: BxceQaOe
-  port: 26378
-  server: 13.231.58.134
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_199
-  network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
-  port: 3423
-  server: 54.250.241.85
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1101
-  network: tcp
-  password: 262f1d150049457ac1d6e66b020fa980
-  port: 3901
-  server: 35.77.90.248
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_1102
-  network: tcp
-  password: BxceQaOe
-  port: 52951
-  server: 16.163.102.116
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_vless_52
   network: ws
@@ -756,6 +692,21 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: US_United States_vless_723
+  server: cf.090227.xyz
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  udp: true
 - name: US_United States_vless_724
   server: blog.cloudflare.com
   port: 2095
@@ -945,7 +896,79 @@ proxies:
     headers:
       Host: tar.alabama-tigr.info
   udp: true
-- name: US_United States_vless_124
+- name: US_United States_vless_1232
+  type: vless
+  server: 172.234.130.82
+  port: 10001
+  uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+  servername: yahoo.com
+  tls: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+    short-id: 1a24af87
+- name: US_United States_vless_1234
+  type: vless
+  server: us01-gmn-vlr02.tcp-reset-club.net
+  port: 443
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 86e999a2cdc2
+- name: US_United States_vless_1241
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  servername: fuck.rkn
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+- name: US_United States_vless_1242
+  type: vless
+  server: 107.174.85.183
+  port: 11163
+  uuid: d9fbc365-bf98-4ff6-a66d-523cc217d56e
+  servername: apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nEtLZNAdk_LgKNk4aNuk1E1IWaxvuOOT9UZZqJ-q_FA
+    short-id: afef94e2
+- name: US_United States_vless_1261
+  type: vless
+  server: 64.188.104.168
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
+- name: US_United States_vless_1286
+  type: vless
+  server: 104.18.32.47
+  port: 2053
+  uuid: f81fac6d-88e7-45e3-b19e-084527859fba
+  network: ws
+  servername: apex.marfanet.com
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /api/v1/events
+    headers:
+      Host: apex.marfanet.com
+- name: US_United States_vless_1287
   type: vless
   server: 104.20.1.252
   port: 2052
@@ -957,587 +980,20 @@ proxies:
     path: /?ed@freenettir
     headers:
       Host: exemplary-milkytsxqiqyso.sportland.company.
-- name: US_United States_vless_128
+- name: US_United States_vless_1288
   type: vless
-  server: 104.19.57.10
-  port: 2053
-  uuid: ee9b0614-50ec-41b6-951b-e1d5d755fa4b
+  server: 172.67.193.88
+  port: 443
+  uuid: mahanvpn-free-iran5
   network: ws
-  servername: kaja.thisiswe.uno
+  servername: MAHANteAm.noD32Cpu.iR
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /
+    path: /assets
     headers:
-      Host: kaja.thisiswe.uno
-- name: US_United States_vless_1214
-  type: vless
-  server: 135.84.64.111
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.navy
-  tls: true
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
-    headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_1215
-  type: vless
-  server: rfgt.0ok.ccwu.cc
-  port: 443
-  uuid: 077a4330-7cb0-4d4b-8feb-7ceb3cd43f69
-  network: ws
-  servername: rfgt.0ok.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /7ZHQqqDZuBdYKaAHx8c
-    headers:
-      Host: rfgt.0ok.ccwu.cc
-- name: US_United States_trojan_1216
-  type: trojan
-  server: bnju8y7.12i.ccwu.cc
-  port: 443
-  password: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  sni: bnju8y7.12i.ccwu.cc
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /QUFgFU6096Csfk0uFDF
-    headers:
-      Host: bnju8y7.12i.ccwu.cc
-- name: US_United States_vless_1217
-  type: vless
-  server: b8ki.0g0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: b8ki.0g0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: b8ki.0g0.ccwu.cc
-- name: US_United States_vless_1218
-  type: vless
-  server: huu89.0h0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: huu89.0h0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: huu89.0h0.ccwu.cc
-- name: US_United States_vless_1219
-  type: vless
-  server: jjk.0f0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: jjk.0f0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: jjk.0f0.ccwu.cc
-- name: US_United States_vless_1220
-  type: vless
-  server: nj89.0f0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: nj89.0f0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: nj89.0f0.ccwu.cc
-- name: US_United States_trojan_1221
-  type: trojan
-  server: vip2.kaixincloud.top
-  port: 8443
-  password: T9BpZIVMNv
-  sni: sweden.vmaxpanel.com
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /amd
-    headers:
-      Host: sweden.vmaxpanel.com
-- name: US_United States_vless_1222
-  type: vless
-  server: fvbghyu.2xv.ccwu.cc
-  port: 80
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  network: ws
-  servername: fvbghyu.2xv.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
-    headers:
-      Host: fvbghyu.2xv.ccwu.cc
-- name: US_United States_vless_1223
-  type: vless
-  server: cdvbghy.2xv.ccwu.cc
-  port: 80
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  network: ws
-  servername: cdvbghy.2xv.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
-    headers:
-      Host: cdvbghy.2xv.ccwu.cc
-- name: US_United States_vless_1224
-  type: vless
-  server: vb-p.0c0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: vb-p.0c0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: vb-p.0c0.ccwu.cc
-- name: US_United States_vless_1225
-  type: vless
-  server: fffvvbgh.05o.ccwu.cc
-  port: 80
-  uuid: 2bfded8d-6a7c-4c18-aaa5-fc65b955d50c
-  network: ws
-  servername: fffvvbgh.05o.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /HoBSIvRY1m5xOEJ3dX414bl
-    headers:
-      Host: fffvvbgh.05o.ccwu.cc
-- name: US_United States_vless_1227
-  type: vless
-  server: nu9.0g0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: nu9.0g0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: nu9.0g0.ccwu.cc
-- name: US_United States_vless_1228
-  type: vless
-  server: dcvbgt6.12i.ccwu.cc
-  port: 443
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  network: ws
-  servername: dcvbgt6.12i.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /C6VXG81UQc4XWS6Csfk0uFDF
-    headers:
-      Host: dcvbgt6.12i.ccwu.cc
-- name: US_United States_vmess_1229
-  type: vmess
-  server: bbgfvce.12i.ccwu.cc
-  port: 80
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /WcCs2x2YwawFa6Csfk0uFDF
-    headers:
-      Host: bbgfvce.12i.ccwu.cc
-- name: US_United States_trojan_1230
-  type: trojan
-  server: kkkkki.231.pp.ua
-  port: 443
-  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
-  sni: KkKkki.231.PP.Ua
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /Klh0x8wtLpTGA5AqzZ2Mj
-    headers:
-      Host: KKKkKi.231.pp.Ua
-- name: US_United States_vless_1231
-  type: vless
-  server: vfbg.0or.ccwu.cc
-  port: 443
-  uuid: 077a4330-7cb0-4d4b-8feb-7ceb3cd43f69
-  network: ws
-  servername: vfbg.0or.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /7ZHQqqDZuBdYKaAHx8c
-    headers:
-      Host: vfbg.0or.ccwu.cc
-- name: US_United States_vless_1232
-  type: vless
-  server: dcvbnju8.12i.ccwu.cc
-  port: 80
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  network: ws
-  tls: false
-  ws-opts:
-    path: /C6VXG81UQc4XWS6Csfk0uFDF
-    headers:
-      Host: dcvbnju8.12i.ccwu.cc
-- name: US_United States_vless_1234
-  type: vless
-  server: bnju8.12i.ccwu.cc
-  port: 80
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  network: ws
-  tls: false
-  ws-opts:
-    path: /C6VXG81UQc4XWS6Csfk0uFDF
-    headers:
-      Host: bnju8.12i.ccwu.cc
-- name: US_United States_vmess_1236
-  type: vmess
-  server: dcvbghy7.12i.ccwu.cc
-  port: 80
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /WcCs2x2YwawFa6Csfk0uFDF
-    headers:
-      Host: dcvbghy7.12i.ccwu.cc
-- name: US_United States_vless_1237
-  type: vless
-  server: vvbggs.988988.shop
-  port: 443
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  network: ws
-  servername: vvbggs.988988.shop
-  tls: true
-  ws-opts:
-    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
-    headers:
-      Host: vvbggs.988988.shop
-- name: US_United States_vless_1238
-  type: vless
-  server: 2wsde.12i.ccwu.cc
-  port: 80
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  network: ws
-  tls: false
-  ws-opts:
-    path: /C6VXG81UQc4XWS6Csfk0uFDF
-    headers:
-      Host: 2wsde.12i.ccwu.cc
-- name: US_United States_vless_1239
-  type: vless
-  server: nnmkki9.6no.ccwu.cc
-  port: 80
-  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
-  network: ws
-  servername: nnmkki9.6no.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /F24D1rlC85bVBOSONBms
-    headers:
-      Host: nnmkki9.6no.ccwu.cc
-- name: US_United States_vmess_1242
-  type: vmess
-  server: dcvbg5tr.12i.ccwu.cc
-  port: 80
-  uuid: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: dcvbg5tr.12i.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /WcCs2x2YwawFa6Csfk0uFDF
-    headers:
-      Host: dcvbg5tr.12i.ccwu.cc
-- name: US_United States_vmess_1244
-  type: vmess
-  server: bnju.11q.ccwu.cc
-  port: 80
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: bnju.11q.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-    headers:
-      Host: bnju.11q.ccwu.cc
-- name: US_United States_vmess_1246
-  type: vmess
-  server: gbnhyu7.0ob.ccwu.cc
-  port: 80
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: gbnhyu7.0ob.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /YeQPaMoU0eDN02l1D3pAvPtZpEoeO
-    headers:
-      Host: gbnhyu7.0ob.ccwu.cc
-- name: US_United States_trojan_1252
-  type: trojan
-  server: mfyousheng.nl.eu.org
-  port: 443
-  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
-  sni: mfyousheng.nl.eu.org
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /tjwsLhx0SFASG4l9FERJ1g
-- name: US_United States_vless_1254
-  type: vless
-  server: wangcai157.cloudflare.182682.xyz
-  port: 8880
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  network: ws
-  servername: Telegram-channel-WangCai2
-  tls: false
-  ws-opts:
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-    headers:
-      Host: frejd.11258.workers.dev
-- name: US_United States_vmess_1255
-  type: vmess
-  server: mmjhju.6yy.ccwu.cc
-  port: 80
-  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: mmjhju.6yy.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /KnuT4XBUucXkOSONBms
-    headers:
-      Host: mmjhju.6yy.ccwu.cc
-- name: US_United States_vless_1258
-  type: vless
-  server: nmk9.9no.ccwu.cc
-  port: 443
-  uuid: eed4a583-b20e-4787-bbdb-09018156e53f
-  network: ws
-  servername: nmk9.9no.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /hf5eEFaMIyvZXFAbvQEN
-    headers:
-      Host: nmk9.9no.ccwu.cc
-- name: US_United States_vmess_1259
-  type: vmess
-  server: y7.dddc.us.ci
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: y7.dddc.us.ci
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: y7.dddc.us.ci
-- name: US_United States_vless_1261
-  type: vless
-  server: zxsdr5.988988.shop
-  port: 443
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  network: ws
-  servername: zxsdr5.988988.shop
-  tls: true
-  ws-opts:
-    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
-    headers:
-      Host: zxsdr5.988988.shop
-- name: US_United States_vless_1262
-  type: vless
-  server: nnmkgh.6hh.ccwu.cc
-  port: 80
-  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
-  network: ws
-  servername: nnmkgh.6hh.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /F24D1rlC85bVBOSONBms
-    headers:
-      Host: nnmkgh.6hh.ccwu.cc
-- name: US_United States_trojan_1265
-  type: trojan
-  server: bnhhju.9no.ccwu.cc
-  port: 443
-  password: eed4a583-b20e-4787-bbdb-09018156e53f
-  sni: bnhhju.9no.ccwu.cc
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /8uSIAS1cIyvZXFAbvQEN
-    headers:
-      Host: bnhhju.9no.ccwu.cc
-- name: US_United States_vmess_1266
-  type: vmess
-  server: drty.1c0.ccwu.cc
-  port: 80
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: drty.1c0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: drty.1c0.ccwu.cc
-- name: US_United States_vmess_1267
-  type: vmess
-  server: njk.222560.xyz
-  port: 443
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: njk.222560.xyz
-  network: ws
-  ws-opts:
-    path: /YsmRouA9ZbxgW4
-    headers:
-      Host: njk.222560.xyz
-- name: US_United States_vmess_1268
-  type: vmess
-  server: jki.dddc.us.ci
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: jki.dddc.us.ci
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: jki.dddc.us.ci
-- name: US_United States_vless_1270
-  type: vless
-  server: hhhnmjk.04o.ccwu.cc
-  port: 80
-  uuid: 2bfded8d-6a7c-4c18-aaa5-fc65b955d50c
-  network: ws
-  servername: hhhnmjk.04o.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /HoBSIvRY1m5xOEJ3dX414bl
-    headers:
-      Host: hhhnmjk.04o.ccwu.cc
-- name: US_United States_vless_1271
-  type: vless
-  server: vbnhhju8.988988.shop
-  port: 443
-  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
-  network: ws
-  servername: vbnhhju8.988988.shop
-  tls: true
-  ws-opts:
-    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
-    headers:
-      Host: vbnhhju8.988988.shop
-- name: US_United States_trojan_1272
-  type: trojan
-  server: njki.dddc.de5.net
-  port: 443
-  password: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  sni: njki.dddc.de5.net
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /FYzt5jjXXYWmzP5D1vsO
-    headers:
-      Host: njki.dddc.de5.net
-- name: US_United States_vless_1274
-  type: vless
-  server: bbg.66k.ccwu.cc
-  port: 443
-  uuid: d5604db8-1f31-403d-a315-d8bafc70f7d2
-  network: ws
-  servername: bbg.66k.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /1Aeip9N4V6m20grcpQ8L96b
-    headers:
-      Host: bbg.66k.ccwu.cc
-- name: US_United States_trojan_1276
-  type: trojan
-  server: 2-op.007770777.xyz
-  port: 443
-  password: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  sni: 2-op.007770777.xyz
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /QUFgFU6096Csfk0uFDF
-    headers:
-      Host: 2-op.007770777.xyz
-- name: US_United States_vmess_1280
-  type: vmess
-  server: njk.dddc.de5.net
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: njk.dddc.de5.net
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: njk.dddc.de5.net
-- name: US_United States_vmess_1282
-  type: vmess
-  server: vc.fly.dev
-  port: 443
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  alterId: 32
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: vc.fly.dev
-  network: ws
-  ws-opts:
-    path: /vc
-    headers:
-      Host: vc.fly.dev
-- name: US_United States_vless_1283
+      Host: MAHANteAm.noD32Cpu.iR
+- name: US_United States_vless_1289
   type: vless
   server: 172.66.128.70
   port: 2052
@@ -1548,263 +1004,74 @@ proxies:
     path: /?ed
     headers:
       Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-- name: US_United States_vless_1284
+- name: US_United States_vless_1296
   type: vless
-  server: y670.0h0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
+  server: cfyx.tencentapp.cn
+  port: 443
+  uuid: acc7fd1e-4e63-4c7c-bf73-f7ba18928369
   network: ws
-  servername: y670.0h0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: y670.0h0.ccwu.cc
-- name: US_United States_trojan_1295
-  type: trojan
-  server: vbbns.1c0.ccwu.cc
-  port: 443
-  password: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  sni: vbbns.1c0.ccwu.cc
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
+  servername: hknb.999111.skin
   tls: true
   ws-opts:
-    path: /FYzt5jjXXYWmzP5D1vsO
+    path: /
     headers:
-      Host: vbbns.1c0.ccwu.cc
-- name: US_United States_trojan_1297
-  type: trojan
-  server: bmk.988988.shop
-  port: 443
-  password: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
-  sni: bmk.988988.shop
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /4e633j8uZI4BWzwNzcYz
-    headers:
-      Host: bmk.988988.shop
-- name: US_United States_vmess_1299
-  type: vmess
-  server: kkjl.dddc.us.ci
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: kkjl.dddc.us.ci
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: kkjl.dddc.us.ci
-- name: US_United States_vmess_12100
-  type: vmess
-  server: ui.kk3.ccwu.cc
-  port: 443
-  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: ui.kk3.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /KnuT4XBUucXkOSONBms
-    headers:
-      Host: ui.kk3.ccwu.cc
-- name: US_United States_vmess_12103
-  type: vmess
-  server: t55.dddc.us.ci
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: t55.dddc.us.ci
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: t55.dddc.us.ci
-- name: US_United States_vmess_12120
-  type: vmess
-  server: ert.859885.xyz
-  port: 443
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: ert.859885.xyz
-  network: ws
-  ws-opts:
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-    headers:
-      Host: ert.859885.xyz
-- name: US_United States_vmess_12123
-  type: vmess
-  server: mghju.7no.ccwu.cc
-  port: 443
-  uuid: 5f6c3f92-7220-4275-b34d-57c04db3f967
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: mghju.7no.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /KnuT4XBUucXkOSONBms
-    headers:
-      Host: mghju.7no.ccwu.cc
-- name: US_United States_vless_12124
+      Host: hknb.999111.skin
+- name: US_United States_vless_1297
   type: vless
-  server: mmko.852224.dpdns.org
-  port: 443
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  server: 143.20.236.93
+  port: 8443
+  uuid: Telegram
   network: ws
-  servername: mmko.852224.dpdns.org
-  tls: true
-  ws-opts:
-    path: /15ZYK3adOPjqSc7fzeJr
-    headers:
-      Host: mmko.852224.dpdns.org
-- name: US_United States_vmess_12125
-  type: vmess
-  server: hy.dddc.us.ci
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: hy.dddc.us.ci
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: hy.dddc.us.ci
-- name: US_United States_vless_12126
-  type: vless
-  server: y.890601.pp.ua
-  port: 443
-  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
-  network: ws
-  servername: y.890601.pp.ua
-  tls: true
-  ws-opts:
-    path: /N4XLnUcJW0HJfbCLo
-    headers:
-      Host: y.890601.pp.ua
-- name: US_United States_vmess_12129
-  type: vmess
-  server: 00p.dddc.us.ci
-  port: 443
-  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 00p.dddc.us.ci
-  network: ws
-  ws-opts:
-    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
-    headers:
-      Host: 00p.dddc.us.ci
-- name: US_United States_trojan_12130
-  type: trojan
-  server: dcvbhy7.12i.ccwu.cc
-  port: 443
-  password: ae72f958-c1f6-4fc2-a310-1f007af3d11f
-  sni: dcvbhy7.12i.ccwu.cc
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /QUFgFU6096Csfk0uFDF
-    headers:
-      Host: dcvbhy7.12i.ccwu.cc
-- name: US_United States_vless_12133
-  type: vless
-  server: c6y.0c0.ccwu.cc
-  port: 80
-  uuid: 60c4d55d-bee3-4719-9568-aabf45153f9f
-  network: ws
-  servername: c6y.0c0.ccwu.cc
-  tls: false
-  ws-opts:
-    path: /gPvZ4oCcNDyuc3szX7xhuvpEm
-    headers:
-      Host: c6y.0c0.ccwu.cc
-- name: US_United States_vless_12139
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  network: ws
-  servername: nuclear.us.kg
-  tls: true
-  ws-opts:
-    path: /free/103.101.153.32:443
-    headers:
-      Host: nuclear.us.kg
-- name: US_United States_vless_12140
-  type: vless
-  server: 209.102.207.120
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.navy
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_12141
-  type: vless
-  server: 104.18.32.47
-  port: 80
-  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-- name: US_United States_vless_12142
-  type: vless
-  server: 143.20.160.38
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.navy
+  servername: tn1rr.qzz.io
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /sg-lnd
     headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_12143
+      Host: tn1rr.qzz.io
+- name: US_United States_vless_1298
   type: vless
-  server: 45.40.151.138
+  server: cdns.doon.eu.org
+  port: 443
+  uuid: acc7fd1e-4e63-4c7c-bf73-f7ba18928369
+  network: ws
+  servername: hknb.999111.skin
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: hknb.999111.skin
+- name: US_United States_vless_12100
+  type: vless
+  server: afrcloud22.mmv.kr
+  port: 443
+  uuid: e308d602-67eb-4ba5-baa5-f53be1fcee6f
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12101
+  type: vless
+  server: 188.114.99.243
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   servername: sni.111000.indevs.in
   tls: true
-  client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: US_United States_vless_12144
+    path: /
+- name: US_United States_vless_12102
+  type: vless
+  server: 104.18.7.36
+  port: 2086
+  uuid: 5d455342-2929-45a0-951a-1b273ec39b7c
+  network: ws
+  servername: rayan11-0l5mxs7b-v1.rayan-11.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_12104
   type: vless
   server: ipbaz.ping-box.com
   port: 2096
@@ -1814,85 +1081,626 @@ proxies:
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
-- name: US_United States_vless_12147
+    path: /?ed
+- name: US_United States_vless_12106
   type: vless
-  server: 135.84.73.130
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.18.173.174
+  port: 80
+  uuid: 53342b53-157e-4475-9f3a-40439434e689
   network: ws
-  servername: sni.111000.v6.navy
+  servername: c.iamdt.dpdns.org
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_12109
+  type: vless
+  server: 60ysrd9-v10nswi4duhvlrv0yxuspeth.efownd9to.workers.dev
+  port: 443
+  uuid: 937d410f-1858-471d-bc0e-cdf3b43e78b8
+  network: ws
+  servername: 60ysrd9-v10nswi4duhvlrv0yxuspeth.efownd9to.workers.dev
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_12148
+    path: /
+- name: US_United States_vless_12111
   type: vless
-  server: 135.84.73.9
+  server: 104.16.178.77
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 4309abbb-9427-41e5-b3a0-cca6763f9964
   network: ws
-  servername: sni.111000.v6.navy
+  servername: 52yunwang.dpdns.org
+  tls: true
+  client-fingerprint: random
+  ws-opts:
+    path: /
+- name: US_United States_vless_12113
+  type: vless
+  server: 104.26.14.21
+  port: 443
+  uuid: 6fab6cc6-e340-4073-93e1-c6c6802002c7
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12115
+  type: vless
+  server: medium.com
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  network: ws
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_12149
+    path: /
+- name: US_United States_vless_12116
   type: vless
-  server: 135.84.74.43
+  server: 104.26.7.205
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed
+- name: US_United States_vless_12117
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
+  network: ws
+  servername: lucky-lab-ac6d.caveyi8071.workers.dev
+  tls: true
+  client-fingerprint: randomized
+  ws-opts:
+    path: /
+- name: US_United States_vless_12118
+  type: vless
+  server: 104.26.15.21
+  port: 443
+  uuid: 7dbc427e-1afd-4f76-b916-f7349e8131ce
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12119
+  type: vless
+  server: 188.114.97.222
+  port: 8080
+  uuid: 4307e484-6c8b-46d0-9df4-8b3983ab27b4
+  network: ws
+  servername: 029.electrocellco-cf-029.workers.dev
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12121
+  type: vless
+  server: www.wto.org
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.v6.navy
+  servername: nameless-frost-a3f4.loyal341.workers.dev
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    path: /
+- name: US_United States_trojan_12122
+  type: trojan
+  server: 162.159.33.95
+  port: 80
+  password: 54aa90f6-46f5-417d-82ff-fe1197cf88fd
+  sni: cool-snow-8be4.gjhgghg01.workers.dev
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /
     headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_12151
+      Host: cool-snow-8be4.gjhgghg01.workers.dev
+- name: US_United States_trojan_12123
+  type: trojan
+  server: 108.162.198.151
+  port: 443
+  password: '1111'
+  sni: v2ngfast-v2ngfast-v2ngfast-v2ngfast.pifirib369.workers.dev
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: v2ngfast-v2ngfast-v2ngfast-v2ngfast.pifirib369.workers.dev
+- name: US_United States_vless_12125
   type: vless
-  server: 135.84.73.34
+  server: 172.67.73.14
+  port: 443
+  uuid: 6fab6cc6-e340-4073-93e1-c6c6802002c7
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12127
+  type: vless
+  server: 104.21.233.186
+  port: 2086
+  uuid: 636de463-b509-4631-adc6-400b21733278
+  network: ws
+  servername: index.harmony610.workers.dev
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /vgn80ag4q5o0oxj5
+- name: US_United States_vless_12130
+  type: vless
+  server: 141.101.121.169
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed
+- name: US_United States_vless_12133
+  type: vless
+  server: 104.129.164.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12134
+  type: vless
+  server: 104.26.13.31
+  port: 80
+  uuid: fe665bb7-a558-42bc-9ba7-a59288ee4b93
+  network: ws
+  servername: floral-term-d21f.wafajax493.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_12135
+  type: vless
+  server: yellow-disk-0edf.diyenec996.workers.dev
+  port: 443
+  uuid: e73d4e2a-ac73-4948-960a-2c2dd57b7ea8
+  network: ws
+  servername: yellow-disk-0edf.diyenec996.workers.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws
+- name: US_United States_vless_12138
+  type: vless
+  server: 104.21.48.147
+  port: 80
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: false
+  ws-opts:
+    path: /
+- name: US_United States_vless_12140
+  type: vless
+  server: 172.64.155.209
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: true
+  ws-opts:
+    path: /184.169.181.217:443
+- name: US_United States_vless_12142
+  type: vless
+  server: cdn.zoom.us
+  port: 443
+  uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+  network: ws
+  servername: afrcloud22.mmv.kr
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12144
+  type: vless
+  server: 104.18.110.121
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
-  servername: sni.111000.v6.navy
+  servername: nameless-violet-d45c.anthony900.workers.dev
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: US_United States_vless_12152
+    path: /
+- name: US_United States_vless_12157
   type: vless
-  server: 890.dddc.us.ci
+  server: vfbg.0or.ccwu.cc
+  port: 443
+  uuid: 077a4330-7cb0-4d4b-8feb-7ceb3cd43f69
+  network: ws
+  servername: vfbg.0or.ccwu.cc
+  tls: true
+  ws-opts:
+    path: /7ZHQqqDZuBdYKaAHx8c
+- name: US_United States_vless_12158
+  type: vless
+  server: zxsdr5.988988.shop
+  port: 443
+  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
+  network: ws
+  servername: zxsdr5.988988.shop
+  tls: true
+  ws-opts:
+    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
+- name: US_United States_vmess_12159
+  type: vmess
+  server: scvbghy.988988.shop
+  port: 443
+  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /YeQPaMoU0eDN02l1D3pAvPtZpEoeO
+    headers:
+      Host: scvbghy.988988.shop
+- name: US_United States_vless_12160
+  type: vless
+  server: vbnhhju8.988988.shop
+  port: 443
+  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
+  network: ws
+  servername: vbnhhju8.988988.shop
+  tls: true
+  ws-opts:
+    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
+- name: US_United States_trojan_12162
+  type: trojan
+  server: nhju.h2e.indevs.in
+  port: 443
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  sni: nhju.h2e.indevs.in
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /mRjWgF9aMWcpQ8L96b
+    headers:
+      Host: nhju.h2e.indevs.in
+- name: US_United States_trojan_12163
+  type: trojan
+  server: kkkkki.231.pp.ua
+  port: 443
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  sni: KkKkki.231.PP.Ua
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /Klh0x8wtLpTGA5AqzZ2Mj
+    headers:
+      Host: KKKkKi.231.pp.Uahttp/1.1
+- name: US_United States_vless_12164
+  type: vless
+  server: vvbggs.988988.shop
+  port: 443
+  uuid: 9e308743-bc58-4109-b8a8-c2c686959c65
+  network: ws
+  servername: vvbggs.988988.shop
+  tls: true
+  ws-opts:
+    path: /I4W63AAjPkpe1D3pAvPtZpEoeO
+- name: US_United States_trojan_12167
+  type: trojan
+  server: ggbnh.7777198.xyz
+  port: 443
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  sni: GGbNH.7777198.xyZ
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /r862SIwqItkD5XgXAL
+    headers:
+      Host: GGbnh.7777198.xyz
+- name: US_United States_vless_12168
+  type: vless
+  server: njk.dddc.de5.net
   port: 443
   uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
   network: ws
-  servername: 890.dddc.us.ci
+  servername: njk.dddc.de5.net
   tls: true
   ws-opts:
     path: /eDVWlsljXYWmzP5D1vsO
-    headers:
-      Host: 890.dddc.us.ci
-- name: US_United States_vless_12170
-  type: vless
-  server: 144.31.19.117
+- name: US_United States_trojan_12170
+  type: trojan
+  server: nji9768.006660666.xyz
   port: 443
-  uuid: 86c1486c-2eba-533c-b4a6-a551ae6ea479
-  servername: apple.com
+  password: 795ef99b-3260-4d18-ac98-5130bba9f168
+  sni: nji9768.006660666.xyz
+  skip-cert-verify: false
   tls: true
-  flow: xtls-rprx-vision
+  ws-opts:
+    path: /OkVaxoknnGWI7hLRpJ1
+    headers:
+      Host: nji9768.006660666.xyzhttp/1.1
+- name: US_United States_trojan_12171
+  type: trojan
+  server: bgty6.852224.xyz
+  port: 443
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  sni: bgty6.852224.xyz
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /PDbJ6Qn4xImwtg6PusRbe
+    headers:
+      Host: bgty6.852224.xyzhttp/1.1
+- name: US_United States_trojan_12172
+  type: trojan
+  server: ttt6.006660666.xyz
+  port: 443
+  password: 795ef99b-3260-4d18-ac98-5130bba9f168
+  sni: ttt6.006660666.xyz
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /OkVaxoknnGWI7hLRpJ1
+    headers:
+      Host: ttt6.006660666.xyzhttp/1.1
+- name: US_United States_trojan_12176
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: US_United States_vless_12179
+  type: vless
+  server: 141.101.121.115
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_trojan_12183
+  type: trojan
+  server: www.multiplydose.com
+  port: 443
+  password: humanity
+  sni: www.multiplydose.com
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: US_United States_trojan_12185
+  type: trojan
+  server: v1.dabache.top
+  port: 443
+  password: humanity
+  sni: www.multiplydose.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_trojan_12186
+  type: trojan
+  server: 172.67.180.92
+  port: 443
+  password: humanity
+  sni: www.multiplydose.com
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: US_United States_trojan_12188
+  type: trojan
+  server: www.gossipglove.com
+  port: 443
+  password: humanity
+  sni: www.gossipglove.com
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /assignment
+- name: US_United States_trojan_12189
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: US_United States_trojan_12190
+  type: trojan
+  server: 104.21.40.34
+  port: 443
+  password: humanity
+  sni: www.gossipglove.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+- name: US_United States_vless_12192
+  type: vless
+  server: 172.66.47.45
+  port: 2096
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  network: ws
+  servername: ca.adobe-connect.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12195
+  type: vless
+  server: 162.159.36.5
+  port: 443
+  uuid: e6c7ed63-89db-4ae1-a3f8-7a722921b3b2
+  network: ws
+  servername: apii.onlineshoppingez.ir
+  tls: true
+  ws-opts:
+    path: /O1w0n3vYgFKYs7EzNAvLPvOp
+- name: US_United States_vless_12197
+  type: vless
+  server: 141.101.120.187
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12198
+  type: vless
+  server: 141.101.121.32
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12199
+  type: vless
+  server: 104.21.224.5
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
   client-fingerprint: chrome
-  reality-opts:
-    public-key: aVQ6548j7g-y7RuZQknB40mb5oQCInKzxW1s1NM1t0M
-    short-id: ffffffffff
+  ws-opts:
+    path: /
+- name: US_United States_vless_12201
+  type: vless
+  server: v3.dabache.top
+  port: 2052
+  uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+  network: ws
+  servername: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?ed
+- name: US_United States_vless_12202
+  type: vless
+  server: 104.18.185.26
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vless_12203
+  type: vless
+  server: 141.101.120.127
+  port: 2053
+  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
+  network: ws
+  servername: ir1.airpanel.top
+  tls: true
+  ws-opts:
+    path: /
+- name: US_United States_vmess_12209
+  type: vmess
+  server: chatgpt.com
+  port: 80
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?Leviko-de=2560
+    headers:
+      Host: tr1-smart.adelping.com
+- name: US_United States_vless_12210
+  type: vless
+  server: 104.19.57.10
+  port: 2053
+  uuid: ee9b0614-50ec-41b6-951b-e1d5d755fa4b
+  network: ws
+  servername: kaja.thisiswe.uno
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+- name: US_United States_vless_12211
+  type: vless
+  server: 188.114.99.160
+  port: 8443
+  uuid: 0525f54a-568b-4f0b-89e5-c2666e800d83
+  network: ws
+  servername: matoride.adaspoloandco.com
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /downloader
+- name: US_United States_vless_12212
+  type: vless
+  server: 104.21.3.219
+  port: 8443
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  network: ws
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /57ba2ab1
+- name: US_United States_vmess_12215
+  type: vmess
+  server: njk.222560.xyz
+  port: 443
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /YsmRouA9ZbxgW4
+- name: US_United States_vmess_168
+  server: sg.ok12345.ggff.net
+  type: vmess
+  country: 🇺🇸US
+  port: 443
+  uuid: ee7c100b-6b9a-4a0b-8deb-3e8ccd6ae430
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: jp006.japansb3.ggff.net
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: jp006.japansb3.ggff.net
+  delay: 2352
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1905,9 +1713,8 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_08
-  - US_United States_trojan_09
+  - US_United States_trojan_010
   - US_United States_trojan_011
-  - US_United States_trojan_013
   - US_United States_vmess_113
   - US_United States_trojan_115
   - US_United States_trojan_121
@@ -1919,13 +1726,6 @@ proxy-groups:
   - US_United States_vmess_186
   - US_United States_vmess_187
   - US_United States_trojan_190
-  - US_United States_trojan_194
-  - US_United States_trojan_195
-  - US_United States_trojan_196
-  - US_United States_trojan_197
-  - US_United States_trojan_199
-  - US_United States_trojan_1101
-  - US_United States_trojan_1102
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -1966,6 +1766,7 @@ proxy-groups:
   - US_United States_vless_720
   - US_United States_vless_721
   - US_United States_vmess_722
+  - US_United States_vless_723
   - US_United States_vless_724
   - US_United States_vless_725
   - US_United States_vless_726
@@ -1979,79 +1780,78 @@ proxy-groups:
   - US_United States_vless_735
   - US_United States_vless_736
   - US_United States_vless_737
-  - US_United States_vless_124
-  - US_United States_vless_128
-  - US_United States_vless_1214
-  - US_United States_vless_1215
-  - US_United States_trojan_1216
-  - US_United States_vless_1217
-  - US_United States_vless_1218
-  - US_United States_vless_1219
-  - US_United States_vless_1220
-  - US_United States_trojan_1221
-  - US_United States_vless_1222
-  - US_United States_vless_1223
-  - US_United States_vless_1224
-  - US_United States_vless_1225
-  - US_United States_vless_1227
-  - US_United States_vless_1228
-  - US_United States_vmess_1229
-  - US_United States_trojan_1230
-  - US_United States_vless_1231
   - US_United States_vless_1232
   - US_United States_vless_1234
-  - US_United States_vmess_1236
-  - US_United States_vless_1237
-  - US_United States_vless_1238
-  - US_United States_vless_1239
-  - US_United States_vmess_1242
-  - US_United States_vmess_1244
-  - US_United States_vmess_1246
-  - US_United States_trojan_1252
-  - US_United States_vless_1254
-  - US_United States_vmess_1255
-  - US_United States_vless_1258
-  - US_United States_vmess_1259
+  - US_United States_vless_1241
+  - US_United States_vless_1242
   - US_United States_vless_1261
-  - US_United States_vless_1262
-  - US_United States_trojan_1265
-  - US_United States_vmess_1266
-  - US_United States_vmess_1267
-  - US_United States_vmess_1268
-  - US_United States_vless_1270
-  - US_United States_vless_1271
-  - US_United States_trojan_1272
-  - US_United States_vless_1274
-  - US_United States_trojan_1276
-  - US_United States_vmess_1280
-  - US_United States_vmess_1282
-  - US_United States_vless_1283
-  - US_United States_vless_1284
-  - US_United States_trojan_1295
-  - US_United States_trojan_1297
-  - US_United States_vmess_1299
-  - US_United States_vmess_12100
-  - US_United States_vmess_12103
-  - US_United States_vmess_12120
-  - US_United States_vmess_12123
-  - US_United States_vless_12124
-  - US_United States_vmess_12125
-  - US_United States_vless_12126
-  - US_United States_vmess_12129
-  - US_United States_trojan_12130
+  - US_United States_vless_1286
+  - US_United States_vless_1287
+  - US_United States_vless_1288
+  - US_United States_vless_1289
+  - US_United States_vless_1296
+  - US_United States_vless_1297
+  - US_United States_vless_1298
+  - US_United States_vless_12100
+  - US_United States_vless_12101
+  - US_United States_vless_12102
+  - US_United States_vless_12104
+  - US_United States_vless_12106
+  - US_United States_vless_12109
+  - US_United States_vless_12111
+  - US_United States_vless_12113
+  - US_United States_vless_12115
+  - US_United States_vless_12116
+  - US_United States_vless_12117
+  - US_United States_vless_12118
+  - US_United States_vless_12119
+  - US_United States_vless_12121
+  - US_United States_trojan_12122
+  - US_United States_trojan_12123
+  - US_United States_vless_12125
+  - US_United States_vless_12127
+  - US_United States_vless_12130
   - US_United States_vless_12133
-  - US_United States_vless_12139
+  - US_United States_vless_12134
+  - US_United States_vless_12135
+  - US_United States_vless_12138
   - US_United States_vless_12140
-  - US_United States_vless_12141
   - US_United States_vless_12142
-  - US_United States_vless_12143
   - US_United States_vless_12144
-  - US_United States_vless_12147
-  - US_United States_vless_12148
-  - US_United States_vless_12149
-  - US_United States_vless_12151
-  - US_United States_vless_12152
-  - US_United States_vless_12170
+  - US_United States_vless_12157
+  - US_United States_vless_12158
+  - US_United States_vmess_12159
+  - US_United States_vless_12160
+  - US_United States_trojan_12162
+  - US_United States_trojan_12163
+  - US_United States_vless_12164
+  - US_United States_trojan_12167
+  - US_United States_vless_12168
+  - US_United States_trojan_12170
+  - US_United States_trojan_12171
+  - US_United States_trojan_12172
+  - US_United States_trojan_12176
+  - US_United States_vless_12179
+  - US_United States_trojan_12183
+  - US_United States_trojan_12185
+  - US_United States_trojan_12186
+  - US_United States_trojan_12188
+  - US_United States_trojan_12189
+  - US_United States_trojan_12190
+  - US_United States_vless_12192
+  - US_United States_vless_12195
+  - US_United States_vless_12197
+  - US_United States_vless_12198
+  - US_United States_vless_12199
+  - US_United States_vless_12201
+  - US_United States_vless_12202
+  - US_United States_vless_12203
+  - US_United States_vmess_12209
+  - US_United States_vless_12210
+  - US_United States_vless_12211
+  - US_United States_vless_12212
+  - US_United States_vmess_12215
+  - US_United States_vmess_168
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2064,9 +1864,8 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_08
-  - US_United States_trojan_09
+  - US_United States_trojan_010
   - US_United States_trojan_011
-  - US_United States_trojan_013
   - US_United States_vmess_113
   - US_United States_trojan_115
   - US_United States_trojan_121
@@ -2078,13 +1877,6 @@ proxy-groups:
   - US_United States_vmess_186
   - US_United States_vmess_187
   - US_United States_trojan_190
-  - US_United States_trojan_194
-  - US_United States_trojan_195
-  - US_United States_trojan_196
-  - US_United States_trojan_197
-  - US_United States_trojan_199
-  - US_United States_trojan_1101
-  - US_United States_trojan_1102
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -2125,6 +1917,7 @@ proxy-groups:
   - US_United States_vless_720
   - US_United States_vless_721
   - US_United States_vmess_722
+  - US_United States_vless_723
   - US_United States_vless_724
   - US_United States_vless_725
   - US_United States_vless_726
@@ -2138,79 +1931,78 @@ proxy-groups:
   - US_United States_vless_735
   - US_United States_vless_736
   - US_United States_vless_737
-  - US_United States_vless_124
-  - US_United States_vless_128
-  - US_United States_vless_1214
-  - US_United States_vless_1215
-  - US_United States_trojan_1216
-  - US_United States_vless_1217
-  - US_United States_vless_1218
-  - US_United States_vless_1219
-  - US_United States_vless_1220
-  - US_United States_trojan_1221
-  - US_United States_vless_1222
-  - US_United States_vless_1223
-  - US_United States_vless_1224
-  - US_United States_vless_1225
-  - US_United States_vless_1227
-  - US_United States_vless_1228
-  - US_United States_vmess_1229
-  - US_United States_trojan_1230
-  - US_United States_vless_1231
   - US_United States_vless_1232
   - US_United States_vless_1234
-  - US_United States_vmess_1236
-  - US_United States_vless_1237
-  - US_United States_vless_1238
-  - US_United States_vless_1239
-  - US_United States_vmess_1242
-  - US_United States_vmess_1244
-  - US_United States_vmess_1246
-  - US_United States_trojan_1252
-  - US_United States_vless_1254
-  - US_United States_vmess_1255
-  - US_United States_vless_1258
-  - US_United States_vmess_1259
+  - US_United States_vless_1241
+  - US_United States_vless_1242
   - US_United States_vless_1261
-  - US_United States_vless_1262
-  - US_United States_trojan_1265
-  - US_United States_vmess_1266
-  - US_United States_vmess_1267
-  - US_United States_vmess_1268
-  - US_United States_vless_1270
-  - US_United States_vless_1271
-  - US_United States_trojan_1272
-  - US_United States_vless_1274
-  - US_United States_trojan_1276
-  - US_United States_vmess_1280
-  - US_United States_vmess_1282
-  - US_United States_vless_1283
-  - US_United States_vless_1284
-  - US_United States_trojan_1295
-  - US_United States_trojan_1297
-  - US_United States_vmess_1299
-  - US_United States_vmess_12100
-  - US_United States_vmess_12103
-  - US_United States_vmess_12120
-  - US_United States_vmess_12123
-  - US_United States_vless_12124
-  - US_United States_vmess_12125
-  - US_United States_vless_12126
-  - US_United States_vmess_12129
-  - US_United States_trojan_12130
+  - US_United States_vless_1286
+  - US_United States_vless_1287
+  - US_United States_vless_1288
+  - US_United States_vless_1289
+  - US_United States_vless_1296
+  - US_United States_vless_1297
+  - US_United States_vless_1298
+  - US_United States_vless_12100
+  - US_United States_vless_12101
+  - US_United States_vless_12102
+  - US_United States_vless_12104
+  - US_United States_vless_12106
+  - US_United States_vless_12109
+  - US_United States_vless_12111
+  - US_United States_vless_12113
+  - US_United States_vless_12115
+  - US_United States_vless_12116
+  - US_United States_vless_12117
+  - US_United States_vless_12118
+  - US_United States_vless_12119
+  - US_United States_vless_12121
+  - US_United States_trojan_12122
+  - US_United States_trojan_12123
+  - US_United States_vless_12125
+  - US_United States_vless_12127
+  - US_United States_vless_12130
   - US_United States_vless_12133
-  - US_United States_vless_12139
+  - US_United States_vless_12134
+  - US_United States_vless_12135
+  - US_United States_vless_12138
   - US_United States_vless_12140
-  - US_United States_vless_12141
   - US_United States_vless_12142
-  - US_United States_vless_12143
   - US_United States_vless_12144
-  - US_United States_vless_12147
-  - US_United States_vless_12148
-  - US_United States_vless_12149
-  - US_United States_vless_12151
-  - US_United States_vless_12152
-  - US_United States_vless_12170
+  - US_United States_vless_12157
+  - US_United States_vless_12158
+  - US_United States_vmess_12159
+  - US_United States_vless_12160
+  - US_United States_trojan_12162
+  - US_United States_trojan_12163
+  - US_United States_vless_12164
+  - US_United States_trojan_12167
+  - US_United States_vless_12168
+  - US_United States_trojan_12170
+  - US_United States_trojan_12171
+  - US_United States_trojan_12172
+  - US_United States_trojan_12176
+  - US_United States_vless_12179
+  - US_United States_trojan_12183
+  - US_United States_trojan_12185
+  - US_United States_trojan_12186
+  - US_United States_trojan_12188
+  - US_United States_trojan_12189
+  - US_United States_trojan_12190
+  - US_United States_vless_12192
+  - US_United States_vless_12195
+  - US_United States_vless_12197
+  - US_United States_vless_12198
+  - US_United States_vless_12199
+  - US_United States_vless_12201
+  - US_United States_vless_12202
+  - US_United States_vless_12203
+  - US_United States_vmess_12209
+  - US_United States_vless_12210
+  - US_United States_vless_12211
+  - US_United States_vless_12212
+  - US_United States_vmess_12215
+  - US_United States_vmess_168
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
