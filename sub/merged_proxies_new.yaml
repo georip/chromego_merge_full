@@ -217,6 +217,71 @@ proxies:
   skip-cert-verify: true
   sni: 40.160.29.83
   type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ssp
+  name: US_United States_vless_42
+  network: grpc
+  port: 443
+  server: s842.ccgfw.top
+  servername: u708330u0378s842.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
+- name: US_United States_vless_44
+  network: ws
+  port: 2052
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  ws-opts:
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+    path: /?ed
+- client-fingerprint: randomized
+  name: US_United States_vless_47
+  network: ws
+  port: 2096
+  server: www.visasoutheasteurope.com
+  servername: daluan.eu.org
+  tls: true
+  type: vless
+  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
+  ws-opts:
+    headers:
+      Host: daluan.eu.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: US_United States_vless_49
+  port: 8443
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  server: de.prod.n7.homes
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+- cipher: aes-256-cfb
+  name: US_United States_ss_412
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
+  type: ss
+- client-fingerprint: chrome
+  name: US_United States_vless_414
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+  ws-opts:
+    headers:
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
 - name: US_United States_vless_52
   network: ws
   port: 2443
@@ -599,67 +664,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: US_United States_vmess_723
-  server: 47.84.126.255
-  port: 443
-  type: vmess
-  uuid: 32285564-1664-485c-f4db-daa776321a52
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_724
-  server: 143.20.236.51
-  port: 443
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: yahoo.com
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  udp: true
-- name: US_United States_vless_725
-  server: 66.179.82.126
-  port: 443
-  type: vless
-  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: yahoo.com
-  reality-opts:
-    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-    short-id: 2f2a
-  udp: true
-- name: US_United States_vless_726
-  server: 198.62.62.248
-  port: 443
-  type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: tar.alabama-tigr.info
-  network: ws
-  ws-opts:
-    path: /love
-    headers:
-      Host: tar.alabama-tigr.info
-  udp: true
-- name: US_United States_http_727
-  server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
-  port: 443
-  type: http
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  tls: true
-  udp: true
-- name: US_United States_vless_728
+- name: US_United States_vless_714
   server: 132.226.85.167
   port: 443
   type: vless
@@ -673,20 +678,18 @@ proxies:
     public-key: 3ik9ws7ATJ5dKDY2Fofv9y7_vpFYsTqgOJRxiQKwA3A
     short-id: 7b233a973c94ca0a
   udp: true
-- name: US_United States_vless_729
-  server: 144.31.130.59
-  port: 23335
+- name: US_United States_vless_124
   type: vless
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  flow: xtls-rprx-vision
+  server: 143.20.236.51
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
   tls: true
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: icloud.com
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  udp: true
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
 - name: US_United States_vless_128
   type: vless
   server: hk.tfree.top
@@ -699,6 +702,17 @@ proxies:
   reality-opts:
     public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
     short-id: 590bdc3b6dad
+- name: US_United States_vless_129
+  type: vless
+  server: 66.179.82.126
+  port: 443
+  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
+  servername: yahoo.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+    short-id: 2f2a
 - name: US_United States_vless_1211
   type: vless
   server: 162.243.41.199
@@ -720,6 +734,18 @@ proxies:
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: qq
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+- name: US_United States_vless_1219
+  type: vless
+  server: 144.31.130.59
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  servername: icloud.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
   reality-opts:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
     short-id: 67b1e94e4dd1ef90
@@ -1574,6 +1600,19 @@ proxies:
     path: /jrzzj9M73a2kS5ZPv1gd
     headers:
       Host: fbnjki.0ww.ccwu.cc
+- name: US_United States_vless_12274
+  type: vless
+  server: 198.62.62.248
+  port: 443
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  network: ws
+  servername: tar.alabama-tigr.info
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /love
+    headers:
+      Host: tar.alabama-tigr.info
 - name: US_United States_trojan_12276
   type: trojan
   server: dergh7.0yo.ccwu.cc
@@ -1676,203 +1715,6 @@ proxies:
     path: /UvKKBpCCL2u73a2kS5ZPv1gd
     headers:
       Host: fbnhju.0wu.ccwu.cc
-- client-fingerprint: random
-  host: navi.bankrate.com
-  name: US_United States_vless_1434
-  path: /
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 154.31.114.125
-  servername: navi.bankrate.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  uuid: bcc53d6e-4ff9-4e19-8145-7fbb298f2c56
-- client-fingerprint: chrome
-  name: US_United States_trojan_1437
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /tro8sFW1S91B6sZrM1?ed=2560
-- client-fingerprint: ios
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ssp
-  name: US_United States_vless_1454
-  network: grpc
-  port: 443
-  server: s843.ccgfw.top
-  servername: u708330u2076s843.ccgfw.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
-  xudp: true
-- client-fingerprint: ios
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ssp
-  name: US_United States_vless_1473
-  network: grpc
-  port: 443
-  server: s844.ccgfw.top
-  servername: u708330ub869s844.ccgfw.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
-  xudp: true
-- name: US_United States_http_1493
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: test
-- client-fingerprint: chrome
-  name: US_United States_vless_1496
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 47.80.13.85
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14100
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 47.80.10.52
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- name: US_United States_anytls_14106
-  password: ae74dd32-c336-4be4-9c15-f6108292b3e5
-  port: 12053
-  server: us1.anliangjifei.top
-  skip-cert-verify: true
-  sni: us1.anliangjifei.top
-  type: anytls
-  udp: true
-- name: US_United States_http_14118
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  skip-cert-verify: false
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
-- client-fingerprint: chrome
-  name: US_United States_vless_14145
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 47.80.12.87
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14150
-  network: ws
-  port: 2053
-  server: 162.159.36.20
-  servername: ir1.airpanel.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
-  ws-opts:
-    headers:
-      Host: ir1.airpanel.top
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14161
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    short-id: ''
-  server: 47.80.11.87
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- name: US_United States_vless_14164
-  network: ws
-  port: 443
-  server: 104.19.152.87
-  servername: s6.oboob.cn
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2efa18a-9e8a-3057-91fe-90c8e620e49f
-  ws-opts:
-    headers:
-      Host: s6.oboob.cn
-    path: /db1024113a787392
-- name: US_United States_vmess_165
-  server: pub.ap20251212.com
-  port: 64013
-  type: vmess
-  uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: pub.ap20251212.com
-  udp: true
-  delay: 1413
-- name: US_United States_vmess_1620
-  server: 149.88.95.94
-  type: vmess
-  country: 🇮🇱 IL
-  port: 35760
-  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
-  alterId: 0
-  cipher: auto
-  network: none
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  delay: 2221
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1898,6 +1740,12 @@ proxy-groups:
   - US_United States_vmess_146
   - US_United States_trojan_150
   - US_United States_trojan_151
+  - US_United States_vless_42
+  - US_United States_vless_44
+  - US_United States_vless_47
+  - US_United States_vless_49
+  - US_United States_ss_412
+  - US_United States_vless_414
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -1931,16 +1779,13 @@ proxy-groups:
   - US_United States_hysteria2_5100
   - US_United States_hysteria2_5101
   - US_United States_vless_5102
-  - US_United States_vmess_723
-  - US_United States_vless_724
-  - US_United States_vless_725
-  - US_United States_vless_726
-  - US_United States_http_727
-  - US_United States_vless_728
-  - US_United States_vless_729
+  - US_United States_vless_714
+  - US_United States_vless_124
   - US_United States_vless_128
+  - US_United States_vless_129
   - US_United States_vless_1211
   - US_United States_vless_1218
+  - US_United States_vless_1219
   - US_United States_vless_1220
   - US_United States_vless_12147
   - US_United States_vless_12158
@@ -2005,6 +1850,7 @@ proxy-groups:
   - US_United States_vless_12268
   - US_United States_trojan_12271
   - US_United States_vless_12273
+  - US_United States_vless_12274
   - US_United States_trojan_12276
   - US_United States_vmess_12284
   - US_United States_vmess_12288
@@ -2012,21 +1858,6 @@ proxy-groups:
   - US_United States_trojan_12292
   - US_United States_vmess_12300
   - US_United States_trojan_12329
-  - US_United States_vless_1434
-  - US_United States_trojan_1437
-  - US_United States_vless_1454
-  - US_United States_vless_1473
-  - US_United States_http_1493
-  - US_United States_vless_1496
-  - US_United States_vless_14100
-  - US_United States_anytls_14106
-  - US_United States_http_14118
-  - US_United States_vless_14145
-  - US_United States_vless_14150
-  - US_United States_vless_14161
-  - US_United States_vless_14164
-  - US_United States_vmess_165
-  - US_United States_vmess_1620
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2052,6 +1883,12 @@ proxy-groups:
   - US_United States_vmess_146
   - US_United States_trojan_150
   - US_United States_trojan_151
+  - US_United States_vless_42
+  - US_United States_vless_44
+  - US_United States_vless_47
+  - US_United States_vless_49
+  - US_United States_ss_412
+  - US_United States_vless_414
   - US_United States_vless_52
   - US_United States_vless_56
   - US_United States_vless_510
@@ -2085,16 +1922,13 @@ proxy-groups:
   - US_United States_hysteria2_5100
   - US_United States_hysteria2_5101
   - US_United States_vless_5102
-  - US_United States_vmess_723
-  - US_United States_vless_724
-  - US_United States_vless_725
-  - US_United States_vless_726
-  - US_United States_http_727
-  - US_United States_vless_728
-  - US_United States_vless_729
+  - US_United States_vless_714
+  - US_United States_vless_124
   - US_United States_vless_128
+  - US_United States_vless_129
   - US_United States_vless_1211
   - US_United States_vless_1218
+  - US_United States_vless_1219
   - US_United States_vless_1220
   - US_United States_vless_12147
   - US_United States_vless_12158
@@ -2159,6 +1993,7 @@ proxy-groups:
   - US_United States_vless_12268
   - US_United States_trojan_12271
   - US_United States_vless_12273
+  - US_United States_vless_12274
   - US_United States_trojan_12276
   - US_United States_vmess_12284
   - US_United States_vmess_12288
@@ -2166,21 +2001,6 @@ proxy-groups:
   - US_United States_trojan_12292
   - US_United States_vmess_12300
   - US_United States_trojan_12329
-  - US_United States_vless_1434
-  - US_United States_trojan_1437
-  - US_United States_vless_1454
-  - US_United States_vless_1473
-  - US_United States_http_1493
-  - US_United States_vless_1496
-  - US_United States_vless_14100
-  - US_United States_anytls_14106
-  - US_United States_http_14118
-  - US_United States_vless_14145
-  - US_United States_vless_14150
-  - US_United States_vless_14161
-  - US_United States_vless_14164
-  - US_United States_vmess_165
-  - US_United States_vmess_1620
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
