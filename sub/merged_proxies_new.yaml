@@ -783,6 +783,25 @@ proxies:
   h2-opts: {}
   skip-cert-verify: true
   delay: 464
+- name: US_United States_vmess_1627
+  server: cg1c12.waimaojd.com
+  type: vmess
+  country: 🇬🇧GB
+  port: 443
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: cg1c12.waimaojd.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /api/v1/graphql
+    headers:
+      HOST: cg1c12.waimaojd.com
+  delay: 1461
 - name: US_United States_ss_1637
   server: 38.54.20.59
   port: 8881
@@ -861,6 +880,7 @@ proxy-groups:
   - US_United States_vmess_1621
   - US_United States_vmess_1622
   - US_United States_vmess_1623
+  - US_United States_vmess_1627
   - US_United States_ss_1637
 - name: 自动选择
   type: url-test
@@ -932,6 +952,7 @@ proxy-groups:
   - US_United States_vmess_1621
   - US_United States_vmess_1622
   - US_United States_vmess_1623
+  - US_United States_vmess_1627
   - US_United States_ss_1637
 rules:
 - DOMAIN,clash.razord.top,DIRECT
