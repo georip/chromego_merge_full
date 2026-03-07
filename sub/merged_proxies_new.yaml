@@ -79,6 +79,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_119
+  network: ws
+  port: '443'
+  server: gbnh.1oo.ccwu.cc
+  servername: gbnh.1oo.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: gbnh.1oo.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_120
+  network: ws
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: mjki.1nn.ccwu.cc
+  skip-cert-verify: true
+  sni: mjki.1nn.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mjki.1nn.ccwu.cc
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_United States_vless_47
@@ -3534,6 +3562,20 @@ proxies:
     path: /y475
     headers:
       Host: free.frli.xyz
+- name: US_United States_vmess_6692
+  server: ac2088.herokuapp.com
+  port: 443
+  type: vmess
+  uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess
+    headers:
+      Host: ac2088.herokuapp.com
 - name: US_United States_vmess_6693
   server: 104.19.45.117
   port: 443
@@ -6026,6 +6068,12 @@ proxies:
   type: trojan
   password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: false
+- name: US_United States_trojan_61527
+  server: sg02.trojanyyds.xyz
+  port: 443
+  type: trojan
+  password: cd41b9d7-df15-46ad-a778-257b0851525a
+  skip-cert-verify: false
 - name: US_United States_trojan_61541
   server: 51.81.82.15
   port: 443
@@ -6073,6 +6121,12 @@ proxies:
   port: 3389
   type: trojan
   password: d4e41ff772c7fd45
+  skip-cert-verify: false
+- name: US_United States_trojan_61570
+  server: jp01.trojanyyds.xyz
+  port: 443
+  type: trojan
+  password: cd41b9d7-df15-46ad-a778-257b0851525a
   skip-cert-verify: false
 - name: US_United States_ss_61594
   server: 43.201.57.66
@@ -6913,6 +6967,20 @@ proxies:
     path: /ws
     headers:
       Host: ahdaeph8.com
+- name: US_United States_vmess_61949
+  server: v2ray.online
+  port: 443
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: Phoenix.v2ray.online
 - name: US_United States_ss_61993
   server: 167.88.62.68
   port: 6679
@@ -7202,19 +7270,9 @@ proxies:
     path: /
     headers:
       Host: n1761296880.lie5d.cyou
-- name: US_United States_ssr_62164
+- name: US_United States_ssr_62166
   server: show.bilibilicloud01.com
-  port: 54103
-  type: ssr
-  cipher: chacha20-ietf
-  password: Mv4e0QHWPwdbKiCF
-  protocol: auth_aes128_sha1
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
-- name: US_United States_ssr_62167
-  server: live.bilibilicloud01.com
-  port: 54113
+  port: 54114
   type: ssr
   cipher: chacha20-ietf
   password: Mv4e0QHWPwdbKiCF
@@ -17772,20 +17830,6 @@ proxies:
   port: 50161
   type: socks5
   udp: true
-- name: US_United States_vless_727
-  server: nl2.miyazono-kaori.com
-  port: 443
-  type: vless
-  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: www.philips.com
-  reality-opts:
-    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
-    short-id: 69cc4c0d5e
-  udp: true
 - name: US_United States_vless_728
   server: nl1.miyazono-kaori.com
   port: 443
@@ -20497,23 +20541,6 @@ proxies:
   udp: true
   uuid: f81b7cb0-70c6-3d1a-9b30-c95b1227f6ed
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_14392
-  network: ws
-  port: 443
-  server: gbnh.1oo.ccwu.cc
-  servername: gbnh.1oo.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      Host: gbnh.1oo.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-  xudp: true
 - name: US_United States_socks5_14397
   port: 1080
   server: 161.35.82.57
@@ -20998,6 +21025,8 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_012
   - US_United States_trojan_014
+  - US_United States_vmess_119
+  - US_United States_trojan_120
   - US_United States_vless_47
   - US_United States_vless_411
   - US_United States_vless_412
@@ -21299,6 +21328,7 @@ proxy-groups:
   - US_United States_vmess_6688
   - US_United States_vmess_6689
   - US_United States_vmess_6690
+  - US_United States_vmess_6692
   - US_United States_vmess_6693
   - US_United States_ss_6694
   - US_United States_vmess_6695
@@ -21554,6 +21584,7 @@ proxy-groups:
   - US_United States_vmess_61507
   - US_United States_vmess_61515
   - US_United States_trojan_61523
+  - US_United States_trojan_61527
   - US_United States_trojan_61541
   - US_United States_trojan_61547
   - US_United States_trojan_61549
@@ -21562,6 +21593,7 @@ proxy-groups:
   - US_United States_ss_61566
   - US_United States_trojan_61568
   - US_United States_trojan_61569
+  - US_United States_trojan_61570
   - US_United States_ss_61594
   - US_United States_ss_61596
   - US_United States_ss_61597
@@ -21645,6 +21677,7 @@ proxy-groups:
   - US_United States_vmess_61928
   - US_United States_trojan_61934
   - US_United States_vmess_61935
+  - US_United States_vmess_61949
   - US_United States_ss_61993
   - US_United States_ss_61995
   - US_United States_ss_62009
@@ -21675,8 +21708,7 @@ proxy-groups:
   - US_United States_vmess_62151
   - US_United States_vmess_62152
   - US_United States_vmess_62159
-  - US_United States_ssr_62164
-  - US_United States_ssr_62167
+  - US_United States_ssr_62166
   - US_United States_ssr_62172
   - US_United States_ss_62184
   - US_United States_ssr_62187
@@ -22569,7 +22601,6 @@ proxy-groups:
   - US_United States_vless_713
   - US_United States_vless_714
   - US_United States_socks5_715
-  - US_United States_vless_727
   - US_United States_vless_728
   - US_United States_vless_734
   - US_United States_vless_735
@@ -22764,7 +22795,6 @@ proxy-groups:
   - US_United States_vless_14375
   - US_United States_vless_14380
   - US_United States_vless_14388
-  - US_United States_vmess_14392
   - US_United States_socks5_14397
   - US_United States_trojan_14405
   - US_United States_vless_14407
@@ -22808,6 +22838,8 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_012
   - US_United States_trojan_014
+  - US_United States_vmess_119
+  - US_United States_trojan_120
   - US_United States_vless_47
   - US_United States_vless_411
   - US_United States_vless_412
@@ -23109,6 +23141,7 @@ proxy-groups:
   - US_United States_vmess_6688
   - US_United States_vmess_6689
   - US_United States_vmess_6690
+  - US_United States_vmess_6692
   - US_United States_vmess_6693
   - US_United States_ss_6694
   - US_United States_vmess_6695
@@ -23364,6 +23397,7 @@ proxy-groups:
   - US_United States_vmess_61507
   - US_United States_vmess_61515
   - US_United States_trojan_61523
+  - US_United States_trojan_61527
   - US_United States_trojan_61541
   - US_United States_trojan_61547
   - US_United States_trojan_61549
@@ -23372,6 +23406,7 @@ proxy-groups:
   - US_United States_ss_61566
   - US_United States_trojan_61568
   - US_United States_trojan_61569
+  - US_United States_trojan_61570
   - US_United States_ss_61594
   - US_United States_ss_61596
   - US_United States_ss_61597
@@ -23455,6 +23490,7 @@ proxy-groups:
   - US_United States_vmess_61928
   - US_United States_trojan_61934
   - US_United States_vmess_61935
+  - US_United States_vmess_61949
   - US_United States_ss_61993
   - US_United States_ss_61995
   - US_United States_ss_62009
@@ -23485,8 +23521,7 @@ proxy-groups:
   - US_United States_vmess_62151
   - US_United States_vmess_62152
   - US_United States_vmess_62159
-  - US_United States_ssr_62164
-  - US_United States_ssr_62167
+  - US_United States_ssr_62166
   - US_United States_ssr_62172
   - US_United States_ss_62184
   - US_United States_ssr_62187
@@ -24379,7 +24414,6 @@ proxy-groups:
   - US_United States_vless_713
   - US_United States_vless_714
   - US_United States_socks5_715
-  - US_United States_vless_727
   - US_United States_vless_728
   - US_United States_vless_734
   - US_United States_vless_735
@@ -24574,7 +24608,6 @@ proxy-groups:
   - US_United States_vless_14375
   - US_United States_vless_14380
   - US_United States_vless_14388
-  - US_United States_vmess_14392
   - US_United States_socks5_14397
   - US_United States_trojan_14405
   - US_United States_vless_14407
