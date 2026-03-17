@@ -71,31 +71,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_018
+- name: US_United States_trojan_017
   network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
-    path: /
-- name: US_United States_trojan_019
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
+      Host: jflsjlaf.pages.dev
     path: /
 - cipher: none
   name: US_United States_ss_51
@@ -714,40 +701,21 @@ proxies:
   port: 443
   server: 167.253.153.44
   type: ss
-- name: US_United States_vless_714
-  server: n1761184282.74qxv.top
+- name: US_United States_vless_79
+  server: 138.2.62.8
   port: 443
   type: vless
-  uuid: 824dc1b1-e35b-4121-ad73-9acaf13d6410
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   tls: true
   skip-cert-verify: false
-  servername: n1761184282.74qxv.top
+  servername: ylnhh.cc.cd
   network: ws
   ws-opts:
-    path: /824dc1b1-e35b-4121-ad73-9acaf13d6410
+    path: /Telegram🇨🇳@WangCai2
     headers:
-      Host: n1761184282.74qxv.top
+      Host: ylnhh.cc.cd
   udp: true
-- name: US_United States_socks5_728
-  server: 161.35.82.57
-  port: 1080
-  type: socks5
-  udp: true
-- name: US_United States_vless_741
-  server: 143.20.236.51
-  port: 443
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: yahoo.com
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  udp: true
-- name: US_United States_vless_745
+- name: US_United States_vless_720
   server: 157.254.223.44
   port: 18959
   type: vless
@@ -760,229 +728,118 @@ proxies:
     public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
     short-id: d557c6895d014075
   udp: true
-- name: US_United States_vless_746
-  server: 68.64.179.243
-  port: 443
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  skip-cert-verify: false
-  servername: ylnhh.cc.cd
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳@WangCai2
-    headers:
-      Host: ylnhh.cc.cd
-  udp: true
-- name: US_United States_vless_747
-  server: 68.64.179.96
-  port: 443
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  tls: true
-  skip-cert-verify: false
-  servername: ylnhh.cc.cd
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳@WangCai2
-    headers:
-      Host: ylnhh.cc.cd
-  udp: true
-- name: US_United States_vless_748
-  server: 206.245.157.134
-  port: 444
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  tls: true
-  skip-cert-verify: false
-  servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jmc9f8ao6n5xq.saghv.filegear-sg.me
-  udp: true
-- name: US_United States_vless_749
-  server: 192.0.54.250
+- name: US_United States_vless_722
+  server: 192.0.54.131
   port: 443
   type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   tls: true
   skip-cert-verify: false
-  client-fingerprint: random
-  servername: snippet.danfeng.theworkpc.com
-  alpn:
-  - http/1.1
+  servername: snippet.danfeng.kozow.com
   network: ws
   ws-opts:
-    path: /danfeng
+    path: /danfeng?ed=2560
     headers:
-      Host: snippet.danfeng.theworkpc.com
+      Host: snippet.danfeng.kozow.com
   udp: true
-- name: US_United States_vless_750
-  server: 23.137.255.63
-  port: 7000
+- name: US_United States_vless_723
+  server: 107.172.67.59
+  port: 44439
   type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 0f780c56-a708-44d9-a1a1-7c210b65e44f
+  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  client-fingerprint: random
-  servername: snippet.danfeng.theworkpc.com
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.theworkpc.com
+  client-fingerprint: firefox
+  servername: www.amazon.com
+  reality-opts:
+    public-key: lRUqKrHoHDHOV4kd8bhZ3BID8Nc-wtoTIUTI7COFtTA
+    short-id: 7af883
   udp: true
-- name: US_United States_vless_751
-  server: 192.0.54.130
-  port: 443
+- name: US_United States_vless_724
+  server: 9kg.cumotech.com
+  port: 21876
   type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: random
-  servername: snippet.danfeng.theworkpc.com
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-  udp: true
-- name: US_United States_vless_752
-  server: 192.0.63.76
-  port: 443
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: random
-  servername: snippet.danfeng.theworkpc.com
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-  udp: true
-- name: US_United States_vless_753
-  server: 63.141.128.188
-  port: 443
-  type: vless
-  uuid: d46ad20a-4454-4da7-8f9c-87f9152bedee
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: safari
-  servername: d2-jp1.djwstlsweb.top
-  network: ws
-  ws-opts:
-    path: /djjc/jp1
-    headers:
-      Host: d2-jp1.djwstlsweb.top
-  udp: true
-- name: US_United States_vless_754
-  server: usadt01.jumperservice.com
-  port: 19001
-  type: vless
-  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
+  uuid: 7db4a03c-7616-42f1-a1e7-80ec822e1ed0
   flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
   client-fingerprint: chrome
-  servername: www.speedtest.org
+  servername: tesla.com
   reality-opts:
-    public-key: IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM
+    public-key: 4SQmJ_vJw_UhDZ-sHlex6aJlYO0w7LndThtCaUDPYiI
+    short-id: 204673043ea9
   udp: true
-- name: US_United States_vless_756
-  server: 144.31.75.246
-  port: 30001
+- name: US_United States_vless_725
+  server: panda.cumotech.com
+  port: 49836
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 2b7118d9-04c0-4c2f-8a2d-fe44bef73c7b
+  flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  servername: sub.mot.ip-ddns.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sub.mot.ip-ddns.com
+  client-fingerprint: chrome
+  servername: tesla.com
+  reality-opts:
+    public-key: GO5Oj6pvIPmAz3D-c1B5FZy4ZeVpnPQzcX1cZcnS9i0
+    short-id: b6d67bd8896d16
   udp: true
-- name: US_United States_vless_757
-  server: 192.0.63.49
+- name: US_United States_vless_726
+  server: 192.0.54.188
   port: 443
   type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   tls: true
   skip-cert-verify: false
-  servername: snippet.danfeng.theworkpc.com
+  servername: snippet.danfeng.kozow.com
   network: ws
   ws-opts:
     path: /danfeng?ed=2560
     headers:
-      Host: snippet.danfeng.theworkpc.com
+      Host: snippet.danfeng.kozow.com
   udp: true
-- name: US_United States_vless_758
-  server: 192.0.63.216
+- name: US_United States_vless_727
+  server: 192.0.63.56
   port: 443
   type: vless
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   tls: true
   skip-cert-verify: false
-  servername: snippet.danfeng.theworkpc.com
-  network: ws
-  ws-opts:
-    path: /danfeng
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-  udp: true
-- name: US_United States_vless_759
-  server: 192.0.63.115
-  port: 443
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  tls: true
-  skip-cert-verify: false
-  servername: snippet.danfeng.theworkpc.com
+  servername: snippet.danfeng.kozow.com
   network: ws
   ws-opts:
     path: /danfeng?ed=2560
     headers:
-      Host: snippet.danfeng.theworkpc.com
+      Host: snippet.danfeng.kozow.com
   udp: true
-- name: US_United States_trojan_161
-  server: 18.194.236.215
-  type: trojan
-  country: 🇩🇪DE
-  port: 22222
-  password: telegram-id-privatevpns
-  skip-cert-verify: true
+- name: US_United States_vless_728
+  server: 192.0.54.225
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
   udp: true
-  delay: 2571
-- name: US_United States_trojan_163
-  server: 13.37.160.17
-  type: trojan
-  country: 🇫🇷FR
-  port: 22223
-  password: telegram-id-directvpn
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: true
+- name: US_United States_vless_729
+  server: 192.0.63.134
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
   udp: true
-  delay: 1686
-- name: US_United States_trojan_164
-  server: 15.188.40.40
-  type: trojan
-  country: 🇫🇷FR
-  port: 22223
-  password: telegram-id-directvpn
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: true
-  udp: true
-  delay: 1069
 proxy-groups:
 - name: 节点选择
   type: select
@@ -995,8 +852,7 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_011
   - US_United States_trojan_014
-  - US_United States_trojan_018
-  - US_United States_trojan_019
+  - US_United States_trojan_017
   - US_United States_ss_51
   - US_United States_ss_55
   - US_United States_ss_56
@@ -1053,26 +909,16 @@ proxy-groups:
   - US_United States_ss_5148
   - US_United States_ss_5149
   - US_United States_ss_5152
-  - US_United States_vless_714
-  - US_United States_socks5_728
-  - US_United States_vless_741
-  - US_United States_vless_745
-  - US_United States_vless_746
-  - US_United States_vless_747
-  - US_United States_vless_748
-  - US_United States_vless_749
-  - US_United States_vless_750
-  - US_United States_vless_751
-  - US_United States_vless_752
-  - US_United States_vless_753
-  - US_United States_vless_754
-  - US_United States_vless_756
-  - US_United States_vless_757
-  - US_United States_vless_758
-  - US_United States_vless_759
-  - US_United States_trojan_161
-  - US_United States_trojan_163
-  - US_United States_trojan_164
+  - US_United States_vless_79
+  - US_United States_vless_720
+  - US_United States_vless_722
+  - US_United States_vless_723
+  - US_United States_vless_724
+  - US_United States_vless_725
+  - US_United States_vless_726
+  - US_United States_vless_727
+  - US_United States_vless_728
+  - US_United States_vless_729
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1085,8 +931,7 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_011
   - US_United States_trojan_014
-  - US_United States_trojan_018
-  - US_United States_trojan_019
+  - US_United States_trojan_017
   - US_United States_ss_51
   - US_United States_ss_55
   - US_United States_ss_56
@@ -1143,26 +988,16 @@ proxy-groups:
   - US_United States_ss_5148
   - US_United States_ss_5149
   - US_United States_ss_5152
-  - US_United States_vless_714
-  - US_United States_socks5_728
-  - US_United States_vless_741
-  - US_United States_vless_745
-  - US_United States_vless_746
-  - US_United States_vless_747
-  - US_United States_vless_748
-  - US_United States_vless_749
-  - US_United States_vless_750
-  - US_United States_vless_751
-  - US_United States_vless_752
-  - US_United States_vless_753
-  - US_United States_vless_754
-  - US_United States_vless_756
-  - US_United States_vless_757
-  - US_United States_vless_758
-  - US_United States_vless_759
-  - US_United States_trojan_161
-  - US_United States_trojan_163
-  - US_United States_trojan_164
+  - US_United States_vless_79
+  - US_United States_vless_720
+  - US_United States_vless_722
+  - US_United States_vless_723
+  - US_United States_vless_724
+  - US_United States_vless_725
+  - US_United States_vless_726
+  - US_United States_vless_727
+  - US_United States_vless_728
+  - US_United States_vless_729
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
