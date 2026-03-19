@@ -5719,12 +5719,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: US_United States_trojan_61464
-  server: de01.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  skip-cert-verify: false
 - name: US_United States_trojan_61474
   server: 150.230.217.213
   port: 443
@@ -5779,12 +5773,6 @@ proxies:
   type: trojan
   password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: false
-- name: US_United States_trojan_61519
-  server: sg02.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  skip-cert-verify: false
 - name: US_United States_trojan_61523
   server: in01.trojanyyds.xyz
   port: 443
@@ -5796,12 +5784,6 @@ proxies:
   port: 443
   type: trojan
   password: c2b0a060-44b0-11ed-ad2e-1239d0255272
-  skip-cert-verify: false
-- name: US_United States_trojan_61539
-  server: sg01.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
   skip-cert-verify: false
 - name: US_United States_trojan_61541
   server: 152.67.162.166
@@ -5838,6 +5820,12 @@ proxies:
   port: 3389
   type: trojan
   password: d4e41ff772c7fd45
+  skip-cert-verify: false
+- name: US_United States_trojan_61562
+  server: jp01.trojanyyds.xyz
+  port: 443
+  type: trojan
+  password: cd41b9d7-df15-46ad-a778-257b0851525a
   skip-cert-verify: false
 - name: US_United States_ss_61586
   server: 43.201.57.66
@@ -6947,16 +6935,6 @@ proxies:
 - name: US_United States_ssr_62185
   server: live.bilibilicloud01.com
   port: 54113
-  type: ssr
-  cipher: chacha20-ietf
-  password: Mv4e0QHWPwdbKiCF
-  protocol: auth_aes128_sha1
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
-- name: US_United States_ssr_62186
-  server: manga.bilibilicloud01.com
-  port: 49434
   type: ssr
   cipher: chacha20-ietf
   password: Mv4e0QHWPwdbKiCF
@@ -14484,7 +14462,6 @@ proxy-groups:
   - US_United States_trojan_61460
   - US_United States_vmess_61461
   - US_United States_ss_61462
-  - US_United States_trojan_61464
   - US_United States_trojan_61474
   - US_United States_trojan_61477
   - US_United States_ss_61493
@@ -14492,16 +14469,15 @@ proxy-groups:
   - US_United States_vmess_61499
   - US_United States_vmess_61507
   - US_United States_trojan_61515
-  - US_United States_trojan_61519
   - US_United States_trojan_61523
   - US_United States_trojan_61533
-  - US_United States_trojan_61539
   - US_United States_trojan_61541
   - US_United States_trojan_61546
   - US_United States_ss_61550
   - US_United States_ss_61558
   - US_United States_trojan_61560
   - US_United States_trojan_61561
+  - US_United States_trojan_61562
   - US_United States_ss_61586
   - US_United States_ss_61588
   - US_United States_ss_61589
@@ -14615,7 +14591,6 @@ proxy-groups:
   - US_United States_trojan_62084
   - US_United States_vmess_62086
   - US_United States_ssr_62185
-  - US_United States_ssr_62186
   - US_United States_ssr_62188
   - US_United States_vmess_62198
   - US_United States_ssr_62212
@@ -15789,7 +15764,6 @@ proxy-groups:
   - US_United States_trojan_61460
   - US_United States_vmess_61461
   - US_United States_ss_61462
-  - US_United States_trojan_61464
   - US_United States_trojan_61474
   - US_United States_trojan_61477
   - US_United States_ss_61493
@@ -15797,16 +15771,15 @@ proxy-groups:
   - US_United States_vmess_61499
   - US_United States_vmess_61507
   - US_United States_trojan_61515
-  - US_United States_trojan_61519
   - US_United States_trojan_61523
   - US_United States_trojan_61533
-  - US_United States_trojan_61539
   - US_United States_trojan_61541
   - US_United States_trojan_61546
   - US_United States_ss_61550
   - US_United States_ss_61558
   - US_United States_trojan_61560
   - US_United States_trojan_61561
+  - US_United States_trojan_61562
   - US_United States_ss_61586
   - US_United States_ss_61588
   - US_United States_ss_61589
@@ -15920,7 +15893,6 @@ proxy-groups:
   - US_United States_trojan_62084
   - US_United States_vmess_62086
   - US_United States_ssr_62185
-  - US_United States_ssr_62186
   - US_United States_ssr_62188
   - US_United States_vmess_62198
   - US_United States_ssr_62212
