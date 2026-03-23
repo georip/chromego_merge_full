@@ -35,39 +35,47 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 6196
-  server: 18.183.215.166
+  server: 13.231.54.52
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
-  port: 38837
-  server: 54.46.31.164
+  port: 51885
+  server: 18.162.133.44
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_05
+  network: tcp
+  password: BxceQaOe
+  port: 5823
+  server: 43.199.248.9
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 13.115.9.169
+  port: 16919
+  server: 52.196.95.41
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_07
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 34818
-  server: 52.198.113.21
+  port: 4937
+  server: 13.115.190.132
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_08
+- name: US_United States_trojan_09
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 2001
-  server: 52.195.220.124
+  port: 4674
+  server: 13.115.247.248
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -75,15 +83,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 25343
-  server: 54.46.52.255
+  server: 95.40.26.104
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_012
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4920
+  server: 13.192.234.119
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_014
   network: tcp
   password: BxceQaOe
-  port: 15407
-  server: 18.167.37.12
+  port: 37223
+  server: 18.167.47.162
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -100,74 +116,6 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: US_United States_trojan_126
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 6196
-  server: 13.231.54.52
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_127
-  network: tcp
-  password: BxceQaOe
-  port: 51885
-  server: 18.162.133.44
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_128
-  network: tcp
-  password: BxceQaOe
-  port: 5823
-  server: 43.199.248.9
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_129
-  network: tcp
-  password: BxceQaOe
-  port: 16919
-  server: 52.196.95.41
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_130
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4937
-  server: 13.115.190.132
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_132
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4674
-  server: 13.115.247.248
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_134
-  network: tcp
-  password: BxceQaOe
-  port: 25343
-  server: 95.40.26.104
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_135
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4920
-  server: 13.192.234.119
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_137
-  network: tcp
-  password: BxceQaOe
-  port: 37223
-  server: 18.167.47.162
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - client-fingerprint: chrome
   name: US_United States_vless_47
   network: ws
@@ -909,6 +857,21 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
   udp: true
+- name: US_United States_vless_742
+  server: www.wto.org
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  servername: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-nmsl-ccc.workers.dev
+  udp: true
 - name: US_United States_vless_743
   server: 162.159.38.78
   port: 443
@@ -1165,15 +1128,23 @@ proxies:
     headers:
       Host: snippet.chinat.eu.cc
   udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: US_United States_ss_148
+  password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
+  port: 12402
+  server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
+  tfo: false
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1412
+  name: US_United States_ss_1414
   password: 176c983f-6a7f-4a96-9865-891a6c48ec86
   port: 50000
   server: a001.standard-nodes-chickenfarms.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1424
+  name: US_United States_ss_1428
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1184,7 +1155,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1437
+  name: US_United States_ss_1441
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1195,7 +1166,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1444
+  name: US_United States_ss_1450
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1206,7 +1177,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1445
+  name: US_United States_ss_1451
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1217,26 +1188,8 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1463
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /?ed=2560&proxyip=ip.111000.de5.net:443
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_1464
+  name: US_United States_vless_1486
   network: tcp
   port: 8443
   server: jp02.cbd12403-7946-4bbc-8127-2d9e5f1d50bc.genshinimpact.cyou
@@ -1245,17 +1198,9 @@ proxies:
   type: vless
   udp: true
   uuid: 5cd276be-1988-4416-b9dd-0d91cf857dee
-- cipher: 2022-blake3-aes-256-gcm
-  name: US_United States_ss_1477
-  password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
-  port: 14630
-  server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-  tfo: false
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_1481
+  name: US_United States_vless_14106
   network: tcp
   port: 8443
   server: sg01.ebf263c3-0b7e-4e71-87b9-26978dc121c4.genshinimpact.cyou
@@ -1266,7 +1211,7 @@ proxies:
   uuid: 5cd276be-1988-4416-b9dd-0d91cf857dee
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_1484
+  name: US_United States_vless_14110
   network: ws
   port: 2087
   server: 104.18.38.78
@@ -1282,26 +1227,26 @@ proxies:
         Chrome/49.0.2623.112 Safari/537.36
     path: /proxyip=sjc.o00o.ooo
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: US_United States_vless_1486
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mnshlVo5tkzYbmEB9xrgmUHwYETnXLAjjlGAssqaDGI
-    short-id: 436299c6
-  server: pq.aws63.yydjc.top
-  servername: iosapps.itunes.apple.com
-  tls: true
+- name: US_United States_vless_14129
+  network: ws
+  port: 2095
+  server: 198.41.208.22
   type: vless
   udp: true
-  uuid: d1745cf4-d38e-4016-aeb8-47cdab487863
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: index.arcane509.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /ripbdigi5hdb
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_trojan_14111
+  name: US_United States_trojan_14139
   network: ws
   password: '123456'
   port: 2053
@@ -1315,7 +1260,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/48.0.2564.116 Safari/537.36
     path: /eyJqdW5rIjoidWxzMDR3dnh3a04iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyJicGIueW91c2VmLmlzZWdhcm8uY29tIl19?ed=2560
-- name: US_United States_trojan_14113
+- name: US_United States_trojan_14140
   password: BxceQaOe
   port: 4945
   server: 13.231.224.38
@@ -1324,7 +1269,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14123
+  name: US_United States_vless_14152
   network: tcp
   port: 8443
   server: sg02.05e57c23-bae7-41a0-aeef-8e75566fc3dd.genshinimpact.cyou
@@ -1334,22 +1279,24 @@ proxies:
   udp: true
   uuid: 5cd276be-1988-4416-b9dd-0d91cf857dee
   xudp: true
-- name: US_United States_anytls_14148
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60002
-  server: jpaws.ccwink.photos
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: US_United States_anytls_14153
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60004
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14158
+  flow: xtls-rprx-vision-udp443
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: US_United States_vless_14181
+  network: tcp
+  port: 443
+  server: ako.pagate.top
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14184
   network: ws
   port: 11307
   server: 47.79.85.210
@@ -1367,7 +1314,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14162
+  name: US_United States_vless_14190
   network: ws
   port: 10003
   server: 13.112.14.92
@@ -1383,92 +1330,36 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /danfeng
   xudp: true
-- name: US_United States_trojan_14174
+- name: US_United States_trojan_14200
   password: BxceQaOe
   port: 51885
   server: 13.230.175.163
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: US_United States_vless_14176
-  network: ws
-  port: 443
-  server: 104.19.57.153
-  servername: snip.zrfme.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    headers:
-      Host: snip.zrfme.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- name: US_United States_vless_14178
-  network: ws
-  port: 80
-  server: 104.16.9.24
-  type: vless
-  udp: true
-  uuid: 2ac6e527-6410-48ce-b9ba-cc8135ee2a3b
-  ws-opts:
-    headers:
-      Host: fragrant-recipe-09f4.wopecuyubak61.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14179
-  network: ws
-  port: 443
-  server: blog.811520.xyz
-  servername: snip.zrfs.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    headers:
-      Host: snip.zrfs.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: violet
-  name: US_United States_vless_14188
-  network: grpc
-  port: 443
-  server: usbad.osaip.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: abeb2592-61e4-47af-93bd-7de97e90eb9b
-- name: US_United States_trojan_14190
+- name: US_United States_trojan_14212
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 921
   server: 43.207.232.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_14192
-  password: amazonskr05
+- encryption: none
+  grpc-opts:
+    grpc-service-name: violet
+  name: US_United States_vless_14215
+  network: grpc
   port: 443
-  server: 16.171.110.163
-  type: ss
+  server: usbad.osaip.net
+  type: vless
   udp: true
+  uuid: 589b22d1-69a7-44d6-be22-bc41a50bf269
+  xudp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: US_United States_vmess_14202
+  name: US_United States_vmess_14229
   network: ws
   port: 443
   server: 47.57.182.141
@@ -1485,7 +1376,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: US_United States_vless_14204
+  name: US_United States_vless_14233
   network: ws
   port: 3306
   server: 193.122.109.52
@@ -1498,31 +1389,7 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng
-- client-fingerprint: chrome
-  name: US_United States_vless_14208
-  network: ws
-  port: 443
-  server: 104.18.92.83
-  servername: snip.zrf.gv.uy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    headers:
-      Host: snip.zrf.gv.uy
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- name: US_United States_http_14213
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
-  tls: true
-  type: http
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: US_United States_vless_14214
+- name: US_United States_vless_14239
   network: ws
   port: 2052
   server: 104.17.95.220
@@ -1538,10 +1405,27 @@ proxies:
     max-early-data: 2560
     path: /7u2613qopnft
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14240
+  network: ws
+  port: 443
+  server: cf.tencentapp.cn
+  servername: tianshu13.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: tianshu13.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: random
-  name: US_United States_vless_14218
+  name: US_United States_vless_14243
   network: ws
   port: 27015
   server: 154.64.246.165
@@ -1555,32 +1439,99 @@ proxies:
       Host: snippet.fgfw.de5.net
     path: /danfeng
 - client-fingerprint: chrome
-  name: US_United States_vless_14221
+  encryption: none
+  name: US_United States_vless_14245
   network: ws
-  port: 443
-  server: 104.18.40.56
-  servername: r.icy.de5.net
+  port: 8443
+  server: 131.143.251.45
+  servername: chedan.jueson.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
   ws-opts:
     headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /?ed=2560
+      Host: chedan.jueson.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
-- name: US_United States_http_14223
+- name: US_United States_http_14249
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b803bc4f-t9zts0-tc4puo-m0b9.jp.oshuawei.com
+  sni: b803bc4f-t9zts0-tc4puo-m0b9.jp.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- name: US_United States_http_14250
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
   skip-cert-verify: true
   tls: true
   type: http
+  udp: true
   username: test
+- name: US_United States_http_14251
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_14256
+  network: ws
+  port: 8443
+  server: 154.26.185.113
+  servername: chedan.jueson.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
+  ws-opts:
+    headers:
+      Host: chedan.jueson.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_14262
+  network: ws
+  port: 443
+  server: 209.146.113.247
+  servername: chedan.jueson.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
+  ws-opts:
+    headers:
+      Host: chedan.jueson.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14263
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    short-id: ''
+  server: 47.80.11.87
+  servername: api.company-target.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_14242
+  name: US_United States_ss_14280
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1590,34 +1541,8 @@ proxies:
   server: 23.247.137.68
   type: ss
   udp: true
-- encryption: none
-  name: US_United States_vless_14252
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  type: vless
-  udp: true
-  uuid: 20c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cvsoidswg.k3ckfz151a.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_14253
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 23.247.137.74
-  type: ss
-  udp: true
 - client-fingerprint: random
-  name: US_United States_vless_14258
+  name: US_United States_vless_14290
   network: ws
   port: 2083
   server: 104.17.148.22
@@ -1634,7 +1559,7 @@ proxies:
     path: /?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14260
+  name: US_United States_vless_14292
   network: ws
   port: 443
   server: cf.cloudflare.182682.xyz
@@ -1648,24 +1573,7 @@ proxies:
       Host: q6x65zp4w.gfw.hidns.co
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: US_United States_vless_14268
-  network: ws
-  port: 443
-  server: registry.cyou
-  servername: snip.zrfs.bbroot.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    headers:
-      Host: snip.zrfs.bbroot.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14270
+  name: US_United States_vless_14300
   network: ws
   port: 2053
   server: blog.646474.xyz
@@ -1678,25 +1586,16 @@ proxies:
     headers:
       Host: q6x65zp4w.gfw.hidns.co
     path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: US_United States_vless_14271
-  network: ws
-  port: 443
-  server: 104.17.28.89
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed=2560
-  xudp: true
+- name: US_United States_http_14305
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  skip-cert-verify: false
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_14279
+  name: US_United States_ss_14308
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -1706,45 +1605,8 @@ proxies:
   server: 403880e.e4.gladns.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_14281
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 23.247.137.76
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_14291
-  obfs: salamander
-  obfs-password: nDneuR2isso8k79O
-  password: a34fb195-8644-4e71-9f81-4542eeb7fda3
-  port: 51372
-  server: 207.174.28.26
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
-  name: US_United States_vless_14324
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    headers:
-      Host: r.icy.de5.net
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: US_United States_vless_14365
+  name: US_United States_vless_14399
   network: ws
   port: 443
   server: 104.17.182.11
@@ -1761,88 +1623,25 @@ proxies:
     path: /products/proxyip=ProxyIP.SG.CMLiussss.net/proxyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14372
+  encryption: none
+  name: US_United States_vless_14459
   network: ws
   port: 443
-  server: 104.19.60.97
-  servername: snip.durl.dpdns.org
+  server: 108.162.195.58
+  servername: r.icy.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     headers:
-      Host: snip.durl.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /zrf?ed=2560
+    path: /?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14396
-  network: ws
-  port: 443
-  server: 104.19.54.187
-  servername: snip.zrfs.nn.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    headers:
-      Host: snip.zrfs.nn.kg
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14402
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 174.136.205.68
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 637cd62e-e090-4f3b-830b-f67869911e11
-- client-fingerprint: chrome
-  name: US_United States_vless_14414
-  network: ws
-  port: 443
-  server: 66.92.20.111
-  servername: chedan.jueson.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 671309af-9a2f-4f36-8a64-9112b6129e9d
-  ws-opts:
-    headers:
-      Host: chedan.jueson.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14421
-  network: ws
-  port: 443
-  server: 162.159.39.239
-  servername: snip1.zrfme.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    headers:
-      Host: snip1.zrfme.site
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14428
+  name: US_United States_vless_14463
   network: ws
   port: 443
   server: 199.34.228.70
@@ -1859,11 +1658,10 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14439
+  name: US_United States_vless_14465
   network: ws
   port: 443
-  server: 172.64.52.81
+  server: 162.159.45.232
   servername: r.icy.de5.net
   tls: true
   type: vless
@@ -1872,12 +1670,12 @@ proxies:
   ws-opts:
     headers:
       Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
     path: /?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14440
+  name: US_United States_vless_14470
   network: ws
   port: 443
   server: www.investec.com
@@ -1890,67 +1688,24 @@ proxies:
     headers:
       Host: q6x65zp4w.gfw.hidns.co
     path: /danfeng?ed=2560
-- cipher: none
-  name: US_United States_ss_14442
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: 199.181.197.38
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14455
-  network: ws
-  port: 443
-  server: 198.41.223.193
-  servername: snip.zrr.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
+- alterId: '0'
+  cipher: auto
+  http-opts:
     headers:
-      Host: snip.zrr.pp.ua
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /zrf?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14464
-  network: ws
+      Host:
+      - 15.204.50.250
+    path:
+    - /
+  name: US_United States_vmess_14477
+  network: http
   port: 443
-  server: 135.84.64.205
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
+  server: 15.204.50.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  uuid: 64c58857-f224-4011-aaf3-5f7915a526b6
   xudp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14494
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 154.31.114.125
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbc67099-c6b1-4648-8d49-402116b5e2e2
 - name: US_United States_trojan_163
   server: 13.38.195.57
   type: trojan
@@ -1988,21 +1743,14 @@ proxy-groups:
   - US_United States_ss_01
   - US_United States_trojan_03
   - US_United States_trojan_04
+  - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_08
+  - US_United States_trojan_09
   - US_United States_trojan_011
+  - US_United States_trojan_012
   - US_United States_trojan_014
   - US_United States_trojan_026
-  - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_128
-  - US_United States_trojan_129
-  - US_United States_trojan_130
-  - US_United States_trojan_132
-  - US_United States_trojan_134
-  - US_United States_trojan_135
-  - US_United States_trojan_137
   - US_United States_vless_47
   - US_United States_vless_411
   - US_United States_vless_413
@@ -2067,6 +1815,7 @@ proxy-groups:
   - US_United States_vless_738
   - US_United States_vless_740
   - US_United States_vless_741
+  - US_United States_vless_742
   - US_United States_vless_743
   - US_United States_vless_744
   - US_United States_vless_745
@@ -2085,64 +1834,49 @@ proxy-groups:
   - US_United States_vless_760
   - US_United States_vless_766
   - US_United States_vless_769
-  - US_United States_ss_1412
-  - US_United States_ss_1424
-  - US_United States_ss_1437
-  - US_United States_ss_1444
-  - US_United States_ss_1445
-  - US_United States_vless_1463
-  - US_United States_vless_1464
-  - US_United States_ss_1477
-  - US_United States_vless_1481
-  - US_United States_vless_1484
+  - US_United States_ss_148
+  - US_United States_ss_1414
+  - US_United States_ss_1428
+  - US_United States_ss_1441
+  - US_United States_ss_1450
+  - US_United States_ss_1451
   - US_United States_vless_1486
-  - US_United States_trojan_14111
-  - US_United States_trojan_14113
-  - US_United States_vless_14123
-  - US_United States_anytls_14148
-  - US_United States_anytls_14153
-  - US_United States_vless_14158
-  - US_United States_vless_14162
-  - US_United States_trojan_14174
-  - US_United States_vless_14176
-  - US_United States_vless_14178
-  - US_United States_vless_14179
-  - US_United States_vless_14188
-  - US_United States_trojan_14190
-  - US_United States_ss_14192
-  - US_United States_vmess_14202
-  - US_United States_vless_14204
-  - US_United States_vless_14208
-  - US_United States_http_14213
-  - US_United States_vless_14214
-  - US_United States_vless_14218
-  - US_United States_vless_14221
-  - US_United States_http_14223
-  - US_United States_ss_14242
-  - US_United States_vless_14252
-  - US_United States_ss_14253
-  - US_United States_vless_14258
-  - US_United States_vless_14260
-  - US_United States_vless_14268
-  - US_United States_vless_14270
-  - US_United States_vless_14271
-  - US_United States_ss_14279
-  - US_United States_ss_14281
-  - US_United States_hysteria2_14291
-  - US_United States_vless_14324
-  - US_United States_vless_14365
-  - US_United States_vless_14372
-  - US_United States_vless_14396
-  - US_United States_vless_14402
-  - US_United States_vless_14414
-  - US_United States_vless_14421
-  - US_United States_vless_14428
-  - US_United States_vless_14439
-  - US_United States_vless_14440
-  - US_United States_ss_14442
-  - US_United States_vless_14455
-  - US_United States_vless_14464
-  - US_United States_vless_14494
+  - US_United States_vless_14106
+  - US_United States_vless_14110
+  - US_United States_vless_14129
+  - US_United States_trojan_14139
+  - US_United States_trojan_14140
+  - US_United States_vless_14152
+  - US_United States_vless_14181
+  - US_United States_vless_14184
+  - US_United States_vless_14190
+  - US_United States_trojan_14200
+  - US_United States_trojan_14212
+  - US_United States_vless_14215
+  - US_United States_vmess_14229
+  - US_United States_vless_14233
+  - US_United States_vless_14239
+  - US_United States_vless_14240
+  - US_United States_vless_14243
+  - US_United States_vless_14245
+  - US_United States_http_14249
+  - US_United States_http_14250
+  - US_United States_http_14251
+  - US_United States_vless_14256
+  - US_United States_vless_14262
+  - US_United States_vless_14263
+  - US_United States_ss_14280
+  - US_United States_vless_14290
+  - US_United States_vless_14292
+  - US_United States_vless_14300
+  - US_United States_http_14305
+  - US_United States_ss_14308
+  - US_United States_vless_14399
+  - US_United States_vless_14459
+  - US_United States_vless_14463
+  - US_United States_vless_14465
+  - US_United States_vless_14470
+  - US_United States_vmess_14477
   - US_United States_trojan_163
   - US_United States_trojan_169
   - US_United States_trojan_1615
@@ -2155,21 +1889,14 @@ proxy-groups:
   - US_United States_ss_01
   - US_United States_trojan_03
   - US_United States_trojan_04
+  - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_08
+  - US_United States_trojan_09
   - US_United States_trojan_011
+  - US_United States_trojan_012
   - US_United States_trojan_014
   - US_United States_trojan_026
-  - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_128
-  - US_United States_trojan_129
-  - US_United States_trojan_130
-  - US_United States_trojan_132
-  - US_United States_trojan_134
-  - US_United States_trojan_135
-  - US_United States_trojan_137
   - US_United States_vless_47
   - US_United States_vless_411
   - US_United States_vless_413
@@ -2234,6 +1961,7 @@ proxy-groups:
   - US_United States_vless_738
   - US_United States_vless_740
   - US_United States_vless_741
+  - US_United States_vless_742
   - US_United States_vless_743
   - US_United States_vless_744
   - US_United States_vless_745
@@ -2252,64 +1980,49 @@ proxy-groups:
   - US_United States_vless_760
   - US_United States_vless_766
   - US_United States_vless_769
-  - US_United States_ss_1412
-  - US_United States_ss_1424
-  - US_United States_ss_1437
-  - US_United States_ss_1444
-  - US_United States_ss_1445
-  - US_United States_vless_1463
-  - US_United States_vless_1464
-  - US_United States_ss_1477
-  - US_United States_vless_1481
-  - US_United States_vless_1484
+  - US_United States_ss_148
+  - US_United States_ss_1414
+  - US_United States_ss_1428
+  - US_United States_ss_1441
+  - US_United States_ss_1450
+  - US_United States_ss_1451
   - US_United States_vless_1486
-  - US_United States_trojan_14111
-  - US_United States_trojan_14113
-  - US_United States_vless_14123
-  - US_United States_anytls_14148
-  - US_United States_anytls_14153
-  - US_United States_vless_14158
-  - US_United States_vless_14162
-  - US_United States_trojan_14174
-  - US_United States_vless_14176
-  - US_United States_vless_14178
-  - US_United States_vless_14179
-  - US_United States_vless_14188
-  - US_United States_trojan_14190
-  - US_United States_ss_14192
-  - US_United States_vmess_14202
-  - US_United States_vless_14204
-  - US_United States_vless_14208
-  - US_United States_http_14213
-  - US_United States_vless_14214
-  - US_United States_vless_14218
-  - US_United States_vless_14221
-  - US_United States_http_14223
-  - US_United States_ss_14242
-  - US_United States_vless_14252
-  - US_United States_ss_14253
-  - US_United States_vless_14258
-  - US_United States_vless_14260
-  - US_United States_vless_14268
-  - US_United States_vless_14270
-  - US_United States_vless_14271
-  - US_United States_ss_14279
-  - US_United States_ss_14281
-  - US_United States_hysteria2_14291
-  - US_United States_vless_14324
-  - US_United States_vless_14365
-  - US_United States_vless_14372
-  - US_United States_vless_14396
-  - US_United States_vless_14402
-  - US_United States_vless_14414
-  - US_United States_vless_14421
-  - US_United States_vless_14428
-  - US_United States_vless_14439
-  - US_United States_vless_14440
-  - US_United States_ss_14442
-  - US_United States_vless_14455
-  - US_United States_vless_14464
-  - US_United States_vless_14494
+  - US_United States_vless_14106
+  - US_United States_vless_14110
+  - US_United States_vless_14129
+  - US_United States_trojan_14139
+  - US_United States_trojan_14140
+  - US_United States_vless_14152
+  - US_United States_vless_14181
+  - US_United States_vless_14184
+  - US_United States_vless_14190
+  - US_United States_trojan_14200
+  - US_United States_trojan_14212
+  - US_United States_vless_14215
+  - US_United States_vmess_14229
+  - US_United States_vless_14233
+  - US_United States_vless_14239
+  - US_United States_vless_14240
+  - US_United States_vless_14243
+  - US_United States_vless_14245
+  - US_United States_http_14249
+  - US_United States_http_14250
+  - US_United States_http_14251
+  - US_United States_vless_14256
+  - US_United States_vless_14262
+  - US_United States_vless_14263
+  - US_United States_ss_14280
+  - US_United States_vless_14290
+  - US_United States_vless_14292
+  - US_United States_vless_14300
+  - US_United States_http_14305
+  - US_United States_ss_14308
+  - US_United States_vless_14399
+  - US_United States_vless_14459
+  - US_United States_vless_14463
+  - US_United States_vless_14465
+  - US_United States_vless_14470
+  - US_United States_vmess_14477
   - US_United States_trojan_163
   - US_United States_trojan_169
   - US_United States_trojan_1615
