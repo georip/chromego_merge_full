@@ -6115,6 +6115,12 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: US_United States_trojan_61497
+  server: de01.trojanyyds.xyz
+  port: 443
+  type: trojan
+  password: cd41b9d7-df15-46ad-a778-257b0851525a
+  skip-cert-verify: false
 - name: US_United States_trojan_61507
   server: 150.230.217.213
   port: 443
@@ -6181,23 +6187,11 @@ proxies:
   type: trojan
   password: c2b0a060-44b0-11ed-ad2e-1239d0255272
   skip-cert-verify: false
-- name: US_United States_trojan_61572
-  server: sg01.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  skip-cert-verify: false
 - name: US_United States_trojan_61574
   server: 152.67.162.166
   port: 443
   type: trojan
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: false
-- name: US_United States_trojan_61579
-  server: uk01.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
   skip-cert-verify: false
 - name: US_United States_ss_61583
   server: 13.215.174.243
@@ -7260,16 +7254,6 @@ proxies:
   obfs: plain
   protocol-param: ''
   obfs-param: ''
-- name: US_United States_ssr_62149
-  server: show.bilibilicloud01.com
-  port: 54103
-  type: ssr
-  cipher: chacha20-ietf
-  password: Mv4e0QHWPwdbKiCF
-  protocol: auth_aes128_sha1
-  obfs: plain
-  protocol-param: ''
-  obfs-param: ''
 - name: US_United States_vmess_62172
   server: n1761296880.lie5d.cyou
   port: 443
@@ -7285,6 +7269,16 @@ proxies:
     path: /
     headers:
       Host: n1761296880.lie5d.cyou
+- name: US_United States_ssr_62179
+  server: show.bilibilicloud01.com
+  port: 54101
+  type: ssr
+  cipher: chacha20-ietf
+  password: Mv4e0QHWPwdbKiCF
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
 - name: US_United States_vmess_62183
   server: 47.250.45.234
   port: 8613
@@ -18029,43 +18023,6 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- name: US_United States_vmess_1610
-  server: 15.204.50.250
-  type: vmess
-  port: 443
-  udp: true
-  uuid: 64c58857-f224-4011-aaf3-5f7915a526b6
-  alterId: 0
-  cipher: auto
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 15.204.50.250
-  h2-opts: {}
-  delay: 2038
-- name: US_United States_vmess_1614
-  server: 47.130.9.238
-  type: vmess
-  country: 🇺🇸US
-  port: 443
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: mn1ray.jagoanvip.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /vvip
-    headers:
-      HOST: mn1ray.jagoanvip.xyz
-  delay: 1614
 proxy-groups:
 - name: 节点选择
   type: select
@@ -18639,6 +18596,7 @@ proxy-groups:
   - US_United States_trojan_61493
   - US_United States_vmess_61494
   - US_United States_ss_61495
+  - US_United States_trojan_61497
   - US_United States_trojan_61507
   - US_United States_trojan_61510
   - US_United States_ss_61526
@@ -18648,9 +18606,7 @@ proxy-groups:
   - US_United States_trojan_61548
   - US_United States_trojan_61552
   - US_United States_trojan_61566
-  - US_United States_trojan_61572
   - US_United States_trojan_61574
-  - US_United States_trojan_61579
   - US_United States_ss_61583
   - US_United States_ss_61591
   - US_United States_trojan_61593
@@ -18760,8 +18716,8 @@ proxy-groups:
   - US_United States_trojan_62082
   - US_United States_ssr_62127
   - US_United States_ssr_62146
-  - US_United States_ssr_62149
   - US_United States_vmess_62172
+  - US_United States_ssr_62179
   - US_United States_vmess_62183
   - US_United States_ssr_62192
   - US_United States_vmess_62193
@@ -19666,8 +19622,6 @@ proxy-groups:
   - US_United States_vmess_65068
   - US_United States_vmess_65069
   - US_United States_vmess_65070
-  - US_United States_vmess_1610
-  - US_United States_vmess_1614
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -20241,6 +20195,7 @@ proxy-groups:
   - US_United States_trojan_61493
   - US_United States_vmess_61494
   - US_United States_ss_61495
+  - US_United States_trojan_61497
   - US_United States_trojan_61507
   - US_United States_trojan_61510
   - US_United States_ss_61526
@@ -20250,9 +20205,7 @@ proxy-groups:
   - US_United States_trojan_61548
   - US_United States_trojan_61552
   - US_United States_trojan_61566
-  - US_United States_trojan_61572
   - US_United States_trojan_61574
-  - US_United States_trojan_61579
   - US_United States_ss_61583
   - US_United States_ss_61591
   - US_United States_trojan_61593
@@ -20362,8 +20315,8 @@ proxy-groups:
   - US_United States_trojan_62082
   - US_United States_ssr_62127
   - US_United States_ssr_62146
-  - US_United States_ssr_62149
   - US_United States_vmess_62172
+  - US_United States_ssr_62179
   - US_United States_vmess_62183
   - US_United States_ssr_62192
   - US_United States_vmess_62193
@@ -21268,8 +21221,6 @@ proxy-groups:
   - US_United States_vmess_65068
   - US_United States_vmess_65069
   - US_United States_vmess_65070
-  - US_United States_vmess_1610
-  - US_United States_vmess_1614
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
