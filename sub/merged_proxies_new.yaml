@@ -2513,20 +2513,6 @@ proxies:
     path: /5QNROSRV
     headers:
       Host: oplg1.zhujicn2.com
-- name: US_United States_vmess_6542
-  server: v2ray.online
-  port: 443
-  type: vmess
-  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /speedtest
-    headers:
-      Host: Kansas.v2ray.online
 - name: US_United States_vmess_6543
   server: 103.21.244.70
   port: 8443
@@ -6000,12 +5986,6 @@ proxies:
   type: trojan
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   skip-cert-verify: false
-- name: US_United States_trojan_61455
-  server: us01.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  skip-cert-verify: false
 - name: US_United States_trojan_61456
   server: 138.2.113.84
   port: 443
@@ -6127,6 +6107,12 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: US_United States_trojan_61518
+  server: de01.trojanyyds.xyz
+  port: 443
+  type: trojan
+  password: cd41b9d7-df15-46ad-a778-257b0851525a
+  skip-cert-verify: false
 - name: US_United States_trojan_61528
   server: 150.230.217.213
   port: 443
@@ -6187,6 +6173,12 @@ proxies:
   type: trojan
   password: cd41b9d7-df15-46ad-a778-257b0851525a
   skip-cert-verify: false
+- name: US_United States_trojan_61577
+  server: in01.trojanyyds.xyz
+  port: 443
+  type: trojan
+  password: cd41b9d7-df15-46ad-a778-257b0851525a
+  skip-cert-verify: false
 - name: US_United States_trojan_61587
   server: 51.81.82.15
   port: 443
@@ -6198,12 +6190,6 @@ proxies:
   port: 443
   type: trojan
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: false
-- name: US_United States_trojan_61600
-  server: uk01.trojanyyds.xyz
-  port: 443
-  type: trojan
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
   skip-cert-verify: false
 - name: US_United States_ss_61604
   server: 13.215.174.243
@@ -19337,7 +19323,6 @@ proxy-groups:
   - US_United States_vmess_6526
   - US_United States_vmess_6530
   - US_United States_vmess_6531
-  - US_United States_vmess_6542
   - US_United States_vmess_6543
   - US_United States_vmess_6547
   - US_United States_vmess_6548
@@ -19663,7 +19648,6 @@ proxy-groups:
   - US_United States_trojan_61440
   - US_United States_trojan_61443
   - US_United States_trojan_61454
-  - US_United States_trojan_61455
   - US_United States_trojan_61456
   - US_United States_trojan_61457
   - US_United States_vmess_61461
@@ -19681,6 +19665,7 @@ proxy-groups:
   - US_United States_trojan_61514
   - US_United States_vmess_61515
   - US_United States_ss_61516
+  - US_United States_trojan_61518
   - US_United States_trojan_61528
   - US_United States_trojan_61531
   - US_United States_ss_61547
@@ -19689,9 +19674,9 @@ proxy-groups:
   - US_United States_vmess_61561
   - US_United States_trojan_61569
   - US_United States_trojan_61573
+  - US_United States_trojan_61577
   - US_United States_trojan_61587
   - US_United States_trojan_61595
-  - US_United States_trojan_61600
   - US_United States_ss_61604
   - US_United States_ss_61612
   - US_United States_trojan_61614
@@ -21011,7 +20996,6 @@ proxy-groups:
   - US_United States_vmess_6526
   - US_United States_vmess_6530
   - US_United States_vmess_6531
-  - US_United States_vmess_6542
   - US_United States_vmess_6543
   - US_United States_vmess_6547
   - US_United States_vmess_6548
@@ -21337,7 +21321,6 @@ proxy-groups:
   - US_United States_trojan_61440
   - US_United States_trojan_61443
   - US_United States_trojan_61454
-  - US_United States_trojan_61455
   - US_United States_trojan_61456
   - US_United States_trojan_61457
   - US_United States_vmess_61461
@@ -21355,6 +21338,7 @@ proxy-groups:
   - US_United States_trojan_61514
   - US_United States_vmess_61515
   - US_United States_ss_61516
+  - US_United States_trojan_61518
   - US_United States_trojan_61528
   - US_United States_trojan_61531
   - US_United States_ss_61547
@@ -21363,9 +21347,9 @@ proxy-groups:
   - US_United States_vmess_61561
   - US_United States_trojan_61569
   - US_United States_trojan_61573
+  - US_United States_trojan_61577
   - US_United States_trojan_61587
   - US_United States_trojan_61595
-  - US_United States_trojan_61600
   - US_United States_ss_61604
   - US_United States_ss_61612
   - US_United States_trojan_61614
