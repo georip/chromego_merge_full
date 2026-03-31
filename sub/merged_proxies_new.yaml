@@ -108,6 +108,52 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- name: US_United States_trojan_126
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 921
+  server: 52.192.141.223
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_127
+  network: tcp
+  password: BxceQaOe
+  port: 22075
+  server: 43.199.33.41
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_128
+  network: tcp
+  password: BxceQaOe
+  port: 6313
+  server: 3.112.217.47
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_134
+  network: tcp
+  password: BxceQaOe
+  port: 25675
+  server: 16.162.188.208
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_136
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 3700
+  server: 52.192.219.241
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_137
+  network: tcp
+  password: BxceQaOe
+  port: 44386
+  server: 18.167.134.238
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - client-fingerprint: chrome
   name: US_United States_vless_47
   network: ws
@@ -1828,26 +1874,6 @@ proxies:
     path: /eyJqdW5rIjoiVFo3Y0VvcXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: US_United States_vless_14434
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fZgalnfCzIoVfWovISdDaRhn9aXPto6UlGAqCJ2PVRs
-    short-id: db345db2de10
-  server: fr2.miyazono-kaori.com
-  servername: www.fff.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76fd73a2-0985-4fd8-9661-97a73ab1fa6f
-  xudp: true
-- client-fingerprint: chrome
   name: US_United States_vless_14436
   network: ws
   port: 443
@@ -2233,6 +2259,12 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_016
+  - US_United States_trojan_126
+  - US_United States_trojan_127
+  - US_United States_trojan_128
+  - US_United States_trojan_134
+  - US_United States_trojan_136
+  - US_United States_trojan_137
   - US_United States_vless_47
   - US_United States_vless_411
   - US_United States_vless_413
@@ -2362,7 +2394,6 @@ proxy-groups:
   - US_United States_vless_14415
   - US_United States_vless_14420
   - US_United States_vless_14429
-  - US_United States_vless_14434
   - US_United States_vless_14436
   - US_United States_vless_14439
   - US_United States_vless_14440
@@ -2402,6 +2433,12 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_016
+  - US_United States_trojan_126
+  - US_United States_trojan_127
+  - US_United States_trojan_128
+  - US_United States_trojan_134
+  - US_United States_trojan_136
+  - US_United States_trojan_137
   - US_United States_vless_47
   - US_United States_vless_411
   - US_United States_vless_413
@@ -2531,7 +2568,6 @@ proxy-groups:
   - US_United States_vless_14415
   - US_United States_vless_14420
   - US_United States_vless_14429
-  - US_United States_vless_14434
   - US_United States_vless_14436
   - US_United States_vless_14439
   - US_United States_vless_14440
