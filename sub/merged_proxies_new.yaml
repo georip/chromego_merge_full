@@ -79,6 +79,46 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_113
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 21413
+  server: 43.207.198.5
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_114
+  network: tcp
+  password: BxceQaOe
+  port: 9211
+  server: 43.198.185.44
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_115
+  network: tcp
+  password: BxceQaOe
+  port: 5823
+  server: 13.231.153.129
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_118
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 34818
+  server: 52.195.170.179
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_121
+  network: tcp
+  password: BxceQaOe
+  port: 12070
+  server: 95.40.68.20
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: US_United States_trojan_46
   password: IL37892054
   port: 443
@@ -949,30 +989,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: US_United States_ss_6208
-  server: admin.c1.webramz.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: US_United States_ss_6209
-  server: series-a1.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: US_United States_ss_6210
-  server: admin.c1.havij.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1kVr0KATIJI7mwOF
-- name: US_United States_ss_6211
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
 - name: US_United States_ss_6216
   server: promo18v.bystrivpn.ru
   port: 443
@@ -6809,20 +6825,6 @@ proxies:
   network: ws
   ws-opts:
     path: /cctv13/hd.m3u8
-- name: US_United States_vmess_62014
-  server: mycfwork.herokuapp.com
-  port: 443
-  type: vmess
-  uuid: 07a3a1e3-d52e-4acc-958e-c301681b5f09
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
-    headers:
-      Host: mycfwork.herokuapp.com
 - name: US_United States_vmess_62016
   server: 138.197.165.31
   port: 8080
@@ -18026,6 +18028,11 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_013
   - US_United States_trojan_014
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_115
+  - US_United States_trojan_118
+  - US_United States_trojan_121
   - US_United States_trojan_46
   - US_United States_vless_47
   - US_United States_vless_411
@@ -18109,10 +18116,6 @@ proxy-groups:
   - US_United States_trojan_6204
   - US_United States_vmess_6205
   - US_United States_ss_6206
-  - US_United States_ss_6208
-  - US_United States_ss_6209
-  - US_United States_ss_6210
-  - US_United States_ss_6211
   - US_United States_ss_6216
   - US_United States_trojan_6221
   - US_United States_trojan_6230
@@ -18673,7 +18676,6 @@ proxy-groups:
   - US_United States_ss_61999
   - US_United States_ss_62003
   - US_United States_vmess_62013
-  - US_United States_vmess_62014
   - US_United States_vmess_62016
   - US_United States_vmess_62017
   - US_United States_vmess_62018
@@ -19631,6 +19633,11 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_013
   - US_United States_trojan_014
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_115
+  - US_United States_trojan_118
+  - US_United States_trojan_121
   - US_United States_trojan_46
   - US_United States_vless_47
   - US_United States_vless_411
@@ -19714,10 +19721,6 @@ proxy-groups:
   - US_United States_trojan_6204
   - US_United States_vmess_6205
   - US_United States_ss_6206
-  - US_United States_ss_6208
-  - US_United States_ss_6209
-  - US_United States_ss_6210
-  - US_United States_ss_6211
   - US_United States_ss_6216
   - US_United States_trojan_6221
   - US_United States_trojan_6230
@@ -20278,7 +20281,6 @@ proxy-groups:
   - US_United States_ss_61999
   - US_United States_ss_62003
   - US_United States_vmess_62013
-  - US_United States_vmess_62014
   - US_United States_vmess_62016
   - US_United States_vmess_62017
   - US_United States_vmess_62018
