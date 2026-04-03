@@ -87,6 +87,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: US_United States_trojan_017
+  password: M7v%w11Se*
+  port: 443
+  server: tttyder.wsone.icu
+  skip-cert-verify: true
+  sni: tttyder.wsone.icu
+  type: trojan
+  udp: true
 - name: US_United States_vless_41
   network: ws
   port: 2053
@@ -753,6 +761,75 @@ proxies:
   port: 443
   server: cf.zhetengsha.eu.org
   type: ss
+- name: US_United States_http_760
+  server: testkr3.ssv.vc
+  port: 30446
+  type: http
+  username: test
+  password: test.+
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_http_767
+  server: 1926e588-ta1og0-tc59t3-81nv.jp.oshuawei.com
+  port: 443
+  type: http
+  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  tls: true
+  udp: true
+- name: US_United States_ss_768
+  server: 199.181.197.38
+  port: 443
+  type: ss
+  cipher: none
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: mfvpn.fuchen.indevs.in
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+    mux: false
+  udp: true
+- name: US_United States_http_769
+  server: 4-nas8bs9e6.mix.dexiansheng.com
+  port: 4445
+  type: http
+  username: walless
+  password: 275728c9-07a2-4f21-807f-4e2189f02929
+  tls: true
+  udp: true
+- name: US_United States_http_770
+  server: 0381022d-tcxds0-tdt3k0-jx5r.de.oshuawei.com
+  port: 443
+  type: http
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  tls: true
+  udp: true
+- name: US_United States_http_771
+  server: d0921ded-tcz8g0-teei0c-1ryup.de.oshuawei.com
+  port: 443
+  type: http
+  username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  tls: true
+  udp: true
+- name: US_United States_vless_772
+  server: vleesvpn-app-nl01.gw-vpn.click
+  port: 443
+  type: vless
+  uuid: b605b776-b676-430e-8957-00f1e0166bee
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: random
+  servername: plus.im
+  reality-opts:
+    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
+    short-id: abcdef00
+  udp: true
 - cipher: aes-128-gcm
   name: US_United States_ss_1418
   password: ec4ba5cd-753f-4ce0-9d1e-e28759e20ab1
@@ -778,6 +855,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- name: US_United States_trojan_1441
+  password: c5f50b0f-3c12-40ed-b63f-74f9c88316a5
+  port: 55011
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.h3yun.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1476
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1237,6 +1322,13 @@ proxies:
   type: vmess
   udp: true
   uuid: f151b844-c067-3520-a654-791bf073b1a0
+- name: US_United States_trojan_14237
+  password: BxceQaOe
+  port: 9211
+  server: 43.198.185.44
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 1
   cipher: auto
   client-fingerprint: chrome
@@ -1546,14 +1638,6 @@ proxies:
   tls: true
   type: http
   username: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-- name: US_United States_http_14379
-  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  port: 443
-  server: 1926e588-ta1og0-tc59t3-81nv.jp.oshuawei.com
-  sni: 1926e588-ta1og0-tc59t3-81nv.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1769,6 +1853,7 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_014
+  - US_United States_trojan_017
   - US_United States_vless_41
   - US_United States_vless_43
   - US_United States_vless_44
@@ -1829,9 +1914,17 @@ proxy-groups:
   - US_United States_ss_5148
   - US_United States_ss_5155
   - US_United States_ss_5156
+  - US_United States_http_760
+  - US_United States_http_767
+  - US_United States_ss_768
+  - US_United States_http_769
+  - US_United States_http_770
+  - US_United States_http_771
+  - US_United States_vless_772
   - US_United States_ss_1418
   - US_United States_trojan_1423
   - US_United States_vmess_1428
+  - US_United States_trojan_1441
   - US_United States_ss_1476
   - US_United States_vmess_14103
   - US_United States_vmess_14104
@@ -1869,6 +1962,7 @@ proxy-groups:
   - US_United States_vmess_14220
   - US_United States_vmess_14232
   - US_United States_vmess_14233
+  - US_United States_trojan_14237
   - US_United States_vmess_14243
   - US_United States_vmess_14244
   - US_United States_vmess_14245
@@ -1900,7 +1994,6 @@ proxy-groups:
   - US_United States_http_14369
   - US_United States_http_14371
   - US_United States_http_14374
-  - US_United States_http_14379
   - US_United States_vless_14380
   - US_United States_http_14381
   - US_United States_http_14382
@@ -1935,6 +2028,7 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_014
+  - US_United States_trojan_017
   - US_United States_vless_41
   - US_United States_vless_43
   - US_United States_vless_44
@@ -1995,9 +2089,17 @@ proxy-groups:
   - US_United States_ss_5148
   - US_United States_ss_5155
   - US_United States_ss_5156
+  - US_United States_http_760
+  - US_United States_http_767
+  - US_United States_ss_768
+  - US_United States_http_769
+  - US_United States_http_770
+  - US_United States_http_771
+  - US_United States_vless_772
   - US_United States_ss_1418
   - US_United States_trojan_1423
   - US_United States_vmess_1428
+  - US_United States_trojan_1441
   - US_United States_ss_1476
   - US_United States_vmess_14103
   - US_United States_vmess_14104
@@ -2035,6 +2137,7 @@ proxy-groups:
   - US_United States_vmess_14220
   - US_United States_vmess_14232
   - US_United States_vmess_14233
+  - US_United States_trojan_14237
   - US_United States_vmess_14243
   - US_United States_vmess_14244
   - US_United States_vmess_14245
@@ -2066,7 +2169,6 @@ proxy-groups:
   - US_United States_http_14369
   - US_United States_http_14371
   - US_United States_http_14374
-  - US_United States_http_14379
   - US_United States_vless_14380
   - US_United States_http_14381
   - US_United States_http_14382
