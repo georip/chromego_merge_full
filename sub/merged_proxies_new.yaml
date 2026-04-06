@@ -96,13 +96,18 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_017
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
+  network: ws
+  password: trojan
+  port: 8025
+  server: 54.46.72.234
   skip-cert-verify: true
-  sni: tttyder.wsone.icu
+  sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
 - name: US_United States_vless_41
   network: ws
   port: 2053
@@ -892,20 +897,6 @@ proxies:
     path: /ray
     headers:
       Host: 0326kr.fans8.xyz
-- name: US_United States_vmess_623
-  server: cloudflare.xrenblog.com
-  port: 443
-  type: vmess
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /xrenblog/
-    headers:
-      Host: ipv6.xrenblog.com
 - name: US_United States_vmess_645
   server: 0320hk567.fans8.xyz
   port: 443
@@ -12051,24 +12042,76 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- name: US_United States_http_760
-  server: testkr3.ssv.vc
-  port: 30446
-  type: http
-  username: test
-  password: test.+
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_http_767
-  server: 1926e588-ta1og0-tc59t3-81nv.jp.oshuawei.com
+- name: US_United States_vless_712
+  server: 192.0.54.131
   port: 443
-  type: http
-  username: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
   udp: true
-- name: US_United States_ss_768
+- name: US_United States_vless_713
+  server: 192.0.63.230
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_United States_vless_714
+  server: 192.0.63.56
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.kozow.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.kozow.com
+  udp: true
+- name: US_United States_vless_716
+  server: 192.0.63.49
+  port: 443
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  tls: true
+  skip-cert-verify: false
+  servername: snippet.danfeng.theworkpc.com
+  network: ws
+  ws-opts:
+    path: /danfeng?ed=2560
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+  udp: true
+- name: US_United States_vless_717
+  server: 64.23.143.23
+  port: 34045
+  type: vless
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  udp: true
+- name: US_United States_ss_718
   server: 199.181.197.38
   port: 443
   type: ss
@@ -12081,44 +12124,6 @@ proxies:
     path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     tls: true
     mux: false
-  udp: true
-- name: US_United States_http_769
-  server: 4-nas8bs9e6.mix.dexiansheng.com
-  port: 4445
-  type: http
-  username: walless
-  password: 275728c9-07a2-4f21-807f-4e2189f02929
-  tls: true
-  udp: true
-- name: US_United States_http_770
-  server: 0381022d-tcxds0-tdt3k0-jx5r.de.oshuawei.com
-  port: 443
-  type: http
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  tls: true
-  udp: true
-- name: US_United States_http_771
-  server: d0921ded-tcz8g0-teei0c-1ryup.de.oshuawei.com
-  port: 443
-  type: http
-  username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  tls: true
-  udp: true
-- name: US_United States_vless_772
-  server: vleesvpn-app-nl01.gw-vpn.click
-  port: 443
-  type: vless
-  uuid: b605b776-b676-430e-8957-00f1e0166bee
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: random
-  servername: plus.im
-  reality-opts:
-    public-key: j5sQbSLF4SeU7XHU27W56ZuveT-O6HwxX2wi5neM4UM
-    short-id: abcdef00
   udp: true
 - cipher: aes-256-gcm
   name: US_United States_ss_147
@@ -12143,6 +12148,12 @@ proxies:
   udp: true
   uuid: 079f66dd-3211-4a2d-8531-53040b98c459
   xudp: true
+- cipher: aes-128-gcm
+  name: US_United States_ss_1419
+  password: f97cf7d99d
+  port: 28217
+  server: 45e755.shlswe.xyz
+  type: ss
 - name: US_United States_anytls_1423
   password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
   port: 60005
@@ -12232,6 +12243,16 @@ proxies:
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /
   xudp: true
+- fingerprint: ''
+  name: US_United States_anytls_1439
+  password: 1c018b55-3a49-4327-bcf9-f7befa1b153d
+  port: 56969
+  server: krrrrzh1.dankecloud.sbs
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+  username: 1c018b55-3a49-4327-bcf9-f7befa1b153d
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -12392,16 +12413,6 @@ proxies:
   udp: true
   uuid: 88f97141-ea01-3dca-965b-d700d2857de4
   xudp: true
-- fingerprint: ''
-  name: US_United States_anytls_1480
-  password: 1c018b55-3a49-4327-bcf9-f7befa1b153d
-  port: 59178
-  server: krrrrzh1.dankecloud.sbs
-  skip-cert-verify: true
-  sni: ''
-  type: anytls
-  udp: true
-  username: 1c018b55-3a49-4327-bcf9-f7befa1b153d
 - alterId: '1'
   cipher: auto
   name: US_United States_vmess_1485
@@ -12628,6 +12639,15 @@ proxies:
   type: anytls
   udp: true
   username: 1c018b55-3a49-4327-bcf9-f7befa1b153d
+- name: US_United States_http_14211
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_14220
@@ -12859,7 +12879,6 @@ proxy-groups:
   - US_United States_vmess_610
   - US_United States_vmess_611
   - US_United States_vmess_618
-  - US_United States_vmess_623
   - US_United States_vmess_645
   - US_United States_ss_647
   - US_United States_vmess_653
@@ -13936,21 +13955,22 @@ proxy-groups:
   - US_United States_vmess_64364
   - US_United States_vmess_64365
   - US_United States_vmess_64366
-  - US_United States_http_760
-  - US_United States_http_767
-  - US_United States_ss_768
-  - US_United States_http_769
-  - US_United States_http_770
-  - US_United States_http_771
-  - US_United States_vless_772
+  - US_United States_vless_712
+  - US_United States_vless_713
+  - US_United States_vless_714
+  - US_United States_vless_716
+  - US_United States_vless_717
+  - US_United States_ss_718
   - US_United States_ss_147
   - US_United States_vless_1418
+  - US_United States_ss_1419
   - US_United States_anytls_1423
   - US_United States_vless_1424
   - US_United States_vless_1432
   - US_United States_vless_1435
   - US_United States_vless_1436
   - US_United States_vless_1438
+  - US_United States_anytls_1439
   - US_United States_vless_1441
   - US_United States_vless_1442
   - US_United States_vless_1443
@@ -13962,7 +13982,6 @@ proxy-groups:
   - US_United States_vmess_1464
   - US_United States_vmess_1470
   - US_United States_vmess_1477
-  - US_United States_anytls_1480
   - US_United States_vmess_1485
   - US_United States_anytls_1490
   - US_United States_vless_1492
@@ -13980,6 +13999,7 @@ proxy-groups:
   - US_United States_vmess_14173
   - US_United States_trojan_14186
   - US_United States_anytls_14192
+  - US_United States_http_14211
   - US_United States_vmess_14220
   - US_United States_vless_14252
   - US_United States_vless_14275
@@ -14077,7 +14097,6 @@ proxy-groups:
   - US_United States_vmess_610
   - US_United States_vmess_611
   - US_United States_vmess_618
-  - US_United States_vmess_623
   - US_United States_vmess_645
   - US_United States_ss_647
   - US_United States_vmess_653
@@ -15154,21 +15173,22 @@ proxy-groups:
   - US_United States_vmess_64364
   - US_United States_vmess_64365
   - US_United States_vmess_64366
-  - US_United States_http_760
-  - US_United States_http_767
-  - US_United States_ss_768
-  - US_United States_http_769
-  - US_United States_http_770
-  - US_United States_http_771
-  - US_United States_vless_772
+  - US_United States_vless_712
+  - US_United States_vless_713
+  - US_United States_vless_714
+  - US_United States_vless_716
+  - US_United States_vless_717
+  - US_United States_ss_718
   - US_United States_ss_147
   - US_United States_vless_1418
+  - US_United States_ss_1419
   - US_United States_anytls_1423
   - US_United States_vless_1424
   - US_United States_vless_1432
   - US_United States_vless_1435
   - US_United States_vless_1436
   - US_United States_vless_1438
+  - US_United States_anytls_1439
   - US_United States_vless_1441
   - US_United States_vless_1442
   - US_United States_vless_1443
@@ -15180,7 +15200,6 @@ proxy-groups:
   - US_United States_vmess_1464
   - US_United States_vmess_1470
   - US_United States_vmess_1477
-  - US_United States_anytls_1480
   - US_United States_vmess_1485
   - US_United States_anytls_1490
   - US_United States_vless_1492
@@ -15198,6 +15217,7 @@ proxy-groups:
   - US_United States_vmess_14173
   - US_United States_trojan_14186
   - US_United States_anytls_14192
+  - US_United States_http_14211
   - US_United States_vmess_14220
   - US_United States_vless_14252
   - US_United States_vless_14275
