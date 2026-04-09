@@ -748,6 +748,13 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1413
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13015
+  server: taiwan.slianrk.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1416
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
@@ -1031,6 +1038,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ef740c4-08ed-4924-a8d8-7517fc987a8a
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1491
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13015
+  server: taiwan01.slianrk.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1079,6 +1093,13 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14100
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13007
+  server: xjptk02.slianrk.com
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1153,6 +1174,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14120
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13024
+  server: Thailand.slianrk.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14126
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13018
+  server: xjp0ore3.slianrk.com
+  type: ss
+  udp: true
 - name: US_United States_trojan_14127
   password: BxceQaOe
   port: 6313
@@ -1246,6 +1281,13 @@ proxies:
     max-early-data: 2560
     path: /ripbdigi5hdb
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14160
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13063
+  server: us07.slianrk.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   http-opts:
     headers: {}
@@ -1356,6 +1398,13 @@ proxies:
   udp: true
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14201
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13014
+  server: 23ssxe.slianrk.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1391,6 +1440,13 @@ proxies:
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14210
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13022
+  server: deuts.slianrk.com
+  type: ss
   udp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14211
@@ -1594,6 +1650,13 @@ proxies:
     headers:
       Host: vip.yaml7.ggff.net
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14430
+  password: e777513e-9df5-4dc3-bc84-74e564345a81
+  port: 13023
+  server: CandadaK.slianrk.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_14439
   network: tcp
@@ -1895,6 +1958,7 @@ proxy-groups:
   - US_United States_ss_5155
   - US_United States_ss_5156
   - US_United States_hysteria2_1012
+  - US_United States_ss_1413
   - US_United States_ss_1416
   - US_United States_ss_1427
   - US_United States_ss_1438
@@ -1920,14 +1984,18 @@ proxy-groups:
   - US_United States_ss_1480
   - US_United States_ss_1481
   - US_United States_vmess_1482
+  - US_United States_ss_1491
   - US_United States_vless_1493
   - US_United States_vless_1494
   - US_United States_vless_1498
+  - US_United States_ss_14100
   - US_United States_vless_14102
   - US_United States_trojan_14103
   - US_United States_vless_14105
   - US_United States_vless_14106
   - US_United States_trojan_14118
+  - US_United States_ss_14120
+  - US_United States_ss_14126
   - US_United States_trojan_14127
   - US_United States_trojan_14128
   - US_United States_ss_14145
@@ -1937,6 +2005,7 @@ proxy-groups:
   - US_United States_ss_14155
   - US_United States_vless_14157
   - US_United States_vless_14158
+  - US_United States_ss_14160
   - US_United States_vless_14161
   - US_United States_http_14167
   - US_United States_vmess_14168
@@ -1945,9 +2014,11 @@ proxy-groups:
   - US_United States_vless_14184
   - US_United States_vless_14195
   - US_United States_vless_14196
+  - US_United States_ss_14201
   - US_United States_vless_14203
   - US_United States_trojan_14204
   - US_United States_trojan_14205
+  - US_United States_ss_14210
   - US_United States_vless_14211
   - US_United States_trojan_14214
   - US_United States_ss_14215
@@ -1965,6 +2036,7 @@ proxy-groups:
   - US_United States_trojan_14399
   - US_United States_trojan_14401
   - US_United States_vless_14410
+  - US_United States_ss_14430
   - US_United States_trojan_14439
   - US_United States_hysteria2_14450
   - US_United States_vless_14454
@@ -2056,6 +2128,7 @@ proxy-groups:
   - US_United States_ss_5155
   - US_United States_ss_5156
   - US_United States_hysteria2_1012
+  - US_United States_ss_1413
   - US_United States_ss_1416
   - US_United States_ss_1427
   - US_United States_ss_1438
@@ -2081,14 +2154,18 @@ proxy-groups:
   - US_United States_ss_1480
   - US_United States_ss_1481
   - US_United States_vmess_1482
+  - US_United States_ss_1491
   - US_United States_vless_1493
   - US_United States_vless_1494
   - US_United States_vless_1498
+  - US_United States_ss_14100
   - US_United States_vless_14102
   - US_United States_trojan_14103
   - US_United States_vless_14105
   - US_United States_vless_14106
   - US_United States_trojan_14118
+  - US_United States_ss_14120
+  - US_United States_ss_14126
   - US_United States_trojan_14127
   - US_United States_trojan_14128
   - US_United States_ss_14145
@@ -2098,6 +2175,7 @@ proxy-groups:
   - US_United States_ss_14155
   - US_United States_vless_14157
   - US_United States_vless_14158
+  - US_United States_ss_14160
   - US_United States_vless_14161
   - US_United States_http_14167
   - US_United States_vmess_14168
@@ -2106,9 +2184,11 @@ proxy-groups:
   - US_United States_vless_14184
   - US_United States_vless_14195
   - US_United States_vless_14196
+  - US_United States_ss_14201
   - US_United States_vless_14203
   - US_United States_trojan_14204
   - US_United States_trojan_14205
+  - US_United States_ss_14210
   - US_United States_vless_14211
   - US_United States_trojan_14214
   - US_United States_ss_14215
@@ -2126,6 +2206,7 @@ proxy-groups:
   - US_United States_trojan_14399
   - US_United States_trojan_14401
   - US_United States_vless_14410
+  - US_United States_ss_14430
   - US_United States_trojan_14439
   - US_United States_hysteria2_14450
   - US_United States_vless_14454
