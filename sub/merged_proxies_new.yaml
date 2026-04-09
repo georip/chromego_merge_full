@@ -103,6 +103,38 @@ proxies:
   sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
+- name: US_United States_trojan_113
+  network: tcp
+  password: 187dda4498be9ac4f28db939d5940185
+  port: 21413
+  server: 43.198.80.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_114
+  network: tcp
+  password: BxceQaOe
+  port: 9211
+  server: 57.180.66.105
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_120
+  network: tcp
+  password: BxceQaOe
+  port: 22045
+  server: 54.46.47.243
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_123
+  network: tcp
+  password: BxceQaOe
+  port: 23255
+  server: 95.40.120.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: US_United States_vless_41
   network: ws
   port: 2053
@@ -959,6 +991,30 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: US_United States_ss_6174
+  server: admin.c1.havij.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1kVr0KATIJI7mwOF
+- name: US_United States_ss_6175
+  server: admin.c1.webramz.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: US_United States_ss_6176
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: US_United States_ss_6177
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
 - name: US_United States_ss_6180
   server: 149.22.87.204
   port: 443
@@ -17648,6 +17704,12 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- cipher: aes-128-gcm
+  name: US_United States_ss_143
+  password: f97cf7d99d
+  port: 28109
+  server: 45e755.shlswe.xyz
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1419
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -18445,6 +18507,10 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_018
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_120
+  - US_United States_trojan_123
   - US_United States_vless_41
   - US_United States_vless_43
   - US_United States_vless_44
@@ -18524,6 +18590,10 @@ proxy-groups:
   - US_United States_ss_6166
   - US_United States_ss_6168
   - US_United States_vmess_6169
+  - US_United States_ss_6174
+  - US_United States_ss_6175
+  - US_United States_ss_6176
+  - US_United States_ss_6177
   - US_United States_ss_6180
   - US_United States_ss_6181
   - US_United States_ss_6188
@@ -20002,6 +20072,7 @@ proxy-groups:
   - US_United States_vmess_64979
   - US_United States_vmess_64980
   - US_United States_hysteria2_1012
+  - US_United States_ss_143
   - US_United States_ss_1419
   - US_United States_ss_1427
   - US_United States_ss_1439
@@ -20082,6 +20153,10 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_018
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_120
+  - US_United States_trojan_123
   - US_United States_vless_41
   - US_United States_vless_43
   - US_United States_vless_44
@@ -20161,6 +20236,10 @@ proxy-groups:
   - US_United States_ss_6166
   - US_United States_ss_6168
   - US_United States_vmess_6169
+  - US_United States_ss_6174
+  - US_United States_ss_6175
+  - US_United States_ss_6176
+  - US_United States_ss_6177
   - US_United States_ss_6180
   - US_United States_ss_6181
   - US_United States_ss_6188
@@ -21639,6 +21718,7 @@ proxy-groups:
   - US_United States_vmess_64979
   - US_United States_vmess_64980
   - US_United States_hysteria2_1012
+  - US_United States_ss_143
   - US_United States_ss_1419
   - US_United States_ss_1427
   - US_United States_ss_1439
