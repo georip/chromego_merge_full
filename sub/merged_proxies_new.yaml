@@ -2551,20 +2551,6 @@ proxies:
     path: /5QNROSRV
     headers:
       Host: oplg1.zhujicn2.com
-- name: US_United States_vmess_6570
-  server: v2ray.online
-  port: 443
-  type: vmess
-  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /speedtest
-    headers:
-      Host: Kansas.v2ray.online
 - name: US_United States_vmess_6571
   server: 103.21.244.70
   port: 8443
@@ -6873,6 +6859,20 @@ proxies:
     path: /ws
     headers:
       Host: ahdaeph8.com
+- name: US_United States_vmess_61979
+  server: v2ray.online
+  port: 443
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: Phoenix.v2ray.online
 - name: US_United States_ss_62023
   server: 167.88.62.68
   port: 6679
@@ -17804,7 +17804,7 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- name: US_United States_hysteria2_1012
+- name: US_United States_hysteria2_1013
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -17812,6 +17812,16 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: US_United States_hysteria2_1016
+  obfs: salamander
+  obfs-password: cry_me_a_r1ver_2026
+  password: strong-secret-pass-777
+  port: 444
+  server: 82.118.16.61
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: US_United States_vless_123
@@ -19168,7 +19178,6 @@ proxy-groups:
   - US_United States_vmess_6554
   - US_United States_vmess_6558
   - US_United States_vmess_6559
-  - US_United States_vmess_6570
   - US_United States_vmess_6571
   - US_United States_vmess_6575
   - US_United States_vmess_6576
@@ -19594,6 +19603,7 @@ proxy-groups:
   - US_United States_vmess_61958
   - US_United States_trojan_61964
   - US_United States_vmess_61965
+  - US_United States_vmess_61979
   - US_United States_ss_62023
   - US_United States_ss_62038
   - US_United States_ss_62042
@@ -20517,7 +20527,8 @@ proxy-groups:
   - US_United States_vmess_65044
   - US_United States_vmess_65045
   - US_United States_vmess_65046
-  - US_United States_hysteria2_1012
+  - US_United States_hysteria2_1013
+  - US_United States_hysteria2_1016
   - US_United States_vless_123
   - US_United States_vmess_1263
   - US_United States_vless_1282
@@ -20852,7 +20863,6 @@ proxy-groups:
   - US_United States_vmess_6554
   - US_United States_vmess_6558
   - US_United States_vmess_6559
-  - US_United States_vmess_6570
   - US_United States_vmess_6571
   - US_United States_vmess_6575
   - US_United States_vmess_6576
@@ -21278,6 +21288,7 @@ proxy-groups:
   - US_United States_vmess_61958
   - US_United States_trojan_61964
   - US_United States_vmess_61965
+  - US_United States_vmess_61979
   - US_United States_ss_62023
   - US_United States_ss_62038
   - US_United States_ss_62042
@@ -22201,7 +22212,8 @@ proxy-groups:
   - US_United States_vmess_65044
   - US_United States_vmess_65045
   - US_United States_vmess_65046
-  - US_United States_hysteria2_1012
+  - US_United States_hysteria2_1013
+  - US_United States_hysteria2_1016
   - US_United States_vless_123
   - US_United States_vmess_1263
   - US_United States_vless_1282
