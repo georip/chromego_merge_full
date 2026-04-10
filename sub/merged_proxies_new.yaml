@@ -71,6 +71,46 @@ proxies:
   sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
+- name: US_United States_trojan_113
+  network: tcp
+  password: 187dda4498be9ac4f28db939d5940185
+  port: 21413
+  server: 57.180.63.46
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_114
+  network: tcp
+  password: BxceQaOe
+  port: 4972
+  server: 95.40.86.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_116
+  network: tcp
+  password: 187dda4498be9ac4f28db939d5940185
+  port: 4380
+  server: 13.193.223.51
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_119
+  network: tcp
+  password: BxceQaOe
+  port: 22045
+  server: 43.207.110.4
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_122
+  network: tcp
+  password: BxceQaOe
+  port: 49534
+  server: 18.162.52.201
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: US_United States_vless_41
   network: ws
   port: 2053
@@ -821,20 +861,6 @@ proxies:
     path: /ray
     headers:
       Host: 330tw.fans8.xyz
-- name: US_United States_vmess_69
-  server: cloudflare.xrenblog.com
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: v4.xrenblog.com
 - name: US_United States_vmess_620
   server: 104.166.135.10
   port: 443
@@ -1014,36 +1040,12 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: US_United States_ss_6171
-  server: admin.c1.havij.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1kVr0KATIJI7mwOF
-- name: US_United States_ss_6172
-  server: series-a1.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
 - name: US_United States_ss_6174
   server: 173.234.29.2
   port: 990
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: US_United States_ss_6175
-  server: series-a2.samanehha.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
-- name: US_United States_ss_6176
-  server: admin.c1.webramz.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: W74XFALLLuw6m5IA
 - name: US_United States_ss_6180
   server: 149.22.87.204
   port: 443
@@ -2521,20 +2523,6 @@ proxies:
     path: /5QNROSRV
     headers:
       Host: oplg1.zhujicn2.com
-- name: US_United States_vmess_6486
-  server: v2ray.online
-  port: 443
-  type: vmess
-  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /speedtest
-    headers:
-      Host: Kansas.v2ray.online
 - name: US_United States_vmess_6487
   server: 103.21.244.70
   port: 8443
@@ -3623,6 +3611,20 @@ proxies:
     path: /A2DJOPFT
     headers:
       Host: 141.101.114.32
+- name: US_United States_vmess_6700
+  server: v2ray.online
+  port: 443
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: v2ray.online
 - name: US_United States_vmess_6701
   server: speed.cloudflare.com
   port: 443
@@ -18564,6 +18566,11 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_013
   - US_United States_trojan_017
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_116
+  - US_United States_trojan_119
+  - US_United States_trojan_122
   - US_United States_vless_41
   - US_United States_vless_43
   - US_United States_vless_44
@@ -18630,7 +18637,6 @@ proxy-groups:
   - US_United States_vmess_65
   - US_United States_vmess_66
   - US_United States_vmess_67
-  - US_United States_vmess_69
   - US_United States_vmess_620
   - US_United States_vmess_621
   - US_United States_vmess_622
@@ -18648,11 +18654,7 @@ proxy-groups:
   - US_United States_ss_6162
   - US_United States_vmess_6165
   - US_United States_ss_6167
-  - US_United States_ss_6171
-  - US_United States_ss_6172
   - US_United States_ss_6174
-  - US_United States_ss_6175
-  - US_United States_ss_6176
   - US_United States_ss_6180
   - US_United States_vmess_6185
   - US_United States_trojan_6189
@@ -18783,7 +18785,6 @@ proxy-groups:
   - US_United States_vmess_6470
   - US_United States_vmess_6474
   - US_United States_vmess_6475
-  - US_United States_vmess_6486
   - US_United States_vmess_6487
   - US_United States_vmess_6491
   - US_United States_vmess_6492
@@ -18875,6 +18876,7 @@ proxy-groups:
   - US_United States_vmess_6679
   - US_United States_vmess_6687
   - US_United States_vmess_6692
+  - US_United States_vmess_6700
   - US_United States_vmess_6701
   - US_United States_vmess_6706
   - US_United States_vmess_6707
@@ -20206,6 +20208,11 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_013
   - US_United States_trojan_017
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_116
+  - US_United States_trojan_119
+  - US_United States_trojan_122
   - US_United States_vless_41
   - US_United States_vless_43
   - US_United States_vless_44
@@ -20272,7 +20279,6 @@ proxy-groups:
   - US_United States_vmess_65
   - US_United States_vmess_66
   - US_United States_vmess_67
-  - US_United States_vmess_69
   - US_United States_vmess_620
   - US_United States_vmess_621
   - US_United States_vmess_622
@@ -20290,11 +20296,7 @@ proxy-groups:
   - US_United States_ss_6162
   - US_United States_vmess_6165
   - US_United States_ss_6167
-  - US_United States_ss_6171
-  - US_United States_ss_6172
   - US_United States_ss_6174
-  - US_United States_ss_6175
-  - US_United States_ss_6176
   - US_United States_ss_6180
   - US_United States_vmess_6185
   - US_United States_trojan_6189
@@ -20425,7 +20427,6 @@ proxy-groups:
   - US_United States_vmess_6470
   - US_United States_vmess_6474
   - US_United States_vmess_6475
-  - US_United States_vmess_6486
   - US_United States_vmess_6487
   - US_United States_vmess_6491
   - US_United States_vmess_6492
@@ -20517,6 +20518,7 @@ proxy-groups:
   - US_United States_vmess_6679
   - US_United States_vmess_6687
   - US_United States_vmess_6692
+  - US_United States_vmess_6700
   - US_United States_vmess_6701
   - US_United States_vmess_6706
   - US_United States_vmess_6707
