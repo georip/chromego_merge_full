@@ -660,14 +660,15 @@ proxies:
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-- name: US_United States_hysteria2_1012
-  password: hysteria2_fastlane_qszb6rkh0
-  port: 443
-  server: 144.31.134.98
-  skip-cert-verify: true
-  sni: nl1.h.smartaisupport.ru
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_5177
+  port: 30830
+  server: v30.hdacd.com
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: US_United States_vless_122
   type: vless
   server: 188.166.185.59
@@ -1418,16 +1419,41 @@ proxies:
     path: /?Telegram🇨🇳@WangCai2=
     headers:
       Host: sni.111000.indevs.in
-- name: US_United States_trojan_164
-  server: 15.224.47.47
+- name: US_United States_trojan_162
+  server: 15.236.148.165
   type: trojan
-  country: 🇺🇸US
+  country: 🇫🇷FR
   port: 22222
   password: telegram-id-privatevpns
   skip-cert-verify: true
   udp: true
-  delay: 668
-- name: US_United States_vmess_1610
+  delay: 809
+- name: US_United States_vmess_164
+  server: v35.hdacd.com
+  type: vmess
+  country: 🇨🇳 CN
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 886
+- name: US_United States_ss_1612
+  server: 23.177.40.226
+  type: ss
+  port: 30011
+  password: somebody
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
+    mode: http
+  delay: 552
+- name: US_United States_vmess_1614
   server: 66.181.36.174
   type: vmess
   port: 52914
@@ -1440,8 +1466,115 @@ proxies:
     path:
     - /ABCDE
   h2-opts: {}
-  delay: 533
-- name: US_United States_ss_1613
+  delay: 2228
+- name: US_United States_ss_1616
+  server: 6154ff9.f1.gladns.net
+  type: ss
+  port: 2377
+  udp: true
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ch:135146
+    mode: tls
+  delay: 996
+- name: US_United States_ss_1617
+  server: 6154ff9.d5.gladns.net
+  type: ss
+  port: 2377
+  udp: true
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ch:135146
+    mode: tls
+  delay: 2980
+- name: US_United States_ss_1618
+  server: 6154ff9.d3.gladns.net
+  type: ss
+  country: 🇯🇵JP
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ee:135146
+    mode: tls
+  delay: 926
+- name: US_United States_vmess_1619
+  server: xg1a4.waimaofuwujd.cc
+  type: vmess
+  country: 🇺🇸US
+  port: 443
+  uuid: 1a87fc81-6846-4246-add3-00a38baa8c0f
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: xg1a4.waimaofuwujd.cc
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /api/v1/graphql
+    headers:
+      HOST: xg1a4.waimaofuwujd.cc
+  delay: 2060
+- name: US_United States_vmess_1620
+  server: xg1b1.waimaofuwujd.cc
+  type: vmess
+  country: 🏁ZZ
+  port: 443
+  uuid: 1a87fc81-6846-4246-add3-00a38baa8c0f
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: xg1b1.waimaofuwujd.cc
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /api/v1/graphql
+    headers:
+      HOST: xg1b1.waimaofuwujd.cc
+  delay: 1742
+- name: US_United States_ss_1623
+  server: 38.95.121.189
+  type: ss
+  port: 30011
+  password: somebody
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa3-a7xr.update.microsoft.com
+    mode: http
+  delay: 354
+- name: US_United States_ss_1624
+  server: 68.168.20.112
+  type: ss
+  port: 30011
+  password: somebody
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usc2-a7xr.update.microsoft.com
+    mode: http
+  delay: 1443
+- name: US_United States_ss_1625
+  server: 154.17.238.59
+  type: ss
+  port: 30011
+  password: somebody
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-usa1-a7xr.update.microsoft.com
+    mode: http
+  delay: 502
+- name: US_United States_ss_1627
   server: 199.181.197.38
   port: 443
   type: ss
@@ -1456,86 +1589,38 @@ proxies:
     mux: false
     skip-cert-verify: true
   udp: true
-  delay: 705
-- name: US_United States_ss_1615
-  server: 6154ff9.d3.gladns.net
-  type: ss
-  country: 🇯🇵JP
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    host: 6154ff9.default.microsoft.ee:135146
-    mode: tls
-  delay: 656
-- name: US_United States_ss_1616
-  server: 6154ff9.d5.gladns.net
-  type: ss
-  port: 2377
-  udp: true
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    host: 6154ff9.default.microsoft.ch:135146
-    mode: tls
-  delay: 661
-- name: US_United States_ss_1617
-  server: 6154ff9.f1.gladns.net
-  type: ss
-  port: 2377
-  udp: true
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    host: 6154ff9.default.microsoft.ch:135146
-    mode: tls
-  delay: 929
-- name: US_United States_ss_1621
-  server: 38.244.47.161
-  type: ss
-  country: 🇺🇸US
-  port: 30011
-  password: somebody
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  delay: 732
-- name: US_United States_vmess_1626
-  server: tokyo01.zgjok.com
-  port: 443
+  delay: 609
+- name: US_United States_vmess_1629
+  server: 188.114.98.0
   type: vmess
-  country: 🏁 ZZ
-  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  port: 8443
+  uuid: 39382035-3420-4937-a031-303220393820
   alterId: 0
-  cipher: auto
-  tls: true
+  cipher: none
   network: ws
+  servername: tr-1.stunnel.cc
   http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: tokyo01.zgjok.com
-  skip-cert-verify: true
-  servername: tokyo01.zgjok.com
-  delay: 688
-- name: US_United States_vmess_16102
+  h2-opts: {}
+  tls: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: tr-1.stunnel.cc
+  delay: 1546
+- name: US_United States_vmess_1683
   server: 154.37.223.19
   type: vmess
-  port: 52080
-  uuid: 16deda2c-b18b-4689-b83d-b333d92595b2
+  port: 56972
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
   alterId: 0
   cipher: auto
   network: http
   http-opts:
     method: GET
     path:
-    - /QQqun-737805443
+    - /
   h2-opts: {}
-  delay: 802
+  delay: 749
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1602,7 +1687,7 @@ proxy-groups:
   - US_United States_vless_5159
   - US_United States_ss_5161
   - US_United States_ss_5175
-  - US_United States_hysteria2_1012
+  - US_United States_vmess_5177
   - US_United States_vless_122
   - US_United States_vless_125
   - US_United States_vless_126
@@ -1692,15 +1777,21 @@ proxy-groups:
   - US_United States_trojan_12495
   - US_United States_vless_12501
   - US_United States_vless_12502
-  - US_United States_trojan_164
-  - US_United States_vmess_1610
-  - US_United States_ss_1613
-  - US_United States_ss_1615
+  - US_United States_trojan_162
+  - US_United States_vmess_164
+  - US_United States_ss_1612
+  - US_United States_vmess_1614
   - US_United States_ss_1616
   - US_United States_ss_1617
-  - US_United States_ss_1621
-  - US_United States_vmess_1626
-  - US_United States_vmess_16102
+  - US_United States_ss_1618
+  - US_United States_vmess_1619
+  - US_United States_vmess_1620
+  - US_United States_ss_1623
+  - US_United States_ss_1624
+  - US_United States_ss_1625
+  - US_United States_ss_1627
+  - US_United States_vmess_1629
+  - US_United States_vmess_1683
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1767,7 +1858,7 @@ proxy-groups:
   - US_United States_vless_5159
   - US_United States_ss_5161
   - US_United States_ss_5175
-  - US_United States_hysteria2_1012
+  - US_United States_vmess_5177
   - US_United States_vless_122
   - US_United States_vless_125
   - US_United States_vless_126
@@ -1857,15 +1948,21 @@ proxy-groups:
   - US_United States_trojan_12495
   - US_United States_vless_12501
   - US_United States_vless_12502
-  - US_United States_trojan_164
-  - US_United States_vmess_1610
-  - US_United States_ss_1613
-  - US_United States_ss_1615
+  - US_United States_trojan_162
+  - US_United States_vmess_164
+  - US_United States_ss_1612
+  - US_United States_vmess_1614
   - US_United States_ss_1616
   - US_United States_ss_1617
-  - US_United States_ss_1621
-  - US_United States_vmess_1626
-  - US_United States_vmess_16102
+  - US_United States_ss_1618
+  - US_United States_vmess_1619
+  - US_United States_vmess_1620
+  - US_United States_ss_1623
+  - US_United States_ss_1624
+  - US_United States_ss_1625
+  - US_United States_ss_1627
+  - US_United States_vmess_1629
+  - US_United States_vmess_1683
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
