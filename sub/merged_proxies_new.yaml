@@ -5764,12 +5764,6 @@ proxies:
   type: trojan
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   skip-cert-verify: false
-- name: US_United States_trojan_61386
-  server: official.tokyometropolis.ivano-frankivsk.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: false
 - name: US_United States_ss_61401
   server: 43.201.47.102
   port: 443
@@ -5794,12 +5788,6 @@ proxies:
   network: ws
   ws-opts:
     path: /game
-- name: US_United States_trojan_61409
-  server: official.tokyometropolis.chernigov.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: false
 - name: US_United States_vmess_61415
   server: 138.2.49.230
   port: 10021
@@ -6871,9 +6859,9 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: SUSbr2eLCXmbc64xOHhgEt
-- name: US_United States_ssr_61995
+- name: US_United States_ssr_61993
   server: show.bilibilicloud01.com
-  port: 54103
+  port: 54115
   type: ssr
   cipher: chacha20-ietf
   password: Mv4e0QHWPwdbKiCF
@@ -10098,20 +10086,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: /
-- name: US_United States_vmess_63909
-  server: 1008668.xyz
-  port: 48701
-  type: vmess
-  uuid: 766b7b58-112c-4cd7-ed6e-fe93c5b7a448
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 1008668.xyz
 - name: US_United States_vmess_63910
   server: 68.168.31.196
   port: 443
@@ -17744,6 +17718,22 @@ proxies:
     public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
     short-id: 11e2
   udp: true
+- name: US_United States_hysteria2_1011
+  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
+  port: 65535
+  server: 132.145.28.17
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: US_United States_hysteria2_1012
+  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
+  port: 65535
+  server: 132.145.52.10
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: US_United States_trojan_121
   type: trojan
   server: 43.199.31.240
@@ -20428,18 +20418,6 @@ proxies:
   sni: azcus1.jueduibupao.top
   type: hysteria2
   up: ''
-- alterId: '2'
-  cipher: auto
-  name: US_United States_vmess_14461
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14464
   network: ws
@@ -20785,19 +20763,6 @@ proxies:
   password: dada1203
   cipher: aes-256-gcm
   delay: 398
-- name: US_United States_vmess_1610
-  server: v4.hdacd.com
-  port: 30804
-  type: vmess
-  country: 🏁 ZZ
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-  delay: 1793
 - name: US_United States_ss_1611
   server: 45.55.40.127
   type: ss
@@ -21439,11 +21404,9 @@ proxy-groups:
   - US_United States_ss_61371
   - US_United States_trojan_61382
   - US_United States_trojan_61385
-  - US_United States_trojan_61386
   - US_United States_ss_61401
   - US_United States_trojan_61406
   - US_United States_vmess_61407
-  - US_United States_trojan_61409
   - US_United States_vmess_61415
   - US_United States_trojan_61422
   - US_United States_trojan_61438
@@ -21554,7 +21517,7 @@ proxy-groups:
   - US_United States_vmess_61935
   - US_United States_ss_61936
   - US_United States_ss_61939
-  - US_United States_ssr_61995
+  - US_United States_ssr_61993
   - US_United States_ssr_62055
   - US_United States_ssr_62056
   - US_United States_vmess_62061
@@ -21839,7 +21802,6 @@ proxy-groups:
   - US_United States_vmess_63905
   - US_United States_vmess_63906
   - US_United States_vmess_63908
-  - US_United States_vmess_63909
   - US_United States_vmess_63910
   - US_United States_vmess_63911
   - US_United States_vmess_63912
@@ -22468,6 +22430,8 @@ proxy-groups:
   - US_United States_ss_719
   - US_United States_vless_720
   - US_United States_vless_722
+  - US_United States_hysteria2_1011
+  - US_United States_hysteria2_1012
   - US_United States_trojan_121
   - US_United States_trojan_123
   - US_United States_trojan_124
@@ -22658,7 +22622,6 @@ proxy-groups:
   - US_United States_vless_14449
   - US_United States_vless_14458
   - US_United States_hysteria2_14459
-  - US_United States_vmess_14461
   - US_United States_vless_14464
   - US_United States_vless_14465
   - US_United States_vless_14466
@@ -22681,7 +22644,6 @@ proxy-groups:
   - US_United States_vless_14500
   - US_United States_trojan_163
   - US_United States_ss_166
-  - US_United States_vmess_1610
   - US_United States_ss_1611
   - US_United States_ss_1613
   - US_United States_trojan_1616
@@ -23233,11 +23195,9 @@ proxy-groups:
   - US_United States_ss_61371
   - US_United States_trojan_61382
   - US_United States_trojan_61385
-  - US_United States_trojan_61386
   - US_United States_ss_61401
   - US_United States_trojan_61406
   - US_United States_vmess_61407
-  - US_United States_trojan_61409
   - US_United States_vmess_61415
   - US_United States_trojan_61422
   - US_United States_trojan_61438
@@ -23348,7 +23308,7 @@ proxy-groups:
   - US_United States_vmess_61935
   - US_United States_ss_61936
   - US_United States_ss_61939
-  - US_United States_ssr_61995
+  - US_United States_ssr_61993
   - US_United States_ssr_62055
   - US_United States_ssr_62056
   - US_United States_vmess_62061
@@ -23633,7 +23593,6 @@ proxy-groups:
   - US_United States_vmess_63905
   - US_United States_vmess_63906
   - US_United States_vmess_63908
-  - US_United States_vmess_63909
   - US_United States_vmess_63910
   - US_United States_vmess_63911
   - US_United States_vmess_63912
@@ -24262,6 +24221,8 @@ proxy-groups:
   - US_United States_ss_719
   - US_United States_vless_720
   - US_United States_vless_722
+  - US_United States_hysteria2_1011
+  - US_United States_hysteria2_1012
   - US_United States_trojan_121
   - US_United States_trojan_123
   - US_United States_trojan_124
@@ -24452,7 +24413,6 @@ proxy-groups:
   - US_United States_vless_14449
   - US_United States_vless_14458
   - US_United States_hysteria2_14459
-  - US_United States_vmess_14461
   - US_United States_vless_14464
   - US_United States_vless_14465
   - US_United States_vless_14466
@@ -24475,7 +24435,6 @@ proxy-groups:
   - US_United States_vless_14500
   - US_United States_trojan_163
   - US_United States_ss_166
-  - US_United States_vmess_1610
   - US_United States_ss_1611
   - US_United States_ss_1613
   - US_United States_trojan_1616
