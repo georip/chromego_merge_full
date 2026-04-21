@@ -352,15 +352,6 @@ proxies:
   port: 443
   server: 64.44.157.80
   type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_590
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: none
   name: US_United States_ss_592
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -4655,6 +4646,20 @@ proxies:
   network: ws
   ws-opts:
     path: /dongtaiwang.com
+- name: US_United States_vmess_61028
+  server: data-hk-v2.shwjfkw.cn
+  port: 50205
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: data-hk-v2.shwjfkw.cn
 - name: US_United States_ss_61033
   server: 54.178.60.213
   port: 443
@@ -6653,6 +6658,21 @@ proxies:
     path: /
     headers:
       Host: oz.moonfree.top
+- name: US_United States_vmess_61893
+  server: xr-1.herokuapp.com
+  port: 443
+  type: vmess
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: xr-1.herokuapp.com
+  network: ws
+  ws-opts:
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+    headers:
+      Host: xr-1.herokuapp.com
 - name: US_United States_vmess_61894
   server: 527hk1.fans8.xyz
   port: 80
@@ -10121,20 +10141,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: /
-- name: US_United States_vmess_64007
-  server: 1008668.xyz
-  port: 48701
-  type: vmess
-  uuid: 766b7b58-112c-4cd7-ed6e-fe93c5b7a448
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 1008668.xyz
 - name: US_United States_vmess_64008
   server: 68.168.31.196
   port: 443
@@ -19820,6 +19826,13 @@ proxies:
     headers:
       Host: snippet.gfw.qzz.io
     path: /danfeng
+- name: US_United States_hysteria2_14111
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-001.fastervpn.world
+  type: hysteria2
 - client-fingerprint: chrome
   name: US_United States_trojan_14112
   password: 3d1ee73d-9659-47b3-8db9-6eb591c74a04
@@ -20971,7 +20984,6 @@ proxy-groups:
   - US_United States_ss_578
   - US_United States_ss_587
   - US_United States_ss_589
-  - US_United States_vmess_590
   - US_United States_ss_592
   - US_United States_ss_595
   - US_United States_ss_596
@@ -21366,6 +21378,7 @@ proxy-groups:
   - US_United States_trojan_61019
   - US_United States_trojan_61023
   - US_United States_vmess_61024
+  - US_United States_vmess_61028
   - US_United States_ss_61033
   - US_United States_vmess_61039
   - US_United States_vmess_61047
@@ -21575,6 +21588,7 @@ proxy-groups:
   - US_United States_trojan_61878
   - US_United States_trojan_61885
   - US_United States_vmess_61892
+  - US_United States_vmess_61893
   - US_United States_vmess_61894
   - US_United States_trojan_61900
   - US_United States_vmess_61901
@@ -21888,7 +21902,6 @@ proxy-groups:
   - US_United States_vmess_64003
   - US_United States_vmess_64004
   - US_United States_vmess_64006
-  - US_United States_vmess_64007
   - US_United States_vmess_64008
   - US_United States_vmess_64009
   - US_United States_vmess_64010
@@ -22683,6 +22696,7 @@ proxy-groups:
   - US_United States_vless_14106
   - US_United States_hysteria2_14107
   - US_United States_vless_14108
+  - US_United States_hysteria2_14111
   - US_United States_trojan_14112
   - US_United States_trojan_14113
   - US_United States_vless_14116
@@ -22802,7 +22816,6 @@ proxy-groups:
   - US_United States_ss_578
   - US_United States_ss_587
   - US_United States_ss_589
-  - US_United States_vmess_590
   - US_United States_ss_592
   - US_United States_ss_595
   - US_United States_ss_596
@@ -23197,6 +23210,7 @@ proxy-groups:
   - US_United States_trojan_61019
   - US_United States_trojan_61023
   - US_United States_vmess_61024
+  - US_United States_vmess_61028
   - US_United States_ss_61033
   - US_United States_vmess_61039
   - US_United States_vmess_61047
@@ -23406,6 +23420,7 @@ proxy-groups:
   - US_United States_trojan_61878
   - US_United States_trojan_61885
   - US_United States_vmess_61892
+  - US_United States_vmess_61893
   - US_United States_vmess_61894
   - US_United States_trojan_61900
   - US_United States_vmess_61901
@@ -23719,7 +23734,6 @@ proxy-groups:
   - US_United States_vmess_64003
   - US_United States_vmess_64004
   - US_United States_vmess_64006
-  - US_United States_vmess_64007
   - US_United States_vmess_64008
   - US_United States_vmess_64009
   - US_United States_vmess_64010
@@ -24514,6 +24528,7 @@ proxy-groups:
   - US_United States_vless_14106
   - US_United States_hysteria2_14107
   - US_United States_vless_14108
+  - US_United States_hysteria2_14111
   - US_United States_trojan_14112
   - US_United States_trojan_14113
   - US_United States_vless_14116
