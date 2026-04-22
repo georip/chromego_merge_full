@@ -344,15 +344,6 @@ proxies:
   port: 443
   server: 64.44.157.80
   type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_590
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: none
   name: US_United States_ss_592
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -5674,6 +5665,18 @@ proxies:
   type: trojan
   password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
   skip-cert-verify: false
+- name: US_United States_trojan_61374
+  server: official.tokyometropolis.kherson.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
+- name: US_United States_trojan_61377
+  server: official.tokyometropolis.kharkov.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
 - name: US_United States_ss_61378
   server: 172.99.190.7
   port: 2376
@@ -5729,12 +5732,6 @@ proxies:
   type: trojan
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   skip-cert-verify: false
-- name: US_United States_trojan_61422
-  server: official.tokyometropolis.kyiv.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: false
 - name: US_United States_ss_61424
   server: 43.201.47.102
   port: 443
@@ -5782,12 +5779,6 @@ proxies:
   port: 443
   type: trojan
   password: c2b0a060-44b0-11ed-ad2e-1239d0255272
-  skip-cert-verify: false
-- name: US_United States_trojan_61465
-  server: official.tokyometropolis.kiev.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: false
 - name: US_United States_trojan_61468
   server: 152.67.162.166
@@ -6950,6 +6941,16 @@ proxies:
   type: trojan
   password: ZY07256934
   skip-cert-verify: false
+- name: US_United States_ssr_62303
+  server: glimmerdsds.sdl-sz.com
+  port: 39007
+  type: ssr
+  cipher: aes-256-cfb
+  password: dajkd*/?
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 1f4c39347.microsoft.com
 - name: US_United States_ss_62304
   server: 216.250.97.82
   port: 38388
@@ -10144,20 +10145,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: /
-- name: US_United States_vmess_63949
-  server: 1008668.xyz
-  port: 48701
-  type: vmess
-  uuid: 766b7b58-112c-4cd7-ed6e-fe93c5b7a448
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 1008668.xyz
 - name: US_United States_vmess_63950
   server: 68.168.31.196
   port: 443
@@ -17668,150 +17655,36 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- name: US_United States_vless_71
-  server: 45.77.66.142
-  port: 443
-  type: vless
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-  flow: xtls-rprx-vision
-  tls: true
+- alterId: 1
+  cipher: auto
+  name: US_United States_vmess_141
+  port: 15267
+  server: i.h.z.d.q.p.k.8.d.hk09-vm5.entry.v51124-4.qpon
   skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: www.zalando.de
-  reality-opts:
-    public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
-    short-id: 0c1553316a645758
-  udp: true
-- name: US_United States_vless_74
-  server: 47.242.64.181
-  port: 443
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: cms.suse.net
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  udp: true
-- name: US_United States_vless_721
-  server: nld.pink-world.ru
-  port: 443
-  type: vless
-  uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: nld.pink-world.ru
-  reality-opts:
-    public-key: tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0
-    short-id: f27d8b541b5f48bf
-  udp: true
-- name: US_United States_vless_724
-  server: 144.31.127.61
-  port: 443
-  type: vless
-  uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: gateway.icloud.com
-  reality-opts:
-    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
-    short-id: c6118398
-  udp: true
-- name: US_United States_vless_725
-  server: 165.140.241.29
-  port: 443
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /danfeng?ed=2560
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-  udp: true
-- name: US_United States_vless_726
-  server: 72.56.35.163
-  port: 4454
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: files.moscownews24.ru
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  udp: true
-- name: US_United States_vless_727
-  server: 72.56.35.203
-  port: 4495
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: files.moscownews24.ru
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  udp: true
-- name: US_United States_vless_728
-  server: st-2.globalcache.onnstreaming.ru
-  port: 443
-  type: vless
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: st-2.globalcache.onnstreaming.ru
-  reality-opts:
-    public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
-    short-id: aa69f619e4414362
-  udp: true
-- name: US_United States_vless_729
-  server: 72.56.39.76
-  port: 4510
-  type: vless
-  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: files.moscownews24.ru
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  udp: true
-- name: US_United States_hysteria2_1011
-  password: V9TUQQMN40
-  port: 23161
-  server: 23.27.240.33
-  skip-cert-verify: true
   tls: false
-  type: hysteria2
-- name: US_United States_hysteria2_1012
-  password: hrxvl5n08w
-  port: 23943
-  server: 54.169.235.155
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: US_United States_ss_1426
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20027
+  server: o.h.z.b.n.4.k.8.d.ar01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: US_United States_ss_1427
   password: b0c9d775-32f7-459a-b24d-ecda7c9f3720
   port: 11688
   server: ss.020.node-for-bigairport.win
   type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_1431
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20032
+  server: i.h.7.4.n.4.j.8.d.ru01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_1433
   password: 3d1ee73d-9659-47b3-8db9-6eb591c74a04
@@ -17892,13 +17765,6 @@ proxies:
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - cipher: aes-256-gcm
-  name: US_United States_ss_1468
-  password: d687b024-a5cf-3433-8d06-1c99e2e28821
-  port: 20007
-  server: h.u.z.d.b.4.s.8.d.tw01-ae5.entry.v51124-4.qpon
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: US_United States_ss_1469
   password: dada1203
   port: 80
@@ -17915,6 +17781,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: US_United States_ss_1472
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20062
+  server: a.x.z.d.5.x.s.8.d.au01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_1473
@@ -18002,13 +17875,21 @@ proxies:
         (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_1496
-  password: d687b024-a5cf-3433-8d06-1c99e2e28821
-  port: 20062
-  server: i.u.z.9.n.x.s.8.d.au01-ae5.entry.v51124-4.qpon
-  type: ss
+- alterId: 1
+  cipher: auto
+  name: US_United States_vmess_1494
+  network: ws
+  port: 577
+  server: h.h.a.d.5.x.j.8.d.hk11-vm5.entry.v51124-4.qpon
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+  ws-opts:
+    headers:
+      Host: speedtest-bgp-01-11.entry-0.chinasnow.net
+    path: /tutorial/iphone13.m3u8
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_1498
@@ -18050,10 +17931,17 @@ proxies:
   type: vless
   uuid: 8830c102-fdd9-4765-98be-b1e012f4fb55
 - cipher: aes-256-gcm
-  name: US_United States_ss_14119
+  name: US_United States_ss_14117
   password: d687b024-a5cf-3433-8d06-1c99e2e28821
-  port: 20072
-  server: h.x.a.d.q.4.j.8.d.ua01-ae5.entry.v51124-4.qpon
+  port: 20022
+  server: a.x.z.9.q.p.k.8.d.gb01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_United States_ss_14118
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20032
+  server: a.h.4.b.q.x.s.8.d.ru01-ae5.entry.v51124-4.qpon
   type: ss
   udp: true
 - alterId: 1
@@ -18076,6 +17964,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: US_United States_ss_14132
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20037
+  server: a.u.4.4.q.4.s.8.d.tr01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: US_United States_vless_14135
   network: ws
@@ -18158,6 +18053,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: US_United States_ss_14160
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20047
+  server: o.u.z.d.n.x.k.8.d.in01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_14164
@@ -18188,6 +18090,13 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
+- cipher: aes-256-gcm
+  name: US_United States_ss_14168
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20017
+  server: a.u.z.4.5.x.k.8.d.us02-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   name: US_United States_vless_14169
@@ -18280,13 +18189,6 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /?ed=2560
   xudp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_14181
-  password: d687b024-a5cf-3433-8d06-1c99e2e28821
-  port: 16526
-  server: o.x.a.4.q.4.j.8.d.jp10-ae5.entry.v51124-4.qpon
-  type: ss
-  udp: true
 - alpn:
   - http%2F1.1%0A
   client-fingerprint: chrome
@@ -18495,13 +18397,6 @@ proxies:
     headers:
       Host: snzeys.edge-node-a1.fgfw.qzz.io
     path: /danfeng?ed=2560
-- cipher: aes-256-gcm
-  name: US_United States_ss_14222
-  password: d687b024-a5cf-3433-8d06-1c99e2e28821
-  port: 20007
-  server: i.u.z.b.b.x.k.8.d.tw01-ae5.entry.v51124-4.qpon
-  type: ss
-  udp: true
 - client-fingerprint: firefox
   encryption: none
   name: US_United States_vless_14223
@@ -18602,13 +18497,6 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- cipher: aes-256-gcm
-  name: US_United States_ss_14242
-  password: d687b024-a5cf-3433-8d06-1c99e2e28821
-  port: 11160
-  server: i.u.7.9.b.p.j.8.d.jp09-ae5.entry.v51124-4.qpon
-  type: ss
-  udp: true
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_14244
@@ -18712,6 +18600,13 @@ proxies:
     headers:
       Host: vip.yaml7.ggff.net
     path: /
+- cipher: aes-256-gcm
+  name: US_United States_ss_14257
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 20062
+  server: h.h.4.4.5.4.k.8.d.au01-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_14259
   network: ws
@@ -18851,6 +18746,13 @@ proxies:
     headers:
       Host: v.vivia.cc.cd
     path: /
+- cipher: aes-256-gcm
+  name: US_United States_ss_14289
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 495
+  server: o.x.z.4.n.x.k.8.d.jp04-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_14302
@@ -19325,18 +19227,6 @@ proxies:
   sni: hy2-sg.onetaplink.app
   type: hysteria2
   up: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: US_United States_vmess_14417
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_14419
@@ -19471,6 +19361,13 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
+- cipher: aes-256-gcm
+  name: US_United States_ss_14478
+  password: d687b024-a5cf-3433-8d06-1c99e2e28821
+  port: 12545
+  server: h.h.z.4.b.p.j.8.d.jp08-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
 - client-fingerprint: random
   name: US_United States_vless_14480
   network: ws
@@ -19521,19 +19418,6 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 2220
-- name: US_United States_vmess_168
-  server: v35.hdacd.com
-  port: 30835
-  type: vmess
-  country: 🇬🇧 GB
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-  delay: 926
 - name: US_United States_ss_1610
   server: 43.203.222.70
   type: ss
@@ -19542,33 +19426,6 @@ proxies:
   password: dada1203
   cipher: aes-256-gcm
   delay: 291
-- name: US_United States_vmess_1614
-  server: v24.hdacd.com
-  type: vmess
-  country: 🇭🇰HK
-  port: 30824
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  delay: 2107
-- name: US_United States_vmess_1615
-  server: v4.hdacd.com
-  type: vmess
-  country: 🇭🇰 HK
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  delay: 1835
 - name: US_United States_ss_1622
   server: 199.181.197.38
   port: 443
@@ -19631,7 +19488,6 @@ proxy-groups:
   - US_United States_ss_578
   - US_United States_ss_587
   - US_United States_ss_589
-  - US_United States_vmess_590
   - US_United States_ss_592
   - US_United States_ss_595
   - US_United States_ss_596
@@ -20131,6 +19987,8 @@ proxy-groups:
   - US_United States_trojan_61356
   - US_United States_trojan_61367
   - US_United States_trojan_61372
+  - US_United States_trojan_61374
+  - US_United States_trojan_61377
   - US_United States_ss_61378
   - US_United States_vmess_61390
   - US_United States_trojan_61392
@@ -20138,14 +19996,12 @@ proxy-groups:
   - US_United States_ss_61394
   - US_United States_trojan_61405
   - US_United States_trojan_61408
-  - US_United States_trojan_61422
   - US_United States_ss_61424
   - US_United States_trojan_61429
   - US_United States_vmess_61430
   - US_United States_vmess_61438
   - US_United States_trojan_61445
   - US_United States_trojan_61461
-  - US_United States_trojan_61465
   - US_United States_trojan_61468
   - US_United States_ss_61476
   - US_United States_ss_61484
@@ -20268,6 +20124,7 @@ proxy-groups:
   - US_United States_trojan_61993
   - US_United States_trojan_61994
   - US_United States_trojan_61995
+  - US_United States_ssr_62303
   - US_United States_ss_62304
   - US_United States_ssr_62359
   - US_United States_ssr_62361
@@ -20550,7 +20407,6 @@ proxy-groups:
   - US_United States_vmess_63945
   - US_United States_vmess_63946
   - US_United States_vmess_63948
-  - US_United States_vmess_63949
   - US_United States_vmess_63950
   - US_United States_vmess_63951
   - US_United States_vmess_63952
@@ -21170,18 +21026,10 @@ proxy-groups:
   - US_United States_vmess_64978
   - US_United States_vmess_64979
   - US_United States_vmess_64980
-  - US_United States_vless_71
-  - US_United States_vless_74
-  - US_United States_vless_721
-  - US_United States_vless_724
-  - US_United States_vless_725
-  - US_United States_vless_726
-  - US_United States_vless_727
-  - US_United States_vless_728
-  - US_United States_vless_729
-  - US_United States_hysteria2_1011
-  - US_United States_hysteria2_1012
+  - US_United States_vmess_141
+  - US_United States_ss_1426
   - US_United States_ss_1427
+  - US_United States_ss_1431
   - US_United States_trojan_1433
   - US_United States_trojan_1436
   - US_United States_vmess_1444
@@ -21189,9 +21037,9 @@ proxy-groups:
   - US_United States_vless_1458
   - US_United States_vmess_1464
   - US_United States_vmess_1467
-  - US_United States_ss_1468
   - US_United States_ss_1469
   - US_United States_vmess_1471
+  - US_United States_ss_1472
   - US_United States_vmess_1473
   - US_United States_vless_1478
   - US_United States_ss_1483
@@ -21199,14 +21047,16 @@ proxy-groups:
   - US_United States_vless_1491
   - US_United States_vless_1492
   - US_United States_vless_1493
-  - US_United States_ss_1496
+  - US_United States_vmess_1494
   - US_United States_vmess_1498
   - US_United States_vmess_14102
   - US_United States_vmess_14104
   - US_United States_vless_14110
-  - US_United States_ss_14119
+  - US_United States_ss_14117
+  - US_United States_ss_14118
   - US_United States_vmess_14122
   - US_United States_vmess_14125
+  - US_United States_ss_14132
   - US_United States_vless_14135
   - US_United States_vmess_14137
   - US_United States_vless_14139
@@ -21214,16 +21064,17 @@ proxy-groups:
   - US_United States_vmess_14145
   - US_United States_vmess_14147
   - US_United States_vmess_14155
+  - US_United States_ss_14160
   - US_United States_vmess_14164
   - US_United States_vmess_14166
   - US_United States_vmess_14167
+  - US_United States_ss_14168
   - US_United States_vless_14169
   - US_United States_ss_14170
   - US_United States_vless_14171
   - US_United States_vmess_14174
   - US_United States_vless_14176
   - US_United States_vless_14177
-  - US_United States_ss_14181
   - US_United States_vless_14184
   - US_United States_vless_14187
   - US_United States_vmess_14188
@@ -21239,7 +21090,6 @@ proxy-groups:
   - US_United States_vless_14214
   - US_United States_trojan_14215
   - US_United States_vless_14216
-  - US_United States_ss_14222
   - US_United States_vless_14223
   - US_United States_vless_14226
   - US_United States_vless_14228
@@ -21247,7 +21097,6 @@ proxy-groups:
   - US_United States_vmess_14238
   - US_United States_ss_14239
   - US_United States_vless_14241
-  - US_United States_ss_14242
   - US_United States_vmess_14244
   - US_United States_hysteria2_14245
   - US_United States_vless_14247
@@ -21256,6 +21105,7 @@ proxy-groups:
   - US_United States_vmess_14253
   - US_United States_trojan_14254
   - US_United States_vless_14255
+  - US_United States_ss_14257
   - US_United States_trojan_14259
   - US_United States_trojan_14260
   - US_United States_vless_14267
@@ -21265,6 +21115,7 @@ proxy-groups:
   - US_United States_vless_14283
   - US_United States_trojan_14284
   - US_United States_trojan_14286
+  - US_United States_ss_14289
   - US_United States_vmess_14302
   - US_United States_vless_14304
   - US_United States_vless_14306
@@ -21305,7 +21156,6 @@ proxy-groups:
   - US_United States_vmess_14410
   - US_United States_vmess_14412
   - US_United States_hysteria2_14413
-  - US_United States_vmess_14417
   - US_United States_vmess_14419
   - US_United States_vless_14426
   - US_United States_trojan_14430
@@ -21316,14 +21166,12 @@ proxy-groups:
   - US_United States_vmess_14447
   - US_United States_vless_14450
   - US_United States_vless_14451
+  - US_United States_ss_14478
   - US_United States_vless_14480
   - US_United States_vless_14496
   - US_United States_trojan_164
   - US_United States_trojan_166
-  - US_United States_vmess_168
   - US_United States_ss_1610
-  - US_United States_vmess_1614
-  - US_United States_vmess_1615
   - US_United States_ss_1622
   - US_United States_ss_1624
 - name: 自动选择
@@ -21364,7 +21212,6 @@ proxy-groups:
   - US_United States_ss_578
   - US_United States_ss_587
   - US_United States_ss_589
-  - US_United States_vmess_590
   - US_United States_ss_592
   - US_United States_ss_595
   - US_United States_ss_596
@@ -21864,6 +21711,8 @@ proxy-groups:
   - US_United States_trojan_61356
   - US_United States_trojan_61367
   - US_United States_trojan_61372
+  - US_United States_trojan_61374
+  - US_United States_trojan_61377
   - US_United States_ss_61378
   - US_United States_vmess_61390
   - US_United States_trojan_61392
@@ -21871,14 +21720,12 @@ proxy-groups:
   - US_United States_ss_61394
   - US_United States_trojan_61405
   - US_United States_trojan_61408
-  - US_United States_trojan_61422
   - US_United States_ss_61424
   - US_United States_trojan_61429
   - US_United States_vmess_61430
   - US_United States_vmess_61438
   - US_United States_trojan_61445
   - US_United States_trojan_61461
-  - US_United States_trojan_61465
   - US_United States_trojan_61468
   - US_United States_ss_61476
   - US_United States_ss_61484
@@ -22001,6 +21848,7 @@ proxy-groups:
   - US_United States_trojan_61993
   - US_United States_trojan_61994
   - US_United States_trojan_61995
+  - US_United States_ssr_62303
   - US_United States_ss_62304
   - US_United States_ssr_62359
   - US_United States_ssr_62361
@@ -22283,7 +22131,6 @@ proxy-groups:
   - US_United States_vmess_63945
   - US_United States_vmess_63946
   - US_United States_vmess_63948
-  - US_United States_vmess_63949
   - US_United States_vmess_63950
   - US_United States_vmess_63951
   - US_United States_vmess_63952
@@ -22903,18 +22750,10 @@ proxy-groups:
   - US_United States_vmess_64978
   - US_United States_vmess_64979
   - US_United States_vmess_64980
-  - US_United States_vless_71
-  - US_United States_vless_74
-  - US_United States_vless_721
-  - US_United States_vless_724
-  - US_United States_vless_725
-  - US_United States_vless_726
-  - US_United States_vless_727
-  - US_United States_vless_728
-  - US_United States_vless_729
-  - US_United States_hysteria2_1011
-  - US_United States_hysteria2_1012
+  - US_United States_vmess_141
+  - US_United States_ss_1426
   - US_United States_ss_1427
+  - US_United States_ss_1431
   - US_United States_trojan_1433
   - US_United States_trojan_1436
   - US_United States_vmess_1444
@@ -22922,9 +22761,9 @@ proxy-groups:
   - US_United States_vless_1458
   - US_United States_vmess_1464
   - US_United States_vmess_1467
-  - US_United States_ss_1468
   - US_United States_ss_1469
   - US_United States_vmess_1471
+  - US_United States_ss_1472
   - US_United States_vmess_1473
   - US_United States_vless_1478
   - US_United States_ss_1483
@@ -22932,14 +22771,16 @@ proxy-groups:
   - US_United States_vless_1491
   - US_United States_vless_1492
   - US_United States_vless_1493
-  - US_United States_ss_1496
+  - US_United States_vmess_1494
   - US_United States_vmess_1498
   - US_United States_vmess_14102
   - US_United States_vmess_14104
   - US_United States_vless_14110
-  - US_United States_ss_14119
+  - US_United States_ss_14117
+  - US_United States_ss_14118
   - US_United States_vmess_14122
   - US_United States_vmess_14125
+  - US_United States_ss_14132
   - US_United States_vless_14135
   - US_United States_vmess_14137
   - US_United States_vless_14139
@@ -22947,16 +22788,17 @@ proxy-groups:
   - US_United States_vmess_14145
   - US_United States_vmess_14147
   - US_United States_vmess_14155
+  - US_United States_ss_14160
   - US_United States_vmess_14164
   - US_United States_vmess_14166
   - US_United States_vmess_14167
+  - US_United States_ss_14168
   - US_United States_vless_14169
   - US_United States_ss_14170
   - US_United States_vless_14171
   - US_United States_vmess_14174
   - US_United States_vless_14176
   - US_United States_vless_14177
-  - US_United States_ss_14181
   - US_United States_vless_14184
   - US_United States_vless_14187
   - US_United States_vmess_14188
@@ -22972,7 +22814,6 @@ proxy-groups:
   - US_United States_vless_14214
   - US_United States_trojan_14215
   - US_United States_vless_14216
-  - US_United States_ss_14222
   - US_United States_vless_14223
   - US_United States_vless_14226
   - US_United States_vless_14228
@@ -22980,7 +22821,6 @@ proxy-groups:
   - US_United States_vmess_14238
   - US_United States_ss_14239
   - US_United States_vless_14241
-  - US_United States_ss_14242
   - US_United States_vmess_14244
   - US_United States_hysteria2_14245
   - US_United States_vless_14247
@@ -22989,6 +22829,7 @@ proxy-groups:
   - US_United States_vmess_14253
   - US_United States_trojan_14254
   - US_United States_vless_14255
+  - US_United States_ss_14257
   - US_United States_trojan_14259
   - US_United States_trojan_14260
   - US_United States_vless_14267
@@ -22998,6 +22839,7 @@ proxy-groups:
   - US_United States_vless_14283
   - US_United States_trojan_14284
   - US_United States_trojan_14286
+  - US_United States_ss_14289
   - US_United States_vmess_14302
   - US_United States_vless_14304
   - US_United States_vless_14306
@@ -23038,7 +22880,6 @@ proxy-groups:
   - US_United States_vmess_14410
   - US_United States_vmess_14412
   - US_United States_hysteria2_14413
-  - US_United States_vmess_14417
   - US_United States_vmess_14419
   - US_United States_vless_14426
   - US_United States_trojan_14430
@@ -23049,14 +22890,12 @@ proxy-groups:
   - US_United States_vmess_14447
   - US_United States_vless_14450
   - US_United States_vless_14451
+  - US_United States_ss_14478
   - US_United States_vless_14480
   - US_United States_vless_14496
   - US_United States_trojan_164
   - US_United States_trojan_166
-  - US_United States_vmess_168
   - US_United States_ss_1610
-  - US_United States_vmess_1614
-  - US_United States_vmess_1615
   - US_United States_ss_1622
   - US_United States_ss_1624
 rules:
