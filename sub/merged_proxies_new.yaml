@@ -34,16 +34,16 @@ proxies:
 - name: US_United States_trojan_03
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 53018
-  server: 18.162.49.218
-  skip-cert-verify: true
+  port: 2008
+  server: 16.162.217.83
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 95.40.61.181
+  port: 3285
+  server: 13.230.159.214
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -59,25 +59,33 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4099
-  server: 16.162.45.118
+  server: 43.198.101.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_07
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 3135
-  server: 18.183.147.31
+  port: 24184
+  server: 18.181.205.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_09
+- name: US_United States_trojan_010
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 2511
-  server: 13.193.127.185
+  port: 3842
+  server: 52.195.217.94
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_011
+  network: tcp
+  password: BxceQaOe
+  port: 10578
+  server: 43.207.215.131
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_013
   network: tcp
@@ -91,7 +99,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 8359
-  server: 54.249.46.16
+  server: 13.114.188.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -108,20 +116,21 @@ proxies:
     headers:
       Host: vless.herogoing.top
     path: /tr?ed=2560
-- name: US_United States_trojan_118
+- name: US_United States_trojan_112
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 46639
-  server: 192.131.142.161
+  port: 8443
+  server: 149.104.6.78
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: US_United States_trojan_121
+- name: US_United States_trojan_117
   password: 8r<[9'l6hAO#8ZQi
-  port: 11307
-  server: 47.79.85.210
+  port: 46639
+  server: 192.131.142.161
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -129,20 +138,20 @@ proxies:
   cipher: auto
   name: US_United States_vmess_122
   port: 30806
+  server: 103.182.97.12
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_123
+  port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US_United States_trojan_123
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18122
-  server: 155.248.168.35
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - name: US_United States_trojan_126
   password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
+  port: 443
+  server: 64.110.104.30
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -155,47 +164,24 @@ proxies:
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
-- name: US_United States_trojan_128
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.110.104.30
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_132
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 47.84.54.115
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_133
-  password: 8r<[9'l6hAO#8ZQi
-  port: 22000
-  server: 47.79.237.236
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_134
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_129
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 207.148.125.245
+  server: 103.125.216.22
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: US_United States_trojan_135
+- name: US_United States_trojan_130
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
+  port: 8443
   server: 47.82.155.79
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: US_United States_trojan_138
-  network: ws
+- name: US_United States_trojan_134
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 188.166.230.196
@@ -203,53 +189,46 @@ proxies:
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
-- name: US_United States_trojan_139
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 178.128.90.108
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_140
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 159.65.143.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: US_United States_trojan_141
+- name: US_United States_trojan_136
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 146.190.102.51
+  server: 209.97.170.177
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: US_United States_trojan_142
-  network: ws
+- name: US_United States_trojan_137
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 188.166.247.45
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
-- name: US_United States_trojan_144
+- name: US_United States_trojan_138
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.223.50.79
+  server: 152.42.169.132
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_140
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: US_United States_trojan_141
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 108.162.195.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -258,19 +237,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_145
-  password: I0shjZ
-  port: 4433
-  server: xxxmg1.xiaoliebao.club
-  skip-cert-verify: false
-  sni: xxxmg1.xiaoliebao.club
-  type: trojan
-  udp: true
-- name: US_United States_trojan_147
+- name: US_United States_trojan_142
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
-  server: 172.64.147.106
+  server: 172.64.152.23
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -278,11 +249,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: US_United States_trojan_148
+- name: US_United States_trojan_143
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 199.68.156.253
+  server: 170.114.45.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -290,31 +261,43 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
+    path: /trTelegram @WangCai2
+- name: US_United States_trojan_144
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.129.167.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: '/tr | 免费机场TG@proxyshareCN | '
+- name: US_United States_trojan_145
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 198.199.115.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_146
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 163.192.47.170
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - name: US_United States_trojan_149
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.40.152.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: US_United States_trojan_150
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.40.148.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_151
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 173.245.49.253
+  server: 129.159.34.196
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -323,11 +306,76 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
+- name: US_United States_trojan_150
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.0.63.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_151
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 108.165.216.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: US_United States_trojan_152
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.238.70.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: US_United States_trojan_153
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 162.120.94.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: US_United States_trojan_154
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.42.200
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: US_United States_trojan_155
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 14.102.229.253
+  server: 159.242.242.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -340,8 +388,17 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 163.192.47.170
-  skip-cert-verify: true
+  server: 162.243.249.250
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: US_United States_trojan_157
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 150.241.122.110
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -349,31 +406,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_158
-  network: ws
+- name: US_United States_trojan_159
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.40.155.253
+  server: 149.104.110.97
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_159
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 134.195.211.140
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
 - name: US_United States_trojan_160
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 104.254.140.253
+  server: 64.181.255.215
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -383,102 +427,10 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
 - name: US_United States_trojan_161
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 107.151.188.120
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_162
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 199.34.230.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: US_United States_trojan_163
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 142.252.220.13
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_164
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 50.62.91.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_165
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 63.141.128.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_167
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 130.250.137.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /tr
-- name: US_United States_trojan_168
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.77.187.51
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_169
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.241.207.118
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
-- name: US_United States_trojan_171
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 161.145.150.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_172
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 66.81.247.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: US_United States_trojan_173
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 23.95.34.158
+  server: 173.70.8.178
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -486,32 +438,21 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_174
+- name: US_United States_trojan_165
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.65.240.40
+  server: 128.14.196.46
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_175
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_166
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 162.251.82.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_176
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.64.235.253
-  skip-cert-verify: true
+  port: 8443
+  server: 23.165.104.123
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -519,11 +460,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: US_United States_trojan_177
+- name: US_United States_trojan_167
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 34.136.112.104
+  server: 107.175.232.157
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -532,64 +473,17 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_179
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.77.206.201
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: US_United States_trojan_180
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 198.202.211.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_181
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 207.246.122.197
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_182
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.181.218.67
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: US_United States_trojan_184
+- name: US_United States_trojan_168
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 144.31.57.146
+  server: 72.56.103.129
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: US_United States_trojan_185
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.169.221.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_187
+- name: US_United States_trojan_170
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -598,50 +492,41 @@ proxies:
   tls: true
   type: trojan
   ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_171
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 144.31.57.146
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
     path: /trTelegram🇨🇳
-- name: US_United States_trojan_189
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.56.106.103
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_190
+- name: US_United States_trojan_172
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 144.31.81.233
+  server: 150.241.76.155
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: US_United States_trojan_191
-  network: ws
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_174
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 144.31.207.208
+  port: 443
+  server: 134.195.211.13
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: US_United States_trojan_192
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.169.223.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: US_United States_trojan_193
+- name: US_United States_trojan_175
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 172.245.148.211
+  server: 72.56.85.104
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -650,11 +535,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_195
+- name: US_United States_trojan_176
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 72.56.73.105
+  server: 150.241.75.45
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -663,11 +548,56 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_196
+- allowInsecure: '1'
+  fp: chrome
+  name: US_United States_trojan_177
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 198.46.174.212
+  port: 443
+  security: tls
+  server: 104.129.166.25
+  servername: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: US_United States_trojan_179
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 162.251.82.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: US_United States_trojan_181
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 104.18.16.56
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: US_United States_trojan_182
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 34.58.136.79
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: US_United States_trojan_184
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 144.31.82.35
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -676,15 +606,15 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: US_United States_trojan_197
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 51.81.209.21
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_186
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-128-gcm
-  name: US_United States_ss_1116
+  name: US_United States_ss_1106
   password: '666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -697,18 +627,6 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 2
-  cipher: auto
-  name: US_United States_vmess_1122
-  network: tcp
-  port: 30829
-  server: 103.182.97.12
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - name: US_United States_vless_44
   network: ws
   port: 443
@@ -2162,13 +2080,6 @@ proxies:
     path: /ray
     headers:
       Host: localhoster.ml
-- name: US_United States_trojan_6332
-  server: 128.14.196.46
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
 - name: US_United States_trojan_6333
   server: 195.211.124.140
   port: 2053
@@ -3608,18 +3519,48 @@ proxies:
     path: /api/v1/graphql
     headers:
       Host: cg1c04.waimaojd.com
-- name: US_United States_trojan_6525
-  server: 150.241.76.155
-  port: 2053
+- name: US_United States_trojan_6529
+  server: 18.162.49.218
+  port: 53018
   type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
+  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  sni: www.nintendogames.net
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-    headers:
-      Host: Koma-YT.PAGeS.Dev
+- name: US_United States_trojan_6530
+  server: 95.40.61.181
+  port: 29449
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: false
+- name: US_United States_trojan_6532
+  server: 16.162.45.118
+  port: 4099
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: false
+- name: US_United States_trojan_6533
+  server: 18.183.147.31
+  port: 3135
+  type: trojan
+  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_6535
+  server: 13.193.127.185
+  port: 2511
+  type: trojan
+  password: 635340b47bddf8f41c123dc6f2b5f7ce
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_6540
+  server: 54.249.46.16
+  port: 8359
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: false
 - name: US_United States_trojan_6541
   server: 167.68.4.199
   port: 2053
@@ -3644,6 +3585,18 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.gossipglove.com
+- name: US_United States_trojan_6553
+  server: 38.77.187.51
+  port: 443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2'
+    headers:
+      Host: Koma-YT.PAGeS.Dev
 - name: US_United States_trojan_6556
   server: 216.24.57.250
   port: 443
@@ -5504,13 +5457,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   skip-cert-verify: false
-- name: US_United States_trojan_61056
-  server: 209.97.170.177
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
 - name: US_United States_trojan_61057
   server: 192.0.54.253
   port: 443
@@ -5553,13 +5499,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   skip-cert-verify: false
-- name: US_United States_trojan_61067
-  server: 159.242.242.253
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
 - name: US_United States_trojan_61068
   server: 38.107.232.124
   port: 2053
@@ -5581,23 +5520,16 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   skip-cert-verify: false
+- name: US_United States_trojan_61072
+  server: 107.151.188.120
+  port: 443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: false
 - name: US_United States_trojan_61073
   server: 72.56.24.235
   port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
-- name: US_United States_trojan_61074
-  server: 149.104.110.97
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
-- name: US_United States_trojan_61075
-  server: 173.70.8.178
-  port: 8443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
@@ -5700,13 +5632,6 @@ proxies:
   password: 8r%3C%5B9%27l6hAO%238ZQi
   sni: Koma-YT.PAGeS.Dev
   skip-cert-verify: false
-- name: US_United States_trojan_61093
-  server: 150.241.75.45
-  port: 443
-  type: trojan
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
 - name: US_United States_trojan_61094
   server: 44.217.235.114
   port: 2053
@@ -5730,6 +5655,13 @@ proxies:
   skip-cert-verify: false
 - name: US_United States_trojan_61097
   server: 107.172.180.151
+  port: 443
+  type: trojan
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: false
+- name: US_United States_trojan_61098
+  server: 172.245.148.211
   port: 443
   type: trojan
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -6515,12 +6447,6 @@ proxies:
   type: trojan
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   skip-cert-verify: false
-- name: US_United States_trojan_61504
-  server: official.tokyometropolis.odesa.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: false
 - name: US_United States_trojan_61513
   server: 155.248.172.87
   port: 28443
@@ -6604,6 +6530,18 @@ proxies:
   port: 443
   type: trojan
   password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
+  skip-cert-verify: false
+- name: US_United States_trojan_61554
+  server: official.tokyometropolis.kherson.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
+- name: US_United States_trojan_61557
+  server: official.tokyometropolis.kharkov.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: false
 - name: US_United States_ss_61558
   server: 172.99.190.7
@@ -6701,12 +6639,6 @@ proxies:
   port: 443
   type: trojan
   password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: false
-- name: US_United States_trojan_61635
-  server: official.tokyometropolis.odessa.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: false
 - name: US_United States_trojan_61640
   server: 51.81.82.15
@@ -8596,19 +8528,6 @@ proxies:
     path: linkvws
     headers:
       Host: lammaland.org
-- name: US_United States_vmess_63749
-  server: 172.64.152.23
-  port: 2053
-  type: vmess
-  uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: aliyedast.gwkaqq.lol
-  network: ws
-  ws-opts:
-    path: /
 - name: US_United States_vmess_63750
   server: 137.175.49.124
   port: 37009
@@ -18771,11 +18690,11 @@ proxies:
     short-id: f690c1046814dc9d
   udp: true
 - insecure: '1'
-  name: US_United States_hysteria2_1012
+  name: US_United States_hysteria2_1013
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60007
+  port: 60008
   server: zf.9966690.xyz
   skip-cert-verify: true
   tls:
@@ -18783,51 +18702,60 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: US_United States_vless_1033
-  network: tcp
-  port: 44073
-  reality-opts:
-    public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4
-  security: reality
-  server: 138.2.50.155
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  uuid: 11d29ec6-be66-4f59-97c6-7cff836ea318
 - encryption: none
-  name: US_United States_vless_1043
+  name: US_United States_vless_1029
   network: ws
-  port: 443
+  port: 74
   security: tls
-  server: 104.25.242.55
-  servername: juzi.qea.ccwu.cc
+  server: 172.104.113.18
+  servername: dcsrzh.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
   ws-opts:
     headers:
-      Host: juzi.qea.ccwu.cc
-    path: /
-- name: US_United States_vless_1046
+      Host: dcsrzh.ccwu.cc
+    path: /?ed=2560
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: US_United States_vless_1044
   network: ws
-  port: 443
-  server: 69.40.207.156
+  port: 8443
+  security: tls
+  server: 161.33.131.18
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- name: US_United States_vless_1049
+  network: ws
+  port: 449
+  security: tls
+  server: 172.237.30.89
+  tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfengsecurity=tls
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: US_United States_vless_1049
+  name: US_United States_vless_1050
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 164.90.144.191
+  server: cf9.danfeng.eu.org
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   sni: vfa9.cdn-stream.fgfw.indevs.in
@@ -18840,36 +18768,86 @@ proxies:
     path: /danfeng?ed=2560
 - name: US_United States_vless_1051
   network: ws
-  port: 2083
+  port: 443
   security: tls
-  server: 209.38.104.134
-  servername: vfa9.cdn-stream.fgfw.indevs.in
+  server: 137.131.8.2
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- name: US_United States_vless_1052
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: US_United States_vless_1052
   network: ws
-  port: 8443
-  server: 164.92.219.230
+  port: 443
+  security: tls
+  server: 207.244.109.45
   servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- name: US_United States_vless_1053
+  network: ws
+  port: 443
+  security: tls
+  server: 20.120.129.200
+  servername: sni.skylee4.cloudns.ch
+  tls: true
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
+- name: US_United States_vless_1056
+  network: ws
+  port: 2087
+  security: tls
+  server: 104.17.139.37
+  servername: joey.freen1.de5.net
+  tls: true
+  type: vless
+  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+  ws-opts:
+    headers:
+      Host: joey.freen1.de5.net
+    path: /?ed=2048fp=chrome
+- encryption: none
+  name: US_United States_vless_1059
+  network: ws
+  port: 443
+  security: tls
+  server: 172.104.250.194
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefoxsecurity=tls
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfeng?ed
 - client-fingerprint: firefox
   encryption: none
-  name: US_United States_vless_1055
+  fp: firefox
+  name: US_United States_vless_1061
   network: ws
-  port: 443
+  port: 2053
   security: tls
-  server: 162.243.196.78
+  server: 166.1.201.112
   servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  sni: vfa9.cdn-stream.fgfw.indevs.in
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -18882,77 +18860,99 @@ proxies:
   fp: firefox
   name: US_United States_vless_1063
   network: ws
-  port: 443
+  port: 10443
   security: tls
-  server: 45.77.161.186
+  server: 132.226.0.87
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: US_United States_vless_1071
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: ios
+  name: US_United States_vless_1072
+  network: tcp
+  port: 38812
+  reality-opts:
+    public-key: BqRFWqRHs-JWWKbVSdO_IH2cuSD3N8VtUZbL1zPL5Ww
+  server: bb.bing.na.am
+  servername: cdn.jsdelivr.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b04deed-ce50-41e9-8637-bb1bd648a0cc
+- name: US_United States_vless_1073
+  network: ws
+  port: 2053
+  server: 162.159.44.66
+  servername: fu.baiproxy.us.ci
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: fu.baiproxy.us.ci
+    path: /?ed=2560security=tls
+- encryption: none
+  name: US_United States_vless_1093
   network: ws
   port: 443
   security: tls
-  server: 108.83.128.145
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  sni: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- name: US_United States_vless_1074
-  network: ws
-  port: 443
-  server: 103.91.219.252
+  server: 64.186.227.227
   servername: sni.skylee4.cloudns.ch
+  tls: true
   type: vless
   uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
   ws-opts:
     headers:
       Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.netfp=chromesecurity=tls
-- name: US_United States_vless_10129
-  network: ws
-  port: 2053
+    path: /proxyip
+- flow: xtls-rprx-vision-udp443
+  name: US_United States_vless_10106
+  port: 17044
   security: tls
-  server: www.interserver.net
+  server: usvless.yydzx.xyz
+  servername: usvless.yydzx.xyz
   tls: true
   type: vless
-  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
-  ws-opts:
-    headers:
-      Host: qyi.fqjd663.ggff.net
-    path: /
-- name: US_United States_vless_10130
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: US_United States_vless_10128
   network: ws
   port: 443
   security: tls
-  server: 172.64.146.1
-  servername: sni.111000.dynv6.net
+  server: 54.202.144.146
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.111000.dynv6.net
-    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- name: US_United States_vless_10130
+  port: 36895
+  reality-opts:
+    public-key: SKJQzoN8Lh8kqrDEyKzevbHHmfRhKe8XmzBxPYXF2A4
+    short-id: 5a585c3e894bf074
+  security: reality
+  server: 44.242.50.106
+  tls: true
+  type: vless
+  uuid: 5c875449-ae7d-46f8-b919-5a29f271dfce
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_10151
+  name: US_United States_vless_10152
   network: tcp
   port: 21796
   reality-opts:
@@ -18970,7 +18970,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_10152
+  name: US_United States_vless_10153
   network: tcp
   port: 23951
   reality-opts:
@@ -18985,7 +18985,7 @@ proxies:
   udp: true
   uuid: 3e62a6f1-f8cb-40eb-9c33-fc4ed39a080e
   xudp: true
-- name: US_United States_vless_10159
+- name: US_United States_vless_10160
   network: ws
   port: 8443
   server: 154.26.181.106
@@ -19001,7 +19001,7 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: US_United States_vless_10160
+  name: US_United States_vless_10161
   network: ws
   port: 443
   server: 154.17.5.177
@@ -19017,7 +19017,7 @@ proxies:
     path: /proxyip
   xudp: true
 - encryption: none
-  name: US_United States_vless_10162
+  name: US_United States_vless_10163
   network: ws
   port: '443'
   server: 64.186.232.95
@@ -19033,7 +19033,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /proxyip=ProxyIP.CMLiussss.net
   xudp: true
-- name: US_United States_vless_10163
+- name: US_United States_vless_10164
   network: ws
   port: '8443'
   server: 69.63.199.39
@@ -19052,7 +19052,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_10166
+  name: US_United States_vless_10167
   network: tcp
   port: '51808'
   reality-opts:
@@ -19068,7 +19068,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_10167
+  name: US_United States_vless_10168
   network: tcp
   port: '42376'
   reality-opts:
@@ -19123,6 +19123,20 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
   udp: true
   delay: 1356
+- name: US_United States_trojan_1635
+  server: 192.169.223.253
+  port: 443
+  type: trojan
+  password: 8r<[9'l6hAO#8ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+  udp: true
+  delay: 2101
 - name: US_United States_trojan_1636
   server: 50.62.195.253
   port: 443
@@ -19151,6 +19165,20 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
   udp: true
   delay: 1604
+- name: US_United States_trojan_1639
+  server: 45.40.148.253
+  port: 443
+  type: trojan
+  password: 8r<[9'l6hAO#8ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+  udp: true
+  delay: 1018
 - name: US_United States_trojan_1640
   server: 104.129.165.253
   port: 443
@@ -19165,6 +19193,20 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
   udp: true
   delay: 783
+- name: US_United States_trojan_1642
+  server: 161.145.150.253
+  port: 443
+  type: trojan
+  password: 8r<[9'l6hAO#8ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+  udp: true
+  delay: 1530
 - name: US_United States_trojan_1643
   server: 192.18.136.255
   port: 443
@@ -19232,70 +19274,59 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_09
+  - US_United States_trojan_010
+  - US_United States_trojan_011
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_020
-  - US_United States_trojan_118
-  - US_United States_trojan_121
+  - US_United States_trojan_112
+  - US_United States_trojan_117
   - US_United States_vmess_122
-  - US_United States_trojan_123
+  - US_United States_vmess_123
   - US_United States_trojan_126
   - US_United States_trojan_127
-  - US_United States_trojan_128
-  - US_United States_trojan_132
-  - US_United States_trojan_133
+  - US_United States_trojan_129
+  - US_United States_trojan_130
   - US_United States_trojan_134
-  - US_United States_trojan_135
+  - US_United States_trojan_136
+  - US_United States_trojan_137
   - US_United States_trojan_138
-  - US_United States_trojan_139
   - US_United States_trojan_140
   - US_United States_trojan_141
   - US_United States_trojan_142
+  - US_United States_trojan_143
   - US_United States_trojan_144
   - US_United States_trojan_145
-  - US_United States_trojan_147
-  - US_United States_trojan_148
+  - US_United States_trojan_146
   - US_United States_trojan_149
   - US_United States_trojan_150
   - US_United States_trojan_151
+  - US_United States_trojan_152
+  - US_United States_trojan_153
+  - US_United States_trojan_154
   - US_United States_trojan_155
   - US_United States_trojan_156
-  - US_United States_trojan_158
+  - US_United States_trojan_157
   - US_United States_trojan_159
   - US_United States_trojan_160
   - US_United States_trojan_161
-  - US_United States_trojan_162
-  - US_United States_trojan_163
-  - US_United States_trojan_164
   - US_United States_trojan_165
+  - US_United States_trojan_166
   - US_United States_trojan_167
   - US_United States_trojan_168
-  - US_United States_trojan_169
+  - US_United States_trojan_170
   - US_United States_trojan_171
   - US_United States_trojan_172
-  - US_United States_trojan_173
   - US_United States_trojan_174
   - US_United States_trojan_175
   - US_United States_trojan_176
   - US_United States_trojan_177
   - US_United States_trojan_179
-  - US_United States_trojan_180
   - US_United States_trojan_181
   - US_United States_trojan_182
   - US_United States_trojan_184
-  - US_United States_trojan_185
-  - US_United States_trojan_187
-  - US_United States_trojan_189
-  - US_United States_trojan_190
-  - US_United States_trojan_191
-  - US_United States_trojan_192
-  - US_United States_trojan_193
-  - US_United States_trojan_195
-  - US_United States_trojan_196
-  - US_United States_trojan_197
-  - US_United States_ss_1116
-  - US_United States_vmess_1122
+  - US_United States_vmess_186
+  - US_United States_ss_1106
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -19432,7 +19463,6 @@ proxy-groups:
   - US_United States_vmess_6316
   - US_United States_vmess_6321
   - US_United States_vmess_6322
-  - US_United States_trojan_6332
   - US_United States_trojan_6333
   - US_United States_trojan_6335
   - US_United States_trojan_6338
@@ -19549,9 +19579,15 @@ proxy-groups:
   - US_United States_ss_6521
   - US_United States_vmess_6522
   - US_United States_vmess_6523
-  - US_United States_trojan_6525
+  - US_United States_trojan_6529
+  - US_United States_trojan_6530
+  - US_United States_trojan_6532
+  - US_United States_trojan_6533
+  - US_United States_trojan_6535
+  - US_United States_trojan_6540
   - US_United States_trojan_6541
   - US_United States_trojan_6545
+  - US_United States_trojan_6553
   - US_United States_trojan_6556
   - US_United States_vmess_6557
   - US_United States_ss_6563
@@ -19732,20 +19768,17 @@ proxy-groups:
   - US_United States_vmess_61036
   - US_United States_trojan_61054
   - US_United States_trojan_61055
-  - US_United States_trojan_61056
   - US_United States_trojan_61057
   - US_United States_trojan_61059
   - US_United States_trojan_61062
   - US_United States_trojan_61064
   - US_United States_trojan_61065
   - US_United States_trojan_61066
-  - US_United States_trojan_61067
   - US_United States_trojan_61068
   - US_United States_trojan_61069
   - US_United States_trojan_61071
+  - US_United States_trojan_61072
   - US_United States_trojan_61073
-  - US_United States_trojan_61074
-  - US_United States_trojan_61075
   - US_United States_trojan_61076
   - US_United States_trojan_61077
   - US_United States_trojan_61078
@@ -19760,11 +19793,11 @@ proxy-groups:
   - US_United States_trojan_61090
   - US_United States_trojan_61091
   - US_United States_trojan_61092
-  - US_United States_trojan_61093
   - US_United States_trojan_61094
   - US_United States_trojan_61095
   - US_United States_trojan_61096
   - US_United States_trojan_61097
+  - US_United States_trojan_61098
   - US_United States_ss_61105
   - US_United States_trojan_61106
   - US_United States_trojan_61108
@@ -19845,7 +19878,6 @@ proxy-groups:
   - US_United States_ss_61495
   - US_United States_trojan_61499
   - US_United States_trojan_61502
-  - US_United States_trojan_61504
   - US_United States_trojan_61513
   - US_United States_trojan_61514
   - US_United States_trojan_61515
@@ -19859,6 +19891,8 @@ proxy-groups:
   - US_United States_trojan_61536
   - US_United States_trojan_61547
   - US_United States_trojan_61552
+  - US_United States_trojan_61554
+  - US_United States_trojan_61557
   - US_United States_ss_61558
   - US_United States_vmess_61570
   - US_United States_trojan_61572
@@ -19871,7 +19905,6 @@ proxy-groups:
   - US_United States_vmess_61610
   - US_United States_vmess_61618
   - US_United States_trojan_61625
-  - US_United States_trojan_61635
   - US_United States_trojan_61640
   - US_United States_trojan_61647
   - US_United States_ss_61655
@@ -20091,7 +20124,6 @@ proxy-groups:
   - US_United States_vmess_63689
   - US_United States_vmess_63694
   - US_United States_vmess_63732
-  - US_United States_vmess_63749
   - US_United States_vmess_63750
   - US_United States_vmess_63752
   - US_United States_vmess_63753
@@ -20911,33 +20943,41 @@ proxy-groups:
   - US_United States_vless_746
   - US_United States_vless_747
   - US_United States_vless_749
-  - US_United States_hysteria2_1012
-  - US_United States_vless_1033
-  - US_United States_vless_1043
-  - US_United States_vless_1046
+  - US_United States_hysteria2_1013
+  - US_United States_vless_1029
+  - US_United States_vless_1044
   - US_United States_vless_1049
+  - US_United States_vless_1050
   - US_United States_vless_1051
   - US_United States_vless_1052
-  - US_United States_vless_1055
+  - US_United States_vless_1053
+  - US_United States_vless_1056
+  - US_United States_vless_1059
+  - US_United States_vless_1061
   - US_United States_vless_1063
-  - US_United States_vless_1071
-  - US_United States_vless_1074
-  - US_United States_vless_10129
+  - US_United States_vless_1072
+  - US_United States_vless_1073
+  - US_United States_vless_1093
+  - US_United States_vless_10106
+  - US_United States_vless_10128
   - US_United States_vless_10130
-  - US_United States_vless_10151
   - US_United States_vless_10152
-  - US_United States_vless_10159
+  - US_United States_vless_10153
   - US_United States_vless_10160
-  - US_United States_vless_10162
+  - US_United States_vless_10161
   - US_United States_vless_10163
-  - US_United States_vless_10166
+  - US_United States_vless_10164
   - US_United States_vless_10167
+  - US_United States_vless_10168
   - US_United States_trojan_1618
   - US_United States_trojan_1620
   - US_United States_trojan_1632
+  - US_United States_trojan_1635
   - US_United States_trojan_1636
   - US_United States_trojan_1638
+  - US_United States_trojan_1639
   - US_United States_trojan_1640
+  - US_United States_trojan_1642
   - US_United States_trojan_1643
   - US_United States_vmess_1644
   - US_United States_ss_1646
@@ -20955,70 +20995,59 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_09
+  - US_United States_trojan_010
+  - US_United States_trojan_011
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_020
-  - US_United States_trojan_118
-  - US_United States_trojan_121
+  - US_United States_trojan_112
+  - US_United States_trojan_117
   - US_United States_vmess_122
-  - US_United States_trojan_123
+  - US_United States_vmess_123
   - US_United States_trojan_126
   - US_United States_trojan_127
-  - US_United States_trojan_128
-  - US_United States_trojan_132
-  - US_United States_trojan_133
+  - US_United States_trojan_129
+  - US_United States_trojan_130
   - US_United States_trojan_134
-  - US_United States_trojan_135
+  - US_United States_trojan_136
+  - US_United States_trojan_137
   - US_United States_trojan_138
-  - US_United States_trojan_139
   - US_United States_trojan_140
   - US_United States_trojan_141
   - US_United States_trojan_142
+  - US_United States_trojan_143
   - US_United States_trojan_144
   - US_United States_trojan_145
-  - US_United States_trojan_147
-  - US_United States_trojan_148
+  - US_United States_trojan_146
   - US_United States_trojan_149
   - US_United States_trojan_150
   - US_United States_trojan_151
+  - US_United States_trojan_152
+  - US_United States_trojan_153
+  - US_United States_trojan_154
   - US_United States_trojan_155
   - US_United States_trojan_156
-  - US_United States_trojan_158
+  - US_United States_trojan_157
   - US_United States_trojan_159
   - US_United States_trojan_160
   - US_United States_trojan_161
-  - US_United States_trojan_162
-  - US_United States_trojan_163
-  - US_United States_trojan_164
   - US_United States_trojan_165
+  - US_United States_trojan_166
   - US_United States_trojan_167
   - US_United States_trojan_168
-  - US_United States_trojan_169
+  - US_United States_trojan_170
   - US_United States_trojan_171
   - US_United States_trojan_172
-  - US_United States_trojan_173
   - US_United States_trojan_174
   - US_United States_trojan_175
   - US_United States_trojan_176
   - US_United States_trojan_177
   - US_United States_trojan_179
-  - US_United States_trojan_180
   - US_United States_trojan_181
   - US_United States_trojan_182
   - US_United States_trojan_184
-  - US_United States_trojan_185
-  - US_United States_trojan_187
-  - US_United States_trojan_189
-  - US_United States_trojan_190
-  - US_United States_trojan_191
-  - US_United States_trojan_192
-  - US_United States_trojan_193
-  - US_United States_trojan_195
-  - US_United States_trojan_196
-  - US_United States_trojan_197
-  - US_United States_ss_1116
-  - US_United States_vmess_1122
+  - US_United States_vmess_186
+  - US_United States_ss_1106
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -21155,7 +21184,6 @@ proxy-groups:
   - US_United States_vmess_6316
   - US_United States_vmess_6321
   - US_United States_vmess_6322
-  - US_United States_trojan_6332
   - US_United States_trojan_6333
   - US_United States_trojan_6335
   - US_United States_trojan_6338
@@ -21272,9 +21300,15 @@ proxy-groups:
   - US_United States_ss_6521
   - US_United States_vmess_6522
   - US_United States_vmess_6523
-  - US_United States_trojan_6525
+  - US_United States_trojan_6529
+  - US_United States_trojan_6530
+  - US_United States_trojan_6532
+  - US_United States_trojan_6533
+  - US_United States_trojan_6535
+  - US_United States_trojan_6540
   - US_United States_trojan_6541
   - US_United States_trojan_6545
+  - US_United States_trojan_6553
   - US_United States_trojan_6556
   - US_United States_vmess_6557
   - US_United States_ss_6563
@@ -21455,20 +21489,17 @@ proxy-groups:
   - US_United States_vmess_61036
   - US_United States_trojan_61054
   - US_United States_trojan_61055
-  - US_United States_trojan_61056
   - US_United States_trojan_61057
   - US_United States_trojan_61059
   - US_United States_trojan_61062
   - US_United States_trojan_61064
   - US_United States_trojan_61065
   - US_United States_trojan_61066
-  - US_United States_trojan_61067
   - US_United States_trojan_61068
   - US_United States_trojan_61069
   - US_United States_trojan_61071
+  - US_United States_trojan_61072
   - US_United States_trojan_61073
-  - US_United States_trojan_61074
-  - US_United States_trojan_61075
   - US_United States_trojan_61076
   - US_United States_trojan_61077
   - US_United States_trojan_61078
@@ -21483,11 +21514,11 @@ proxy-groups:
   - US_United States_trojan_61090
   - US_United States_trojan_61091
   - US_United States_trojan_61092
-  - US_United States_trojan_61093
   - US_United States_trojan_61094
   - US_United States_trojan_61095
   - US_United States_trojan_61096
   - US_United States_trojan_61097
+  - US_United States_trojan_61098
   - US_United States_ss_61105
   - US_United States_trojan_61106
   - US_United States_trojan_61108
@@ -21568,7 +21599,6 @@ proxy-groups:
   - US_United States_ss_61495
   - US_United States_trojan_61499
   - US_United States_trojan_61502
-  - US_United States_trojan_61504
   - US_United States_trojan_61513
   - US_United States_trojan_61514
   - US_United States_trojan_61515
@@ -21582,6 +21612,8 @@ proxy-groups:
   - US_United States_trojan_61536
   - US_United States_trojan_61547
   - US_United States_trojan_61552
+  - US_United States_trojan_61554
+  - US_United States_trojan_61557
   - US_United States_ss_61558
   - US_United States_vmess_61570
   - US_United States_trojan_61572
@@ -21594,7 +21626,6 @@ proxy-groups:
   - US_United States_vmess_61610
   - US_United States_vmess_61618
   - US_United States_trojan_61625
-  - US_United States_trojan_61635
   - US_United States_trojan_61640
   - US_United States_trojan_61647
   - US_United States_ss_61655
@@ -21814,7 +21845,6 @@ proxy-groups:
   - US_United States_vmess_63689
   - US_United States_vmess_63694
   - US_United States_vmess_63732
-  - US_United States_vmess_63749
   - US_United States_vmess_63750
   - US_United States_vmess_63752
   - US_United States_vmess_63753
@@ -22634,33 +22664,41 @@ proxy-groups:
   - US_United States_vless_746
   - US_United States_vless_747
   - US_United States_vless_749
-  - US_United States_hysteria2_1012
-  - US_United States_vless_1033
-  - US_United States_vless_1043
-  - US_United States_vless_1046
+  - US_United States_hysteria2_1013
+  - US_United States_vless_1029
+  - US_United States_vless_1044
   - US_United States_vless_1049
+  - US_United States_vless_1050
   - US_United States_vless_1051
   - US_United States_vless_1052
-  - US_United States_vless_1055
+  - US_United States_vless_1053
+  - US_United States_vless_1056
+  - US_United States_vless_1059
+  - US_United States_vless_1061
   - US_United States_vless_1063
-  - US_United States_vless_1071
-  - US_United States_vless_1074
-  - US_United States_vless_10129
+  - US_United States_vless_1072
+  - US_United States_vless_1073
+  - US_United States_vless_1093
+  - US_United States_vless_10106
+  - US_United States_vless_10128
   - US_United States_vless_10130
-  - US_United States_vless_10151
   - US_United States_vless_10152
-  - US_United States_vless_10159
+  - US_United States_vless_10153
   - US_United States_vless_10160
-  - US_United States_vless_10162
+  - US_United States_vless_10161
   - US_United States_vless_10163
-  - US_United States_vless_10166
+  - US_United States_vless_10164
   - US_United States_vless_10167
+  - US_United States_vless_10168
   - US_United States_trojan_1618
   - US_United States_trojan_1620
   - US_United States_trojan_1632
+  - US_United States_trojan_1635
   - US_United States_trojan_1636
   - US_United States_trojan_1638
+  - US_United States_trojan_1639
   - US_United States_trojan_1640
+  - US_United States_trojan_1642
   - US_United States_trojan_1643
   - US_United States_vmess_1644
   - US_United States_ss_1646
