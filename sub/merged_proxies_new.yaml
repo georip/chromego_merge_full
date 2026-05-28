@@ -105,23 +105,119 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_113
-  network: tcp
+  name: US_United States_vmess_111
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 2
   cipher: auto
-  name: US_United States_vmess_134
-  port: 30804
-  server: v4.hdacd.com
+  name: US_United States_vmess_112
+  port: 30809
+  server: v9.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: US_United States_trojan_129
+  password: d30ab83dbde4480082048fb315bedebd
+  port: 443
+  server: 5.180.78.22
+  skip-cert-verify: true
+  sni: 5.180.78.22
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_132
+  network: ws
+  port: 49632
+  server: 45.63.7.19
+  type: vmess
+  uuid: 05f2bbe3-f29a-480f-ebfb-0deebb80741d
+  ws-opts:
+    path: /05f2bbe3-f29a-480f-ebfb-0deebb80741d
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_143
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_144
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_146
+  port: 30836
+  server: 103.182.97.244
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: US_United States_trojan_153
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 2008
+  server: 52.69.114.14
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_154
+  network: tcp
+  password: BxceQaOe
+  port: 4327
+  server: 54.168.196.137
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_156
+  network: tcp
+  password: BxceQaOe
+  port: 4099
+  server: 13.231.225.85
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_157
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 8066
+  server: 16.163.29.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_159
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 4840
+  server: 95.40.114.115
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_161
+  network: tcp
+  password: BxceQaOe
+  port: 39756
+  server: 35.78.121.219
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_164
+  network: tcp
+  password: BxceQaOe
+  port: 2702
+  server: 43.206.155.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - cipher: aes-128-gcm
-  name: US_United States_ss_156
+  name: US_United States_ss_170
   password: '666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -3419,6 +3515,20 @@ proxies:
     path: /y475
     headers:
       Host: free.frli.xyz
+- name: US_United States_vmess_6572
+  server: ac2088.herokuapp.com
+  port: 443
+  type: vmess
+  uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess
+    headers:
+      Host: ac2088.herokuapp.com
 - name: US_United States_vmess_6573
   server: 104.19.45.117
   port: 443
@@ -5855,6 +5965,12 @@ proxies:
   type: trojan
   password: 8a03bc28-2a33-42c4-be59-30464dbb9954
   skip-cert-verify: false
+- name: US_United States_trojan_61413
+  server: official.tokyometropolis.odesa.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
 - name: US_United States_trojan_61422
   server: 155.248.172.87
   port: 28443
@@ -6035,6 +6151,12 @@ proxies:
   port: 443
   type: trojan
   password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: false
+- name: US_United States_trojan_61544
+  server: official.tokyometropolis.odessa.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: false
 - name: US_United States_trojan_61549
   server: 51.81.82.15
@@ -18009,16 +18131,6 @@ proxies:
   password: amazonskr05
   cipher: aes-256-cfb
   delay: 1537
-- name: US_United States_trojan_1625
-  server: 5.180.78.22
-  type: trojan
-  country: 🇸🇬SG
-  port: 443
-  password: d30ab83dbde4480082048fb315bedebd
-  sni: 5.180.78.22
-  skip-cert-verify: true
-  udp: true
-  delay: 1892
 - name: US_United States_ss_1626
   server: 47.82.148.244
   type: ss
@@ -18043,9 +18155,21 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_013
   - US_United States_trojan_014
-  - US_United States_vmess_113
-  - US_United States_vmess_134
-  - US_United States_ss_156
+  - US_United States_vmess_111
+  - US_United States_vmess_112
+  - US_United States_trojan_129
+  - US_United States_vmess_132
+  - US_United States_vmess_143
+  - US_United States_vmess_144
+  - US_United States_vmess_146
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_156
+  - US_United States_trojan_157
+  - US_United States_trojan_159
+  - US_United States_trojan_161
+  - US_United States_trojan_164
+  - US_United States_ss_170
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -18334,6 +18458,7 @@ proxy-groups:
   - US_United States_vmess_6568
   - US_United States_vmess_6569
   - US_United States_vmess_6570
+  - US_United States_vmess_6572
   - US_United States_vmess_6573
   - US_United States_ss_6574
   - US_United States_vmess_6575
@@ -18573,6 +18698,7 @@ proxy-groups:
   - US_United States_ss_61404
   - US_United States_trojan_61408
   - US_United States_trojan_61411
+  - US_United States_trojan_61413
   - US_United States_trojan_61422
   - US_United States_trojan_61423
   - US_United States_trojan_61424
@@ -18598,6 +18724,7 @@ proxy-groups:
   - US_United States_vmess_61519
   - US_United States_vmess_61527
   - US_United States_trojan_61534
+  - US_United States_trojan_61544
   - US_United States_trojan_61549
   - US_United States_trojan_61556
   - US_United States_ss_61564
@@ -19635,7 +19762,6 @@ proxy-groups:
   - US_United States_trojan_162
   - US_United States_trojan_167
   - US_United States_ss_1618
-  - US_United States_trojan_1625
   - US_United States_ss_1626
 - name: 自动选择
   type: url-test
@@ -19653,9 +19779,21 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_013
   - US_United States_trojan_014
-  - US_United States_vmess_113
-  - US_United States_vmess_134
-  - US_United States_ss_156
+  - US_United States_vmess_111
+  - US_United States_vmess_112
+  - US_United States_trojan_129
+  - US_United States_vmess_132
+  - US_United States_vmess_143
+  - US_United States_vmess_144
+  - US_United States_vmess_146
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_156
+  - US_United States_trojan_157
+  - US_United States_trojan_159
+  - US_United States_trojan_161
+  - US_United States_trojan_164
+  - US_United States_ss_170
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -19944,6 +20082,7 @@ proxy-groups:
   - US_United States_vmess_6568
   - US_United States_vmess_6569
   - US_United States_vmess_6570
+  - US_United States_vmess_6572
   - US_United States_vmess_6573
   - US_United States_ss_6574
   - US_United States_vmess_6575
@@ -20183,6 +20322,7 @@ proxy-groups:
   - US_United States_ss_61404
   - US_United States_trojan_61408
   - US_United States_trojan_61411
+  - US_United States_trojan_61413
   - US_United States_trojan_61422
   - US_United States_trojan_61423
   - US_United States_trojan_61424
@@ -20208,6 +20348,7 @@ proxy-groups:
   - US_United States_vmess_61519
   - US_United States_vmess_61527
   - US_United States_trojan_61534
+  - US_United States_trojan_61544
   - US_United States_trojan_61549
   - US_United States_trojan_61556
   - US_United States_ss_61564
@@ -21245,7 +21386,6 @@ proxy-groups:
   - US_United States_trojan_162
   - US_United States_trojan_167
   - US_United States_ss_1618
-  - US_United States_trojan_1625
   - US_United States_ss_1626
 rules:
 - DOMAIN,clash.razord.top,DIRECT
