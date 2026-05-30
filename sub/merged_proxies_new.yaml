@@ -34,16 +34,16 @@ proxies:
 - name: US_United States_trojan_03
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2008
-  server: 52.69.114.14
-  skip-cert-verify: false
+  port: 53018
+  server: 18.166.208.219
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
-  port: 4327
-  server: 54.168.196.137
+  port: 50712
+  server: 13.231.192.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -55,43 +55,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_06
-  network: tcp
-  password: BxceQaOe
-  port: 4099
-  server: 13.231.225.85
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: US_United States_trojan_07
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 8066
-  server: 16.163.29.124
+  port: 24184
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_09
+- name: US_United States_trojan_010
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 4840
-  server: 95.40.114.115
+  server: 54.238.76.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
-  port: 39756
-  server: 35.78.121.219
+  port: 7484
+  server: 18.166.59.84
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_014
   network: tcp
   password: BxceQaOe
-  port: 2702
-  server: 43.206.155.159
+  port: 17801
+  server: 43.199.229.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -144,36 +136,58 @@ proxies:
     path: /7fd8d1db-96ec-4e46-80a8-74ad9472384e-vm
 - alterId: 2
   cipher: auto
-  name: US_United States_vmess_116
+  name: US_United States_vmess_113
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_118
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_121
+- alpn:
+  - h2
+  - http/1.1
+  name: US_United States_trojan_178
   network: ws
-  port: 10034
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  password: Mitivpn
+  port: 443
+  server: 104.17.121.37
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- alterId: 0
+      Host: my.hitgram.ir
+    path: /?ed=mitivpn
+- alterId: 2
   cipher: auto
-  name: US_United States_vmess_124
-  network: ws
-  port: 10034
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  name: US_United States_vmess_179
+  port: 30845
+  server: v45.hdacd.com
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  name: US_United States_trojan_180
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- name: US_United States_trojan_130
+      Host: my.hitgram.ir
+    path: /?ed=mitivpn
+- name: US_United States_trojan_184
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 90081bb25c.node.tro.cac.cab
@@ -181,83 +195,86 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: US_United States_trojan_136
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.174.68
-  sni: azadnet-5vk.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /azadnet-5vk.pages.dev/?ed=2560
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: US_United States_vmess_138
-  network: ws
-  port: 80
-  server: speedtest.org
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_191
+  port: 30824
+  server: v24.hdacd.com
   type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_192
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_195
+  network: ws
+  port: 10004
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
   ws-opts:
     headers:
-      Host: de2.ping-game.ir
-    path: /IOebhLMhl1CTbFHbL95myfRX2
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
 - alpn:
   - h2
   - http/1.1
-  alterId: 0
-  cipher: auto
-  name: US_United States_vmess_141
+  name: US_United States_trojan_1114
   network: ws
-  port: 443
+  password: Mitivpn
+  port: '443'
+  server: 165.215.250.160
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=mitivpn
+- alpn:
+  - h2
+  - http/1.1
+  alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1115
+  network: ws
+  port: '443'
   server: 104.18.32.47
   servername: sctest1.dr-ping.ir
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 2f3aadae-66c6-4dca-a670-03c183f8024e
   ws-opts:
     headers:
       Host: sctest1.dr-ping.ir
     path: /kos-nanat-decoder
+  xudp: true
 - alpn:
+  - h2
   - http/1.1
-  name: US_United States_trojan_163
+  name: US_United States_trojan_1123
   network: ws
   password: Mitivpn
   port: '443'
-  server: www.hitgram.ir
-  skip-cert-verify: false
-  sni: www.hitgram.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_164
-  network: ws
-  password: Mitivpn
-  port: '443'
-  server: 216.24.57.251
+  server: 104.17.121.71
   skip-cert-verify: true
-  sni: cdn.hitgram.ir
+  sni: panel.hitgram.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: US_United States_ss_168
-  password: amazonskr05
-  port: 443
-  server: 35.159.110.250
-  type: ss
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /?ed=mitivpn
 - name: US_United States_vless_44
   network: ws
   port: 443
@@ -3446,6 +3463,55 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.calmloud.com
+- name: US_United States_trojan_6525
+  server: 52.69.114.14
+  port: 2008
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_6526
+  server: 54.168.196.137
+  port: 4327
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: false
+- name: US_United States_trojan_6528
+  server: 13.231.225.85
+  port: 4099
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: false
+- name: US_United States_trojan_6529
+  server: 16.163.29.124
+  port: 8066
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_6531
+  server: 95.40.114.115
+  port: 4840
+  type: trojan
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_6533
+  server: 35.78.121.219
+  port: 39756
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: false
+- name: US_United States_trojan_6536
+  server: 43.206.155.159
+  port: 2702
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: false
 - name: US_United States_trojan_6541
   server: 104.21.40.34
   port: 443
@@ -5401,6 +5467,26 @@ proxies:
     path: /
     headers:
       Host: namer-us-sea-01-edgecast.qdns.live
+- name: US_United States_trojan_61049
+  server: www.hitgram.ir
+  port: 443
+  type: trojan
+  password: Mitivpn
+  sni: www.hitgram.ir
+  skip-cert-verify: false
+- name: US_United States_trojan_61050
+  server: 216.24.57.251
+  port: 443
+  type: trojan
+  password: Mitivpn
+  sni: cdn.hitgram.ir
+  skip-cert-verify: false
+- name: US_United States_ss_61053
+  server: 35.159.110.250
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: US_United States_trojan_61066
   server: 45.144.51.133
   port: 8443
@@ -6204,18 +6290,6 @@ proxies:
   type: trojan
   password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
   skip-cert-verify: false
-- name: US_United States_trojan_61478
-  server: official.tokyometropolis.kherson.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: false
-- name: US_United States_trojan_61481
-  server: official.tokyometropolis.kharkov.ua
-  port: 2053
-  type: trojan
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: false
 - name: US_United States_ss_61482
   server: 172.99.190.7
   port: 2376
@@ -6271,6 +6345,12 @@ proxies:
   type: trojan
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   skip-cert-verify: false
+- name: US_United States_trojan_61526
+  server: official.tokyometropolis.kyiv.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
 - name: US_United States_ss_61528
   server: 43.201.47.102
   port: 443
@@ -6318,6 +6398,12 @@ proxies:
   port: 443
   type: trojan
   password: c2b0a060-44b0-11ed-ad2e-1239d0255272
+  skip-cert-verify: false
+- name: US_United States_trojan_61568
+  server: official.tokyometropolis.kiev.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: false
 - name: US_United States_trojan_61571
   server: 152.67.162.166
@@ -18250,7 +18336,301 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
   udp: true
-- name: US_United States_vless_143
+- flow: xtls-rprx-vision
+  name: US_United States_vless_1013
+  port: 13413
+  security: tls
+  server: zzhk4.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+- name: US_United States_http_1019
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+  sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
+- encryption: none
+  name: US_United States_vless_1084
+  network: ws
+  port: 443
+  security: tls
+  server: 172.66.3.201
+  servername: juzi.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  ws-opts:
+    headers:
+      Host: juzi.qea.ccwu.cc
+    path: /
+- encryption: none
+  name: US_United States_vless_1090
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.35.45
+  servername: picassooo.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  ws-opts:
+    headers:
+      Host: picassooo.info
+    path: /aymdlws
+- name: US_United States_vless_1092
+  network: ws
+  port: 2053
+  security: tls
+  server: cf.130209.xyz
+  servername: usa.hybe.cc.cd
+  tls: true
+  type: vless
+  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
+  ws-opts:
+    headers:
+      Host: usa.hybe.cc.cd
+    path: /api/v2/check_updatefp=edge
+- multiplexing: MULTIPLEXING_LOW
+  name: US_United States_mieru_1093
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- flow: xtls-rprx-vision-udp443
+  name: US_United States_vless_10109
+  network: tcp
+  port: 443
+  security: tls
+  server: s881.ccgfw.top
+  servername: s881.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  name: US_United States_vless_10110
+  network: ws
+  port: 443
+  security: tls
+  server: 172.67.158.125
+  servername: sSl.sOreN-ApP.coM.
+  tls: true
+  type: vless
+  uuid: 2cd09b58-e32b-472e-9e98-6140e708f2f5
+  ws-opts:
+    headers:
+      Host: hzR36-Cdn.sOreN-ApP.coM.
+    path: /
+- encryption: none
+  name: US_United States_vless_10111
+  network: ws
+  port: 443
+  security: tls
+  server: 162.159.44.45
+  servername: picassooo.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  ws-opts:
+    headers:
+      Host: picassooo.info
+    path: /aymdlws
+- encryption: none
+  name: US_United States_vless_10114
+  network: ws
+  port: 443
+  security: tls
+  server: 108.162.195.45
+  servername: picassooo.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  ws-opts:
+    headers:
+      Host: picassooo.info
+    path: /aymdlws
+- name: US_United States_vless_10116
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 47.80.14.130
+  servername: api.company-target.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_United States_vless_10130
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: b3a1cc510a2001c6
+  security: reality
+  server: 64.188.76.249
+  servername: www.kinopoisk.ru
+  tls: true
+  type: vless
+  uuid: ee54566f-b7f2-4fb3-b4a0-8802d516759a
+- name: US_United States_http_10158
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: test
+- encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_10163
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
+    short-id: 92d0c4089b6c1da3
+  server: 132.243.231.122
+  servername: io.ozone.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7625adbb-52f7-4ff4-95f8-677471071a77
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: US_United States_vless_10166
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: MchbHn3bpJaqAX-oqnNXYiXrbUTN0n-K203T8YGr8D4
+    short-id: 0ae20b3e5e2c0bc2
+  server: stone.quietgrove.forum
+  servername: stone.quietgrove.forum
+  tls: true
+  type: vless
+  udp: true
+  uuid: 482757f6-9a0a-46ea-a8e4-9beaece46697
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  name: US_United States_vless_10172
+  network: ws
+  port: '2083'
+  server: 63.141.128.3
+  servername: chan1.newappdominfastlogin4.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae065531-7a26-4c3f-82cf-7c2ee9effcde
+  ws-opts:
+    headers:
+      Host: chan1.newappdominfastlogin4.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: US_United States_vless_10180
+  network: http
+  port: '22'
+  server: 172.65.111.43
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_10182
+  network: tcp
+  port: '20609'
+  reality-opts:
+    public-key: 2KojHs3QuIDI9X3HpOwIvEIhMy-54DLblBADeCuzlkU
+    short-id: 0fe6d3442590
+  server: se.sanaz.online
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2fd687a6-7b5f-491e-a7ff-a885da5504b1
+  xudp: true
+- encryption: none
+  name: US_United States_vless_10191
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs
+    short-id: 2da46294d6a521B2
+  server: 155.212.146.195
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+  xhttp-opts:
+    host: ads.x5.ru
+    path: /api/v3/f29479507adb
+  xudp: true
+- cipher: aes-256-gcm
+  name: US_United States_ss_142
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 16888
+  server: 18.162.59.8
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US_United States_ss_143
+  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  port: 51135
+  server: bgroup.node4.s.nodelist-airport.com
+  type: ss
+  udp: true
+- encryption: none
+  name: US_United States_vless_144
+  network: ws
+  port: 80
+  server: 104.19.54.173
+  type: vless
+  udp: true
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- name: US_United States_vless_147
+  network: ws
+  port: 80
+  server: 104.17.220.242
+  type: vless
+  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
+  ws-opts:
+    headers:
+      Host: purnet.gmijcp.workers.dev
+    path: /?ed=2048
+- name: US_United States_vless_148
   network: ws
   port: 2082
   server: 104.17.109.71
@@ -18266,64 +18646,19 @@ proxies:
     max-early-data: 2560
     path: /jeyk7gbxzfe1
   xudp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_144
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 51135
-  server: bgroup.node4.s.nodelist-airport.com
-  type: ss
-  udp: true
-- name: US_United States_vless_145
+- name: US_United States_vless_149
   network: ws
   port: 80
-  server: 104.17.220.242
+  server: 104.17.176.228
   type: vless
   uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
   ws-opts:
     headers:
       Host: purnet.gmijcp.workers.dev
     path: /?ed=2048
-- encryption: none
-  name: US_United States_vless_146
-  network: ws
-  port: 80
-  server: 104.19.54.173
-  type: vless
-  udp: true
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-  ws-opts:
-    headers:
-      Host: amirvpn.amirhm00100.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_147
-  password: NDk2MGZhYzQ3MmE0NWM1OQ==:NDVhOTBkMzItMDhiZC00ZA==
-  port: 10088
-  server: hk03.jgpy.help
-  type: ss
-  udp: true
-- name: US_United States_hysteria2_1410
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 60000
-  server: hyfnjp01.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- cipher: aes-256-gcm
-  name: US_United States_ss_1411
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 15099
-  server: ss.014.node-for-bigairport.win
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1412
+  name: US_United States_vmess_1411
   network: ws
   port: 1337
   server: 47.243.220.171
@@ -18332,13 +18667,20 @@ proxies:
   ws-opts:
     path: /rootface-telegram-hunt-server
 - cipher: aes-256-gcm
-  name: US_United States_ss_1414
+  name: US_United States_ss_1412
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 36888
   server: ss.003.node-for-bigairport.win
   type: ss
   udp: true
-- name: US_United States_vless_1415
+- cipher: aes-256-gcm
+  name: US_United States_ss_1413
+  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  port: 28932
+  server: bgroup.node4.s2.nodelist-airport.com
+  type: ss
+  udp: true
+- name: US_United States_vless_1414
   network: ws
   port: 8080
   server: 198.41.209.88
@@ -18354,15 +18696,8 @@ proxies:
     max-early-data: 2560
     path: /ec4l307nur5g
   xudp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_1416
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 28932
-  server: bgroup.node4.s2.nodelist-airport.com
-  type: ss
-  udp: true
 - encryption: none
-  name: US_United States_vless_1420
+  name: US_United States_vless_1417
   network: ws
   port: 80
   server: 104.19.47.96
@@ -18372,23 +18707,7 @@ proxies:
     headers:
       Host: purnet.gmijcp.workers.dev
     path: /?ed=2048
-- name: US_United States_hysteria2_1421
-  password: 39c2e591-2ebe-4a6f-bea4-803783cd5183
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: US_United States_hysteria2_1425
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-- name: US_United States_vless_1427
+- name: US_United States_vless_1429
   network: ws
   port: 2095
   server: 198.41.208.22
@@ -18404,8 +18723,15 @@ proxies:
     max-early-data: 2560
     path: /ripbdigi5hdb
   xudp: true
+- cipher: aes-256-gcm
+  name: US_United States_ss_1430
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13001
+  server: ss.015.node-for-bigairport.win
+  type: ss
+  udp: true
 - encryption: none
-  name: US_United States_vless_1435
+  name: US_United States_vless_1441
   network: ws
   port: 80
   server: 198.41.208.203
@@ -18417,7 +18743,7 @@ proxies:
     path: /mpmva3e8rtr6v7qq
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_1436
+  name: US_United States_vless_1445
   network: tcp
   port: 443
   reality-opts:
@@ -18430,134 +18756,45 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: chrome
-  name: US_United States_trojan_1445
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51002
-  server: lmrvh56s8gq3ucg44fld9vkr8m54q9p8eg75xizq.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_1449
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51002
-  server: dofvnc640ci30i103quu8vgvkpvph44gk3h5z0ns.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_1450
-  network: ws
-  port: 443
-  security: tls
-  server: 54.238.157.207
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_1458
+  password: NDk2MGZhYzQ3MmE0NWM1OQ==:Mzc5ZDAwZTEtMjZlOS00YQ==
+  port: 10084
+  server: hk01.jgpy.help
+  type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_1451
+  name: US_United States_ss_1459
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 16589
   server: ss.038.node-for-bigairport.win
   type: ss
   udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_1454
-  network: ws
-  port: 443
-  security: tls
-  server: 18.183.224.152
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
 - client-fingerprint: chrome
-  name: US_United States_trojan_1457
+  name: US_United States_trojan_1461
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51002
-  server: elvlm5c41tqbaczamwied645wnqnmmxi9i59a840.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_1458
-  network: ws
-  port: 443
-  security: tls
-  server: 47.76.218.163
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: US_United States_trojan_1460
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
   port: 51001
-  server: pk6y5xxa3hup5qkstui9g03w9mo6zd8rfdbrys17.gayisme.cc
+  server: 1qhmiapoyv68un3c9xbs43y1enxjssbi3gjizwch.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_1464
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51003
-  server: avdwiazkmroi76q3gthj2oeyyns8sezm773mz5p4.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_1467
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 19287
-  server: ss.021.node-for-bigairport.win
-  type: ss
   udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_1468
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51001
-  server: 28zvsll7n4r4varnzgbtqn7u926ma2u8yj92cuob.gayisme.cc
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: hx67c4k109kadwmhi474cxtmm1lj6h0yaxu3430q.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_1470
+  name: US_United States_trojan_1471
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51001
-  server: vayrjnxqvtilfxy64lzz48fk3y67qbhiocdi3ofo.gayisme.cc
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: vco8qd29al2yszq7a71xeve94uz5c8lv5vmsm8kd.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
@@ -18565,27 +18802,117 @@ proxies:
 - client-fingerprint: chrome
   name: US_United States_trojan_1472
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: btzhmp1b0p7dvkyd0449te4y1n1f842z8zty6l24.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_1475
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
   port: 51002
-  server: gwphln3uqm7keuloam368nhmkqpzzlwzl2cqo8gm.gayisme.cc
+  server: sxz973k0q6nr0urzh4qeec5rmg3u9u28po4s2tko.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_1481
+  name: US_United States_trojan_1480
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
   port: 51003
-  server: k9j8v3fnd87a1w9xi4e9l1mc30kmuak47ohky5wb.gayisme.cc
+  server: 84ta4nmyug3ldsnumbjna2dwqcznkgbtbkb4wtxe.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_1482
+  name: US_United States_trojan_1486
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: 84nt1zj4ajl17u5hv15nmxa7q4zr7a6ww4pbo5su.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_1490
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: lmrvh56s8gq3ucg44fld9vkr8m54q9p8eg75xizq.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_1491
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: xqy5k0kz8hrcn48e0dgtjtnvlh8l2jaie9a614qy.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_1494
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: 0eoszakoaeio8htovzwi8c19zvpwoohpa9qfv5gl.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_1495
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: vayrjnxqvtilfxy64lzz48fk3y67qbhiocdi3ofo.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_1499
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: bjaopax5xox8xze0a09ufy0wgg0j3dciyc3rhovo.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14107
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: cmusq86aem23lpb044ojm5rpp3lzuqz2zh9hzdei.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14109
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: dofvnc640ci30i103quu8vgvkpvph44gk3h5z0ns.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14110
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
   port: 51001
   server: 65swl0x194c1nr1xxdl8uquu30hzd7969klcfz1q.gayisme.cc
   skip-cert-verify: true
@@ -18593,72 +18920,86 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_1484
+  name: US_United States_trojan_14119
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51003
-  server: 7hdb82yigy2j31iry2gjilnrv65u2go9lgqg9cv0.gayisme.cc
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: hf4c6yjvayv784rcd58hvduf79sltmqw6vs0kyqg.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_1490
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: tzycii.yytls.top
-  skip-cert-verify: false
-  sni: tzycii.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  name: US_United States_trojan_14120
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: hs22b0x5eqvqvksx47b73er4q68thhh16pcsqg3a.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_14121
+  obfs: ''
+  obfs-password: ''
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 20471
+  server: 168.144.40.110
+  skip-cert-verify: true
+  sni: www.iq.com
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: US_United States_trojan_14122
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: ucm38zir7b6vqq877peeps8foaztce6bqzh8pov8.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14125
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: zz3wexdq60r66ijtueo2aycu4tzg3rqake080udr.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1493
+  name: US_United States_ss_14126
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 29004
   server: ss.039.node-for-bigairport.win
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_1494
+  name: US_United States_trojan_14131
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51003
-  server: al6vuyaxeo8gxnvxzcc38pajfdurjo6u7ayewboj.gayisme.cc
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: avdwiazkmroi76q3gthj2oeyyns8sezm773mz5p4.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
   udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_1495
-  network: ws
-  port: 443
-  security: tls
-  server: 149.104.5.247
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
 - client-fingerprint: chrome
-  name: US_United States_trojan_1497
+  name: US_United States_trojan_14132
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51003
-  server: m8q01upvflgkl4ygc4zxeeyzn6g8wpq4b0hxafu9.gayisme.cc
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: elvlm5c41tqbaczamwied645wnqnmmxi9i59a840.gayisme.cc
   skip-cert-verify: true
   sni: sg.01.naiun.bilibili.com
   type: trojan
   udp: true
 - encryption: none
-  name: US_United States_vless_1499
+  name: US_United States_vless_14138
   network: ws
   port: 80
   server: 104.17.147.22
@@ -18668,8 +19009,28 @@ proxies:
     headers:
       Host: cvsoidswg.k3ckfz151a.workers.dev
 - client-fingerprint: chrome
+  name: US_United States_trojan_14139
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: zptl7pdh720wq3jwe7uh6cr7tzcqr6zuqvyvdsxw.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14142
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: h1utq6oci836e60c2l5j8cofm22w3jhdpuw8njm3.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14102
+  name: US_United States_vless_14145
   network: tcp
   port: 443
   reality-opts:
@@ -18682,8 +19043,20 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14148
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: lmhuae.yytls.top
+  skip-cert-verify: false
+  sni: lmhuae.yytls.top
+  type: anytls
+  udp: true
 - encryption: none
-  name: US_United States_vless_14103
+  name: US_United States_vless_14152
   network: ws
   port: 80
   server: www.speedtest.net
@@ -18697,64 +19070,9 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14104
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: v5n3oj.yytls.top
-  skip-cert-verify: false
-  sni: v5n3oj.yytls.top
-  type: anytls
-  udp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_14105
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 29088
-  server: ss.029.node-for-bigairport.win
-  type: ss
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14107
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: dl9nou.yytls.top
-  skip-cert-verify: false
-  sni: dl9nou.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14109
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: dalabq.yytls.top
-  skip-cert-verify: false
-  sni: dalabq.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14110
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: q03uew.yytls.top
-  skip-cert-verify: false
-  sni: q03uew.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14111
+  name: US_United States_vless_14168
   network: tcp
   port: 443
   reality-opts:
@@ -18767,52 +19085,51 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14112
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: wd9hf9.yytls.top
-  skip-cert-verify: false
-  sni: wd9hf9.yytls.top
-  type: anytls
-  udp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_14115
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 20002
-  server: bgroup.node2.s2.nodelist-airport.com
-  type: ss
+- client-fingerprint: chrome
+  name: US_United States_trojan_14182
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: 6uj3fp5mfs9uade1tpa27s2z9mfwhiwsyik3h1lx.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - down: ''
   fingerprint: ''
-  name: US_United States_hysteria2_14116
+  name: US_United States_hysteria2_14184
   obfs: ''
   obfs-password: ''
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 19074
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 48969
   server: 172.104.88.46
   skip-cert-verify: true
   sni: www.iq.com
   type: hysteria2
   up: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14119
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: vwv1sb.yytls.top
-  skip-cert-verify: false
-  sni: vwv1sb.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  name: US_United States_trojan_14185
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: zk1il2jeu5w4fqodslnjxtk44i441f3108ae7yoh.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14189
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: al6vuyaxeo8gxnvxzcc38pajfdurjo6u7ayewboj.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14121
+  name: US_United States_vless_14200
   network: ws
   port: 8443
   security: tls
@@ -18826,21 +19143,19 @@ proxies:
     headers:
       Host: go.iranfree.de5.net
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14124
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: ttmi01.yytls.top
-  skip-cert-verify: false
-  sni: ttmi01.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  name: US_United States_trojan_14207
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: pk6y5xxa3hup5qkstui9g03w9mo6zd8rfdbrys17.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14128
+  name: US_United States_vless_14221
   network: tcp
   port: 443
   reality-opts:
@@ -18853,10 +19168,20 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  name: US_United States_trojan_14224
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: ullygkssusegdqo0mjut0f1litsajcf8o7stfoqe.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: US_United States_vless_14129
+  name: US_United States_vless_14228
   network: ws
   port: 443
   security: tls
@@ -18871,70 +19196,82 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- name: US_United States_hysteria2_14130
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: sg15.769970.xyz
+- client-fingerprint: chrome
+  name: US_United States_trojan_14233
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: g114pnkesoufm0524xa44kslxiae2zjpx5iwf5w3.gayisme.cc
   skip-cert-verify: true
-  sni: sg15.769970.xyz
-  type: hysteria2
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14238
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: 4zv3php00w5uyytuqjhfdzn8gb9s5crd9agbhq4t.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14141
+  name: US_United States_anytls_14245
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: bwwosb.yytls.top
+  port: 27016
+  server: ikhe6t.yytls.top
   skip-cert-verify: false
-  sni: bwwosb.yytls.top
+  sni: ikhe6t.yytls.top
   type: anytls
   udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_14142
-  network: ws
-  port: 443
-  security: tls
-  server: 47.239.4.246
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
 - cipher: aes-256-gcm
-  name: US_United States_ss_14144
+  name: US_United States_ss_14254
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 29004
   server: ss.022.node-for-bigairport.win
   type: ss
   udp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_14145
-  obfs: ''
-  obfs-password: ''
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 19959
-  server: 168.144.40.110
-  skip-cert-verify: true
-  sni: www.iq.com
-  type: hysteria2
-  up: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14262
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: mq9rt9.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - cipher: aes-256-gcm
-  name: US_United States_ss_14149
+  name: US_United States_ss_14271
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 16098
   server: ss.018.node-for-bigairport.win
   type: ss
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14286
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: efsdgh.yytls.top
+  skip-cert-verify: false
+  sni: efsdgh.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14156
+  name: US_United States_vless_14289
   network: tcp
   port: 443
   reality-opts:
@@ -18947,9 +19284,31 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  name: US_United States_trojan_14290
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: 67qg45daql5mq4fned6incqw1fnnmvz1gq4n0vua.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14295
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: s3no5b.yytls.top
+  skip-cert-verify: false
+  sni: s3no5b.yytls.top
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_14165
+  name: US_United States_vmess_14299
   network: ws
   port: 8810
   server: hk.aicvideo.info
@@ -18964,36 +19323,19 @@ proxies:
       Host: www.bing.com
     path: /dgs
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14166
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: d68dyz.yytls.top
-  skip-cert-verify: false
-  sni: d68dyz.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14168
+  name: US_United States_trojan_14305
   network: tcp
-  port: 15803
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: 693b25e06841ac7f
-  security: reality
-  server: cdn.sg1.cocoduck.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51002
+  server: hjv9wpvq2w7w4cdhpfrzylcio59bca81qo0qxibb.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
 - client-fingerprint: random
   encryption: none
-  name: US_United States_vless_14169
+  name: US_United States_vless_14306
   network: ws
   port: 443
   server: 104.18.95.26
@@ -19009,46 +19351,31 @@ proxies:
         Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14173
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: rt643a.jpvless.yydzx.xyz
-  servername: www.bandainamcoent.co.jp
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14311
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27020
+  server: f8i1tw.yytls.top
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: f8i1tw.yytls.top
+  type: anytls
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: US_United States_hysteria2_14174
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8081
-  server: 1jp003.769970.xyz
+- client-fingerprint: chrome
+  name: US_United States_trojan_14318
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: fm8qg8jmtbva3ojgmocscdmpoeh7snhhaknnrm8c.gayisme.cc
   skip-cert-verify: true
-  sni: 1jp003.769970.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14175
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: bv7v60.jpvless.yydzx.xyz
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14177
+  name: US_United States_vless_14320
   network: ws
   port: 2083
   security: tls
@@ -19066,30 +19393,69 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14183
+  name: US_United States_anytls_14322
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: pduydf.yytls.top
+  port: 27008
+  server: ndkj0r.yytls.top
   skip-cert-verify: false
-  sni: pduydf.yytls.top
+  sni: ndkj0r.yytls.top
   type: anytls
   udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14184
+  name: US_United States_anytls_14325
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: b99da2.yytls.top
+  port: 27008
+  server: m9q7e7.yytls.top
   skip-cert-verify: false
-  sni: b99da2.yytls.top
+  sni: m9q7e7.yytls.top
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14338
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: ope9z7.yytls.top
+  skip-cert-verify: false
+  sni: ope9z7.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14342
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27013
+  server: xkch0z.yytls.top
+  skip-cert-verify: false
+  sni: xkch0z.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14344
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: kk3znb.jpvless.yydzx.xyz
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_14189
+  name: US_United States_vless_14347
   network: tcp
   port: 28003
   reality-opts:
@@ -19101,32 +19467,27 @@ proxies:
   tls: true
   type: vless
   uuid: 2769bf4b-a544-48e1-aa54-79009b7d7c84
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14190
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: e396qe.jpvless.yydzx.xyz
-  servername: www.bandainamcoent.co.jp
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14193
+  name: US_United States_anytls_14349
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: if07ui.yytls.top
+  port: 27008
+  server: ohyi4l.yytls.top
   skip-cert-verify: false
-  sni: if07ui.yytls.top
+  sni: ohyi4l.yytls.top
   type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14352
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51001
+  server: em0egyy85x8nyj3krtvj7md38l3kze7aro2obwmo.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - client-fingerprint: chrome
   metadata:
@@ -19136,7 +19497,7 @@ proxies:
     originalName: 新加坡5
     region: 新加坡
     tags: []
-  name: US_United States_vless_14194
+  name: US_United States_vless_14355
   network: ws
   port: 4399
   server: 178.128.19.168
@@ -19151,9 +19512,21 @@ proxies:
     headers:
       Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
     path: /@Marisa_kristi
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14357
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27016
+  server: ixe7pp.yytls.top
+  skip-cert-verify: false
+  sni: ixe7pp.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14196
+  name: US_United States_vless_14358
   network: ws
   port: 443
   server: 172.64.155.209
@@ -19173,19 +19546,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14197
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: ixe7pp.yytls.top
-  skip-cert-verify: false
-  sni: ixe7pp.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14198
+  name: US_United States_anytls_14360
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27005
   server: q5uf18.yytls.top
@@ -19197,7 +19558,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14200
+  name: US_United States_anytls_14361
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27018
   server: lh2t5a.yytls.top
@@ -19207,7 +19568,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14201
+  name: US_United States_vless_14362
   network: tcp
   port: 443
   reality-opts:
@@ -19220,39 +19581,24 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14202
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: pk9i7n.yytls.top
-  skip-cert-verify: false
-  sni: pk9i7n.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14203
-  network: ws
-  port: 18836
-  server: 172.237.12.208
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14365
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: 7994d24409820c44
+  server: ytgokx.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14204
+  name: US_United States_vless_14366
   network: tcp
   port: 443
   reality-opts:
@@ -19265,32 +19611,22 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  name: US_United States_trojan_14206
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51001
-  server: 1qhmiapoyv68un3c9xbs43y1enxjssbi3gjizwch.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14207
+  name: US_United States_anytls_14367
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: puyqgs.yytls.top
+  port: 27008
+  server: k9wlai.yytls.top
   skip-cert-verify: false
-  sni: puyqgs.yytls.top
+  sni: k9wlai.yytls.top
   type: anytls
   udp: true
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: US_United States_vless_14208
+  name: US_United States_vless_14369
   network: ws
   port: 8443
   security: tls
@@ -19305,20 +19641,22 @@ proxies:
     headers:
       Host: i8dxb.media-cdn-us.chinav.indevs.in
     path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
-- client-fingerprint: chrome
-  name: US_United States_trojan_14211
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51001
-  server: ullygkssusegdqo0mjut0f1litsajcf8o7stfoqe.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14370
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: s3dl4r.yytls.top
+  skip-cert-verify: false
+  sni: s3dl4r.yytls.top
+  type: anytls
   udp: true
 - client-fingerprint: chrome
   encryption: none
   fp: chrome
-  name: US_United States_vless_14213
+  name: US_United States_vless_14371
   network: ws
   port: 20742
   security: tls
@@ -19333,60 +19671,42 @@ proxies:
     headers:
       Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
     path: /@Marisa_kristi
-- name: US_United States_vless_14216
-  network: ws
-  port: 41493
-  security: tls
-  server: 158.178.225.153
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-    path: /%40Marisa_kristi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14219
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
-    short-id: 0eb5fb6958f835da
-  server: kk3znb.jpvless.yydzx.xyz
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  name: US_United States_trojan_14220
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51001
-  server: hs22b0x5eqvqvksx47b73er4q68thhh16pcsqg3a.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: US_United States_ss_14372
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15886
+  server: ss.034.node-for-bigairport.win
+  type: ss
   udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14221
+  name: US_United States_anytls_14373
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: ngizm1.yytls.top
+  port: 27008
+  server: hij4pi.yytls.top
   skip-cert-verify: false
-  sni: ngizm1.yytls.top
+  sni: hij4pi.yytls.top
   type: anytls
   udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14223
+  name: US_United States_anytls_14375
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: b6ci1e.yytls.top
+  skip-cert-verify: false
+  sni: b6ci1e.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14378
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27004
   server: mvqdgx.yytls.top
@@ -19398,7 +19718,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14225
+  name: US_United States_anytls_14380
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27007
   server: bp6z0l.yytls.top
@@ -19406,8 +19726,20 @@ proxies:
   sni: bp6z0l.yytls.top
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14381
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: tambkl.yytls.top
+  skip-cert-verify: false
+  sni: tambkl.yytls.top
+  type: anytls
+  udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_14229
+  name: US_United States_ss_14388
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 29004
   server: ss.035.node-for-bigairport.win
@@ -19417,32 +19749,50 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14230
+  name: US_United States_anytls_14397
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27013
-  server: t7chyo.yytls.top
+  server: moo3fo.yytls.top
   skip-cert-verify: false
-  sni: t7chyo.yytls.top
+  sni: moo3fo.yytls.top
   type: anytls
   udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_14231
-  network: ws
-  port: 8443
-  security: tls
-  server: 65.52.160.128
-  servername: ioioioi.pages.dev
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14399
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: jcyz5e.yytls.top
+  skip-cert-verify: false
+  sni: jcyz5e.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14406
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27013
+  server: hbpyc7.yytls.top
+  skip-cert-verify: false
+  sni: hbpyc7.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14407
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51004
+  server: 4o3uocn84hccbr560j1nsw0hctlwdi79jcjbr3e9.gayisme.cc
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+  sni: cdn.bworld.co.kr
+  type: trojan
+  udp: true
 - encryption: none
-  name: US_United States_vless_14236
+  name: US_United States_vless_14408
   network: ws
   port: 443
   security: tls
@@ -19456,26 +19806,8 @@ proxies:
       Host: support.zoom.us.cyylr.eu.cc
     path: /sg-melbi
 - client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14237
-  network: ws
-  port: 20988
-  server: 158.178.240.208
-  servername: guslef2w8oz12wv.ymj.xx.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: guslef2w8oz12wv.ymj.xx.kg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14240
+  name: US_United States_vless_14415
   network: tcp
   port: 443
   reality-opts:
@@ -19489,28 +19821,39 @@ proxies:
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - client-fingerprint: chrome
-  name: US_United States_trojan_14244
+  name: US_United States_trojan_14419
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
   port: 51004
-  server: bjaopax5xox8xze0a09ufy0wgg0j3dciyc3rhovo.gayisme.cc
+  server: r1ogve40q3w640gbxrc5kl3so54oi51md0e03q3p.gayisme.cc
   skip-cert-verify: true
   sni: cdn.bworld.co.kr
   type: trojan
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14248
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27031
-  server: u5o2sp.yytls.top
-  skip-cert-verify: false
-  sni: u5o2sp.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本3
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本3
+    region: 日本
+    tags: []
+  name: US_United States_vless_14421
+  network: ws
+  port: 48740
+  server: 172.237.12.208
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  sni: nisav2de2t0ai8p-hd0.misa.cc.cd
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-- name: US_United States_http_14249
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+    path: /@Marisa_kristi
+- name: US_United States_http_14430
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
@@ -19518,30 +19861,45 @@ proxies:
   tls: true
   type: http
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: US_United States_hysteria2_14251
-  password: 9c0347aa-80f3-42bd-a906-9c645b4574cf
-  port: 8080
-  server: sg06.453521.xyz
-  skip-cert-verify: true
-  sni: sg06.453521.xyz
-  type: hysteria2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14253
+  name: US_United States_anytls_14433
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: ne0j9r.yytls.top
+  port: 27008
+  server: xxpl4w.yytls.top
   skip-cert-verify: false
-  sni: ne0j9r.yytls.top
+  sni: xxpl4w.yytls.top
   type: anytls
   udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14254
+  name: US_United States_anytls_14434
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: kqjc27.yytls.top
+  skip-cert-verify: false
+  sni: kqjc27.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14435
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51004
+  server: dln03komg10pknurbfqmbyy4z5tw13dqzjpe66s3.gayisme.cc
+  skip-cert-verify: true
+  sni: cdn.bworld.co.kr
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14436
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27004
   server: hzeuqp.yytls.top
@@ -19549,40 +19907,55 @@ proxies:
   sni: hzeuqp.yytls.top
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14439
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27007
+  server: asfa4u.yytls.top
+  skip-cert-verify: false
+  sni: asfa4u.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14440
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: g0tzsm.yytls.top
+  skip-cert-verify: false
+  sni: g0tzsm.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14441
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: upiwtj.yytls.top
+  skip-cert-verify: false
+  sni: upiwtj.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14256
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.146.116
-  servername: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /44.209.52.7-443
-- client-fingerprint: chrome
-  name: US_United States_trojan_14257
+  name: US_United States_trojan_14443
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
   port: 51004
-  server: zptl7pdh720wq3jwe7uh6cr7tzcqr6zuqvyvdsxw.gayisme.cc
+  server: sh9per1nb55f03he9b84gwbexsn2d5gdti59hil5.gayisme.cc
   skip-cert-verify: true
   sni: cdn.bworld.co.kr
   type: trojan
   udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14260
-  password: NDg4N2ZjMjE2OWM3MWRlNA==:NDVhOTBkMzItMDhiZC00ZA==
-  port: 10081
-  server: jp03.jgpy.help
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14261
+  name: US_United States_vless_14444
   network: ws
   port: 50443
   server: 158.101.89.113
@@ -19599,7 +19972,7 @@ proxies:
     path: /@Marisa_kristi
   xudp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_14264
+  name: US_United States_trojan_14448
   network: tcp
   password: M7v%w11Se*
   port: 443
@@ -19608,27 +19981,9 @@ proxies:
   sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
-- name: US_United States_hysteria2_14265
-  password: 9c0347aa-80f3-42bd-a906-9c645b4574cf
-  port: 8080
-  server: sg05.453521.xyz
-  sni: sg05.453521.xyz
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14266
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: pyo98n.yytls.top
-  skip-cert-verify: false
-  sni: pyo98n.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_United States_vless_14267
+  name: US_United States_vless_14449
   network: tcp
   port: 443
   reality-opts:
@@ -19641,25 +19996,33 @@ proxies:
   type: vless
   udp: true
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_14269
-  network: ws
-  port: 443
-  security: tls
-  server: 140.238.50.134
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14452
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27016
+  server: sk782z.yytls.top
+  skip-cert-verify: false
+  sni: sk782z.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14460
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: i3jqh3.yytls.top
+  skip-cert-verify: false
+  sni: i3jqh3.yytls.top
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14273
+  name: US_United States_vless_14464
   network: ws
   port: 443
   server: 38.147.187.14
@@ -19679,31 +20042,53 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14274
+  name: US_United States_anytls_14469
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27025
-  server: p71wny.yytls.top
+  port: 27013
+  server: mlr9ah.yytls.top
   skip-cert-verify: false
-  sni: p71wny.yytls.top
+  sni: mlr9ah.yytls.top
   type: anytls
   udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14278
+  name: US_United States_anytls_14470
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: g8i750.yytls.top
+  port: 27008
+  server: zjnwax.yytls.top
   skip-cert-verify: false
-  sni: g8i750.yytls.top
+  sni: zjnwax.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14473
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51003
+  server: u5kmb73lirg12828ggogf4032wx18tjio7z5dtgy.gayisme.cc
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14474
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27032
+  server: dowe83.yytls.top
+  skip-cert-verify: false
+  sni: dowe83.yytls.top
   type: anytls
   udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14282
+  name: US_United States_anytls_14477
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27004
   server: qezfc2.yytls.top
@@ -19711,1070 +20096,80 @@ proxies:
   sni: qezfc2.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14283
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: wln56l.yytls.top
-  skip-cert-verify: false
-  sni: wln56l.yytls.top
-  type: anytls
+- client-fingerprint: chrome
+  name: US_United States_trojan_14478
+  network: tcp
+  password: eeb254d6-f03e-40bb-90e2-c88c1de4d346
+  port: 51005
+  server: gmj3ghx1mdsmm7447e6x188oqz0817lhme1hz4hd.gayisme.cc
+  skip-cert-verify: true
+  sni: activity.hdslb.com
+  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_14284
+  name: US_United States_ss_14479
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 12689
   server: ss.040.node-for-bigairport.win
   type: ss
   udp: true
-- name: US_United States_vless_14287
-  network: ws
-  port: 80
-  server: 104.17.176.228
-  type: vless
-  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
-  ws-opts:
-    headers:
-      Host: purnet.gmijcp.workers.dev
-    path: /?ed=2048
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14290
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: bodqya.yytls.top
-  skip-cert-verify: false
-  sni: bodqya.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_14291
+  encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14481
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51005
-  server: 2zi8jq2q21l4tna0i33077e5eag2woe29skovpxh.gayisme.cc
-  skip-cert-verify: true
-  sni: activity.hdslb.com
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14297
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: gbdkn0.yytls.top
-  skip-cert-verify: false
-  sni: gbdkn0.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14298
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27025
-  server: twpedt.yytls.top
-  skip-cert-verify: false
-  sni: twpedt.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_14303
-  network: ws
   port: 443
-  security: tls
-  server: 45.77.21.104
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: 96e03e0f184639ef
+  server: 139.84.215.236
+  servername: peer.pan.baidu.com
   tls: true
   type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_14304
-  network: ws
-  port: 443
-  security: tls
-  server: 43.200.87.5
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  name: US_United States_vless_14306
-  network: ws
-  port: 10460
-  security: tls
-  server: 45.76.191.197
-  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  skip-cert-verify: false
-  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-    path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14307
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: vxt30c.yytls.top
-  skip-cert-verify: false
-  sni: vxt30c.yytls.top
-  type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14314
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51005
-  server: uyjkgybhn29nqe0n1tdx25n1e8az9ogstly18nak.gayisme.cc
-  skip-cert-verify: true
-  sni: activity.hdslb.com
-  type: trojan
-  udp: true
-- name: US_United States_vless_14318
-  network: ws
-  port: 80
-  server: cdn.tzpro.xyz
-  type: vless
-  udp: true
-  uuid: f2083aa4-f27d-43da-81cf-8bab31730400
-  ws-opts:
-    headers:
-      Host: germany.vipserver14.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed=2048
+  uuid: 4c1778f3965c48af9529c11ce054b9c2
   xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: US_United States_anytls_14321
+  name: US_United States_anytls_14482
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27015
-  server: tgrubm.yytls.top
+  server: ncpeyv.yytls.top
   skip-cert-verify: false
-  sni: tgrubm.yytls.top
+  sni: ncpeyv.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_anytls_14487
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27008
+  server: r437o5.yytls.top
+  skip-cert-verify: false
+  sni: r437o5.yytls.top
   type: anytls
   udp: true
 - encryption: none
-  name: US_United States_vless_14325
-  network: ws
-  port: 80
-  server: 104.17.220.114
-  type: vless
-  uuid: 98f7d01d-e770-471f-80ff-8f480ad84f7c
-  ws-opts:
-    headers:
-      Host: divine-mode-ac41.amirss.workers.dev
-    path: /?ed=2048
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14326
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27027
-  server: rp12s2.yytls.top
-  skip-cert-verify: false
-  sni: rp12s2.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14327
+  name: US_United States_vless_14493
   network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51005
-  server: 84nt1zj4ajl17u5hv15nmxa7q4zr7a6ww4pbo5su.gayisme.cc
-  skip-cert-verify: true
-  sni: activity.hdslb.com
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14337
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: qvfigm.yytls.top
-  skip-cert-verify: false
-  sni: qvfigm.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14341
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51005
-  server: m1alb7ddqzcvc0t1jc5tigpkz6eu0ps1ysu3kyc3.gayisme.cc
-  skip-cert-verify: true
-  sni: activity.hdslb.com
-  type: trojan
-  udp: true
-- name: US_United States_vless_14344
-  network: ws
-  port: 80
-  server: www.visa.com
+  port: 8880
+  server: 108.61.103.99
   type: vless
   udp: true
-  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
-  ws-opts:
-    headers:
-      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /?ed=2560
+  uuid: 9f5b716b-434f-4e4b-84a0-7cf7576cf841
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14345
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: rrl71i.yytls.top
-  skip-cert-verify: false
-  sni: rrl71i.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14346
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51005
-  server: ydzeafznijby2dby68ta72s4lhwwp85rfgaatr61.gayisme.cc
-  skip-cert-verify: true
-  sni: activity.hdslb.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14350
-  network: tcp
-  port: 54503
-  reality-opts:
-    public-key: lh2UnEc7kA8vqoB1oSrLrK-YhkuNI2DOu-MW-ZgLJT4
-    short-id: 089bdc8f
-  server: hkbgpnolixx01.odxxplay.com
-  servername: www.hkhs.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14354
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: tbf2aw.yytls.top
-  skip-cert-verify: false
-  sni: tbf2aw.yytls.top
-  type: anytls
-  udp: true
-- encryption: none
-  name: US_United States_vless_14356
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.56
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: US_United States_trojan_14357
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51001
-  server: sa0yg9xwh7rtkkarldw0ir7nmywrpjhnvfs9pgrq.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14360
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: d9wvlz.yytls.top
-  skip-cert-verify: false
-  sni: d9wvlz.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14361
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: kunvb7.yytls.top
-  skip-cert-verify: false
-  sni: kunvb7.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14362
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27027
-  server: go4c2q.yytls.top
-  skip-cert-verify: false
-  sni: go4c2q.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14368
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: crl5bk.yytls.top
-  skip-cert-verify: false
-  sni: crl5bk.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14369
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27027
-  server: zd45bi.yytls.top
-  skip-cert-verify: false
-  sni: zd45bi.yytls.top
-  type: anytls
-  udp: true
-- name: US_United States_vless_14371
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- encryption: none
-  name: US_United States_vless_14374
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.190
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
-  name: US_United States_ss_14375
-  password: amazonskr05
+- name: US_United States_http_14495
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
   port: 443
-  server: 3.67.67.95
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14383
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: z6mp8v.yytls.top
-  skip-cert-verify: false
-  sni: z6mp8v.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14385
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51005
-  server: m0e63wd8waofw2tirey3xxf1mlqesklkr4qyinc7.gayisme.cc
-  skip-cert-verify: true
-  sni: activity.hdslb.com
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14388
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: qle922.yytls.top
-  skip-cert-verify: false
-  sni: qle922.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14389
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: tfaboj.yytls.top
-  skip-cert-verify: false
-  sni: tfaboj.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  name: US_United States_vless_14390
-  network: ws
-  port: 627
-  security: tls
-  server: 140.245.75.37
-  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  skip-cert-verify: false
-  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
   tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-    path: /@Marisa_kristi
-- cipher: 2022-blake3-aes-256-gcm
-  name: US_United States_ss_14392
-  password: YVSX9nL1XNZUoIXL8PPkaYiV7sRXiKKiy2EwbRoCUoA=:LunFfjjIR2gF8aXIDNdWs2WQbg1rd6euOJ4a/jME05I=
-  port: 22277
-  server: 134.209.177.114
-  type: ss
-  udp: true
-- encryption: none
-  name: US_United States_vless_14393
-  network: tcp
-  port: 24974
-  server: 47.82.177.57
-  type: vless
-  udp: true
-  uuid: ae5d04a6-59ad-4bcd-b45c-9512f4df8c6a
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14394
-  network: tcp
-  port: 16604
-  server: 23.27.24.40
-  servername: pl1.fun88linkvn.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- client-fingerprint: chrome
-  name: US_United States_trojan_14397
-  network: tcp
-  password: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-  port: 51003
-  server: 8rljwvskuz8aar2t5tzfijsw7k9qn534gmgu37xi.gayisme.cc
-  skip-cert-verify: true
-  sni: sg.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- encryption: none
-  name: US_United States_vless_14398
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.240
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14400
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27021
-  server: kxnndi.yytls.top
-  skip-cert-verify: false
-  sni: kxnndi.yytls.top
-  type: anytls
-  udp: true
-- encryption: none
-  name: US_United States_vless_14404
-  network: ws
-  port: 80
-  server: 172.64.50.224
-  type: vless
-  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
-  ws-opts:
-    headers:
-      Host: purnet.gmijcp.workers.dev
-    path: /?ed=2048
-- encryption: none
-  name: US_United States_vless_14406
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.67
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14407
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
-    short-id: 7994d24409820c44
-  server: sts4id.sgvless.yydzx.xyz
-  servername: deb.debian.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14408
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27014
-  server: dbq42m.yytls.top
-  skip-cert-verify: false
-  sni: dbq42m.yytls.top
-  type: anytls
-  udp: true
-- encryption: none
-  name: US_United States_vless_14409
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.178
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: US_United States_vless_14410
-  network: ws
-  port: 2086
-  server: 104.16.72.113
-  type: vless
-  udp: true
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: index.arcane509.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    max-early-data: 2560
-    path: /9om0kfpk0v09
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14412
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: wfs115.yytls.top
-  skip-cert-verify: false
-  sni: wfs115.yytls.top
-  type: anytls
-  udp: true
-- encryption: none
-  name: US_United States_vless_14419
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.76
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14423
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: ue940q.yytls.top
-  skip-cert-verify: false
-  sni: ue940q.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14427
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: nckfpo.yytls.top
-  skip-cert-verify: false
-  sni: nckfpo.yytls.top
-  type: anytls
-  udp: true
-- encryption: none
-  name: US_United States_vless_14431
-  network: tcp
-  port: 80
-  server: 95.179.134.159
-  type: vless
-  udp: true
-  uuid: 8de0eac3-73c5-4d81-a26b-8816d4e827f1
-  xudp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14434
-  password: NDk2MGZhYzQ3MmE0NWM1OQ==:NDVhOTBkMzItMDhiZC00ZA==
-  port: 10084
-  server: hk01.jgpy.help
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14435
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: ts39oi.yytls.top
-  skip-cert-verify: false
-  sni: ts39oi.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14437
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27027
-  server: cuttr1.yytls.top
-  skip-cert-verify: false
-  sni: cuttr1.yytls.top
-  type: anytls
-  udp: true
-- name: US_United States_vless_14439
-  network: ws
-  port: 8880
-  server: 198.12.144.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime60.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14440
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: o2ah3o.yytls.top
-  skip-cert-verify: false
-  sni: o2ah3o.yytls.top
-  type: anytls
-  udp: true
-- encryption: none
-  name: US_United States_vless_14442
-  network: ws
-  port: 8880
-  server: 45.40.151.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14444
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.81
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14450
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27027
-  server: ts0f05.yytls.top
-  skip-cert-verify: false
-  sni: ts0f05.yytls.top
-  type: anytls
-  udp: true
-- name: US_United States_vless_14453
-  network: ws
-  port: 8880
-  server: 50.62.173.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime34.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: US_United States_vless_14456
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: US_United States_vless_14457
-  network: ws
-  port: 80
-  server: 162.159.19.202
-  type: vless
-  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
-  ws-opts:
-    headers:
-      Host: empty-sea-3392.amir-1385-poo.workers.dev
-    path: /?ed=2048
-- encryption: none
-  name: US_United States_vless_14460
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.142
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: US_United States_vless_14461
-  network: ws
-  port: 80
-  server: 172.67.194.87
-  type: vless
-  uuid: 5eb1cee0-dca8-4018-a667-2d2184975799
-  ws-opts:
-    headers:
-      Host: v2configlab.v2configlab14.workers.dev
-    path: /?ed=2048
-- encryption: none
-  name: US_United States_vless_14462
-  network: ws
-  port: 42115
-  server: panel.ryanserver.ir
-  type: vless
-  uuid: df574b1d-e1d2-407b-9210-9e272690a219
-  ws-opts:
-    path: /
-- name: US_United States_vless_14464
-  network: ws
-  port: 8880
-  server: 45.40.153.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: random
-  encryption: none
-  name: US_United States_vless_14465
-  network: ws
-  port: 443
-  security: tls
-  server: saas.sin.fan
-  servername: ioioioi.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
-  ws-opts:
-    headers:
-      Host: ioioioi.pages.dev
-    path: /?ed=2560
-- name: US_United States_vless_14466
-  network: ws
-  port: 8880
-  server: 50.62.198.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: /?ed=2560
-- encryption: none
-  name: US_United States_vless_14468
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.205
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14469
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b6O5rrLyFCAJG9-SEX1ycKc2O-jmBJwhKHPW6zw2V3Y
-    short-id: f469064c96510d33
-  server: o6tx9h.usvless.yydzx.xyz
-  servername: mirrors.rockylinux.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- encryption: none
-  name: US_United States_vless_14470
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.172
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14473
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b6O5rrLyFCAJG9-SEX1ycKc2O-jmBJwhKHPW6zw2V3Y
-    short-id: f469064c96510d33
-  server: tb1vb3.usvless.yydzx.xyz
-  servername: mirrors.rockylinux.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14475
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27014
-  server: vm74tz.yytls.top
-  skip-cert-verify: false
-  sni: vm74tz.yytls.top
-  type: anytls
-  udp: true
-- name: US_United States_vless_14479
-  network: ws
-  port: 8880
-  server: 50.62.198.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: US_United States_vless_14481
-  network: ws
-  port: 8880
-  server: 162.120.94.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime07.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14486
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27021
-  server: uqywsq.yytls.top
-  skip-cert-verify: false
-  sni: uqywsq.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14490
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b6O5rrLyFCAJG9-SEX1ycKc2O-jmBJwhKHPW6zw2V3Y
-    short-id: f469064c96510d33
-  server: zmdxxj.usvless.yydzx.xyz
-  servername: mirrors.rockylinux.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  encryption: none
-  fp: chrome
-  name: US_United States_vless_14492
-  network: ws
-  port: 15807
-  security: tls
-  server: 138.2.112.117
-  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  skip-cert-verify: false
-  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
-    path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14494
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27022
-  server: di0g5d.yytls.top
-  skip-cert-verify: false
-  sni: di0g5d.yytls.top
-  type: anytls
-  udp: true
-- name: US_United States_vless_14495
-  network: ws
-  port: 80
-  server: 172.67.132.91
-  type: vless
-  uuid: 8f775e13-e8ee-4c96-82c6-527f7d2fca8a
-  ws-opts:
-    headers:
-      Host: v2configlab.v2configlab11.workers.dev
-    path: /?ed=2048
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_anytls_14497
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27021
-  server: u5hyom.yytls.top
-  skip-cert-verify: false
-  sni: u5hyom.yytls.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_vless_14500
-  network: ws
-  port: 443
-  server: 162.159.153.4
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  ws-opts:
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?ed=2560
-  xudp: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: US_United States_ss_166
   server: 63.180.239.185
   type: ss
@@ -20803,25 +20198,26 @@ proxy-groups:
   - US_United States_trojan_03
   - US_United States_trojan_04
   - US_United States_trojan_05
-  - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_09
+  - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_014
   - US_United States_trojan_022
   - US_United States_trojan_023
   - US_United States_vmess_111
   - US_United States_vmess_112
-  - US_United States_vmess_116
-  - US_United States_vmess_121
-  - US_United States_vmess_124
-  - US_United States_trojan_130
-  - US_United States_trojan_136
-  - US_United States_vmess_138
-  - US_United States_vmess_141
-  - US_United States_trojan_163
-  - US_United States_trojan_164
-  - US_United States_ss_168
+  - US_United States_vmess_113
+  - US_United States_vmess_118
+  - US_United States_trojan_178
+  - US_United States_vmess_179
+  - US_United States_trojan_180
+  - US_United States_trojan_184
+  - US_United States_vmess_191
+  - US_United States_vmess_192
+  - US_United States_vmess_195
+  - US_United States_trojan_1114
+  - US_United States_vmess_1115
+  - US_United States_trojan_1123
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -21103,6 +20499,13 @@ proxy-groups:
   - US_United States_vmess_6520
   - US_United States_trojan_6523
   - US_United States_trojan_6524
+  - US_United States_trojan_6525
+  - US_United States_trojan_6526
+  - US_United States_trojan_6528
+  - US_United States_trojan_6529
+  - US_United States_trojan_6531
+  - US_United States_trojan_6533
+  - US_United States_trojan_6536
   - US_United States_trojan_6541
   - US_United States_trojan_6542
   - US_United States_trojan_6543
@@ -21290,6 +20693,9 @@ proxy-groups:
   - US_United States_ss_61026
   - US_United States_ss_61029
   - US_United States_vmess_61030
+  - US_United States_trojan_61049
+  - US_United States_trojan_61050
+  - US_United States_ss_61053
   - US_United States_trojan_61066
   - US_United States_trojan_61092
   - US_United States_trojan_61158
@@ -21375,8 +20781,6 @@ proxy-groups:
   - US_United States_trojan_61460
   - US_United States_trojan_61471
   - US_United States_trojan_61476
-  - US_United States_trojan_61478
-  - US_United States_trojan_61481
   - US_United States_ss_61482
   - US_United States_vmess_61494
   - US_United States_trojan_61496
@@ -21384,12 +20788,14 @@ proxy-groups:
   - US_United States_ss_61498
   - US_United States_trojan_61509
   - US_United States_trojan_61512
+  - US_United States_trojan_61526
   - US_United States_ss_61528
   - US_United States_trojan_61533
   - US_United States_vmess_61534
   - US_United States_vmess_61542
   - US_United States_trojan_61549
   - US_United States_trojan_61564
+  - US_United States_trojan_61568
   - US_United States_trojan_61571
   - US_United States_ss_61579
   - US_United States_ss_61586
@@ -22421,213 +21827,159 @@ proxy-groups:
   - US_United States_socks5_741
   - US_United States_vless_746
   - US_United States_vless_749
-  - US_United States_vless_143
-  - US_United States_ss_144
-  - US_United States_vless_145
-  - US_United States_vless_146
-  - US_United States_ss_147
-  - US_United States_hysteria2_1410
-  - US_United States_ss_1411
-  - US_United States_vmess_1412
-  - US_United States_ss_1414
-  - US_United States_vless_1415
-  - US_United States_ss_1416
-  - US_United States_vless_1420
-  - US_United States_hysteria2_1421
-  - US_United States_hysteria2_1425
-  - US_United States_vless_1427
-  - US_United States_vless_1435
-  - US_United States_vless_1436
-  - US_United States_trojan_1445
-  - US_United States_trojan_1449
-  - US_United States_vless_1450
-  - US_United States_ss_1451
-  - US_United States_vless_1454
-  - US_United States_trojan_1457
-  - US_United States_vless_1458
-  - US_United States_trojan_1460
-  - US_United States_trojan_1464
-  - US_United States_ss_1467
+  - US_United States_vless_1013
+  - US_United States_http_1019
+  - US_United States_vless_1084
+  - US_United States_vless_1090
+  - US_United States_vless_1092
+  - US_United States_mieru_1093
+  - US_United States_vless_10109
+  - US_United States_vless_10110
+  - US_United States_vless_10111
+  - US_United States_vless_10114
+  - US_United States_vless_10116
+  - US_United States_vless_10130
+  - US_United States_http_10158
+  - US_United States_vless_10163
+  - US_United States_vless_10166
+  - US_United States_vless_10172
+  - US_United States_vless_10180
+  - US_United States_vless_10182
+  - US_United States_vless_10191
+  - US_United States_ss_142
+  - US_United States_ss_143
+  - US_United States_vless_144
+  - US_United States_vless_147
+  - US_United States_vless_148
+  - US_United States_vless_149
+  - US_United States_vmess_1411
+  - US_United States_ss_1412
+  - US_United States_ss_1413
+  - US_United States_vless_1414
+  - US_United States_vless_1417
+  - US_United States_vless_1429
+  - US_United States_ss_1430
+  - US_United States_vless_1441
+  - US_United States_vless_1445
+  - US_United States_ss_1458
+  - US_United States_ss_1459
+  - US_United States_trojan_1461
   - US_United States_trojan_1468
-  - US_United States_trojan_1470
+  - US_United States_trojan_1471
   - US_United States_trojan_1472
-  - US_United States_trojan_1481
-  - US_United States_trojan_1482
-  - US_United States_trojan_1484
-  - US_United States_anytls_1490
-  - US_United States_ss_1493
+  - US_United States_trojan_1475
+  - US_United States_trojan_1480
+  - US_United States_trojan_1486
+  - US_United States_trojan_1490
+  - US_United States_trojan_1491
   - US_United States_trojan_1494
-  - US_United States_vless_1495
-  - US_United States_trojan_1497
-  - US_United States_vless_1499
-  - US_United States_vless_14102
-  - US_United States_vless_14103
-  - US_United States_anytls_14104
-  - US_United States_ss_14105
-  - US_United States_anytls_14107
-  - US_United States_anytls_14109
-  - US_United States_anytls_14110
-  - US_United States_vless_14111
-  - US_United States_anytls_14112
-  - US_United States_ss_14115
-  - US_United States_hysteria2_14116
-  - US_United States_anytls_14119
-  - US_United States_vless_14121
-  - US_United States_anytls_14124
-  - US_United States_vless_14128
-  - US_United States_vless_14129
-  - US_United States_hysteria2_14130
-  - US_United States_anytls_14141
-  - US_United States_vless_14142
-  - US_United States_ss_14144
-  - US_United States_hysteria2_14145
-  - US_United States_ss_14149
-  - US_United States_vless_14156
-  - US_United States_vmess_14165
-  - US_United States_anytls_14166
+  - US_United States_trojan_1495
+  - US_United States_trojan_1499
+  - US_United States_trojan_14107
+  - US_United States_trojan_14109
+  - US_United States_trojan_14110
+  - US_United States_trojan_14119
+  - US_United States_trojan_14120
+  - US_United States_hysteria2_14121
+  - US_United States_trojan_14122
+  - US_United States_trojan_14125
+  - US_United States_ss_14126
+  - US_United States_trojan_14131
+  - US_United States_trojan_14132
+  - US_United States_vless_14138
+  - US_United States_trojan_14139
+  - US_United States_trojan_14142
+  - US_United States_vless_14145
+  - US_United States_anytls_14148
+  - US_United States_vless_14152
   - US_United States_vless_14168
-  - US_United States_vless_14169
-  - US_United States_vless_14173
-  - US_United States_hysteria2_14174
-  - US_United States_vless_14175
-  - US_United States_vless_14177
-  - US_United States_anytls_14183
-  - US_United States_anytls_14184
-  - US_United States_vless_14189
-  - US_United States_vless_14190
-  - US_United States_anytls_14193
-  - US_United States_vless_14194
-  - US_United States_vless_14196
-  - US_United States_anytls_14197
-  - US_United States_anytls_14198
-  - US_United States_anytls_14200
-  - US_United States_vless_14201
-  - US_United States_anytls_14202
-  - US_United States_vless_14203
-  - US_United States_vless_14204
-  - US_United States_trojan_14206
-  - US_United States_anytls_14207
-  - US_United States_vless_14208
-  - US_United States_trojan_14211
-  - US_United States_vless_14213
-  - US_United States_vless_14216
-  - US_United States_vless_14219
-  - US_United States_trojan_14220
-  - US_United States_anytls_14221
-  - US_United States_anytls_14223
-  - US_United States_anytls_14225
-  - US_United States_ss_14229
-  - US_United States_anytls_14230
-  - US_United States_vless_14231
-  - US_United States_vless_14236
-  - US_United States_vless_14237
-  - US_United States_vless_14240
-  - US_United States_trojan_14244
-  - US_United States_anytls_14248
-  - US_United States_http_14249
-  - US_United States_hysteria2_14251
-  - US_United States_anytls_14253
-  - US_United States_anytls_14254
-  - US_United States_vless_14256
-  - US_United States_trojan_14257
-  - US_United States_ss_14260
-  - US_United States_vless_14261
-  - US_United States_trojan_14264
-  - US_United States_hysteria2_14265
-  - US_United States_anytls_14266
-  - US_United States_vless_14267
-  - US_United States_vless_14269
-  - US_United States_vless_14273
-  - US_United States_anytls_14274
-  - US_United States_anytls_14278
-  - US_United States_anytls_14282
-  - US_United States_anytls_14283
-  - US_United States_ss_14284
-  - US_United States_vless_14287
-  - US_United States_anytls_14290
-  - US_United States_trojan_14291
-  - US_United States_anytls_14297
-  - US_United States_anytls_14298
-  - US_United States_vless_14303
-  - US_United States_vless_14304
+  - US_United States_trojan_14182
+  - US_United States_hysteria2_14184
+  - US_United States_trojan_14185
+  - US_United States_trojan_14189
+  - US_United States_vless_14200
+  - US_United States_trojan_14207
+  - US_United States_vless_14221
+  - US_United States_trojan_14224
+  - US_United States_vless_14228
+  - US_United States_trojan_14233
+  - US_United States_trojan_14238
+  - US_United States_anytls_14245
+  - US_United States_ss_14254
+  - US_United States_vless_14262
+  - US_United States_ss_14271
+  - US_United States_anytls_14286
+  - US_United States_vless_14289
+  - US_United States_trojan_14290
+  - US_United States_anytls_14295
+  - US_United States_vmess_14299
+  - US_United States_trojan_14305
   - US_United States_vless_14306
-  - US_United States_anytls_14307
-  - US_United States_trojan_14314
-  - US_United States_vless_14318
-  - US_United States_anytls_14321
-  - US_United States_vless_14325
-  - US_United States_anytls_14326
-  - US_United States_trojan_14327
-  - US_United States_anytls_14337
-  - US_United States_trojan_14341
+  - US_United States_anytls_14311
+  - US_United States_trojan_14318
+  - US_United States_vless_14320
+  - US_United States_anytls_14322
+  - US_United States_anytls_14325
+  - US_United States_anytls_14338
+  - US_United States_anytls_14342
   - US_United States_vless_14344
-  - US_United States_anytls_14345
-  - US_United States_trojan_14346
-  - US_United States_vless_14350
-  - US_United States_anytls_14354
-  - US_United States_vless_14356
-  - US_United States_trojan_14357
+  - US_United States_vless_14347
+  - US_United States_anytls_14349
+  - US_United States_trojan_14352
+  - US_United States_vless_14355
+  - US_United States_anytls_14357
+  - US_United States_vless_14358
   - US_United States_anytls_14360
   - US_United States_anytls_14361
-  - US_United States_anytls_14362
-  - US_United States_anytls_14368
-  - US_United States_anytls_14369
+  - US_United States_vless_14362
+  - US_United States_vless_14365
+  - US_United States_vless_14366
+  - US_United States_anytls_14367
+  - US_United States_vless_14369
+  - US_United States_anytls_14370
   - US_United States_vless_14371
-  - US_United States_vless_14374
-  - US_United States_ss_14375
-  - US_United States_anytls_14383
-  - US_United States_trojan_14385
-  - US_United States_anytls_14388
-  - US_United States_anytls_14389
-  - US_United States_vless_14390
-  - US_United States_ss_14392
-  - US_United States_vless_14393
-  - US_United States_vless_14394
-  - US_United States_trojan_14397
-  - US_United States_vless_14398
-  - US_United States_anytls_14400
-  - US_United States_vless_14404
-  - US_United States_vless_14406
-  - US_United States_vless_14407
-  - US_United States_anytls_14408
-  - US_United States_vless_14409
-  - US_United States_vless_14410
-  - US_United States_anytls_14412
-  - US_United States_vless_14419
-  - US_United States_anytls_14423
-  - US_United States_anytls_14427
-  - US_United States_vless_14431
-  - US_United States_ss_14434
-  - US_United States_anytls_14435
-  - US_United States_anytls_14437
-  - US_United States_vless_14439
+  - US_United States_ss_14372
+  - US_United States_anytls_14373
+  - US_United States_anytls_14375
+  - US_United States_anytls_14378
+  - US_United States_anytls_14380
+  - US_United States_anytls_14381
+  - US_United States_ss_14388
+  - US_United States_anytls_14397
+  - US_United States_anytls_14399
+  - US_United States_anytls_14406
+  - US_United States_trojan_14407
+  - US_United States_vless_14408
+  - US_United States_vless_14415
+  - US_United States_trojan_14419
+  - US_United States_vless_14421
+  - US_United States_http_14430
+  - US_United States_anytls_14433
+  - US_United States_anytls_14434
+  - US_United States_trojan_14435
+  - US_United States_anytls_14436
+  - US_United States_anytls_14439
   - US_United States_anytls_14440
-  - US_United States_vless_14442
+  - US_United States_anytls_14441
+  - US_United States_trojan_14443
   - US_United States_vless_14444
-  - US_United States_anytls_14450
-  - US_United States_vless_14453
-  - US_United States_vless_14456
-  - US_United States_vless_14457
-  - US_United States_vless_14460
-  - US_United States_vless_14461
-  - US_United States_vless_14462
+  - US_United States_trojan_14448
+  - US_United States_vless_14449
+  - US_United States_anytls_14452
+  - US_United States_anytls_14460
   - US_United States_vless_14464
-  - US_United States_vless_14465
-  - US_United States_vless_14466
-  - US_United States_vless_14468
-  - US_United States_vless_14469
-  - US_United States_vless_14470
-  - US_United States_vless_14473
-  - US_United States_anytls_14475
-  - US_United States_vless_14479
+  - US_United States_anytls_14469
+  - US_United States_anytls_14470
+  - US_United States_trojan_14473
+  - US_United States_anytls_14474
+  - US_United States_anytls_14477
+  - US_United States_trojan_14478
+  - US_United States_ss_14479
   - US_United States_vless_14481
-  - US_United States_anytls_14486
-  - US_United States_vless_14490
-  - US_United States_vless_14492
-  - US_United States_anytls_14494
-  - US_United States_vless_14495
-  - US_United States_anytls_14497
-  - US_United States_vless_14500
+  - US_United States_anytls_14482
+  - US_United States_anytls_14487
+  - US_United States_vless_14493
+  - US_United States_http_14495
   - US_United States_ss_166
   - US_United States_trojan_1611
 - name: 自动选择
@@ -22640,25 +21992,26 @@ proxy-groups:
   - US_United States_trojan_03
   - US_United States_trojan_04
   - US_United States_trojan_05
-  - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_09
+  - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_014
   - US_United States_trojan_022
   - US_United States_trojan_023
   - US_United States_vmess_111
   - US_United States_vmess_112
-  - US_United States_vmess_116
-  - US_United States_vmess_121
-  - US_United States_vmess_124
-  - US_United States_trojan_130
-  - US_United States_trojan_136
-  - US_United States_vmess_138
-  - US_United States_vmess_141
-  - US_United States_trojan_163
-  - US_United States_trojan_164
-  - US_United States_ss_168
+  - US_United States_vmess_113
+  - US_United States_vmess_118
+  - US_United States_trojan_178
+  - US_United States_vmess_179
+  - US_United States_trojan_180
+  - US_United States_trojan_184
+  - US_United States_vmess_191
+  - US_United States_vmess_192
+  - US_United States_vmess_195
+  - US_United States_trojan_1114
+  - US_United States_vmess_1115
+  - US_United States_trojan_1123
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -22940,6 +22293,13 @@ proxy-groups:
   - US_United States_vmess_6520
   - US_United States_trojan_6523
   - US_United States_trojan_6524
+  - US_United States_trojan_6525
+  - US_United States_trojan_6526
+  - US_United States_trojan_6528
+  - US_United States_trojan_6529
+  - US_United States_trojan_6531
+  - US_United States_trojan_6533
+  - US_United States_trojan_6536
   - US_United States_trojan_6541
   - US_United States_trojan_6542
   - US_United States_trojan_6543
@@ -23127,6 +22487,9 @@ proxy-groups:
   - US_United States_ss_61026
   - US_United States_ss_61029
   - US_United States_vmess_61030
+  - US_United States_trojan_61049
+  - US_United States_trojan_61050
+  - US_United States_ss_61053
   - US_United States_trojan_61066
   - US_United States_trojan_61092
   - US_United States_trojan_61158
@@ -23212,8 +22575,6 @@ proxy-groups:
   - US_United States_trojan_61460
   - US_United States_trojan_61471
   - US_United States_trojan_61476
-  - US_United States_trojan_61478
-  - US_United States_trojan_61481
   - US_United States_ss_61482
   - US_United States_vmess_61494
   - US_United States_trojan_61496
@@ -23221,12 +22582,14 @@ proxy-groups:
   - US_United States_ss_61498
   - US_United States_trojan_61509
   - US_United States_trojan_61512
+  - US_United States_trojan_61526
   - US_United States_ss_61528
   - US_United States_trojan_61533
   - US_United States_vmess_61534
   - US_United States_vmess_61542
   - US_United States_trojan_61549
   - US_United States_trojan_61564
+  - US_United States_trojan_61568
   - US_United States_trojan_61571
   - US_United States_ss_61579
   - US_United States_ss_61586
@@ -24258,213 +23621,159 @@ proxy-groups:
   - US_United States_socks5_741
   - US_United States_vless_746
   - US_United States_vless_749
-  - US_United States_vless_143
-  - US_United States_ss_144
-  - US_United States_vless_145
-  - US_United States_vless_146
-  - US_United States_ss_147
-  - US_United States_hysteria2_1410
-  - US_United States_ss_1411
-  - US_United States_vmess_1412
-  - US_United States_ss_1414
-  - US_United States_vless_1415
-  - US_United States_ss_1416
-  - US_United States_vless_1420
-  - US_United States_hysteria2_1421
-  - US_United States_hysteria2_1425
-  - US_United States_vless_1427
-  - US_United States_vless_1435
-  - US_United States_vless_1436
-  - US_United States_trojan_1445
-  - US_United States_trojan_1449
-  - US_United States_vless_1450
-  - US_United States_ss_1451
-  - US_United States_vless_1454
-  - US_United States_trojan_1457
-  - US_United States_vless_1458
-  - US_United States_trojan_1460
-  - US_United States_trojan_1464
-  - US_United States_ss_1467
+  - US_United States_vless_1013
+  - US_United States_http_1019
+  - US_United States_vless_1084
+  - US_United States_vless_1090
+  - US_United States_vless_1092
+  - US_United States_mieru_1093
+  - US_United States_vless_10109
+  - US_United States_vless_10110
+  - US_United States_vless_10111
+  - US_United States_vless_10114
+  - US_United States_vless_10116
+  - US_United States_vless_10130
+  - US_United States_http_10158
+  - US_United States_vless_10163
+  - US_United States_vless_10166
+  - US_United States_vless_10172
+  - US_United States_vless_10180
+  - US_United States_vless_10182
+  - US_United States_vless_10191
+  - US_United States_ss_142
+  - US_United States_ss_143
+  - US_United States_vless_144
+  - US_United States_vless_147
+  - US_United States_vless_148
+  - US_United States_vless_149
+  - US_United States_vmess_1411
+  - US_United States_ss_1412
+  - US_United States_ss_1413
+  - US_United States_vless_1414
+  - US_United States_vless_1417
+  - US_United States_vless_1429
+  - US_United States_ss_1430
+  - US_United States_vless_1441
+  - US_United States_vless_1445
+  - US_United States_ss_1458
+  - US_United States_ss_1459
+  - US_United States_trojan_1461
   - US_United States_trojan_1468
-  - US_United States_trojan_1470
+  - US_United States_trojan_1471
   - US_United States_trojan_1472
-  - US_United States_trojan_1481
-  - US_United States_trojan_1482
-  - US_United States_trojan_1484
-  - US_United States_anytls_1490
-  - US_United States_ss_1493
+  - US_United States_trojan_1475
+  - US_United States_trojan_1480
+  - US_United States_trojan_1486
+  - US_United States_trojan_1490
+  - US_United States_trojan_1491
   - US_United States_trojan_1494
-  - US_United States_vless_1495
-  - US_United States_trojan_1497
-  - US_United States_vless_1499
-  - US_United States_vless_14102
-  - US_United States_vless_14103
-  - US_United States_anytls_14104
-  - US_United States_ss_14105
-  - US_United States_anytls_14107
-  - US_United States_anytls_14109
-  - US_United States_anytls_14110
-  - US_United States_vless_14111
-  - US_United States_anytls_14112
-  - US_United States_ss_14115
-  - US_United States_hysteria2_14116
-  - US_United States_anytls_14119
-  - US_United States_vless_14121
-  - US_United States_anytls_14124
-  - US_United States_vless_14128
-  - US_United States_vless_14129
-  - US_United States_hysteria2_14130
-  - US_United States_anytls_14141
-  - US_United States_vless_14142
-  - US_United States_ss_14144
-  - US_United States_hysteria2_14145
-  - US_United States_ss_14149
-  - US_United States_vless_14156
-  - US_United States_vmess_14165
-  - US_United States_anytls_14166
+  - US_United States_trojan_1495
+  - US_United States_trojan_1499
+  - US_United States_trojan_14107
+  - US_United States_trojan_14109
+  - US_United States_trojan_14110
+  - US_United States_trojan_14119
+  - US_United States_trojan_14120
+  - US_United States_hysteria2_14121
+  - US_United States_trojan_14122
+  - US_United States_trojan_14125
+  - US_United States_ss_14126
+  - US_United States_trojan_14131
+  - US_United States_trojan_14132
+  - US_United States_vless_14138
+  - US_United States_trojan_14139
+  - US_United States_trojan_14142
+  - US_United States_vless_14145
+  - US_United States_anytls_14148
+  - US_United States_vless_14152
   - US_United States_vless_14168
-  - US_United States_vless_14169
-  - US_United States_vless_14173
-  - US_United States_hysteria2_14174
-  - US_United States_vless_14175
-  - US_United States_vless_14177
-  - US_United States_anytls_14183
-  - US_United States_anytls_14184
-  - US_United States_vless_14189
-  - US_United States_vless_14190
-  - US_United States_anytls_14193
-  - US_United States_vless_14194
-  - US_United States_vless_14196
-  - US_United States_anytls_14197
-  - US_United States_anytls_14198
-  - US_United States_anytls_14200
-  - US_United States_vless_14201
-  - US_United States_anytls_14202
-  - US_United States_vless_14203
-  - US_United States_vless_14204
-  - US_United States_trojan_14206
-  - US_United States_anytls_14207
-  - US_United States_vless_14208
-  - US_United States_trojan_14211
-  - US_United States_vless_14213
-  - US_United States_vless_14216
-  - US_United States_vless_14219
-  - US_United States_trojan_14220
-  - US_United States_anytls_14221
-  - US_United States_anytls_14223
-  - US_United States_anytls_14225
-  - US_United States_ss_14229
-  - US_United States_anytls_14230
-  - US_United States_vless_14231
-  - US_United States_vless_14236
-  - US_United States_vless_14237
-  - US_United States_vless_14240
-  - US_United States_trojan_14244
-  - US_United States_anytls_14248
-  - US_United States_http_14249
-  - US_United States_hysteria2_14251
-  - US_United States_anytls_14253
-  - US_United States_anytls_14254
-  - US_United States_vless_14256
-  - US_United States_trojan_14257
-  - US_United States_ss_14260
-  - US_United States_vless_14261
-  - US_United States_trojan_14264
-  - US_United States_hysteria2_14265
-  - US_United States_anytls_14266
-  - US_United States_vless_14267
-  - US_United States_vless_14269
-  - US_United States_vless_14273
-  - US_United States_anytls_14274
-  - US_United States_anytls_14278
-  - US_United States_anytls_14282
-  - US_United States_anytls_14283
-  - US_United States_ss_14284
-  - US_United States_vless_14287
-  - US_United States_anytls_14290
-  - US_United States_trojan_14291
-  - US_United States_anytls_14297
-  - US_United States_anytls_14298
-  - US_United States_vless_14303
-  - US_United States_vless_14304
+  - US_United States_trojan_14182
+  - US_United States_hysteria2_14184
+  - US_United States_trojan_14185
+  - US_United States_trojan_14189
+  - US_United States_vless_14200
+  - US_United States_trojan_14207
+  - US_United States_vless_14221
+  - US_United States_trojan_14224
+  - US_United States_vless_14228
+  - US_United States_trojan_14233
+  - US_United States_trojan_14238
+  - US_United States_anytls_14245
+  - US_United States_ss_14254
+  - US_United States_vless_14262
+  - US_United States_ss_14271
+  - US_United States_anytls_14286
+  - US_United States_vless_14289
+  - US_United States_trojan_14290
+  - US_United States_anytls_14295
+  - US_United States_vmess_14299
+  - US_United States_trojan_14305
   - US_United States_vless_14306
-  - US_United States_anytls_14307
-  - US_United States_trojan_14314
-  - US_United States_vless_14318
-  - US_United States_anytls_14321
-  - US_United States_vless_14325
-  - US_United States_anytls_14326
-  - US_United States_trojan_14327
-  - US_United States_anytls_14337
-  - US_United States_trojan_14341
+  - US_United States_anytls_14311
+  - US_United States_trojan_14318
+  - US_United States_vless_14320
+  - US_United States_anytls_14322
+  - US_United States_anytls_14325
+  - US_United States_anytls_14338
+  - US_United States_anytls_14342
   - US_United States_vless_14344
-  - US_United States_anytls_14345
-  - US_United States_trojan_14346
-  - US_United States_vless_14350
-  - US_United States_anytls_14354
-  - US_United States_vless_14356
-  - US_United States_trojan_14357
+  - US_United States_vless_14347
+  - US_United States_anytls_14349
+  - US_United States_trojan_14352
+  - US_United States_vless_14355
+  - US_United States_anytls_14357
+  - US_United States_vless_14358
   - US_United States_anytls_14360
   - US_United States_anytls_14361
-  - US_United States_anytls_14362
-  - US_United States_anytls_14368
-  - US_United States_anytls_14369
+  - US_United States_vless_14362
+  - US_United States_vless_14365
+  - US_United States_vless_14366
+  - US_United States_anytls_14367
+  - US_United States_vless_14369
+  - US_United States_anytls_14370
   - US_United States_vless_14371
-  - US_United States_vless_14374
-  - US_United States_ss_14375
-  - US_United States_anytls_14383
-  - US_United States_trojan_14385
-  - US_United States_anytls_14388
-  - US_United States_anytls_14389
-  - US_United States_vless_14390
-  - US_United States_ss_14392
-  - US_United States_vless_14393
-  - US_United States_vless_14394
-  - US_United States_trojan_14397
-  - US_United States_vless_14398
-  - US_United States_anytls_14400
-  - US_United States_vless_14404
-  - US_United States_vless_14406
-  - US_United States_vless_14407
-  - US_United States_anytls_14408
-  - US_United States_vless_14409
-  - US_United States_vless_14410
-  - US_United States_anytls_14412
-  - US_United States_vless_14419
-  - US_United States_anytls_14423
-  - US_United States_anytls_14427
-  - US_United States_vless_14431
-  - US_United States_ss_14434
-  - US_United States_anytls_14435
-  - US_United States_anytls_14437
-  - US_United States_vless_14439
+  - US_United States_ss_14372
+  - US_United States_anytls_14373
+  - US_United States_anytls_14375
+  - US_United States_anytls_14378
+  - US_United States_anytls_14380
+  - US_United States_anytls_14381
+  - US_United States_ss_14388
+  - US_United States_anytls_14397
+  - US_United States_anytls_14399
+  - US_United States_anytls_14406
+  - US_United States_trojan_14407
+  - US_United States_vless_14408
+  - US_United States_vless_14415
+  - US_United States_trojan_14419
+  - US_United States_vless_14421
+  - US_United States_http_14430
+  - US_United States_anytls_14433
+  - US_United States_anytls_14434
+  - US_United States_trojan_14435
+  - US_United States_anytls_14436
+  - US_United States_anytls_14439
   - US_United States_anytls_14440
-  - US_United States_vless_14442
+  - US_United States_anytls_14441
+  - US_United States_trojan_14443
   - US_United States_vless_14444
-  - US_United States_anytls_14450
-  - US_United States_vless_14453
-  - US_United States_vless_14456
-  - US_United States_vless_14457
-  - US_United States_vless_14460
-  - US_United States_vless_14461
-  - US_United States_vless_14462
+  - US_United States_trojan_14448
+  - US_United States_vless_14449
+  - US_United States_anytls_14452
+  - US_United States_anytls_14460
   - US_United States_vless_14464
-  - US_United States_vless_14465
-  - US_United States_vless_14466
-  - US_United States_vless_14468
-  - US_United States_vless_14469
-  - US_United States_vless_14470
-  - US_United States_vless_14473
-  - US_United States_anytls_14475
-  - US_United States_vless_14479
+  - US_United States_anytls_14469
+  - US_United States_anytls_14470
+  - US_United States_trojan_14473
+  - US_United States_anytls_14474
+  - US_United States_anytls_14477
+  - US_United States_trojan_14478
+  - US_United States_ss_14479
   - US_United States_vless_14481
-  - US_United States_anytls_14486
-  - US_United States_vless_14490
-  - US_United States_vless_14492
-  - US_United States_anytls_14494
-  - US_United States_vless_14495
-  - US_United States_anytls_14497
-  - US_United States_vless_14500
+  - US_United States_anytls_14482
+  - US_United States_anytls_14487
+  - US_United States_vless_14493
+  - US_United States_http_14495
   - US_United States_ss_166
   - US_United States_trojan_1611
 rules:
