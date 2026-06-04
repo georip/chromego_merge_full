@@ -1308,6 +1308,18 @@ proxies:
   tls: true
   type: http
   username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_14424
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - alpn:
   - h2
   - http/1.1
@@ -1554,20 +1566,6 @@ proxies:
   password: d84665c37878196ecf983cf6910e3b44
   sni: www.nintendogames.net
   skip-cert-verify: true
-- name: US_United States_trojan_159
-  server: 18.162.232.155
-  port: 2511
-  type: trojan
-  password: d84665c37878196ecf983cf6910e3b44
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: US_United States_trojan_1511
-  server: 43.199.217.71
-  port: 19465
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252Fripaojiedian
-  skip-cert-verify: true
 - name: US_United States_trojan_1514
   server: 18.166.154.20
   port: 22057
@@ -1575,24 +1573,6 @@ proxies:
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: US_United States_trojan_161
-  server: 155.117.198.87
-  type: trojan
-  port: 45619
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-  delay: 1023
-- name: US_United States_trojan_162
-  server: 155.117.198.82
-  type: trojan
-  port: 45619
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: fr.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-  delay: 1042
 - name: US_United States_trojan_163
   server: 13.39.41.250
   type: trojan
@@ -1612,22 +1592,6 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 1469
-- name: US_United States_vmess_1619
-  server: 107.175.91.118
-  type: vmess
-  country: 🇺🇸US
-  port: 443
-  uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /v2ray-wisp
-  delay: 1907
 - name: US_United States_vmess_1621
   server: 64.83.17.92
   type: vmess
@@ -1643,15 +1607,6 @@ proxies:
   ws-opts:
     path: /𒉭𓆩@rootface𒆜𒉭 TELEGRAM
   delay: 601
-- name: US_United States_trojan_1623
-  server: 95.40.68.150
-  port: 2702
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-  udp: true
-  delay: 1407
 - name: US_United States_ss_1630
   server: ss.026.node-for-bigairport.win
   type: ss
@@ -1790,6 +1745,7 @@ proxy-groups:
   - US_United States_http_14406
   - US_United States_vless_14411
   - US_United States_http_14418
+  - US_United States_vmess_14424
   - US_United States_anytls_14428
   - US_United States_anytls_14433
   - US_United States_http_14435
@@ -1813,16 +1769,10 @@ proxy-groups:
   - US_United States_trojan_156
   - US_United States_trojan_157
   - US_United States_trojan_158
-  - US_United States_trojan_159
-  - US_United States_trojan_1511
   - US_United States_trojan_1514
-  - US_United States_trojan_161
-  - US_United States_trojan_162
   - US_United States_trojan_163
   - US_United States_trojan_164
-  - US_United States_vmess_1619
   - US_United States_vmess_1621
-  - US_United States_trojan_1623
   - US_United States_ss_1630
   - US_United States_vmess_1631
 - name: 自动选择
@@ -1942,6 +1892,7 @@ proxy-groups:
   - US_United States_http_14406
   - US_United States_vless_14411
   - US_United States_http_14418
+  - US_United States_vmess_14424
   - US_United States_anytls_14428
   - US_United States_anytls_14433
   - US_United States_http_14435
@@ -1965,16 +1916,10 @@ proxy-groups:
   - US_United States_trojan_156
   - US_United States_trojan_157
   - US_United States_trojan_158
-  - US_United States_trojan_159
-  - US_United States_trojan_1511
   - US_United States_trojan_1514
-  - US_United States_trojan_161
-  - US_United States_trojan_162
   - US_United States_trojan_163
   - US_United States_trojan_164
-  - US_United States_vmess_1619
   - US_United States_vmess_1621
-  - US_United States_trojan_1623
   - US_United States_ss_1630
   - US_United States_vmess_1631
 rules:
