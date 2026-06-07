@@ -87,150 +87,85 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_127
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '48697'
-  server: 155.117.198.87
+- name: US_United States_trojan_113
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 53018
+  server: 43.199.71.149
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: US_United States_trojan_128
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 64.186.240.9
-  sni: dxy1h.twiladaphne.ndjp.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dxy1h.twiladaphne.ndjp.net
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
-- cipher: aes-128-gcm
-  name: US_United States_ss_129
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 154.26.181.85
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: US_United States_ss_130
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 64.186.238.108
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: US_United States_ss_131
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 154.21.91.144
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: US_United States_ss_132
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhyy.nn.kg
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: cdn.9889888.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: US_United States_trojan_133
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: '443'
-  server: 13.250.131.37
-  skip-cert-verify: false
-  sni: dxy1h.twiladaphne.ndjp.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
-- alterId: 2
-  cipher: auto
-  name: US_United States_vmess_43
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US_United States_trojan_46
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
+- name: US_United States_trojan_114
+  network: tcp
+  password: BxceQaOe
+  port: 11031
+  server: 95.40.84.247
   skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: false
+  sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_49
-  port: 59750
-  reality-opts:
-    public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
-  server: 47.83.153.19
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_410
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: US_United States_trojan_116
+  network: tcp
+  password: BxceQaOe
+  port: 9731
+  server: 43.199.65.125
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_117
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 37973
+  server: 43.199.189.134
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_118
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 6357
+  server: 18.167.51.169
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_119
+  network: tcp
+  password: BxceQaOe
+  port: 28111
+  server: 95.40.47.145
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_415
+  name: US_United States_ss_126
+  password: amazonskr05
+  port: '443'
+  server: 3.96.152.83
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_129
   password: amazonskr05
   port: 443
-  server: 15.223.186.62
+  server: 52.60.99.199
+  skip-cert-verify: false
   type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_132
+  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
+  port: '51523'
+  server: ru.moktana.app
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_133
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: '45619'
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
   udp: true
 - name: US_United States_vmess_61
   server: freexiaohouzi.xiaohouzi.club
@@ -515,6 +450,30 @@ proxies:
   password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   sni: 172.235.63.252
   skip-cert-verify: false
+- name: US_United States_ss_673
+  server: series-a2.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: US_United States_ss_675
+  server: admin.c1.havij.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1kVr0KATIJI7mwOF
+- name: US_United States_ss_676
+  server: admin.c1.webramz.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
+- name: US_United States_ss_677
+  server: series-a1.samanehha.co
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W74XFALLLuw6m5IA
 - name: US_United States_ss_681
   server: 149.22.87.240
   port: 443
@@ -4772,6 +4731,13 @@ proxies:
     path: /
     headers:
       Host: namer-us-sea-01-edgecast.qdns.live
+- name: US_United States_trojan_61027
+  server: 155.117.198.87
+  port: 48697
+  type: trojan
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: gh.01.naiun.bilibili.com
+  skip-cert-verify: false
 - name: US_United States_trojan_61028
   server: 47.245.62.4
   port: 8443
@@ -5617,6 +5583,12 @@ proxies:
   type: trojan
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   skip-cert-verify: false
+- name: US_United States_trojan_61483
+  server: official.tokyometropolis.ivano-frankivsk.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
 - name: US_United States_trojan_61496
   server: official.tokyometropolis.kyiv.ua
   port: 2053
@@ -5647,6 +5619,12 @@ proxies:
   network: ws
   ws-opts:
     path: /game
+- name: US_United States_trojan_61506
+  server: official.tokyometropolis.chernigov.ua
+  port: 2053
+  type: trojan
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: false
 - name: US_United States_vmess_61512
   server: 138.2.49.230
   port: 10021
@@ -6787,13 +6765,6 @@ proxies:
   type: trojan
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   sni: is.01.naiun.bilibili.com
-  skip-cert-verify: false
-- name: US_United States_trojan_61970
-  server: 155.117.198.83
-  port: 46424
-  type: trojan
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: de.01.naiun.bilibili.com
   skip-cert-verify: false
 - name: US_United States_trojan_61971
   server: 155.117.198.86
@@ -17577,13 +17548,17 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- cipher: aes-256-gcm
-  name: US_United States_ss_141
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 22189
-  server: ss.012.node-for-bigairport.win
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_1328
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: US_United States_ss_142
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
@@ -17592,20 +17567,14 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_144
+  name: US_United States_ss_143
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 11688
   server: ss.005.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_145
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.048.node-for-bigairport.win
-  type: ss
 - encryption: none
-  name: US_United States_vless_146
+  name: US_United States_vless_144
   network: ws
   port: 80
   server: freeyx.cloudflare88.eu.org
@@ -17615,7 +17584,13 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_vless_147
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_145
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.048.node-for-bigairport.win
+  type: ss
+- name: US_United States_vless_146
   network: ws
   port: 2082
   server: 104.17.109.71
@@ -17631,7 +17606,7 @@ proxies:
     max-early-data: 2560
     path: /jeyk7gbxzfe1
   xudp: true
-- name: US_United States_vless_148
+- name: US_United States_vless_147
   network: ws
   port: 8080
   server: 198.41.209.88
@@ -17647,7 +17622,7 @@ proxies:
     max-early-data: 2560
     path: /ec4l307nur5g
   xudp: true
-- name: US_United States_vless_149
+- name: US_United States_vless_148
   network: ws
   port: 80
   server: 104.16.158.162
@@ -17662,14 +17637,14 @@ proxies:
     path: /?ed=2048
   xudp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1411
+  name: US_United States_ss_1410
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 13006
-  server: ss.020.node-for-bigairport.win
+  port: 15099
+  server: ss.013.node-for-bigairport.win
   type: ss
   udp: true
 - encryption: none
-  name: US_United States_vless_1412
+  name: US_United States_vless_1411
   network: ws
   port: 80
   server: cloudflare.182682.xyz
@@ -17681,27 +17656,20 @@ proxies:
     path: /?ed=2048
 - cipher: aes-256-gcm
   name: US_United States_ss_1413
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 13005
-  server: ss.017.node-for-bigairport.win
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: US_United States_ss_1414
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
   port: 51135
   server: bgroup.node4.s.nodelist-airport.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1415
+  name: US_United States_ss_1414
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 36888
   server: ss.007.node-for-bigairport.win
   type: ss
   udp: true
 - encryption: none
-  name: US_United States_vless_1420
+  name: US_United States_vless_1427
   network: ws
   port: 80
   server: 104.16.149.66
@@ -17715,7 +17683,7 @@ proxies:
         Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- name: US_United States_vless_1421
+- name: US_United States_vless_1429
   network: ws
   port: 8880
   server: wangcai115.cloudflare.182682.xyz
@@ -17731,56 +17699,67 @@ proxies:
     path: /Telegram🇨🇳@WangCai2/?ed=2560
   xudp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1424
+  name: US_United States_ss_1434
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 16589
   server: ss.038.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1425
+  name: US_United States_ss_1436
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 11688
   server: ss.009.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1428
+  name: US_United States_ss_1438
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 29004
   server: ss.039.node-for-bigairport.win
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1439
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c18ca9e:213221
+    mode: tls
+  port: 2377
+  server: 3.1.195.22
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1430
+  name: US_United States_ss_1442
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 19287
   server: ss.021.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1431
+  name: US_United States_ss_1443
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
   port: 50001
   server: bgroup.node3.s.nodelist-airport.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1432
+  name: US_United States_ss_1445
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
   port: 50001
   server: bgroup.node2.s.nodelist-airport.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1436
+  name: US_United States_ss_1448
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 19287
   server: ss.030.node-for-bigairport.win
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1438
+  name: US_United States_ss_1450
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 15886
   server: ss.034.node-for-bigairport.win
@@ -17788,7 +17767,7 @@ proxies:
   udp: true
 - alterId: '0'
   cipher: auto
-  name: US_United States_vmess_1444
+  name: US_United States_vmess_1458
   network: ws
   port: 53213
   server: bgroup.node4.v.nodelist-airport.com
@@ -17802,14 +17781,29 @@ proxies:
     path: /
   xudp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1447
+  name: US_United States_ss_1461
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
   port: 53431
   server: bgroup.node1.s.nodelist-airport.com
   type: ss
   udp: true
+- name: US_United States_http_1465
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: af84ae3a-t9zts0-tbicd9-1go3q.jp.oshuawei.com
+  sni: af84ae3a-t9zts0-tbicd9-1go3q.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: US_United States_http_1467
+  password: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
+  port: 443
+  server: 330bc4a0-tdyf40-tijbf1-1nhp7.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
 - cipher: aes-256-gcm
-  name: US_United States_ss_1451
+  name: US_United States_ss_1469
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 11688
   server: ss.006.node-for-bigairport.win
@@ -17817,7 +17811,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_1453
+  name: US_United States_vless_1470
   network: ws
   port: 443
   server: cdn.7zz.cn
@@ -17834,12 +17828,44 @@ proxies:
     path: /id-pusat
   xudp: true
 - cipher: aes-256-gcm
-  name: US_United States_ss_1460
+  name: US_United States_ss_1480
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 19887
   server: ss.036.node-for-bigairport.win
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_United States_vless_1482
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: 473277e2
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
+- client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_1487
+  network: ws
+  port: 28382
+  server: 138.2.71.48
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nn9jdg-k7yewrrk.acg.xx.kg
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
 - client-fingerprint: chrome
   metadata:
     cleanName: 日本5
@@ -17848,7 +17874,7 @@ proxies:
     originalName: 日本5
     region: 日本
     tags: []
-  name: US_United States_vless_1465
+  name: US_United States_vless_1489
   network: ws
   port: 9871
   server: 172.105.233.248
@@ -17863,30 +17889,22 @@ proxies:
     headers:
       Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
-- name: US_United States_http_1469
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+- name: US_United States_http_14101
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
   port: 443
-  server: cc34d62c-t9zts0-tairte-1m0fq.sg.oshuawei.com
-  sni: cc34d62c-t9zts0-tairte-1m0fq.sg.oshuawei.com
+  server: 61abb5fa-t9zts0-tpaqgu-1smhu.sg.oshuawei.com
+  sni: 61abb5fa-t9zts0-tpaqgu-1smhu.sg.oshuawei.com
   tls: true
   type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: US_United States_http_1475
+  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+- name: US_United States_http_14102
   password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   port: 443
   server: 58f9c4cb-te5ts0-twuk0i-1hzyr.sg.oshuawei.com
   tls: true
   type: http
   username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-- name: US_United States_http_1477
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: 27f9380a-ta1og0-tgzvop-hns7.sg.oshuawei.com
-  sni: 27f9380a-ta1og0-tgzvop-hns7.sg.oshuawei.com
-  tls: true
-  type: http
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-- name: US_United States_http_1478
+- name: US_United States_http_14105
   password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
   port: 443
   server: 142c7edb-ta1og0-tkka1f-1k25p.sg.oshuawei.com
@@ -17894,7 +17912,15 @@ proxies:
   tls: true
   type: http
   username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: US_United States_http_1479
+- name: US_United States_http_14106
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: 27f9380a-ta1og0-tgzvop-hns7.sg.oshuawei.com
+  sni: 27f9380a-ta1og0-tgzvop-hns7.sg.oshuawei.com
+  tls: true
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- name: US_United States_http_14107
   password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: ceacbc3b-t9zts0-ts3rye-mrtr.sg.oshuawei.com
@@ -17902,7 +17928,7 @@ proxies:
   tls: true
   type: http
   username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_http_1480
+- name: US_United States_http_14109
   password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
   port: 443
   server: 3a3dd262-t9zts0-th9kx9-1os43.sg.oshuawei.com
@@ -17910,17 +17936,9 @@ proxies:
   tls: true
   type: http
   username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-- name: US_United States_http_1481
-  password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  port: 443
-  server: cf972b6f-ta1og0-tg8syu-1nyy5.sg.oshuawei.com
-  sni: cf972b6f-ta1og0-tg8syu-1nyy5.sg.oshuawei.com
-  tls: true
-  type: http
-  username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_1484
+  name: US_United States_vless_14111
   network: ws
   port: 20988
   server: 158.178.240.208
@@ -17936,24 +17954,16 @@ proxies:
         Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_1485
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: 473277e2
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
+- cipher: aes-256-gcm
+  name: US_United States_ss_14114
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13005
+  server: ss.017.node-for-bigairport.win
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_1489
+  name: US_United States_vless_14117
   network: ws
   port: 18836
   server: 172.237.12.208
@@ -17969,7 +17979,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: US_United States_http_1491
+- name: US_United States_http_14118
   password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
   port: 443
   server: ff959c92-t9zts0-tei4of-1qxa1.sg.oshuawei.com
@@ -17979,7 +17989,7 @@ proxies:
   username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_1493
+  name: US_United States_vless_14121
   network: ws
   port: 4399
   server: 129.212.231.216
@@ -17995,7 +18005,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: US_United States_http_1497
+- name: US_United States_http_14124
   password: bd515574-3b10-11ee-ac14-f23c9164ca5d
   port: 443
   server: b7a4b7a4-t9zts0-tb016b-1m7l4.sg.oshuawei.com
@@ -18005,7 +18015,7 @@ proxies:
   username: bd515574-3b10-11ee-ac14-f23c9164ca5d
 - client-fingerprint: randomized
   encryption: none
-  name: US_United States_vless_1499
+  name: US_United States_vless_14125
   network: ws
   port: 443
   security: tls
@@ -18018,7 +18028,7 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_http_14103
+- name: US_United States_http_14128
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 443
   server: 2bae4ec0-t9zts0-tcmken-19les.sg.oshuawei.com
@@ -18026,7 +18036,7 @@ proxies:
   tls: true
   type: http
   username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: US_United States_http_14104
+- name: US_United States_http_14133
   password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
   port: 443
   server: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
@@ -18034,15 +18044,7 @@ proxies:
   tls: true
   type: http
   username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-- name: US_United States_http_14106
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: 61abb5fa-t9zts0-tpaqgu-1smhu.sg.oshuawei.com
-  sni: 61abb5fa-t9zts0-tpaqgu-1smhu.sg.oshuawei.com
-  tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-- name: US_United States_http_14108
+- name: US_United States_http_14135
   password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
   port: 443
   server: 41dc57b8-t9zts0-truoje-1uni.sg.oshuawei.com
@@ -18050,22 +18052,22 @@ proxies:
   tls: true
   type: http
   username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_14109
+- name: US_United States_http_14137
   password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
   port: 443
   server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
   tls: true
   type: http
   username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_14111
-  password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
+- name: US_United States_http_14138
+  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
   port: 443
-  server: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
-  sni: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
+  server: 929a4b9a-t9zts0-tnnrly-g43g.sg.oshuawei.com
+  sni: 929a4b9a-t9zts0-tnnrly-g43g.sg.oshuawei.com
   tls: true
   type: http
-  username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-- name: US_United States_http_14112
+  username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+- name: US_United States_http_14140
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
   server: 3c3915de-t9zts0-ta5i1s-1j61y.jp.oshuawei.com
@@ -18073,7 +18075,7 @@ proxies:
   tls: true
   type: http
   username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: US_United States_http_14113
+- name: US_United States_http_14141
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: 9ef86c9b-t9zts0-tarubk-1qkeg.jp.oshuawei.com
@@ -18081,15 +18083,7 @@ proxies:
   tls: true
   type: http
   username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-- name: US_United States_http_14114
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  port: 443
-  server: 657c72ce-t9zts0-tcq5zn-19qpt.sg.oshuawei.com
-  sni: 657c72ce-t9zts0-tcq5zn-19qpt.sg.oshuawei.com
-  tls: true
-  type: http
-  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- name: US_United States_http_14116
+- name: US_United States_http_14142
   password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   port: 443
   server: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
@@ -18097,22 +18091,14 @@ proxies:
   tls: true
   type: http
   username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-- name: US_United States_http_14117
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: af84ae3a-t9zts0-tbicd9-1go3q.jp.oshuawei.com
-  sni: af84ae3a-t9zts0-tbicd9-1go3q.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-- name: US_United States_http_14118
+- name: US_United States_http_14144
   password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
   port: 443
   server: ac1d95df-teisg0-tm23vf-1jk6u.jp.oshuawei.com
   tls: true
   type: http
   username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- name: US_United States_http_14119
+- name: US_United States_http_14146
   password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: 1b403318-ta1og0-tgr32b-wj6v.jp.oshuawei.com
@@ -18120,7 +18106,7 @@ proxies:
   tls: true
   type: http
   username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_http_14121
+- name: US_United States_http_14147
   password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
   port: 443
   server: e9870938-t9zts0-tamumc-1lkbs.jp.oshuawei.com
@@ -18128,7 +18114,7 @@ proxies:
   tls: true
   type: http
   username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-- name: US_United States_http_14122
+- name: US_United States_http_14149
   password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
   port: 443
   server: 8a8bebd2-tegxs0-tn57fp-5ifr.jp.oshuawei.com
@@ -18136,7 +18122,14 @@ proxies:
   tls: true
   type: http
   username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-- name: US_United States_http_14124
+- name: US_United States_http_14150
+  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+  port: 443
+  server: 65a4309b-tcb5s0-te4ijj-1fqef.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+- name: US_United States_http_14151
   password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
   port: 443
   server: e6c59a08-t9zts0-tamumc-1lkbs.sg.oshuawei.com
@@ -18144,22 +18137,7 @@ proxies:
   tls: true
   type: http
   username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-- name: US_United States_http_14125
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 443
-  server: 65a4309b-tcb5s0-te4ijj-1fqef.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: US_United States_http_14126
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: 8a61a75a-t9zts0-tgzvop-hns7.jp.oshuawei.com
-  sni: 8a61a75a-t9zts0-tgzvop-hns7.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-- name: US_United States_http_14127
+- name: US_United States_http_14152
   password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
   port: 443
   server: da296b87-t9zts0-thd0h1-1rz5s.jp.oshuawei.com
@@ -18167,7 +18145,15 @@ proxies:
   tls: true
   type: http
   username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-- name: US_United States_http_14128
+- name: US_United States_http_14153
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: 8a61a75a-t9zts0-tgzvop-hns7.jp.oshuawei.com
+  sni: 8a61a75a-t9zts0-tgzvop-hns7.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- name: US_United States_http_14154
   password: 40639730-e027-11ea-87ad-f23c913c8d2b
   port: 443
   server: 5c2fe448-t9zts0-tebnsl-z93q.sg.oshuawei.com
@@ -18175,14 +18161,14 @@ proxies:
   tls: true
   type: http
   username: 40639730-e027-11ea-87ad-f23c913c8d2b
-- name: US_United States_http_14130
+- name: US_United States_http_14157
   password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
   port: 443
   server: d21231c9-tegxs0-truoje-1uni.jp.oshuawei.com
   tls: true
   type: http
   username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_14131
+- name: US_United States_http_14158
   password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
   port: 443
   server: 1926e588-ta1og0-tc59t3-81nv.jp.oshuawei.com
@@ -18198,7 +18184,7 @@ proxies:
     originalName: 新加坡5
     region: 新加坡
     tags: []
-  name: US_United States_vless_14132
+  name: US_United States_vless_14159
   network: ws
   port: 4399
   server: 178.128.19.168
@@ -18213,7 +18199,7 @@ proxies:
     headers:
       Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
     path: /@Marisa_kristi
-- name: US_United States_http_14133
+- name: US_United States_http_14161
   password: de003c72-0157-11ef-86da-f23c91cfbbc9
   port: 443
   server: ee1b4ea0-t9zts0-tm3dx0-1r9dt.jp.oshuawei.com
@@ -18221,23 +18207,7 @@ proxies:
   tls: true
   type: http
   username: de003c72-0157-11ef-86da-f23c91cfbbc9
-- name: US_United States_http_14136
-  password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 57ff4081-ta1og0-tozbjw-1462e.jp.oshuawei.com
-  sni: 57ff4081-ta1og0-tozbjw-1462e.jp.oshuawei.com
-  tls: true
-  type: http
-  username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_http_14137
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 443
-  server: 1d0ee658-ta1og0-tsdg75-tlhh.jp.oshuawei.com
-  sni: 1d0ee658-ta1og0-tsdg75-tlhh.jp.oshuawei.com
-  tls: true
-  type: http
-  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: US_United States_http_14138
+- name: US_United States_http_14163
   password: c357a728-1211-11f0-9a65-f23c9164ca5d
   port: 443
   server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
@@ -18245,7 +18215,23 @@ proxies:
   tls: true
   type: http
   username: c357a728-1211-11f0-9a65-f23c9164ca5d
-- name: US_United States_http_14139
+- name: US_United States_http_14164
+  password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 57ff4081-ta1og0-tozbjw-1462e.jp.oshuawei.com
+  sni: 57ff4081-ta1og0-tozbjw-1462e.jp.oshuawei.com
+  tls: true
+  type: http
+  username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+- name: US_United States_http_14165
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  port: 443
+  server: 1d0ee658-ta1og0-tsdg75-tlhh.jp.oshuawei.com
+  sni: 1d0ee658-ta1og0-tsdg75-tlhh.jp.oshuawei.com
+  tls: true
+  type: http
+  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: US_United States_http_14167
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
   server: 358848c5-t9zts0-tnkuks-wujn.sg.oshuawei.com
@@ -18253,15 +18239,7 @@ proxies:
   tls: true
   type: http
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_14140
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  port: 443
-  server: b9c57dc1-t9zts0-tiuovf-v3c2.jp.oshuawei.com
-  sni: b9c57dc1-t9zts0-tiuovf-v3c2.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- name: US_United States_http_14141
+- name: US_United States_http_14168
   password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
   port: 443
   server: 7baf9ab3-t9zts0-tcmifz-1s3lb.jp.oshuawei.com
@@ -18269,7 +18247,7 @@ proxies:
   tls: true
   type: http
   username: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-- name: US_United States_http_14143
+- name: US_United States_http_14169
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
   server: 67d05d58-t9zts0-tnkuks-wujn.jp.oshuawei.com
@@ -18277,15 +18255,7 @@ proxies:
   tls: true
   type: http
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_14144
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  port: 443
-  server: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
-  sni: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-- name: US_United States_http_14145
+- name: US_United States_http_14171
   password: de629d50-1711-11ed-bd7c-f23c913c8d2b
   port: 443
   server: 483e462a-tegxs0-tlpfci-1jdha.jp.oshuawei.com
@@ -18293,7 +18263,15 @@ proxies:
   tls: true
   type: http
   username: de629d50-1711-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_14146
+- name: US_United States_http_14172
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  port: 443
+  server: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
+  sni: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- name: US_United States_http_14173
   password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
   port: 443
   server: 2fc39b73-t9zts0-tdfzix-fm2v.jp.oshuawei.com
@@ -18301,7 +18279,7 @@ proxies:
   tls: true
   type: http
   username: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-- name: US_United States_http_14147
+- name: US_United States_http_14174
   password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
   port: 443
   server: 09dc9ac8-t9zts0-to8xn3-l4nv.jp.oshuawei.com
@@ -18309,7 +18287,7 @@ proxies:
   tls: true
   type: http
   username: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-- name: US_United States_http_14149
+- name: US_United States_http_14175
   password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
   port: 443
   server: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
@@ -18317,7 +18295,7 @@ proxies:
   tls: true
   type: http
   username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-- name: US_United States_vless_14150
+- name: US_United States_vless_14177
   network: ws
   port: 2052
   server: 104.17.95.220
@@ -18333,7 +18311,7 @@ proxies:
     max-early-data: 2560
     path: /7u2613qopnft
   xudp: true
-- name: US_United States_http_14151
+- name: US_United States_http_14179
   password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
   port: 443
   server: 6780b640-t9zts0-trg4wh-z65w.jp.oshuawei.com
@@ -18341,7 +18319,7 @@ proxies:
   tls: true
   type: http
   username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-- name: US_United States_http_14152
+- name: US_United States_http_14180
   password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com
@@ -18349,7 +18327,7 @@ proxies:
   tls: true
   type: http
   username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_http_14153
+- name: US_United States_http_14181
   password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
   port: 443
   server: 180aafb4-t9zts0-tm23vf-1jk6u.jp.oshuawei.com
@@ -18357,7 +18335,7 @@ proxies:
   tls: true
   type: http
   username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- name: US_United States_http_14154
+- name: US_United States_http_14182
   password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
   port: 443
   server: 89b91408-ta1og0-tbck4p-mv7m.jp.oshuawei.com
@@ -18365,7 +18343,7 @@ proxies:
   tls: true
   type: http
   username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-- name: US_United States_http_14155
+- name: US_United States_http_14183
   password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
   port: 443
   server: 0e457337-tegxs0-tes6jx-1o8ak.jp.oshuawei.com
@@ -18373,7 +18351,7 @@ proxies:
   tls: true
   type: http
   username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- name: US_United States_http_14156
+- name: US_United States_http_14186
   password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
   port: 443
   server: 4c129820-t9zts0-ta00rd-1o8ak.jp.oshuawei.com
@@ -18381,7 +18359,7 @@ proxies:
   tls: true
   type: http
   username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- name: US_United States_http_14160
+- name: US_United States_http_14189
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
@@ -18389,7 +18367,7 @@ proxies:
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: US_United States_http_14161
+- name: US_United States_http_14190
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   port: 443
   server: 1ab5ca4c-t9zts0-tonrqx-1khwf.jp.oshuawei.com
@@ -18397,7 +18375,7 @@ proxies:
   tls: true
   type: http
   username: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-- name: US_United States_http_14162
+- name: US_United States_http_14191
   password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
   port: 443
   server: 56d1e939-t9zts0-tkka1f-1k25p.jp.oshuawei.com
@@ -18405,7 +18383,7 @@ proxies:
   tls: true
   type: http
   username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: US_United States_http_14163
+- name: US_United States_http_14192
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
@@ -18413,7 +18391,7 @@ proxies:
   tls: true
   type: http
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: US_United States_http_14165
+- name: US_United States_http_14194
   password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
   port: 443
   server: 80ba95f8-t9zts0-thmjbt-1rk9y.jp.oshuawei.com
@@ -18421,16 +18399,16 @@ proxies:
   tls: true
   type: http
   username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-- name: US_United States_http_14167
-  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- name: US_United States_http_14196
+  password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
   port: 443
-  server: 8997795f-t9zts0-titr5n-1hhyy.jp.oshuawei.com
-  sni: 8997795f-t9zts0-titr5n-1hhyy.jp.oshuawei.com
+  server: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
+  sni: fbd79892-t9zts0-tryjtz-12ach.jp.oshuawei.com
   tls: true
   type: http
-  username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
 - encryption: none
-  name: US_United States_vless_14168
+  name: US_United States_vless_14197
   network: ws
   port: 80
   server: cloudflare-ip.mofashi.ltd
@@ -18440,13 +18418,21 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_anytls_14169
+- name: US_United States_http_14198
+  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: 8997795f-t9zts0-titr5n-1hhyy.jp.oshuawei.com
+  sni: 8997795f-t9zts0-titr5n-1hhyy.jp.oshuawei.com
+  tls: true
+  type: http
+  username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- name: US_United States_anytls_14199
   password: cd479997-6eb1-4f6f-ac0e-febaeb2d50f8
   port: 20260
   server: jpordb.250809.xyz
   sni: jpordb.250809.xyz
   type: anytls
-- name: US_United States_http_14174
+- name: US_United States_http_14202
   password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
   port: 443
   server: 66a384f9-t9zts0-tphxte-1h5u7.jp.oshuawei.com
@@ -18454,7 +18440,7 @@ proxies:
   tls: true
   type: http
   username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-- name: US_United States_http_14176
+- name: US_United States_http_14204
   password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
   port: 443
   server: f47d7a3e-ta1og0-tbao5v-gacy.jp.oshuawei.com
@@ -18462,7 +18448,7 @@ proxies:
   tls: true
   type: http
   username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-- name: US_United States_http_14177
+- name: US_United States_http_14205
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 20b90c24-t9zts0-tdq1ln-1hpo0.jp.oshuawei.com
@@ -18470,7 +18456,7 @@ proxies:
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: US_United States_http_14179
+- name: US_United States_http_14206
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 6be388f8-ta1og0-ta6lxc-jjv2.jp.oshuawei.com
@@ -18478,7 +18464,7 @@ proxies:
   tls: true
   type: http
   username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- name: US_United States_http_14185
+- name: US_United States_http_14212
   password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
   port: 443
   server: f571282e-tegxs0-thmjbt-1rk9y.jp.oshuawei.com
@@ -18494,7 +18480,7 @@ proxies:
     originalName: 新加坡4
     region: 新加坡
     tags: []
-  name: US_United States_vless_14187
+  name: US_United States_vless_14214
   network: ws
   port: 486
   server: 157.245.159.88
@@ -18509,7 +18495,7 @@ proxies:
     headers:
       Host: guslef2w8oz12wv.ymj.xx.kg
     path: /@Marisa_kristi
-- name: US_United States_http_14188
+- name: US_United States_http_14216
   password: f860f2da-5035-11ed-bb74-f23c9164ca5d
   port: 443
   server: 612f3153-t9zts0-tnt75r-1k8ga.jp.oshuawei.com
@@ -18517,7 +18503,7 @@ proxies:
   tls: true
   type: http
   username: f860f2da-5035-11ed-bb74-f23c9164ca5d
-- name: US_United States_http_14190
+- name: US_United States_http_14217
   password: c357a728-1211-11f0-9a65-f23c9164ca5d
   port: 443
   server: 38aa4bb3-t9zts0-td5oia-1m49t.sg.oshuawei.com
@@ -18525,15 +18511,7 @@ proxies:
   tls: true
   type: http
   username: c357a728-1211-11f0-9a65-f23c9164ca5d
-- name: US_United States_http_14195
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: test
-- name: US_United States_http_14196
+- name: US_United States_http_14224
   password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: c06023d0-t9zts0-tk5ls1-z7a1.jp.oshuawei.com
@@ -18541,15 +18519,15 @@ proxies:
   tls: true
   type: http
   username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-- name: US_United States_http_14201
-  password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-  port: 443
-  server: dfe5feec-ta1og0-tphxte-1h5u7.sg.oshuawei.com
-  sni: dfe5feec-ta1og0-tphxte-1h5u7.sg.oshuawei.com
-  tls: true
+- name: US_United States_http_14225
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  skip-cert-verify: false
+  tls: false
   type: http
-  username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-- name: US_United States_http_14202
+  username: fQ67Dpe5dU
+- name: US_United States_http_14227
   password: 28213b50-7ed5-11ee-add6-f23c91369f2d
   port: 443
   server: 1dfbcec7-t9zts0-tqgocx-1plv4.jp.oshuawei.com
@@ -18557,7 +18535,24 @@ proxies:
   tls: true
   type: http
   username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-- name: US_United States_http_14203
+- name: US_United States_http_14228
+  password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+  port: 443
+  server: dfe5feec-ta1og0-tphxte-1h5u7.sg.oshuawei.com
+  sni: dfe5feec-ta1og0-tphxte-1h5u7.sg.oshuawei.com
+  tls: true
+  type: http
+  username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+- name: US_United States_http_14229
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: US_United States_http_14230
   password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
   port: 443
   server: 94e9f26a-tegxs0-twnp5a-ahsb.jp.oshuawei.com
@@ -18565,7 +18560,7 @@ proxies:
   tls: true
   type: http
   username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-- name: US_United States_http_14207
+- name: US_United States_http_14235
   password: c11ff50c-f582-11ee-94df-f23c9164ca5d
   port: 443
   server: 0dc2513e-t9zts0-tl09la-1q91p.sg.oshuawei.com
@@ -18574,7 +18569,7 @@ proxies:
   type: http
   username: c11ff50c-f582-11ee-94df-f23c9164ca5d
 - encryption: none
-  name: US_United States_vless_14209
+  name: US_United States_vless_14238
   network: ws
   port: 80
   server: cfip.1323123.xyz
@@ -18584,7 +18579,7 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_vless_14213
+- name: US_United States_vless_14239
   network: ws
   port: 8880
   server: 184.174.80.50
@@ -18594,7 +18589,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: US_United States_http_14215
+- name: US_United States_http_14241
   password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
   port: 443
   server: 1f431eb3-temhs0-tvvhcz-tl32.jp.oshuawei.com
@@ -18602,7 +18597,7 @@ proxies:
   tls: true
   type: http
   username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-- name: US_United States_http_14220
+- name: US_United States_http_14246
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 443
   server: c024b9e3-t9zts0-thv9l4-1jbj0.sg.oshuawei.com
@@ -18610,7 +18605,7 @@ proxies:
   tls: true
   type: http
   username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-- name: US_United States_http_14222
+- name: US_United States_http_14248
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
   server: 4f8fb0d5-t9zts0-ta5i1s-1j61y.sg.oshuawei.com
@@ -18618,7 +18613,23 @@ proxies:
   tls: true
   type: http
   username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: US_United States_http_14230
+- name: US_United States_http_14251
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  port: 443
+  server: ed907bfb-ta1og0-tawg6w-1rfon.sg.oshuawei.com
+  sni: ed907bfb-ta1og0-tawg6w-1rfon.sg.oshuawei.com
+  tls: true
+  type: http
+  username: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+- name: US_United States_http_14252
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: b9c57dc1-t9zts0-tiuovf-v3c2.jp.oshuawei.com
+  sni: b9c57dc1-t9zts0-tiuovf-v3c2.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- name: US_United States_http_14256
   password: c11ff50c-f582-11ee-94df-f23c9164ca5d
   port: 443
   server: c4c1f78e-t9zts0-tl09la-1q91p.jp.oshuawei.com
@@ -18626,7 +18637,7 @@ proxies:
   tls: true
   type: http
   username: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- name: US_United States_http_14236
+- name: US_United States_http_14261
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
@@ -18635,7 +18646,7 @@ proxies:
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
 - encryption: none
-  name: US_United States_vless_14238
+  name: US_United States_vless_14263
   network: ws
   port: 80
   server: cdn.2020111.xyz
@@ -18645,7 +18656,7 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_http_14239
+- name: US_United States_http_14264
   password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
   port: 443
   server: 68f26f08-t9zts0-tazlv3-11p9g.jp.oshuawei.com
@@ -18653,7 +18664,7 @@ proxies:
   tls: true
   type: http
   username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: US_United States_vless_14245
+- name: US_United States_vless_14270
   network: ws
   port: 80
   server: 172.67.194.87
@@ -18663,7 +18674,7 @@ proxies:
     headers:
       Host: v2configlab.v2configlab14.workers.dev
     path: /?ed=2048
-- name: US_United States_vless_14247
+- name: US_United States_vless_14272
   network: ws
   port: 8880
   server: 135.84.75.50
@@ -18673,7 +18684,7 @@ proxies:
     headers:
       Host: vms.lifetime08.workers.dev
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: US_United States_http_14248
+- name: US_United States_http_14273
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 3f170200-t9zts0-tdq1ln-1hpo0.sg.oshuawei.com
@@ -18681,7 +18692,7 @@ proxies:
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: US_United States_http_14249
+- name: US_United States_http_14274
   password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
   port: 443
   server: bc089f05-t9zts0-tac59v-i8ie.sg.oshuawei.com
@@ -18689,7 +18700,7 @@ proxies:
   tls: true
   type: http
   username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-- name: US_United States_vless_14254
+- name: US_United States_vless_14276
   network: ws
   port: 2095
   server: 104.18.241.114
@@ -18705,7 +18716,23 @@ proxies:
     max-early-data: 2560
     path: /l25hqs0onbig
   xudp: true
-- name: US_United States_http_14260
+- name: US_United States_http_14277
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: a8296aed-t9zts0-tbicd9-1go3q.de.oshuawei.com
+  sni: a8296aed-t9zts0-tbicd9-1go3q.de.oshuawei.com
+  tls: true
+  type: http
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: US_United States_http_14282
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 443
+  server: 29ce8b39-t9zts0-tdt3k0-jx5r.de.oshuawei.com
+  sni: 29ce8b39-t9zts0-tdt3k0-jx5r.de.oshuawei.com
+  tls: true
+  type: http
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+- name: US_United States_http_14286
   password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
@@ -18714,7 +18741,7 @@ proxies:
   type: http
   username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
 - encryption: none
-  name: US_United States_vless_14269
+  name: US_United States_vless_14292
   network: ws
   port: 80
   server: cf.877771.xyz
@@ -18724,7 +18751,7 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_http_14271
+- name: US_United States_http_14295
   password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
   port: 443
   server: c2de1797-ta1og0-tkka1f-1k25p.jp.oshuawei.com
@@ -18732,7 +18759,7 @@ proxies:
   tls: true
   type: http
   username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: US_United States_http_14274
+- name: US_United States_http_14298
   password: 28213b50-7ed5-11ee-add6-f23c91369f2d
   port: 443
   server: c90bef91-tegxs0-tqgocx-1plv4.jp.oshuawei.com
@@ -18740,15 +18767,7 @@ proxies:
   tls: true
   type: http
   username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-- name: US_United States_http_14277
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  skip-cert-verify: false
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
-- name: US_United States_http_14279
+- name: US_United States_http_14305
   password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
   port: 443
   server: e8f29734-t9zts0-tm23vf-1jk6u.sg.oshuawei.com
@@ -18756,7 +18775,7 @@ proxies:
   tls: true
   type: http
   username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- name: US_United States_http_14282
+- name: US_United States_http_14307
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: c7820e73-t9zts0-tan99f-1rdqg.sg.oshuawei.com
@@ -18764,7 +18783,7 @@ proxies:
   tls: true
   type: http
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: US_United States_http_14287
+- name: US_United States_http_14312
   password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   port: 443
   server: cf108292-t9zts0-tbeopq-1s0a7.de.oshuawei.com
@@ -18772,7 +18791,7 @@ proxies:
   tls: true
   type: http
   username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-- name: US_United States_http_14290
+- name: US_United States_http_14314
   password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: cdc95daf-t9zts0-ts3rye-mrtr.jp.oshuawei.com
@@ -18780,7 +18799,7 @@ proxies:
   tls: true
   type: http
   username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_vless_14291
+- name: US_United States_vless_14315
   network: ws
   port: 2086
   server: 104.16.72.113
@@ -18798,7 +18817,7 @@ proxies:
   xudp: true
 - client-fingerprint: randomized
   encryption: none
-  name: US_United States_vless_14292
+  name: US_United States_vless_14316
   network: ws
   port: 443
   security: tls
@@ -18811,7 +18830,7 @@ proxies:
     headers:
       Host: zyzzzoao.xn--fiqv8j.eu.org
     path: /?ed=2048
-- name: US_United States_http_14295
+- name: US_United States_http_14317
   password: 22308988-8548-11ea-a22e-f23c91cfbbc9
   port: 443
   server: 0b8b1f48-t9zts0-tiaexf-ufc0.sg.oshuawei.com
@@ -18819,15 +18838,7 @@ proxies:
   tls: true
   type: http
   username: 22308988-8548-11ea-a22e-f23c91cfbbc9
-- name: US_United States_http_14297
-  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  port: 443
-  server: d102c796-t9zts0-tdq4vj-1l0qa.de.oshuawei.com
-  sni: d102c796-t9zts0-tdq4vj-1l0qa.de.oshuawei.com
-  tls: true
-  type: http
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: US_United States_http_14298
+- name: US_United States_http_14319
   password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   port: 443
   server: 5c2e44b9-ta1og0-tbeopq-1s0a7.jp.oshuawei.com
@@ -18835,7 +18846,15 @@ proxies:
   tls: true
   type: http
   username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-- name: US_United States_http_14304
+- name: US_United States_http_14320
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 443
+  server: d102c796-t9zts0-tdq4vj-1l0qa.de.oshuawei.com
+  sni: d102c796-t9zts0-tdq4vj-1l0qa.de.oshuawei.com
+  tls: true
+  type: http
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: US_United States_http_14325
   password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
   port: 443
   server: 46cf39ec-t9zts0-tarwmr-1fqef.sg.oshuawei.com
@@ -18843,7 +18862,7 @@ proxies:
   tls: true
   type: http
   username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: US_United States_http_14305
+- name: US_United States_http_14326
   password: de003c72-0157-11ef-86da-f23c91cfbbc9
   port: 443
   server: 9ebd2266-ta1og0-tm3dx0-1r9dt.de.oshuawei.com
@@ -18851,35 +18870,15 @@ proxies:
   tls: true
   type: http
   username: de003c72-0157-11ef-86da-f23c91cfbbc9
-- encryption: none
-  name: US_United States_vless_14309
-  network: ws
-  port: 8443
-  security: tls
-  server: 167.179.110.68
-  servername: cf.afrcloudnet1.dpdns.org
+- name: US_United States_http_14328
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: 0a31cde9-ta1og0-tiuovf-v3c2.de.oshuawei.com
+  sni: 0a31cde9-ta1og0-tiuovf-v3c2.de.oshuawei.com
   tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14310
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 104.128.72.119
-  type: ss
-  udp: true
-- name: US_United States_http_14315
+  type: http
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- name: US_United States_http_14335
   password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
   port: 443
   server: a4e47635-t9zts0-titr5n-1hhyy.de.oshuawei.com
@@ -18887,7 +18886,7 @@ proxies:
   tls: true
   type: http
   username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- name: US_United States_http_14317
+- name: US_United States_http_14336
   password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
   port: 443
   server: 2af4e0ee-ta1og0-ta6lxc-jjv2.sg.oshuawei.com
@@ -18895,7 +18894,7 @@ proxies:
   tls: true
   type: http
   username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- name: US_United States_http_14320
+- name: US_United States_http_14339
   password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
   port: 443
   server: a0cd51ef-teisg0-tfjz9x-1t5n1.jp.oshuawei.com
@@ -18903,15 +18902,15 @@ proxies:
   tls: true
   type: http
   username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_14323
-  network: ws
-  port: 10086
-  server: 107.148.185.16
-  type: vmess
-  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
-- name: US_United States_http_14324
+- multiplexing: MULTIPLEXING_LOW
+  name: US_United States_mieru_14340
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: US_United States_http_14341
   password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
   port: 443
   server: e3e13534-t9zts0-tcmifz-1s3lb.de.oshuawei.com
@@ -18919,15 +18918,7 @@ proxies:
   tls: true
   type: http
   username: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-- name: US_United States_http_14325
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 443
-  server: 29ce8b39-t9zts0-tdt3k0-jx5r.de.oshuawei.com
-  sni: 29ce8b39-t9zts0-tdt3k0-jx5r.de.oshuawei.com
-  tls: true
-  type: http
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- name: US_United States_http_14326
+- name: US_United States_http_14342
   password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
   port: 443
   server: ab9e1fe5-ta1og0-tc4puo-m0b9.sg.oshuawei.com
@@ -18935,7 +18926,15 @@ proxies:
   tls: true
   type: http
   username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_14327
+- name: US_United States_http_14343
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 52a32bc8-t9zts0-tr9h64-1f1f1.de.oshuawei.com
+  sni: 52a32bc8-t9zts0-tr9h64-1f1f1.de.oshuawei.com
+  tls: true
+  type: http
+  username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+- name: US_United States_http_14344
   password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 443
   server: 7c0e00f9-t9zts0-tsdg75-tlhh.de.oshuawei.com
@@ -18943,7 +18942,7 @@ proxies:
   tls: true
   type: http
   username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: US_United States_http_14329
+- name: US_United States_http_14346
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 443
   server: 049f0d40-t9zts0-tcmken-19les.de.oshuawei.com
@@ -18951,15 +18950,14 @@ proxies:
   tls: true
   type: http
   username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: US_United States_http_14330
-  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14347
+  password: CULuHB2PKuvK6yEN
   port: 443
-  server: 2f0586a3-t9zts0-to8xn3-l4nv.sg.oshuawei.com
-  sni: 2f0586a3-t9zts0-to8xn3-l4nv.sg.oshuawei.com
-  tls: true
-  type: http
-  username: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-- name: US_United States_anytls_14332
+  server: 40.123.244.72
+  type: ss
+  udp: true
+- name: US_United States_anytls_14349
   password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
   port: 8443
   server: b51e6b6b-tegxs0-truoje-1uni.sj.oshuawei.com
@@ -18967,16 +18965,24 @@ proxies:
   sni: b51e6b6b-tegxs0-truoje-1uni.sj.oshuawei.com
   type: anytls
   udp: true
-- name: US_United States_http_14333
-  password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_14350
+  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
   port: 443
-  server: 5469720f-t9zts0-tbdyji-ach1.de.oshuawei.com
-  sni: 5469720f-t9zts0-tbdyji-ach1.de.oshuawei.com
+  server: 2f0586a3-t9zts0-to8xn3-l4nv.sg.oshuawei.com
+  sni: 2f0586a3-t9zts0-to8xn3-l4nv.sg.oshuawei.com
   tls: true
   type: http
-  username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  username: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_14356
+  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  port: 443
+  server: 396e9856-t9zts0-tb08pe-luwe.de.oshuawei.com
+  sni: 396e9856-t9zts0-tb08pe-luwe.de.oshuawei.com
+  tls: true
+  type: http
+  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
 - client-fingerprint: chrome
-  name: US_United States_vless_14345
+  name: US_United States_vless_14364
   network: ws
   port: 443
   server: adf.ly
@@ -18992,7 +18998,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: US_United States_http_14348
+- name: US_United States_http_14365
   password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
   port: 443
   server: 9ef9e2c5-ta1og0-tc4puo-m0b9.de.oshuawei.com
@@ -19000,15 +19006,7 @@ proxies:
   tls: true
   type: http
   username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_14349
-  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  port: 443
-  server: 83969ab3-t9zts0-tqruo0-1pqhp.sg.oshuawei.com
-  sni: 83969ab3-t9zts0-tqruo0-1pqhp.sg.oshuawei.com
-  tls: true
-  type: http
-  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
-- name: US_United States_vless_14352
+- name: US_United States_vless_14367
   network: ws
   port: 8880
   server: 166.62.109.30
@@ -19018,7 +19016,15 @@ proxies:
     headers:
       Host: vms.lifetime18.workers.dev
     path: /
-- name: US_United States_http_14355
+- name: US_United States_http_14368
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 2550ba9a-t9zts0-tiqsce-t6fv.de.oshuawei.com
+  sni: 2550ba9a-t9zts0-tiqsce-t6fv.de.oshuawei.com
+  tls: true
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- name: US_United States_http_14371
   password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
   port: 443
   server: 3dc7339f-ta1og0-tdh9w7-ahsb.sg.oshuawei.com
@@ -19026,7 +19032,25 @@ proxies:
   tls: true
   type: http
   username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-- name: US_United States_vless_14356
+- client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  name: US_United States_vless_14372
+  network: ws
+  port: 627
+  security: tls
+  server: 140.245.75.37
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  skip-cert-verify: false
+  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- name: US_United States_vless_14373
   network: ws
   port: 8880
   server: 130.250.137.30
@@ -19036,7 +19060,7 @@ proxies:
     headers:
       Host: vms.lifetime05.workers.dev
     path: /
-- name: US_United States_http_14357
+- name: US_United States_http_14374
   password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
   server: b8c47f5c-tegxs0-trhks8-1c9em.jp.oshuawei.com
@@ -19045,7 +19069,7 @@ proxies:
   type: http
   username: 336501b6-51d2-11ee-a993-f23c9164ca5d
 - client-fingerprint: random
-  name: US_United States_vless_14359
+  name: US_United States_vless_14377
   network: ws
   port: 2083
   server: 172.66.40.99
@@ -19061,7 +19085,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: US_United States_http_14360
+- name: US_United States_http_14378
   password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 443
   server: e8d29ed9-t9zts0-tsdg75-tlhh.sg.oshuawei.com
@@ -19069,9 +19093,19 @@ proxies:
   tls: true
   type: http
   username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: US_United States_vless_14379
+  network: ws
+  port: 8880
+  server: 69.84.182.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14361
+  name: US_United States_vless_14380
   network: ws
   port: 2096
   security: tls
@@ -19085,18 +19119,23 @@ proxies:
     headers:
       Host: go.iranfree.de5.net
     path: /
-- name: US_United States_vless_14362
+- encryption: none
+  name: US_United States_vless_14383
   network: ws
   port: 8880
-  server: 69.84.182.30
+  server: 104.129.165.30
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime48.workers.dev
+      Host: vms.lifetime42.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /
+  xudp: true
 - encryption: none
-  name: US_United States_vless_14364
+  name: US_United States_vless_14386
   network: ws
   port: 443
   security: tls
@@ -19109,9 +19148,17 @@ proxies:
     headers:
       Host: asmaos.uk
     path: /?ed=2560
+- name: US_United States_http_14389
+  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: fbf9e505-t9zts0-tlpfci-1jdha.sg.oshuawei.com
+  sni: fbf9e505-t9zts0-tlpfci-1jdha.sg.oshuawei.com
+  tls: true
+  type: http
+  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
 - client-fingerprint: randomized
   encryption: none
-  name: US_United States_vless_14368
+  name: US_United States_vless_14390
   network: ws
   port: 443
   server: fm3.pages.dev
@@ -19127,15 +19174,7 @@ proxies:
         Chrome/70.0.3538.67 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: US_United States_http_14369
-  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: fbf9e505-t9zts0-tlpfci-1jdha.sg.oshuawei.com
-  sni: fbf9e505-t9zts0-tlpfci-1jdha.sg.oshuawei.com
-  tls: true
-  type: http
-  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
-- name: US_United States_anytls_14372
+- name: US_United States_anytls_14391
   password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
   port: 8443
   server: aeb67229-tegxs0-tyt0e8-1mh67.sj.oshuawei.com
@@ -19143,7 +19182,7 @@ proxies:
   sni: aeb67229-tegxs0-tyt0e8-1mh67.sj.oshuawei.com
   type: anytls
   udp: true
-- name: US_United States_vless_14376
+- name: US_United States_vless_14394
   network: ws
   port: 8880
   server: 108.162.196.30
@@ -19154,7 +19193,7 @@ proxies:
       Host: vms.lifetime59.workers.dev
     path: /
 - encryption: none
-  name: US_United States_vless_14379
+  name: US_United States_vless_14396
   network: ws
   port: 80
   server: 104.18.12.149
@@ -19168,17 +19207,20 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: / @ProxyVPN11
   xudp: true
-- name: US_United States_http_14382
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  port: 443
-  server: b3f437cd-ta1og0-tb08pe-luwe.sg.oshuawei.com
-  sni: b3f437cd-ta1og0-tb08pe-luwe.sg.oshuawei.com
-  tls: true
-  type: http
-  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+- encryption: none
+  name: US_United States_vless_14400
+  network: ws
+  port: 80
+  server: 108.162.194.248
+  type: vless
+  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
+  ws-opts:
+    headers:
+      Host: mute-violet-c674.poviy66273.workers.dev
+    path: /
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_14386
+  name: US_United States_vmess_14402
   network: ws
   port: 80
   server: skk.moe
@@ -19192,18 +19234,7 @@ proxies:
       Host: accklsj.bufu.us.ci
     path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
   xudp: true
-- encryption: none
-  name: US_United States_vless_14387
-  network: ws
-  port: 80
-  server: 108.162.194.248
-  type: vless
-  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
-  ws-opts:
-    headers:
-      Host: mute-violet-c674.poviy66273.workers.dev
-    path: /
-- name: US_United States_http_14391
+- name: US_United States_http_14405
   password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: da6c6f1a-t9zts0-tozbjw-1462e.sg.oshuawei.com
@@ -19211,15 +19242,15 @@ proxies:
   tls: true
   type: http
   username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_http_14395
-  password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
+- name: US_United States_http_14406
+  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
   port: 443
-  server: e506539c-t9zts0-tcum62-se45.sg.oshuawei.com
-  sni: e506539c-t9zts0-tcum62-se45.sg.oshuawei.com
+  server: 5bfec519-tegxs0-tifnix-1ro8s.sjc.oshuawei.com
+  sni: 5bfec519-tegxs0-tifnix-1ro8s.sjc.oshuawei.com
   tls: true
   type: http
-  username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-- name: US_United States_vless_14396
+  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+- name: US_United States_vless_14411
   network: ws
   port: 8880
   server: 8.6.112.50
@@ -19229,7 +19260,14 @@ proxies:
     headers:
       Host: vms.lifetime08.workers.dev
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: US_United States_http_14397
+- cipher: aes-256-gcm
+  name: US_United States_ss_14412
+  password: 444ec1bb5b77df8c
+  port: 50128
+  server: 166.1.228.19
+  type: ss
+  udp: true
+- name: US_United States_http_14413
   password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
   port: 443
   server: 02da54f5-t9zts0-tlm64c-xm0q.sg.oshuawei.com
@@ -19237,7 +19275,16 @@ proxies:
   tls: true
   type: http
   username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-- name: US_United States_vless_14399
+- name: US_United States_vless_14416
+  network: ws
+  port: 8880
+  server: 72.167.243.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+- name: US_United States_vless_14417
   network: ws
   port: 8880
   server: 135.84.79.30
@@ -19247,19 +19294,10 @@ proxies:
     headers:
       Host: vms.lifetime35.workers.dev
     path: /
-- name: US_United States_vless_14400
-  network: ws
-  port: 8880
-  server: 72.167.243.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime55.workers.dev
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_14403
+  name: US_United States_vless_14418
   network: tcp
   port: 8899
   reality-opts:
@@ -19273,7 +19311,7 @@ proxies:
   uuid: 02656f5e-7691-4851-98eb-d0cccc2a74f4
   xudp: true
 - encryption: none
-  name: US_United States_vless_14405
+  name: US_United States_vless_14419
   network: ws
   port: 80
   security: tls
@@ -19288,7 +19326,7 @@ proxies:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - encryption: none
-  name: US_United States_vless_14413
+  name: US_United States_vless_14430
   network: ws
   port: 2096
   security: tls
@@ -19302,8 +19340,22 @@ proxies:
     headers:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14432
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 20090
+  server: 172.96.161.152
+  type: ss
+  udp: true
 - encryption: none
-  name: US_United States_vless_14416
+  name: US_United States_vless_14433
   network: ws
   port: 2096
   security: tls
@@ -19318,7 +19370,7 @@ proxies:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - encryption: none
-  name: US_United States_vless_14418
+  name: US_United States_vless_14434
   network: ws
   port: 2096
   security: tls
@@ -19333,7 +19385,7 @@ proxies:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - encryption: none
-  name: US_United States_vless_14422
+  name: US_United States_vless_14438
   network: ws
   port: 2096
   security: tls
@@ -19347,8 +19399,38 @@ proxies:
     headers:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: US_United States_http_14441
+  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: f8e59b8c-t9zts0-tb5rbt-1kcpe.sj.oshuawei.com
+  sni: f8e59b8c-t9zts0-tb5rbt-1kcpe.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+- name: US_United States_vless_14442
+  network: ws
+  port: 443
+  server: 104.18.152.233
+  servername: support.zoom.us.ex33r.eu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 08b006dc-17e4-411d-9528-4369d72ad646
+  ws-opts:
+    headers:
+      Host: support.zoom.us.ex33r.eu.cc
+    path: /sg-melbi
+- name: US_United States_http_14444
+  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  port: 443
+  server: 845b9b23-t9zts0-tjsm26-6gn6.sjc.oshuawei.com
+  sni: 845b9b23-t9zts0-tjsm26-6gn6.sjc.oshuawei.com
+  tls: true
+  type: http
+  username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
 - encryption: none
-  name: US_United States_vless_14424
+  name: US_United States_vless_14446
   network: ws
   port: 8880
   server: 166.62.108.30
@@ -19357,8 +19439,23 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime17.workers.dev
+- encryption: none
+  name: US_United States_vless_14447
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: ''
+  xudp: true
 - client-fingerprint: chrome
-  name: US_United States_vless_14426
+  name: US_United States_vless_14448
   network: ws
   port: 443
   server: blackshadow.dpdns.org
@@ -19374,22 +19471,16 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /44.209.52.7-443
   xudp: true
-- encryption: none
-  name: US_United States_vless_14427
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  type: vless
+- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  name: US_United States_hysteria2_14449
+  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  port: 2056
+  server: sg1.shiyuandian.shop
+  skip-cert-verify: true
+  sni: sg1.shiyuandian.shop
+  type: hysteria2
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: ''
-  xudp: true
-- name: US_United States_vless_14428
+- name: US_United States_vless_14450
   network: ws
   port: 8880
   server: 192.0.54.30
@@ -19399,47 +19490,16 @@ proxies:
     headers:
       Host: vms.lifetime35.workers.dev
     path: /
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: US_United States_hysteria2_14429
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 2056
-  server: sg1.shiyuandian.shop
-  skip-cert-verify: true
-  sni: sg1.shiyuandian.shop
-  type: hysteria2
-  udp: true
-- encryption: none
-  name: US_United States_vless_14431
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.67
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
+- name: US_United States_http_14452
+  password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
+  port: 443
+  server: 4bb33f97-t9zts0-tryjtz-12ach.de.oshuawei.com
+  sni: 4bb33f97-t9zts0-tryjtz-12ach.de.oshuawei.com
   tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  type: http
+  username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
 - encryption: none
-  name: US_United States_vless_14432
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.255
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
-  name: US_United States_vless_14433
+  name: US_United States_vless_14453
   network: ws
   port: 443
   security: tls
@@ -19454,7 +19514,7 @@ proxies:
       Host: juzi.qea.ccwu.cc
     path: /
 - encryption: none
-  name: US_United States_vless_14434
+  name: US_United States_vless_14454
   network: ws
   port: 8880
   server: 155.46.213.30
@@ -19468,64 +19528,36 @@ proxies:
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /
   xudp: true
-- name: US_United States_http_14437
-  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+- name: US_United States_http_14455
+  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
   port: 443
-  server: 66af9ca7-t9zts0-tonrmx-8n27.de.oshuawei.com
-  sni: 66af9ca7-t9zts0-tonrmx-8n27.de.oshuawei.com
+  server: 78c1ef62-t9zts0-tjsm26-6gn6.de.oshuawei.com
+  sni: 78c1ef62-t9zts0-tjsm26-6gn6.de.oshuawei.com
   tls: true
   type: http
-  username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-- encryption: none
-  name: US_United States_vless_14439
-  network: ws
-  port: 2096
-  security: tls
-  server: 208.103.161.76
-  servername: cf.afrcloudnet1.dpdns.org
+  username: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_14458
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: US_United States_http_14443
+  sni: vpn-de-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: US_United States_http_14460
   password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
   port: 443
-  server: 52a32bc8-t9zts0-tr9h64-1f1f1.de.oshuawei.com
-  sni: 52a32bc8-t9zts0-tr9h64-1f1f1.de.oshuawei.com
+  server: dd09891d-t9zts0-tr9h64-1f1f1.sjc.oshuawei.com
+  sni: dd09891d-t9zts0-tr9h64-1f1f1.sjc.oshuawei.com
   tls: true
   type: http
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- encryption: none
-  name: US_United States_vless_14444
-  network: ws
-  port: 443
-  security: tls
-  server: 160.153.1.150
-  servername: cf.afrcloudnet1.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
-  ws-opts:
-    headers:
-      Host: cf.afrcloudnet1.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: US_United States_vless_14445
-  network: ws
-  port: 8880
-  server: 198.71.233.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime08.workers.dev
-    path: /
 - client-fingerprint: chrome
-  name: US_United States_vless_14446
+  name: US_United States_vless_14465
   network: ws
   port: 443
   server: 162.159.153.4
@@ -19541,38 +19573,33 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: US_United States_http_14449
-  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  port: 443
-  server: 1ba64568-t9zts0-tbck4p-mv7m.de.oshuawei.com
-  sni: 1ba64568-t9zts0-tbck4p-mv7m.de.oshuawei.com
-  tls: true
-  type: http
-  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_14450
-  password: 0FXkHNQO6q1s9KQX
-  port: 443
-  server: 20.87.212.31
-  type: ss
-  udp: true
-- encryption: none
-  name: US_United States_vless_14452
+- name: US_United States_vless_14466
   network: ws
-  port: 2096
+  port: 8880
+  server: 198.71.233.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime08.workers.dev
+    path: /
+- encryption: none
+  name: US_United States_vless_14467
+  network: ws
+  port: 443
   security: tls
-  server: 208.103.161.172
+  server: 160.153.1.150
   servername: cf.afrcloudnet1.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+  uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
   ws-opts:
     headers:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - encryption: none
-  name: US_United States_vless_14455
+  name: US_United States_vless_14470
   network: ws
   port: 2096
   security: tls
@@ -19586,7 +19613,37 @@ proxies:
     headers:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: US_United States_vless_14457
+- name: US_United States_http_14473
+  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+  port: 443
+  server: 1ba64568-t9zts0-tbck4p-mv7m.de.oshuawei.com
+  sni: 1ba64568-t9zts0-tbck4p-mv7m.de.oshuawei.com
+  tls: true
+  type: http
+  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_14474
+  password: 0FXkHNQO6q1s9KQX
+  port: 443
+  server: 20.87.212.31
+  type: ss
+  udp: true
+- encryption: none
+  name: US_United States_vless_14476
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.172
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: US_United States_vless_14480
   network: ws
   port: 8880
   server: 72.167.25.30
@@ -19596,7 +19653,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
 - encryption: none
-  name: US_United States_vless_14461
+  name: US_United States_vless_14485
   network: ws
   port: 8880
   server: 66.235.200.40
@@ -19610,7 +19667,37 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
   xudp: true
-- name: US_United States_vless_14467
+- encryption: none
+  name: US_United States_vless_14487
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.255
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: US_United States_vless_14489
+  network: ws
+  port: 2096
+  security: tls
+  server: 208.103.161.76
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: US_United States_vless_14491
   network: ws
   port: 8880
   server: 45.40.145.30
@@ -19619,7 +19706,7 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime35.workers.dev
-- name: US_United States_http_14469
+- name: US_United States_http_14492
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: 01925010-t9zts0-tan99f-1rdqg.de.oshuawei.com
@@ -19627,167 +19714,37 @@ proxies:
   tls: true
   type: http
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: US_United States_http_14475
-  password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+- name: US_United States_http_14493
+  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
   port: 443
-  server: 57d1ca76-t9zts0-tiaexf-ufc0.sj.oshuawei.com
-  sni: 57d1ca76-t9zts0-tiaexf-ufc0.sj.oshuawei.com
+  server: 5ed6387e-ta1og0-tqruo0-1pqhp.de.oshuawei.com
+  sni: 5ed6387e-ta1og0-tqruo0-1pqhp.de.oshuawei.com
   tls: true
   type: http
-  username: 22308988-8548-11ea-a22e-f23c91cfbbc9
-- name: US_United States_http_14476
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+- name: US_United States_http_14496
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
   port: 443
-  server: 4903dd4b-ta1og0-td95qh-1isea.de.oshuawei.com
-  sni: 4903dd4b-ta1og0-td95qh-1isea.de.oshuawei.com
+  server: 64cad81b-t9zts0-tdt3k0-jx5r.sj.oshuawei.com
+  sni: 64cad81b-t9zts0-tdt3k0-jx5r.sj.oshuawei.com
   tls: true
   type: http
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
 - encryption: none
-  name: US_United States_vless_14478
+  name: US_United States_vless_14499
   network: ws
-  port: 8880
-  server: 104.238.70.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: ''
-  xudp: true
-- name: US_United States_http_14480
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: 504a68ac-t9zts0-tgl02u-1jr1u.de.oshuawei.com
-  sni: 504a68ac-t9zts0-tgl02u-1jr1u.de.oshuawei.com
-  tls: true
-  type: http
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- name: US_United States_http_14481
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 2550ba9a-t9zts0-tiqsce-t6fv.de.oshuawei.com
-  sni: 2550ba9a-t9zts0-tiqsce-t6fv.de.oshuawei.com
-  tls: true
-  type: http
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-- name: US_United States_vless_14483
-  network: ws
-  port: 8880
-  server: 104.238.68.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime47.workers.dev
-    path: /
-- name: US_United States_http_14484
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  port: 443
-  server: aa25e1b6-t9zts0-tqgocx-1plv4.de.oshuawei.com
-  sni: aa25e1b6-t9zts0-tqgocx-1plv4.de.oshuawei.com
-  tls: true
-  type: http
-  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-- name: US_United States_http_14485
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 443
-  server: 37d9be92-t9zts0-tairte-1m0fq.de.oshuawei.com
-  sni: 37d9be92-t9zts0-tairte-1m0fq.de.oshuawei.com
-  tls: true
-  type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: US_United States_anytls_14486
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 8443
-  server: 4efebae0-teisg0-tet9be-1s0a7.sj.oshuawei.com
-  skip-cert-verify: true
-  sni: 4efebae0-teisg0-tet9be-1s0a7.sj.oshuawei.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14488
-  network: ws
-  port: 666
+  port: 2096
   security: tls
-  server: 166.88.186.161
-  servername: 166.88.186.161
+  server: 208.103.161.142
+  servername: cf.afrcloudnet1.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  uuid: Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
   ws-opts:
     headers:
-      Host: 166.88.186.161
-    path: /proxy
-- name: US_United States_http_14489
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 443
-  server: 7433097d-t9zts0-tarwmr-1fqef.sj.oshuawei.com
-  sni: 7433097d-t9zts0-tarwmr-1fqef.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: US_United States_http_14491
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-  port: 443
-  server: 819fe055-t9zts0-tonrqx-1khwf.de.oshuawei.com
-  sni: 819fe055-t9zts0-tonrqx-1khwf.de.oshuawei.com
-  tls: true
-  type: http
-  username: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-- encryption: none
-  name: US_United States_vless_14494
-  network: ws
-  port: 8880
-  server: 198.71.232.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime07.workers.dev
-- name: US_United States_http_14495
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: f20dad22-ta1og0-tnt75r-1k8ga.de.oshuawei.com
-  sni: f20dad22-ta1og0-tnt75r-1k8ga.de.oshuawei.com
-  tls: true
-  type: http
-  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14496
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 20092
-  server: 172.96.161.152
-  type: ss
-  udp: true
-- name: US_United States_http_14497
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 443
-  server: dfd5d5b6-tcb5s0-te4ijj-1fqef.de.oshuawei.com
-  tls: true
-  type: http
-  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: US_United States_http_14499
-  password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-  port: 443
-  server: 3fe9d7b3-t9zts0-tn57fp-5ifr.de.oshuawei.com
-  sni: 3fe9d7b3-t9zts0-tn57fp-5ifr.de.oshuawei.com
-  tls: true
-  type: http
-  username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - name: US_United States_trojan_165
   server: 63.185.124.176
   type: trojan
@@ -19811,20 +19768,6 @@ proxies:
   h2-opts: {}
   skip-cert-verify: true
   delay: 1876
-- name: US_United States_ss_1618
-  server: 52.60.99.199
-  type: ss
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 543
-- name: US_United States_ss_1619
-  server: 3.96.152.83
-  type: ss
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 557
 - name: US_United States_ss_1621
   server: ss.050.node-for-bigairport.win
   type: ss
@@ -19846,18 +19789,16 @@ proxy-groups:
   - US_United States_trojan_08
   - US_United States_trojan_010
   - US_United States_trojan_013
-  - US_United States_trojan_127
-  - US_United States_trojan_128
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_116
+  - US_United States_trojan_117
+  - US_United States_trojan_118
+  - US_United States_trojan_119
+  - US_United States_ss_126
   - US_United States_ss_129
-  - US_United States_ss_130
-  - US_United States_ss_131
   - US_United States_ss_132
   - US_United States_trojan_133
-  - US_United States_vmess_43
-  - US_United States_trojan_46
-  - US_United States_vless_49
-  - US_United States_vmess_410
-  - US_United States_ss_415
   - US_United States_vmess_61
   - US_United States_vmess_63
   - US_United States_ss_64
@@ -19885,6 +19826,10 @@ proxy-groups:
   - US_United States_ss_663
   - US_United States_vmess_670
   - US_United States_trojan_672
+  - US_United States_ss_673
+  - US_United States_ss_675
+  - US_United States_ss_676
+  - US_United States_ss_677
   - US_United States_ss_681
   - US_United States_ss_682
   - US_United States_vmess_683
@@ -20280,6 +20225,7 @@ proxy-groups:
   - US_United States_ss_61018
   - US_United States_ss_61022
   - US_United States_vmess_61023
+  - US_United States_trojan_61027
   - US_United States_trojan_61028
   - US_United States_trojan_61037
   - US_United States_trojan_61063
@@ -20371,10 +20317,12 @@ proxy-groups:
   - US_United States_ss_61468
   - US_United States_trojan_61479
   - US_United States_trojan_61482
+  - US_United States_trojan_61483
   - US_United States_trojan_61496
   - US_United States_ss_61498
   - US_United States_trojan_61503
   - US_United States_vmess_61504
+  - US_United States_trojan_61506
   - US_United States_vmess_61512
   - US_United States_trojan_61519
   - US_United States_trojan_61534
@@ -20501,7 +20449,6 @@ proxy-groups:
   - US_United States_trojan_61967
   - US_United States_trojan_61968
   - US_United States_trojan_61969
-  - US_United States_trojan_61970
   - US_United States_trojan_61971
   - US_United States_ssr_61997
   - US_United States_ssr_61999
@@ -21410,234 +21357,229 @@ proxy-groups:
   - US_United States_vmess_64605
   - US_United States_vmess_64606
   - US_United States_vmess_64607
-  - US_United States_ss_141
+  - US_United States_vmess_1328
   - US_United States_ss_142
-  - US_United States_ss_144
+  - US_United States_ss_143
+  - US_United States_vless_144
   - US_United States_ss_145
   - US_United States_vless_146
   - US_United States_vless_147
   - US_United States_vless_148
-  - US_United States_vless_149
-  - US_United States_ss_1411
-  - US_United States_vless_1412
+  - US_United States_ss_1410
+  - US_United States_vless_1411
   - US_United States_ss_1413
   - US_United States_ss_1414
-  - US_United States_ss_1415
-  - US_United States_vless_1420
-  - US_United States_vless_1421
-  - US_United States_ss_1424
-  - US_United States_ss_1425
-  - US_United States_ss_1428
-  - US_United States_ss_1430
-  - US_United States_ss_1431
-  - US_United States_ss_1432
+  - US_United States_vless_1427
+  - US_United States_vless_1429
+  - US_United States_ss_1434
   - US_United States_ss_1436
   - US_United States_ss_1438
-  - US_United States_vmess_1444
-  - US_United States_ss_1447
-  - US_United States_ss_1451
-  - US_United States_vless_1453
-  - US_United States_ss_1460
-  - US_United States_vless_1465
-  - US_United States_http_1469
-  - US_United States_http_1475
-  - US_United States_http_1477
-  - US_United States_http_1478
-  - US_United States_http_1479
-  - US_United States_http_1480
-  - US_United States_http_1481
-  - US_United States_vless_1484
-  - US_United States_vless_1485
+  - US_United States_ss_1439
+  - US_United States_ss_1442
+  - US_United States_ss_1443
+  - US_United States_ss_1445
+  - US_United States_ss_1448
+  - US_United States_ss_1450
+  - US_United States_vmess_1458
+  - US_United States_ss_1461
+  - US_United States_http_1465
+  - US_United States_http_1467
+  - US_United States_ss_1469
+  - US_United States_vless_1470
+  - US_United States_ss_1480
+  - US_United States_vless_1482
+  - US_United States_vless_1487
   - US_United States_vless_1489
-  - US_United States_http_1491
-  - US_United States_vless_1493
-  - US_United States_http_1497
-  - US_United States_vless_1499
-  - US_United States_http_14103
-  - US_United States_http_14104
+  - US_United States_http_14101
+  - US_United States_http_14102
+  - US_United States_http_14105
   - US_United States_http_14106
-  - US_United States_http_14108
+  - US_United States_http_14107
   - US_United States_http_14109
-  - US_United States_http_14111
-  - US_United States_http_14112
-  - US_United States_http_14113
-  - US_United States_http_14114
-  - US_United States_http_14116
-  - US_United States_http_14117
+  - US_United States_vless_14111
+  - US_United States_ss_14114
+  - US_United States_vless_14117
   - US_United States_http_14118
-  - US_United States_http_14119
-  - US_United States_http_14121
-  - US_United States_http_14122
+  - US_United States_vless_14121
   - US_United States_http_14124
-  - US_United States_http_14125
-  - US_United States_http_14126
-  - US_United States_http_14127
+  - US_United States_vless_14125
   - US_United States_http_14128
-  - US_United States_http_14130
-  - US_United States_http_14131
-  - US_United States_vless_14132
   - US_United States_http_14133
-  - US_United States_http_14136
+  - US_United States_http_14135
   - US_United States_http_14137
   - US_United States_http_14138
-  - US_United States_http_14139
   - US_United States_http_14140
   - US_United States_http_14141
-  - US_United States_http_14143
+  - US_United States_http_14142
   - US_United States_http_14144
-  - US_United States_http_14145
   - US_United States_http_14146
   - US_United States_http_14147
   - US_United States_http_14149
-  - US_United States_vless_14150
+  - US_United States_http_14150
   - US_United States_http_14151
   - US_United States_http_14152
   - US_United States_http_14153
   - US_United States_http_14154
-  - US_United States_http_14155
-  - US_United States_http_14156
-  - US_United States_http_14160
+  - US_United States_http_14157
+  - US_United States_http_14158
+  - US_United States_vless_14159
   - US_United States_http_14161
-  - US_United States_http_14162
   - US_United States_http_14163
+  - US_United States_http_14164
   - US_United States_http_14165
   - US_United States_http_14167
-  - US_United States_vless_14168
-  - US_United States_anytls_14169
+  - US_United States_http_14168
+  - US_United States_http_14169
+  - US_United States_http_14171
+  - US_United States_http_14172
+  - US_United States_http_14173
   - US_United States_http_14174
-  - US_United States_http_14176
-  - US_United States_http_14177
+  - US_United States_http_14175
+  - US_United States_vless_14177
   - US_United States_http_14179
-  - US_United States_http_14185
-  - US_United States_vless_14187
-  - US_United States_http_14188
+  - US_United States_http_14180
+  - US_United States_http_14181
+  - US_United States_http_14182
+  - US_United States_http_14183
+  - US_United States_http_14186
+  - US_United States_http_14189
   - US_United States_http_14190
-  - US_United States_http_14195
+  - US_United States_http_14191
+  - US_United States_http_14192
+  - US_United States_http_14194
   - US_United States_http_14196
-  - US_United States_http_14201
+  - US_United States_vless_14197
+  - US_United States_http_14198
+  - US_United States_anytls_14199
   - US_United States_http_14202
-  - US_United States_http_14203
-  - US_United States_http_14207
-  - US_United States_vless_14209
-  - US_United States_vless_14213
-  - US_United States_http_14215
-  - US_United States_http_14220
-  - US_United States_http_14222
+  - US_United States_http_14204
+  - US_United States_http_14205
+  - US_United States_http_14206
+  - US_United States_http_14212
+  - US_United States_vless_14214
+  - US_United States_http_14216
+  - US_United States_http_14217
+  - US_United States_http_14224
+  - US_United States_http_14225
+  - US_United States_http_14227
+  - US_United States_http_14228
+  - US_United States_http_14229
   - US_United States_http_14230
-  - US_United States_http_14236
+  - US_United States_http_14235
   - US_United States_vless_14238
-  - US_United States_http_14239
-  - US_United States_vless_14245
-  - US_United States_vless_14247
+  - US_United States_vless_14239
+  - US_United States_http_14241
+  - US_United States_http_14246
   - US_United States_http_14248
-  - US_United States_http_14249
-  - US_United States_vless_14254
-  - US_United States_http_14260
-  - US_United States_vless_14269
-  - US_United States_http_14271
+  - US_United States_http_14251
+  - US_United States_http_14252
+  - US_United States_http_14256
+  - US_United States_http_14261
+  - US_United States_vless_14263
+  - US_United States_http_14264
+  - US_United States_vless_14270
+  - US_United States_vless_14272
+  - US_United States_http_14273
   - US_United States_http_14274
+  - US_United States_vless_14276
   - US_United States_http_14277
-  - US_United States_http_14279
   - US_United States_http_14282
-  - US_United States_http_14287
-  - US_United States_http_14290
-  - US_United States_vless_14291
+  - US_United States_http_14286
   - US_United States_vless_14292
   - US_United States_http_14295
-  - US_United States_http_14297
   - US_United States_http_14298
-  - US_United States_http_14304
   - US_United States_http_14305
-  - US_United States_vless_14309
-  - US_United States_ss_14310
-  - US_United States_http_14315
+  - US_United States_http_14307
+  - US_United States_http_14312
+  - US_United States_http_14314
+  - US_United States_vless_14315
+  - US_United States_vless_14316
   - US_United States_http_14317
+  - US_United States_http_14319
   - US_United States_http_14320
-  - US_United States_vmess_14323
-  - US_United States_http_14324
   - US_United States_http_14325
   - US_United States_http_14326
-  - US_United States_http_14327
-  - US_United States_http_14329
-  - US_United States_http_14330
-  - US_United States_anytls_14332
-  - US_United States_http_14333
-  - US_United States_vless_14345
-  - US_United States_http_14348
-  - US_United States_http_14349
-  - US_United States_vless_14352
-  - US_United States_http_14355
-  - US_United States_vless_14356
-  - US_United States_http_14357
-  - US_United States_vless_14359
-  - US_United States_http_14360
-  - US_United States_vless_14361
-  - US_United States_vless_14362
+  - US_United States_http_14328
+  - US_United States_http_14335
+  - US_United States_http_14336
+  - US_United States_http_14339
+  - US_United States_mieru_14340
+  - US_United States_http_14341
+  - US_United States_http_14342
+  - US_United States_http_14343
+  - US_United States_http_14344
+  - US_United States_http_14346
+  - US_United States_ss_14347
+  - US_United States_anytls_14349
+  - US_United States_http_14350
+  - US_United States_http_14356
   - US_United States_vless_14364
-  - US_United States_vless_14368
-  - US_United States_http_14369
-  - US_United States_anytls_14372
-  - US_United States_vless_14376
+  - US_United States_http_14365
+  - US_United States_vless_14367
+  - US_United States_http_14368
+  - US_United States_http_14371
+  - US_United States_vless_14372
+  - US_United States_vless_14373
+  - US_United States_http_14374
+  - US_United States_vless_14377
+  - US_United States_http_14378
   - US_United States_vless_14379
-  - US_United States_http_14382
-  - US_United States_vmess_14386
-  - US_United States_vless_14387
-  - US_United States_http_14391
-  - US_United States_http_14395
+  - US_United States_vless_14380
+  - US_United States_vless_14383
+  - US_United States_vless_14386
+  - US_United States_http_14389
+  - US_United States_vless_14390
+  - US_United States_anytls_14391
+  - US_United States_vless_14394
   - US_United States_vless_14396
-  - US_United States_http_14397
-  - US_United States_vless_14399
   - US_United States_vless_14400
-  - US_United States_vless_14403
-  - US_United States_vless_14405
-  - US_United States_vless_14413
+  - US_United States_vmess_14402
+  - US_United States_http_14405
+  - US_United States_http_14406
+  - US_United States_vless_14411
+  - US_United States_ss_14412
+  - US_United States_http_14413
   - US_United States_vless_14416
+  - US_United States_vless_14417
   - US_United States_vless_14418
-  - US_United States_vless_14422
-  - US_United States_vless_14424
-  - US_United States_vless_14426
-  - US_United States_vless_14427
-  - US_United States_vless_14428
-  - US_United States_hysteria2_14429
-  - US_United States_vless_14431
-  - US_United States_vless_14432
+  - US_United States_vless_14419
+  - US_United States_vless_14430
+  - US_United States_ss_14432
   - US_United States_vless_14433
   - US_United States_vless_14434
-  - US_United States_http_14437
-  - US_United States_vless_14439
-  - US_United States_http_14443
-  - US_United States_vless_14444
-  - US_United States_vless_14445
+  - US_United States_vless_14438
+  - US_United States_http_14441
+  - US_United States_vless_14442
+  - US_United States_http_14444
   - US_United States_vless_14446
-  - US_United States_http_14449
-  - US_United States_ss_14450
-  - US_United States_vless_14452
-  - US_United States_vless_14455
-  - US_United States_vless_14457
-  - US_United States_vless_14461
+  - US_United States_vless_14447
+  - US_United States_vless_14448
+  - US_United States_hysteria2_14449
+  - US_United States_vless_14450
+  - US_United States_http_14452
+  - US_United States_vless_14453
+  - US_United States_vless_14454
+  - US_United States_http_14455
+  - US_United States_hysteria2_14458
+  - US_United States_http_14460
+  - US_United States_vless_14465
+  - US_United States_vless_14466
   - US_United States_vless_14467
-  - US_United States_http_14469
-  - US_United States_http_14475
-  - US_United States_http_14476
-  - US_United States_vless_14478
-  - US_United States_http_14480
-  - US_United States_http_14481
-  - US_United States_vless_14483
-  - US_United States_http_14484
-  - US_United States_http_14485
-  - US_United States_anytls_14486
-  - US_United States_vless_14488
-  - US_United States_http_14489
-  - US_United States_http_14491
-  - US_United States_vless_14494
-  - US_United States_http_14495
-  - US_United States_ss_14496
-  - US_United States_http_14497
-  - US_United States_http_14499
+  - US_United States_vless_14470
+  - US_United States_http_14473
+  - US_United States_ss_14474
+  - US_United States_vless_14476
+  - US_United States_vless_14480
+  - US_United States_vless_14485
+  - US_United States_vless_14487
+  - US_United States_vless_14489
+  - US_United States_vless_14491
+  - US_United States_http_14492
+  - US_United States_http_14493
+  - US_United States_http_14496
+  - US_United States_vless_14499
   - US_United States_trojan_165
   - US_United States_vmess_1617
-  - US_United States_ss_1618
-  - US_United States_ss_1619
   - US_United States_ss_1621
 - name: 自动选择
   type: url-test
@@ -21653,18 +21595,16 @@ proxy-groups:
   - US_United States_trojan_08
   - US_United States_trojan_010
   - US_United States_trojan_013
-  - US_United States_trojan_127
-  - US_United States_trojan_128
+  - US_United States_trojan_113
+  - US_United States_trojan_114
+  - US_United States_trojan_116
+  - US_United States_trojan_117
+  - US_United States_trojan_118
+  - US_United States_trojan_119
+  - US_United States_ss_126
   - US_United States_ss_129
-  - US_United States_ss_130
-  - US_United States_ss_131
   - US_United States_ss_132
   - US_United States_trojan_133
-  - US_United States_vmess_43
-  - US_United States_trojan_46
-  - US_United States_vless_49
-  - US_United States_vmess_410
-  - US_United States_ss_415
   - US_United States_vmess_61
   - US_United States_vmess_63
   - US_United States_ss_64
@@ -21692,6 +21632,10 @@ proxy-groups:
   - US_United States_ss_663
   - US_United States_vmess_670
   - US_United States_trojan_672
+  - US_United States_ss_673
+  - US_United States_ss_675
+  - US_United States_ss_676
+  - US_United States_ss_677
   - US_United States_ss_681
   - US_United States_ss_682
   - US_United States_vmess_683
@@ -22087,6 +22031,7 @@ proxy-groups:
   - US_United States_ss_61018
   - US_United States_ss_61022
   - US_United States_vmess_61023
+  - US_United States_trojan_61027
   - US_United States_trojan_61028
   - US_United States_trojan_61037
   - US_United States_trojan_61063
@@ -22178,10 +22123,12 @@ proxy-groups:
   - US_United States_ss_61468
   - US_United States_trojan_61479
   - US_United States_trojan_61482
+  - US_United States_trojan_61483
   - US_United States_trojan_61496
   - US_United States_ss_61498
   - US_United States_trojan_61503
   - US_United States_vmess_61504
+  - US_United States_trojan_61506
   - US_United States_vmess_61512
   - US_United States_trojan_61519
   - US_United States_trojan_61534
@@ -22308,7 +22255,6 @@ proxy-groups:
   - US_United States_trojan_61967
   - US_United States_trojan_61968
   - US_United States_trojan_61969
-  - US_United States_trojan_61970
   - US_United States_trojan_61971
   - US_United States_ssr_61997
   - US_United States_ssr_61999
@@ -23217,234 +23163,229 @@ proxy-groups:
   - US_United States_vmess_64605
   - US_United States_vmess_64606
   - US_United States_vmess_64607
-  - US_United States_ss_141
+  - US_United States_vmess_1328
   - US_United States_ss_142
-  - US_United States_ss_144
+  - US_United States_ss_143
+  - US_United States_vless_144
   - US_United States_ss_145
   - US_United States_vless_146
   - US_United States_vless_147
   - US_United States_vless_148
-  - US_United States_vless_149
-  - US_United States_ss_1411
-  - US_United States_vless_1412
+  - US_United States_ss_1410
+  - US_United States_vless_1411
   - US_United States_ss_1413
   - US_United States_ss_1414
-  - US_United States_ss_1415
-  - US_United States_vless_1420
-  - US_United States_vless_1421
-  - US_United States_ss_1424
-  - US_United States_ss_1425
-  - US_United States_ss_1428
-  - US_United States_ss_1430
-  - US_United States_ss_1431
-  - US_United States_ss_1432
+  - US_United States_vless_1427
+  - US_United States_vless_1429
+  - US_United States_ss_1434
   - US_United States_ss_1436
   - US_United States_ss_1438
-  - US_United States_vmess_1444
-  - US_United States_ss_1447
-  - US_United States_ss_1451
-  - US_United States_vless_1453
-  - US_United States_ss_1460
-  - US_United States_vless_1465
-  - US_United States_http_1469
-  - US_United States_http_1475
-  - US_United States_http_1477
-  - US_United States_http_1478
-  - US_United States_http_1479
-  - US_United States_http_1480
-  - US_United States_http_1481
-  - US_United States_vless_1484
-  - US_United States_vless_1485
+  - US_United States_ss_1439
+  - US_United States_ss_1442
+  - US_United States_ss_1443
+  - US_United States_ss_1445
+  - US_United States_ss_1448
+  - US_United States_ss_1450
+  - US_United States_vmess_1458
+  - US_United States_ss_1461
+  - US_United States_http_1465
+  - US_United States_http_1467
+  - US_United States_ss_1469
+  - US_United States_vless_1470
+  - US_United States_ss_1480
+  - US_United States_vless_1482
+  - US_United States_vless_1487
   - US_United States_vless_1489
-  - US_United States_http_1491
-  - US_United States_vless_1493
-  - US_United States_http_1497
-  - US_United States_vless_1499
-  - US_United States_http_14103
-  - US_United States_http_14104
+  - US_United States_http_14101
+  - US_United States_http_14102
+  - US_United States_http_14105
   - US_United States_http_14106
-  - US_United States_http_14108
+  - US_United States_http_14107
   - US_United States_http_14109
-  - US_United States_http_14111
-  - US_United States_http_14112
-  - US_United States_http_14113
-  - US_United States_http_14114
-  - US_United States_http_14116
-  - US_United States_http_14117
+  - US_United States_vless_14111
+  - US_United States_ss_14114
+  - US_United States_vless_14117
   - US_United States_http_14118
-  - US_United States_http_14119
-  - US_United States_http_14121
-  - US_United States_http_14122
+  - US_United States_vless_14121
   - US_United States_http_14124
-  - US_United States_http_14125
-  - US_United States_http_14126
-  - US_United States_http_14127
+  - US_United States_vless_14125
   - US_United States_http_14128
-  - US_United States_http_14130
-  - US_United States_http_14131
-  - US_United States_vless_14132
   - US_United States_http_14133
-  - US_United States_http_14136
+  - US_United States_http_14135
   - US_United States_http_14137
   - US_United States_http_14138
-  - US_United States_http_14139
   - US_United States_http_14140
   - US_United States_http_14141
-  - US_United States_http_14143
+  - US_United States_http_14142
   - US_United States_http_14144
-  - US_United States_http_14145
   - US_United States_http_14146
   - US_United States_http_14147
   - US_United States_http_14149
-  - US_United States_vless_14150
+  - US_United States_http_14150
   - US_United States_http_14151
   - US_United States_http_14152
   - US_United States_http_14153
   - US_United States_http_14154
-  - US_United States_http_14155
-  - US_United States_http_14156
-  - US_United States_http_14160
+  - US_United States_http_14157
+  - US_United States_http_14158
+  - US_United States_vless_14159
   - US_United States_http_14161
-  - US_United States_http_14162
   - US_United States_http_14163
+  - US_United States_http_14164
   - US_United States_http_14165
   - US_United States_http_14167
-  - US_United States_vless_14168
-  - US_United States_anytls_14169
+  - US_United States_http_14168
+  - US_United States_http_14169
+  - US_United States_http_14171
+  - US_United States_http_14172
+  - US_United States_http_14173
   - US_United States_http_14174
-  - US_United States_http_14176
-  - US_United States_http_14177
+  - US_United States_http_14175
+  - US_United States_vless_14177
   - US_United States_http_14179
-  - US_United States_http_14185
-  - US_United States_vless_14187
-  - US_United States_http_14188
+  - US_United States_http_14180
+  - US_United States_http_14181
+  - US_United States_http_14182
+  - US_United States_http_14183
+  - US_United States_http_14186
+  - US_United States_http_14189
   - US_United States_http_14190
-  - US_United States_http_14195
+  - US_United States_http_14191
+  - US_United States_http_14192
+  - US_United States_http_14194
   - US_United States_http_14196
-  - US_United States_http_14201
+  - US_United States_vless_14197
+  - US_United States_http_14198
+  - US_United States_anytls_14199
   - US_United States_http_14202
-  - US_United States_http_14203
-  - US_United States_http_14207
-  - US_United States_vless_14209
-  - US_United States_vless_14213
-  - US_United States_http_14215
-  - US_United States_http_14220
-  - US_United States_http_14222
+  - US_United States_http_14204
+  - US_United States_http_14205
+  - US_United States_http_14206
+  - US_United States_http_14212
+  - US_United States_vless_14214
+  - US_United States_http_14216
+  - US_United States_http_14217
+  - US_United States_http_14224
+  - US_United States_http_14225
+  - US_United States_http_14227
+  - US_United States_http_14228
+  - US_United States_http_14229
   - US_United States_http_14230
-  - US_United States_http_14236
+  - US_United States_http_14235
   - US_United States_vless_14238
-  - US_United States_http_14239
-  - US_United States_vless_14245
-  - US_United States_vless_14247
+  - US_United States_vless_14239
+  - US_United States_http_14241
+  - US_United States_http_14246
   - US_United States_http_14248
-  - US_United States_http_14249
-  - US_United States_vless_14254
-  - US_United States_http_14260
-  - US_United States_vless_14269
-  - US_United States_http_14271
+  - US_United States_http_14251
+  - US_United States_http_14252
+  - US_United States_http_14256
+  - US_United States_http_14261
+  - US_United States_vless_14263
+  - US_United States_http_14264
+  - US_United States_vless_14270
+  - US_United States_vless_14272
+  - US_United States_http_14273
   - US_United States_http_14274
+  - US_United States_vless_14276
   - US_United States_http_14277
-  - US_United States_http_14279
   - US_United States_http_14282
-  - US_United States_http_14287
-  - US_United States_http_14290
-  - US_United States_vless_14291
+  - US_United States_http_14286
   - US_United States_vless_14292
   - US_United States_http_14295
-  - US_United States_http_14297
   - US_United States_http_14298
-  - US_United States_http_14304
   - US_United States_http_14305
-  - US_United States_vless_14309
-  - US_United States_ss_14310
-  - US_United States_http_14315
+  - US_United States_http_14307
+  - US_United States_http_14312
+  - US_United States_http_14314
+  - US_United States_vless_14315
+  - US_United States_vless_14316
   - US_United States_http_14317
+  - US_United States_http_14319
   - US_United States_http_14320
-  - US_United States_vmess_14323
-  - US_United States_http_14324
   - US_United States_http_14325
   - US_United States_http_14326
-  - US_United States_http_14327
-  - US_United States_http_14329
-  - US_United States_http_14330
-  - US_United States_anytls_14332
-  - US_United States_http_14333
-  - US_United States_vless_14345
-  - US_United States_http_14348
-  - US_United States_http_14349
-  - US_United States_vless_14352
-  - US_United States_http_14355
-  - US_United States_vless_14356
-  - US_United States_http_14357
-  - US_United States_vless_14359
-  - US_United States_http_14360
-  - US_United States_vless_14361
-  - US_United States_vless_14362
+  - US_United States_http_14328
+  - US_United States_http_14335
+  - US_United States_http_14336
+  - US_United States_http_14339
+  - US_United States_mieru_14340
+  - US_United States_http_14341
+  - US_United States_http_14342
+  - US_United States_http_14343
+  - US_United States_http_14344
+  - US_United States_http_14346
+  - US_United States_ss_14347
+  - US_United States_anytls_14349
+  - US_United States_http_14350
+  - US_United States_http_14356
   - US_United States_vless_14364
-  - US_United States_vless_14368
-  - US_United States_http_14369
-  - US_United States_anytls_14372
-  - US_United States_vless_14376
+  - US_United States_http_14365
+  - US_United States_vless_14367
+  - US_United States_http_14368
+  - US_United States_http_14371
+  - US_United States_vless_14372
+  - US_United States_vless_14373
+  - US_United States_http_14374
+  - US_United States_vless_14377
+  - US_United States_http_14378
   - US_United States_vless_14379
-  - US_United States_http_14382
-  - US_United States_vmess_14386
-  - US_United States_vless_14387
-  - US_United States_http_14391
-  - US_United States_http_14395
+  - US_United States_vless_14380
+  - US_United States_vless_14383
+  - US_United States_vless_14386
+  - US_United States_http_14389
+  - US_United States_vless_14390
+  - US_United States_anytls_14391
+  - US_United States_vless_14394
   - US_United States_vless_14396
-  - US_United States_http_14397
-  - US_United States_vless_14399
   - US_United States_vless_14400
-  - US_United States_vless_14403
-  - US_United States_vless_14405
-  - US_United States_vless_14413
+  - US_United States_vmess_14402
+  - US_United States_http_14405
+  - US_United States_http_14406
+  - US_United States_vless_14411
+  - US_United States_ss_14412
+  - US_United States_http_14413
   - US_United States_vless_14416
+  - US_United States_vless_14417
   - US_United States_vless_14418
-  - US_United States_vless_14422
-  - US_United States_vless_14424
-  - US_United States_vless_14426
-  - US_United States_vless_14427
-  - US_United States_vless_14428
-  - US_United States_hysteria2_14429
-  - US_United States_vless_14431
-  - US_United States_vless_14432
+  - US_United States_vless_14419
+  - US_United States_vless_14430
+  - US_United States_ss_14432
   - US_United States_vless_14433
   - US_United States_vless_14434
-  - US_United States_http_14437
-  - US_United States_vless_14439
-  - US_United States_http_14443
-  - US_United States_vless_14444
-  - US_United States_vless_14445
+  - US_United States_vless_14438
+  - US_United States_http_14441
+  - US_United States_vless_14442
+  - US_United States_http_14444
   - US_United States_vless_14446
-  - US_United States_http_14449
-  - US_United States_ss_14450
-  - US_United States_vless_14452
-  - US_United States_vless_14455
-  - US_United States_vless_14457
-  - US_United States_vless_14461
+  - US_United States_vless_14447
+  - US_United States_vless_14448
+  - US_United States_hysteria2_14449
+  - US_United States_vless_14450
+  - US_United States_http_14452
+  - US_United States_vless_14453
+  - US_United States_vless_14454
+  - US_United States_http_14455
+  - US_United States_hysteria2_14458
+  - US_United States_http_14460
+  - US_United States_vless_14465
+  - US_United States_vless_14466
   - US_United States_vless_14467
-  - US_United States_http_14469
-  - US_United States_http_14475
-  - US_United States_http_14476
-  - US_United States_vless_14478
-  - US_United States_http_14480
-  - US_United States_http_14481
-  - US_United States_vless_14483
-  - US_United States_http_14484
-  - US_United States_http_14485
-  - US_United States_anytls_14486
-  - US_United States_vless_14488
-  - US_United States_http_14489
-  - US_United States_http_14491
-  - US_United States_vless_14494
-  - US_United States_http_14495
-  - US_United States_ss_14496
-  - US_United States_http_14497
-  - US_United States_http_14499
+  - US_United States_vless_14470
+  - US_United States_http_14473
+  - US_United States_ss_14474
+  - US_United States_vless_14476
+  - US_United States_vless_14480
+  - US_United States_vless_14485
+  - US_United States_vless_14487
+  - US_United States_vless_14489
+  - US_United States_vless_14491
+  - US_United States_http_14492
+  - US_United States_http_14493
+  - US_United States_http_14496
+  - US_United States_vless_14499
   - US_United States_trojan_165
   - US_United States_vmess_1617
-  - US_United States_ss_1618
-  - US_United States_ss_1619
   - US_United States_ss_1621
 rules:
 - DOMAIN,clash.razord.top,DIRECT
