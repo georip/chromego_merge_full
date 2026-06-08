@@ -135,16 +135,6 @@ proxies:
   sni: fr.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: US_United States_vmess_71
-  server: v8.hdacd.com
-  port: 30808
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
 - name: US_United States_vless_72
   server: cdn.ph1.cocoduck.org
   port: 45072
@@ -158,16 +148,6 @@ proxies:
   reality-opts:
     public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
     short-id: 693b25e06841ac7f
-  udp: true
-- name: US_United States_vmess_77
-  server: v6.hdacd.com
-  port: 30806
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
   udp: true
 - name: US_United States_vmess_78
   server: 154.37.223.19
@@ -183,26 +163,6 @@ proxies:
     method: GET
     path:
     - /
-  udp: true
-- name: US_United States_vmess_79
-  server: v35.hdacd.com
-  port: 30835
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: US_United States_vmess_711
-  server: v33.hdacd.com
-  port: 30833
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
   udp: true
 - name: US_United States_vless_712
   server: 18.183.94.154
@@ -481,6 +441,13 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
+- cipher: aes-256-gcm
+  name: US_United States_ss_1440
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19887
+  server: ss.036.node-for-bigairport.win
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: US_United States_ss_1441
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
@@ -2804,19 +2771,6 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 731
-- name: US_United States_vmess_1614
-  server: v4.hdacd.com
-  port: 30804
-  type: vmess
-  country: 🇦🇺 AU
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-  delay: 1463
 - name: US_United States_vless_1616
   server: 104.17.3.81
   type: vless
@@ -2832,32 +2786,6 @@ proxies:
     headers:
       Host: r3xxe.eu.cc
   delay: 634
-- name: US_United States_vmess_1619
-  server: v45.hdacd.com
-  port: 30845
-  type: vmess
-  country: 🏁 ZZ
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-  delay: 519
-- name: US_United States_vmess_1620
-  server: v36.hdacd.com
-  port: 30836
-  type: vmess
-  country: 🏁 ZZ
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-  delay: 851
 - name: US_United States_trojan_1624
   server: adak.sonofthewinds.com
   type: trojan
@@ -2888,12 +2816,8 @@ proxy-groups:
   - US_United States_ss_132
   - US_United States_ss_135
   - US_United States_trojan_136
-  - US_United States_vmess_71
   - US_United States_vless_72
-  - US_United States_vmess_77
   - US_United States_vmess_78
-  - US_United States_vmess_79
-  - US_United States_vmess_711
   - US_United States_vless_712
   - US_United States_vless_713
   - US_United States_vless_714
@@ -2921,6 +2845,7 @@ proxy-groups:
   - US_United States_http_1435
   - US_United States_ss_1436
   - US_United States_hysteria2_1437
+  - US_United States_ss_1440
   - US_United States_ss_1441
   - US_United States_vless_1442
   - US_United States_trojan_1445
@@ -3137,10 +3062,7 @@ proxy-groups:
   - US_United States_http_14496
   - US_United States_http_14497
   - US_United States_trojan_164
-  - US_United States_vmess_1614
   - US_United States_vless_1616
-  - US_United States_vmess_1619
-  - US_United States_vmess_1620
   - US_United States_trojan_1624
 - name: 自动选择
   type: url-test
@@ -3162,12 +3084,8 @@ proxy-groups:
   - US_United States_ss_132
   - US_United States_ss_135
   - US_United States_trojan_136
-  - US_United States_vmess_71
   - US_United States_vless_72
-  - US_United States_vmess_77
   - US_United States_vmess_78
-  - US_United States_vmess_79
-  - US_United States_vmess_711
   - US_United States_vless_712
   - US_United States_vless_713
   - US_United States_vless_714
@@ -3195,6 +3113,7 @@ proxy-groups:
   - US_United States_http_1435
   - US_United States_ss_1436
   - US_United States_hysteria2_1437
+  - US_United States_ss_1440
   - US_United States_ss_1441
   - US_United States_vless_1442
   - US_United States_trojan_1445
@@ -3411,10 +3330,7 @@ proxy-groups:
   - US_United States_http_14496
   - US_United States_http_14497
   - US_United States_trojan_164
-  - US_United States_vmess_1614
   - US_United States_vless_1616
-  - US_United States_vmess_1619
-  - US_United States_vmess_1620
   - US_United States_trojan_1624
 rules:
 - DOMAIN,clash.razord.top,DIRECT
