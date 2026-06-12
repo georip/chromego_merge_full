@@ -95,18 +95,58 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: US_United States_vmess_127
-  network: tcp
-  port: 30845
-  server: 103.182.97.12
-  skip-cert-verify: false
+  name: US_United States_vmess_128
+  network: ws
+  port: 8080
+  server: jd.103672.xyz
   tls: false
   type: vmess
+  uuid: c14a83db-f333-452e-acff-93b8f7160b10
+  ws-opts:
+    headers:
+      Host: dedasabo.103466.xyz
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: US_United States_trojan_129
+  network: ws
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: '443'
+  server: h2.bnm.uw.to
+  skip-cert-verify: false
+  sni: h2.bnm.uw.to
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
+- name: US_United States_trojan_130
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: '45619'
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: US_United States_trojan_131
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.147.104
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
 - name: US_United States_vless_42
   port: 19321
   server: 47.86.55.200
@@ -126,15 +166,6 @@ proxies:
   type: vmess
   udp: true
   uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-- name: US_United States_trojan_411
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: false
-  type: trojan
-  udp: true
 - name: US_United States_vless_413
   port: 10035
   server: 47.77.214.201
@@ -143,6 +174,15 @@ proxies:
   type: vless
   udp: true
   uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+- name: US_United States_trojan_414
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
 - name: US_United States_vless_749
   server: 199.232.197.131
   port: 80
@@ -345,16 +385,6 @@ proxies:
       Host: ld.223350.xyz
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1233
-  type: vless
-  server: cdn9-33.vk-cdnvideo.com
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  servername: cdn9-33.vk-cdnvideo.com
-  tls: true
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  udp: true
 - name: US_United States_vless_1234
   type: vless
   server: fans.liverpool.qzz.io
@@ -411,15 +441,6 @@ proxies:
   uuid: monacoVPN
   tls: false
   skip-cert-verify: true
-  udp: true
-- name: US_United States_trojan_1251
-  type: trojan
-  server: 155.117.198.85
-  port: 47909
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  tls: true
   udp: true
 - name: US_United States_vless_1262
   type: vless
@@ -888,19 +909,6 @@ proxies:
       Host: mrnetwork.pages.dev
   skip-cert-verify: true
   udp: true
-- name: US_United States_trojan_12112
-  type: trojan
-  server: 11u8k6n04q3y4ajoai.lovebaipiao.net
-  port: 443
-  password: 497dae1f-6db8-4c35-957f-ceb8c1500909
-  sni: 11u8k6n04q3y4ajoai.lovebaipiao.net
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /89a0z7oqmwpkfhp4/mmq32sjmt37omy2b
-    headers:
-      Host: baidu.com
-  udp: true
 - name: US_United States_vless_12115
   type: vless
   server: 147.90.234.200
@@ -1327,6 +1335,18 @@ proxies:
     headers:
       Host: vms.lifetime38.workers.dev
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_1483
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: US_United States_vless_1488
   network: ws
   port: 8880
@@ -1890,6 +1910,18 @@ proxies:
     headers:
       Host: cf.afrcloudnet1.dpdns.org
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- alterId: '2'
+  cipher: auto
+  name: US_United States_vmess_14204
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: US_United States_vless_14228
   network: ws
   port: 80
@@ -1919,6 +1951,18 @@ proxies:
   type: vless
   udp: true
   uuid: ad961404-6249-4a11-9577-d1e81f6b198f
+  xudp: true
+- alterId: '2'
+  cipher: auto
+  name: US_United States_vmess_14233
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -2488,6 +2532,18 @@ proxies:
   udp: true
   uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
   xudp: true
+- alterId: '2'
+  cipher: auto
+  name: US_United States_vmess_14441
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: US_United States_vless_14447
@@ -2514,6 +2570,25 @@ proxies:
   tls: true
   type: http
   username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+- alterId: '2'
+  cipher: auto
+  name: US_United States_vmess_14453
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_14457
+  port: 30808
+  server: 103.182.97.12
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -2668,6 +2743,25 @@ proxies:
   password: tndCP2Df9-PTx_J0sZeoHmTdvkg0w4Kv
   cipher: chacha20-ietf-poly1305
   delay: 971
+- name: US_United States_vmess_1612
+  server: 104.17.77.77
+  type: vmess
+  country: 🏁ZZ
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: v2ray1.dozapp.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      HOST: v2ray1.dozapp.xyz
+  delay: 2223
 - name: US_United States_ss_1613
   server: 198.71.54.21
   type: ss
@@ -2691,11 +2785,14 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_010
   - US_United States_trojan_013
-  - US_United States_vmess_127
+  - US_United States_vmess_128
+  - US_United States_trojan_129
+  - US_United States_trojan_130
+  - US_United States_trojan_131
   - US_United States_vless_42
   - US_United States_vmess_44
-  - US_United States_trojan_411
   - US_United States_vless_413
+  - US_United States_trojan_414
   - US_United States_vless_749
   - US_United States_vless_751
   - US_United States_vless_752
@@ -2711,13 +2808,11 @@ proxy-groups:
   - US_United States_vless_1230
   - US_United States_vless_1231
   - US_United States_vless_1232
-  - US_United States_vless_1233
   - US_United States_vless_1234
   - US_United States_vless_1239
   - US_United States_vless_1241
   - US_United States_vless_1247
   - US_United States_vless_1250
-  - US_United States_trojan_1251
   - US_United States_vless_1262
   - US_United States_vless_1263
   - US_United States_vless_1266
@@ -2751,7 +2846,6 @@ proxy-groups:
   - US_United States_vless_12107
   - US_United States_vless_12108
   - US_United States_vless_12111
-  - US_United States_trojan_12112
   - US_United States_vless_12115
   - US_United States_vless_12156
   - US_United States_vless_143
@@ -2787,6 +2881,7 @@ proxy-groups:
   - US_United States_trojan_1479
   - US_United States_vless_1480
   - US_United States_vless_1481
+  - US_United States_vmess_1483
   - US_United States_vless_1488
   - US_United States_vless_1491
   - US_United States_vless_1493
@@ -2832,8 +2927,10 @@ proxy-groups:
   - US_United States_vless_14186
   - US_United States_vless_14197
   - US_United States_vless_14203
+  - US_United States_vmess_14204
   - US_United States_vless_14228
   - US_United States_vless_14230
+  - US_United States_vmess_14233
   - US_United States_vless_14235
   - US_United States_http_14237
   - US_United States_vless_14240
@@ -2871,8 +2968,11 @@ proxy-groups:
   - US_United States_hysteria2_14429
   - US_United States_vless_14430
   - US_United States_vless_14435
+  - US_United States_vmess_14441
   - US_United States_vless_14447
   - US_United States_http_14450
+  - US_United States_vmess_14453
+  - US_United States_vmess_14457
   - US_United States_vless_14480
   - US_United States_vless_14484
   - US_United States_ss_14487
@@ -2885,6 +2985,7 @@ proxy-groups:
   - US_United States_trojan_167
   - US_United States_trojan_168
   - US_United States_ss_169
+  - US_United States_vmess_1612
   - US_United States_ss_1613
 - name: 自动选择
   type: url-test
@@ -2901,11 +3002,14 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_010
   - US_United States_trojan_013
-  - US_United States_vmess_127
+  - US_United States_vmess_128
+  - US_United States_trojan_129
+  - US_United States_trojan_130
+  - US_United States_trojan_131
   - US_United States_vless_42
   - US_United States_vmess_44
-  - US_United States_trojan_411
   - US_United States_vless_413
+  - US_United States_trojan_414
   - US_United States_vless_749
   - US_United States_vless_751
   - US_United States_vless_752
@@ -2921,13 +3025,11 @@ proxy-groups:
   - US_United States_vless_1230
   - US_United States_vless_1231
   - US_United States_vless_1232
-  - US_United States_vless_1233
   - US_United States_vless_1234
   - US_United States_vless_1239
   - US_United States_vless_1241
   - US_United States_vless_1247
   - US_United States_vless_1250
-  - US_United States_trojan_1251
   - US_United States_vless_1262
   - US_United States_vless_1263
   - US_United States_vless_1266
@@ -2961,7 +3063,6 @@ proxy-groups:
   - US_United States_vless_12107
   - US_United States_vless_12108
   - US_United States_vless_12111
-  - US_United States_trojan_12112
   - US_United States_vless_12115
   - US_United States_vless_12156
   - US_United States_vless_143
@@ -2997,6 +3098,7 @@ proxy-groups:
   - US_United States_trojan_1479
   - US_United States_vless_1480
   - US_United States_vless_1481
+  - US_United States_vmess_1483
   - US_United States_vless_1488
   - US_United States_vless_1491
   - US_United States_vless_1493
@@ -3042,8 +3144,10 @@ proxy-groups:
   - US_United States_vless_14186
   - US_United States_vless_14197
   - US_United States_vless_14203
+  - US_United States_vmess_14204
   - US_United States_vless_14228
   - US_United States_vless_14230
+  - US_United States_vmess_14233
   - US_United States_vless_14235
   - US_United States_http_14237
   - US_United States_vless_14240
@@ -3081,8 +3185,11 @@ proxy-groups:
   - US_United States_hysteria2_14429
   - US_United States_vless_14430
   - US_United States_vless_14435
+  - US_United States_vmess_14441
   - US_United States_vless_14447
   - US_United States_http_14450
+  - US_United States_vmess_14453
+  - US_United States_vmess_14457
   - US_United States_vless_14480
   - US_United States_vless_14484
   - US_United States_ss_14487
@@ -3095,6 +3202,7 @@ proxy-groups:
   - US_United States_trojan_167
   - US_United States_trojan_168
   - US_United States_ss_169
+  - US_United States_vmess_1612
   - US_United States_ss_1613
 rules:
 - DOMAIN,clash.razord.top,DIRECT
