@@ -2545,6 +2545,15 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: US_United States_vless_12253
+  type: vless
+  server: cdn3-87.vk-cdnvideo.com
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  servername: cdn3-87.vk-cdnvideo.com
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: US_United States_trojan_12258
   type: trojan
   server: 3.69.103.29
@@ -2576,6 +2585,16 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: US_United States_vmess_12266
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
 - name: US_United States_vmess_12267
   type: vmess
   server: 103.182.97.12
@@ -2598,6 +2617,20 @@ proxies:
   reality-opts:
     public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
     short-id: d82fb387
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_12269
+  type: vless
+  server: sw.pink-perfect.ru
+  port: 443
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+  servername: yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
+    short-id: 86b80f1e713a33ad
   skip-cert-verify: true
   udp: true
 - name: US_United States_vmess_161
@@ -2907,11 +2940,14 @@ proxy-groups:
   - US_United States_vless_12240
   - US_United States_vless_12242
   - US_United States_vless_12244
+  - US_United States_vless_12253
   - US_United States_trojan_12258
   - US_United States_vless_12264
   - US_United States_vless_12265
+  - US_United States_vmess_12266
   - US_United States_vmess_12267
   - US_United States_vless_12268
+  - US_United States_vless_12269
   - US_United States_vmess_161
   - US_United States_trojan_162
   - US_United States_vmess_164
@@ -3117,11 +3153,14 @@ proxy-groups:
   - US_United States_vless_12240
   - US_United States_vless_12242
   - US_United States_vless_12244
+  - US_United States_vless_12253
   - US_United States_trojan_12258
   - US_United States_vless_12264
   - US_United States_vless_12265
+  - US_United States_vmess_12266
   - US_United States_vmess_12267
   - US_United States_vless_12268
+  - US_United States_vless_12269
   - US_United States_vmess_161
   - US_United States_trojan_162
   - US_United States_vmess_164
