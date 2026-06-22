@@ -1173,12 +1173,12 @@ proxies:
   password: BxceQaOe
   sni: t.me/ripaojiedian
   skip-cert-verify: false
-- name: US_United States_trojan_6329
+- name: US_United States_trojan_6332
   server: 90081bb25c.node.tro.cac.cab
-  port: 46424
+  port: 41943
   type: trojan
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: de.01.naiun.bilibili.com
+  sni: az.01.naiun.bilibili.com
   skip-cert-verify: false
 - name: US_United States_ss_6334
   server: li.feng3d.com
@@ -7725,6 +7725,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: US_United States_vmess_63216
+  server: gtm1.ktmwan.net
+  port: 12883
+  type: vmess
+  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gtm1.ktmwan.net
 - name: US_United States_vmess_63217
   server: 45.136.12.37
   port: 20521
@@ -17628,244 +17642,127 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- name: US_United States_vless_7112
-  server: www.npmjs.com
-  port: 2095
+- name: US_United States_vless_710
+  server: 151.101.109.223
+  port: 80
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   tls: false
   skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  servername: max-gb1.global.ssl.fastly.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+      Host: max-gb1.global.ssl.fastly.net
   udp: true
-- name: US_United States_vless_7113
-  server: www.temu.com
-  port: 2095
+- name: US_United States_vless_787
+  server: 199.232.197.131
+  port: 80
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   tls: false
   skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  servername: max-gb1.global.ssl.fastly.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+      Host: max-gb1.global.ssl.fastly.net
   udp: true
-- name: US_United States_vless_7114
-  server: www.shopify.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7115
-  server: ns.cloudflare.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7116
-  server: cloudflare-dns.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7117
-  server: support.cloudflare.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7119
-  server: blog.cloudflare.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7120
-  server: developers.cloudflare.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7121
-  server: www.epicgames.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7122
-  server: www.fbi.gov
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7123
-  server: docs.cloudflare.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7124
-  server: www.whatismyip.net
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7125
-  server: cdnjs.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7126
-  server: www.udemy.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7128
-  server: itarmy.com.ua
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  skip-cert-verify: false
-  client-fingerprint: randomized
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  udp: true
-- name: US_United States_vless_7131
-  server: 142.91.108.139
+- name: US_United States_http_788
+  server: 7a106425-t9zts0-tgzvop-hns7.sj.oshuawei.com
   port: 443
-  type: vless
-  uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
-  flow: xtls-rprx-vision
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
   tls: true
+  udp: true
+- name: US_United States_http_789
+  server: a86296f0-ta1og0-tgzvop-hns7.sj.oshuawei.com
+  port: 443
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  tls: true
+  udp: true
+- name: US_United States_http_790
+  server: 8b8d8416-tegxs0-tgzvop-hns7.sj.hyhuawei.com
+  port: 443
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  tls: true
+  udp: true
+- name: US_United States_vless_791
+  server: 151.101.2.219
+  port: 80
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  tls: false
   skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: jp.api-yandex.net
-  reality-opts:
-    public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
-    short-id: 0f4dacf88202e05f
+  servername: max-gb1.global.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: US_United States_vless_792
+  server: 151.101.194.219
+  port: 80
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  tls: false
+  skip-cert-verify: false
+  servername: max-gb1.global.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: US_United States_vless_793
+  server: 151.101.0.1
+  port: 80
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  tls: false
+  skip-cert-verify: false
+  servername: max-gb1.global.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: US_United States_vless_794
+  server: 167.82.0.1
+  port: 80
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  tls: false
+  skip-cert-verify: false
+  servername: max-gb1.global.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: US_United States_vless_795
+  server: speedtest.net
+  port: 80
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  tls: false
+  skip-cert-verify: false
+  servername: max-gb1.global.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
   udp: true
 - name: US_United States_vless_126
   type: vless
@@ -18067,6 +17964,20 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1287
+  type: vless
+  server: www.shopify.com
+  port: 2096
+  uuid: edbc438c-1762-4f0e-99b2-d2038b028485
+  network: ws
+  servername: xbhk.cccccdns.icu
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: xbhk.cccccdns.icu
   skip-cert-verify: true
   udp: true
 - name: US_United States_vless_1290
@@ -18986,7 +18897,7 @@ proxy-groups:
   - US_United States_vmess_6281
   - US_United States_vmess_6282
   - US_United States_trojan_6328
-  - US_United States_trojan_6329
+  - US_United States_trojan_6332
   - US_United States_ss_6334
   - US_United States_trojan_6335
   - US_United States_vmess_6339
@@ -19634,6 +19545,7 @@ proxy-groups:
   - US_United States_vmess_63210
   - US_United States_vmess_63212
   - US_United States_vmess_63213
+  - US_United States_vmess_63216
   - US_United States_vmess_63217
   - US_United States_vmess_63219
   - US_United States_vmess_63220
@@ -20436,22 +20348,16 @@ proxy-groups:
   - US_United States_vmess_64540
   - US_United States_vmess_64541
   - US_United States_vmess_64542
-  - US_United States_vless_7112
-  - US_United States_vless_7113
-  - US_United States_vless_7114
-  - US_United States_vless_7115
-  - US_United States_vless_7116
-  - US_United States_vless_7117
-  - US_United States_vless_7119
-  - US_United States_vless_7120
-  - US_United States_vless_7121
-  - US_United States_vless_7122
-  - US_United States_vless_7123
-  - US_United States_vless_7124
-  - US_United States_vless_7125
-  - US_United States_vless_7126
-  - US_United States_vless_7128
-  - US_United States_vless_7131
+  - US_United States_vless_710
+  - US_United States_vless_787
+  - US_United States_http_788
+  - US_United States_http_789
+  - US_United States_http_790
+  - US_United States_vless_791
+  - US_United States_vless_792
+  - US_United States_vless_793
+  - US_United States_vless_794
+  - US_United States_vless_795
   - US_United States_vless_126
   - US_United States_vless_1210
   - US_United States_vless_1264
@@ -20466,6 +20372,7 @@ proxy-groups:
   - US_United States_vless_1284
   - US_United States_vless_1285
   - US_United States_vless_1286
+  - US_United States_vless_1287
   - US_United States_vless_1290
   - US_United States_trojan_1291
   - US_United States_vless_1293
@@ -20656,7 +20563,7 @@ proxy-groups:
   - US_United States_vmess_6281
   - US_United States_vmess_6282
   - US_United States_trojan_6328
-  - US_United States_trojan_6329
+  - US_United States_trojan_6332
   - US_United States_ss_6334
   - US_United States_trojan_6335
   - US_United States_vmess_6339
@@ -21304,6 +21211,7 @@ proxy-groups:
   - US_United States_vmess_63210
   - US_United States_vmess_63212
   - US_United States_vmess_63213
+  - US_United States_vmess_63216
   - US_United States_vmess_63217
   - US_United States_vmess_63219
   - US_United States_vmess_63220
@@ -22106,22 +22014,16 @@ proxy-groups:
   - US_United States_vmess_64540
   - US_United States_vmess_64541
   - US_United States_vmess_64542
-  - US_United States_vless_7112
-  - US_United States_vless_7113
-  - US_United States_vless_7114
-  - US_United States_vless_7115
-  - US_United States_vless_7116
-  - US_United States_vless_7117
-  - US_United States_vless_7119
-  - US_United States_vless_7120
-  - US_United States_vless_7121
-  - US_United States_vless_7122
-  - US_United States_vless_7123
-  - US_United States_vless_7124
-  - US_United States_vless_7125
-  - US_United States_vless_7126
-  - US_United States_vless_7128
-  - US_United States_vless_7131
+  - US_United States_vless_710
+  - US_United States_vless_787
+  - US_United States_http_788
+  - US_United States_http_789
+  - US_United States_http_790
+  - US_United States_vless_791
+  - US_United States_vless_792
+  - US_United States_vless_793
+  - US_United States_vless_794
+  - US_United States_vless_795
   - US_United States_vless_126
   - US_United States_vless_1210
   - US_United States_vless_1264
@@ -22136,6 +22038,7 @@ proxy-groups:
   - US_United States_vless_1284
   - US_United States_vless_1285
   - US_United States_vless_1286
+  - US_United States_vless_1287
   - US_United States_vless_1290
   - US_United States_trojan_1291
   - US_United States_vless_1293
