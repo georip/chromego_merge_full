@@ -589,6 +589,21 @@ proxies:
       Host: xbhk.cccccdns.icu
   skip-cert-verify: true
   udp: true
+- name: US_United States_vless_1289
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: US_United States_vless_1290
   type: vless
   server: store.ubi.com
@@ -1452,6 +1467,7 @@ proxy-groups:
   - US_United States_vless_1285
   - US_United States_vless_1286
   - US_United States_vless_1287
+  - US_United States_vless_1289
   - US_United States_vless_1290
   - US_United States_trojan_1291
   - US_United States_vless_1293
@@ -1566,6 +1582,7 @@ proxy-groups:
   - US_United States_vless_1285
   - US_United States_vless_1286
   - US_United States_vless_1287
+  - US_United States_vless_1289
   - US_United States_vless_1290
   - US_United States_trojan_1291
   - US_United States_vless_1293
