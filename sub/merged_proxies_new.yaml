@@ -570,6 +570,30 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
   udp: true
+- name: US_United States_ss_766
+  server: 134.195.101.115
+  port: 2377
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 817aa69.default.nintendo.com:112719
+    tls: false
+  udp: true
+- name: US_United States_ss_767
+  server: 134.195.101.118
+  port: 2377
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 817aa69.default.nintendo.com:112719
+    tls: false
+  udp: true
 - name: US_United States_vless_768
   server: 151.101.169.151
   port: 80
@@ -600,6 +624,18 @@ proxies:
   udp: true
 - name: US_United States_ss_770
   server: 134.195.101.127
+  port: 2377
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 817aa69.default.nintendo.com:112719
+    tls: false
+  udp: true
+- name: US_United States_ss_771
+  server: 134.195.101.117
   port: 2377
   type: ss
   cipher: chacha20-ietf-poly1305
@@ -875,9 +911,12 @@ proxy-groups:
   - US_United States_vless_762
   - US_United States_http_764
   - US_United States_vless_765
+  - US_United States_ss_766
+  - US_United States_ss_767
   - US_United States_vless_768
   - US_United States_vless_769
   - US_United States_ss_770
+  - US_United States_ss_771
   - US_United States_vless_773
   - US_United States_vless_774
   - US_United States_vless_775
@@ -947,9 +986,12 @@ proxy-groups:
   - US_United States_vless_762
   - US_United States_http_764
   - US_United States_vless_765
+  - US_United States_ss_766
+  - US_United States_ss_767
   - US_United States_vless_768
   - US_United States_vless_769
   - US_United States_ss_770
+  - US_United States_ss_771
   - US_United States_vless_773
   - US_United States_vless_774
   - US_United States_vless_775
