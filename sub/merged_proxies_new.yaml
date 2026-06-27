@@ -72,22 +72,35 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_124
+  - http/1.1
+  name: US_United States_trojan_124
   network: ws
-  port: '62051'
-  server: 154.12.50.89
+  password: MiTiVPN
+  port: '443'
+  server: 199.181.197.176
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: 95r.ir
+  type: trojan
   udp: true
-  uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd
   ws-opts:
-    headers: {}
-    path: /
-  xudp: true
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /MiTiVPN=fL
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  grpc-opts:
+    grpc-service-name: /45577/mehdi
+  name: US_United States_trojan_128
+  network: grpc
+  password: 0r94LJ1UL7
+  port: 443
+  server: news.xbxcdv.qzz.io
+  skip-cert-verify: false
+  sni: news.xbxcdv.qzz.io
+  type: trojan
 - name: US_United States_vless_44
   network: ws
   port: 443
@@ -3415,6 +3428,20 @@ proxies:
     path: /15f62abf-8cc9-4598-8d57-e4df7b499a84-vmess
     headers:
       Host: test2.flha.ru
+- name: US_United States_vmess_6675
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  port: 443
+  type: vmess
+  uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /linkvkwss
+    headers:
+      Host: BLaZE-fRA-64.BLaZECLOuD.sitE
 - name: US_United States_vmess_6676
   server: kampong.org
   port: 443
@@ -12391,20 +12418,6 @@ proxies:
     path: /vmess
     headers:
       Host: cx.com
-- name: US_United States_vmess_61762
-  server: news.xbxcdv.qzz.io
-  port: 443
-  type: vmess
-  uuid: e3ba60d4-a149-409e-b938-20a8c88b3420
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /20286/mehdi
-    headers:
-      Host: news.xbxcdv.qzz.io
 - name: US_United States_vmess_61763
   server: yg1.ygkkk.dpdns.org
   port: 443
@@ -14140,6 +14153,18 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: US_United States_vmess_62296
+  server: 154.12.50.89
+  port: 62051
+  type: vmess
+  uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 - name: US_United States_ss_62298
   server: 154.17.13.158
   port: 443
@@ -16272,6 +16297,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: US_United States_vmess_64274
+  server: gtm1.ktmwan.net
+  port: 12883
+  type: vmess
+  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gtm1.ktmwan.net
 - name: US_United States_vmess_64275
   server: 45.136.12.37
   port: 20521
@@ -22943,7 +22982,8 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_010
-  - US_United States_vmess_124
+  - US_United States_trojan_124
+  - US_United States_trojan_128
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -23237,6 +23277,7 @@ proxy-groups:
   - US_United States_vmess_6671
   - US_United States_vmess_6672
   - US_United States_vmess_6673
+  - US_United States_vmess_6675
   - US_United States_vmess_6676
   - US_United States_vmess_6677
   - US_United States_vmess_6680
@@ -23882,7 +23923,6 @@ proxy-groups:
   - US_United States_vmess_61749
   - US_United States_vmess_61754
   - US_United States_vmess_61760
-  - US_United States_vmess_61762
   - US_United States_vmess_61763
   - US_United States_vmess_61785
   - US_United States_vmess_61786
@@ -24072,6 +24112,7 @@ proxy-groups:
   - US_United States_trojan_62291
   - US_United States_ss_62292
   - US_United States_ss_62294
+  - US_United States_vmess_62296
   - US_United States_ss_62298
   - US_United States_ss_62299
   - US_United States_ss_62300
@@ -24338,6 +24379,7 @@ proxy-groups:
   - US_United States_vmess_64229
   - US_United States_trojan_64231
   - US_United States_vmess_64272
+  - US_United States_vmess_64274
   - US_United States_vmess_64275
   - US_United States_vmess_64277
   - US_United States_vmess_64278
@@ -24924,7 +24966,8 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_010
-  - US_United States_vmess_124
+  - US_United States_trojan_124
+  - US_United States_trojan_128
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -25218,6 +25261,7 @@ proxy-groups:
   - US_United States_vmess_6671
   - US_United States_vmess_6672
   - US_United States_vmess_6673
+  - US_United States_vmess_6675
   - US_United States_vmess_6676
   - US_United States_vmess_6677
   - US_United States_vmess_6680
@@ -25863,7 +25907,6 @@ proxy-groups:
   - US_United States_vmess_61749
   - US_United States_vmess_61754
   - US_United States_vmess_61760
-  - US_United States_vmess_61762
   - US_United States_vmess_61763
   - US_United States_vmess_61785
   - US_United States_vmess_61786
@@ -26053,6 +26096,7 @@ proxy-groups:
   - US_United States_trojan_62291
   - US_United States_ss_62292
   - US_United States_ss_62294
+  - US_United States_vmess_62296
   - US_United States_ss_62298
   - US_United States_ss_62299
   - US_United States_ss_62300
@@ -26319,6 +26363,7 @@ proxy-groups:
   - US_United States_vmess_64229
   - US_United States_trojan_64231
   - US_United States_vmess_64272
+  - US_United States_vmess_64274
   - US_United States_vmess_64275
   - US_United States_vmess_64277
   - US_United States_vmess_64278
