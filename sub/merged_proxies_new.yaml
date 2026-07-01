@@ -25,6 +25,80 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- cipher: aes-256-cfb
+  name: US_United States_ss_01
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- name: US_United States_trojan_03
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 2008
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_04
+  network: tcp
+  password: BxceQaOe
+  port: 29449
+  server: 95.40.58.222
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_05
+  network: tcp
+  password: BxceQaOe
+  port: 3941
+  server: 16.163.149.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_06
+  network: tcp
+  password: BxceQaOe
+  port: 52904
+  server: 18.181.219.39
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_07
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 3743
+  server: 18.163.118.4
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_011
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.192.195
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_019
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
+- cipher: aes-256-cfb
+  name: US_United States_ss_126
+  password: amazonskr05
+  port: '443'
+  server: 35.181.4.41
+  type: ss
+  udp: true
 - name: US_United States_vmess_753
   server: 104.253.134.92
   port: 13932
@@ -102,19 +176,6 @@ proxies:
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   tls: true
-  udp: true
-- name: US_United States_trojan_761
-  server: iranpoems.ir
-  port: 443
-  type: trojan
-  password: Mitivpn
-  sni: www.gamingdll.ir
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /usa=mitivpn
-    headers:
-      Host: www.gamingdll.ir
   udp: true
 - alterId: 1
   cipher: auto
@@ -4975,54 +5036,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- name: US_United States_ss_151
-  server: 63.180.254.10
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: US_United States_trojan_153
-  server: 95.40.113.209
-  port: 2008
-  type: trojan
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: US_United States_trojan_154
-  server: 95.40.58.222
-  port: 29449
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: US_United States_trojan_155
-  server: 16.163.149.119
-  port: 3941
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: US_United States_trojan_156
-  server: 18.181.219.39
-  port: 52904
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252Fripaojiedian
-  skip-cert-verify: true
-- name: US_United States_trojan_157
-  server: 18.163.118.4
-  port: 3743
-  type: trojan
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  sni: www.nintendogames.net
-  skip-cert-verify: true
-- name: US_United States_trojan_1511
-  server: 16.162.192.195
-  port: 9149
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%252Fripaojiedian
-  skip-cert-verify: true
 - name: US_United States_trojan_1632
   server: 16.162.118.81
   type: trojan
@@ -5039,6 +5052,15 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - US_United States_ss_01
+  - US_United States_trojan_03
+  - US_United States_trojan_04
+  - US_United States_trojan_05
+  - US_United States_trojan_06
+  - US_United States_trojan_07
+  - US_United States_trojan_011
+  - US_United States_trojan_019
+  - US_United States_ss_126
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -5047,7 +5069,6 @@ proxy-groups:
   - US_United States_http_758
   - US_United States_http_759
   - US_United States_http_760
-  - US_United States_trojan_761
   - US_United States_vmess_142
   - US_United States_ss_143
   - US_United States_vmess_144
@@ -5532,13 +5553,6 @@ proxy-groups:
   - US_United States_vmess_14498
   - US_United States_vmess_14499
   - US_United States_vmess_14500
-  - US_United States_ss_151
-  - US_United States_trojan_153
-  - US_United States_trojan_154
-  - US_United States_trojan_155
-  - US_United States_trojan_156
-  - US_United States_trojan_157
-  - US_United States_trojan_1511
   - US_United States_trojan_1632
 - name: 自动选择
   type: url-test
@@ -5546,6 +5560,15 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - US_United States_ss_01
+  - US_United States_trojan_03
+  - US_United States_trojan_04
+  - US_United States_trojan_05
+  - US_United States_trojan_06
+  - US_United States_trojan_07
+  - US_United States_trojan_011
+  - US_United States_trojan_019
+  - US_United States_ss_126
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -5554,7 +5577,6 @@ proxy-groups:
   - US_United States_http_758
   - US_United States_http_759
   - US_United States_http_760
-  - US_United States_trojan_761
   - US_United States_vmess_142
   - US_United States_ss_143
   - US_United States_vmess_144
@@ -6039,13 +6061,6 @@ proxy-groups:
   - US_United States_vmess_14498
   - US_United States_vmess_14499
   - US_United States_vmess_14500
-  - US_United States_ss_151
-  - US_United States_trojan_153
-  - US_United States_trojan_154
-  - US_United States_trojan_155
-  - US_United States_trojan_156
-  - US_United States_trojan_157
-  - US_United States_trojan_1511
   - US_United States_trojan_1632
 rules:
 - DOMAIN,clash.razord.top,DIRECT
