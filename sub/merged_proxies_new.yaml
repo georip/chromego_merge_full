@@ -125,60 +125,93 @@ proxies:
   servername: www.anthropic.com
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 88888888-8888-8888-8888-888888888880
 - alpn:
   - http/1.1
-  name: US_United States_trojan_117
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.42.98
-  skip-cert-verify: false
-  sni: s-w.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /MiTiVPN=Se
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_118
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.16.72.101
-  skip-cert-verify: false
-  sni: N--l.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /MiTiVPN=NL
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_119
+  name: US_United States_trojan_125
   network: ws
   password: MITIVPN
   port: '443'
-  server: www.speedtest.net
+  server: 172.64.32.75
   skip-cert-verify: false
-  sni: germany.App-Cloud.ir
+  sni: united.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /MiTiVPN=Usa
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_126
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: openai.com
+  skip-cert-verify: false
+  sni: united.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /MiTiVPN=De
+    path: /MiTiVPN=Usa
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_128
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: assets.fiverr.com
+  skip-cert-verify: false
+  sni: Finl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /MiTiVPN=fL
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_134
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: brezzen.com
+  skip-cert-verify: false
+  sni: F--l.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /MiTiVPN=fL
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: US_United States_trojan_137
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.18.114.47
+  skip-cert-verify: false
+  sni: Nl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /MiTiVPN=NL
 - cipher: aes-256-cfb
-  name: US_United States_ss_120
+  name: US_United States_ss_140
   password: amazonskr05
   port: '443'
-  server: 13.36.174.32
+  server: 3.148.210.179
   type: ss
   udp: true
 - name: US_United States_vmess_753
@@ -2318,123 +2351,138 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
   udp: true
-- name: US_United States_http_142
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_141
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: jp2-fz9xcy26.skynode.me
+  servername: www.nodai.ac.jp
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- name: US_United States_http_143
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_142
+  network: tcp
   port: 443
-  server: b803bc4f-t9zts0-tc4puo-m0b9.jp.oshuawei.com
-  sni: b803bc4f-t9zts0-tc4puo-m0b9.jp.oshuawei.com
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: sg4-tnv2d7lw.skynode.me
+  servername: leeveit.com
+  skip-cert-verify: true
   tls: true
-  type: http
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_145
+  type: vless
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_143
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: jp1-zxqfxcp7.skynode.me
+  servername: www.nodai.ac.jp
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_144
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: hk4-72ug0p26.skynode.me
+  servername: ping-hk.4vps.su
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_145
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: hk5-0xm5smab.skynode.me
+  servername: ping-hk.4vps.su
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_146
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: jp6-ceuncxa7.skynode.me
+  servername: www.nodai.ac.jp
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_147
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-in-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- cipher: auto
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_United States_vless_148
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1uKnEbfoMmbBVhQSRlIJgfRDpn5JuJyASuLQOAq-83s
+    short-id: 49a94a17637c8488
+  server: kr1-cv0dclvp.skynode.me
+  servername: carbonmonster.kr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+- name: US_United States_http_149
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: US_United States_http_146
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
-  sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: US_United States_anytls_147
-  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 7a53c548-tegxs0-tvgkxc-hrtf.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 7a53c548-tegxs0-tvgkxc-hrtf.los.hyhuawei.com
-  type: anytls
-- name: US_United States_http_148
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 443
-  server: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
-  sni: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
-  tls: true
-  type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: US_United States_http_149
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: 8229295a-t9zts0-tnt75r-1k8ga.sj.oshuawei.com
-  sni: 8229295a-t9zts0-tnt75r-1k8ga.sj.oshuawei.com
-  tls: true
-  type: http
-  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
-- name: US_United States_http_1410
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  port: 443
-  server: 159ce692-t9zts0-tiuovf-v3c2.sj.oshuawei.com
-  sni: 159ce692-t9zts0-tiuovf-v3c2.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1411
-  network: ws
-  port: 443
-  server: 172.64.79.244
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1412
-  network: ws
-  port: 8443
-  server: 162.159.252.70
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1413
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 443
-  server: 2c543ebb-t9zts0-th1s9h-8rja.sjc.oshuawei.com
-  sni: 2c543ebb-t9zts0-th1s9h-8rja.sjc.oshuawei.com
-  tls: true
-  type: http
-  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-- name: US_United States_anytls_1414
-  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  port: 443
-  server: 4ce695dc-tegxs0-tubliy-1la7v.se.hyhuawei.com
-  skip-cert-verify: true
-  sni: 4ce695dc-tegxs0-tubliy-1la7v.se.hyhuawei.com
-  type: anytls
-  udp: true
-- name: US_United States_http_1415
+- name: US_United States_http_1411
   password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
   port: 443
   server: f1f3228c-t9zts0-thd0h1-1rz5s.sj.oshuawei.com
@@ -2442,6 +2490,46 @@ proxies:
   tls: true
   type: http
   username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+- name: US_United States_anytls_1412
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 7a53c548-tegxs0-tvgkxc-hrtf.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 7a53c548-tegxs0-tvgkxc-hrtf.los.hyhuawei.com
+  type: anytls
+- name: US_United States_http_1413
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: 1cf275f7-t9zts0-tebnsl-z93q.sj.oshuawei.com
+  sni: 1cf275f7-t9zts0-tebnsl-z93q.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1414
+  network: ws
+  port: 80
+  server: us8-y8j2fvth.skynode.me
+  servername: node-36-250-1-90.speedtest.cn
+  type: vmess
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+  ws-headers:
+    Host: node-36-250-1-90.speedtest.cn
+  ws-opts:
+    headers:
+      Host: node-36-250-1-90.speedtest.cn
+    path: /download?ed=2560
+  ws-path: /download?ed=2560
+- name: US_United States_http_1415
+  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: c8a8e711-temhs0-truoje-1uni.u12.oshuawei.com
+  sni: c8a8e711-temhs0-truoje-1uni.u12.oshuawei.com
+  tls: true
+  type: http
+  username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
 - name: US_United States_http_1416
   password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
   port: 443
@@ -2450,154 +2538,46 @@ proxies:
   tls: true
   type: http
   username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-- name: US_United States_http_1418
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: US_United States_anytls_1418
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  server: a2b1c490-temhs0-tfpsin-1q3dm.se.hyhuawei.com
+  skip-cert-verify: true
+  sni: a2b1c490-temhs0-tfpsin-1q3dm.se.hyhuawei.com
+  type: anytls
+- name: US_United States_http_1419
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: b5fd0ba6-t9zts0-th1s9h-8rja.sj.oshuawei.com
+  sni: b5fd0ba6-t9zts0-th1s9h-8rja.sj.oshuawei.com
   tls: true
   type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1419
-  network: ws
-  port: 8443
-  server: 162.159.251.30
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1420
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  port: 443
-  server: f1b0db77-teisg0-ttx5yr-1j0y6.sj.hyhuawei.com
-  sni: f1b0db77-teisg0-ttx5yr-1j0y6.sj.hyhuawei.com
+  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_1421
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+  sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
   tls: true
   type: http
-  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1421
-  network: ws
-  port: 8443
-  server: 172.64.35.118
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
 - name: US_United States_http_1422
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 443
-  server: b186d7b4-teisg0-tl09la-1q91p.sj.hyhuawei.com
-  sni: b186d7b4-teisg0-tl09la-1q91p.sj.hyhuawei.com
+  server: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
+  sni: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
   tls: true
   type: http
-  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1423
-  network: ws
-  port: 8443
-  server: 198.41.223.155
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1424
-  network: ws
+  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+- name: US_United States_http_1423
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   port: 443
-  server: 172.64.40.51
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1425
-  network: ws
-  port: 443
-  server: 162.159.224.40
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: US_United States_mieru_1426
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1428
-  network: ws
-  port: 8443
-  server: 162.159.250.201
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1429
-  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: c8a8e711-temhs0-truoje-1uni.u12.oshuawei.com
-  sni: c8a8e711-temhs0-truoje-1uni.u12.oshuawei.com
+  server: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
+  sni: dd781cfe-t9zts0-th1s9h-8rja.jp.oshuawei.com
   tls: true
   type: http
-  username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_1430
+  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_1428
   password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
   port: 443
   server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
@@ -2605,550 +2585,31 @@ proxies:
   tls: true
   type: http
   username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-- name: US_United States_http_1431
-  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  port: 443
-  server: 93f394fe-tegxs0-tes6jx-1o8ak.sj.hyhuawei.com
-  sni: 93f394fe-tegxs0-tes6jx-1o8ak.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1432
-  network: ws
-  port: 8443
-  server: 162.159.18.147
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1433
-  network: ws
-  port: 8443
-  server: 162.159.160.131
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1435
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: fff87b8e-tegxs0-tujecz-1qkeg.se.oshuawei.com
-  sni: fff87b8e-tegxs0-tujecz-1qkeg.se.oshuawei.com
-  tls: true
-  type: http
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-- name: US_United States_http_1437
-  password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-  port: 443
-  server: a85389c2-t9zts0-tphxte-1h5u7.se.oshuawei.com
-  sni: a85389c2-t9zts0-tphxte-1h5u7.se.oshuawei.com
-  tls: true
-  type: http
-  username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1438
-  network: ws
-  port: 8443
-  server: 162.159.251.87
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1439
-  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-  port: 443
-  server: 11273790-t9zts0-thmjbt-1rk9y.se.oshuawei.com
-  sni: 11273790-t9zts0-thmjbt-1rk9y.se.oshuawei.com
-  tls: true
-  type: http
-  username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-- name: US_United States_http_1440
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: d4d10ccd-t9zts0-tnt75r-1k8ga.se.oshuawei.com
-  sni: d4d10ccd-t9zts0-tnt75r-1k8ga.se.oshuawei.com
-  tls: true
-  type: http
-  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
-- name: US_United States_http_1441
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
-  port: 443
-  server: ae4a3cc4-t9zts0-trhks8-1c9em.se.oshuawei.com
-  sni: ae4a3cc4-t9zts0-trhks8-1c9em.se.oshuawei.com
-  tls: true
-  type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1442
-  network: ws
-  port: 443
-  server: 162.159.234.3
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1443
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  port: 443
-  server: 106ec660-t9zts0-tbao5v-gacy.se.oshuawei.com
-  sni: 106ec660-t9zts0-tbao5v-gacy.se.oshuawei.com
-  tls: true
-  type: http
-  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-- name: US_United States_http_1444
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 443
-  server: 897380fc-tanwg0-tc4j28-nx3b.se.oshuawei.com
-  sni: 897380fc-tanwg0-tc4j28-nx3b.se.oshuawei.com
-  tls: true
-  type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-- name: US_United States_http_1445
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 443
-  server: e70959af-t9zts0-tcmken-19les.se.oshuawei.com
-  sni: e70959af-t9zts0-tcmken-19les.se.oshuawei.com
-  tls: true
-  type: http
-  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: US_United States_http_1447
-  password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  port: 443
-  server: 467ba717-t9zts0-tg8syu-1nyy5.se.oshuawei.com
-  sni: 467ba717-t9zts0-tg8syu-1nyy5.se.oshuawei.com
-  tls: true
-  type: http
-  username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1448
-  network: ws
-  port: 443
-  server: 162.159.234.36
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1449
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  port: 443
-  server: c0642701-t9zts0-tiuovf-v3c2.se.oshuawei.com
-  sni: c0642701-t9zts0-tiuovf-v3c2.se.oshuawei.com
-  tls: true
-  type: http
-  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- name: US_United States_http_1450
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  port: 443
-  server: b356ea25-t9zts0-tamumc-1lkbs.se.oshuawei.com
-  sni: b356ea25-t9zts0-tamumc-1lkbs.se.oshuawei.com
-  tls: true
-  type: http
-  username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-- name: US_United States_http_1451
-  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  port: 443
-  server: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
-  sni: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
-  tls: true
-  type: http
-  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1452
-  network: ws
-  port: 8443
-  server: 104.29.111.30
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1453
-  network: ws
-  port: 443
-  server: 172.64.148.98
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1454
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: 325a88f6-ta1og0-tc4puo-m0b9.se.oshuawei.com
-  sni: 325a88f6-ta1og0-tc4puo-m0b9.se.oshuawei.com
-  tls: true
-  type: http
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_1455
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  port: 443
-  server: 8f03c244-t9zts0-taz53d-1j0y6.se.oshuawei.com
-  sni: 8f03c244-t9zts0-taz53d-1j0y6.se.oshuawei.com
-  tls: true
-  type: http
-  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-- name: US_United States_http_1457
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 443
-  server: d4e3941e-t9zts0-tajk23-nx3b.se.oshuawei.com
-  sni: d4e3941e-t9zts0-tajk23-nx3b.se.oshuawei.com
-  tls: true
-  type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-- name: US_United States_http_1458
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 9b2ed07a-t9zts0-tb5rbt-1kcpe.se.oshuawei.com
-  sni: 9b2ed07a-t9zts0-tb5rbt-1kcpe.se.oshuawei.com
-  tls: true
-  type: http
-  username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-- name: US_United States_http_1459
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 443
-  server: 74373670-t9zts0-tsdg75-tlhh.se.oshuawei.com
-  sni: 74373670-t9zts0-tsdg75-tlhh.se.oshuawei.com
-  tls: true
-  type: http
-  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: US_United States_http_1460
-  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  port: 443
-  server: 37777295-t9zts0-tubliy-1la7v.se.oshuawei.com
-  sni: 37777295-t9zts0-tubliy-1la7v.se.oshuawei.com
-  tls: true
-  type: http
-  username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-- name: US_United States_http_1461
-  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-  port: 443
-  server: 9deb50af-t9zts0-thv9l4-1jbj0.se.oshuawei.com
-  sni: 9deb50af-t9zts0-thv9l4-1jbj0.se.oshuawei.com
-  tls: true
-  type: http
-  username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-- name: US_United States_http_1462
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: b19ca737-t9zts0-tarubk-1qkeg.se.oshuawei.com
-  sni: b19ca737-t9zts0-tarubk-1qkeg.se.oshuawei.com
-  tls: true
-  type: http
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-- name: US_United States_http_1463
-  password: c357a728-1211-11f0-9a65-f23c9164ca5d
-  port: 443
-  server: a65c03a1-t9zts0-td5oia-1m49t.se.oshuawei.com
-  sni: a65c03a1-t9zts0-td5oia-1m49t.se.oshuawei.com
-  tls: true
-  type: http
-  username: c357a728-1211-11f0-9a65-f23c9164ca5d
-- name: US_United States_http_1466
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 443
-  server: 03973f4e-t9zts0-tlvq5w-1jcwu.se.oshuawei.com
-  sni: 03973f4e-t9zts0-tlvq5w-1jcwu.se.oshuawei.com
-  tls: true
-  type: http
-  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-- name: US_United States_http_1467
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
-  sni: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
-  tls: true
-  type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-- name: US_United States_http_1469
-  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  port: 443
-  server: fd993dd1-t9zts0-tvb36r-1qwom.se.oshuawei.com
-  sni: fd993dd1-t9zts0-tvb36r-1qwom.se.oshuawei.com
-  tls: true
-  type: http
-  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-- name: US_United States_http_1470
-  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
-  port: 443
-  server: 7a5ed534-tegxs0-twjnjx-1q9g2.se.oshuawei.com
-  sni: 7a5ed534-tegxs0-twjnjx-1q9g2.se.oshuawei.com
-  tls: true
-  type: http
-  username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
-- name: US_United States_http_1471
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 443
-  server: 96adff29-tcb5s0-te4ijj-1fqef.se.oshuawei.com
-  tls: true
-  type: http
-  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- name: US_United States_http_1472
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  port: 443
-  server: 143a4a22-ta1og0-td1l1t-1s824.se.oshuawei.com
-  sni: 143a4a22-ta1og0-td1l1t-1s824.se.oshuawei.com
-  tls: true
-  type: http
-  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-- name: US_United States_http_1473
-  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  sni: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
-  tls: true
-  type: http
-  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-- name: US_United States_http_1475
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
-  sni: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
-  tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_1476
-  network: ws
-  port: 443
-  server: 162.159.224.96
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_1477
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: 21af7038-ta1og0-tpaqgu-1smhu.se.oshuawei.com
-  sni: 21af7038-ta1og0-tpaqgu-1smhu.se.oshuawei.com
-  tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-- name: US_United States_http_1478
-  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-  port: 443
-  server: 0ee72651-t9zts0-tfpsin-1q3dm.se.oshuawei.com
-  sni: 0ee72651-t9zts0-tfpsin-1q3dm.se.oshuawei.com
-  tls: true
-  type: http
-  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: US_United States_http_1479
-  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  port: 443
-  server: 9e8f31cc-t9zts0-ta00rd-1o8ak.se.oshuawei.com
-  sni: 9e8f31cc-t9zts0-ta00rd-1o8ak.se.oshuawei.com
-  tls: true
-  type: http
-  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-- name: US_United States_http_1481
-  password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-  port: 443
-  server: 7aa73512-t9zts0-tcum62-se45.se.oshuawei.com
-  sni: 7aa73512-t9zts0-tcum62-se45.se.oshuawei.com
-  tls: true
-  type: http
-  username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
-- name: US_United States_http_1482
+- name: US_United States_http_1430
   password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
-  sni: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
+  port: 443
+  server: 4bd2182f-te8ao0-tfn5eh-24c4.fmtdc1.sghuawei.com
+  sni: 4bd2182f-te8ao0-tfn5eh-24c4.fmtdc1.sghuawei.com
   tls: true
   type: http
   username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: US_United States_http_1484
-  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+- name: US_United States_http_1432
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
   port: 443
-  server: caacdf4e-te5ts0-tir0zk-1hpo0.se.oshuawei.com
-  sni: caacdf4e-te5ts0-tir0zk-1hpo0.se.oshuawei.com
+  server: 3ce483da-t9zts0-tawg6w-1rfon.se.oshuawei.com
+  sni: 3ce483da-t9zts0-tawg6w-1rfon.se.oshuawei.com
   tls: true
   type: http
-  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: US_United States_http_1487
-  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  port: 443
-  server: 3f496269-ta1og0-tdq4vj-1l0qa.se.oshuawei.com
-  sni: 3f496269-ta1og0-tdq4vj-1l0qa.se.oshuawei.com
-  tls: true
-  type: http
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: US_United States_http_1489
-  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: cdd4f00e-t9zts0-tlpfci-1jdha.se.oshuawei.com
-  sni: cdd4f00e-t9zts0-tlpfci-1jdha.se.oshuawei.com
-  tls: true
-  type: http
-  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_1490
-  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  port: 443
-  server: ce1e344e-t9zts0-tg010c-1r7od.se.oshuawei.com
-  sni: ce1e344e-t9zts0-tg010c-1r7od.se.oshuawei.com
-  tls: true
-  type: http
-  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-- name: US_United States_http_1491
-  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  port: 443
-  server: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
-  sni: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
-  tls: true
-  type: http
-  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: US_United States_http_1492
-  password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-  port: 443
-  server: 97a4e87a-ta1og0-tphxte-1h5u7.se.oshuawei.com
-  sni: 97a4e87a-ta1og0-tphxte-1h5u7.se.oshuawei.com
-  tls: true
-  type: http
-  username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-- name: US_United States_http_1493
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: ef729ea7-ta1og0-tnsc3a-1f0gu.se.oshuawei.com
-  sni: ef729ea7-ta1og0-tnsc3a-1f0gu.se.oshuawei.com
-  tls: true
-  type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-- name: US_United States_http_1494
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
-  port: 443
-  server: 064912e4-ta1og0-tm3dx0-1r9dt.se.oshuawei.com
-  sni: 064912e4-ta1og0-tm3dx0-1r9dt.se.oshuawei.com
-  tls: true
-  type: http
-  username: de003c72-0157-11ef-86da-f23c91cfbbc9
-- name: US_United States_http_1496
-  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-  port: 443
-  server: c36d21e0-t9zts0-tc9wl2-py5w.se.oshuawei.com
-  sni: c36d21e0-t9zts0-tc9wl2-py5w.se.oshuawei.com
-  tls: true
-  type: http
-  username: ae5338ae-9a70-58c9-3d47-7d54a5675715
-- name: US_United States_http_1497
-  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-  port: 443
-  server: 8a0d9601-t9zts0-tifnix-1ro8s.se.oshuawei.com
-  sni: 8a0d9601-t9zts0-tifnix-1ro8s.se.oshuawei.com
-  tls: true
-  type: http
-  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-- name: US_United States_http_1498
-  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-  port: 443
-  server: fcf0b529-ta1og0-titr5n-1hhyy.se.oshuawei.com
-  sni: fcf0b529-ta1og0-titr5n-1hhyy.se.oshuawei.com
-  tls: true
-  type: http
-  username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- name: US_United States_http_14101
-  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: b0a2d4e3-ta1og0-tlpfci-1jdha.se.oshuawei.com
-  sni: b0a2d4e3-ta1og0-tlpfci-1jdha.se.oshuawei.com
-  tls: true
-  type: http
-  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_14103
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  server: 9d4abea0-t9zts0-tb016b-1m7l4.se.oshuawei.com
-  sni: 9d4abea0-t9zts0-tb016b-1m7l4.se.oshuawei.com
-  tls: true
-  type: http
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- name: US_United States_http_14104
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  port: 443
-  server: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
-  sni: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
-  tls: true
-  type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- name: US_United States_http_14105
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: bfc8d59d-t9zts0-tnkuks-wujn.se.oshuawei.com
-  sni: bfc8d59d-t9zts0-tnkuks-wujn.se.oshuawei.com
-  tls: true
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: US_United States_http_14106
+  username: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+- multiplexing: MULTIPLEXING_LOW
+  name: US_United States_mieru_1433
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: US_United States_http_1435
   password: 0b869f32-657e-11ee-a90c-f23c9313b177
   port: 3443
   server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
@@ -3156,81 +2617,7 @@ proxies:
   tls: true
   type: http
   username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: US_United States_http_14108
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
-  port: 443
-  server: 6499cf12-t9zts0-tm3dx0-1r9dt.se.oshuawei.com
-  sni: 6499cf12-t9zts0-tm3dx0-1r9dt.se.oshuawei.com
-  tls: true
-  type: http
-  username: de003c72-0157-11ef-86da-f23c91cfbbc9
-- name: US_United States_http_14109
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 434cf2f0-te5ts0-tip01z-1gevg.se.oshuawei.com
-  sni: 434cf2f0-te5ts0-tip01z-1gevg.se.oshuawei.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- name: US_United States_http_14110
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  port: 443
-  server: 3036b9f6-t9zts0-tb08pe-luwe.se.oshuawei.com
-  sni: 3036b9f6-t9zts0-tb08pe-luwe.se.oshuawei.com
-  tls: true
-  type: http
-  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-- name: US_United States_http_14113
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
-  sni: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
-  tls: true
-  type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-- name: US_United States_http_14117
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: daa5f843-tegxs0-tnt75r-1k8ga.se.oshuawei.com
-  sni: daa5f843-tegxs0-tnt75r-1k8ga.se.oshuawei.com
-  tls: true
-  type: http
-  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
-- name: US_United States_http_14120
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: f839d080-tegxs0-tnsc3a-1f0gu.se.oshuawei.com
-  sni: f839d080-tegxs0-tnsc3a-1f0gu.se.oshuawei.com
-  tls: true
-  type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14121
-  network: ws
-  port: 443
-  server: 172.64.234.117
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_14128
-  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: 0d09d6ed-t9zts0-tbnk1n-ueq.se.oshuawei.com
-  sni: 0d09d6ed-t9zts0-tbnk1n-ueq.se.oshuawei.com
-  tls: true
-  type: http
-  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-- name: US_United States_http_14134
+- name: US_United States_http_1437
   password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
   port: 443
   server: 6c846b23-t9zts0-tcop2n-tl32.se.oshuawei.com
@@ -3238,7 +2625,47 @@ proxies:
   tls: true
   type: http
   username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-- name: US_United States_http_14139
+- name: US_United States_http_1439
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  port: 443
+  server: b186d7b4-teisg0-tl09la-1q91p.sj.hyhuawei.com
+  sni: b186d7b4-teisg0-tl09la-1q91p.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: US_United States_http_1441
+  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  port: 443
+  server: c5c65312-t9zts0-tkhmfr-1jm8i.se.oshuawei.com
+  sni: c5c65312-t9zts0-tkhmfr-1jm8i.se.oshuawei.com
+  tls: true
+  type: http
+  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- name: US_United States_http_1442
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  port: 443
+  server: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
+  sni: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
+  tls: true
+  type: http
+  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+- name: US_United States_http_1445
+  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  port: 443
+  server: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
+  sni: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+- name: US_United States_http_1448
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 443
+  server: e70959af-t9zts0-tcmken-19les.se.oshuawei.com
+  sni: e70959af-t9zts0-tcmken-19les.se.oshuawei.com
+  tls: true
+  type: http
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- name: US_United States_http_1449
   password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
   port: 443
   server: 5edc2675-t9zts0-te0v28-1mh67.se.oshuawei.com
@@ -3246,46 +2673,7 @@ proxies:
   tls: true
   type: http
   username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-- name: US_United States_http_14140
-  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
-  sni: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
-  tls: true
-  type: http
-  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-- name: US_United States_http_14146
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 443
-  server: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
-  sni: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
-  tls: true
-  type: http
-  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- name: US_United States_http_14152
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 5443
-  server: 09775d44-tea5c0-tee5aa-1glq.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-- name: US_United States_http_14156
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 8443
-  server: c22a973c-tegxs0-tet9be-1s0a7.isp.cdnkuaishou.com
-  sni: c22a973c-tegxs0-tet9be-1s0a7.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-- name: US_United States_http_14161
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  server: 42bb1294-t9zts0-tpftcp-13x18.se.oshuawei.com
-  sni: 42bb1294-t9zts0-tpftcp-13x18.se.oshuawei.com
-  tls: true
-  type: http
-  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-- name: US_United States_http_14166
+- name: US_United States_http_1451
   password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
   port: 443
   server: 319de89e-t9zts0-tb4whp-zn8y.se.oshuawei.com
@@ -3293,189 +2681,105 @@ proxies:
   tls: true
   type: http
   username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-- name: US_United States_http_14171
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 8443
-  server: 1f640d5a-tegxs0-th1s9h-8rja.isp.cdnkuaishou.com
-  sni: 1f640d5a-tegxs0-th1s9h-8rja.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-- name: US_United States_http_14173
-  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-  port: 8443
-  server: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
-  sni: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-- name: US_United States_http_14174
-  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-  port: 8443
-  server: 5cf83a8c-teisg0-tyt0e8-1mh67.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-- name: US_United States_http_14175
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 8443
-  server: d1608817-te3z40-tip01z-1gevg.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- name: US_United States_http_14180
-  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  port: 8443
-  server: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-- name: US_United States_http_14181
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 8443
-  server: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
-  sni: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: US_United States_http_14193
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 8443
-  server: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
-  sni: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-- name: US_United States_http_14200
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+- name: US_United States_http_1452
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
   port: 443
-  server: 228ab6e4-ta1og0-tarubk-1qkeg.se.oshuawei.com
-  sni: 228ab6e4-ta1og0-tarubk-1qkeg.se.oshuawei.com
+  server: 9d4abea0-t9zts0-tb016b-1m7l4.se.oshuawei.com
+  sni: 9d4abea0-t9zts0-tb016b-1m7l4.se.oshuawei.com
   tls: true
   type: http
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-- name: US_United States_http_14201
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  port: 8443
-  server: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
-  sni: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- name: US_United States_http_1455
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 5443
+  server: 09775d44-tea5c0-tee5aa-1glq.fmtdc1.sghuawei.com
   tls: true
   type: http
-  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-- name: US_United States_http_14202
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 8443
-  server: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
-  sni: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
+  username: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- name: US_United States_http_1456
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  port: 443
+  server: 56924745-t9zts0-tb016b-1m7l4.sjc.oshuawei.com
+  sni: 56924745-t9zts0-tb016b-1m7l4.sjc.oshuawei.com
   tls: true
   type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: US_United States_http_14207
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 8443
-  server: c2bdfebd-tegxs0-tsdg75-tlhh.isp.cdnkuaishou.com
-  sni: c2bdfebd-tegxs0-tsdg75-tlhh.isp.cdnkuaishou.com
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- name: US_United States_http_1457
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 443
+  server: 93f394fe-tegxs0-tes6jx-1o8ak.sj.hyhuawei.com
+  sni: 93f394fe-tegxs0-tes6jx-1o8ak.sj.hyhuawei.com
   tls: true
   type: http
-  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: US_United States_http_14209
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- name: US_United States_http_1459
+  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  port: 443
+  server: b356ea25-t9zts0-tamumc-1lkbs.se.oshuawei.com
+  sni: b356ea25-t9zts0-tamumc-1lkbs.se.oshuawei.com
+  tls: true
+  type: http
+  username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+- name: US_United States_http_1462
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: ef729ea7-ta1og0-tnsc3a-1f0gu.se.oshuawei.com
+  sni: ef729ea7-ta1og0-tnsc3a-1f0gu.se.oshuawei.com
+  tls: true
+  type: http
+  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+- name: US_United States_http_1466
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  port: 443
+  server: f1b0db77-teisg0-ttx5yr-1j0y6.sj.hyhuawei.com
+  sni: f1b0db77-teisg0-ttx5yr-1j0y6.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+- name: US_United States_http_1467
+  password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+  port: 443
+  server: 97a4e87a-ta1og0-tphxte-1h5u7.se.oshuawei.com
+  sni: 97a4e87a-ta1og0-tphxte-1h5u7.se.oshuawei.com
+  tls: true
+  type: http
+  username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+- name: US_United States_http_1471
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 325a88f6-ta1og0-tc4puo-m0b9.se.oshuawei.com
+  sni: 325a88f6-ta1og0-tc4puo-m0b9.se.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- name: US_United States_http_1474
   password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  port: 8443
-  server: 12e0e5f5-tekn40-tubliy-1la7v.isp.cdnkuaishou.com
-  sni: 12e0e5f5-tekn40-tubliy-1la7v.isp.cdnkuaishou.com
+  port: 443
+  server: 37777295-t9zts0-tubliy-1la7v.se.oshuawei.com
+  sni: 37777295-t9zts0-tubliy-1la7v.se.oshuawei.com
   tls: true
   type: http
   username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-- name: US_United States_http_14214
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 8443
-  server: bd9db44b-tegxs0-tl09la-1q91p.isp.cdnkuaishou.com
-  sni: bd9db44b-tegxs0-tl09la-1q91p.isp.cdnkuaishou.com
+- name: US_United States_http_1480
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
+  sni: 0cd5cc27-t9zts0-tazlv3-11p9g.se.oshuawei.com
   tls: true
   type: http
-  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- name: US_United States_http_14215
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: 8443
-  server: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
-  sni: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: US_United States_http_1481
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: fff87b8e-tegxs0-tujecz-1qkeg.se.oshuawei.com
+  sni: fff87b8e-tegxs0-tujecz-1qkeg.se.oshuawei.com
   tls: true
   type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14216
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: terazhediii.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    headers:
-      Host: terazhediii.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /hdgrbws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.random.0rtt.JH37JJoYK4A6kEE49lYs_Je6J80gmi4prff-lAQt1Wk
-  name: US_United States_vless_14217
-  network: ws
-  port: 2087
-  server: 104.18.127.50
-  servername: us3.amazingseasun.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: a9d2f59f-a7de-4fa9-a30b-a8b4b34d024a
-  ws-opts:
-    headers:
-      Host: us3.amazingseasun.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /eyuan/us3
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14220
-  network: ws
-  port: 443
-  server: 104.29.127.240
-  servername: ldp2642.brucewang777.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: bfb9bb17-42db-437a-86d8-c024c6e87d73
-  ws-opts:
-    headers:
-      Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /proxyip=ProxyIP.US.CMLiussss.Net
-  xudp: true
-- name: US_United States_http_14221
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  port: 443
-  server: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
-  sni: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
-  tls: true
-  type: http
-  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-- name: US_United States_http_14222
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  port: 443
-  server: d2fc55ab-teisg0-tighxj-12hj8.se.oshuawei.com
-  sni: d2fc55ab-teisg0-tighxj-12hj8.se.oshuawei.com
-  tls: true
-  type: http
-  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
-  name: US_United States_vmess_14225
+  name: US_United States_vmess_1485
   network: tcp
   port: 443
   server: guanwang.awsno.com
@@ -3484,118 +2788,7 @@ proxies:
   tls: true
   type: vmess
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: US_United States_http_14226
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 8443
-  server: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
-  sni: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: US_United States_http_14227
-  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  port: 443
-  server: c5c65312-t9zts0-tkhmfr-1jm8i.se.oshuawei.com
-  sni: c5c65312-t9zts0-tkhmfr-1jm8i.se.oshuawei.com
-  tls: true
-  type: http
-  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- name: US_United States_http_14228
-  password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-  port: 443
-  server: a439f5e5-t9zts0-tbdyji-ach1.se.oshuawei.com
-  sni: a439f5e5-t9zts0-tbdyji-ach1.se.oshuawei.com
-  tls: true
-  type: http
-  username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-- name: US_United States_http_14230
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 51371bc2-te3z40-tip01z-1gevg.se.oshuawei.com
-  sni: 51371bc2-te3z40-tip01z-1gevg.se.oshuawei.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- client-fingerprint: chrome
-  name: US_United States_trojan_14231
-  network: ws
-  password: rYuChHcwQZskq9E0zdoR
-  port: 443
-  server: ip4.vpean2.qzz.io
-  skip-cert-verify: false
-  sni: vpn5.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /ws-79dffb8106db
-- name: US_United States_http_14232
-  password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 3b3968e9-t9zts0-tdadcv-1hd7v.se.oshuawei.com
-  sni: 3b3968e9-t9zts0-tdadcv-1hd7v.se.oshuawei.com
-  tls: true
-  type: http
-  username: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-- name: US_United States_http_14233
-  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-  port: 443
-  server: 9be786b5-t9zts0-tdq4vj-1l0qa.se.oshuawei.com
-  sni: 9be786b5-t9zts0-tdq4vj-1l0qa.se.oshuawei.com
-  tls: true
-  type: http
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: US_United States_http_14234
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
-  port: 8443
-  server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
-  sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: de003c72-0157-11ef-86da-f23c91cfbbc9
-- name: US_United States_http_14235
-  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 62578b6c-t9zts0-trg4wh-z65w.se.oshuawei.com
-  sni: 62578b6c-t9zts0-trg4wh-z65w.se.oshuawei.com
-  tls: true
-  type: http
-  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-- name: US_United States_http_14236
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 443
-  server: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
-  sni: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
-  tls: true
-  type: http
-  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-- name: US_United States_http_14238
-  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  port: 443
-  server: 43ab2040-t9zts0-thzbn1-1gxvd.se.oshuawei.com
-  sni: 43ab2040-t9zts0-thzbn1-1gxvd.se.oshuawei.com
-  tls: true
-  type: http
-  username: 398e0d38-8649-11ef-959c-f23c9164ca5d
-- name: US_United States_http_14239
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 443
-  server: 2cfbd9e4-te9j40-tfpmu9-1m0fq.se.oshuawei.com
-  sni: 2cfbd9e4-te9j40-tfpmu9-1m0fq.se.oshuawei.com
-  tls: true
-  type: http
-  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: US_United States_http_14240
-  password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-  port: 8443
-  server: e61554be-teisg0-thtg7i-1lkt0.isp.cdnkuaishou.com
-  sni: e61554be-teisg0-thtg7i-1lkt0.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-- name: US_United States_http_14242
+- name: US_United States_http_14100
   password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
   port: 443
   server: f021ef05-t9zts0-truoje-1uni.se.oshuawei.com
@@ -3603,39 +2796,298 @@ proxies:
   tls: true
   type: http
   username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-- name: US_United States_http_14243
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  port: 443
-  server: 5168a16d-t9zts0-tgl02u-1jr1u.se.oshuawei.com
-  sni: 5168a16d-t9zts0-tgl02u-1jr1u.se.oshuawei.com
+- name: US_United States_http_14103
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  port: 8443
+  server: bd9db44b-tegxs0-tl09la-1q91p.isp.cdnkuaishou.com
+  sni: bd9db44b-tegxs0-tl09la-1q91p.isp.cdnkuaishou.com
   tls: true
   type: http
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- name: US_United States_http_14246
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  username: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: US_United States_http_14104
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
   port: 443
-  server: 3ce483da-t9zts0-tawg6w-1rfon.se.oshuawei.com
-  sni: 3ce483da-t9zts0-tawg6w-1rfon.se.oshuawei.com
+  server: 3f496269-ta1og0-tdq4vj-1l0qa.se.oshuawei.com
+  sni: 3f496269-ta1og0-tdq4vj-1l0qa.se.oshuawei.com
   tls: true
   type: http
-  username: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-- name: US_United States_http_14247
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
-  sni: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: US_United States_http_14107
+  password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  port: 8443
+  server: f91c0e31-tekn40-thd0h1-1rz5s.isp.cdnkuaishou.com
+  sni: f91c0e31-tekn40-thd0h1-1rz5s.isp.cdnkuaishou.com
   tls: true
   type: http
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-- name: US_United States_http_14250
+  username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+- name: US_United States_http_14111
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 8443
+  server: 1f640d5a-tegxs0-th1s9h-8rja.isp.cdnkuaishou.com
+  sni: 1f640d5a-tegxs0-th1s9h-8rja.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_14123
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  port: 8443
+  server: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
+  sni: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+- name: US_United States_http_14124
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  port: 8443
+  server: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+  sni: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- name: US_United States_http_14128
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  port: 8443
+  server: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+- name: US_United States_http_14130
+  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+  port: 443
+  server: 96adff29-tcb5s0-te4ijj-1fqef.se.oshuawei.com
+  tls: true
+  type: http
+  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+- name: US_United States_http_14135
+  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: d4d10ccd-t9zts0-tnt75r-1k8ga.se.oshuawei.com
+  sni: d4d10ccd-t9zts0-tnt75r-1k8ga.se.oshuawei.com
+  tls: true
+  type: http
+  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
+- name: US_United States_http_14137
+  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  port: 443
+  server: 0d09d6ed-t9zts0-tbnk1n-ueq.se.oshuawei.com
+  sni: 0d09d6ed-t9zts0-tbnk1n-ueq.se.oshuawei.com
+  tls: true
+  type: http
+  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+- name: US_United States_http_14140
+  password: de003c72-0157-11ef-86da-f23c91cfbbc9
+  port: 8443
+  server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+  sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+- name: US_United States_http_14146
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  port: 8443
+  server: c2bdfebd-tegxs0-tsdg75-tlhh.isp.cdnkuaishou.com
+  sni: c2bdfebd-tegxs0-tsdg75-tlhh.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: US_United States_http_14147
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 8443
+  server: d1608817-te3z40-tip01z-1gevg.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+- name: US_United States_http_14148
+  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  port: 8443
+  server: 12e0e5f5-tekn40-tubliy-1la7v.isp.cdnkuaishou.com
+  sni: 12e0e5f5-tekn40-tubliy-1la7v.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+- name: US_United States_http_14149
   password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
   port: 8443
   server: 03514ce6-te5ts0-tip01z-1gevg.isp.cdnkuaishou.com
   tls: true
   type: http
   username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+- name: US_United States_http_14150
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  port: 443
+  server: 8f03c244-t9zts0-taz53d-1j0y6.se.oshuawei.com
+  sni: 8f03c244-t9zts0-taz53d-1j0y6.se.oshuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+- name: US_United States_http_14151
+  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+  port: 443
+  server: 11273790-t9zts0-thmjbt-1rk9y.se.oshuawei.com
+  sni: 11273790-t9zts0-thmjbt-1rk9y.se.oshuawei.com
+  tls: true
+  type: http
+  username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+- name: US_United States_http_14152
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: b19ca737-t9zts0-tarubk-1qkeg.se.oshuawei.com
+  sni: b19ca737-t9zts0-tarubk-1qkeg.se.oshuawei.com
+  tls: true
+  type: http
+  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+- name: US_United States_http_14153
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  port: 443
+  server: 0ee72651-t9zts0-tfpsin-1q3dm.se.oshuawei.com
+  sni: 0ee72651-t9zts0-tfpsin-1q3dm.se.oshuawei.com
+  tls: true
+  type: http
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
+- name: US_United States_http_14154
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  port: 443
+  server: 106ec660-t9zts0-tbao5v-gacy.se.oshuawei.com
+  sni: 106ec660-t9zts0-tbao5v-gacy.se.oshuawei.com
+  tls: true
+  type: http
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+- name: US_United States_http_14155
+  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  port: 8443
+  server: 5cf83a8c-teisg0-tyt0e8-1mh67.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+- name: US_United States_http_14156
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: 228ab6e4-ta1og0-tarubk-1qkeg.se.oshuawei.com
+  sni: 228ab6e4-ta1og0-tarubk-1qkeg.se.oshuawei.com
+  tls: true
+  type: http
+  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+- name: US_United States_http_14157
+  password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: a439f5e5-t9zts0-tbdyji-ach1.se.oshuawei.com
+  sni: a439f5e5-t9zts0-tbdyji-ach1.se.oshuawei.com
+  tls: true
+  type: http
+  username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_14158
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 8443
+  server: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
+  sni: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+- name: US_United States_http_14159
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 8443
+  server: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
+  sni: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+- name: US_United States_http_14160
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+  port: 443
+  server: 03973f4e-t9zts0-tlvq5w-1jcwu.se.oshuawei.com
+  sni: 03973f4e-t9zts0-tlvq5w-1jcwu.se.oshuawei.com
+  tls: true
+  type: http
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- name: US_United States_http_14162
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 8443
+  server: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+  sni: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: US_United States_http_14163
+  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+  port: 443
+  server: 9d77818a-tcb5s0-te4ijj-1fqef.jp4.oshuawei.com
+  tls: true
+  type: http
+  username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
+- name: US_United States_http_14165
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
+  sni: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
+- name: US_United States_http_14166
+  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  port: 443
+  server: 3036b9f6-t9zts0-tb08pe-luwe.se.oshuawei.com
+  sni: 3036b9f6-t9zts0-tb08pe-luwe.se.oshuawei.com
+  tls: true
+  type: http
+  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+- name: US_United States_http_14168
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 8443
+  server: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
+  sni: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- name: US_United States_http_14169
+  password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  port: 443
+  server: 467ba717-t9zts0-tg8syu-1nyy5.se.oshuawei.com
+  sni: 467ba717-t9zts0-tg8syu-1nyy5.se.oshuawei.com
+  tls: true
+  type: http
+  username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+- name: US_United States_http_14170
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 8443
+  server: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
+  sni: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- name: US_United States_http_14174
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+  sni: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+  tls: true
+  type: http
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: US_United States_http_14175
+  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  port: 443
+  server: 2cfbd9e4-te9j40-tfpmu9-1m0fq.se.oshuawei.com
+  sni: 2cfbd9e4-te9j40-tfpmu9-1m0fq.se.oshuawei.com
+  tls: true
+  type: http
+  username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+- name: US_United States_http_14177
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 443
+  server: 9deb50af-t9zts0-thv9l4-1jbj0.se.oshuawei.com
+  sni: 9deb50af-t9zts0-thv9l4-1jbj0.se.oshuawei.com
+  tls: true
+  type: http
+  username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+- name: US_United States_http_14178
+  password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+  port: 443
+  server: a85389c2-t9zts0-tphxte-1h5u7.se.oshuawei.com
+  sni: a85389c2-t9zts0-tphxte-1h5u7.se.oshuawei.com
+  tls: true
+  type: http
+  username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
 - cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14251
+  name: US_United States_ss_14181
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
   plugin: gost-plugin
   plugin-opts:
@@ -3648,26 +3100,139 @@ proxies:
   server: 172.96.161.152
   type: ss
   udp: true
-- name: US_United States_http_14253
-  password: e29de954-ea01-11ef-a271-f23c91cfbbc9
+- name: US_United States_http_14182
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
-  server: 652e9b57-t9zts0-taj9mo-1tco3.se.oshuawei.com
-  sni: 652e9b57-t9zts0-taj9mo-1tco3.se.oshuawei.com
+  server: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
+  sni: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
   tls: true
   type: http
-  username: e29de954-ea01-11ef-a271-f23c91cfbbc9
-- name: US_United States_http_14254
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: b870a484-ta0g00-taad0h-24c4.east.sgp2.189ti.com
-  sni: b870a484-ta0g00-taad0h-24c4.east.sgp2.189ti.com
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: US_United States_http_14184
+  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  port: 443
+  server: 8a0d9601-t9zts0-tifnix-1ro8s.se.oshuawei.com
+  sni: 8a0d9601-t9zts0-tifnix-1ro8s.se.oshuawei.com
   tls: true
   type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
+  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+- name: US_United States_http_14185
+  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  port: 443
+  server: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
+  sni: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
+  tls: true
+  type: http
+  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_14186
+  network: ws
+  port: 80
+  server: us7-nzndydh4.skynode.me
+  servername: node-36-250-1-90.speedtest.cn
+  type: vmess
+  udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+  ws-headers:
+    Host: node-36-250-1-90.speedtest.cn
+  ws-opts:
+    headers:
+      Host: node-36-250-1-90.speedtest.cn
+    path: /download?ed=2560
+  ws-path: /download?ed=2560
+- name: US_United States_http_14187
+  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: fcf0b529-ta1og0-titr5n-1hhyy.se.oshuawei.com
+  sni: fcf0b529-ta1og0-titr5n-1hhyy.se.oshuawei.com
+  tls: true
+  type: http
+  username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- name: US_United States_http_14188
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  port: 443
+  server: 7a5ed534-tegxs0-twjnjx-1q9g2.se.oshuawei.com
+  sni: 7a5ed534-tegxs0-twjnjx-1q9g2.se.oshuawei.com
+  tls: true
+  type: http
+  username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+- name: US_United States_http_14189
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  port: 443
+  server: 74373670-t9zts0-tsdg75-tlhh.se.oshuawei.com
+  sni: 74373670-t9zts0-tsdg75-tlhh.se.oshuawei.com
+  tls: true
+  type: http
+  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- name: US_United States_http_14190
+  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  port: 443
+  server: fd993dd1-t9zts0-tvb36r-1qwom.se.oshuawei.com
+  sni: fd993dd1-t9zts0-tvb36r-1qwom.se.oshuawei.com
+  tls: true
+  type: http
+  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+- name: US_United States_http_14191
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  port: 443
+  server: 21af7038-ta1og0-tpaqgu-1smhu.se.oshuawei.com
+  sni: 21af7038-ta1og0-tpaqgu-1smhu.se.oshuawei.com
+  tls: true
+  type: http
+  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+- name: US_United States_http_14192
+  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  port: 443
+  server: c36d21e0-t9zts0-tc9wl2-py5w.se.oshuawei.com
+  sni: c36d21e0-t9zts0-tc9wl2-py5w.se.oshuawei.com
+  tls: true
+  type: http
+  username: ae5338ae-9a70-58c9-3d47-7d54a5675715
+- name: US_United States_http_14193
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  port: 443
+  server: 42bb1294-t9zts0-tpftcp-13x18.se.oshuawei.com
+  sni: 42bb1294-t9zts0-tpftcp-13x18.se.oshuawei.com
+  tls: true
+  type: http
+  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+- name: US_United States_http_14196
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  port: 443
+  server: 5168a16d-t9zts0-tgl02u-1jr1u.se.oshuawei.com
+  sni: 5168a16d-t9zts0-tgl02u-1jr1u.se.oshuawei.com
+  tls: true
+  type: http
+  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: US_United States_http_14197
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 443
+  server: 9e8f31cc-t9zts0-ta00rd-1o8ak.se.oshuawei.com
+  sni: 9e8f31cc-t9zts0-ta00rd-1o8ak.se.oshuawei.com
+  tls: true
+  type: http
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- name: US_United States_http_14198
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  port: 443
+  server: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
+  sni: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
+  tls: true
+  type: http
+  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+- name: US_United States_http_14200
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: c0642701-t9zts0-tiuovf-v3c2.se.oshuawei.com
+  sni: c0642701-t9zts0-tiuovf-v3c2.se.oshuawei.com
+  tls: true
+  type: http
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: US_United States_vless_14255
+  name: US_United States_vless_14201
   network: tcp
   port: 443
   reality-opts:
@@ -3679,6 +3244,195 @@ proxies:
   type: vless
   udp: true
   uuid: 27f914c5-bdcc-441a-9459-368daf552606
+  xudp: true
+- name: US_United States_http_14202
+  password: de003c72-0157-11ef-86da-f23c91cfbbc9
+  port: 443
+  server: 6499cf12-t9zts0-tm3dx0-1r9dt.se.oshuawei.com
+  sni: 6499cf12-t9zts0-tm3dx0-1r9dt.se.oshuawei.com
+  tls: true
+  type: http
+  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+- name: US_United States_http_14203
+  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: daa5f843-tegxs0-tnt75r-1k8ga.se.oshuawei.com
+  sni: daa5f843-tegxs0-tnt75r-1k8ga.se.oshuawei.com
+  tls: true
+  type: http
+  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
+- name: US_United States_http_14204
+  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 62578b6c-t9zts0-trg4wh-z65w.se.oshuawei.com
+  sni: 62578b6c-t9zts0-trg4wh-z65w.se.oshuawei.com
+  tls: true
+  type: http
+  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+- name: US_United States_http_14205
+  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  port: 443
+  server: d2fc55ab-teisg0-tighxj-12hj8.se.oshuawei.com
+  sni: d2fc55ab-teisg0-tighxj-12hj8.se.oshuawei.com
+  tls: true
+  type: http
+  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- name: US_United States_http_14207
+  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: b0a2d4e3-ta1og0-tlpfci-1jdha.se.oshuawei.com
+  sni: b0a2d4e3-ta1og0-tlpfci-1jdha.se.oshuawei.com
+  tls: true
+  type: http
+  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_14208
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: false
+  sni: ff2.yuntong.click
+  type: hysteria2
+  up: ''
+- name: US_United States_http_14209
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: bfc8d59d-t9zts0-tnkuks-wujn.se.oshuawei.com
+  sni: bfc8d59d-t9zts0-tnkuks-wujn.se.oshuawei.com
+  tls: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: US_United States_http_14210
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: caacdf4e-te5ts0-tir0zk-1hpo0.se.oshuawei.com
+  sni: caacdf4e-te5ts0-tir0zk-1hpo0.se.oshuawei.com
+  tls: true
+  type: http
+  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+- name: US_United States_http_14211
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 434cf2f0-te5ts0-tip01z-1gevg.se.oshuawei.com
+  sni: 434cf2f0-te5ts0-tip01z-1gevg.se.oshuawei.com
+  tls: true
+  type: http
+  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+- name: US_United States_http_14212
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
+  sni: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
+  tls: true
+  type: http
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: US_United States_http_14213
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: b870a484-ta0g00-taad0h-24c4.east.sgp2.189ti.com
+  sni: b870a484-ta0g00-taad0h-24c4.east.sgp2.189ti.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
+- name: US_United States_http_14214
+  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
+  sni: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
+  tls: true
+  type: http
+  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+- name: US_United States_http_14215
+  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: cdd4f00e-t9zts0-tlpfci-1jdha.se.oshuawei.com
+  sni: cdd4f00e-t9zts0-tlpfci-1jdha.se.oshuawei.com
+  tls: true
+  type: http
+  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
+- name: US_United States_http_14216
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
+  sni: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- name: US_United States_http_14217
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
+  sni: d55aaebc-t9zts0-th1s9h-8rja.sg.oshuawei.com
+  tls: true
+  type: http
+  username: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+- name: US_United States_http_14218
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 443
+  server: 9be786b5-t9zts0-tdq4vj-1l0qa.se.oshuawei.com
+  sni: 9be786b5-t9zts0-tdq4vj-1l0qa.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: US_United States_http_14219
+  password: de003c72-0157-11ef-86da-f23c91cfbbc9
+  port: 443
+  server: 064912e4-ta1og0-tm3dx0-1r9dt.se.oshuawei.com
+  sni: 064912e4-ta1og0-tm3dx0-1r9dt.se.oshuawei.com
+  tls: true
+  type: http
+  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+- name: US_United States_http_14220
+  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  port: 443
+  server: ce1e344e-t9zts0-tg010c-1r7od.se.oshuawei.com
+  sni: ce1e344e-t9zts0-tg010c-1r7od.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+- name: US_United States_http_14221
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  port: 443
+  server: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
+  sni: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
+  tls: true
+  type: http
+  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+- name: US_United States_http_14224
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  port: 443
+  server: 143a4a22-ta1og0-td1l1t-1s824.se.oshuawei.com
+  sni: 143a4a22-ta1og0-td1l1t-1s824.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- name: US_United States_http_14225
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: ae4a3cc4-t9zts0-trhks8-1c9em.se.oshuawei.com
+  sni: ae4a3cc4-t9zts0-trhks8-1c9em.se.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- client-fingerprint: chrome
+  name: US_United States_vless_14226
+  network: ws
+  port: 443
+  server: 104.26.4.60
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /
   xudp: true
 - name: US_United States_trojan_1632
   server: 16.162.118.81
@@ -3708,10 +3462,12 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_018
   - US_United States_vmess_11
-  - US_United States_trojan_117
-  - US_United States_trojan_118
-  - US_United States_trojan_119
-  - US_United States_ss_120
+  - US_United States_trojan_125
+  - US_United States_trojan_126
+  - US_United States_trojan_128
+  - US_United States_trojan_134
+  - US_United States_trojan_137
+  - US_United States_ss_140
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -3878,149 +3634,129 @@ proxy-groups:
   - US_United States_trojan_12534
   - US_United States_trojan_12535
   - US_United States_trojan_12538
-  - US_United States_http_142
-  - US_United States_http_143
-  - US_United States_http_145
-  - US_United States_http_146
-  - US_United States_anytls_147
-  - US_United States_http_148
+  - US_United States_vless_141
+  - US_United States_vless_142
+  - US_United States_vless_143
+  - US_United States_vless_144
+  - US_United States_vless_145
+  - US_United States_vless_146
+  - US_United States_hysteria2_147
+  - US_United States_vless_148
   - US_United States_http_149
-  - US_United States_http_1410
-  - US_United States_vless_1411
-  - US_United States_vless_1412
+  - US_United States_http_1411
+  - US_United States_anytls_1412
   - US_United States_http_1413
-  - US_United States_anytls_1414
+  - US_United States_vmess_1414
   - US_United States_http_1415
   - US_United States_http_1416
-  - US_United States_http_1418
-  - US_United States_vless_1419
-  - US_United States_http_1420
-  - US_United States_vless_1421
+  - US_United States_anytls_1418
+  - US_United States_http_1419
+  - US_United States_http_1421
   - US_United States_http_1422
-  - US_United States_vless_1423
-  - US_United States_vless_1424
-  - US_United States_vless_1425
-  - US_United States_mieru_1426
-  - US_United States_vless_1428
-  - US_United States_http_1429
+  - US_United States_http_1423
+  - US_United States_http_1428
   - US_United States_http_1430
-  - US_United States_http_1431
-  - US_United States_vless_1432
-  - US_United States_vless_1433
+  - US_United States_http_1432
+  - US_United States_mieru_1433
   - US_United States_http_1435
   - US_United States_http_1437
-  - US_United States_vless_1438
   - US_United States_http_1439
-  - US_United States_http_1440
   - US_United States_http_1441
-  - US_United States_vless_1442
-  - US_United States_http_1443
-  - US_United States_http_1444
+  - US_United States_http_1442
   - US_United States_http_1445
-  - US_United States_http_1447
-  - US_United States_vless_1448
+  - US_United States_http_1448
   - US_United States_http_1449
-  - US_United States_http_1450
   - US_United States_http_1451
-  - US_United States_vless_1452
-  - US_United States_vless_1453
-  - US_United States_http_1454
+  - US_United States_http_1452
   - US_United States_http_1455
+  - US_United States_http_1456
   - US_United States_http_1457
-  - US_United States_http_1458
   - US_United States_http_1459
-  - US_United States_http_1460
-  - US_United States_http_1461
   - US_United States_http_1462
-  - US_United States_http_1463
   - US_United States_http_1466
   - US_United States_http_1467
-  - US_United States_http_1469
-  - US_United States_http_1470
   - US_United States_http_1471
-  - US_United States_http_1472
-  - US_United States_http_1473
-  - US_United States_http_1475
-  - US_United States_vless_1476
-  - US_United States_http_1477
-  - US_United States_http_1478
-  - US_United States_http_1479
+  - US_United States_http_1474
+  - US_United States_http_1480
   - US_United States_http_1481
-  - US_United States_http_1482
-  - US_United States_http_1484
-  - US_United States_http_1487
-  - US_United States_http_1489
-  - US_United States_http_1490
-  - US_United States_http_1491
-  - US_United States_http_1492
-  - US_United States_http_1493
-  - US_United States_http_1494
-  - US_United States_http_1496
-  - US_United States_http_1497
-  - US_United States_http_1498
-  - US_United States_http_14101
+  - US_United States_vmess_1485
+  - US_United States_http_14100
   - US_United States_http_14103
   - US_United States_http_14104
-  - US_United States_http_14105
-  - US_United States_http_14106
-  - US_United States_http_14108
-  - US_United States_http_14109
-  - US_United States_http_14110
-  - US_United States_http_14113
-  - US_United States_http_14117
-  - US_United States_http_14120
-  - US_United States_vless_14121
+  - US_United States_http_14107
+  - US_United States_http_14111
+  - US_United States_http_14123
+  - US_United States_http_14124
   - US_United States_http_14128
-  - US_United States_http_14134
-  - US_United States_http_14139
+  - US_United States_http_14130
+  - US_United States_http_14135
+  - US_United States_http_14137
   - US_United States_http_14140
   - US_United States_http_14146
+  - US_United States_http_14147
+  - US_United States_http_14148
+  - US_United States_http_14149
+  - US_United States_http_14150
+  - US_United States_http_14151
   - US_United States_http_14152
+  - US_United States_http_14153
+  - US_United States_http_14154
+  - US_United States_http_14155
   - US_United States_http_14156
-  - US_United States_http_14161
+  - US_United States_http_14157
+  - US_United States_http_14158
+  - US_United States_http_14159
+  - US_United States_http_14160
+  - US_United States_http_14162
+  - US_United States_http_14163
+  - US_United States_http_14165
   - US_United States_http_14166
-  - US_United States_http_14171
-  - US_United States_http_14173
+  - US_United States_http_14168
+  - US_United States_http_14169
+  - US_United States_http_14170
   - US_United States_http_14174
   - US_United States_http_14175
-  - US_United States_http_14180
-  - US_United States_http_14181
+  - US_United States_http_14177
+  - US_United States_http_14178
+  - US_United States_ss_14181
+  - US_United States_http_14182
+  - US_United States_http_14184
+  - US_United States_http_14185
+  - US_United States_vmess_14186
+  - US_United States_http_14187
+  - US_United States_http_14188
+  - US_United States_http_14189
+  - US_United States_http_14190
+  - US_United States_http_14191
+  - US_United States_http_14192
   - US_United States_http_14193
+  - US_United States_http_14196
+  - US_United States_http_14197
+  - US_United States_http_14198
   - US_United States_http_14200
-  - US_United States_http_14201
+  - US_United States_vless_14201
   - US_United States_http_14202
+  - US_United States_http_14203
+  - US_United States_http_14204
+  - US_United States_http_14205
   - US_United States_http_14207
+  - US_United States_hysteria2_14208
   - US_United States_http_14209
+  - US_United States_http_14210
+  - US_United States_http_14211
+  - US_United States_http_14212
+  - US_United States_http_14213
   - US_United States_http_14214
   - US_United States_http_14215
-  - US_United States_vless_14216
-  - US_United States_vless_14217
-  - US_United States_vless_14220
+  - US_United States_http_14216
+  - US_United States_http_14217
+  - US_United States_http_14218
+  - US_United States_http_14219
+  - US_United States_http_14220
   - US_United States_http_14221
-  - US_United States_http_14222
-  - US_United States_vmess_14225
-  - US_United States_http_14226
-  - US_United States_http_14227
-  - US_United States_http_14228
-  - US_United States_http_14230
-  - US_United States_trojan_14231
-  - US_United States_http_14232
-  - US_United States_http_14233
-  - US_United States_http_14234
-  - US_United States_http_14235
-  - US_United States_http_14236
-  - US_United States_http_14238
-  - US_United States_http_14239
-  - US_United States_http_14240
-  - US_United States_http_14242
-  - US_United States_http_14243
-  - US_United States_http_14246
-  - US_United States_http_14247
-  - US_United States_http_14250
-  - US_United States_ss_14251
-  - US_United States_http_14253
-  - US_United States_http_14254
-  - US_United States_vless_14255
+  - US_United States_http_14224
+  - US_United States_http_14225
+  - US_United States_vless_14226
   - US_United States_trojan_1632
 - name: 自动选择
   type: url-test
@@ -4040,10 +3776,12 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_018
   - US_United States_vmess_11
-  - US_United States_trojan_117
-  - US_United States_trojan_118
-  - US_United States_trojan_119
-  - US_United States_ss_120
+  - US_United States_trojan_125
+  - US_United States_trojan_126
+  - US_United States_trojan_128
+  - US_United States_trojan_134
+  - US_United States_trojan_137
+  - US_United States_ss_140
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -4210,149 +3948,129 @@ proxy-groups:
   - US_United States_trojan_12534
   - US_United States_trojan_12535
   - US_United States_trojan_12538
-  - US_United States_http_142
-  - US_United States_http_143
-  - US_United States_http_145
-  - US_United States_http_146
-  - US_United States_anytls_147
-  - US_United States_http_148
+  - US_United States_vless_141
+  - US_United States_vless_142
+  - US_United States_vless_143
+  - US_United States_vless_144
+  - US_United States_vless_145
+  - US_United States_vless_146
+  - US_United States_hysteria2_147
+  - US_United States_vless_148
   - US_United States_http_149
-  - US_United States_http_1410
-  - US_United States_vless_1411
-  - US_United States_vless_1412
+  - US_United States_http_1411
+  - US_United States_anytls_1412
   - US_United States_http_1413
-  - US_United States_anytls_1414
+  - US_United States_vmess_1414
   - US_United States_http_1415
   - US_United States_http_1416
-  - US_United States_http_1418
-  - US_United States_vless_1419
-  - US_United States_http_1420
-  - US_United States_vless_1421
+  - US_United States_anytls_1418
+  - US_United States_http_1419
+  - US_United States_http_1421
   - US_United States_http_1422
-  - US_United States_vless_1423
-  - US_United States_vless_1424
-  - US_United States_vless_1425
-  - US_United States_mieru_1426
-  - US_United States_vless_1428
-  - US_United States_http_1429
+  - US_United States_http_1423
+  - US_United States_http_1428
   - US_United States_http_1430
-  - US_United States_http_1431
-  - US_United States_vless_1432
-  - US_United States_vless_1433
+  - US_United States_http_1432
+  - US_United States_mieru_1433
   - US_United States_http_1435
   - US_United States_http_1437
-  - US_United States_vless_1438
   - US_United States_http_1439
-  - US_United States_http_1440
   - US_United States_http_1441
-  - US_United States_vless_1442
-  - US_United States_http_1443
-  - US_United States_http_1444
+  - US_United States_http_1442
   - US_United States_http_1445
-  - US_United States_http_1447
-  - US_United States_vless_1448
+  - US_United States_http_1448
   - US_United States_http_1449
-  - US_United States_http_1450
   - US_United States_http_1451
-  - US_United States_vless_1452
-  - US_United States_vless_1453
-  - US_United States_http_1454
+  - US_United States_http_1452
   - US_United States_http_1455
+  - US_United States_http_1456
   - US_United States_http_1457
-  - US_United States_http_1458
   - US_United States_http_1459
-  - US_United States_http_1460
-  - US_United States_http_1461
   - US_United States_http_1462
-  - US_United States_http_1463
   - US_United States_http_1466
   - US_United States_http_1467
-  - US_United States_http_1469
-  - US_United States_http_1470
   - US_United States_http_1471
-  - US_United States_http_1472
-  - US_United States_http_1473
-  - US_United States_http_1475
-  - US_United States_vless_1476
-  - US_United States_http_1477
-  - US_United States_http_1478
-  - US_United States_http_1479
+  - US_United States_http_1474
+  - US_United States_http_1480
   - US_United States_http_1481
-  - US_United States_http_1482
-  - US_United States_http_1484
-  - US_United States_http_1487
-  - US_United States_http_1489
-  - US_United States_http_1490
-  - US_United States_http_1491
-  - US_United States_http_1492
-  - US_United States_http_1493
-  - US_United States_http_1494
-  - US_United States_http_1496
-  - US_United States_http_1497
-  - US_United States_http_1498
-  - US_United States_http_14101
+  - US_United States_vmess_1485
+  - US_United States_http_14100
   - US_United States_http_14103
   - US_United States_http_14104
-  - US_United States_http_14105
-  - US_United States_http_14106
-  - US_United States_http_14108
-  - US_United States_http_14109
-  - US_United States_http_14110
-  - US_United States_http_14113
-  - US_United States_http_14117
-  - US_United States_http_14120
-  - US_United States_vless_14121
+  - US_United States_http_14107
+  - US_United States_http_14111
+  - US_United States_http_14123
+  - US_United States_http_14124
   - US_United States_http_14128
-  - US_United States_http_14134
-  - US_United States_http_14139
+  - US_United States_http_14130
+  - US_United States_http_14135
+  - US_United States_http_14137
   - US_United States_http_14140
   - US_United States_http_14146
+  - US_United States_http_14147
+  - US_United States_http_14148
+  - US_United States_http_14149
+  - US_United States_http_14150
+  - US_United States_http_14151
   - US_United States_http_14152
+  - US_United States_http_14153
+  - US_United States_http_14154
+  - US_United States_http_14155
   - US_United States_http_14156
-  - US_United States_http_14161
+  - US_United States_http_14157
+  - US_United States_http_14158
+  - US_United States_http_14159
+  - US_United States_http_14160
+  - US_United States_http_14162
+  - US_United States_http_14163
+  - US_United States_http_14165
   - US_United States_http_14166
-  - US_United States_http_14171
-  - US_United States_http_14173
+  - US_United States_http_14168
+  - US_United States_http_14169
+  - US_United States_http_14170
   - US_United States_http_14174
   - US_United States_http_14175
-  - US_United States_http_14180
-  - US_United States_http_14181
+  - US_United States_http_14177
+  - US_United States_http_14178
+  - US_United States_ss_14181
+  - US_United States_http_14182
+  - US_United States_http_14184
+  - US_United States_http_14185
+  - US_United States_vmess_14186
+  - US_United States_http_14187
+  - US_United States_http_14188
+  - US_United States_http_14189
+  - US_United States_http_14190
+  - US_United States_http_14191
+  - US_United States_http_14192
   - US_United States_http_14193
+  - US_United States_http_14196
+  - US_United States_http_14197
+  - US_United States_http_14198
   - US_United States_http_14200
-  - US_United States_http_14201
+  - US_United States_vless_14201
   - US_United States_http_14202
+  - US_United States_http_14203
+  - US_United States_http_14204
+  - US_United States_http_14205
   - US_United States_http_14207
+  - US_United States_hysteria2_14208
   - US_United States_http_14209
+  - US_United States_http_14210
+  - US_United States_http_14211
+  - US_United States_http_14212
+  - US_United States_http_14213
   - US_United States_http_14214
   - US_United States_http_14215
-  - US_United States_vless_14216
-  - US_United States_vless_14217
-  - US_United States_vless_14220
+  - US_United States_http_14216
+  - US_United States_http_14217
+  - US_United States_http_14218
+  - US_United States_http_14219
+  - US_United States_http_14220
   - US_United States_http_14221
-  - US_United States_http_14222
-  - US_United States_vmess_14225
-  - US_United States_http_14226
-  - US_United States_http_14227
-  - US_United States_http_14228
-  - US_United States_http_14230
-  - US_United States_trojan_14231
-  - US_United States_http_14232
-  - US_United States_http_14233
-  - US_United States_http_14234
-  - US_United States_http_14235
-  - US_United States_http_14236
-  - US_United States_http_14238
-  - US_United States_http_14239
-  - US_United States_http_14240
-  - US_United States_http_14242
-  - US_United States_http_14243
-  - US_United States_http_14246
-  - US_United States_http_14247
-  - US_United States_http_14250
-  - US_United States_ss_14251
-  - US_United States_http_14253
-  - US_United States_http_14254
-  - US_United States_vless_14255
+  - US_United States_http_14224
+  - US_United States_http_14225
+  - US_United States_vless_14226
   - US_United States_trojan_1632
 rules:
 - DOMAIN,clash.razord.top,DIRECT
