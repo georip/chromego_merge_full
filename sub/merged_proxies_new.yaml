@@ -138,7 +138,7 @@ proxies:
   name: US_United States_ss_126
   password: amazonskr05
   port: '443'
-  server: 3.133.132.79
+  server: 3.136.233.197
   type: ss
   udp: true
 - name: US_United States_vmess_61
@@ -3724,6 +3724,20 @@ proxies:
     path: /15f62abf-8cc9-4598-8d57-e4df7b499a84-vmess
     headers:
       Host: test2.flha.ru
+- name: US_United States_vmess_6732
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  port: 443
+  type: vmess
+  uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /linkvkwss
+    headers:
+      Host: BLaZE-fRA-64.BLaZECLOuD.sitE
 - name: US_United States_vmess_6733
   server: kampong.org
   port: 443
@@ -7985,20 +7999,6 @@ proxies:
     path: /live
     headers:
       Host: cctv.com
-- name: US_United States_vmess_61311
-  server: ddns2.airtcp.vip
-  port: 10001
-  type: vmess
-  uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ddns2.airtcp.vip
 - name: US_United States_vmess_61312
   server: tw.xlkjjs.top
   port: 443
@@ -14927,6 +14927,12 @@ proxies:
   skip-cert-verify: false
 - name: US_United States_ss_62387
   server: 15.237.74.149
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: US_United States_ss_62388
+  server: 3.133.132.79
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -24157,6 +24163,7 @@ proxy-groups:
   - US_United States_vmess_6728
   - US_United States_vmess_6729
   - US_United States_vmess_6730
+  - US_United States_vmess_6732
   - US_United States_vmess_6733
   - US_United States_vmess_6734
   - US_United States_vmess_6737
@@ -24465,7 +24472,6 @@ proxy-groups:
   - US_United States_vmess_61305
   - US_United States_vmess_61307
   - US_United States_vmess_61308
-  - US_United States_vmess_61311
   - US_United States_vmess_61312
   - US_United States_vmess_61314
   - US_United States_vmess_61315
@@ -25018,6 +25024,7 @@ proxy-groups:
   - US_United States_ss_62374
   - US_United States_trojan_62386
   - US_United States_ss_62387
+  - US_United States_ss_62388
   - US_United States_ss_62390
   - US_United States_ss_62391
   - US_United States_ss_62392
@@ -26232,6 +26239,7 @@ proxy-groups:
   - US_United States_vmess_6728
   - US_United States_vmess_6729
   - US_United States_vmess_6730
+  - US_United States_vmess_6732
   - US_United States_vmess_6733
   - US_United States_vmess_6734
   - US_United States_vmess_6737
@@ -26540,7 +26548,6 @@ proxy-groups:
   - US_United States_vmess_61305
   - US_United States_vmess_61307
   - US_United States_vmess_61308
-  - US_United States_vmess_61311
   - US_United States_vmess_61312
   - US_United States_vmess_61314
   - US_United States_vmess_61315
@@ -27093,6 +27100,7 @@ proxy-groups:
   - US_United States_ss_62374
   - US_United States_trojan_62386
   - US_United States_ss_62387
+  - US_United States_ss_62388
   - US_United States_ss_62390
   - US_United States_ss_62391
   - US_United States_ss_62392
