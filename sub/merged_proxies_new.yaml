@@ -145,48 +145,9 @@ proxies:
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888880
-- cipher: aes-256-cfb
-  name: US_United States_ss_132
-  password: amazonskr05
-  port: 443
-  server: 3.17.162.229
-  type: ss
-  udp: true
 - alpn:
   - http/1.1
-  name: US_United States_trojan_133
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.31.16.65
-  skip-cert-verify: false
-  sni: U-S-A.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Us
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_137
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.25.193.8
-  skip-cert-verify: false
-  sni: G-Dee.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_138
+  name: US_United States_trojan_134
   network: ws
   password: MiTiVPN
   port: '443'
@@ -198,38 +159,24 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- cipher: aes-256-cfb
-  name: US_United States_ss_139
-  password: amazonskr05
-  port: 443
-  server: 15.236.37.125
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_140
-  password: amazonskr05
-  port: 443
-  server: 13.59.27.93
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_141
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_135
+  network: ws
+  password: MITIVPN
   port: '443'
-  server: 18.188.176.234
-  type: ss
+  server: 104.25.193.8
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_143
-  password: amazonskr05
-  port: '443'
-  server: 18.118.140.96
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
 - name: US_United States_ss_61
   server: 172.99.188.71
   port: 8080
@@ -1073,8 +1020,20 @@ proxies:
   network: ws
   ws-opts:
     path: /sshkit/fdfadsfa/63848bfe228fd/
+- name: US_United States_ss_6335
+  server: 15.236.37.125
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: US_United States_ss_6338
   server: 3.142.135.161
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: US_United States_ss_6339
+  server: 13.59.27.93
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -3775,6 +3734,20 @@ proxies:
     path: /15f62abf-8cc9-4598-8d57-e4df7b499a84-vmess
     headers:
       Host: test2.flha.ru
+- name: US_United States_vmess_6752
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  port: 443
+  type: vmess
+  uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /linkvkwss
+    headers:
+      Host: BLaZE-fRA-64.BLaZECLOuD.sitE
 - name: US_United States_vmess_6753
   server: kampong.org
   port: 443
@@ -8050,6 +8023,20 @@ proxies:
     path: /live
     headers:
       Host: cctv.com
+- name: US_United States_vmess_61331
+  server: ddns2.airtcp.vip
+  port: 10001
+  type: vmess
+  uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ddns2.airtcp.vip
 - name: US_United States_vmess_61332
   server: tw.xlkjjs.top
   port: 443
@@ -15075,6 +15062,12 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: US_United States_ss_62384
+  server: 18.188.176.234
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: US_United States_ss_62385
   server: 3.147.85.161
   port: 443
@@ -16588,6 +16581,12 @@ proxies:
   type: trojan
   password: WF42809561
   skip-cert-verify: false
+- name: US_United States_ss_63124
+  server: 3.17.162.229
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: US_United States_trojan_63126
   server: closing-crow.rooster465.autos
   port: 443
@@ -17240,20 +17239,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: US_United States_vmess_64333
-  server: gtm1.ktmwan.net
-  port: 12883
-  type: vmess
-  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gtm1.ktmwan.net
 - name: US_United States_vmess_64334
   server: 45.136.12.37
   port: 20521
@@ -22077,6 +22062,18 @@ proxies:
   network: ws
   ws-opts:
     path: /path/243535322906
+- name: US_United States_vmess_65199
+  server: 104.31.16.65
+  port: 443
+  type: vmess
+  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /12796?ed=2048
 - name: US_United States_vmess_65206
   server: 104.31.16.58
   port: 443
@@ -23319,52 +23316,41 @@ proxies:
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   tls: true
   udp: true
-- name: US_United States_hysteria2_143
+- name: US_United States_http_141
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: US_United States_hysteria2_142
   obfs: salamander
-  obfs-password: c28f1dc0f00859f0afec5bc79dc0a251
+  obfs-password: 64b814b6908fac1bce4e4f7c2a8c026e
   password: Gda238Qr5GeEgGAM
   port: 443
-  server: us1-10uu54xz.skynode.me
+  server: us1-irdpes1i.skynode.me
   skip-cert-verify: true
-  sni: us1-10uu54xz.skynode.me
+  sni: us1-irdpes1i.skynode.me
   type: hysteria2
   udp: true
-- name: US_United States_http_144
+- name: US_United States_http_143
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: US_United States_vmess_145
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - name: US_United States_http_146
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
   port: 443
-  server: 4d32fdfa-t9zts0-tb08pe-luwe.sj.oshuawei.com
-  sni: 4d32fdfa-t9zts0-tb08pe-luwe.sj.oshuawei.com
+  server: 612f3153-t9zts0-tnt75r-1k8ga.jp.oshuawei.com
+  sni: 612f3153-t9zts0-tnt75r-1k8ga.jp.oshuawei.com
   tls: true
   type: http
-  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-- name: US_United States_http_147
-  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  port: 443
-  server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
-  sni: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-- name: US_United States_http_1410
+  username: f860f2da-5035-11ed-bb74-f23c9164ca5d
+- name: US_United States_http_148
   password: 520b9126-9870-11ef-81b0-f23c9164ca5d
   port: 443
   server: a73e118e-t9zts0-tipjoa-1slop.sj.oshuawei.com
@@ -23373,142 +23359,34 @@ proxies:
   type: http
   username: 520b9126-9870-11ef-81b0-f23c9164ca5d
 - multiplexing: MULTIPLEXING_LOW
-  name: US_United States_mieru_1412
+  name: US_United States_mieru_149
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: US_United States_http_1417
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: US_United States_http_1413
+  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
   port: 443
-  server: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
-  sni: 5689e2c4-t9zts0-tb592v-4lg6.se.oshuawei.com
+  server: 6a9a5485-t9zts0-thzbn1-1gxvd.sj.oshuawei.com
+  sni: 6a9a5485-t9zts0-thzbn1-1gxvd.sj.oshuawei.com
   tls: true
   type: http
-  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-- name: US_United States_hysteria2_1418
+  username: 398e0d38-8649-11ef-959c-f23c9164ca5d
+- name: US_United States_hysteria2_1419
   obfs: salamander
-  obfs-password: 0cb88c27d2d72a4fcb3fbe429cbdbdba
+  obfs-password: ce9d53f1e6d16f0e1fa980f9f67d45d6
   password: Gda238Qr5GeEgGAM
   port: 443
-  server: sg4-tnv2d7lw.skynode.me
+  server: us3-34vuslks.skynode.me
   skip-cert-verify: true
-  sni: sg4-tnv2d7lw.skynode.me
+  sni: us3-34vuslks.skynode.me
   type: hysteria2
   udp: true
-- name: US_United States_http_1419
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
-  sni: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: US_United States_http_1421
-  password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  port: 443
-  server: 3bcad594-tekn40-tnnrly-g43g.sj.hyhuawei.com
-  sni: 3bcad594-tekn40-tnnrly-g43g.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-- name: US_United States_http_1423
-  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
-  sni: 2d3fc8ae-t9zts0-tdh9w7-ahsb.se.oshuawei.com
-  tls: true
-  type: http
-  username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-- name: US_United States_http_1438
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  port: 443
-  server: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
-  sni: 81292d8a-t9zts0-tm23vf-1jk6u.se.oshuawei.com
-  tls: true
-  type: http
-  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- name: US_United States_http_1440
-  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: ba99435c-ta1og0-tbnk1n-ueq.sj.oshuawei.com
-  sni: ba99435c-ta1og0-tbnk1n-ueq.sj.oshuawei.com
-  tls: true
-  type: http
-  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-- name: US_United States_hysteria2_1446
-  obfs: salamander
-  obfs-password: 0db78f1fac807bb9fb0a36f353a7c11f
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: au2-mtjt5a3o.skynode.me
-  skip-cert-verify: true
-  sni: au2-mtjt5a3o.skynode.me
-  type: hysteria2
-  udp: true
-- name: US_United States_hysteria2_1469
-  obfs: salamander
-  obfs-password: 30372931eb8a9cc7bfd690f0b179a045
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: nld-ikjbeqbv.skynode.me
-  skip-cert-verify: true
-  sni: nld-ikjbeqbv.skynode.me
-  type: hysteria2
-  udp: true
-- name: US_United States_hysteria2_1493
-  obfs: salamander
-  obfs-password: b4323ada9e616f76404229318ac1a768
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: gb1-ry605wvc.skynode.me
-  skip-cert-verify: true
-  sni: gb1-ry605wvc.skynode.me
-  type: hysteria2
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_1498
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 20090
-  server: 172.96.161.152
-  type: ss
-  udp: true
-- name: US_United States_http_14100
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
-  sni: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
-  tls: true
-  type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-- name: US_United States_http_14102
-  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  port: 443
-  server: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
-  sni: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
-  tls: true
-  type: http
-  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: US_United States_http_14103
-  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  port: 8443
-  server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
-  sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
 - down: ''
   fingerprint: ''
-  name: US_United States_hysteria2_14107
+  name: US_United States_hysteria2_1422
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
   password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
@@ -23518,40 +23396,47 @@ proxies:
   sni: vn2.yuntong.click
   type: hysteria2
   up: ''
-- name: US_United States_http_14108
-  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  port: 8443
-  server: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-- name: US_United States_http_14111
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 8443
-  server: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
-  sni: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-- name: US_United States_hysteria2_14115
-  obfs: salamander
-  obfs-password: e232b5481ad40ae67d20c4d953a346a8
-  password: Gda238Qr5GeEgGAM
+- name: US_United States_http_1423
+  password: c357a728-1211-11f0-9a65-f23c9164ca5d
   port: 443
-  server: hk4-72ug0p26.skynode.me
-  skip-cert-verify: true
-  sni: hk4-72ug0p26.skynode.me
-  type: hysteria2
-  udp: true
-- name: US_United States_http_14118
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 8443
-  server: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
-  sni: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
+  server: f7f65757-t9zts0-td5oia-1m49t.sjc.oshuawei.com
+  sni: f7f65757-t9zts0-td5oia-1m49t.sjc.oshuawei.com
   tls: true
   type: http
-  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-- name: US_United States_http_14121
+  username: c357a728-1211-11f0-9a65-f23c9164ca5d
+- name: US_United States_http_1426
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
+  sni: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
+- name: US_United States_http_1447
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: dde2e8be-teisg0-tiuovf-v3c2.sj.hyhuawei.com
+  sni: dde2e8be-teisg0-tiuovf-v3c2.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- name: US_United States_http_1453
+  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  port: 443
+  server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
+  sni: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
+  tls: true
+  type: http
+  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+- name: US_United States_http_1475
+  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  port: 8443
+  server: d3caec03-tegxs0-tifnix-1ro8s.isp.cdnkuaishou.com
+  sni: d3caec03-tegxs0-tifnix-1ro8s.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+- name: US_United States_http_1480
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 8443
   server: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
@@ -23559,7 +23444,54 @@ proxies:
   tls: true
   type: http
   username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-- name: US_United States_http_14123
+- name: US_United States_http_1490
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 8443
+  server: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
+  sni: 4806b6f0-tegxs0-tiqsce-t6fv.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_1495
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.110
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
+- name: US_United States_http_1496
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: 027e96d4-t9zts0-trhks8-1c9em.sj.oshuawei.com
+  sni: 027e96d4-t9zts0-trhks8-1c9em.sj.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- name: US_United States_http_1498
+  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  port: 8443
+  server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+- name: US_United States_http_14110
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  port: 8443
+  server: a635abff-tekn40-tflsjv-zn8y.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+- name: US_United States_http_14111
   password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 8443
   server: c2bdfebd-tegxs0-tsdg75-tlhh.isp.cdnkuaishou.com
@@ -23567,86 +23499,93 @@ proxies:
   tls: true
   type: http
   username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14125
-  network: ws
-  port: 443
-  server: 104.16.75.224
-  servername: server-ir-3.ariyuz.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
-  ws-opts:
-    headers:
-      Host: server-ir-3.ariyuz.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /page=2
-  xudp: true
-- name: US_United States_http_14127
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: US_United States_http_14112
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 8443
-  server: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
-  sni: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+  server: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
+  sni: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
   tls: true
   type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- name: US_United States_http_14128
-  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- name: US_United States_http_14113
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
   port: 443
-  server: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
-  sni: bf208861-t9zts0-tqruo0-1pqhp.se.oshuawei.com
+  server: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
+  sni: 81578c1d-tegxs0-tug19l-1go3q.se.oshuawei.com
   tls: true
   type: http
-  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
-- name: US_United States_http_14129
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 443
-  server: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
-  sni: 8cbdd631-t9zts0-ta6lxc-jjv2.se.oshuawei.com
-  tls: true
-  type: http
-  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_trojan_14131
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.6
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /assignment
-- name: US_United States_hysteria2_14132
+  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: US_United States_hysteria2_14114
   obfs: salamander
-  obfs-password: 871a028c7cd2b040f9cf545ca8674dc5
+  obfs-password: e04c0aaa93cba32ae895d9ae41ceeb13
   password: Gda238Qr5GeEgGAM
   port: 443
-  server: hk3-tn7c6mx5.skynode.me
+  server: ind1-dsqb4gfq.skynode.me
   skip-cert-verify: true
-  sni: hk3-tn7c6mx5.skynode.me
+  sni: ind1-dsqb4gfq.skynode.me
   type: hysteria2
   udp: true
-- name: US_United States_http_14135
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
-  port: 8443
-  server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
-  sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+- name: US_United States_hysteria2_14116
+  obfs: salamander
+  obfs-password: 03c0afa80a8475a38ec70cb858545862
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: au1-bpux3esb.skynode.me
+  skip-cert-verify: true
+  sni: au1-bpux3esb.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_http_14120
+  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  port: 443
+  server: 52917d75-t9zts0-tvb36r-1qwom.sj.oshuawei.com
+  sni: 52917d75-t9zts0-tvb36r-1qwom.sj.oshuawei.com
   tls: true
   type: http
-  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+  username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+- name: US_United States_hysteria2_14121
+  obfs: salamander
+  obfs-password: 6b9fb10857b6d200aafde2fe28ba4350
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: jp1-zxqfxcp7.skynode.me
+  skip-cert-verify: true
+  sni: jp1-zxqfxcp7.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_http_14123
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  port: 443
+  server: f6990909-ta1og0-tb74a6-1q9g2.sg.oshuawei.com
+  sni: f6990909-ta1og0-tb74a6-1q9g2.sg.oshuawei.com
+  tls: true
+  type: http
+  username: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14125
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 104.128.72.119
+  type: ss
+  udp: true
+- name: US_United States_http_14131
+  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  port: 443
+  server: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
+  sni: b3adcad6-t9zts0-tkka1f-1k25p.se.oshuawei.com
+  tls: true
+  type: http
+  username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
 - down: ''
   fingerprint: ''
-  name: US_United States_hysteria2_14139
+  name: US_United States_hysteria2_14132
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
   password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
@@ -23656,30 +23595,33 @@ proxies:
   sni: ff2.yuntong.click
   type: hysteria2
   up: ''
-- name: US_United States_ss_162
-  server: 15.237.74.149
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: US_United States_vmess_14133
+  network: tcp
   port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-  delay: 486
-- name: US_United States_trojan_1619
-  server: 18.162.53.72
-  port: 34638
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- name: US_United States_socks5_161
+  server: 74.162.65.56
+  port: 1080
+  type: socks5
   skip-cert-verify: true
   udp: true
-  delay: 966
-- name: US_United States_ss_1622
-  server: ss.042.node-for-bigairport.win
+  delay: 742
+- name: US_United States_ss_162
+  server: 0706-def.kovira2.ir
   type: ss
-  port: 19000
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  country: 🇫🇷FR
+  port: 1010
+  password: mdp65g6lfwphz2w6
   cipher: chacha20-ietf-poly1305
-  delay: 274
+  delay: 2838
 proxy-groups:
 - name: 节点选择
   type: select
@@ -23701,14 +23643,8 @@ proxy-groups:
   - US_United States_trojan_021
   - US_United States_trojan_025
   - US_United States_vmess_11
-  - US_United States_ss_132
-  - US_United States_trojan_133
-  - US_United States_trojan_137
-  - US_United States_trojan_138
-  - US_United States_ss_139
-  - US_United States_ss_140
-  - US_United States_ss_141
-  - US_United States_ss_143
+  - US_United States_trojan_134
+  - US_United States_trojan_135
   - US_United States_ss_61
   - US_United States_vmess_62
   - US_United States_vmess_616
@@ -23801,7 +23737,9 @@ proxy-groups:
   - US_United States_vmess_6287
   - US_United States_vmess_6288
   - US_United States_vmess_6289
+  - US_United States_ss_6335
   - US_United States_ss_6338
+  - US_United States_ss_6339
   - US_United States_ss_6341
   - US_United States_vmess_6343
   - US_United States_ss_6344
@@ -24035,6 +23973,7 @@ proxy-groups:
   - US_United States_vmess_6748
   - US_United States_vmess_6749
   - US_United States_vmess_6750
+  - US_United States_vmess_6752
   - US_United States_vmess_6753
   - US_United States_vmess_6754
   - US_United States_vmess_6757
@@ -24344,6 +24283,7 @@ proxy-groups:
   - US_United States_vmess_61325
   - US_United States_vmess_61327
   - US_United States_vmess_61328
+  - US_United States_vmess_61331
   - US_United States_vmess_61332
   - US_United States_vmess_61334
   - US_United States_vmess_61335
@@ -24900,6 +24840,7 @@ proxy-groups:
   - US_United States_trojan_62372
   - US_United States_ss_62373
   - US_United States_ss_62375
+  - US_United States_ss_62384
   - US_United States_ss_62385
   - US_United States_ss_62386
   - US_United States_ss_62387
@@ -25080,6 +25021,7 @@ proxy-groups:
   - US_United States_trojan_63119
   - US_United States_trojan_63120
   - US_United States_trojan_63123
+  - US_United States_ss_63124
   - US_United States_trojan_63126
   - US_United States_trojan_63127
   - US_United States_trojan_63128
@@ -25171,7 +25113,6 @@ proxy-groups:
   - US_United States_vmess_64288
   - US_United States_trojan_64290
   - US_United States_vmess_64331
-  - US_United States_vmess_64333
   - US_United States_vmess_64334
   - US_United States_vmess_64336
   - US_United States_vmess_64337
@@ -25601,6 +25542,7 @@ proxy-groups:
   - US_United States_trojan_65195
   - US_United States_vmess_65196
   - US_United States_vmess_65197
+  - US_United States_vmess_65199
   - US_United States_vmess_65206
   - US_United States_vmess_65211
   - US_United States_vmess_65212
@@ -25706,45 +25648,40 @@ proxy-groups:
   - US_United States_http_758
   - US_United States_http_759
   - US_United States_http_760
-  - US_United States_hysteria2_143
-  - US_United States_http_144
-  - US_United States_vmess_145
+  - US_United States_http_141
+  - US_United States_hysteria2_142
+  - US_United States_http_143
   - US_United States_http_146
-  - US_United States_http_147
-  - US_United States_http_1410
-  - US_United States_mieru_1412
-  - US_United States_http_1417
-  - US_United States_hysteria2_1418
-  - US_United States_http_1419
-  - US_United States_http_1421
+  - US_United States_http_148
+  - US_United States_mieru_149
+  - US_United States_http_1413
+  - US_United States_hysteria2_1419
+  - US_United States_hysteria2_1422
   - US_United States_http_1423
-  - US_United States_http_1438
-  - US_United States_http_1440
-  - US_United States_hysteria2_1446
-  - US_United States_hysteria2_1469
-  - US_United States_hysteria2_1493
-  - US_United States_ss_1498
-  - US_United States_http_14100
-  - US_United States_http_14102
-  - US_United States_http_14103
-  - US_United States_hysteria2_14107
-  - US_United States_http_14108
+  - US_United States_http_1426
+  - US_United States_http_1447
+  - US_United States_http_1453
+  - US_United States_http_1475
+  - US_United States_http_1480
+  - US_United States_http_1490
+  - US_United States_vless_1495
+  - US_United States_http_1496
+  - US_United States_http_1498
+  - US_United States_http_14110
   - US_United States_http_14111
-  - US_United States_hysteria2_14115
-  - US_United States_http_14118
-  - US_United States_http_14121
+  - US_United States_http_14112
+  - US_United States_http_14113
+  - US_United States_hysteria2_14114
+  - US_United States_hysteria2_14116
+  - US_United States_http_14120
+  - US_United States_hysteria2_14121
   - US_United States_http_14123
-  - US_United States_vless_14125
-  - US_United States_http_14127
-  - US_United States_http_14128
-  - US_United States_http_14129
-  - US_United States_trojan_14131
+  - US_United States_ss_14125
+  - US_United States_http_14131
   - US_United States_hysteria2_14132
-  - US_United States_http_14135
-  - US_United States_hysteria2_14139
+  - US_United States_vmess_14133
+  - US_United States_socks5_161
   - US_United States_ss_162
-  - US_United States_trojan_1619
-  - US_United States_ss_1622
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -25766,14 +25703,8 @@ proxy-groups:
   - US_United States_trojan_021
   - US_United States_trojan_025
   - US_United States_vmess_11
-  - US_United States_ss_132
-  - US_United States_trojan_133
-  - US_United States_trojan_137
-  - US_United States_trojan_138
-  - US_United States_ss_139
-  - US_United States_ss_140
-  - US_United States_ss_141
-  - US_United States_ss_143
+  - US_United States_trojan_134
+  - US_United States_trojan_135
   - US_United States_ss_61
   - US_United States_vmess_62
   - US_United States_vmess_616
@@ -25866,7 +25797,9 @@ proxy-groups:
   - US_United States_vmess_6287
   - US_United States_vmess_6288
   - US_United States_vmess_6289
+  - US_United States_ss_6335
   - US_United States_ss_6338
+  - US_United States_ss_6339
   - US_United States_ss_6341
   - US_United States_vmess_6343
   - US_United States_ss_6344
@@ -26100,6 +26033,7 @@ proxy-groups:
   - US_United States_vmess_6748
   - US_United States_vmess_6749
   - US_United States_vmess_6750
+  - US_United States_vmess_6752
   - US_United States_vmess_6753
   - US_United States_vmess_6754
   - US_United States_vmess_6757
@@ -26409,6 +26343,7 @@ proxy-groups:
   - US_United States_vmess_61325
   - US_United States_vmess_61327
   - US_United States_vmess_61328
+  - US_United States_vmess_61331
   - US_United States_vmess_61332
   - US_United States_vmess_61334
   - US_United States_vmess_61335
@@ -26965,6 +26900,7 @@ proxy-groups:
   - US_United States_trojan_62372
   - US_United States_ss_62373
   - US_United States_ss_62375
+  - US_United States_ss_62384
   - US_United States_ss_62385
   - US_United States_ss_62386
   - US_United States_ss_62387
@@ -27145,6 +27081,7 @@ proxy-groups:
   - US_United States_trojan_63119
   - US_United States_trojan_63120
   - US_United States_trojan_63123
+  - US_United States_ss_63124
   - US_United States_trojan_63126
   - US_United States_trojan_63127
   - US_United States_trojan_63128
@@ -27236,7 +27173,6 @@ proxy-groups:
   - US_United States_vmess_64288
   - US_United States_trojan_64290
   - US_United States_vmess_64331
-  - US_United States_vmess_64333
   - US_United States_vmess_64334
   - US_United States_vmess_64336
   - US_United States_vmess_64337
@@ -27666,6 +27602,7 @@ proxy-groups:
   - US_United States_trojan_65195
   - US_United States_vmess_65196
   - US_United States_vmess_65197
+  - US_United States_vmess_65199
   - US_United States_vmess_65206
   - US_United States_vmess_65211
   - US_United States_vmess_65212
@@ -27771,45 +27708,40 @@ proxy-groups:
   - US_United States_http_758
   - US_United States_http_759
   - US_United States_http_760
-  - US_United States_hysteria2_143
-  - US_United States_http_144
-  - US_United States_vmess_145
+  - US_United States_http_141
+  - US_United States_hysteria2_142
+  - US_United States_http_143
   - US_United States_http_146
-  - US_United States_http_147
-  - US_United States_http_1410
-  - US_United States_mieru_1412
-  - US_United States_http_1417
-  - US_United States_hysteria2_1418
-  - US_United States_http_1419
-  - US_United States_http_1421
+  - US_United States_http_148
+  - US_United States_mieru_149
+  - US_United States_http_1413
+  - US_United States_hysteria2_1419
+  - US_United States_hysteria2_1422
   - US_United States_http_1423
-  - US_United States_http_1438
-  - US_United States_http_1440
-  - US_United States_hysteria2_1446
-  - US_United States_hysteria2_1469
-  - US_United States_hysteria2_1493
-  - US_United States_ss_1498
-  - US_United States_http_14100
-  - US_United States_http_14102
-  - US_United States_http_14103
-  - US_United States_hysteria2_14107
-  - US_United States_http_14108
+  - US_United States_http_1426
+  - US_United States_http_1447
+  - US_United States_http_1453
+  - US_United States_http_1475
+  - US_United States_http_1480
+  - US_United States_http_1490
+  - US_United States_vless_1495
+  - US_United States_http_1496
+  - US_United States_http_1498
+  - US_United States_http_14110
   - US_United States_http_14111
-  - US_United States_hysteria2_14115
-  - US_United States_http_14118
-  - US_United States_http_14121
+  - US_United States_http_14112
+  - US_United States_http_14113
+  - US_United States_hysteria2_14114
+  - US_United States_hysteria2_14116
+  - US_United States_http_14120
+  - US_United States_hysteria2_14121
   - US_United States_http_14123
-  - US_United States_vless_14125
-  - US_United States_http_14127
-  - US_United States_http_14128
-  - US_United States_http_14129
-  - US_United States_trojan_14131
+  - US_United States_ss_14125
+  - US_United States_http_14131
   - US_United States_hysteria2_14132
-  - US_United States_http_14135
-  - US_United States_hysteria2_14139
+  - US_United States_vmess_14133
+  - US_United States_socks5_161
   - US_United States_ss_162
-  - US_United States_trojan_1619
-  - US_United States_ss_1622
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
