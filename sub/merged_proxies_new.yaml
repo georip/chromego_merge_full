@@ -118,6 +118,52 @@ proxies:
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888880
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_126
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 141.193.213.21
+  skip-cert-verify: true
+  sni: fffffl-lls.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_127
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: www.speedtest.net
+  skip-cert-verify: true
+  sni: De-Ge-N.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=de
+- name: US_United States_trojan_128
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.64.146.211
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
 - name: US_United States_vmess_753
   server: 104.253.134.92
   port: 13932
@@ -446,6 +492,34 @@ proxies:
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /
   xudp: true
+- name: US_United States_trojan_161
+  server: 3.66.180.209
+  type: trojan
+  country: 🇩🇪DE
+  port: 22223
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  udp: true
+  delay: 707
+- name: US_United States_trojan_162
+  server: 13.39.139.191
+  type: trojan
+  country: 🇫🇷FR
+  port: 22223
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  udp: true
+  delay: 730
+- name: US_United States_ss_1626
+  server: ss.046.node-for-bigairport.win
+  type: ss
+  country: 🇵🇱PL
+  port: 19000
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  cipher: chacha20-ietf-poly1305
+  delay: 488
 proxy-groups:
 - name: 节点选择
   type: select
@@ -463,6 +537,9 @@ proxy-groups:
   - US_United States_trojan_014
   - US_United States_trojan_019
   - US_United States_vmess_11
+  - US_United States_trojan_126
+  - US_United States_trojan_127
+  - US_United States_trojan_128
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -495,6 +572,9 @@ proxy-groups:
   - US_United States_vless_14117
   - US_United States_vmess_14120
   - US_United States_vless_14121
+  - US_United States_trojan_161
+  - US_United States_trojan_162
+  - US_United States_ss_1626
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -512,6 +592,9 @@ proxy-groups:
   - US_United States_trojan_014
   - US_United States_trojan_019
   - US_United States_vmess_11
+  - US_United States_trojan_126
+  - US_United States_trojan_127
+  - US_United States_trojan_128
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -544,6 +627,9 @@ proxy-groups:
   - US_United States_vless_14117
   - US_United States_vmess_14120
   - US_United States_vless_14121
+  - US_United States_trojan_161
+  - US_United States_trojan_162
+  - US_United States_ss_1626
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
