@@ -34,66 +34,50 @@ proxies:
 - name: US_United States_trojan_03
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
+  port: 32583
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
-  port: 4374
-  server: 16.162.33.88
+  port: 50115
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.162.119.181
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
+  port: 4099
+  server: 16.162.24.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: US_United States_trojan_07
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
+  port: 3743
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_09
+- name: US_United States_trojan_010
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 6357
+  port: 29642
   server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_011
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 18.166.66.1
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_014
-  network: tcp
-  password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_019
   network: ws
@@ -122,48 +106,34 @@ proxies:
   - http/1.1
   name: US_United States_trojan_126
   network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 141.193.213.21
-  skip-cert-verify: true
-  sni: fffffl-lls.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_127
-  network: ws
   password: MITIVPN
   port: '443'
   server: www.speedtest.net
   skip-cert-verify: true
-  sni: De-Ge-N.MaQror.ir
+  sni: u---as.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=de
-- name: US_United States_trojan_128
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_129
   network: ws
-  password: humanity
+  password: MITIVPN
   port: '443'
-  server: 172.64.146.211
-  skip-cert-verify: true
-  sni: www.gossipglove.com
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: u---as.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
 - name: US_United States_vmess_753
   server: 104.253.134.92
   port: 13932
@@ -532,14 +502,11 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_09
-  - US_United States_trojan_011
-  - US_United States_trojan_014
+  - US_United States_trojan_010
   - US_United States_trojan_019
   - US_United States_vmess_11
   - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_128
+  - US_United States_trojan_129
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
@@ -587,14 +554,11 @@ proxy-groups:
   - US_United States_trojan_05
   - US_United States_trojan_06
   - US_United States_trojan_07
-  - US_United States_trojan_09
-  - US_United States_trojan_011
-  - US_United States_trojan_014
+  - US_United States_trojan_010
   - US_United States_trojan_019
   - US_United States_vmess_11
   - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_128
+  - US_United States_trojan_129
   - US_United States_vmess_753
   - US_United States_vless_754
   - US_United States_vless_755
