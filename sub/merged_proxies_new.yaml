@@ -186,58 +186,53 @@ proxies:
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   tls: true
   udp: true
-- name: US_United States_http_141
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_141
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: US_United States_http_142
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_142
-  network: ws
-  port: 443
-  server: 1.tls.fastly.veraspeed.ir
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: US_United States_mieru_144
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: US_United States_vless_145
-  network: ws
-  port: 443
-  server: 167.82.77.173
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
-  ws-opts:
-    headers:
-      Host: pan21.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-  xudp: true
 - cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_146
+  name: US_United States_ss_1411
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 104.128.72.119
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: US_United States_vmess_1462
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_1477
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
   plugin: gost-plugin
   plugin-opts:
@@ -250,35 +245,16 @@ proxies:
   server: 172.96.161.152
   type: ss
   udp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1439
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
+- multiplexing: MULTIPLEXING_LOW
+  name: US_United States_mieru_1478
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - client-fingerprint: chrome
-  name: US_United States_trojan_1445
-  network: ws
-  password: '521314'
-  port: 443
-  server: 134.209.101.154
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /
-- client-fingerprint: chrome
-  name: US_United States_vless_1475
+  name: US_United States_vless_1486
   network: ws
   port: 443
   server: 69.46.46.41
@@ -294,25 +270,74 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /ws/nebla
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_1488
+- client-fingerprint: chrome
+  name: US_United States_vless_1497
   network: ws
-  port: 8443
-  server: 104.17.77.77
-  skip-cert-verify: false
+  port: 443
+  server: 199.232.249.110
+  servername: ssl.fastly.com
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+      Host: pan1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_14102
+  network: ws
+  port: 443
+  server: 172.64.32.75
+  servername: amooaliii.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  ws-opts:
+    headers:
+      Host: amooaliii.net
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /jdhfyws
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_14104
+  network: ws
+  port: 443
+  server: 167.82.77.173
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
+  ws-opts:
+    headers:
+      Host: pan21.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
   xudp: true
 - down: ''
   fingerprint: ''
-  name: US_United States_hysteria2_14100
+  name: US_United States_hysteria2_14105
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
+  skip-cert-verify: false
+  sni: ff2.yuntong.click
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_14106
   obfs: ''
   obfs-password: ''
   password: e3a5bb40be52de65
@@ -323,76 +348,22 @@ proxies:
   type: hysteria2
   up: ''
 - client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14101
+  name: US_United States_vless_14107
   network: ws
-  port: 443
-  server: 172.64.32.75
-  servername: octopusss.net
+  port: 8443
+  server: 216.23.93.24
+  servername: s5gydl.936.us.ci
   tls: true
   type: vless
   udp: true
-  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
   ws-opts:
     headers:
-      Host: octopusss.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /odiyfws
-  xudp: true
-- name: US_United States_vless_14104
-  network: ws
-  port: 80
-  server: 103.133.1.160
-  type: vless
-  udp: true
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  ws-opts:
-    headers:
-      Host: soft-shadow-1e33.xicav73335.workers.dev
+      Host: s5gydl.936.us.ci
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /ws
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
   xudp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_14105
-  network: ws
-  password: '521314'
-  port: 2096
-  server: 131.186.27.112
-  skip-cert-verify: false
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: US_United States_vmess_14110
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_14113
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: false
-  sni: ff2.yuntong.click
-  type: hysteria2
-  up: ''
 proxy-groups:
 - name: 节点选择
   type: select
@@ -417,21 +388,19 @@ proxy-groups:
   - US_United States_http_958
   - US_United States_http_959
   - US_United States_http_960
-  - US_United States_http_141
-  - US_United States_vless_142
-  - US_United States_mieru_144
-  - US_United States_vless_145
-  - US_United States_ss_146
-  - US_United States_hysteria2_1439
-  - US_United States_trojan_1445
-  - US_United States_vless_1475
-  - US_United States_vmess_1488
-  - US_United States_hysteria2_14100
-  - US_United States_vless_14101
+  - US_United States_hysteria2_141
+  - US_United States_http_142
+  - US_United States_ss_1411
+  - US_United States_vmess_1462
+  - US_United States_ss_1477
+  - US_United States_mieru_1478
+  - US_United States_vless_1486
+  - US_United States_vless_1497
+  - US_United States_vless_14102
   - US_United States_vless_14104
-  - US_United States_trojan_14105
-  - US_United States_vmess_14110
-  - US_United States_hysteria2_14113
+  - US_United States_hysteria2_14105
+  - US_United States_hysteria2_14106
+  - US_United States_vless_14107
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -456,21 +425,19 @@ proxy-groups:
   - US_United States_http_958
   - US_United States_http_959
   - US_United States_http_960
-  - US_United States_http_141
-  - US_United States_vless_142
-  - US_United States_mieru_144
-  - US_United States_vless_145
-  - US_United States_ss_146
-  - US_United States_hysteria2_1439
-  - US_United States_trojan_1445
-  - US_United States_vless_1475
-  - US_United States_vmess_1488
-  - US_United States_hysteria2_14100
-  - US_United States_vless_14101
+  - US_United States_hysteria2_141
+  - US_United States_http_142
+  - US_United States_ss_1411
+  - US_United States_vmess_1462
+  - US_United States_ss_1477
+  - US_United States_mieru_1478
+  - US_United States_vless_1486
+  - US_United States_vless_1497
+  - US_United States_vless_14102
   - US_United States_vless_14104
-  - US_United States_trojan_14105
-  - US_United States_vmess_14110
-  - US_United States_hysteria2_14113
+  - US_United States_hysteria2_14105
+  - US_United States_hysteria2_14106
+  - US_United States_vless_14107
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
