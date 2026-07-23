@@ -478,18 +478,15 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/65.0.3325.181 Safari/537.36
     path: /
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_14106
-  obfs: ''
-  obfs-password: ''
-  password: 50269720-b701-42e5-8bf2-0952d50804a4
-  port: 23001
-  server: kr.xn--mesx36n.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
+- encryption: none
+  name: US_United States_vless_1494
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
 - down: ''
   fingerprint: ''
   name: US_United States_hysteria2_14110
@@ -634,7 +631,7 @@ proxy-groups:
   - US_United States_vless_1471
   - US_United States_vless_1481
   - US_United States_trojan_1488
-  - US_United States_hysteria2_14106
+  - US_United States_vless_1494
   - US_United States_hysteria2_14110
   - US_United States_ss_14117
   - US_United States_ss_14118
@@ -691,7 +688,7 @@ proxy-groups:
   - US_United States_vless_1471
   - US_United States_vless_1481
   - US_United States_trojan_1488
-  - US_United States_hysteria2_14106
+  - US_United States_vless_1494
   - US_United States_hysteria2_14110
   - US_United States_ss_14117
   - US_United States_ss_14118
