@@ -116,30 +116,12 @@ proxies:
     headers:
       Host: www.gamingdll.ir
     path: /usa=mitivpn
-- alpn:
-  - h2
-  - http/1.1
-  name: US_United States_trojan_127
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 172.64.148.84
-  skip-cert-verify: true
-  sni: u--o-MiTiVPN---MiTiVPNj.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
-- cipher: aes-128-gcm
-  name: US_United States_ss_128
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: '40031'
-  server: permission_level_01.unclemanco.com
+- cipher: aes-256-cfb
+  name: US_United States_ss_126
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
   type: ss
-  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -398,8 +380,7 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_019
-  - US_United States_trojan_127
-  - US_United States_ss_128
+  - US_United States_ss_126
   - US_United States_vless_42
   - US_United States_vless_43
   - US_United States_vmess_45
@@ -440,8 +421,7 @@ proxy-groups:
   - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_019
-  - US_United States_trojan_127
-  - US_United States_ss_128
+  - US_United States_ss_126
   - US_United States_vless_42
   - US_United States_vless_43
   - US_United States_vmess_45
