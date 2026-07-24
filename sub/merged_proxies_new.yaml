@@ -35,39 +35,71 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
-  server: 16.162.122.228
-  skip-cert-verify: true
+  server: 43.199.147.225
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 95.40.21.67
+  port: 29443
+  server: 16.163.106.206
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 16.162.217.145
+  port: 35151
+  server: 18.167.224.152
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_06
+  network: tcp
+  password: BxceQaOe
+  port: 27826
+  server: 18.164.124.189
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: US_United States_trojan_07
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 18.163.55.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_08
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
-  server: 18.163.123.229
+  server: 18.183.93.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_012
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 95.40.110.103
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US_United States_trojan_013
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.167.94.81
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: US_United States_trojan_014
   network: tcp
   password: BxceQaOe
-  port: 25651
-  server: 18.163.182.53
+  port: 35966
+  server: 18.163.28.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -84,88 +116,10 @@ proxies:
     headers:
       Host: www.gamingdll.ir
     path: /usa=mitivpn
-- name: US_United States_trojan_113
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 43.199.147.225
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_114
-  network: tcp
-  password: BxceQaOe
-  port: 29443
-  server: 16.163.106.206
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_115
-  network: tcp
-  password: BxceQaOe
-  port: 35151
-  server: 18.167.224.152
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_116
-  network: tcp
-  password: BxceQaOe
-  port: 27826
-  server: 18.164.124.189
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_117
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 18.163.55.76
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_118
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 18.183.93.55
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_122
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 95.40.110.103
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_123
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.167.94.81
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: US_United States_trojan_124
-  network: tcp
-  password: BxceQaOe
-  port: 35966
-  server: 18.163.28.78
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_127
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
 - alpn:
   - h2
   - http/1.1
-  name: US_United States_trojan_128
+  name: US_United States_trojan_127
   network: ws
   password: MiTiVPN
   port: '443'
@@ -176,143 +130,78 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
-- name: US_United States_vless_44
-  network: ws
-  port: 443
-  server: 135.84.73.245
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
+- cipher: aes-128-gcm
+  name: US_United States_ss_128
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: '40031'
+  server: permission_level_01.unclemanco.com
+  type: ss
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_48
-  port: 18038
-  reality-opts:
-    public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
-    short-id: ce9f790791426d83
-  server: 144.31.82.47
-  servername: www.microsoft.com
+  grpc-opts:
+    grpc-service-name: grpc
+  name: US_United States_vless_42
+  network: grpc
+  port: 54324
+  server: sgp3xui.jzy88.top
+  servername: sgp3xui.jzy88.top
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: US_United States_vless_49
-  port: 55309
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
+  uuid: cdd37253-5f9b-4dcb-8b01-ad60a29384b8
+- name: US_United States_vless_43
+  port: 22223
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_411
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_45
   port: 443
-  server: london1.ap221.com
-  servername: london.ap221.com
+  server: guanwang.awsno.com
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 3a1d7c1d-09c6-4c81-8e11-75dd4ab1ac07
-- client-fingerprint: chrome
-  name: US_United States_vless_416
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 47.81.36.237
-  servername: api.digital-help-prd.autodesk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: US_United States_vless_418
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_48
   network: ws
-  port: 443
-  server: 104.18.12.149
-  servername: S4-f45.pAGeS.DeV
-  tls: true
-  type: vless
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
-    headers:
-      Host: S4-f45.pAGeS.DeV
-    path: /
-- flow: xtls-rprx-vision
-  name: US_United States_vless_419
-  port: 17195
-  server: 104.250.239.8
-  servername: usvless.yydzx.xyz
-  tls: true
+    path: /arki?ed=2048
+- name: US_United States_vless_412
+  port: 22223
+  server: 52.57.117.158
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: US_United States_vless_420
-  network: ws
-  port: 443
-  server: 158.51.110.12
-  servername: pagescm.freen5.cc.cd
-  tls: true
-  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_422
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen5.cc.cd
-    path: /showfp=chrome
-- name: US_United States_vless_421
-  network: ws
-  port: 443
-  server: 104.17.101.139
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?proxyip=ip.111000.de5.net%3A443
-- client-fingerprint: chrome
-  name: US_United States_vless_424
-  network: ws
-  port: 2096
-  server: 139.64.235.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /
-- name: US_United States_vless_426
-  network: ws
-  port: 443
-  server: 162.159.17.207
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
 - name: US_United States_vmess_953
   server: 104.253.134.92
   port: 13932
@@ -478,18 +367,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/41.0.2228.0 Safari/537.36
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: US_United States_vmess_1489
-  network: tcp
-  port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - cipher: 2022-blake3-aes-128-gcm
   name: US_United States_ss_14103
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
@@ -504,16 +381,6 @@ proxies:
   server: 172.96.161.152
   type: ss
   udp: true
-- name: US_United States_trojan_1626
-  server: possible-pup.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: XG59623478
-  sni: possible-pup.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-  delay: 752
 proxy-groups:
 - name: 节点选择
   type: select
@@ -524,31 +391,21 @@ proxy-groups:
   - US_United States_trojan_03
   - US_United States_trojan_04
   - US_United States_trojan_05
+  - US_United States_trojan_06
+  - US_United States_trojan_07
   - US_United States_trojan_08
+  - US_United States_trojan_012
+  - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_019
-  - US_United States_trojan_113
-  - US_United States_trojan_114
-  - US_United States_trojan_115
-  - US_United States_trojan_116
-  - US_United States_trojan_117
-  - US_United States_trojan_118
-  - US_United States_trojan_122
-  - US_United States_trojan_123
-  - US_United States_trojan_124
-  - US_United States_ss_127
-  - US_United States_trojan_128
-  - US_United States_vless_44
-  - US_United States_vless_48
-  - US_United States_vless_49
-  - US_United States_vless_411
-  - US_United States_vless_416
-  - US_United States_vless_418
-  - US_United States_vless_419
-  - US_United States_vless_420
-  - US_United States_vless_421
-  - US_United States_vless_424
-  - US_United States_vless_426
+  - US_United States_trojan_127
+  - US_United States_ss_128
+  - US_United States_vless_42
+  - US_United States_vless_43
+  - US_United States_vmess_45
+  - US_United States_vmess_48
+  - US_United States_vless_412
+  - US_United States_vmess_422
   - US_United States_vmess_953
   - US_United States_vless_954
   - US_United States_vless_955
@@ -565,9 +422,7 @@ proxy-groups:
   - US_United States_http_146
   - US_United States_mieru_1413
   - US_United States_trojan_1485
-  - US_United States_vmess_1489
   - US_United States_ss_14103
-  - US_United States_trojan_1626
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -578,31 +433,21 @@ proxy-groups:
   - US_United States_trojan_03
   - US_United States_trojan_04
   - US_United States_trojan_05
+  - US_United States_trojan_06
+  - US_United States_trojan_07
   - US_United States_trojan_08
+  - US_United States_trojan_012
+  - US_United States_trojan_013
   - US_United States_trojan_014
   - US_United States_trojan_019
-  - US_United States_trojan_113
-  - US_United States_trojan_114
-  - US_United States_trojan_115
-  - US_United States_trojan_116
-  - US_United States_trojan_117
-  - US_United States_trojan_118
-  - US_United States_trojan_122
-  - US_United States_trojan_123
-  - US_United States_trojan_124
-  - US_United States_ss_127
-  - US_United States_trojan_128
-  - US_United States_vless_44
-  - US_United States_vless_48
-  - US_United States_vless_49
-  - US_United States_vless_411
-  - US_United States_vless_416
-  - US_United States_vless_418
-  - US_United States_vless_419
-  - US_United States_vless_420
-  - US_United States_vless_421
-  - US_United States_vless_424
-  - US_United States_vless_426
+  - US_United States_trojan_127
+  - US_United States_ss_128
+  - US_United States_vless_42
+  - US_United States_vless_43
+  - US_United States_vmess_45
+  - US_United States_vmess_48
+  - US_United States_vless_412
+  - US_United States_vmess_422
   - US_United States_vmess_953
   - US_United States_vless_954
   - US_United States_vless_955
@@ -619,9 +464,7 @@ proxy-groups:
   - US_United States_http_146
   - US_United States_mieru_1413
   - US_United States_trojan_1485
-  - US_United States_vmess_1489
   - US_United States_ss_14103
-  - US_United States_trojan_1626
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
