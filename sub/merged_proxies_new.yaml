@@ -110,71 +110,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_126
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: '8443'
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /bkdicj
-- name: US_United States_trojan_127
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_130
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_133
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_United States_trojan_134
-  network: ws
-  password: MiTiVPN
-  port: 2083
-  server: 104.18.7.178
-  skip-cert-verify: true
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- name: US_United States_trojan_135
-  network: ws
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mehrosaboran---mehrosaboran-7.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -237,37 +172,24 @@ proxies:
   type: vmess
   udp: true
   uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: US_United States_vless_981
-  server: fast.cd-tur4.ir
-  port: 443
-  type: vless
-  uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
+- name: US_United States_http_142
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
   tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan1.global.ssl.fastly.net
+  type: http
   udp: true
-- name: US_United States_vless_982
-  server: www.true.th
-  port: 80
-  type: vless
-  uuid: ff485c50-b364-4b4f-90be-ea576b949dd3
-  tls: false
-  skip-cert-verify: false
-  servername: d3gxy6d0a9fs18.cloudfront.net
-  network: ws
-  ws-opts:
-    path: /fnetvpn2026
-    headers:
-      Host: d3gxy6d0a9fs18.cloudfront.net
+  username: test
+- cipher: aes-256-cfb
+  name: US_United States_ss_147
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
   udp: true
 - cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_146
+  name: US_United States_ss_148
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
   plugin: gost-plugin
   plugin-opts:
@@ -280,375 +202,15 @@ proxies:
   server: 104.128.72.119
   type: ss
   udp: true
-- name: US_United States_http_148
+- name: US_United States_http_149
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: US_United States_vless_1412
-  network: grpc
-  port: 9892
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: ''
-  server: 72.56.38.194
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1413
-  network: ws
-  port: 32735
-  server: cgroup.node5.v.nodelist-airport.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 65bc6206-ee8e-458b-823c-91de8a8dff10
-  ws-opts:
-    headers:
-      Host: cgroup.node5.v.nodelist-airport.com
-    path: /
-- name: US_United States_vless_1415
-  network: ws
-  port: 16443
-  server: 104.168.87.41
-  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 931a2c0b-688f-23b4-4a7d-96c69c9dd67b
-  ws-opts:
-    headers:
-      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-    path: /glasspanel/0038ba35_0_1bdabe931208/
-- multiplexing: MULTIPLEXING_LOW
-  name: US_United States_mieru_1423
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
 - encryption: none
-  name: US_United States_vless_1428
-  network: ws
-  port: 80
-  server: 199.232.170.125
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1429
-  network: ws
-  port: 80
-  server: 199.232.170.142
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1431
-  network: ws
-  port: 80
-  server: 199.232.170.175
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1432
-  network: ws
-  port: 80
-  server: 199.232.170.77
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1433
-  network: ws
-  port: 80
-  server: 199.232.170.45
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: US_United States_vless_1434
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-    short-id: ''
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1435
-  network: ws
-  port: 80
-  server: 199.232.170.183
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1436
-  network: ws
-  port: 80
-  server: 199.232.170.121
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1440
-  network: ws
-  port: 80
-  server: 199.232.170.224
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1441
-  network: ws
-  port: 80
-  server: 199.232.170.169
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1445
-  network: ws
-  port: 80
-  server: 199.232.170.110
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1447
-  network: ws
-  port: 80
-  server: 199.232.170.56
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1451
-  network: ws
-  port: 80
-  server: 199.232.170.76
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1456
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-ca-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1457
-  obfs: ''
-  obfs-password: ''
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: US_United States_vless_1459
-  network: ws
-  port: 80
-  server: 199.232.170.3
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1462
-  network: ws
-  port: 80
-  server: 199.232.170.55
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1465
-  network: ws
-  port: 80
-  server: 199.232.170.207
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1469
-  network: ws
-  port: 80
-  server: 199.232.170.210
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1470
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: US_United States_vless_1471
-  network: ws
-  port: 80
-  server: 199.232.170.143
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1472
+  name: US_United States_vless_1411
   network: ws
   port: 80
   server: 151.101.56.7
@@ -662,247 +224,33 @@ proxies:
         like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /
   xudp: true
-- encryption: none
-  name: US_United States_vless_1474
+- name: US_United States_vless_1444
   network: ws
-  port: 80
-  server: 199.232.170.127
+  port: 16443
+  server: 104.168.87.41
+  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  skip-cert-verify: false
+  tls: true
   type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  uuid: 931a2c0b-688f-23b4-4a7d-96c69c9dd67b
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
+      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+    path: /glasspanel/0038ba35_0_1bdabe931208/
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_1447
+  obfs: ''
+  obfs-password: ''
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+  up: ''
 - encryption: none
-  name: US_United States_vless_1480
-  network: ws
-  port: 80
-  server: 199.232.170.161
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1483
-  network: ws
-  port: 80
-  server: 199.232.170.203
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_1489
-  network: ws
-  port: 80
-  server: 199.232.170.73
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14105
-  network: ws
-  port: 80
-  server: 199.232.170.106
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14115
-  network: ws
-  port: 80
-  server: 199.232.170.18
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14119
-  network: ws
-  port: 80
-  server: 199.232.170.192
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14120
-  network: ws
-  port: 80
-  server: 199.232.170.228
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14121
-  network: ws
-  port: 80
-  server: 199.232.170.107
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14124
-  network: ws
-  port: 80
-  server: 199.232.170.214
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14131
-  network: ws
-  port: 80
-  server: 199.232.170.147
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14135
-  network: ws
-  port: 80
-  server: 199.232.170.63
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14140
-  network: ws
-  port: 80
-  server: 199.232.170.4
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /?Telegram-WangCai2🇨🇳
-  xudp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14144
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 20090
-  server: 172.96.161.152
-  type: ss
-  udp: true
-- encryption: none
-  name: US_United States_vless_14153
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14155
-  network: ws
-  port: 80
-  server: 167.82.0.17
-  type: vless
-  udp: true
-  uuid: a69d5300-8101-47b5-9448-6730f228af37
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14160
+  name: US_United States_vless_1468
   network: ws
   port: 80
   server: 18.239.134.69
@@ -916,8 +264,20 @@ proxies:
         Gecko) Chrome/44.0.2403.157 Safari/537.36
     path: /
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: US_United States_hysteria2_1472
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-ca-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-ca-002.fastervpn.world
+  type: hysteria2
+  up: ''
 - cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14169
+  name: US_United States_ss_1495
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
   plugin: gost-plugin
   plugin-opts:
@@ -930,58 +290,171 @@ proxies:
   server: www.syfe.com
   type: ss
   udp: true
-- name: US_United States_vmess_164
-  server: cindy52.ceoiii.com
-  type: vmess
-  country: 🇺🇸US
-  port: 36803
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  alterId: 0
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: US_United States_vless_14128
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+    short-id: ''
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: US_United States_mieru_14129
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alterId: 0
   cipher: auto
+  encryption: none
+  flow: null
+  name: US_United States_vless_14157
   network: ws
-  servername: ajax.microsoft.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
+  port: 80
+  server: naseza.tarfiq.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1fe455ab-ef5a-4e51-9015-709f8f019aaf
   ws-opts:
-    path: /hls/cctv5phd.m3u8
     headers:
-      HOST: ajax.microsoft.com
-  delay: 1559
-- name: US_United States_ss_167
-  server: 54.226.105.188
-  type: ss
-  country: 🇺🇸US
+      Host: teranko.global.ssl.fastly.net
+    path: /
+- alterId: 0
+  cipher: auto
+  encryption: none
+  flow: null
+  name: US_United States_vless_14189
+  network: ws
   port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 482
-- name: US_United States_ss_168
-  server: ss.043.node-for-bigairport.win
-  type: ss
-  country: 🇯🇵JP
-  port: 19001
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  cipher: chacha20-ietf-poly1305
-  delay: 585
-- name: US_United States_vmess_1610
-  server: cindy58.ceoiii.com
-  type: vmess
-  country: 🇸🇬SG
-  port: 36809
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: ajax.microsoft.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
+  server: cd3.postshup.ir
+  servername: ptr.cyberbear.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
   ws-opts:
-    path: /hls/cctv5phd.m3u8
     headers:
-      HOST: ajax.microsoft.com
-  delay: 1817
+      Host: ptr.cyberbear.io
+    path: /CMlsadnCISdss
+- encryption: none
+  name: US_United States_vless_14191
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /
+  xudp: true
+- name: US_United States_socks5_14194
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks5
+  udp: true
+  username: ''
+- alterId: 0
+  cipher: auto
+  encryption: none
+  flow: null
+  name: US_United States_vless_14197
+  network: ws
+  port: 443
+  server: fast.cd-tur4.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- name: US_United States_socks5_14200
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  udp: true
+  username: test123
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14205
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 20090
+  server: 172.96.161.152
+  type: ss
+  udp: true
+- encryption: none
+  name: US_United States_vless_14208
+  network: ws
+  port: 80
+  server: 167.82.0.4
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_14214
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  type: vmess
+  udp: true
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: US_United States_vless_14216
+  network: grpc
+  port: 9892
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: ''
+  server: 72.56.38.194
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -999,70 +472,34 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_012
   - US_United States_trojan_016
-  - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_130
-  - US_United States_trojan_133
-  - US_United States_trojan_134
-  - US_United States_trojan_135
   - US_United States_vless_42
   - US_United States_vless_43
   - US_United States_vmess_45
   - US_United States_vmess_48
   - US_United States_vless_412
   - US_United States_vmess_422
-  - US_United States_vless_981
-  - US_United States_vless_982
-  - US_United States_ss_146
-  - US_United States_http_148
-  - US_United States_vless_1412
-  - US_United States_vmess_1413
-  - US_United States_vless_1415
-  - US_United States_mieru_1423
-  - US_United States_vless_1428
-  - US_United States_vless_1429
-  - US_United States_vless_1431
-  - US_United States_vless_1432
-  - US_United States_vless_1433
-  - US_United States_vless_1434
-  - US_United States_vless_1435
-  - US_United States_vless_1436
-  - US_United States_vless_1440
-  - US_United States_vless_1441
-  - US_United States_vless_1445
-  - US_United States_vless_1447
-  - US_United States_vless_1451
-  - US_United States_hysteria2_1456
-  - US_United States_hysteria2_1457
-  - US_United States_vless_1459
-  - US_United States_vless_1462
-  - US_United States_vless_1465
-  - US_United States_vless_1469
-  - US_United States_hysteria2_1470
-  - US_United States_vless_1471
-  - US_United States_vless_1472
-  - US_United States_vless_1474
-  - US_United States_vless_1480
-  - US_United States_vless_1483
-  - US_United States_vless_1489
-  - US_United States_vless_14105
-  - US_United States_vless_14115
-  - US_United States_vless_14119
-  - US_United States_vless_14120
-  - US_United States_vless_14121
-  - US_United States_vless_14124
-  - US_United States_vless_14131
-  - US_United States_vless_14135
-  - US_United States_vless_14140
-  - US_United States_ss_14144
-  - US_United States_vless_14153
-  - US_United States_vless_14155
-  - US_United States_vless_14160
-  - US_United States_ss_14169
-  - US_United States_vmess_164
-  - US_United States_ss_167
-  - US_United States_ss_168
-  - US_United States_vmess_1610
+  - US_United States_http_142
+  - US_United States_ss_147
+  - US_United States_ss_148
+  - US_United States_http_149
+  - US_United States_vless_1411
+  - US_United States_vless_1444
+  - US_United States_hysteria2_1447
+  - US_United States_vless_1468
+  - US_United States_hysteria2_1472
+  - US_United States_ss_1495
+  - US_United States_vless_14128
+  - US_United States_mieru_14129
+  - US_United States_vless_14157
+  - US_United States_vless_14189
+  - US_United States_vless_14191
+  - US_United States_socks5_14194
+  - US_United States_vless_14197
+  - US_United States_socks5_14200
+  - US_United States_ss_14205
+  - US_United States_vless_14208
+  - US_United States_vmess_14214
+  - US_United States_vless_14216
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1080,70 +517,34 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_012
   - US_United States_trojan_016
-  - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_130
-  - US_United States_trojan_133
-  - US_United States_trojan_134
-  - US_United States_trojan_135
   - US_United States_vless_42
   - US_United States_vless_43
   - US_United States_vmess_45
   - US_United States_vmess_48
   - US_United States_vless_412
   - US_United States_vmess_422
-  - US_United States_vless_981
-  - US_United States_vless_982
-  - US_United States_ss_146
-  - US_United States_http_148
-  - US_United States_vless_1412
-  - US_United States_vmess_1413
-  - US_United States_vless_1415
-  - US_United States_mieru_1423
-  - US_United States_vless_1428
-  - US_United States_vless_1429
-  - US_United States_vless_1431
-  - US_United States_vless_1432
-  - US_United States_vless_1433
-  - US_United States_vless_1434
-  - US_United States_vless_1435
-  - US_United States_vless_1436
-  - US_United States_vless_1440
-  - US_United States_vless_1441
-  - US_United States_vless_1445
-  - US_United States_vless_1447
-  - US_United States_vless_1451
-  - US_United States_hysteria2_1456
-  - US_United States_hysteria2_1457
-  - US_United States_vless_1459
-  - US_United States_vless_1462
-  - US_United States_vless_1465
-  - US_United States_vless_1469
-  - US_United States_hysteria2_1470
-  - US_United States_vless_1471
-  - US_United States_vless_1472
-  - US_United States_vless_1474
-  - US_United States_vless_1480
-  - US_United States_vless_1483
-  - US_United States_vless_1489
-  - US_United States_vless_14105
-  - US_United States_vless_14115
-  - US_United States_vless_14119
-  - US_United States_vless_14120
-  - US_United States_vless_14121
-  - US_United States_vless_14124
-  - US_United States_vless_14131
-  - US_United States_vless_14135
-  - US_United States_vless_14140
-  - US_United States_ss_14144
-  - US_United States_vless_14153
-  - US_United States_vless_14155
-  - US_United States_vless_14160
-  - US_United States_ss_14169
-  - US_United States_vmess_164
-  - US_United States_ss_167
-  - US_United States_ss_168
-  - US_United States_vmess_1610
+  - US_United States_http_142
+  - US_United States_ss_147
+  - US_United States_ss_148
+  - US_United States_http_149
+  - US_United States_vless_1411
+  - US_United States_vless_1444
+  - US_United States_hysteria2_1447
+  - US_United States_vless_1468
+  - US_United States_hysteria2_1472
+  - US_United States_ss_1495
+  - US_United States_vless_14128
+  - US_United States_mieru_14129
+  - US_United States_vless_14157
+  - US_United States_vless_14189
+  - US_United States_vless_14191
+  - US_United States_socks5_14194
+  - US_United States_vless_14197
+  - US_United States_socks5_14200
+  - US_United States_ss_14205
+  - US_United States_vless_14208
+  - US_United States_vmess_14214
+  - US_United States_vless_14216
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
