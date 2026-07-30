@@ -39,7 +39,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: US_United States_trojan_04
   network: tcp
   password: BxceQaOe
@@ -48,7 +47,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: US_United States_trojan_05
   network: tcp
   password: BxceQaOe
@@ -57,7 +55,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: US_United States_trojan_06
   network: tcp
   password: BxceQaOe
@@ -66,7 +63,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: US_United States_trojan_08
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -75,7 +71,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: US_United States_trojan_011
   network: tcp
   password: BxceQaOe
@@ -84,7 +79,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: US_United States_trojan_013
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -92,15 +86,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: US_United States_trojan_126
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -163,13 +148,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- name: US_United States_ss_991
-  server: 13.53.198.63
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: US_United States_vless_994
   server: 88.218.44.4
   port: 993
@@ -334,22 +312,6 @@ proxies:
   password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
   skip-cert-verify: true
   tls: true
-  udp: true
-- name: US_United States_vless_1274
-  type: vless
-  server: gr1.fifapes.monster
-  port: 8882
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_1277
-  type: vless
-  server: fn.fifapes.monster
-  port: 2090
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  tls: false
-  skip-cert-verify: true
   udp: true
 - name: US_United States_trojan_1296
   type: trojan
@@ -761,21 +723,6 @@ proxies:
     headers:
       Host: www.multiplydose.com
   udp: true
-- name: US_United States_vmess_12200
-  type: vmess
-  server: cindy50.ceoiii.com
-  port: 36801
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: ajax.microsoft.com
-  udp: true
 - name: US_United States_vless_12201
   type: vless
   server: 104.21.51.196
@@ -885,7 +832,7 @@ proxies:
       Host: tiny-lake-c7f3.16-1af.workers.dev
   skip-cert-verify: true
   udp: true
-- name: US_United States_http_142
+- name: US_United States_http_141
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -894,25 +841,62 @@ proxies:
   type: http
   udp: true
   username: test
-- down: null
-  name: US_United States_hysteria2_143
-  password: ba845a48-cfcb-48c4-ab8c-0836e360112e
-  port: 56789
-  server: ceo69.ceoiii.com
-  skip-cert-verify: true
-  sni: ajax.microsoft.com
-  type: hysteria2
-  up: null
-- name: US_United States_http_1410
+- encryption: none
+  name: US_United States_vless_143
+  network: ws
+  port: 2200
+  server: 130.17.2.27
+  servername: tn.tmn141246.ru
+  type: vless
+  udp: true
+  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
+  ws-opts:
+    headers:
+      Host: rzd.ru
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /v1
+  xudp: true
+- name: US_United States_http_144
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
+- name: US_United States_vless_146
+  network: ws
+  port: 8880
+  server: 104.17.26.45
+  type: vless
+  udp: true
+  uuid: 2e9012a2-7f8c-4233-b78b-5228a9a4951b
+  ws-opts:
+    headers:
+      Host: icy-breeze-126c.211-eb3.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_vless_148
+  network: ws
+  port: 2087
+  server: cf.9999669.xyz
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_1411
+  name: US_United States_vless_149
   network: ws
   port: 443
   server: 199.232.78.159
@@ -928,29 +912,47 @@ proxies:
         like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1428
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-  up: ''
 - multiplexing: MULTIPLEXING_LOW
-  name: US_United States_mieru_1468
+  name: US_United States_mieru_1417
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_1435
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 20090
+  server: 172.96.161.152
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14143
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo
+    short-id: 7bcfc0bc
+  server: 138.16.181.6
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: US_United States_hysteria2_1490
+  name: US_United States_hysteria2_14147
   obfs: ''
   obfs-password: ''
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
@@ -960,27 +962,59 @@ proxies:
   sni: devideo.h2corp.org
   type: hysteria2
   up: ''
-- name: US_United States_hysteria2_14125
-  obfs: salamander
-  obfs-password: 871a028c7cd2b040f9cf545ca8674dc5
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: hk3-tn7c6mx5.skynode.me
-  skip-cert-verify: true
-  sni: hk3-tn7c6mx5.skynode.me
-  type: hysteria2
+- name: US_United States_socks5_14176
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
   udp: true
+  username: ''
 - down: null
-  name: US_United States_hysteria2_14148
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
+  name: US_United States_hysteria2_14190
+  password: ba845a48-cfcb-48c4-ab8c-0836e360112e
+  port: 56789
+  server: ceo69.ceoiii.com
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
+  sni: ajax.microsoft.com
   type: hysteria2
   up: null
+- name: US_United States_socks5_14194
+  password: ''
+  port: 1080
+  server: 212.58.132.5
+  type: socks5
+  udp: true
+  username: ''
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14199
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 104.128.72.119
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14201
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: ous1.337777777.xyz
+    mode: websocket
+    mux: true
+    path: /api/v1/stream/us1
+    tls: false
+  port: 80
+  server: www.syfe.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_14181
+  name: US_United States_trojan_14202
   network: ws
   password: '521314'
   port: 8443
@@ -994,65 +1028,15 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /
-- name: US_United States_hysteria2_14192
-  obfs: salamander
-  obfs-password: e498536388dfdfa1c254550ec8cc2a50
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: kr1-cv0dclvp.skynode.me
+- down: null
+  name: US_United States_hysteria2_14204
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
   skip-cert-verify: true
-  sni: kr1-cv0dclvp.skynode.me
+  sni: hopp-us.yyuyy.com
   type: hysteria2
-  udp: true
-- name: US_United States_socks5_14193
-  password: ''
-  port: 1080
-  server: 212.58.132.5
-  type: socks5
-  udp: true
-  username: ''
-- name: US_United States_socks5_14198
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  udp: true
-  username: ''
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14206
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: ous1.337777777.xyz
-    mode: websocket
-    mux: true
-    path: /api/v1/stream/us1
-    tls: false
-  port: 80
-  server: www.syfe.com
-  type: ss
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14212
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 20090
-  server: 172.96.161.152
-  type: ss
-  udp: true
-- name: US_United States_socks5_14214
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
+  up: null
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1067,14 +1051,12 @@ proxy-groups:
   - US_United States_trojan_08
   - US_United States_trojan_011
   - US_United States_trojan_013
-  - US_United States_trojan_126
   - US_United States_vless_42
   - US_United States_vless_43
   - US_United States_vmess_45
   - US_United States_vmess_48
   - US_United States_vless_412
   - US_United States_vmess_422
-  - US_United States_ss_991
   - US_United States_vless_994
   - US_United States_vless_999
   - US_United States_vless_9116
@@ -1089,8 +1071,6 @@ proxy-groups:
   - US_United States_vless_1232
   - US_United States_trojan_1233
   - US_United States_trojan_1247
-  - US_United States_vless_1274
-  - US_United States_vless_1277
   - US_United States_trojan_1296
   - US_United States_trojan_12119
   - US_United States_trojan_12120
@@ -1121,7 +1101,6 @@ proxy-groups:
   - US_United States_trojan_12193
   - US_United States_trojan_12196
   - US_United States_trojan_12198
-  - US_United States_vmess_12200
   - US_United States_vless_12201
   - US_United States_vless_12203
   - US_United States_vless_12205
@@ -1130,22 +1109,23 @@ proxy-groups:
   - US_United States_vless_12211
   - US_United States_vless_12212
   - US_United States_vless_12213
-  - US_United States_http_142
-  - US_United States_hysteria2_143
-  - US_United States_http_1410
-  - US_United States_vless_1411
-  - US_United States_hysteria2_1428
-  - US_United States_mieru_1468
-  - US_United States_hysteria2_1490
-  - US_United States_hysteria2_14125
-  - US_United States_hysteria2_14148
-  - US_United States_trojan_14181
-  - US_United States_hysteria2_14192
-  - US_United States_socks5_14193
-  - US_United States_socks5_14198
-  - US_United States_ss_14206
-  - US_United States_ss_14212
-  - US_United States_socks5_14214
+  - US_United States_http_141
+  - US_United States_vless_143
+  - US_United States_http_144
+  - US_United States_vless_146
+  - US_United States_vless_148
+  - US_United States_vless_149
+  - US_United States_mieru_1417
+  - US_United States_ss_1435
+  - US_United States_vless_14143
+  - US_United States_hysteria2_14147
+  - US_United States_socks5_14176
+  - US_United States_hysteria2_14190
+  - US_United States_socks5_14194
+  - US_United States_ss_14199
+  - US_United States_ss_14201
+  - US_United States_trojan_14202
+  - US_United States_hysteria2_14204
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1160,14 +1140,12 @@ proxy-groups:
   - US_United States_trojan_08
   - US_United States_trojan_011
   - US_United States_trojan_013
-  - US_United States_trojan_126
   - US_United States_vless_42
   - US_United States_vless_43
   - US_United States_vmess_45
   - US_United States_vmess_48
   - US_United States_vless_412
   - US_United States_vmess_422
-  - US_United States_ss_991
   - US_United States_vless_994
   - US_United States_vless_999
   - US_United States_vless_9116
@@ -1182,8 +1160,6 @@ proxy-groups:
   - US_United States_vless_1232
   - US_United States_trojan_1233
   - US_United States_trojan_1247
-  - US_United States_vless_1274
-  - US_United States_vless_1277
   - US_United States_trojan_1296
   - US_United States_trojan_12119
   - US_United States_trojan_12120
@@ -1214,7 +1190,6 @@ proxy-groups:
   - US_United States_trojan_12193
   - US_United States_trojan_12196
   - US_United States_trojan_12198
-  - US_United States_vmess_12200
   - US_United States_vless_12201
   - US_United States_vless_12203
   - US_United States_vless_12205
@@ -1223,22 +1198,23 @@ proxy-groups:
   - US_United States_vless_12211
   - US_United States_vless_12212
   - US_United States_vless_12213
-  - US_United States_http_142
-  - US_United States_hysteria2_143
-  - US_United States_http_1410
-  - US_United States_vless_1411
-  - US_United States_hysteria2_1428
-  - US_United States_mieru_1468
-  - US_United States_hysteria2_1490
-  - US_United States_hysteria2_14125
-  - US_United States_hysteria2_14148
-  - US_United States_trojan_14181
-  - US_United States_hysteria2_14192
-  - US_United States_socks5_14193
-  - US_United States_socks5_14198
-  - US_United States_ss_14206
-  - US_United States_ss_14212
-  - US_United States_socks5_14214
+  - US_United States_http_141
+  - US_United States_vless_143
+  - US_United States_http_144
+  - US_United States_vless_146
+  - US_United States_vless_148
+  - US_United States_vless_149
+  - US_United States_mieru_1417
+  - US_United States_ss_1435
+  - US_United States_vless_14143
+  - US_United States_hysteria2_14147
+  - US_United States_socks5_14176
+  - US_United States_hysteria2_14190
+  - US_United States_socks5_14194
+  - US_United States_ss_14199
+  - US_United States_ss_14201
+  - US_United States_trojan_14202
+  - US_United States_hysteria2_14204
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
