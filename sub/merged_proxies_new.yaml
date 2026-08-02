@@ -84,207 +84,165 @@ proxies:
     headers:
       Host: jumao91.shop
     path: /proxyip=45.207.156.255
-- name: US_United States_vless_94
-  server: 13.38.194.199
-  port: 22223
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: US_United States_vmess_913
-  server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
-  port: 446
-  type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-  alterId: 99999
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: US_United States_vless_9144
-  server: 1sg001.344211.cc
-  port: 8443
-  type: vless
-  uuid: 6b5a9259-c7de-45f0-b4de-e89db7850d0c
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  servername: www.python.org
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: 04d59340
-  network: tcp
-  udp: true
-- name: US_United States_socks5_9147
-  server: 168.107.13.220
-  port: 50161
-  type: socks5
-  tls: false
-  udp: true
-- name: US_United States_vless_9152
-  server: 88.218.44.4
-  port: 993
-  type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: download.nvidia.com
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  network: tcp
-  udp: true
-- name: US_United States_http_9162
-  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
-  port: 443
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  tls: true
-  udp: true
-- name: US_United States_vless_9171
-  server: 169.40.42.15
-  port: 443
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: ios
-  servername: yahoo.com
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  network: tcp
-  udp: true
-- name: US_United States_vmess_9186
-  server: v33.hdacd.com
-  port: 30833
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: US_United States_ss_9187
-  server: 98.81.132.97
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
+- cipher: aes-256-cfb
+  name: US_United States_ss_125
   password: amazonskr05
-  udp: true
-- name: US_United States_vless_9188
-  server: 69.46.46.110
   port: 443
-  type: vless
-  uuid: 8c9d907e-f09a-31bc-be54-1d83dfd06363
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: rvg-production-02bc.up.railway.app
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /ws/8c9d907e-f09a-31bc-be54-1d83dfd06363
-    headers:
-      Host: rvg-production-02bc.up.railway.app
+  server: 13.61.5.244
+  type: ss
   udp: true
-- name: US_United States_vless_9189
-  server: f35-production-20fd.up.railway.app
-  port: 443
-  type: vless
-  uuid: 6c21890f-2b2a-98b0-dca1-f444112ced83
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  servername: f35-production-20fd.up.railway.app
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /ws/6c21890f-2b2a-98b0-dca1-f444112ced83
-    headers:
-      Host: f35-production-20fd.up.railway.app
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_128
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: '61312'
+  server: 129.151.64.234
+  type: ss
   udp: true
-- name: US_United States_vless_9190
-  server: cdn-cloudflare91.korvexe.ir
-  port: 8880
-  type: vless
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  tls: false
-  skip-cert-verify: false
-  servername: cdn-cloudflare91.korvexe.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn-cloudflare91.korvexe.ir
-  udp: true
-- name: US_United States_vless_9191
-  server: plcdn-12.nem-osh-rkp.net
-  port: 443
-  type: vless
-  uuid: 6daae99a-82f8-4675-9069-a34a165b6c6b
-  tls: true
-  skip-cert-verify: false
-  udp: true
-- name: US_United States_vless_9192
-  server: 199.232.78.159
-  port: 443
-  type: vless
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  tls: true
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan11.global.ssl.fastly.net
-  udp: true
-- alterId: 1
+- alterId: '1'
   cipher: auto
   name: US_United States_vmess_141
-  port: 46482
-  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
+  network: tcp
+  port: 11777
+  server: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: US_United States_hysteria2_142
+  name: US_United States_hysteria2_143
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-kr-003.fastervpn.world
+  server: vpn-jp-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
+  sni: vpn-jp-002.fastervpn.world
   type: hysteria2
   up: ''
 - name: US_United States_http_147
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: US_United States_vless_149
+  network: tcp
+  port: 22222
+  server: 15.224.64.110
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1411
+  password: ljqdalu13..
+  port: 8313
+  server: 38.180.135.39
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1412
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_1414
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X2V5laU4uPwp3_AZnSv6gJEq-BftxoNZnZBPYkVJchI
+    short-id: ddd74b6f896ad665
+  server: sg3.laodavip.com
+  servername: sg3.laodavip.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89281585-8bde-4ef2-8807-96c603281ef8
+- name: US_United States_http_1415
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   tls: false
   type: http
   username: fQ67Dpe5dU
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: US_United States_vmess_1417
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: US_United States_vless_1418
+  port: 47302
+  reality-opts:
+    public-key: NB_trxdXXOpnKDwfbpvbK_xygAB9Uv1HqRkFwkTbUGk
+    short-id: be499dd7
+  server: 52.192.136.69
+  servername: 16personalities.wwwnav.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7538f8-1023-4af1-8842-e704dbd6b109
 - cipher: aes-256-cfb
-  name: US_United States_ss_149
+  name: US_United States_ss_1419
   password: amazonskr05
   port: 443
-  server: 13.62.20.75
+  server: 54.196.207.151
   type: ss
   udp: true
-- name: US_United States_hysteria2_1411
+- multiplexing: MULTIPLEXING_LOW
+  name: US_United States_mieru_1420
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: US_United States_trojan_1424
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: US_United States_hysteria2_1426
+  obfs: salamander
+  obfs-password: d8b4b156988650bb7b81bd2b00d47153
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: jp2-fz9xcy26.skynode.me
+  skip-cert-verify: true
+  sni: jp2-fz9xcy26.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_hysteria2_1442
   password: https://xship.2fa.cat
   port: 443
   server: starlink-ft.251313.xyz
@@ -292,104 +250,116 @@ proxies:
   sni: www.cloudflare.com
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1413
-  password: ljqdalu13..
-  port: 8313
-  server: 38.180.135.39
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_1464
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 20090
+  server: 172.96.161.152
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1415
-  password: amazonskr05
-  port: 443
-  server: 13.51.233.2
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1432
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1440
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: US_United States_hysteria2_1452
+- name: US_United States_hysteria2_14105
   obfs: salamander
-  obfs-password: b4323ada9e616f76404229318ac1a768
+  obfs-password: 64b814b6908fac1bce4e4f7c2a8c026e
   password: Gda238Qr5GeEgGAM
   port: 443
-  server: gb1-ry605wvc.skynode.me
+  server: us1-irdpes1i.skynode.me
   skip-cert-verify: true
-  sni: gb1-ry605wvc.skynode.me
+  sni: us1-irdpes1i.skynode.me
   type: hysteria2
   udp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1454
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: US_United States_hysteria2_1497
-  obfs: salamander
-  obfs-password: c28f1dc0f00859f0afec5bc79dc0a251
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: us1-10uu54xz.skynode.me
-  skip-cert-verify: true
-  sni: us1-10uu54xz.skynode.me
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_14109
+  network: ws
+  port: 80
+  server: sg9-j9staju3.skynode.me
+  servername: node-36-250-1-90.speedtest.cn
+  type: vmess
   udp: true
+  uuid: 588ced63-e299-381b-88f7-c18a4b9b8a3d
+  ws-headers:
+    Host: node-36-250-1-90.speedtest.cn
+  ws-opts:
+    headers:
+      Host: node-36-250-1-90.speedtest.cn
+    path: /download?ed=2560
+  ws-path: /download?ed=2560
+- name: US_United States_hysteria2_14139
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  port: 443
+  server: 150.241.124.145
+  sni: ger.leontunel.ru
+  tls: false
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_14149
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - down: ''
   fingerprint: ''
   name: US_United States_hysteria2_14202
   obfs: ''
   obfs-password: ''
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
-  port: 443
-  server: ger.leontunel.ru
-  skip-cert-verify: false
-  sni: ger.leontunel.ru
+  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
+  port: 9992
+  server: 104.36.86.93
+  skip-cert-verify: true
+  sni: 104.36.86.93
   type: hysteria2
   up: ''
-- name: US_United States_socks5_14205
+- name: US_United States_socks5_14209
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+  udp: true
+  username: ''
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14213
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: ous1.337777777.xyz
+    mode: websocket
+    mux: true
+    path: /api/v1/stream/us1
+    tls: false
+  port: 80
+  server: www.syfe.com
+  type: ss
+  udp: true
+- name: US_United States_socks5_14222
   password: ''
   port: 1080
   server: 212.58.132.5
   type: socks5
   udp: true
   username: ''
-- multiplexing: MULTIPLEXING_LOW
-  name: US_United States_mieru_14209
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: US_United States_vless_14210
+- name: US_United States_hysteria2_14232
+  obfs: salamander
+  obfs-password: 871a028c7cd2b040f9cf545ca8674dc5
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: hk3-tn7c6mx5.skynode.me
+  skip-cert-verify: true
+  sni: hk3-tn7c6mx5.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_vless_14234
   network: ws
   port: 80
   server: dtac.exp.dog
@@ -401,127 +371,89 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: /fnet50
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14212
+  name: US_United States_vless_14235
   network: ws
-  port: 2083
-  server: 104.18.151.69
-  servername: oknoloy.dearhossein-taktaz.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a88edf2-235a-4e74-a012-315e8b0f000c
-  ws-opts:
-    headers:
-      Host: oknoloy.dearhossein-taktaz.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: US_United States_vmess_14213
-  network: tcp
   port: 443
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
+  server: svg-2.onrender.com
+  servername: svg-2.onrender.com
   tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- encryption: none
-  name: US_United States_vless_14215
-  network: ws
-  port: 2200
-  server: 168.222.140.205
   type: vless
   udp: true
-  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
+  uuid: 47667ac5-ac51-7fc6-181f-65321ee2387b
   ws-opts:
     headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /v1
+      Host: svg-2.onrender.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b
   xudp: true
+- name: US_United States_hysteria2_14236
+  obfs: salamander
+  obfs-password: e232b5481ad40ae67d20c4d953a346a8
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: hk4-72ug0p26.skynode.me
+  skip-cert-verify: true
+  sni: hk4-72ug0p26.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_hysteria2_14238
+  obfs: salamander
+  obfs-password: bd3b5978f5ee46608320fc900e1de2bb
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: hk5-0xm5smab.skynode.me
+  skip-cert-verify: true
+  sni: hk5-0xm5smab.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_hysteria2_14242
+  obfs: salamander
+  obfs-password: 03c0afa80a8475a38ec70cb858545862
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: au1-bpux3esb.skynode.me
+  skip-cert-verify: true
+  sni: au1-bpux3esb.skynode.me
+  type: hysteria2
+  udp: true
+- name: US_United States_hysteria2_14243
+  obfs: salamander
+  obfs-password: 0954b008016c08107a85fd90d20a8713
+  password: Gda238Qr5GeEgGAM
+  port: 443
+  server: hk1-eeg2ddi5.skynode.me
+  skip-cert-verify: true
+  sni: hk1-eeg2ddi5.skynode.me
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: US_United States_vless_14221
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.197.13
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  xudp: true
-- name: US_United States_socks5_14223
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  udp: true
-  username: ''
-- name: US_United States_http_14228
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: US_United States_socks5_14230
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
-- client-fingerprint: chrome
-  encryption: none
-  name: US_United States_vless_14232
+  name: US_United States_vless_14244
   network: ws
-  port: 8443
-  server: 172.67.175.34
-  servername: ad-007.cloud25075.info
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 2e8beadd-99bf-4fda-8692-8493886504bc
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
   ws-opts:
     headers:
-      Host: ad-007.cloud25075.info
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: US_United States_vless_14237
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  type: vless
-  udp: true
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /
+      Host: pan11.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
   xudp: true
 - client-fingerprint: firefox
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: US_United States_vless_14240
+  name: US_United States_vless_14245
   network: grpc
   port: 7443
   reality-opts:
@@ -534,8 +466,45 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_14246
+  network: ws
+  password: '521314'
+  port: 8443
+  server: 161.33.76.218
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /
+- name: US_United States_socks5_14256
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  udp: true
+  username: test123
+- client-fingerprint: chrome
+  name: US_United States_vless_14260
+  network: ws
+  port: 8443
+  server: fast.nanniang.top
+  servername: us-akile.nanniang.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  ws-opts:
+    headers:
+      Host: us-akile.nanniang.top
+    path: /
 - cipher: 2022-blake3-aes-128-gcm
-  name: US_United States_ss_14242
+  name: US_United States_ss_14261
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
   plugin: gost-plugin
   plugin-opts:
@@ -544,10 +513,21 @@ proxies:
     mux: true
     path: /ws
     tls: false
-  port: 20090
-  server: 172.96.161.152
+  port: 80
+  server: 104.128.72.119
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_14264
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: US_United States_ss_1651
   server: ss.046.node-for-bigairport.win
   type: ss
@@ -569,47 +549,46 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_012
   - US_United States_trojan_015
-  - US_United States_vless_94
-  - US_United States_vmess_913
-  - US_United States_vless_9144
-  - US_United States_socks5_9147
-  - US_United States_vless_9152
-  - US_United States_http_9162
-  - US_United States_vless_9171
-  - US_United States_vmess_9186
-  - US_United States_ss_9187
-  - US_United States_vless_9188
-  - US_United States_vless_9189
-  - US_United States_vless_9190
-  - US_United States_vless_9191
-  - US_United States_vless_9192
+  - US_United States_ss_125
+  - US_United States_ss_128
   - US_United States_vmess_141
-  - US_United States_hysteria2_142
+  - US_United States_hysteria2_143
   - US_United States_http_147
-  - US_United States_ss_149
-  - US_United States_hysteria2_1411
-  - US_United States_ss_1413
-  - US_United States_ss_1415
-  - US_United States_hysteria2_1432
-  - US_United States_hysteria2_1440
-  - US_United States_hysteria2_1452
-  - US_United States_hysteria2_1454
-  - US_United States_hysteria2_1497
+  - US_United States_vless_149
+  - US_United States_ss_1411
+  - US_United States_ss_1412
+  - US_United States_vless_1414
+  - US_United States_http_1415
+  - US_United States_vmess_1417
+  - US_United States_vless_1418
+  - US_United States_ss_1419
+  - US_United States_mieru_1420
+  - US_United States_trojan_1424
+  - US_United States_hysteria2_1426
+  - US_United States_hysteria2_1442
+  - US_United States_ss_1464
+  - US_United States_hysteria2_14105
+  - US_United States_vmess_14109
+  - US_United States_hysteria2_14139
+  - US_United States_vmess_14149
   - US_United States_hysteria2_14202
-  - US_United States_socks5_14205
-  - US_United States_mieru_14209
-  - US_United States_vless_14210
-  - US_United States_vless_14212
-  - US_United States_vmess_14213
-  - US_United States_vless_14215
-  - US_United States_vless_14221
-  - US_United States_socks5_14223
-  - US_United States_http_14228
-  - US_United States_socks5_14230
-  - US_United States_vless_14232
-  - US_United States_vless_14237
-  - US_United States_vless_14240
-  - US_United States_ss_14242
+  - US_United States_socks5_14209
+  - US_United States_ss_14213
+  - US_United States_socks5_14222
+  - US_United States_hysteria2_14232
+  - US_United States_vless_14234
+  - US_United States_vless_14235
+  - US_United States_hysteria2_14236
+  - US_United States_hysteria2_14238
+  - US_United States_hysteria2_14242
+  - US_United States_hysteria2_14243
+  - US_United States_vless_14244
+  - US_United States_vless_14245
+  - US_United States_trojan_14246
+  - US_United States_socks5_14256
+  - US_United States_vless_14260
+  - US_United States_ss_14261
+  - US_United States_vmess_14264
   - US_United States_ss_1651
 - name: 自动选择
   type: url-test
@@ -624,47 +603,46 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_012
   - US_United States_trojan_015
-  - US_United States_vless_94
-  - US_United States_vmess_913
-  - US_United States_vless_9144
-  - US_United States_socks5_9147
-  - US_United States_vless_9152
-  - US_United States_http_9162
-  - US_United States_vless_9171
-  - US_United States_vmess_9186
-  - US_United States_ss_9187
-  - US_United States_vless_9188
-  - US_United States_vless_9189
-  - US_United States_vless_9190
-  - US_United States_vless_9191
-  - US_United States_vless_9192
+  - US_United States_ss_125
+  - US_United States_ss_128
   - US_United States_vmess_141
-  - US_United States_hysteria2_142
+  - US_United States_hysteria2_143
   - US_United States_http_147
-  - US_United States_ss_149
-  - US_United States_hysteria2_1411
-  - US_United States_ss_1413
-  - US_United States_ss_1415
-  - US_United States_hysteria2_1432
-  - US_United States_hysteria2_1440
-  - US_United States_hysteria2_1452
-  - US_United States_hysteria2_1454
-  - US_United States_hysteria2_1497
+  - US_United States_vless_149
+  - US_United States_ss_1411
+  - US_United States_ss_1412
+  - US_United States_vless_1414
+  - US_United States_http_1415
+  - US_United States_vmess_1417
+  - US_United States_vless_1418
+  - US_United States_ss_1419
+  - US_United States_mieru_1420
+  - US_United States_trojan_1424
+  - US_United States_hysteria2_1426
+  - US_United States_hysteria2_1442
+  - US_United States_ss_1464
+  - US_United States_hysteria2_14105
+  - US_United States_vmess_14109
+  - US_United States_hysteria2_14139
+  - US_United States_vmess_14149
   - US_United States_hysteria2_14202
-  - US_United States_socks5_14205
-  - US_United States_mieru_14209
-  - US_United States_vless_14210
-  - US_United States_vless_14212
-  - US_United States_vmess_14213
-  - US_United States_vless_14215
-  - US_United States_vless_14221
-  - US_United States_socks5_14223
-  - US_United States_http_14228
-  - US_United States_socks5_14230
-  - US_United States_vless_14232
-  - US_United States_vless_14237
-  - US_United States_vless_14240
-  - US_United States_ss_14242
+  - US_United States_socks5_14209
+  - US_United States_ss_14213
+  - US_United States_socks5_14222
+  - US_United States_hysteria2_14232
+  - US_United States_vless_14234
+  - US_United States_vless_14235
+  - US_United States_hysteria2_14236
+  - US_United States_hysteria2_14238
+  - US_United States_hysteria2_14242
+  - US_United States_hysteria2_14243
+  - US_United States_vless_14244
+  - US_United States_vless_14245
+  - US_United States_trojan_14246
+  - US_United States_socks5_14256
+  - US_United States_vless_14260
+  - US_United States_ss_14261
+  - US_United States_vmess_14264
   - US_United States_ss_1651
 rules:
 - DOMAIN,clash.razord.top,DIRECT
