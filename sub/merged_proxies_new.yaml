@@ -111,65 +111,52 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: US_United States_trojan_115
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 16.163.123.222
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_118
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 54876
-  server: 57.183.7.187
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: US_United States_vmess_127
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: US_United States_ss_128
+  password: amazonskr05
+  port: '443'
+  server: 54.196.207.151
+  type: ss
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alpn:
   - http/1.1
-  name: US_United States_trojan_128
+  name: US_United States_trojan_133
   network: ws
   password: MITIVPN
   port: '443'
-  server: 104.16.239.120
+  server: 188.114.98.0
   skip-cert-verify: true
-  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
-  name: US_United States_trojan_129
+  name: US_United States_trojan_134
   network: ws
-  password: MITIVPN
+  password: MiTiVPN
   port: '443'
-  server: 104.17.148.22
+  server: 188.114.97.6
   skip-cert-verify: true
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_136
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 152.70.26.250
+  type: ss
+  udp: true
 - name: US_United States_vless_1210
   type: vless
   server: 172.86.91.58
@@ -1235,19 +1222,6 @@ proxies:
   ws-opts:
     path: /ws-vmess
   udp: true
-- name: US_United States_vmess_12308
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
 - name: US_United States_vmess_12310
   type: vmess
   server: ejomsxptp19apygl.v.3dns.vip
@@ -1355,13 +1329,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 98.94.8.252
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1425
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
   type: ss
   udp: true
 - client-fingerprint: firefox
@@ -1660,11 +1627,10 @@ proxy-groups:
   - US_United States_trojan_023
   - US_United States_trojan_028
   - US_United States_trojan_029
-  - US_United States_trojan_115
-  - US_United States_trojan_118
-  - US_United States_vmess_127
-  - US_United States_trojan_128
-  - US_United States_trojan_129
+  - US_United States_ss_128
+  - US_United States_trojan_133
+  - US_United States_trojan_134
+  - US_United States_ss_136
   - US_United States_vless_1210
   - US_United States_trojan_1229
   - US_United States_vless_1232
@@ -1741,7 +1707,6 @@ proxy-groups:
   - US_United States_vless_12303
   - US_United States_vmess_12306
   - US_United States_vmess_12307
-  - US_United States_vmess_12308
   - US_United States_vmess_12310
   - US_United States_vmess_12312
   - US_United States_ss_142
@@ -1752,7 +1717,6 @@ proxy-groups:
   - US_United States_vless_1420
   - US_United States_ss_1421
   - US_United States_ss_1423
-  - US_United States_ss_1425
   - US_United States_vless_1439
   - US_United States_vless_1446
   - US_United States_vless_1447
@@ -1791,11 +1755,10 @@ proxy-groups:
   - US_United States_trojan_023
   - US_United States_trojan_028
   - US_United States_trojan_029
-  - US_United States_trojan_115
-  - US_United States_trojan_118
-  - US_United States_vmess_127
-  - US_United States_trojan_128
-  - US_United States_trojan_129
+  - US_United States_ss_128
+  - US_United States_trojan_133
+  - US_United States_trojan_134
+  - US_United States_ss_136
   - US_United States_vless_1210
   - US_United States_trojan_1229
   - US_United States_vless_1232
@@ -1872,7 +1835,6 @@ proxy-groups:
   - US_United States_vless_12303
   - US_United States_vmess_12306
   - US_United States_vmess_12307
-  - US_United States_vmess_12308
   - US_United States_vmess_12310
   - US_United States_vmess_12312
   - US_United States_ss_142
@@ -1883,7 +1845,6 @@ proxy-groups:
   - US_United States_vless_1420
   - US_United States_ss_1421
   - US_United States_ss_1423
-  - US_United States_ss_1425
   - US_United States_vless_1439
   - US_United States_vless_1446
   - US_United States_vless_1447
