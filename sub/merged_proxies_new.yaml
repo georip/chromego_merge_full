@@ -111,46 +111,76 @@ proxies:
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
-- name: US_United States_trojan_126
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_127
+  name: US_United States_ss_126
   password: amazonskr05
   port: 443
-  server: 13.231.162.164
+  server: 13.231.179.245
   type: ss
   udp: true
-- name: US_United States_vless_94
-  server: 185.82.219.152
-  port: 13443
+- name: US_United States_trojan_99
+  server: skilled-lioness.rooster465.autos
+  port: 443
+  type: trojan
+  password: ND91608427
+  sni: skilled-lioness.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_910
+  server: family.bucket.9.kfc-520.com
+  port: 10053
   type: vless
-  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
   flow: xtls-rprx-vision
   tls: true
   skip-cert-verify: false
-  client-fingerprint: qq
-  servername: auto.cendora.ru
+  client-fingerprint: firefox
+  servername: www.amd.com
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
+    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+    short-id: cbbf64
   network: tcp
   udp: true
-- name: US_United States_vless_986
-  server: 157.137.223.179
-  port: 62145
+- name: US_United States_vless_911
+  server: family.bucket.4.kfc-520.com
+  port: 10005
   type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+  flow: xtls-rprx-vision
+  tls: true
   skip-cert-verify: false
+  client-fingerprint: firefox
+  servername: www.asus.com
+  reality-opts:
+    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
+    short-id: 1974efea3b2148
+  network: tcp
   udp: true
-- name: US_United States_vless_987
+- name: US_United States_http_956
+  server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
+  port: 443
+  type: http
+  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  tls: true
+  udp: true
+- name: US_United States_http_958
+  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+  port: 443
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  tls: true
+  udp: true
+- name: US_United States_http_960
+  server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
+  port: 443
+  type: http
+  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  tls: true
+  udp: true
+- name: US_United States_vless_961
   server: 88.218.44.4
   port: 993
   type: vless
@@ -164,30 +194,24 @@ proxies:
     public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
   network: tcp
   udp: true
-- name: US_United States_vmess_989
-  server: select-hk.ddnskunlun.com
-  port: 9006
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vmess_992
-  server: board-04.ddnskunlun.com
-  port: 11973
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: US_United States_http_962
+  server: 38.28.193.188
+  port: 443
+  type: http
+  tls: true
   skip-cert-verify: true
   udp: true
 - name: US_United States_socks5_142
   port: 10800
   server: 47.75.116.41
   type: socks5
+- cipher: aes-256-cfb
+  name: US_United States_ss_145
+  password: amazonskr05
+  port: 443
+  server: 13.231.162.164
+  type: ss
+  udp: true
 - name: US_United States_http_1410
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 443
@@ -352,14 +376,6 @@ proxies:
   server: 3.85.61.177
   type: ss
   udp: true
-- name: US_United States_http_1462
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: 443
-  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
-  sni: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
 - cipher: 2022-blake3-aes-128-gcm
   name: US_United States_ss_1464
   password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
@@ -381,14 +397,6 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
-- name: US_United States_http_1468
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
-  sni: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
-  tls: true
-  type: http
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
 - alterId: 0
   cipher: auto
   client-fingerprint: safari
@@ -422,13 +430,6 @@ proxies:
   server: 157.137.236.87
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- cipher: aes-256-cfb
-  name: US_United States_ss_1482
-  password: amazonskr05
-  port: 443
-  server: 13.231.179.245
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_1483
   network: ws
@@ -492,14 +493,6 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: US_United States_http_14105
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-  sni: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-  tls: true
-  type: http
-  username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
 - client-fingerprint: chrome
   name: US_United States_trojan_14113
   network: ws
@@ -523,12 +516,6 @@ proxies:
   tls: true
   type: http
   username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-- name: US_United States_http_14121
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_14126
   password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
@@ -838,6 +825,20 @@ proxies:
     headers:
       Host: usa_multi.mygoldiran.com
     path: /idea
+- name: US_United States_vless_14385
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
 - name: US_United States_socks5_14386
   password: admin
   port: 1080
@@ -896,14 +897,17 @@ proxy-groups:
   - US_United States_trojan_020
   - US_United States_trojan_021
   - US_United States_trojan_022
-  - US_United States_trojan_126
-  - US_United States_ss_127
-  - US_United States_vless_94
-  - US_United States_vless_986
-  - US_United States_vless_987
-  - US_United States_vmess_989
-  - US_United States_vmess_992
+  - US_United States_ss_126
+  - US_United States_trojan_99
+  - US_United States_vless_910
+  - US_United States_vless_911
+  - US_United States_http_956
+  - US_United States_http_958
+  - US_United States_http_960
+  - US_United States_vless_961
+  - US_United States_http_962
   - US_United States_socks5_142
+  - US_United States_ss_145
   - US_United States_http_1410
   - US_United States_trojan_1413
   - US_United States_trojan_1416
@@ -924,15 +928,12 @@ proxy-groups:
   - US_United States_vless_1453
   - US_United States_vless_1457
   - US_United States_ss_1458
-  - US_United States_http_1462
   - US_United States_ss_1464
   - US_United States_http_1466
-  - US_United States_http_1468
   - US_United States_vmess_1469
   - US_United States_trojan_1473
   - US_United States_vless_1477
   - US_United States_vless_1481
-  - US_United States_ss_1482
   - US_United States_trojan_1483
   - US_United States_vless_1484
   - US_United States_socks5_1487
@@ -941,10 +942,8 @@ proxy-groups:
   - US_United States_vmess_1495
   - US_United States_http_1496
   - US_United States_mieru_1499
-  - US_United States_http_14105
   - US_United States_trojan_14113
   - US_United States_http_14117
-  - US_United States_http_14121
   - US_United States_ss_14126
   - US_United States_ss_14129
   - US_United States_vless_14147
@@ -974,6 +973,7 @@ proxy-groups:
   - US_United States_vless_14377
   - US_United States_socks5_14383
   - US_United States_vless_14384
+  - US_United States_vless_14385
   - US_United States_socks5_14386
   - US_United States_socks5_14387
   - US_United States_hysteria2_14395
@@ -996,14 +996,17 @@ proxy-groups:
   - US_United States_trojan_020
   - US_United States_trojan_021
   - US_United States_trojan_022
-  - US_United States_trojan_126
-  - US_United States_ss_127
-  - US_United States_vless_94
-  - US_United States_vless_986
-  - US_United States_vless_987
-  - US_United States_vmess_989
-  - US_United States_vmess_992
+  - US_United States_ss_126
+  - US_United States_trojan_99
+  - US_United States_vless_910
+  - US_United States_vless_911
+  - US_United States_http_956
+  - US_United States_http_958
+  - US_United States_http_960
+  - US_United States_vless_961
+  - US_United States_http_962
   - US_United States_socks5_142
+  - US_United States_ss_145
   - US_United States_http_1410
   - US_United States_trojan_1413
   - US_United States_trojan_1416
@@ -1024,15 +1027,12 @@ proxy-groups:
   - US_United States_vless_1453
   - US_United States_vless_1457
   - US_United States_ss_1458
-  - US_United States_http_1462
   - US_United States_ss_1464
   - US_United States_http_1466
-  - US_United States_http_1468
   - US_United States_vmess_1469
   - US_United States_trojan_1473
   - US_United States_vless_1477
   - US_United States_vless_1481
-  - US_United States_ss_1482
   - US_United States_trojan_1483
   - US_United States_vless_1484
   - US_United States_socks5_1487
@@ -1041,10 +1041,8 @@ proxy-groups:
   - US_United States_vmess_1495
   - US_United States_http_1496
   - US_United States_mieru_1499
-  - US_United States_http_14105
   - US_United States_trojan_14113
   - US_United States_http_14117
-  - US_United States_http_14121
   - US_United States_ss_14126
   - US_United States_ss_14129
   - US_United States_vless_14147
@@ -1074,6 +1072,7 @@ proxy-groups:
   - US_United States_vless_14377
   - US_United States_socks5_14383
   - US_United States_vless_14384
+  - US_United States_vless_14385
   - US_United States_socks5_14386
   - US_United States_socks5_14387
   - US_United States_hysteria2_14395
