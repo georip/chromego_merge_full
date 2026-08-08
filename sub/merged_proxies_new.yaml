@@ -103,6 +103,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: US_United States_ss_126
+  password: amazonskr05
+  port: 443
+  server: 13.114.17.103
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_127
+  network: ws
+  port: '41963'
+  server: us.klxiaogou.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
+  ws-opts:
+    headers:
+      Host: us.klxiaogou.com
+    path: /124
+  xudp: true
 - name: US_United States_vless_920
   server: evacuee.papstore.xyz
   port: 40724
@@ -134,6 +156,8 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_013
   - US_United States_trojan_014
+  - US_United States_ss_126
+  - US_United States_vmess_127
   - US_United States_vless_920
 - name: 自动选择
   type: url-test
@@ -151,6 +175,8 @@ proxy-groups:
   - US_United States_trojan_011
   - US_United States_trojan_013
   - US_United States_trojan_014
+  - US_United States_ss_126
+  - US_United States_vmess_127
   - US_United States_vless_920
 rules:
 - DOMAIN,clash.razord.top,DIRECT
