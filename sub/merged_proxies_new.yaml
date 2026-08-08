@@ -138,6 +138,48 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
+- name: US_United States_trojan_153
+  server: 2c.fast9988.com
+  port: 50887
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_154
+  server: 43.198.109.39
+  port: 11035
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_155
+  server: 43.198.126.41
+  port: 35151
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1510
+  server: 57.183.7.187
+  port: 32434
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_1511
+  server: 18.166.178.40
+  port: 45744
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1514
+  server: 43.198.89.155
+  port: 1431
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -157,6 +199,12 @@ proxy-groups:
   - US_United States_ss_132
   - US_United States_vless_920
   - US_United States_ss_923
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_1510
+  - US_United States_trojan_1511
+  - US_United States_trojan_1514
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -176,6 +224,12 @@ proxy-groups:
   - US_United States_ss_132
   - US_United States_vless_920
   - US_United States_ss_923
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_1510
+  - US_United States_trojan_1511
+  - US_United States_trojan_1514
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
