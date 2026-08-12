@@ -96,26 +96,62 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_126
+- client-fingerprint: chrome
+  name: US_United States_trojan_126
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: US_United States_trojan_128
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: US_United States_ss_129
+  password: amazonskr05
+  port: 443
+  server: 51.102.205.132
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_130
+  password: amazonskr05
+  port: 443
+  server: 18.219.164.184
+  type: ss
+  udp: true
+- name: US_United States_trojan_145
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg6.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: US_United States_trojan_146
   password: smart@hkteVBi9aMFp-veBGU72OSCx
   port: 443
   server: starlink-sg5.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_127
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 21521
-  server: z-hk1.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: US_United States_trojan_129
-  password: smart@hkteVBi9aMFp-veBGU72OSCx
-  port: 10010
-  server: z-sg1.251313.xyz
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
@@ -193,13 +229,6 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1422
-  password: amazonskr05
-  port: 443
-  server: 51.102.205.132
-  type: ss
-  udp: true
 - name: US_United States_socks5_1423
   password: admin
   port: 5555
@@ -261,12 +290,28 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
   udp: true
+- name: US_United States_trojan_1432
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10006
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: US_United States_ss_1434
   password: amazonskr05
   port: 443
   server: 15.237.177.224
   type: ss
+  udp: true
+- name: US_United States_trojan_1435
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21525
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
 - name: US_United States_http_1445
   password: gs4BXwT6SW
@@ -296,13 +341,6 @@ proxies:
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1457
-  password: amazonskr05
-  port: 443
-  server: 18.219.164.184
-  type: ss
   udp: true
 - name: US_United States_trojan_1458
   password: smart@hkteVBi9aMFp-veBGU72OSCx
@@ -962,6 +1000,48 @@ proxies:
   server: 47.237.78.169
   type: socks5
   username: user
+- name: US_United States_trojan_153
+  server: 16.162.100.124
+  port: 11231
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: false
+- name: US_United States_trojan_154
+  server: 18.162.244.203
+  port: 11035
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_155
+  server: 18.162.120.218
+  port: 11035
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_157
+  server: 16.162.192.182
+  port: 44229
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_1511
+  server: 18.163.126.92
+  port: 26704
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1512
+  server: 95.40.14.234
+  port: 28051
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
 - name: US_United States_ss_161
   server: 130.61.147.181
   port: 59924
@@ -1005,8 +1085,11 @@ proxy-groups:
   - US_United States_trojan_012
   - US_United States_trojan_013
   - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_129
+  - US_United States_trojan_128
+  - US_United States_ss_129
+  - US_United States_ss_130
+  - US_United States_trojan_145
+  - US_United States_trojan_146
   - US_United States_hysteria2_1411
   - US_United States_hysteria2_1412
   - US_United States_hysteria2_1415
@@ -1015,7 +1098,6 @@ proxy-groups:
   - US_United States_trojan_1418
   - US_United States_hysteria2_1419
   - US_United States_trojan_1421
-  - US_United States_ss_1422
   - US_United States_socks5_1423
   - US_United States_hysteria2_1424
   - US_United States_vless_1425
@@ -1023,12 +1105,13 @@ proxy-groups:
   - US_United States_trojan_1428
   - US_United States_trojan_1429
   - US_United States_trojan_1431
+  - US_United States_trojan_1432
   - US_United States_ss_1434
+  - US_United States_trojan_1435
   - US_United States_http_1445
   - US_United States_http_1446
   - US_United States_ss_1449
   - US_United States_trojan_1452
-  - US_United States_ss_1457
   - US_United States_trojan_1458
   - US_United States_http_1460
   - US_United States_trojan_1461
@@ -1112,6 +1195,12 @@ proxy-groups:
   - US_United States_socks5_14495
   - US_United States_ss_14496
   - US_United States_socks5_14497
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_157
+  - US_United States_trojan_1511
+  - US_United States_trojan_1512
   - US_United States_ss_161
   - US_United States_trojan_163
   - US_United States_trojan_164
@@ -1131,8 +1220,11 @@ proxy-groups:
   - US_United States_trojan_012
   - US_United States_trojan_013
   - US_United States_trojan_126
-  - US_United States_trojan_127
-  - US_United States_trojan_129
+  - US_United States_trojan_128
+  - US_United States_ss_129
+  - US_United States_ss_130
+  - US_United States_trojan_145
+  - US_United States_trojan_146
   - US_United States_hysteria2_1411
   - US_United States_hysteria2_1412
   - US_United States_hysteria2_1415
@@ -1141,7 +1233,6 @@ proxy-groups:
   - US_United States_trojan_1418
   - US_United States_hysteria2_1419
   - US_United States_trojan_1421
-  - US_United States_ss_1422
   - US_United States_socks5_1423
   - US_United States_hysteria2_1424
   - US_United States_vless_1425
@@ -1149,12 +1240,13 @@ proxy-groups:
   - US_United States_trojan_1428
   - US_United States_trojan_1429
   - US_United States_trojan_1431
+  - US_United States_trojan_1432
   - US_United States_ss_1434
+  - US_United States_trojan_1435
   - US_United States_http_1445
   - US_United States_http_1446
   - US_United States_ss_1449
   - US_United States_trojan_1452
-  - US_United States_ss_1457
   - US_United States_trojan_1458
   - US_United States_http_1460
   - US_United States_trojan_1461
@@ -1238,6 +1330,12 @@ proxy-groups:
   - US_United States_socks5_14495
   - US_United States_ss_14496
   - US_United States_socks5_14497
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_157
+  - US_United States_trojan_1511
+  - US_United States_trojan_1512
   - US_United States_ss_161
   - US_United States_trojan_163
   - US_United States_trojan_164
