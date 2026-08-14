@@ -723,6 +723,18 @@ proxies:
   port: 2999
   server: 174.137.134.182
   type: http
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: US_United States_vmess_14383
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - name: US_United States_socks5_14384
   password: ''
   port: 1080
@@ -788,6 +800,57 @@ proxies:
   port: 1083
   server: 216.22.13.244
   type: socks5
+- name: US_United States_trojan_153
+  server: 43.198.107.164
+  port: 7674
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_154
+  server: 18.163.113.86
+  port: 11035
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_156
+  server: 43.199.31.69
+  port: 4099
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_159
+  server: 16.162.129.182
+  port: 32434
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_1510
+  server: 16.162.192.182
+  port: 45744
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_1514
+  server: 16.162.192.11
+  port: 53001
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_163
+  server: dashing-bedbug.rooster465.autos
+  type: trojan
+  country: 🇩🇪DE
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1106
 - name: US_United States_trojan_164
   server: 3.79.7.150
   type: trojan
@@ -798,6 +861,33 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 1359
+- name: US_United States_trojan_166
+  server: chief-cricket.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 2972
+- name: US_United States_trojan_167
+  server: one-quail.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1004
+- name: US_United States_trojan_168
+  server: tough-hermit.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1134
 - name: US_United States_trojan_1612
   server: improved-anteater.rooster465.autos
   type: trojan
@@ -895,6 +985,7 @@ proxy-groups:
   - US_United States_vless_14361
   - US_United States_vless_14369
   - US_United States_http_14380
+  - US_United States_vmess_14383
   - US_United States_socks5_14384
   - US_United States_http_14386
   - US_United States_socks5_14388
@@ -904,7 +995,17 @@ proxy-groups:
   - US_United States_trojan_14398
   - US_United States_http_14400
   - US_United States_socks5_14401
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_156
+  - US_United States_trojan_159
+  - US_United States_trojan_1510
+  - US_United States_trojan_1514
+  - US_United States_trojan_163
   - US_United States_trojan_164
+  - US_United States_trojan_166
+  - US_United States_trojan_167
+  - US_United States_trojan_168
   - US_United States_trojan_1612
 - name: 自动选择
   type: url-test
@@ -993,6 +1094,7 @@ proxy-groups:
   - US_United States_vless_14361
   - US_United States_vless_14369
   - US_United States_http_14380
+  - US_United States_vmess_14383
   - US_United States_socks5_14384
   - US_United States_http_14386
   - US_United States_socks5_14388
@@ -1002,7 +1104,17 @@ proxy-groups:
   - US_United States_trojan_14398
   - US_United States_http_14400
   - US_United States_socks5_14401
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_156
+  - US_United States_trojan_159
+  - US_United States_trojan_1510
+  - US_United States_trojan_1514
+  - US_United States_trojan_163
   - US_United States_trojan_164
+  - US_United States_trojan_166
+  - US_United States_trojan_167
+  - US_United States_trojan_168
   - US_United States_trojan_1612
 rules:
 - DOMAIN,clash.razord.top,DIRECT
