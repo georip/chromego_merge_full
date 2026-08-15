@@ -111,45 +111,24 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: US_United States_trojan_126
-  password: FH72359861
-  port: 443
-  server: closing-falcon.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
 - name: US_United States_trojan_127
   password: FH72359861
   port: 443
-  server: topical-shark.rooster465.autos
+  server: correct-pony.rooster465.autos
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
   name: US_United States_trojan_129
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: massive-ocelot.rooster465.autos
+  network: raw
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: '50887'
+  server: 2c.fast9988.com
   skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
   udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_130
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: apt-whippet.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_131
-  password: amazonskr05
-  port: 443
-  server: 15.237.184.221
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_132
   network: tcp
   password: FH72359861
   port: '443'
@@ -158,7 +137,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_133
+  name: US_United States_trojan_131
   network: tcp
   password: FH72359861
   port: '443'
@@ -167,25 +146,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_134
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: absolute-bobcat.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_135
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: great-wasp.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_136
+  name: US_United States_trojan_132
   network: tcp
   password: FH72359861
   port: '443'
@@ -194,20 +155,48 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_137
+  name: US_United States_trojan_133
   network: tcp
   password: FH72359861
   port: '443'
-  server: fond-chipmunk.rooster465.autos
+  server: kind-grizzly.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_134
+  password: amazonskr05
+  port: 443
+  server: 18.189.171.163
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_135
+  network: ws
+  port: 443
+  server: 157.254.227.87
+  servername: xc162.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 5b411308-d796-4694-b58d-d252e35bb475
+  ws-opts:
+    path: /d252e35bb475
+- client-fingerprint: chrome
+  name: US_United States_trojan_136
+  network: tcp
+  password: FH72359861
+  port: '443'
+  server: great-wasp.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: US_United States_trojan_138
+  name: US_United States_trojan_137
   network: tcp
   password: FH72359861
   port: '443'
-  server: square-tortoise.rooster465.autos
+  server: renewed-porpoise.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
@@ -337,6 +326,13 @@ proxies:
   type: socks5
   username: admin
 - cipher: aes-256-cfb
+  name: US_United States_ss_1436
+  password: amazonskr05
+  port: 443
+  server: 15.237.184.221
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: US_United States_ss_1438
   password: amazonskr05
   port: 443
@@ -388,13 +384,6 @@ proxies:
   udp: true
   udp-over-tcp: true
   udp-over-tcp-version: 2
-- cipher: aes-256-cfb
-  name: US_United States_ss_1448
-  password: amazonskr05
-  port: 443
-  server: 18.189.171.163
-  type: ss
-  udp: true
 - name: US_United States_vless_1450
   network: ws
   port: 8080
@@ -690,18 +679,6 @@ proxies:
   sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
   tls: true
   type: http
-- alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_14286
-  network: ws
-  port: 443
-  server: 157.254.227.87
-  servername: xc162.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: 5b411308-d796-4694-b58d-d252e35bb475
-  ws-opts:
-    path: /d252e35bb475
 - alterId: '0'
   cipher: auto
   name: US_United States_vmess_14288
@@ -1140,18 +1117,16 @@ proxy-groups:
   - US_United States_trojan_012
   - US_United States_trojan_014
   - US_United States_trojan_016
-  - US_United States_trojan_126
   - US_United States_trojan_127
   - US_United States_trojan_129
   - US_United States_trojan_130
-  - US_United States_ss_131
+  - US_United States_trojan_131
   - US_United States_trojan_132
   - US_United States_trojan_133
-  - US_United States_trojan_134
-  - US_United States_trojan_135
+  - US_United States_ss_134
+  - US_United States_vmess_135
   - US_United States_trojan_136
   - US_United States_trojan_137
-  - US_United States_trojan_138
   - US_United States_vless_48
   - US_United States_ss_1410
   - US_United States_anytls_1411
@@ -1166,12 +1141,12 @@ proxy-groups:
   - US_United States_vless_1429
   - US_United States_http_1432
   - US_United States_socks5_1434
+  - US_United States_ss_1436
   - US_United States_ss_1438
   - US_United States_ss_1441
   - US_United States_http_1442
   - US_United States_socks5_1443
   - US_United States_ss_1446
-  - US_United States_ss_1448
   - US_United States_vless_1450
   - US_United States_socks5_1455
   - US_United States_http_1463
@@ -1206,7 +1181,6 @@ proxy-groups:
   - US_United States_http_14268
   - US_United States_vmess_14276
   - US_United States_http_14284
-  - US_United States_vmess_14286
   - US_United States_vmess_14288
   - US_United States_vless_14314
   - US_United States_ss_14317
@@ -1265,18 +1239,16 @@ proxy-groups:
   - US_United States_trojan_012
   - US_United States_trojan_014
   - US_United States_trojan_016
-  - US_United States_trojan_126
   - US_United States_trojan_127
   - US_United States_trojan_129
   - US_United States_trojan_130
-  - US_United States_ss_131
+  - US_United States_trojan_131
   - US_United States_trojan_132
   - US_United States_trojan_133
-  - US_United States_trojan_134
-  - US_United States_trojan_135
+  - US_United States_ss_134
+  - US_United States_vmess_135
   - US_United States_trojan_136
   - US_United States_trojan_137
-  - US_United States_trojan_138
   - US_United States_vless_48
   - US_United States_ss_1410
   - US_United States_anytls_1411
@@ -1291,12 +1263,12 @@ proxy-groups:
   - US_United States_vless_1429
   - US_United States_http_1432
   - US_United States_socks5_1434
+  - US_United States_ss_1436
   - US_United States_ss_1438
   - US_United States_ss_1441
   - US_United States_http_1442
   - US_United States_socks5_1443
   - US_United States_ss_1446
-  - US_United States_ss_1448
   - US_United States_vless_1450
   - US_United States_socks5_1455
   - US_United States_http_1463
@@ -1331,7 +1303,6 @@ proxy-groups:
   - US_United States_http_14268
   - US_United States_vmess_14276
   - US_United States_http_14284
-  - US_United States_vmess_14286
   - US_United States_vmess_14288
   - US_United States_vless_14314
   - US_United States_ss_14317
