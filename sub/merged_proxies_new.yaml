@@ -103,6 +103,21 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_126
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
 - name: US_United States_vless_111
   type: vless
   network: ws
@@ -1707,21 +1722,6 @@ proxies:
     headers:
       Host: hidden-river-df80-ppal03.bewome9099.workers.dev
     path: /?ed=2560
-- name: US_United States_vless_11206
-  type: vless
-  network: ws
-  server: 104.16.7.70
-  port: 2095
-  uuid: 2b5f8588-87f6-40af-a785-322c8fa1df77
-  servername: sni.111000.dynv6.azazilvpn.sbs
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.azazilvpn.sbs
-    path: /XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560
 - name: US_United States_vless_11211
   type: vless
   network: ws
@@ -7873,6 +7873,7 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_011
   - US_United States_trojan_015
+  - US_United States_trojan_126
   - US_United States_vless_111
   - US_United States_vless_112
   - US_United States_vless_113
@@ -7988,7 +7989,6 @@ proxy-groups:
   - US_United States_vless_11202
   - US_United States_vless_11203
   - US_United States_vless_11204
-  - US_United States_vless_11206
   - US_United States_vless_11211
   - US_United States_vless_11213
   - US_United States_vless_11214
@@ -8512,6 +8512,7 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_011
   - US_United States_trojan_015
+  - US_United States_trojan_126
   - US_United States_vless_111
   - US_United States_vless_112
   - US_United States_vless_113
@@ -8627,7 +8628,6 @@ proxy-groups:
   - US_United States_vless_11202
   - US_United States_vless_11203
   - US_United States_vless_11204
-  - US_United States_vless_11206
   - US_United States_vless_11211
   - US_United States_vless_11213
   - US_United States_vless_11214
