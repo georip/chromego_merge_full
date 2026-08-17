@@ -119,6 +119,13 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: US_United States_anytls_1424
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 443
+  server: us62.jdoanst2026.com
+  sni: us62.jdoanst2026.com
+  type: anytls
+  udp: true
 - name: US_United States_socks5_1428
   password: abc123
   port: 1080
@@ -873,6 +880,41 @@ proxies:
   tls: true
   type: http
   username: testuser1
+- name: US_United States_trojan_153
+  server: 16.163.156.207
+  port: 14684
+  type: trojan
+  password: 6ec301428255a78a1d826988d86cc87e
+  sni: www.nintendogames.net
+  skip-cert-verify: true
+- name: US_United States_trojan_154
+  server: 43.198.240.223
+  port: 29444
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_155
+  server: 43.198.109.134
+  port: 14684
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_156
+  server: 16.163.139.175
+  port: 49811
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1514
+  server: 16.163.144.245
+  port: 39024
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
 - name: US_United States_http_1682
   server: fan.226278.xyz
   port: 443
@@ -899,6 +941,7 @@ proxy-groups:
   - US_United States_trojan_012
   - US_United States_trojan_014
   - US_United States_trojan_016
+  - US_United States_anytls_1424
   - US_United States_socks5_1428
   - US_United States_anytls_1433
   - US_United States_anytls_1434
@@ -975,6 +1018,11 @@ proxy-groups:
   - US_United States_socks5_14494
   - US_United States_vless_14497
   - US_United States_http_14498
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_1514
   - US_United States_http_1682
 - name: 自动选择
   type: url-test
@@ -994,6 +1042,7 @@ proxy-groups:
   - US_United States_trojan_012
   - US_United States_trojan_014
   - US_United States_trojan_016
+  - US_United States_anytls_1424
   - US_United States_socks5_1428
   - US_United States_anytls_1433
   - US_United States_anytls_1434
@@ -1070,6 +1119,11 @@ proxy-groups:
   - US_United States_socks5_14494
   - US_United States_vless_14497
   - US_United States_http_14498
+  - US_United States_trojan_153
+  - US_United States_trojan_154
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_1514
   - US_United States_http_1682
 rules:
 - DOMAIN,clash.razord.top,DIRECT
