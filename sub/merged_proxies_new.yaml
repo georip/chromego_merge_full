@@ -103,144 +103,6 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_126
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: well-goshawk.rooster465.autos
-  skip-cert-verify: false
-  sni: well-goshawk.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_128
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.210
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_trojan_129
-  network: ws
-  password: humanity
-  port: '443'
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_130
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 3.36.124.155
-  skip-cert-verify: false
-  sni: novel-kodiak.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_131
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 57.180.56.235
-  skip-cert-verify: false
-  sni: gentle-perch.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_132
-  network: tcp
-  password: fg20mtCFHy
-  port: 5577
-  server: 172.232.42.44
-  skip-cert-verify: true
-  sni: gtyxz.southbyte.xyz
-  type: trojan
-- client-fingerprint: chrome
-  name: US_United States_trojan_133
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 47.129.160.142
-  skip-cert-verify: false
-  sni: well-goshawk.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_134
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: gentle-perch.rooster465.autos
-  skip-cert-verify: false
-  sni: gentle-perch.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_135
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: novel-kodiak.rooster465.autos
-  skip-cert-verify: false
-  sni: novel-kodiak.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_136
-  network: tcp
-  password: fg20mtCFHy
-  port: '5710'
-  server: 172.105.197.232
-  skip-cert-verify: true
-  sni: jpcaw.southbyte.xyz
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_137
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_138
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: direct-hawk.rooster465.autos
-  skip-cert-verify: false
-  sni: direct-hawk.rooster465.autos
-  type: trojan
-  udp: true
 - name: US_United States_trojan_161
   server: 209.38.240.27
   type: trojan
@@ -327,6 +189,16 @@ proxies:
   sni: settling-shad.rooster465.autos
   skip-cert-verify: true
   delay: 2912
+- name: US_United States_trojan_1689
+  server: 172.105.197.232
+  type: trojan
+  country: 🇯🇵JP
+  port: 5710
+  password: fg20mtCFHy
+  sni: jpcaw.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  delay: 591
 - name: US_United States_trojan_1690
   server: 172.234.100.80
   type: trojan
@@ -337,6 +209,16 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 981
+- name: US_United States_trojan_1691
+  server: 172.238.226.26
+  type: trojan
+  country: 🇺🇸US
+  port: 5444
+  password: fg20mtCFHy
+  sni: xcvge.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  delay: 945
 - name: US_United States_trojan_1692
   server: 157.245.99.215
   type: trojan
@@ -370,18 +252,6 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_015
-  - US_United States_trojan_126
-  - US_United States_trojan_128
-  - US_United States_trojan_129
-  - US_United States_trojan_130
-  - US_United States_trojan_131
-  - US_United States_trojan_132
-  - US_United States_trojan_133
-  - US_United States_trojan_134
-  - US_United States_trojan_135
-  - US_United States_trojan_136
-  - US_United States_trojan_137
-  - US_United States_trojan_138
   - US_United States_trojan_161
   - US_United States_ss_165
   - US_United States_trojan_1615
@@ -391,7 +261,9 @@ proxy-groups:
   - US_United States_trojan_1686
   - US_United States_trojan_1687
   - US_United States_trojan_1688
+  - US_United States_trojan_1689
   - US_United States_trojan_1690
+  - US_United States_trojan_1691
   - US_United States_trojan_1692
   - US_United States_trojan_1693
 - name: 自动选择
@@ -410,18 +282,6 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_015
-  - US_United States_trojan_126
-  - US_United States_trojan_128
-  - US_United States_trojan_129
-  - US_United States_trojan_130
-  - US_United States_trojan_131
-  - US_United States_trojan_132
-  - US_United States_trojan_133
-  - US_United States_trojan_134
-  - US_United States_trojan_135
-  - US_United States_trojan_136
-  - US_United States_trojan_137
-  - US_United States_trojan_138
   - US_United States_trojan_161
   - US_United States_ss_165
   - US_United States_trojan_1615
@@ -431,7 +291,9 @@ proxy-groups:
   - US_United States_trojan_1686
   - US_United States_trojan_1687
   - US_United States_trojan_1688
+  - US_United States_trojan_1689
   - US_United States_trojan_1690
+  - US_United States_trojan_1691
   - US_United States_trojan_1692
   - US_United States_trojan_1693
 rules:
