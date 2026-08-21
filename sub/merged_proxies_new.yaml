@@ -95,40 +95,90 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_126
-  network: ws
+- cipher: aes-256-cfb
+  name: US_United States_ss_126
+  password: amazonskr05
   port: 443
+  server: 63.186.69.235
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_127
+  password: amazonskr05
+  port: 443
+  server: 13.38.46.203
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_128
+  network: ws
+  port: '443'
   server: node.socks5.kdns.fr
-  servername: ericsson-lab-managed-oem.trycloudflare.com
-  skip-cert-verify: true
+  servername: chest-own-llp-collections.trycloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: f683235c-54b0-4442-bf0d-812d3804946e
+  udp: true
+  uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
   ws-opts:
     headers:
-      Host: ericsson-lab-managed-oem.trycloudflare.com
-    path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  client-fingerprint: chrome
-  name: US_United States_trojan_127
+      Host: chest-own-llp-collections.trycloudflare.com
+    path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
+  xudp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_131
   network: ws
   password: humanity
   port: '443'
-  server: 198.41.223.96
+  server: 104.18.152.204
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /assignment
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_132
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- cipher: aes-256-cfb
+  name: US_United States_ss_133
+  password: amazonskr05
+  port: 443
+  server: 51.44.167.151
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_134
+  password: amazonskr05
+  port: 443
+  server: 13.38.78.128
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_135
+  password: amazonskr05
+  port: 443
+  server: 63.176.139.123
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_136
+  password: amazonskr05
+  port: 443
+  server: 51.44.170.194
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_138
+  password: amazonskr05
+  port: 443
+  server: 3.145.61.0
+  type: ss
 - name: US_United States_vless_9130
   server: 38.244.4.1
   port: 443
@@ -337,18 +387,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1433
-  password: amazonskr05
-  port: 443
-  server: 13.38.46.203
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1435
-  password: amazonskr05
-  port: 443
-  server: 63.186.69.235
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_1436
   password: amazonskr05
   port: 443
@@ -468,12 +506,6 @@ proxies:
   server: 141.144.192.7
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1464
-  password: amazonskr05
-  port: 443
-  server: 13.38.78.128
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_1467
   password: amazonskr05
   port: 443
@@ -514,13 +546,6 @@ proxies:
   port: 443
   server: 18.185.179.35
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1477
-  password: amazonskr05
-  port: 443
-  server: 63.176.139.123
-  type: ss
-  udp: true
 - name: US_United States_http_1478
   password: gs4BXwT6SW
   port: 10988
@@ -528,23 +553,11 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
-- cipher: aes-256-cfb
-  name: US_United States_ss_1479
-  password: amazonskr05
-  port: 443
-  server: 51.44.167.151
-  type: ss
 - cipher: 2022-blake3-chacha20-poly1305
   name: US_United States_ss_1480
   password: 6pOYXynds0NHaX5zmVUEpWxt9hdlhhl7W4oIOL4EHKs=
   port: 61312
   server: 129.151.75.132
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1484
-  password: amazonskr05
-  port: 443
-  server: 51.44.170.194
   type: ss
 - cipher: 2022-blake3-chacha20-poly1305
   name: US_United States_ss_1485
@@ -716,12 +729,6 @@ proxies:
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- cipher: aes-256-cfb
-  name: US_United States_ss_14155
-  password: amazonskr05
-  port: 443
-  server: 3.145.61.0
-  type: ss
 - cipher: aes-128-gcm
   name: US_United States_ss_14162
   password: QHPy2u
@@ -1388,8 +1395,16 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_013
   - US_United States_trojan_014
-  - US_United States_vmess_126
-  - US_United States_trojan_127
+  - US_United States_ss_126
+  - US_United States_ss_127
+  - US_United States_vmess_128
+  - US_United States_trojan_131
+  - US_United States_vmess_132
+  - US_United States_ss_133
+  - US_United States_ss_134
+  - US_United States_ss_135
+  - US_United States_ss_136
+  - US_United States_ss_138
   - US_United States_vless_9130
   - US_United States_vless_9132
   - US_United States_http_9133
@@ -1411,8 +1426,6 @@ proxy-groups:
   - US_United States_trojan_1430
   - US_United States_trojan_1431
   - US_United States_trojan_1432
-  - US_United States_ss_1433
-  - US_United States_ss_1435
   - US_United States_ss_1436
   - US_United States_trojan_1437
   - US_United States_vless_1440
@@ -1427,18 +1440,14 @@ proxy-groups:
   - US_United States_ss_1458
   - US_United States_vless_1460
   - US_United States_ss_1462
-  - US_United States_ss_1464
   - US_United States_ss_1467
   - US_United States_hysteria2_1468
   - US_United States_ss_1471
   - US_United States_ss_1473
   - US_United States_hysteria2_1475
   - US_United States_ss_1476
-  - US_United States_ss_1477
   - US_United States_http_1478
-  - US_United States_ss_1479
   - US_United States_ss_1480
-  - US_United States_ss_1484
   - US_United States_ss_1485
   - US_United States_ss_1486
   - US_United States_vless_1487
@@ -1459,7 +1468,6 @@ proxy-groups:
   - US_United States_http_14138
   - US_United States_http_14143
   - US_United States_mieru_14150
-  - US_United States_ss_14155
   - US_United States_ss_14162
   - US_United States_ss_14164
   - US_United States_http_14168
@@ -1549,8 +1557,16 @@ proxy-groups:
   - US_United States_trojan_09
   - US_United States_trojan_013
   - US_United States_trojan_014
-  - US_United States_vmess_126
-  - US_United States_trojan_127
+  - US_United States_ss_126
+  - US_United States_ss_127
+  - US_United States_vmess_128
+  - US_United States_trojan_131
+  - US_United States_vmess_132
+  - US_United States_ss_133
+  - US_United States_ss_134
+  - US_United States_ss_135
+  - US_United States_ss_136
+  - US_United States_ss_138
   - US_United States_vless_9130
   - US_United States_vless_9132
   - US_United States_http_9133
@@ -1572,8 +1588,6 @@ proxy-groups:
   - US_United States_trojan_1430
   - US_United States_trojan_1431
   - US_United States_trojan_1432
-  - US_United States_ss_1433
-  - US_United States_ss_1435
   - US_United States_ss_1436
   - US_United States_trojan_1437
   - US_United States_vless_1440
@@ -1588,18 +1602,14 @@ proxy-groups:
   - US_United States_ss_1458
   - US_United States_vless_1460
   - US_United States_ss_1462
-  - US_United States_ss_1464
   - US_United States_ss_1467
   - US_United States_hysteria2_1468
   - US_United States_ss_1471
   - US_United States_ss_1473
   - US_United States_hysteria2_1475
   - US_United States_ss_1476
-  - US_United States_ss_1477
   - US_United States_http_1478
-  - US_United States_ss_1479
   - US_United States_ss_1480
-  - US_United States_ss_1484
   - US_United States_ss_1485
   - US_United States_ss_1486
   - US_United States_vless_1487
@@ -1620,7 +1630,6 @@ proxy-groups:
   - US_United States_http_14138
   - US_United States_http_14143
   - US_United States_mieru_14150
-  - US_United States_ss_14155
   - US_United States_ss_14162
   - US_United States_ss_14164
   - US_United States_http_14168
