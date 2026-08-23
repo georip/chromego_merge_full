@@ -103,6 +103,21 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: US_United States_trojan_127
+  network: ws
+  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
+  port: '443'
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  sni: baijofe6666.bpjp2027.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /images
 - name: US_United States_vless_44
   network: ws
   port: 443
@@ -5769,6 +5784,18 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: US_United States_ss_6952
+  server: api-a-asia-3.mcqqn.com
+  port: 61019
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3e836edc-e738-4e63-964d-ad61d9e3f27b
+- name: US_United States_ss_6953
+  server: api-a-asia-1.mcqqn.com
+  port: 61007
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3e836edc-e738-4e63-964d-ad61d9e3f27b
 - name: US_United States_vmess_6956
   server: 146.190.82.241
   port: 80
@@ -8843,21 +8870,6 @@ proxies:
     path: /
     headers:
       Host: oz.moonfree.top
-- name: US_United States_vmess_61993
-  server: xr-1.herokuapp.com
-  port: 443
-  type: vmess
-  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: xr-1.herokuapp.com
-  network: ws
-  ws-opts:
-    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-    headers:
-      Host: xr-1.herokuapp.com
 - name: US_United States_vmess_61994
   server: 527hk1.fans8.xyz
   port: 80
@@ -14224,6 +14236,7 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_012
+  - US_United States_trojan_127
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -14690,6 +14703,8 @@ proxy-groups:
   - US_United States_trojan_6934
   - US_United States_trojan_6941
   - US_United States_vmess_6946
+  - US_United States_ss_6952
+  - US_United States_ss_6953
   - US_United States_vmess_6956
   - US_United States_vmess_6957
   - US_United States_vmess_6960
@@ -15004,7 +15019,6 @@ proxy-groups:
   - US_United States_trojan_61977
   - US_United States_trojan_61984
   - US_United States_vmess_61992
-  - US_United States_vmess_61993
   - US_United States_vmess_61994
   - US_United States_vmess_61995
   - US_United States_vmess_61997
@@ -15531,6 +15545,7 @@ proxy-groups:
   - US_United States_trojan_010
   - US_United States_trojan_011
   - US_United States_trojan_012
+  - US_United States_trojan_127
   - US_United States_vless_44
   - US_United States_vless_48
   - US_United States_vless_49
@@ -15997,6 +16012,8 @@ proxy-groups:
   - US_United States_trojan_6934
   - US_United States_trojan_6941
   - US_United States_vmess_6946
+  - US_United States_ss_6952
+  - US_United States_ss_6953
   - US_United States_vmess_6956
   - US_United States_vmess_6957
   - US_United States_vmess_6960
@@ -16311,7 +16328,6 @@ proxy-groups:
   - US_United States_trojan_61977
   - US_United States_trojan_61984
   - US_United States_vmess_61992
-  - US_United States_vmess_61993
   - US_United States_vmess_61994
   - US_United States_vmess_61995
   - US_United States_vmess_61997
