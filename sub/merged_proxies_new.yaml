@@ -63,14 +63,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_127
-  network: tcp
+- name: US_United States_trojan_126
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
+  port: 20068
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: US_United States_trojan_128
   network: tcp
@@ -81,6 +81,36 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_129
+  password: amazonskr05
+  port: '443'
+  server: 35.182.226.235
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_130
+  password: amazonskr05
+  port: 443
+  server: 16.52.90.213
+  type: ss
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: US_United States_trojan_131
+  network: ws
+  password: epc3ufz9q4ocqeqh
+  port: '2087'
+  server: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  sni: uwu.dianaw.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - name: US_United States_trojan_61
   server: 85.90.246.11
   port: 28443
@@ -194,6 +224,21 @@ proxies:
   password: f033bd38-fe03-4705-883c-e45654eaa082
   sni: www.download.windowsupdate1.com
   skip-cert-verify: false
+- name: US_United States_vmess_628
+  server: kukuprogram1.herokuapp.com
+  port: 443
+  type: vmess
+  uuid: d170fb8f-bb43-41a0-930b-5889483c087f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: kukuprogram1.herokuapp.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kukuprogram1.herokuapp.com
 - name: US_United States_vmess_629
   server: 104.18.21.226
   port: 80
@@ -570,12 +615,6 @@ proxies:
     path: /
     headers:
       Host: 18.167.20.169
-- name: US_United States_ss_6205
-  server: api-a-asia-2.mcqqn.com
-  port: 61006
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3e836edc-e738-4e63-964d-ad61d9e3f27b
 - name: US_United States_trojan_6206
   server: vip-us-6.hkd4fwmg.xyz
   port: 13758
@@ -4716,6 +4755,12 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: US_United States_ss_6854
+  server: api-a-asia-2.mcqqn.com
+  port: 61005
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: dbefcef0-836b-4d58-aa05-146f7e63f06f
 - name: US_United States_ss_6855
   server: api-a-asia-3.mcqqn.com
   port: 61019
@@ -4828,6 +4873,12 @@ proxies:
   password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
   sni: gz01.xiaohouzi.club
   skip-cert-verify: false
+- name: US_United States_ss_6895
+  server: api-a-asia-4.mcqqn.com
+  port: 61002
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3e836edc-e738-4e63-964d-ad61d9e3f27b
 - name: US_United States_ss_6897
   server: 13.215.191.190
   port: 443
@@ -12972,6 +13023,41 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
+- name: US_United States_trojan_155
+  server: 95.40.24.109
+  port: 1103
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_156
+  server: 54.250.197.209
+  port: 4117
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_157
+  server: 54.238.251.95
+  port: 49811
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1510
+  server: 3.115.9.60
+  port: 41421
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+- name: US_United States_trojan_1513
+  server: 95.40.24.249
+  port: 53001
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
 - name: US_United States_ss_164
   server: 54.95.233.51
   type: ss
@@ -12999,8 +13085,11 @@ proxy-groups:
   - US_United States_trojan_06
   - US_United States_trojan_07
   - US_United States_trojan_013
-  - US_United States_trojan_127
+  - US_United States_trojan_126
   - US_United States_trojan_128
+  - US_United States_ss_129
+  - US_United States_ss_130
+  - US_United States_trojan_131
   - US_United States_trojan_61
   - US_United States_vmess_66
   - US_United States_ss_67
@@ -13013,6 +13102,7 @@ proxy-groups:
   - US_United States_ss_619
   - US_United States_trojan_620
   - US_United States_trojan_621
+  - US_United States_vmess_628
   - US_United States_vmess_629
   - US_United States_trojan_630
   - US_United States_trojan_631
@@ -13055,7 +13145,6 @@ proxy-groups:
   - US_United States_vmess_6181
   - US_United States_vmess_6183
   - US_United States_vmess_6203
-  - US_United States_ss_6205
   - US_United States_trojan_6206
   - US_United States_trojan_6207
   - US_United States_vmess_6208
@@ -13382,6 +13471,7 @@ proxy-groups:
   - US_United States_trojan_6837
   - US_United States_trojan_6844
   - US_United States_vmess_6849
+  - US_United States_ss_6854
   - US_United States_ss_6855
   - US_United States_ss_6856
   - US_United States_vmess_6859
@@ -13394,6 +13484,7 @@ proxy-groups:
   - US_United States_vmess_6882
   - US_United States_vmess_6892
   - US_United States_trojan_6894
+  - US_United States_ss_6895
   - US_United States_ss_6897
   - US_United States_ss_6909
   - US_United States_vmess_6910
@@ -14192,6 +14283,11 @@ proxy-groups:
   - US_United States_vmess_63973
   - US_United States_vmess_63974
   - US_United States_vmess_63975
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_157
+  - US_United States_trojan_1510
+  - US_United States_trojan_1513
   - US_United States_ss_164
   - US_United States_ss_169
 - name: 自动选择
@@ -14205,8 +14301,11 @@ proxy-groups:
   - US_United States_trojan_06
   - US_United States_trojan_07
   - US_United States_trojan_013
-  - US_United States_trojan_127
+  - US_United States_trojan_126
   - US_United States_trojan_128
+  - US_United States_ss_129
+  - US_United States_ss_130
+  - US_United States_trojan_131
   - US_United States_trojan_61
   - US_United States_vmess_66
   - US_United States_ss_67
@@ -14219,6 +14318,7 @@ proxy-groups:
   - US_United States_ss_619
   - US_United States_trojan_620
   - US_United States_trojan_621
+  - US_United States_vmess_628
   - US_United States_vmess_629
   - US_United States_trojan_630
   - US_United States_trojan_631
@@ -14261,7 +14361,6 @@ proxy-groups:
   - US_United States_vmess_6181
   - US_United States_vmess_6183
   - US_United States_vmess_6203
-  - US_United States_ss_6205
   - US_United States_trojan_6206
   - US_United States_trojan_6207
   - US_United States_vmess_6208
@@ -14588,6 +14687,7 @@ proxy-groups:
   - US_United States_trojan_6837
   - US_United States_trojan_6844
   - US_United States_vmess_6849
+  - US_United States_ss_6854
   - US_United States_ss_6855
   - US_United States_ss_6856
   - US_United States_vmess_6859
@@ -14600,6 +14700,7 @@ proxy-groups:
   - US_United States_vmess_6882
   - US_United States_vmess_6892
   - US_United States_trojan_6894
+  - US_United States_ss_6895
   - US_United States_ss_6897
   - US_United States_ss_6909
   - US_United States_vmess_6910
@@ -15398,6 +15499,11 @@ proxy-groups:
   - US_United States_vmess_63973
   - US_United States_vmess_63974
   - US_United States_vmess_63975
+  - US_United States_trojan_155
+  - US_United States_trojan_156
+  - US_United States_trojan_157
+  - US_United States_trojan_1510
+  - US_United States_trojan_1513
   - US_United States_ss_164
   - US_United States_ss_169
 rules:
