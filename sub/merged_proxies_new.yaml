@@ -25,145 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- cipher: aes-256-cfb
-  name: US_United States_ss_011
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
-- name: US_United States_trojan_015
-  network: tcp
-  password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_016
-  password: BxceQaOe
-  port: 1103
-  server: 54.168.189
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_017
-  password: BxceQaOe
-  port: 9408
-  server: 18.163.11126
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_020
-  network: tcp
-  password: BxceQaOe
-  port: 41421
-  server: 54.255.201.71
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_023
-  network: tcp
-  password: BxceQaOe
-  port: 1431
-  server: 43.198.210.207
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_026
-  network: tcp
-  password: BxceQaOe
-  port: 25982
-  server: 52.195.148.119
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: US_United States_trojan_027
-  network: tcp
-  password: BxceQaOe
-  port: 9408
-  server: 18.163.115.126
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  name: US_United States_trojan_031
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.207
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_trojan_032
-  network: ws
-  password: humanity
-  port: '443'
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_033
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.208
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_034
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.6
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_035
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /assignment
 - cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1410
   password: ljqdalu13..
@@ -171,26 +32,6 @@ proxies:
   server: 52.193.171.28
   type: ss
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: US_United States_vless_1412
-  network: tcp
-  port: 30666
-  reality-opts:
-    public-key: 3fKobetnIIC1NFGtQEPkBx75UdTMmq886OAr9bOt2S4
-    short-id: c919090e3c660c
-  server: 13.212.10.131
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37834c00-7fa5-46ba-a4b9-7e13c8fcdf8f
-  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -435,6 +276,17 @@ proxies:
   port: 56927
   server: 168.107.69.15
   type: ss
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_1463
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - cipher: aes-256-cfb
   name: US_United States_ss_1474
   password: amazonskr05
@@ -518,6 +370,17 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /?ed=2048
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_14120
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - name: US_United States_http_14122
   password: None
@@ -733,6 +596,24 @@ proxies:
   server: 47.239.116.165
   type: socks5
   username: admin
+- client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_14197
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1ee277e-93b7-4aa9-86a2-c7ef85a2adb0
+  ws-opts:
+    headers:
+      Host: pane3.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+  xudp: true
 - auth: f87376e17da040ed04c9665ce8972930
   name: US_United States_hysteria2_14198
   password: f87376e17da040ed04c9665ce8972930
@@ -840,13 +721,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: US_United States_ss_14276
-  password: amazonskr05
-  port: 443
-  server: 3.96.124.46
-  type: ss
-  udp: true
 - name: US_United States_http_14282
   port: 8081
   server: 73.109.227.116
@@ -1057,6 +931,17 @@ proxies:
   server: 104.168.249.36
   type: socks5
   username: test123
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_14406
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: US_United States_http_14408
   port: 8800
   server: 38.172.129.23
@@ -1080,6 +965,18 @@ proxies:
   type: vless
   udp: true
   uuid: fc898b52-ff3f-488b-8ef8-ab6bb2108504
+  xudp: true
+- alterId: '2'
+  cipher: auto
+  name: US_United States_vmess_14416
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - name: US_United States_socks5_14417
   password: test123
@@ -1126,21 +1023,15 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aa
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14436
-  network: tcp
-  port: 47571
-  reality-opts:
-    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
-    short-id: 4c8b46e500b0f3ad
-  server: 35.78.59.6
-  servername: www.amd.com
+- auth: 1671a252e2a97dc2bda4e515475931da
+  name: US_United States_hysteria2_14431
+  password: 1671a252e2a97dc2bda4e515475931da
+  port: 50160
+  server: 132.226.226.189
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - name: US_United States_http_14439
   password: null
   port: 999
@@ -1162,26 +1053,6 @@ proxies:
   type: vless
   udp: true
   uuid: bfb66910-f920-42c6-b52a-5f56e1dabcb4
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: US_United States_vless_14442
-  network: tcp
-  port: 41159
-  reality-opts:
-    public-key: dp_CXcMGxttv9CdCq3LI7UkaHbpV9yoPKpgAGH177WY
-    short-id: 41c5dc0928f602ab
-  server: 47.129.200.244
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc138c2d-5e03-4efd-a935-fc500e938033
   xudp: true
 - name: US_United States_socks5_14443
   port: 9050
@@ -1265,14 +1136,6 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /api/user
   xudp: true
-- name: US_United States_ss_161
-  server: 3.250.223.202
-  port: 443
-  type: ss
-  country: 🇮🇪 IE
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 1174
 - name: US_United States_ss_162
   server: 3.250.80.208
   port: 443
@@ -1303,21 +1166,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_ss_011
-  - US_United States_trojan_015
-  - US_United States_trojan_016
-  - US_United States_trojan_017
-  - US_United States_trojan_020
-  - US_United States_trojan_023
-  - US_United States_trojan_026
-  - US_United States_trojan_027
-  - US_United States_trojan_031
-  - US_United States_trojan_032
-  - US_United States_trojan_033
-  - US_United States_trojan_034
-  - US_United States_trojan_035
   - US_United States_ss_1410
-  - US_United States_vless_1412
   - US_United States_vless_1413
   - US_United States_socks5_1418
   - US_United States_vless_1419
@@ -1342,6 +1191,7 @@ proxy-groups:
   - US_United States_ss_1454
   - US_United States_http_1457
   - US_United States_ss_1461
+  - US_United States_vmess_1463
   - US_United States_ss_1474
   - US_United States_http_1477
   - US_United States_http_1485
@@ -1352,6 +1202,7 @@ proxy-groups:
   - US_United States_ss_1496
   - US_United States_vless_1498
   - US_United States_vless_14117
+  - US_United States_vmess_14120
   - US_United States_http_14122
   - US_United States_vless_14123
   - US_United States_http_14125
@@ -1377,6 +1228,7 @@ proxy-groups:
   - US_United States_http_14182
   - US_United States_http_14191
   - US_United States_socks5_14193
+  - US_United States_vless_14197
   - US_United States_hysteria2_14198
   - US_United States_http_14200
   - US_United States_ss_14206
@@ -1392,7 +1244,6 @@ proxy-groups:
   - US_United States_ss_14255
   - US_United States_socks5_14264
   - US_United States_http_14269
-  - US_United States_ss_14276
   - US_United States_http_14282
   - US_United States_vless_14285
   - US_United States_http_14291
@@ -1421,17 +1272,18 @@ proxy-groups:
   - US_United States_trojan_14399
   - US_United States_http_14402
   - US_United States_socks5_14404
+  - US_United States_vmess_14406
   - US_United States_http_14408
   - US_United States_vless_14415
+  - US_United States_vmess_14416
   - US_United States_socks5_14417
   - US_United States_ss_14419
   - US_United States_socks5_14422
   - US_United States_http_14429
   - US_United States_vless_14430
-  - US_United States_vless_14436
+  - US_United States_hysteria2_14431
   - US_United States_http_14439
   - US_United States_vless_14440
-  - US_United States_vless_14442
   - US_United States_socks5_14443
   - US_United States_http_14449
   - US_United States_hysteria2_14457
@@ -1440,7 +1292,6 @@ proxy-groups:
   - US_United States_http_14470
   - US_United States_vless_14473
   - US_United States_vless_14474
-  - US_United States_ss_161
   - US_United States_ss_162
   - US_United States_ss_163
   - US_United States_ss_164
@@ -1450,21 +1301,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_ss_011
-  - US_United States_trojan_015
-  - US_United States_trojan_016
-  - US_United States_trojan_017
-  - US_United States_trojan_020
-  - US_United States_trojan_023
-  - US_United States_trojan_026
-  - US_United States_trojan_027
-  - US_United States_trojan_031
-  - US_United States_trojan_032
-  - US_United States_trojan_033
-  - US_United States_trojan_034
-  - US_United States_trojan_035
   - US_United States_ss_1410
-  - US_United States_vless_1412
   - US_United States_vless_1413
   - US_United States_socks5_1418
   - US_United States_vless_1419
@@ -1489,6 +1326,7 @@ proxy-groups:
   - US_United States_ss_1454
   - US_United States_http_1457
   - US_United States_ss_1461
+  - US_United States_vmess_1463
   - US_United States_ss_1474
   - US_United States_http_1477
   - US_United States_http_1485
@@ -1499,6 +1337,7 @@ proxy-groups:
   - US_United States_ss_1496
   - US_United States_vless_1498
   - US_United States_vless_14117
+  - US_United States_vmess_14120
   - US_United States_http_14122
   - US_United States_vless_14123
   - US_United States_http_14125
@@ -1524,6 +1363,7 @@ proxy-groups:
   - US_United States_http_14182
   - US_United States_http_14191
   - US_United States_socks5_14193
+  - US_United States_vless_14197
   - US_United States_hysteria2_14198
   - US_United States_http_14200
   - US_United States_ss_14206
@@ -1539,7 +1379,6 @@ proxy-groups:
   - US_United States_ss_14255
   - US_United States_socks5_14264
   - US_United States_http_14269
-  - US_United States_ss_14276
   - US_United States_http_14282
   - US_United States_vless_14285
   - US_United States_http_14291
@@ -1568,17 +1407,18 @@ proxy-groups:
   - US_United States_trojan_14399
   - US_United States_http_14402
   - US_United States_socks5_14404
+  - US_United States_vmess_14406
   - US_United States_http_14408
   - US_United States_vless_14415
+  - US_United States_vmess_14416
   - US_United States_socks5_14417
   - US_United States_ss_14419
   - US_United States_socks5_14422
   - US_United States_http_14429
   - US_United States_vless_14430
-  - US_United States_vless_14436
+  - US_United States_hysteria2_14431
   - US_United States_http_14439
   - US_United States_vless_14440
-  - US_United States_vless_14442
   - US_United States_socks5_14443
   - US_United States_http_14449
   - US_United States_hysteria2_14457
@@ -1587,7 +1427,6 @@ proxy-groups:
   - US_United States_http_14470
   - US_United States_vless_14473
   - US_United States_vless_14474
-  - US_United States_ss_161
   - US_United States_ss_162
   - US_United States_ss_163
   - US_United States_ss_164
