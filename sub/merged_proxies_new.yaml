@@ -63,8 +63,71 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_trojan_028
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
-  name: US_United States_trojan_033
+  name: US_United States_trojan_030
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: US_United States_trojan_031
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: US_United States_ss_033
+  password: amazonskr05
+  port: 443
+  server: 3.97.16.160
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_129
+  password: 86bf33ea-62d9-49a1-9bd0-73e45f6e1403
+  port: '40013'
+  server: us1002.lunartrace.io
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: US_United States_trojan_132
   network: tcp
   password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
   port: '14492'
@@ -73,56 +136,62 @@ proxies:
   sni: un5.sonofthewinds.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: US_United States_trojan_034
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: '14460'
-  server: adakv1-s01.sonofthewinds.com
-  skip-cert-verify: false
-  sni: vs1.sonofthewinds.com
-  type: trojan
-  udp: true
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: US_United States_vmess_036
-  network: http
-  port: '52080'
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- name: US_United States_vless_126
+- name: US_United States_vless_128
   type: vless
-  server: 195.123.210.168
+  server: vu2jp26vdi.87544899.xyz
   port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  servername: eu-west.cendora.ru
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  servername: reonpocket.sony.co.jp
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SQ2YV9d0aD0HE3n01a-TMftltBBta2rVo8gaEKNxiAE
+    short-id: 6e98d95f15
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1214
+  type: vless
+  server: 153.75.89.35
+  port: 443
+  uuid: 24623d40-0a9a-4ae8-9b30-da896fac4ca9
+  servername: cdn.dodostatic.net
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: qq
   reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
+    public-key: YJLB9ACm_Sefy0Fl6C23BQMcT9omgw29LCIvv6-1Cy0
+    short-id: cffe35594dfc2975
   skip-cert-verify: true
   udp: true
-- name: US_United States_vmess_1214
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+- name: US_United States_vless_1218
+  type: vless
+  server: fu.baiproxy.us.ci
+  port: 2087
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  network: ws
+  servername: fu.baiproxy.us.ci
   tls: true
+  client-fingerprint: qq
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fu.baiproxy.us.ci
   skip-cert-verify: true
-  servername: guanwang.awsno.com
+  udp: true
+- name: US_United States_vless_1221
+  type: vless
+  server: 104.21.54.32
+  port: 443
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  network: ws
+  servername: 8-M17.KUWAit-lINe.KDns.Fr
+  tls: true
+  ws-opts:
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+    headers:
+      Host: 8-m17.kuwAIt-LINE.kDNs.Fr
+  skip-cert-verify: true
   udp: true
 - name: US_United States_vless_1222
   type: vless
@@ -139,7 +208,35 @@ proxies:
       Host: 6-M17.kuwAit.kDns.Fr
   skip-cert-verify: true
   udp: true
+- name: US_United States_vless_1223
+  type: vless
+  server: 104.21.94.41
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  network: ws
+  servername: 3-m20.r00r.ccwu.cc
+  tls: true
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 3-m20.r00r.ccwu.cc
+  skip-cert-verify: true
+  udp: true
 - name: US_United States_vless_1224
+  type: vless
+  server: 172.67.173.191
+  port: 443
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  network: ws
+  servername: 4-m20.e00e.ccwu.cc
+  tls: true
+  ws-opts:
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    headers:
+      Host: 4-m20.e00e.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1226
   type: vless
   server: 50.62.195.4
   port: 80
@@ -151,41 +248,6 @@ proxies:
     headers:
       Host: raspy-feather-12ec.137-257.workers.dev
   skip-cert-verify: true
-  udp: true
-- name: US_United States_trojan_1225
-  type: trojan
-  server: 104.18.23.63
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_vless_1226
-  type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_trojan_1227
-  type: trojan
-  server: 130.250.137.171
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
   udp: true
 - name: US_United States_trojan_1228
   type: trojan
@@ -199,7 +261,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_1232
+- name: US_United States_trojan_1229
   type: trojan
   server: 165.215.250.14
   port: 443
@@ -208,25 +270,40 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   udp: true
-- name: US_United States_vless_1239
-  type: vless
-  server: 162.159.81.104
-  port: 80
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+- name: US_United States_trojan_1234
+  type: trojan
+  server: 104.18.23.63
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
   skip-cert-verify: true
+  ws-opts:
+    path: /assignment
   udp: true
-- name: US_United States_vless_1240
+- name: US_United States_trojan_1236
+  type: trojan
+  server: render.com
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_1239
+  type: trojan
+  server: 130.250.137.171
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_vless_1242
   type: vless
-  server: 45.40.149.50
+  server: 63.141.128.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -234,10 +311,10 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime39.workers.dev
+      Host: vms.lifetime42.workers.dev
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1241
+- name: US_United States_vless_1243
   type: vless
   server: 50.62.198.30
   port: 8880
@@ -252,7 +329,20 @@ proxies:
   udp: true
 - name: US_United States_vless_1244
   type: vless
-  server: 63.141.128.30
+  server: 172.67.153.109
+  port: 8080
+  uuid: 45643c5f-ffc2-46f3-b82c-329aea9962d4
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: server10.sotowoy673.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1248
+  type: vless
+  server: 45.40.149.50
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -260,10 +350,74 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime42.workers.dev
+      Host: vms.lifetime39.workers.dev
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1245
+- name: US_United States_vless_1254
+  type: vless
+  server: 91.206.71.8
+  port: 80
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: round-haze-8783.294.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1255
+  type: vless
+  server: 162.159.81.104
+  port: 80
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_trojan_1257
+  type: trojan
+  server: 104.17.177.143
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_vless_1260
+  type: vless
+  server: 172.67.136.43
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 6-M13.176F877b-9958-456A-9b39-9DE3e9aD2d9D.KdNs.fR
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 6-m13.176f877B-9958-456A-9b39-9De3e9AD2D9d.kDnS.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1262
+  type: vless
+  server: 172.67.140.160
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 5-stAtic-ImG-m13.xDC.ccWu.cC
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 5-StATIc-iMG-M13.xdC.CCwU.Cc
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1265
   type: vless
   server: 162.159.81.177
   port: 80
@@ -276,68 +430,35 @@ proxies:
       Host: icy-darkness-8ff1.farzambia12mo.workers.dev
   skip-cert-verify: true
   udp: true
-- name: US_United States_trojan_1251
-  type: trojan
-  server: render.com
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_vless_1254
+- name: US_United States_vless_1266
   type: vless
-  server: 172.67.153.109
-  port: 8080
-  uuid: 45643c5f-ffc2-46f3-b82c-329aea9962d4
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiQkRZWDhCN01sIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
-    headers:
-      Host: server10.sotowoy673.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_trojan_1255
-  type: trojan
-  server: 104.17.111.8
+  server: 172.67.200.222
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_vless_1257
-  type: vless
-  server: 172.67.173.191
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
   network: ws
-  servername: 4-m20.e00e.ccwu.cc
+  servername: 9-M13.4B49f101-6328-41c6-953D-00CEB79B58AC.kDNs.Fr
   tls: true
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: 4-m20.e00e.ccwu.cc
+      Host: 9-M13.4b49F101-6328-41c6-953d-00ceb79B58AC.kdNs.FR
   skip-cert-verify: true
   udp: true
-- name: US_United States_trojan_1259
-  type: trojan
-  server: 104.17.111.4
+- name: US_United States_vless_1267
+  type: vless
+  server: 172.67.131.46
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 2-m13.0943e131-87F4-4b7f-Bc60-9d984Cc0aDA2.KDNs.fR
+  tls: true
   ws-opts:
-    path: /assignment
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-M13.0943E131-87f4-4b7F-BC60-9d984Cc0Ada2.kdnS.fR
+  skip-cert-verify: true
   udp: true
-- name: US_United States_trojan_1260
+- name: US_United States_trojan_1268
   type: trojan
   server: 104.17.111.3
   port: 443
@@ -347,9 +468,151 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_1262
+- name: US_United States_vless_1269
+  type: vless
+  server: 172.67.132.194
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 3-m13.aYuttHAYa-8.KdNs.fr
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 3-m13.AYuttHAya-8.kdNs.FR
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1270
+  type: vless
+  server: 172.67.153.78
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 2-M19.sOUth-aFrica-lINk.CCWu.Cc
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 2-M19.SOuTh-AFRIca-linK.ccWU.cC
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1271
+  type: vless
+  server: 172.67.155.189
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 8-M13.1B9390A5-6209-45bD-ba0E-057EBb2641C3.Kdns.fr
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 8-M13.1B9390a5-6209-45Bd-ba0E-057EBb2641c3.KDns.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1274
+  type: vless
+  server: 172.67.155.111
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 1-M13.51d4Fd7a-8192-4288-86d6-f2ec1c8037fb.kdnS.FR
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 1-m13.51D4FD7A-8192-4288-86D6-f2ec1c8037Fb.kDNS.fR
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1276
+  type: vless
+  server: 104.21.21.151
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 4-m13.18f6A5d8-1d18-4649-9D3D-97C46E3aA3eC.KDNS.fr
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-m13.18F6a5D8-1D18-4649-9D3d-97C46e3aa3ec.kDNs.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1277
+  type: vless
+  server: 172.67.148.36
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 4-m13.aYuTtHaYa-x.KDNs.fR
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-M13.AyutthayA-x.KDns.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1278
+  type: vless
+  server: 104.21.16.74
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 2-M13.378bb7Ff-11cF-4Dad-B89e-72538aC75e29.kdNs.Fr
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-M13.378bb7FF-11cF-4dAD-b89E-72538Ac75E29.KDNS.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1279
+  type: vless
+  server: 104.21.16.216
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 2-m19.Oman-LInE.KdnS.fR
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 2-M19.oman-liNe.Kdns.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1283
+  type: vless
+  server: 172.67.158.193
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 3-m13.AYUtTHaYa-XX.kdnS.fr
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 3-M13.aYUTThaYA-XX.KDNS.fR
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1285
+  type: vless
+  server: 172.67.155.252
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 3-M13.0eE25773-D3d3-479d-A8ff-3f51d1d20031.kdNS.FR
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 3-m13.0EE25773-d3D3-479D-a8ff-3F51D1d20031.KDnS.fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_trojan_1287
   type: trojan
-  server: 104.17.177.143
+  server: 104.17.111.8
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -357,7 +620,119 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_1263
+- name: US_United States_vless_1291
+  type: vless
+  server: 172.67.133.136
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 0-M13.1332aFDc-0737-4Bb1-8ca8-EE4F0Cd20bc6.KdNS.FR
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 0-m13.1332aFDC-0737-4BB1-8Ca8-eE4F0CD20Bc6.Kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1292
+  type: vless
+  server: 104.21.31.110
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 8-M19.SOUth-aFrIcA.cCWU.cC
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 8-m19.SouTh-aFRIca.cCWU.Cc
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1296
+  type: vless
+  server: 172.67.148.54
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 7-M19.NoRth-KOREA-park.kDNs.Fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 7-M19.NoRTh-korea-pArk.KDnS.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1297
+  type: vless
+  server: 172.67.134.13
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: 2-m13-StATiC-csS.XcV.CcwU.Cc
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 2-m13-STaTiC-csS.xcV.cCwu.CC
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1298
+  type: vless
+  server: 172.67.199.80
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 7-M13.18F6a5d8-1D18-4649-9d3D-97C46e3aA3EC.kDNs.fr
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 7-M13.18f6a5D8-1d18-4649-9d3D-97c46E3aA3eC.KdNS.fR
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_1299
+  type: vless
+  server: 172.67.150.230
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 8-M19.MEXICo-pOrt.Ccwu.Cc
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 8-M19.mexIco-PoRT.CcWU.Cc
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_12102
+  type: vless
+  server: 172.67.148.211
+  port: 443
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 8-M19.SoUTH-AfrIca-ChANNEl.cCwU.cC
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /CjBjB9sn5pCvaSwScc
+    headers:
+      Host: 8-M19.SoUTH-africA-ChANNeL.ccwu.Cc
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_trojan_12103
+  type: trojan
+  server: 104.17.111.4
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12104
   type: trojan
   server: 104.17.111.1
   port: 443
@@ -366,111 +741,69 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   udp: true
-- name: US_United States_vless_1266
+- name: US_United States_vless_12105
   type: vless
-  server: fu.baiproxy.us.ci
-  port: 2087
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  network: ws
-  servername: fu.baiproxy.us.ci
-  tls: true
-  client-fingerprint: qq
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fu.baiproxy.us.ci
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_1269
-  type: vless
-  server: 104.21.8.136
+  server: 172.67.202.114
   port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   network: ws
-  servername: 6-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+  servername: 1-m19.PeRu-liNe.CcWu.cC
   tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: 6-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
+      Host: 1-M19.peru-line.CcwU.cC
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1270
+- name: US_United States_vless_12107
   type: vless
-  server: 104.21.51.202
+  server: 172.67.202.63
   port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
   network: ws
-  servername: 1-m20.20260721-a5c2-48bd-bb63-efdae93240e3.ccwu.cc
+  servername: 1-m13.286bF07B-D934-42d2-918f-a749478cf4BF.kdNs.FR
   tls: true
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: 1-m20.20260721-a5c2-48bd-bb63-efdae93240e3.ccwu.cc
+      Host: 1-M13.286bf07b-D934-42D2-918f-a749478CF4bf.KDns.fR
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1272
+- name: US_United States_vless_12108
   type: vless
-  server: 104.21.54.32
+  server: 172.67.136.91
   port: 443
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   network: ws
-  servername: 8-M17.KUWAit-lINe.KDns.Fr
+  servername: 9-m19.alBAnIa.ccwU.cC
   tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: 8-m17.kuwAIt-LINE.kDNs.Fr
+      Host: 9-m19.ALbaNia.ccwu.cc
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1273
+- name: US_United States_vless_12110
   type: vless
-  server: 172.67.195.150
+  server: 104.21.56.104
   port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   network: ws
-  servername: 1-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+  servername: 4-m19.ALbAniA.KDNs.fR
   tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: 1-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+      Host: 4-M19.aLBanIA.kDNS.fR
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_1274
-  type: vless
-  server: 104.21.29.124
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  network: ws
-  servername: 9-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
-  tls: true
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 9-m20.d3579eb3-e5cb-497b-82f8-c353614250e0.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_1278
-  type: vless
-  server: 172.67.198.236
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  network: ws
-  servername: 8-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-  tls: true
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 8-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_trojan_1279
+- name: US_United States_trojan_12112
   type: trojan
-  server: 104.18.152.103
+  server: 172.67.74.2
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -480,79 +813,22 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_1281
-  type: trojan
-  server: 104.16.174.36
+- name: US_United States_vless_12115
+  type: vless
+  server: 172.67.140.11
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  network: ws
+  servername: 2-m19.sudAN-pArk.CcWU.cc
+  tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1282
-  type: trojan
-  server: 104.16.174.109
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1283
-  type: trojan
-  server: 104.18.152.50
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1284
-  type: trojan
-  server: 104.18.152.155
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1285
-  type: trojan
-  server: 104.18.152.77
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1286
-  type: trojan
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1288
-  type: trojan
-  server: 104.16.174.34
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: www.ignitelimit.com
+      Host: 2-M19.SUDAn-pArk.CCWu.cC
+  skip-cert-verify: true
   udp: true
-- name: US_United States_trojan_1289
+- name: US_United States_trojan_12116
   type: trojan
   server: 104.18.12.149
   port: 443
@@ -562,7 +838,17 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_1290
+- name: US_United States_trojan_12117
+  type: trojan
+  server: 104.16.174.117
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12118
   type: trojan
   server: join-telegram-channel.tirexnet.kdns.fr
   port: 443
@@ -574,7 +860,77 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_1293
+- name: US_United States_trojan_12119
+  type: trojan
+  server: 104.16.174.46
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12121
+  type: trojan
+  server: 104.16.174.71
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12122
+  type: trojan
+  server: 104.18.152.246
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12123
+  type: trojan
+  server: 104.18.152.73
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12124
+  type: trojan
+  server: 104.16.7.70
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12126
+  type: trojan
+  server: 104.18.152.208
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12127
+  type: trojan
+  server: 104.16.174.14
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12128
   type: trojan
   server: 172.67.149.60
   port: 443
@@ -586,59 +942,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_1294
+- name: US_United States_trojan_12129
   type: trojan
-  server: 104.16.174.72
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1295
-  type: trojan
-  server: 104.16.174.14
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_1296
-  type: trojan
-  server: 8.6.112.0
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12100
-  type: trojan
-  server: 104.18.152.179
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12101
-  type: trojan
-  server: 104.16.174.124
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12102
-  type: trojan
-  server: 104.16.174.6
+  server: 104.16.174.185
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -648,9 +954,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_12105
+- name: US_United States_trojan_12130
   type: trojan
-  server: 104.18.152.159
+  server: 104.16.174.148
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -658,19 +964,9 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_12106
+- name: US_United States_trojan_12131
   type: trojan
-  server: 172.67.74.2
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12108
-  type: trojan
-  server: 104.21.46.3
+  server: 104.16.174.143
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -679,160 +975,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12110
-  type: trojan
-  server: 104.18.152.246
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12113
-  type: trojan
-  server: 104.16.174.37
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12115
-  type: trojan
-  server: 104.16.7.70
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12116
-  type: trojan
-  server: 198.41.223.96
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12117
-  type: trojan
-  server: 104.20.6.134
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12122
-  type: trojan
-  server: 104.18.152.97
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12123
-  type: trojan
-  server: 104.18.152.161
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_vless_12130
-  type: vless
-  server: 104.21.53.114
-  port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  network: ws
-  servername: 2-m20.20260721-b3fa-439e-b14e-6e2ee3f22b8c.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 2-m20.20260721-b3fa-439e-b14e-6e2ee3f22b8c.ccwu.cc
-  skip-cert-verify: true
   udp: true
 - name: US_United States_trojan_12132
-  type: trojan
-  server: 104.18.152.113
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12133
-  type: trojan
-  server: 172.67.221.242
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12134
-  type: trojan
-  server: 104.16.174.71
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12135
-  type: trojan
-  server: 104.16.174.121
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12141
-  type: trojan
-  server: 104.16.174.12
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12144
-  type: trojan
-  server: 104.18.152.133
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12146
   type: trojan
   server: 104.16.174.101
   port: 443
@@ -844,9 +988,109 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
+- name: US_United States_trojan_12135
+  type: trojan
+  server: 104.16.174.6
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: US_United States_trojan_12136
+  type: trojan
+  server: 104.16.174.12
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12137
+  type: trojan
+  server: 104.16.174.124
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: US_United States_trojan_12138
+  type: trojan
+  server: 104.21.46.3
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12143
+  type: trojan
+  server: 104.16.174.34
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: US_United States_trojan_12144
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12145
+  type: trojan
+  server: 104.16.174.37
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12147
+  type: trojan
+  server: 104.16.174.36
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: US_United States_trojan_12148
+  type: trojan
+  server: 104.16.174.109
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
 - name: US_United States_trojan_12149
   type: trojan
-  server: 104.16.174.185
+  server: 198.41.223.96
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -854,49 +1098,9 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_12152
+- name: US_United States_trojan_12156
   type: trojan
-  server: 104.16.174.148
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12153
-  type: trojan
-  server: 104.16.174.143
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12155
-  type: trojan
-  server: 104.18.152.73
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12158
-  type: trojan
-  server: ip.myip2.qzz.io
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12159
-  type: trojan
-  server: 104.18.152.208
+  server: 104.18.152.97
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -906,39 +1110,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_12162
-  type: trojan
-  server: 104.18.152.210
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12163
-  type: trojan
-  server: 104.18.152.175
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12169
-  type: trojan
-  server: 104.16.174.117
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12170
+- name: US_United States_trojan_12160
   type: trojan
   server: 104.18.152.187
   port: 443
@@ -948,7 +1120,67 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_12189
+- name: US_United States_trojan_12171
+  type: trojan
+  server: 104.16.174.72
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12172
+  type: trojan
+  server: 104.18.152.77
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12173
+  type: trojan
+  server: 104.18.152.50
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12182
+  type: trojan
+  server: 104.18.152.204
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12185
+  type: trojan
+  server: 104.18.152.103
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12187
+  type: trojan
+  server: ip.myip2.qzz.io
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12192
   type: trojan
   server: 104.16.174.44
   port: 443
@@ -960,29 +1192,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_12190
+- name: US_United States_trojan_12193
   type: trojan
-  server: 104.18.152.229
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12192
-  type: trojan
-  server: 104.18.152.233
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: US_United States_trojan_12195
-  type: trojan
-  server: 104.18.152.230
+  server: 141.101.90.101
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -992,9 +1204,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: US_United States_trojan_12206
+- name: US_United States_trojan_12204
   type: trojan
-  server: 104.18.152.149
+  server: 172.67.221.242
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -1004,18 +1216,6 @@ proxies:
   udp: true
 - name: US_United States_trojan_12212
   type: trojan
-  server: 104.16.174.46
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12216
-  type: trojan
   server: 104.18.152.144
   port: 443
   password: humanity
@@ -1024,29 +1224,65 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: US_United States_trojan_12219
+- name: US_United States_trojan_12238
   type: trojan
-  server: 104.18.152.244
+  server: 104.16.174.121
   port: 443
   password: humanity
   sni: www.ignitelimit.com
   skip-cert-verify: true
   ws-opts:
     path: /assignment
+  udp: true
+- name: US_United States_trojan_12251
+  type: trojan
+  server: 104.18.152.149
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_12266
+  type: trojan
+  server: 104.20.6.134
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_vless_12270
+  type: vless
+  server: 104.21.88.158
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  network: ws
+  servername: M13-OnLINE.TaiPeI102.DPDns.Org
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_trojan_12229
-  type: trojan
-  server: 104.18.152.204
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
+      Host: m13-onLInE.tAipeI102.dpDns.Org
   skip-cert-verify: true
-  ws-opts:
-    path: /assignment
   udp: true
-- name: US_United States_vless_12253
+- name: US_United States_vless_12271
+  type: vless
+  server: 104.21.83.6
+  port: 443
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  network: ws
+  servername: 5-m13.38c4495B-7e6D-4AAa-8A0a-3139Ff704E1F.Kdns.FR
+  tls: true
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 5-m13.38c4495B-7e6D-4AaA-8a0A-3139ff704E1F.KdnS.Fr
+  skip-cert-verify: true
+  udp: true
+- name: US_United States_vless_12272
   type: vless
   server: 104.21.86.179
   port: 443
@@ -1060,735 +1296,67 @@ proxies:
       Host: 5-m17.joRdAn-LinK.KDNS.Fr
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_12259
+- name: US_United States_vless_12276
   type: vless
-  server: 104.21.94.41
+  server: singgcdn.singgnetworkcdn.com
   port: 443
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: 1ee0aaa9-92af-4092-938a-e974d1d072c6
   network: ws
-  servername: 3-m20.r00r.ccwu.cc
-  tls: true
-  ws-opts:
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-    headers:
-      Host: 3-m20.r00r.ccwu.cc
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_trojan_12267
-  type: trojan
-  server: 141.101.90.101
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: US_United States_vless_12274
-  type: vless
-  server: 104.21.0.236
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: m12-LINK.NethERLandS.dpdns.org
+  servername: tunnel-hk-01.pandanetwork.dpdns.org
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
+    path: /panda
     headers:
-      Host: M12-liNK.nethErlanDS.DPDNs.Org
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12275
-  type: vless
-  server: 172.67.145.143
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: IMG-CaChE-m12-2.R555.QzZ.iO
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: img-CACHe-m12-2.r555.qzZ.io
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12277
-  type: vless
-  server: 104.21.88.158
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: img-cacHE-M12-1.TaIPeI102.DPDNs.oRg
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: ImG-caChe-M12-1.TAiPEi102.Dpdns.Org
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12278
-  type: vless
-  server: 172.67.185.201
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: iMg-CAcHe-m12-3.tAipeI102.DPdNS.ORG
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: ImG-cAchE-M12-3.TAipEI102.dPDNs.Org
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12279
-  type: vless
-  server: 104.21.78.133
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 4-StAtiC-imG-m12.Ser.cCWu.cC
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 4-STAtiC-IMg-m12.sEr.CCwu.Cc
+      Host: tunnel-hk-01.pandanetwork.dpdns.org
   skip-cert-verify: true
   udp: true
 - name: US_United States_vless_12280
   type: vless
-  server: 172.67.222.29
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
+  server: 40.160.68.79
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   network: ws
-  servername: 5-sTAtiC-IMG-m12.SER.ccWu.cC
-  tls: true
-  client-fingerprint: chrome
+  tls: false
   ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 5-STatIC-ImG-m12.sEr.cCwU.Cc
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12281
-  type: vless
-  server: 104.21.82.192
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 3-m12-Static-mEdiA.vBh.cCwu.CC
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 3-m12-STaTIc-MediA.vbH.CCwu.cc
+    path: /
   skip-cert-verify: true
   udp: true
 - name: US_United States_vless_12282
   type: vless
-  server: 104.21.67.188
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
+  server: 40.160.69.180
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   network: ws
-  servername: 1-m12.4Cb2b7a5-8b47-4AA9-acDB-2C4252952742.KDNs.fr
-  tls: true
-  client-fingerprint: chrome
+  tls: false
   ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-M12.4CB2B7a5-8b47-4AA9-aCdB-2C4252952742.KDNS.FR
+    path: /
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_12283
+- name: US_United States_vless_12284
   type: vless
-  server: 172.67.179.124
+  server: 64.204.49.68
   port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   network: ws
-  servername: 3-M12.4cB2B7A5-8b47-4aA9-AcDB-2C4252952742.kdNS.fR
+  servername: vp10.pages.dev
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
+    path: /
     headers:
-      Host: 3-m12.4cB2b7A5-8b47-4aa9-aCDB-2C4252952742.kdNs.fr
+      Host: vp10.pages.dev
   skip-cert-verify: true
   udp: true
 - name: US_United States_vless_12285
   type: vless
-  server: 172.67.150.234
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
+  server: t2.lock1.app
+  port: 2087
+  uuid: 58d3a982-9d4b-4d32-90e4-95d37a9a42ab
   network: ws
-  servername: 2-M12.4E8ef365-4cb9-4F62-8Aa5-99DFB7a372eE.kDNs.Fr
   tls: true
-  client-fingerprint: chrome
   ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.4E8EF365-4cb9-4F62-8Aa5-99dFb7A372ee.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12286
-  type: vless
-  server: 104.21.0.114
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 3-M12.4e8eF365-4cb9-4F62-8aa5-99dfb7A372eE.kdNS.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 3-m12.4e8Ef365-4Cb9-4f62-8aa5-99DfB7a372ee.KdNs.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12289
-  type: vless
-  server: 172.67.220.63
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 5-m12.4efb42f7-0BE2-46dC-A43E-D5B3b584aEf5.kdNS.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 5-m12.4efb42F7-0bE2-46dc-A43e-D5b3B584aEf5.kdnS.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12290
-  type: vless
-  server: 104.21.59.85
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 6-M12.4EFb42f7-0Be2-46Dc-A43e-D5b3B584AEf5.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 6-m12.4eFb42F7-0BE2-46dC-a43E-d5b3b584AeF5.KDNs.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12291
-  type: vless
-  server: 172.67.179.121
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.4FFd1a23-7aA7-4381-Ba9a-970ec51fF6b9.kDns.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-M12.4FfD1A23-7Aa7-4381-ba9a-970EC51FF6b9.KDns.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12292
-  type: vless
-  server: 104.21.67.185
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 3-M12.4fFd1a23-7aA7-4381-ba9a-970EC51ff6B9.KDns.Fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 3-m12.4fFD1a23-7aa7-4381-ba9a-970Ec51fF6B9.KDns.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12295
-  type: vless
-  server: 172.67.200.87
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 1-M12.5df56e48-681B-4ad4-aF40-ebB25FdcDaF7.KDnS.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-m12.5Df56E48-681B-4Ad4-af40-eBB25FdcDaf7.KDNS.fR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12296
-  type: vless
-  server: 104.21.21.208
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-m12.5DF56e48-681b-4aD4-aF40-EbB25FDCDAf7.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.5dF56e48-681b-4AD4-aF40-EBB25fdCDAF7.kdnS.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12298
-  type: vless
-  server: 104.21.77.237
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 1-M12.AYuTTHaya2035.kdnS.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-m12.ayUTthaYA2035.kdns.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12299
-  type: vless
-  server: 172.67.213.3
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.AyuTTHAya2035.Kdns.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-M12.AYutThaYa2035.KdnS.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12301
-  type: vless
-  server: 172.67.194.172
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.ayUtThAya-3.KDns.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.AyUTthAya-3.kdNS.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12304
-  type: vless
-  server: 104.21.16.165
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 1-m12.ayuTtHaYA-4.kdNS.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-M12.AYuTTHaya-4.KDnS.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12306
-  type: vless
-  server: 172.67.214.219
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 6-m12.ayutTHayA-4.KdNs.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 6-m12.ayUtThaYa-4.KDns.fR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12307
-  type: vless
-  server: 104.21.87.143
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-m12.9D9fE1Be-Ec19-4d4E-A5Ce-27Fa304F71Fe.KDNs.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-M12.9D9Fe1Be-Ec19-4D4E-A5ce-27Fa304f71fE.kDNs.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12308
-  type: vless
-  server: 172.67.169.227
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 4-m12.9d9FE1Be-ec19-4d4e-A5CE-27fA304F71fe.kdnS.Fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 4-m12.9D9fe1Be-Ec19-4d4E-A5CE-27FA304F71fE.KdNs.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12311
-  type: vless
-  server: 104.21.83.145
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-M12.9eadbAf7-77d1-4BF1-A8f4-b1091C2E8A01.KdNS.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-M12.9eAdbAF7-77D1-4BF1-A8f4-B1091c2E8a01.kdnS.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12313
-  type: vless
-  server: 104.21.48.248
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-M12.A1BAB899-f414-403C-b029-E94AF5888A94.KdNs.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-M12.a1BAb899-F414-403c-B029-e94af5888A94.kDNS.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12315
-  type: vless
-  server: 172.67.138.247
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.a1BaB899-f414-403C-b029-e94af5888a94.KDns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-M12.A1BAb899-F414-403C-b029-E94af5888A94.KDNs.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12320
-  type: vless
-  server: 104.21.82.99
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-m12.B1CD7047-D49f-4d75-b667-51a088aeC158.kdNs.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-M12.B1Cd7047-d49f-4D75-b667-51A088AEC158.KdNs.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12323
-  type: vless
-  server: 104.21.58.104
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-M12.B1dd881B-6f89-4b25-Bbbf-0c51e64c0bb1.kdNS.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-m12.b1dD881b-6f89-4B25-bBbF-0C51E64C0bb1.KdNS.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12324
-  type: vless
-  server: 172.67.159.3
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.b1dd881B-6f89-4B25-BbbF-0c51e64C0Bb1.kdNS.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.B1Dd881B-6F89-4B25-bBBf-0C51E64C0bb1.Kdns.fR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12327
-  type: vless
-  server: 172.67.144.12
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.bANDar-SERi-bEgaWAN.KDnS.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.BANDAR-sERI-bEGawAN.KdNs.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12328
-  type: vless
-  server: 104.21.26.148
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-m12.c20260720.kdns.Fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-m12.c20260720.KdNs.fR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12332
-  type: vless
-  server: 172.67.136.133
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 5-M12.C20260720.KDNs.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 5-m12.c20260720.kDNS.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12333
-  type: vless
-  server: 172.67.194.246
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 1-M12.d20260720.kdNS.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-M12.d20260720.kdnS.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12334
-  type: vless
-  server: 104.21.82.43
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-m12.d20260720.kdNS.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-M12.D20260720.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12337
-  type: vless
-  server: 104.21.67.204
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-m12.dEnpAsaR.kdNs.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-M12.DEnpasar.KdNs.fR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12338
-  type: vless
-  server: 172.67.180.149
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 1-m12.denPaSAr.kDNs.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-m12.DENPaSAr.Kdns.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12340
-  type: vless
-  server: 104.21.9.13
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 1-m12.DF40429b-14A2-4630-9247-5809263c124a.kDnS.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 1-m12.dF40429b-14a2-4630-9247-5809263c124a.kDNs.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12341
-  type: vless
-  server: 172.67.188.223
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-m12.dF40429B-14a2-4630-9247-5809263C124A.kdNS.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.df40429B-14a2-4630-9247-5809263c124a.kDns.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12343
-  type: vless
-  server: 172.67.147.98
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-m12.E3c67C80-02f8-416D-a71B-6D44c89F726f.kDNS.Fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-M12.e3C67C80-02f8-416D-a71B-6D44c89F726F.kDnS.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12344
-  type: vless
-  server: 104.21.39.171
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 3-M12.E3C67C80-02F8-416d-A71b-6D44c89f726f.kdNs.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 3-m12.E3c67C80-02F8-416D-a71B-6d44C89f726F.KDNs.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12345
-  type: vless
-  server: 104.21.21.104
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-m12.e981cb85-d3EC-454F-8279-Da2DD6619764.KDNs.Fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.e981CB85-d3Ec-454F-8279-dA2dd6619764.kdnS.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12346
-  type: vless
-  server: 172.67.197.242
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 4-M12.e981CB85-D3EC-454F-8279-Da2DD6619764.kDns.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 4-M12.e981Cb85-d3ec-454F-8279-Da2dd6619764.kdnS.FR
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12347
-  type: vless
-  server: 172.67.199.69
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-M12.F20260720.kDNs.FR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-m12.F20260720.kdNS.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12348
-  type: vless
-  server: 104.21.44.114
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-m12.F20260720.KDns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-M12.f20260720.kDns.Fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12350
-  type: vless
-  server: 172.67.170.148
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 0-m12.f2AD840e-c79e-4878-90d3-B87FD9bB43F9.kdns.Fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 0-m12.f2ad840e-C79E-4878-90D3-b87fd9bb43f9.kDnS.fr
-  skip-cert-verify: true
-  udp: true
-- name: US_United States_vless_12351
-  type: vless
-  server: 104.21.71.132
-  port: 443
-  uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-  network: ws
-  servername: 2-M12.F2AD840E-C79e-4878-90d3-B87fD9BB43F9.Kdns.fR
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /jsuXqAwKiH1z48nidbaS5oX
-    headers:
-      Host: 2-m12.f2aD840e-C79E-4878-90d3-b87Fd9bb43f9.KDNs.fR
+    path: /
   skip-cert-verify: true
   udp: true
 - alterId: 0
@@ -2342,13 +1910,6 @@ proxies:
   udp: true
   uuid: 65329316-aca9-4825-8118-f85786865f0f
   xudp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1491
-  password: amazonskr05
-  port: 443
-  server: 3.97.16.160
-  type: ss
-  udp: true
 - down: ''
   fingerprint: ''
   name: US_United States_hysteria2_1494
@@ -2388,6 +1949,18 @@ proxies:
   port: 442
   server: 54.235.192.64
   type: http
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: US_United States_vmess_14118
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - name: US_United States_http_14120
   password: ''
   port: 443
@@ -2709,6 +2282,13 @@ proxies:
   server: 47.239.98.42
   type: socks5
   username: abc123
+- cipher: aes-256-cfb
+  name: US_United States_ss_14280
+  password: amazonskr05
+  port: 443
+  server: 18.132.203.206
+  type: ss
+  udp: true
 - name: US_United States_http_14284
   port: 8023
   server: 96.84.121.105
@@ -3061,142 +2641,112 @@ proxy-groups:
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_020
-  - US_United States_trojan_033
-  - US_United States_trojan_034
-  - US_United States_vmess_036
-  - US_United States_vless_126
-  - US_United States_vmess_1214
+  - US_United States_trojan_028
+  - US_United States_trojan_030
+  - US_United States_trojan_031
+  - US_United States_ss_033
+  - US_United States_ss_129
+  - US_United States_trojan_132
+  - US_United States_vless_128
+  - US_United States_vless_1214
+  - US_United States_vless_1218
+  - US_United States_vless_1221
   - US_United States_vless_1222
+  - US_United States_vless_1223
   - US_United States_vless_1224
-  - US_United States_trojan_1225
   - US_United States_vless_1226
-  - US_United States_trojan_1227
   - US_United States_trojan_1228
-  - US_United States_trojan_1232
-  - US_United States_vless_1239
-  - US_United States_vless_1240
-  - US_United States_vless_1241
+  - US_United States_trojan_1229
+  - US_United States_trojan_1234
+  - US_United States_trojan_1236
+  - US_United States_trojan_1239
+  - US_United States_vless_1242
+  - US_United States_vless_1243
   - US_United States_vless_1244
-  - US_United States_vless_1245
-  - US_United States_trojan_1251
+  - US_United States_vless_1248
   - US_United States_vless_1254
-  - US_United States_trojan_1255
-  - US_United States_vless_1257
-  - US_United States_trojan_1259
-  - US_United States_trojan_1260
-  - US_United States_trojan_1262
-  - US_United States_trojan_1263
+  - US_United States_vless_1255
+  - US_United States_trojan_1257
+  - US_United States_vless_1260
+  - US_United States_vless_1262
+  - US_United States_vless_1265
   - US_United States_vless_1266
+  - US_United States_vless_1267
+  - US_United States_trojan_1268
   - US_United States_vless_1269
   - US_United States_vless_1270
-  - US_United States_vless_1272
-  - US_United States_vless_1273
+  - US_United States_vless_1271
   - US_United States_vless_1274
+  - US_United States_vless_1276
+  - US_United States_vless_1277
   - US_United States_vless_1278
-  - US_United States_trojan_1279
-  - US_United States_trojan_1281
-  - US_United States_trojan_1282
-  - US_United States_trojan_1283
-  - US_United States_trojan_1284
-  - US_United States_trojan_1285
-  - US_United States_trojan_1286
-  - US_United States_trojan_1288
-  - US_United States_trojan_1289
-  - US_United States_trojan_1290
-  - US_United States_trojan_1293
-  - US_United States_trojan_1294
-  - US_United States_trojan_1295
-  - US_United States_trojan_1296
-  - US_United States_trojan_12100
-  - US_United States_trojan_12101
-  - US_United States_trojan_12102
-  - US_United States_trojan_12105
-  - US_United States_trojan_12106
-  - US_United States_trojan_12108
-  - US_United States_trojan_12110
-  - US_United States_trojan_12113
-  - US_United States_trojan_12115
+  - US_United States_vless_1279
+  - US_United States_vless_1283
+  - US_United States_vless_1285
+  - US_United States_trojan_1287
+  - US_United States_vless_1291
+  - US_United States_vless_1292
+  - US_United States_vless_1296
+  - US_United States_vless_1297
+  - US_United States_vless_1298
+  - US_United States_vless_1299
+  - US_United States_vless_12102
+  - US_United States_trojan_12103
+  - US_United States_trojan_12104
+  - US_United States_vless_12105
+  - US_United States_vless_12107
+  - US_United States_vless_12108
+  - US_United States_vless_12110
+  - US_United States_trojan_12112
+  - US_United States_vless_12115
   - US_United States_trojan_12116
   - US_United States_trojan_12117
+  - US_United States_trojan_12118
+  - US_United States_trojan_12119
+  - US_United States_trojan_12121
   - US_United States_trojan_12122
   - US_United States_trojan_12123
-  - US_United States_vless_12130
+  - US_United States_trojan_12124
+  - US_United States_trojan_12126
+  - US_United States_trojan_12127
+  - US_United States_trojan_12128
+  - US_United States_trojan_12129
+  - US_United States_trojan_12130
+  - US_United States_trojan_12131
   - US_United States_trojan_12132
-  - US_United States_trojan_12133
-  - US_United States_trojan_12134
   - US_United States_trojan_12135
-  - US_United States_trojan_12141
+  - US_United States_trojan_12136
+  - US_United States_trojan_12137
+  - US_United States_trojan_12138
+  - US_United States_trojan_12143
   - US_United States_trojan_12144
-  - US_United States_trojan_12146
+  - US_United States_trojan_12145
+  - US_United States_trojan_12147
+  - US_United States_trojan_12148
   - US_United States_trojan_12149
-  - US_United States_trojan_12152
-  - US_United States_trojan_12153
-  - US_United States_trojan_12155
-  - US_United States_trojan_12158
-  - US_United States_trojan_12159
-  - US_United States_trojan_12162
-  - US_United States_trojan_12163
-  - US_United States_trojan_12169
-  - US_United States_trojan_12170
-  - US_United States_trojan_12189
-  - US_United States_trojan_12190
+  - US_United States_trojan_12156
+  - US_United States_trojan_12160
+  - US_United States_trojan_12171
+  - US_United States_trojan_12172
+  - US_United States_trojan_12173
+  - US_United States_trojan_12182
+  - US_United States_trojan_12185
+  - US_United States_trojan_12187
   - US_United States_trojan_12192
-  - US_United States_trojan_12195
-  - US_United States_trojan_12206
+  - US_United States_trojan_12193
+  - US_United States_trojan_12204
   - US_United States_trojan_12212
-  - US_United States_trojan_12216
-  - US_United States_trojan_12219
-  - US_United States_trojan_12229
-  - US_United States_vless_12253
-  - US_United States_vless_12259
-  - US_United States_trojan_12267
-  - US_United States_vless_12274
-  - US_United States_vless_12275
-  - US_United States_vless_12277
-  - US_United States_vless_12278
-  - US_United States_vless_12279
+  - US_United States_trojan_12238
+  - US_United States_trojan_12251
+  - US_United States_trojan_12266
+  - US_United States_vless_12270
+  - US_United States_vless_12271
+  - US_United States_vless_12272
+  - US_United States_vless_12276
   - US_United States_vless_12280
-  - US_United States_vless_12281
   - US_United States_vless_12282
-  - US_United States_vless_12283
+  - US_United States_vless_12284
   - US_United States_vless_12285
-  - US_United States_vless_12286
-  - US_United States_vless_12289
-  - US_United States_vless_12290
-  - US_United States_vless_12291
-  - US_United States_vless_12292
-  - US_United States_vless_12295
-  - US_United States_vless_12296
-  - US_United States_vless_12298
-  - US_United States_vless_12299
-  - US_United States_vless_12301
-  - US_United States_vless_12304
-  - US_United States_vless_12306
-  - US_United States_vless_12307
-  - US_United States_vless_12308
-  - US_United States_vless_12311
-  - US_United States_vless_12313
-  - US_United States_vless_12315
-  - US_United States_vless_12320
-  - US_United States_vless_12323
-  - US_United States_vless_12324
-  - US_United States_vless_12327
-  - US_United States_vless_12328
-  - US_United States_vless_12332
-  - US_United States_vless_12333
-  - US_United States_vless_12334
-  - US_United States_vless_12337
-  - US_United States_vless_12338
-  - US_United States_vless_12340
-  - US_United States_vless_12341
-  - US_United States_vless_12343
-  - US_United States_vless_12344
-  - US_United States_vless_12345
-  - US_United States_vless_12346
-  - US_United States_vless_12347
-  - US_United States_vless_12348
-  - US_United States_vless_12350
-  - US_United States_vless_12351
   - US_United States_vmess_142
   - US_United States_vless_146
   - US_United States_vless_147
@@ -3242,12 +2792,12 @@ proxy-groups:
   - US_United States_vless_1481
   - US_United States_vless_1486
   - US_United States_vless_1489
-  - US_United States_ss_1491
   - US_United States_hysteria2_1494
   - US_United States_http_1497
   - US_United States_http_14108
   - US_United States_http_14112
   - US_United States_http_14117
+  - US_United States_vmess_14118
   - US_United States_http_14120
   - US_United States_http_14121
   - US_United States_http_14136
@@ -3289,6 +2839,7 @@ proxy-groups:
   - US_United States_http_14268
   - US_United States_http_14273
   - US_United States_socks5_14275
+  - US_United States_ss_14280
   - US_United States_http_14284
   - US_United States_http_14291
   - US_United States_http_14293
@@ -3343,142 +2894,112 @@ proxy-groups:
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_020
-  - US_United States_trojan_033
-  - US_United States_trojan_034
-  - US_United States_vmess_036
-  - US_United States_vless_126
-  - US_United States_vmess_1214
+  - US_United States_trojan_028
+  - US_United States_trojan_030
+  - US_United States_trojan_031
+  - US_United States_ss_033
+  - US_United States_ss_129
+  - US_United States_trojan_132
+  - US_United States_vless_128
+  - US_United States_vless_1214
+  - US_United States_vless_1218
+  - US_United States_vless_1221
   - US_United States_vless_1222
+  - US_United States_vless_1223
   - US_United States_vless_1224
-  - US_United States_trojan_1225
   - US_United States_vless_1226
-  - US_United States_trojan_1227
   - US_United States_trojan_1228
-  - US_United States_trojan_1232
-  - US_United States_vless_1239
-  - US_United States_vless_1240
-  - US_United States_vless_1241
+  - US_United States_trojan_1229
+  - US_United States_trojan_1234
+  - US_United States_trojan_1236
+  - US_United States_trojan_1239
+  - US_United States_vless_1242
+  - US_United States_vless_1243
   - US_United States_vless_1244
-  - US_United States_vless_1245
-  - US_United States_trojan_1251
+  - US_United States_vless_1248
   - US_United States_vless_1254
-  - US_United States_trojan_1255
-  - US_United States_vless_1257
-  - US_United States_trojan_1259
-  - US_United States_trojan_1260
-  - US_United States_trojan_1262
-  - US_United States_trojan_1263
+  - US_United States_vless_1255
+  - US_United States_trojan_1257
+  - US_United States_vless_1260
+  - US_United States_vless_1262
+  - US_United States_vless_1265
   - US_United States_vless_1266
+  - US_United States_vless_1267
+  - US_United States_trojan_1268
   - US_United States_vless_1269
   - US_United States_vless_1270
-  - US_United States_vless_1272
-  - US_United States_vless_1273
+  - US_United States_vless_1271
   - US_United States_vless_1274
+  - US_United States_vless_1276
+  - US_United States_vless_1277
   - US_United States_vless_1278
-  - US_United States_trojan_1279
-  - US_United States_trojan_1281
-  - US_United States_trojan_1282
-  - US_United States_trojan_1283
-  - US_United States_trojan_1284
-  - US_United States_trojan_1285
-  - US_United States_trojan_1286
-  - US_United States_trojan_1288
-  - US_United States_trojan_1289
-  - US_United States_trojan_1290
-  - US_United States_trojan_1293
-  - US_United States_trojan_1294
-  - US_United States_trojan_1295
-  - US_United States_trojan_1296
-  - US_United States_trojan_12100
-  - US_United States_trojan_12101
-  - US_United States_trojan_12102
-  - US_United States_trojan_12105
-  - US_United States_trojan_12106
-  - US_United States_trojan_12108
-  - US_United States_trojan_12110
-  - US_United States_trojan_12113
-  - US_United States_trojan_12115
+  - US_United States_vless_1279
+  - US_United States_vless_1283
+  - US_United States_vless_1285
+  - US_United States_trojan_1287
+  - US_United States_vless_1291
+  - US_United States_vless_1292
+  - US_United States_vless_1296
+  - US_United States_vless_1297
+  - US_United States_vless_1298
+  - US_United States_vless_1299
+  - US_United States_vless_12102
+  - US_United States_trojan_12103
+  - US_United States_trojan_12104
+  - US_United States_vless_12105
+  - US_United States_vless_12107
+  - US_United States_vless_12108
+  - US_United States_vless_12110
+  - US_United States_trojan_12112
+  - US_United States_vless_12115
   - US_United States_trojan_12116
   - US_United States_trojan_12117
+  - US_United States_trojan_12118
+  - US_United States_trojan_12119
+  - US_United States_trojan_12121
   - US_United States_trojan_12122
   - US_United States_trojan_12123
-  - US_United States_vless_12130
+  - US_United States_trojan_12124
+  - US_United States_trojan_12126
+  - US_United States_trojan_12127
+  - US_United States_trojan_12128
+  - US_United States_trojan_12129
+  - US_United States_trojan_12130
+  - US_United States_trojan_12131
   - US_United States_trojan_12132
-  - US_United States_trojan_12133
-  - US_United States_trojan_12134
   - US_United States_trojan_12135
-  - US_United States_trojan_12141
+  - US_United States_trojan_12136
+  - US_United States_trojan_12137
+  - US_United States_trojan_12138
+  - US_United States_trojan_12143
   - US_United States_trojan_12144
-  - US_United States_trojan_12146
+  - US_United States_trojan_12145
+  - US_United States_trojan_12147
+  - US_United States_trojan_12148
   - US_United States_trojan_12149
-  - US_United States_trojan_12152
-  - US_United States_trojan_12153
-  - US_United States_trojan_12155
-  - US_United States_trojan_12158
-  - US_United States_trojan_12159
-  - US_United States_trojan_12162
-  - US_United States_trojan_12163
-  - US_United States_trojan_12169
-  - US_United States_trojan_12170
-  - US_United States_trojan_12189
-  - US_United States_trojan_12190
+  - US_United States_trojan_12156
+  - US_United States_trojan_12160
+  - US_United States_trojan_12171
+  - US_United States_trojan_12172
+  - US_United States_trojan_12173
+  - US_United States_trojan_12182
+  - US_United States_trojan_12185
+  - US_United States_trojan_12187
   - US_United States_trojan_12192
-  - US_United States_trojan_12195
-  - US_United States_trojan_12206
+  - US_United States_trojan_12193
+  - US_United States_trojan_12204
   - US_United States_trojan_12212
-  - US_United States_trojan_12216
-  - US_United States_trojan_12219
-  - US_United States_trojan_12229
-  - US_United States_vless_12253
-  - US_United States_vless_12259
-  - US_United States_trojan_12267
-  - US_United States_vless_12274
-  - US_United States_vless_12275
-  - US_United States_vless_12277
-  - US_United States_vless_12278
-  - US_United States_vless_12279
+  - US_United States_trojan_12238
+  - US_United States_trojan_12251
+  - US_United States_trojan_12266
+  - US_United States_vless_12270
+  - US_United States_vless_12271
+  - US_United States_vless_12272
+  - US_United States_vless_12276
   - US_United States_vless_12280
-  - US_United States_vless_12281
   - US_United States_vless_12282
-  - US_United States_vless_12283
+  - US_United States_vless_12284
   - US_United States_vless_12285
-  - US_United States_vless_12286
-  - US_United States_vless_12289
-  - US_United States_vless_12290
-  - US_United States_vless_12291
-  - US_United States_vless_12292
-  - US_United States_vless_12295
-  - US_United States_vless_12296
-  - US_United States_vless_12298
-  - US_United States_vless_12299
-  - US_United States_vless_12301
-  - US_United States_vless_12304
-  - US_United States_vless_12306
-  - US_United States_vless_12307
-  - US_United States_vless_12308
-  - US_United States_vless_12311
-  - US_United States_vless_12313
-  - US_United States_vless_12315
-  - US_United States_vless_12320
-  - US_United States_vless_12323
-  - US_United States_vless_12324
-  - US_United States_vless_12327
-  - US_United States_vless_12328
-  - US_United States_vless_12332
-  - US_United States_vless_12333
-  - US_United States_vless_12334
-  - US_United States_vless_12337
-  - US_United States_vless_12338
-  - US_United States_vless_12340
-  - US_United States_vless_12341
-  - US_United States_vless_12343
-  - US_United States_vless_12344
-  - US_United States_vless_12345
-  - US_United States_vless_12346
-  - US_United States_vless_12347
-  - US_United States_vless_12348
-  - US_United States_vless_12350
-  - US_United States_vless_12351
   - US_United States_vmess_142
   - US_United States_vless_146
   - US_United States_vless_147
@@ -3524,12 +3045,12 @@ proxy-groups:
   - US_United States_vless_1481
   - US_United States_vless_1486
   - US_United States_vless_1489
-  - US_United States_ss_1491
   - US_United States_hysteria2_1494
   - US_United States_http_1497
   - US_United States_http_14108
   - US_United States_http_14112
   - US_United States_http_14117
+  - US_United States_vmess_14118
   - US_United States_http_14120
   - US_United States_http_14121
   - US_United States_http_14136
@@ -3571,6 +3092,7 @@ proxy-groups:
   - US_United States_http_14268
   - US_United States_http_14273
   - US_United States_socks5_14275
+  - US_United States_ss_14280
   - US_United States_http_14284
   - US_United States_http_14291
   - US_United States_http_14293
