@@ -63,79 +63,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_030
-  password: amazonskr05
-  port: 443
-  server: 35.182.129.250
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: US_United States_vmess_031
-  port: 21585
-  server: fduysry-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- alterId: '1'
-  cipher: auto
-  name: US_United States_vmess_032
+- client-fingerprint: chrome
+  name: US_United States_trojan_033
   network: tcp
-  port: 21586
-  server: g06.jp01-nn-vm0.entry.fr0528.art
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: '14492'
+  server: adakv1-u03.sonofthewinds.com
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: un5.sonofthewinds.com
+  type: trojan
   udp: true
-  uuid: 9c955dfc-c1d6-3de3-8230-deac3bd9c1a2
-  xudp: true
-- alterId: 1
-  cipher: auto
-  name: US_United States_vmess_033
-  port: 28788
-  server: mi4lkpu-g06.jp06-jz-vm0.entry.fr0528.art
+- client-fingerprint: chrome
+  name: US_United States_trojan_034
+  network: tcp
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: '14460'
+  server: adakv1-s01.sonofthewinds.com
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: vs1.sonofthewinds.com
+  type: trojan
   udp: true
-  uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8
-- cipher: aes-256-cfb
-  name: US_United States_ss_034
-  password: amazonskr05
-  port: 443
-  server: 18.175.119.181
-  type: ss
-  udp: true
-- alterId: 1
+- alterId: '0'
   cipher: auto
-  name: US_United States_vmess_035
-  port: 21584
-  server: ou79bps-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- alterId: 1
-  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
   name: US_United States_vmess_036
-  port: 21585
-  server: xgfyxry-g05.jp01-nn-vm0.entry.fr0528.art
+  network: http
+  port: '52080'
+  server: 38.246.226.240
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
-- cipher: aes-256-cfb
-  name: US_United States_ss_037
-  password: amazonskr05
-  port: '443'
-  server: 13.40.94.70
-  type: ss
-  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+  xudp: true
 - name: US_United States_vless_126
   type: vless
   server: 195.123.210.168
@@ -2088,6 +2051,16 @@ proxies:
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
+  name: US_United States_vmess_1435
+  port: 21585
+  server: fduysry-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
   name: US_United States_vmess_1436
   port: 28788
   server: miav3x8-g06.jp06-jz-vm0.entry.fr0528.art
@@ -2113,6 +2086,45 @@ proxies:
   tls: true
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- alterId: '1'
+  cipher: auto
+  name: US_United States_vmess_1438
+  network: tcp
+  port: 21586
+  server: g06.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9c955dfc-c1d6-3de3-8230-deac3bd9c1a2
+  xudp: true
+- alterId: 1
+  cipher: auto
+  name: US_United States_vmess_1440
+  port: 28788
+  server: mi4lkpu-g06.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2375151e-88f8-3a69-bf57-c462ff20c6d8
+- cipher: aes-256-cfb
+  name: US_United States_ss_1441
+  password: amazonskr05
+  port: 443
+  server: 18.175.119.181
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: US_United States_vmess_1442
+  port: 21584
+  server: ou79bps-g04.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - alterId: 1
   cipher: auto
   name: US_United States_vmess_1444
@@ -2148,6 +2160,16 @@ proxies:
   name: US_United States_vmess_1447
   port: 21585
   server: f4fyor1-g05.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: US_United States_vmess_1448
+  port: 21585
+  server: xgfyxry-g05.jp01-nn-vm0.entry.fr0528.art
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -2224,11 +2246,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- name: US_United States_http_1464
-  port: 36451
-  server: 38.246.226.240
-  type: http
-  udp: true
 - name: US_United States_http_1467
   password: ''
   port: 9443
@@ -2268,6 +2285,13 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- cipher: aes-256-cfb
+  name: US_United States_ss_1479
+  password: amazonskr05
+  port: 443
+  server: 35.182.129.250
+  type: ss
+  udp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: US_United States_vless_1481
@@ -3037,14 +3061,9 @@ proxy-groups:
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_020
-  - US_United States_ss_030
-  - US_United States_vmess_031
-  - US_United States_vmess_032
-  - US_United States_vmess_033
-  - US_United States_ss_034
-  - US_United States_vmess_035
+  - US_United States_trojan_033
+  - US_United States_trojan_034
   - US_United States_vmess_036
-  - US_United States_ss_037
   - US_United States_vless_126
   - US_United States_vmess_1214
   - US_United States_vless_1222
@@ -3197,23 +3216,29 @@ proxy-groups:
   - US_United States_vmess_1432
   - US_United States_vless_1433
   - US_United States_vmess_1434
+  - US_United States_vmess_1435
   - US_United States_vmess_1436
   - US_United States_vless_1437
+  - US_United States_vmess_1438
+  - US_United States_vmess_1440
+  - US_United States_ss_1441
+  - US_United States_vmess_1442
   - US_United States_vmess_1444
   - US_United States_vmess_1445
   - US_United States_vmess_1446
   - US_United States_vmess_1447
+  - US_United States_vmess_1448
   - US_United States_vless_1449
   - US_United States_vless_1450
   - US_United States_vmess_1451
   - US_United States_vmess_1454
   - US_United States_hysteria2_1455
   - US_United States_vmess_1457
-  - US_United States_http_1464
   - US_United States_http_1467
   - US_United States_http_1469
   - US_United States_vless_1470
   - US_United States_http_1477
+  - US_United States_ss_1479
   - US_United States_vless_1481
   - US_United States_vless_1486
   - US_United States_vless_1489
@@ -3318,14 +3343,9 @@ proxy-groups:
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_020
-  - US_United States_ss_030
-  - US_United States_vmess_031
-  - US_United States_vmess_032
-  - US_United States_vmess_033
-  - US_United States_ss_034
-  - US_United States_vmess_035
+  - US_United States_trojan_033
+  - US_United States_trojan_034
   - US_United States_vmess_036
-  - US_United States_ss_037
   - US_United States_vless_126
   - US_United States_vmess_1214
   - US_United States_vless_1222
@@ -3478,23 +3498,29 @@ proxy-groups:
   - US_United States_vmess_1432
   - US_United States_vless_1433
   - US_United States_vmess_1434
+  - US_United States_vmess_1435
   - US_United States_vmess_1436
   - US_United States_vless_1437
+  - US_United States_vmess_1438
+  - US_United States_vmess_1440
+  - US_United States_ss_1441
+  - US_United States_vmess_1442
   - US_United States_vmess_1444
   - US_United States_vmess_1445
   - US_United States_vmess_1446
   - US_United States_vmess_1447
+  - US_United States_vmess_1448
   - US_United States_vless_1449
   - US_United States_vless_1450
   - US_United States_vmess_1451
   - US_United States_vmess_1454
   - US_United States_hysteria2_1455
   - US_United States_vmess_1457
-  - US_United States_http_1464
   - US_United States_http_1467
   - US_United States_http_1469
   - US_United States_vless_1470
   - US_United States_http_1477
+  - US_United States_ss_1479
   - US_United States_vless_1481
   - US_United States_vless_1486
   - US_United States_vless_1489
