@@ -26,12 +26,12 @@ dns:
     - 240.0.0.0/4
 proxies:
 - cipher: aes-256-cfb
-  name: US_United States_ss_011
+  name: US_United States_ss_111
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
-- name: US_United States_trojan_015
+- name: US_United States_trojan_115
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_016
+- name: US_United States_trojan_116
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -47,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_United States_trojan_017
+- name: US_United States_trojan_117
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -55,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: US_United States_trojan_020
+- name: US_United States_trojan_120
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -63,19 +63,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_029
-  network: ws
-  port: 8555
-  server: 54.168.242.25
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /
+- cipher: aes-256-cfb
+  name: US_United States_ss_130
+  password: amazonskr05
+  port: '443'
+  server: 3.252.205.48
+  type: ss
+  udp: true
 - name: US_United States_vless_128
   type: vless
   server: vu2jp26vdi.87544899.xyz
@@ -1265,12 +1259,12 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_ss_011
-  - US_United States_trojan_015
-  - US_United States_trojan_016
-  - US_United States_trojan_017
-  - US_United States_trojan_020
-  - US_United States_vmess_029
+  - US_United States_ss_111
+  - US_United States_trojan_115
+  - US_United States_trojan_116
+  - US_United States_trojan_117
+  - US_United States_trojan_120
+  - US_United States_ss_130
   - US_United States_vless_128
   - US_United States_vless_1214
   - US_United States_vless_1218
@@ -1373,12 +1367,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_ss_011
-  - US_United States_trojan_015
-  - US_United States_trojan_016
-  - US_United States_trojan_017
-  - US_United States_trojan_020
-  - US_United States_vmess_029
+  - US_United States_ss_111
+  - US_United States_trojan_115
+  - US_United States_trojan_116
+  - US_United States_trojan_117
+  - US_United States_trojan_120
+  - US_United States_ss_130
   - US_United States_vless_128
   - US_United States_vless_1214
   - US_United States_vless_1218
