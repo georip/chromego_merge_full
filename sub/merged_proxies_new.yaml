@@ -63,30 +63,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: US_United States_trojan_026
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: US_United States_ss_027
+  password: amazonskr05
   port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 3.252.205.48
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_027
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
 - name: US_United States_ss_167
   server: 3.97.16.160
   type: ss
@@ -114,8 +97,7 @@ proxy-groups:
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_020
-  - US_United States_trojan_026
-  - US_United States_vmess_027
+  - US_United States_ss_027
   - US_United States_ss_167
   - US_United States_http_1625
 - name: 自动选择
@@ -129,8 +111,7 @@ proxy-groups:
   - US_United States_trojan_016
   - US_United States_trojan_017
   - US_United States_trojan_020
-  - US_United States_trojan_026
-  - US_United States_vmess_027
+  - US_United States_ss_027
   - US_United States_ss_167
   - US_United States_http_1625
 rules:
