@@ -71,84 +71,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: US_United States_trojan_026
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: US_United States_ss_026
+  password: amazonskr05
   port: '443'
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 15.237.218.241
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_027
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_028
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.37
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_029
-  network: ws
-  password: humanity
-  port: '443'
-  server: 8.6.112.0
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /assignment
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: US_United States_trojan_031
-  network: ws
-  password: 51oeqnj11lq5mljn
-  port: '2087'
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: false
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - alterId: 0
   cipher: auto
   name: US_United States_vmess_42
@@ -923,21 +852,6 @@ proxies:
     path: /
   skip-cert-verify: true
   udp: true
-- name: US_United States_vless_12325
-  type: vless
-  server: ct.877774.xyz
-  port: 443
-  uuid: 563f3112-71fe-4a88-9055-23df3cbf708d
-  network: ws
-  servername: us-lax.xhs152.shop
-  tls: true
-  client-fingerprint: random
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: us-lax.xhs152.shop
-  skip-cert-verify: true
-  udp: true
 - name: US_United States_vless_12326
   type: vless
   server: 45.76.100.75
@@ -1213,18 +1127,6 @@ proxies:
   sni: bing.com
   type: hysteria2
   udp: true
-- down: ''
-  fingerprint: ''
-  name: US_United States_hysteria2_1430
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  type: hysteria2
-  up: ''
 - name: US_United States_http_1435
   port: 443
   server: 149.36.50.129
@@ -1459,21 +1361,6 @@ proxies:
   port: 8023
   server: 96.84.121.105
   type: http
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14223
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
-  server: fin.pinkmoon.pro
-  servername: fin.pinkmoon.pro
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_United States_vless_14231
@@ -1809,11 +1696,7 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_trojan_026
-  - US_United States_trojan_027
-  - US_United States_trojan_028
-  - US_United States_trojan_029
-  - US_United States_trojan_031
+  - US_United States_ss_026
   - US_United States_vmess_42
   - US_United States_vless_43
   - US_United States_ss_44
@@ -1883,7 +1766,6 @@ proxy-groups:
   - US_United States_vmess_12267
   - US_United States_trojan_12309
   - US_United States_vless_12312
-  - US_United States_vless_12325
   - US_United States_vless_12326
   - US_United States_vless_12331
   - US_United States_vless_12332
@@ -1910,7 +1792,6 @@ proxy-groups:
   - US_United States_http_1425
   - US_United States_anytls_1426
   - US_United States_hysteria2_1427
-  - US_United States_hysteria2_1430
   - US_United States_http_1435
   - US_United States_anytls_1437
   - US_United States_http_1443
@@ -1938,7 +1819,6 @@ proxy-groups:
   - US_United States_http_14206
   - US_United States_socks5_14209
   - US_United States_http_14218
-  - US_United States_vless_14223
   - US_United States_vless_14231
   - US_United States_http_14234
   - US_United States_http_14237
@@ -1993,11 +1873,7 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_trojan_026
-  - US_United States_trojan_027
-  - US_United States_trojan_028
-  - US_United States_trojan_029
-  - US_United States_trojan_031
+  - US_United States_ss_026
   - US_United States_vmess_42
   - US_United States_vless_43
   - US_United States_ss_44
@@ -2067,7 +1943,6 @@ proxy-groups:
   - US_United States_vmess_12267
   - US_United States_trojan_12309
   - US_United States_vless_12312
-  - US_United States_vless_12325
   - US_United States_vless_12326
   - US_United States_vless_12331
   - US_United States_vless_12332
@@ -2094,7 +1969,6 @@ proxy-groups:
   - US_United States_http_1425
   - US_United States_anytls_1426
   - US_United States_hysteria2_1427
-  - US_United States_hysteria2_1430
   - US_United States_http_1435
   - US_United States_anytls_1437
   - US_United States_http_1443
@@ -2122,7 +1996,6 @@ proxy-groups:
   - US_United States_http_14206
   - US_United States_socks5_14209
   - US_United States_http_14218
-  - US_United States_vless_14223
   - US_United States_vless_14231
   - US_United States_http_14234
   - US_United States_http_14237
