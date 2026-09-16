@@ -72,10 +72,17 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_026
+  name: US_United States_ss_027
   password: amazonskr05
   port: 443
-  server: 3.149.6.228
+  server: 3.16.81.205
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_028
+  password: amazonskr05
+  port: '443'
+  server: 13.39.233.161
   type: ss
   udp: true
 - alterId: 0
@@ -450,17 +457,18 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1444
-  password: amazonskr05
-  port: 443
-  server: 13.39.233.161
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_1445
   password: amazonskr05
   port: 443
   server: 13.38.76.125
   type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1449
+  password: amazonskr05
+  port: 443
+  server: 3.149.6.228
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -596,6 +604,14 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /stock/feedback?ed=2560
+- name: US_United States_http_1472
+  password: ''
+  port: 443
+  server: purposebydesig.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: US_United States_http_1473
   password: null
   port: 443
@@ -633,6 +649,14 @@ proxies:
   tls: true
   type: vless
   uuid: f3c10b66-6a02-499f-9ed5-e518be4dde61
+- name: US_United States_http_1486
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_http_1488
   password: ''
   port: 443
@@ -715,6 +739,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: US_United States_http_14118
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - name: US_United States_http_14131
   password: ''
   port: 443
@@ -783,6 +816,15 @@ proxies:
   sni: mmgr.club
   tls: true
   type: http
+- name: US_United States_http_14172
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -870,6 +912,14 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /web?ed=2560
+- name: US_United States_http_14208
+  password: null
+  port: 443
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_http_14225
   port: 443
   server: 38.28.193.1
@@ -915,6 +965,12 @@ proxies:
   server: 172.96.161.152
   type: ss
   udp: true
+- name: US_United States_http_14249
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_http_14253
   password: freeuser1
   port: 9251
@@ -922,6 +978,12 @@ proxies:
   tls: true
   type: http
   username: freeuser1
+- name: US_United States_http_14262
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
 - auth: 8294f130408299df8cab08c80bf6f819
   name: US_United States_hysteria2_14263
   obfs: salamander
@@ -933,6 +995,24 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
+- name: US_United States_http_14269
+  password: ''
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: US_United States_http_14272
+  password: ''
+  port: 8443
+  server: 104.219.236.83
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - name: US_United States_http_14273
   port: 8023
   server: 96.84.121.105
@@ -971,6 +1051,21 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /books?ed=2560
+- name: US_United States_http_14292
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- name: US_United States_http_14293
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
 - name: US_United States_http_14306
   password: ''
   port: 9443
@@ -996,6 +1091,18 @@ proxies:
   port: 8282
   server: 208.95.22.65
   type: http
+- name: US_United States_http_14315
+  port: 443
+  server: 149.22.86.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_United States_http_14316
+  port: 443
+  server: 149.22.86.14
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_http_14319
   port: 30005
   server: 63.175.157.2
@@ -1004,6 +1111,14 @@ proxies:
   port: 999
   server: 154.3.76.14
   type: http
+- name: US_United States_http_14322
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_hysteria2_14323
   password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
   port: 2077
@@ -1065,6 +1180,22 @@ proxies:
     headers:
       Host: minimize-evenness.cdn-content.com
     path: /ws
+- name: US_United States_http_14337
+  password: None
+  port: 443
+  server: 159.13.44.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: US_United States_http_14340
+  password: ''
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - name: US_United States_http_14341
   port: 999
   server: 38.41.188.20
@@ -1113,6 +1244,17 @@ proxies:
   udp: true
   uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
   xudp: true
+- name: US_United States_http_14374
+  port: 443
+  server: 157.22.183.72
+  tls: true
+  type: http
+- name: US_United States_http_14376
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -1165,6 +1307,28 @@ proxies:
     headers:
       Host: se-sto.xhs152.shop
     path: /announcement?ed=2048
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_14400
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: or.mirikhan.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: V2XNET
+  ws-opts:
+    headers:
+      Host: or.mirikhan.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /xvpnws/
+  xudp: true
 - name: US_United States_anytls_14401
   password: github.com/Alvin9999-newpac/fanqiang
   port: 19000
@@ -1207,6 +1371,13 @@ proxies:
   server: 195.123.212.87
   type: http
   username: null
+- name: US_United States_socks5_14425
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  udp: true
+  username: test123
 - name: US_United States_http_14428
   port: 999
   server: 206.62.167.8
@@ -1225,6 +1396,12 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
     path: /ws
+- name: US_United States_http_14433
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_socks5_14435
   password: ''
   port: 1083
@@ -1271,6 +1448,14 @@ proxies:
   password: amazonskr05
   cipher: aes-256-cfb
   delay: 624
+- name: US_United States_http_1625
+  server: 38.28.193.188
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 821
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1283,7 +1468,8 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_ss_026
+  - US_United States_ss_027
+  - US_United States_ss_028
   - US_United States_vmess_42
   - US_United States_vless_43
   - US_United States_ss_44
@@ -1317,8 +1503,8 @@ proxy-groups:
   - US_United States_ss_1438
   - US_United States_vless_1441
   - US_United States_hysteria2_1442
-  - US_United States_ss_1444
   - US_United States_ss_1445
+  - US_United States_ss_1449
   - US_United States_vless_1451
   - US_United States_vless_1454
   - US_United States_ss_1457
@@ -1330,10 +1516,12 @@ proxy-groups:
   - US_United States_http_1465
   - US_United States_http_1467
   - US_United States_vless_1469
+  - US_United States_http_1472
   - US_United States_http_1473
   - US_United States_http_1475
   - US_United States_http_1480
   - US_United States_vless_1483
+  - US_United States_http_1486
   - US_United States_http_1488
   - US_United States_http_1489
   - US_United States_http_1492
@@ -1343,6 +1531,7 @@ proxy-groups:
   - US_United States_http_14101
   - US_United States_http_14112
   - US_United States_http_14117
+  - US_United States_http_14118
   - US_United States_http_14131
   - US_United States_socks5_14133
   - US_United States_http_14142
@@ -1351,6 +1540,7 @@ proxy-groups:
   - US_United States_http_14160
   - US_United States_hysteria2_14168
   - US_United States_http_14170
+  - US_United States_http_14172
   - US_United States_vless_14173
   - US_United States_socks5_14179
   - US_United States_vless_14189
@@ -1358,43 +1548,60 @@ proxy-groups:
   - US_United States_http_14193
   - US_United States_vless_14195
   - US_United States_vless_14203
+  - US_United States_http_14208
   - US_United States_http_14225
   - US_United States_vless_14228
   - US_United States_hysteria2_14232
   - US_United States_ss_14246
+  - US_United States_http_14249
   - US_United States_http_14253
+  - US_United States_http_14262
   - US_United States_hysteria2_14263
+  - US_United States_http_14269
+  - US_United States_http_14272
   - US_United States_http_14273
   - US_United States_hysteria2_14274
   - US_United States_hysteria2_14277
   - US_United States_vless_14285
+  - US_United States_http_14292
+  - US_United States_http_14293
   - US_United States_http_14306
   - US_United States_http_14311
   - US_United States_http_14313
   - US_United States_http_14314
+  - US_United States_http_14315
+  - US_United States_http_14316
   - US_United States_http_14319
   - US_United States_http_14321
+  - US_United States_http_14322
   - US_United States_hysteria2_14323
   - US_United States_vless_14325
   - US_United States_http_14326
   - US_United States_ss_14327
   - US_United States_vless_14328
+  - US_United States_http_14337
+  - US_United States_http_14340
   - US_United States_http_14341
   - US_United States_ss_14352
   - US_United States_socks5_14358
   - US_United States_trojan_14369
   - US_United States_vless_14371
+  - US_United States_http_14374
+  - US_United States_http_14376
   - US_United States_vless_14381
   - US_United States_http_14383
   - US_United States_vless_14393
   - US_United States_vless_14394
+  - US_United States_vless_14400
   - US_United States_anytls_14401
   - US_United States_vless_14404
   - US_United States_socks5_14406
   - US_United States_hysteria2_14408
   - US_United States_http_14420
+  - US_United States_socks5_14425
   - US_United States_http_14428
   - US_United States_vless_14429
+  - US_United States_http_14433
   - US_United States_socks5_14435
   - US_United States_http_14436
   - US_United States_http_14437
@@ -1402,6 +1609,7 @@ proxy-groups:
   - US_United States_http_14440
   - US_United States_ss_162
   - US_United States_ss_1622
+  - US_United States_http_1625
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1414,7 +1622,8 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_ss_026
+  - US_United States_ss_027
+  - US_United States_ss_028
   - US_United States_vmess_42
   - US_United States_vless_43
   - US_United States_ss_44
@@ -1448,8 +1657,8 @@ proxy-groups:
   - US_United States_ss_1438
   - US_United States_vless_1441
   - US_United States_hysteria2_1442
-  - US_United States_ss_1444
   - US_United States_ss_1445
+  - US_United States_ss_1449
   - US_United States_vless_1451
   - US_United States_vless_1454
   - US_United States_ss_1457
@@ -1461,10 +1670,12 @@ proxy-groups:
   - US_United States_http_1465
   - US_United States_http_1467
   - US_United States_vless_1469
+  - US_United States_http_1472
   - US_United States_http_1473
   - US_United States_http_1475
   - US_United States_http_1480
   - US_United States_vless_1483
+  - US_United States_http_1486
   - US_United States_http_1488
   - US_United States_http_1489
   - US_United States_http_1492
@@ -1474,6 +1685,7 @@ proxy-groups:
   - US_United States_http_14101
   - US_United States_http_14112
   - US_United States_http_14117
+  - US_United States_http_14118
   - US_United States_http_14131
   - US_United States_socks5_14133
   - US_United States_http_14142
@@ -1482,6 +1694,7 @@ proxy-groups:
   - US_United States_http_14160
   - US_United States_hysteria2_14168
   - US_United States_http_14170
+  - US_United States_http_14172
   - US_United States_vless_14173
   - US_United States_socks5_14179
   - US_United States_vless_14189
@@ -1489,43 +1702,60 @@ proxy-groups:
   - US_United States_http_14193
   - US_United States_vless_14195
   - US_United States_vless_14203
+  - US_United States_http_14208
   - US_United States_http_14225
   - US_United States_vless_14228
   - US_United States_hysteria2_14232
   - US_United States_ss_14246
+  - US_United States_http_14249
   - US_United States_http_14253
+  - US_United States_http_14262
   - US_United States_hysteria2_14263
+  - US_United States_http_14269
+  - US_United States_http_14272
   - US_United States_http_14273
   - US_United States_hysteria2_14274
   - US_United States_hysteria2_14277
   - US_United States_vless_14285
+  - US_United States_http_14292
+  - US_United States_http_14293
   - US_United States_http_14306
   - US_United States_http_14311
   - US_United States_http_14313
   - US_United States_http_14314
+  - US_United States_http_14315
+  - US_United States_http_14316
   - US_United States_http_14319
   - US_United States_http_14321
+  - US_United States_http_14322
   - US_United States_hysteria2_14323
   - US_United States_vless_14325
   - US_United States_http_14326
   - US_United States_ss_14327
   - US_United States_vless_14328
+  - US_United States_http_14337
+  - US_United States_http_14340
   - US_United States_http_14341
   - US_United States_ss_14352
   - US_United States_socks5_14358
   - US_United States_trojan_14369
   - US_United States_vless_14371
+  - US_United States_http_14374
+  - US_United States_http_14376
   - US_United States_vless_14381
   - US_United States_http_14383
   - US_United States_vless_14393
   - US_United States_vless_14394
+  - US_United States_vless_14400
   - US_United States_anytls_14401
   - US_United States_vless_14404
   - US_United States_socks5_14406
   - US_United States_hysteria2_14408
   - US_United States_http_14420
+  - US_United States_socks5_14425
   - US_United States_http_14428
   - US_United States_vless_14429
+  - US_United States_http_14433
   - US_United States_socks5_14435
   - US_United States_http_14436
   - US_United States_http_14437
@@ -1533,6 +1763,7 @@ proxy-groups:
   - US_United States_http_14440
   - US_United States_ss_162
   - US_United States_ss_1622
+  - US_United States_http_1625
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
