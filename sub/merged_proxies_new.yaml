@@ -71,36 +71,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_127
-  network: ws
-  port: '80'
-  server: 188.114.96.19
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-    path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_128
-  password: 063aee2ed1124285b5d8a8b049e24cba
+- cipher: aes-256-cfb
+  name: US_United States_ss_026
+  password: amazonskr05
   port: '443'
-  server: 107.174.88.128
+  server: 63.185.90.235
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_129
+  name: US_United States_ss_027
   password: amazonskr05
   port: '443'
-  server: 15.237.252.23
+  server: 15.237.210.147
   type: ss
   udp: true
 - name: US_United States_vmess_61
@@ -795,6 +777,12 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: US_United States_ss_6293
+  server: 107.174.88.128
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 063aee2ed1124285b5d8a8b049e24cba
 - name: US_United States_socks5_6307
   server: 104.168.249.36
   port: 1080
@@ -925,6 +913,20 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: US_United States_vmess_6481
+  server: 188.114.96.19
+  port: 80
+  type: vmess
+  uuid: 479526cd-5011-43cf-a788-504da95e07c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
 - name: US_United States_trojan_6483
   server: 104.18.152.161
   port: 443
@@ -5045,18 +5047,19 @@ proxies:
     path: /chat
     headers:
       Host: vuk2.0bad.com
-- name: US_United States_ss_61052
-  server: api-a-asia-2.mcqqn.com
-  port: 61006
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3e836edc-e738-4e63-964d-ad61d9e3f27b
-- name: US_United States_trojan_61055
+- name: US_United States_trojan_61059
   server: hnm.xiaohouzi.club
-  port: 18634
+  port: 17107
   type: trojan
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  sni: avas04.xiaohouzi.club
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: hnm.xiaohouzi.club
+  skip-cert-verify: false
+- name: US_United States_trojan_61062
+  server: hn.xiaohouzi.club
+  port: 18433
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: hn.xiaohouzi.club
   skip-cert-verify: false
 - name: US_United States_vmess_61067
   server: 172.67.185.133
@@ -5070,12 +5073,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: US_United States_ss_61073
-  server: api-a-asia-3.mcqqn.com
-  port: 61019
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 3e836edc-e738-4e63-964d-ad61d9e3f27b
 - name: US_United States_vmess_61077
   server: 146.190.82.241
   port: 80
@@ -5140,13 +5137,6 @@ proxies:
   network: ws
   ws-opts:
     path: /8cda48b3
-- name: US_United States_trojan_61089
-  server: hn.xiaohouzi.club
-  port: 18459
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: hn.xiaohouzi.club
-  skip-cert-verify: false
 - name: US_United States_ss_61095
   server: 54.179.221.54
   port: 443
@@ -5191,13 +5181,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: US_United States_trojan_61113
-  server: gz01.xiaohouzi.club
-  port: 20091
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: gz01.xiaohouzi.club
-  skip-cert-verify: false
 - name: US_United States_ss_61116
   server: 13.215.191.190
   port: 443
@@ -5696,6 +5679,13 @@ proxies:
   password: 4d048fc6-d944-41dd-b327-10856adcc82d
   sni: zi.you.usdtvfk.top
   skip-cert-verify: false
+- name: US_United States_trojan_61226
+  server: iplc.xiaohouzi.club
+  port: 20015
+  type: trojan
+  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+  sni: $$$supaz05.xiaohouzi.club
+  skip-cert-verify: false
 - name: US_United States_vmess_61227
   server: vjp2.0bad.com
   port: 443
@@ -5835,13 +5825,6 @@ proxies:
   network: ws
   ws-opts:
     path: /8cda48b3
-- name: US_United States_trojan_61253
-  server: iplc.xiaohouzi.club
-  port: 20032
-  type: trojan
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  sni: $$hk-azure02.xiaohouzi.club
-  skip-cert-verify: false
 - name: US_United States_vmess_61254
   server: 172.67.156.140
   port: 8443
@@ -5878,6 +5861,13 @@ proxies:
   network: ws
   ws-opts:
     path: /8cda48b3
+- name: US_United States_trojan_61258
+  server: gz01.xiaohouzi.club
+  port: 51058
+  type: trojan
+  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+  sni: $$aru01.xiaohouzi.club
+  skip-cert-verify: false
 - name: US_United States_vmess_61259
   server: 172.67.164.123
   port: 443
@@ -6344,6 +6334,12 @@ proxies:
     path: /
     headers:
       Host: namer-us-sea-01-edgecast.qdns.live
+- name: US_United States_ss_61402
+  server: 15.237.252.23
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: US_United States_vmess_61403
   server: 104.16.56.52
   port: 2053
@@ -7167,6 +7163,12 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: US_United States_trojan_61678
+  server: supsig.xiaohouzi.club
+  port: 10102
+  type: trojan
+  password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+  skip-cert-verify: false
 - name: US_United States_trojan_61681
   server: syd14.yukiss.eu.org
   port: 18818
@@ -7976,6 +7978,20 @@ proxies:
     path: /live
     headers:
       Host: cctv.com
+- name: US_United States_vmess_62026
+  server: ddns2.airtcp.vip
+  port: 10001
+  type: vmess
+  uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ddns2.airtcp.vip
 - name: US_United States_vmess_62027
   server: tw.xlkjjs.top
   port: 443
@@ -13921,24 +13937,593 @@ proxies:
   network: ws
   ws-opts:
     path: /RpT6kZjkw45EenmTcDYWs
-- name: US_United States_socks5_145
+- client-fingerprint: chrome
+  name: US_United States_vless_149
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+    short-id: ca672c53fbbac555
+  server: 34.15.162.1
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+- name: US_United States_socks5_1411
   password: admin
   port: 1080
   server: 47.239.116.165
   type: socks5
   username: admin
-- name: US_United States_socks5_1413
-  password: '111'
-  port: 11211
-  server: 47.243.173.50
-  skip-cert-verify: true
-  type: socks5
-  username: '111'
+- cipher: aes-256-cfb
+  name: US_United States_ss_1413
+  password: amazonskr05
+  port: 443
+  server: 18.156.84.97
+  type: ss
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
   name: US_United States_vless_1415
+  network: ws
+  port: 8443
+  server: 168.110.112.196
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /pay/music?ed=2560
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1416
+  password: RpNOp0rdeUcXTBh/XgawUngLjpcB87tY8NaiVQl/dpo=
+  port: 59924
+  server: 130.61.130.33
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1417
+  password: 1XeydZB/lx64MHceQ9pOts/N4240zbkRHERpRBoaVVQ=
+  port: 45819
+  server: 152.70.56.250
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1420
+  password: Agibj1Vmrbe4+wbHOjbYmeiae3Wi3nnIMa1mmgiKcu0=
+  port: 59924
+  server: 130.61.130.160
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1421
+  password: P434w+xHUf1T8jTpiG7qvvOPz8X6ZY/miFP0YYoSZyI=
+  port: 45819
+  server: 141.144.199.52
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1422
+  password: KwT6JM5cthwFzkjJ7MNDvFwSFtXqYgAAj6q7kkJjLOY=
+  port: 45819
+  server: 150.230.23.94
+  type: ss
+- name: US_United States_socks5_1423
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  skip-cert-verify: true
+  type: socks5
+  username: admin
+- cipher: aes-256-cfb
+  name: US_United States_ss_1424
+  password: amazonskr05
+  port: 443
+  server: 63.181.79.8
+  type: ss
+  udp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1425
+  password: eZXBNy4NEyQQCdk1JguxJWL7EkNVlmk8FAZBu9i41Cg=
+  port: 45819
+  server: 141.148.227.15
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1427
+  password: amazonskr05
+  port: 443
+  server: 63.176.107.205
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1428
+  network: ws
+  port: 443
+  server: 162.159.237.80
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /magnet?ed=2560
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1433
+  password: SCbU86xLazclXP4Pnsmz/efv5JSMkayZ7LG3rxePKJY=
+  port: 59924
+  server: 130.61.224.175
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_United States_vless_1434
+  network: tcp
+  port: 56782
+  reality-opts:
+    public-key: a89JsIKpeVClqRr4LykJGLaO-i5iObJUvhwNu4yv2CQ
+  server: 154.21.89.50
+  servername: addons.mozilla.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 64f776a9-1c2f-4012-a4b7-da4f4958f727
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1435
+  network: ws
+  port: 443
+  server: 172.64.79.241
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /pics?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1438
+  network: ws
+  port: 2053
+  server: 104.17.151.39
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /app/news/mag?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1440
+  network: ws
+  port: 443
+  server: 104.17.109.229
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /out/htm/films?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1441
+  network: ws
+  port: 443
+  server: 172.64.229.31
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /events/code/zh-cn?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1442
+  network: ws
+  port: 2096
+  server: 104.17.20.103
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /section?ed=2560
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1443
+  password: mYD6SNVk6rYfSsNcRE54unnYKlp5hRZk+XTtDnjEzjY=
+  port: 56927
+  server: 138.2.71.128
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1446
+  password: Lkuvq8NB1/tDZYrDCNcvxZMC7ISuX6oMGYUEAvk966s=
+  port: 45819
+  server: 158.101.210.92
+  type: ss
+- name: US_United States_http_1447
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1448
+  network: ws
+  port: 8443
+  server: 45.131.71.183
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /player?ed=2560
+- client-fingerprint: chrome
+  name: US_United States_vless_1449
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+    short-id: ae682368818bd6c5
+  server: 34.155.10.226
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  xudp: true
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1450
+  password: 3wYtGhROca1p818RFgftCeodooVes1HaskrJVHZoF3c=
+  port: 56927
+  server: 168.107.68.192
+  type: ss
+- client-fingerprint: random
+  name: US_United States_vless_1456
+  network: ws
+  port: 443
+  server: 150.230.206.130
+  servername: fm3.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2fdf56f7-7bd0-43c5-8c57-a505a74c61b0
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1457
+  network: ws
+  port: 443
+  server: 130.17.27.204
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /player/shop?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1458
+  network: ws
+  port: 8443
+  server: 144.31.28.106
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /trade?ed=2560
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_1459
+  password: 2t7ioVN2zeH8TORMF3lxl8mKAb+1Db7YlFKCQBS424k=
+  port: 56927
+  server: 129.150.59.192
+  type: ss
+- grpc-opts:
+    grpc-mode: multi
+    grpc-service-name: vless
+  name: US_United States_vless_1461
+  network: grpc
+  port: 2085
+  server: 104.143.223.67
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: c5a28d88-714d-461c-9ef6-178e26e2c840
+- name: US_United States_http_1462
+  password: ''
+  port: 443
+  server: 35.247.136.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1464
+  network: ws
+  port: 443
+  server: 104.19.49.198
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /upload?ed=2560
+- name: US_United States_http_1465
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1469
+  network: ws
+  port: 2053
+  server: 104.17.166.88
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /topic?ed=2560
+- name: US_United States_http_1474
+  password: null
+  port: 443
+  server: kimberlymilano.icu
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: US_United States_http_1476
+  password: 'null'
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: US_United States_http_1481
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+- grpc-opts:
+    grpc-mode: multi
+    grpc-service-name: vless
+  name: US_United States_vless_1482
+  network: grpc
+  port: 2085
+  server: 104.143.223.56
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: b41bac9b-17f7-469f-9df0-05b09140081b
+- name: US_United States_http_1485
+  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: US_United States_http_1486
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_1491
+  network: ws
+  port: 443
+  server: 172.64.79.57
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /dl?ed=2560
+- name: US_United States_http_1492
+  password: 'null'
+  port: 443
+  server: zebpay.site
+  tls: true
+  type: http
+  username: 'null'
+- name: US_United States_http_1495
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14103
+  network: ws
+  port: 8443
+  server: 132.243.203.218
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /v?ed=2560
+- name: US_United States_http_14113
+  password: 'null'
+  port: 443
+  server: efr-marktplatz.club
+  tls: true
+  type: http
+  username: 'null'
+- name: US_United States_http_14122
+  password: 'null'
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: US_United States_http_14127
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  tls: true
+  type: http
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14141
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  server: 72.56.38.83
+  servername: absolute-disaster.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: Fluffy_VPN-zKZUa4Ie
+  xudp: true
+- name: US_United States_http_14151
+  port: 5999
+  server: 24.52.147.103
+  type: http
+- name: US_United States_http_14155
+  password: None
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14161
+  network: ws
+  port: 443
+  server: 147.90.89.173
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /source/buy/f?ed=2560
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14166
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EEMZb6c0SADcplLXt8-rTAZYaH-s0o9pXG1daNegzww
+    short-id: 18b63521daeda630
+  server: hyhkup.mervi.icu
+  servername: hyhkup.mervi.icu
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+- name: US_United States_http_14172
+  password: null
+  port: 443
+  server: tzoa.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14174
   network: ws
   port: 443
   server: 207.148.94.254
@@ -13955,7 +14540,92 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1417
+  name: US_United States_vless_14192
+  network: ws
+  port: 81
+  server: 217.12.206.160
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /members/playlist?ed=2560
+- name: US_United States_http_14195
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14199
+  network: ws
+  port: 443
+  server: 144.31.200.207
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /code/directory/ads?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14200
+  network: ws
+  port: 443
+  server: 132.243.251.194
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /topics?ed=2560
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14212
+  network: ws
+  port: 8443
+  server: 132.243.203.207
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /lives?ed=2560
+- name: US_United States_http_14222
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14224
   network: ws
   port: 8581
   server: 23.249.18.144
@@ -13972,10 +14642,10 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1418
+  name: US_United States_vless_14227
   network: ws
   port: 443
-  server: 64.83.39.176
+  server: 164.92.193.243
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -13984,138 +14654,22 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /seller?ed=2560
-- client-fingerprint: chrome
-  name: US_United States_vless_1419
-  network: tcp
+    path: /topics?ed=2560
+- name: US_United States_http_14228
   port: 443
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-    short-id: ca672c53fbbac555
-  server: 34.15.162.1
-  servername: www.cloudflare.com
+  server: 38.28.193.1
   skip-cert-verify: true
-  tfo: false
+  sni: 38.28.193.1
   tls: true
-  type: vless
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
-- cipher: aes-256-cfb
-  name: US_United States_ss_1423
-  password: amazonskr05
-  port: 443
-  server: 18.156.84.97
-  type: ss
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: US_United States_vless_1425
-  network: tcp
-  port: 22224
-  server: 13.39.230.204
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1429
-  password: P434w+xHUf1T8jTpiG7qvvOPz8X6ZY/miFP0YYoSZyI=
-  port: 45819
-  server: 141.144.199.52
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1430
-  password: SCbU86xLazclXP4Pnsmz/efv5JSMkayZ7LG3rxePKJY=
-  port: 59924
-  server: 130.61.224.175
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1433
-  password: weY5SuElMZv3cFUuqwueCsMJOtulfSGK+49UclgGrog=
-  port: 50356
-  server: 129.146.5.155
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1434
-  password: FmxC4O0b9MskcU1X3oBo26HI+Kn5NDxSUAbvdF/tkV8=
-  port: 59924
-  server: 130.61.114.48
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1436
-  password: Dx4uWbltHEUh+pri0TH9ioGP9B2/vE9G2G8rlTQtEfg=
-  port: 45819
-  server: 141.144.200.105
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1437
-  password: QXDAqNvQJDUMd7I6mdmSnWxJHM09yjBC6Gf5xGFDkFg=
-  port: 59924
-  server: 130.61.119.117
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1439
-  password: KwT6JM5cthwFzkjJ7MNDvFwSFtXqYgAAj6q7kkJjLOY=
-  port: 45819
-  server: 150.230.23.94
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1440
-  password: Lkuvq8NB1/tDZYrDCNcvxZMC7ISuX6oMGYUEAvk966s=
-  port: 45819
-  server: 158.101.210.92
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1441
-  password: XNRi9m8avIapydZV8GsJsnl049u4moNNBG90ENSviv4=
-  port: 59924
-  server: 130.61.179.28
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1442
-  password: NiPxf0H2Yidm6y+KQxFBL9h6N0fIGwFOiUQPGC+3l+w=
-  port: 59924
-  server: 130.61.148.34
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1443
-  password: BH2ePK1/aJCB/jX1/59TaPxJnS2ZCHrqv/rsEV3Hqkc=
-  port: 45819
-  server: 141.144.202.239
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1444
-  password: RpNOp0rdeUcXTBh/XgawUngLjpcB87tY8NaiVQl/dpo=
-  port: 59924
-  server: 130.61.130.33
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1446
-  password: gfUQDQFFyto9dzLAec5MeJgPRwSwEedoPiuWL6+NTPA=
-  port: 45819
-  server: 158.178.151.166
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1447
-  password: 1XeydZB/lx64MHceQ9pOts/N4240zbkRHERpRBoaVVQ=
-  port: 45819
-  server: 152.70.56.250
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1450
-  password: Agibj1Vmrbe4+wbHOjbYmeiae3Wi3nnIMa1mmgiKcu0=
-  port: 59924
-  server: 130.61.130.160
-  type: ss
+  type: http
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1457
+  name: US_United States_vless_14230
   network: ws
-  port: 443
-  server: 172.64.79.241
+  port: 2083
+  server: 164.92.137.46
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -14124,83 +14678,15 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /pics?ed=2560
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1459
-  password: rYYQVHYHRQ85q+A8qkzqg51BCs9HBK4Psg7VO/z6rMc=
-  port: 59924
-  server: 130.61.40.61
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1461
-  password: amazonskr05
-  port: 443
-  server: 63.176.107.205
-  type: ss
-  udp: true
-- name: US_United States_http_1463
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1468
-  password: AQqPf1u0AmCFWLNBxK7ve1ODd1cTFFCg+q5qsF3hwoM=
-  port: 59924
-  server: 130.61.176.44
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1469
-  password: HCVjmCI84r15DaEC6s9RO3YZQEAC8l8VcQj541sTl7w=
-  port: 59924
-  server: 130.61.119.114
-  type: ss
-- alterId: 0
-  cipher: auto
-  encryption: none
-  flow: null
-  name: US_United States_vless_1476
-  network: tcp
-  port: 62145
-  server: 158.101.209.32
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1477
-  password: eZXBNy4NEyQQCdk1JguxJWL7EkNVlmk8FAZBu9i41Cg=
-  port: 45819
-  server: 141.148.227.15
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1481
-  password: JgVnjf+IujBeHuKJ9dhXtdyGYRYY8x9LPeqbgYYQE0Q=
-  port: 59924
-  server: 130.61.147.64
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1483
-  password: Yaz8LJBSJ12nY56yI3YkTXbN/C7BiGBRQurrUwREhvs=
-  port: 56927
-  server: 168.138.185.221
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_1484
-  password: mYD6SNVk6rYfSsNcRE54unnYKlp5hRZk+XTtDnjEzjY=
-  port: 56927
-  server: 138.2.71.128
-  type: ss
+    path: /bt/streaming/ad?ed=2560
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1485
+  name: US_United States_vless_14235
   network: ws
   port: 443
-  server: 172.64.144.49
+  server: 72.56.77.66
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -14209,442 +14695,16 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /events/favorite/urls?ed=2560
-- cipher: aes-256-cfb
-  name: US_United States_ss_1486
-  password: amazonskr05
-  port: 443
-  server: 13.37.239.112
-  type: ss
-  udp: true
+    path: /episode/category/read?ed=2560
+- name: US_United States_http_14240
+  port: 8282
+  server: 208.95.22.65
+  type: http
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1489
-  network: ws
-  port: 2053
-  server: 104.17.166.88
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /topic?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1490
-  network: ws
-  port: 443
-  server: 162.159.237.80
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /magnet?ed=2560
-- name: US_United States_http_1491
-  password: ''
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1496
-  network: ws
-  port: 8443
-  server: 104.17.148.167
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /acg/programs?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_1498
-  network: ws
-  port: 443
-  server: 104.16.152.241
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /user/china?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14101
-  network: ws
-  port: 443
-  server: 104.18.63.21
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /movie/discuss/trade?ed=2560
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_14102
-  password: jzbveBTs+YuJotZVNhD1uM6abJDkpkxoV/ZPZTYTaSs=
-  port: 56927
-  server: 168.107.65.209
-  type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14105
-  network: ws
-  port: 2087
-  server: 104.17.117.227
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /manhua/code/favourites?ed=2560
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_14106
-  password: e3JsqFK2R86P6Sr+kKOgrlET8iSaBYXoh/GImNZyDZg=
-  port: 56927
-  server: 168.107.86.102
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_14113
-  password: 0N1dYtQFmHnwBeKv53o5MJDkRzbGYY1KkLXnaNkWo3o=
-  port: 61312
-  server: 129.151.68.65
-  type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14114
-  network: ws
-  port: 2053
-  server: 104.17.61.167
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /redirect.php/home?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14118
-  network: ws
-  port: 443
-  server: 64.176.60.226
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /documents?ed=2560
-- name: US_United States_http_14121
-  port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-- name: US_United States_http_14124
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-- name: US_United States_http_14126
-  password: 'null'
-  port: 443
-  server: tzoa.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: US_United States_http_14129
-  password: ''
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: US_United States_http_14132
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-- name: US_United States_http_14134
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: US_United States_http_14138
-  port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
-- name: US_United States_http_14139
-  password: ''
-  port: 443
-  server: 35.247.136.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- cipher: aes-256-cfb
-  name: US_United States_ss_14141
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
-  type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14155
-  network: ws
-  port: 8443
-  server: 132.243.203.218
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /v?ed=2560
-- name: US_United States_http_14156
-  port: 5999
-  server: 24.52.147.103
-  type: http
-- name: US_United States_http_14162
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-- name: US_United States_http_14163
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: US_United States_anytls_14166
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-- name: US_United States_http_14173
-  password: null
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: US_United States_socks5_14179
-  password: ''
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  udp: true
-  username: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_vless_14180
-  network: ws
-  port: 443
-  server: 104.21.62.195
-  servername: 7.qq1-0.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb53f904-c979-454f-bf43-621990008148
-  ws-opts:
-    headers:
-      Host: 7.qq1-0.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /LNbYtR09FXg1AmmjhdiHvR8v
-  xudp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14182
-  network: ws
-  port: 8443
-  server: 144.31.28.106
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /trade?ed=2560
-- cipher: 2022-blake3-chacha20-poly1305
-  name: US_United States_ss_14183
-  password: uuMbME5levfAj7yT6O3+6D+ufAlCTzK4KcgVq6AZAv8=
-  port: 59924
-  server: 130.61.119.122
-  type: ss
-- name: US_United States_http_14184
-  password: ''
-  port: 443
-  server: 157.22.183.72
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: US_United States_http_14188
-  password: ''
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: US_United States_http_14214
-  password: ''
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- cipher: aes-256-cfb
-  name: US_United States_ss_14227
-  password: amazonskr05
-  port: 443
-  server: 3.135.191.150
-  type: ss
-- name: US_United States_http_14234
-  port: 443
-  server: 149.36.51.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US_United States_socks5_14235
-  port: 1080
-  server: 141.148.158.143
-  type: socks5
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: US_United States_vless_14241
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 104.245.240.9
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: bb20d3fc-fc15-0935-11c5-82775c39e6b0
-- cipher: aes-256-cfb
-  name: US_United States_ss_14242
-  password: amazonskr05
-  port: 443
-  server: 3.21.98.132
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14262
-  network: ws
-  port: 443
-  server: 165.232.39.158
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /m?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_United States_vless_14276
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  server: lyra.yokkastars.com
-  servername: deepl.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14278
+  name: US_United States_vless_14248
   network: ws
   port: 443
   server: 165.232.89.21
@@ -14657,49 +14717,14 @@ proxies:
     headers:
       Host: cdn8848.776676.xyz
     path: /jump.html/map?ed=2560
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_14290
-  network: ws
-  port: 8080
-  server: cloudflare.lingyucat.com
-  type: vmess
-  udp: true
-  uuid: 44f1c590-71d6-4c15-af6c-9fc424890ce6
-  ws-opts:
-    headers:
-      Host: cfmx.ogairy.cn
-    path: /?ed=2048
-- name: US_United States_http_14294
-  port: 443
-  server: 38.28.193.1
-  skip-cert-verify: true
-  sni: 38.28.193.1
-  tls: true
-  type: http
-- name: US_United States_http_14296
-  port: 999
-  server: 8.243.167.51
-  type: http
-- name: US_United States_http_14298
-  port: 999
-  server: 38.188.201.10
-  type: http
-- name: US_United States_http_14312
-  port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
-  sni: fan.596189.xyz
-  tls: true
-  type: http
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14313
+  name: US_United States_vless_14249
   network: ws
   port: 443
-  server: 142.93.45.254
+  server: 209.38.196.126
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -14708,9 +14733,59 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /topic?ed=2560
+    path: /torrent/ads/source?ed=2560
+- auth: 8294f130408299df8cab08c80bf6f819
+  name: US_United States_hysteria2_14254
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  password: 8294f130408299df8cab08c80bf6f819
+  port: 443
+  server: 24.233.8.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  name: US_United States_vless_14265
+  network: ws
+  port: 443
+  server: 18.139.143.168
+  servername: fm3.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 2fdf56f7-7bd0-43c5-8c57-a505a74c61b0
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
+- name: US_United States_http_14279
+  password: freeuser1
+  port: 9251
+  server: dl1-us.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
 - client-fingerprint: chrome
-  name: US_United States_vless_14315
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14287
+  network: ws
+  port: 8443
+  server: 64.225.65.116
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /bd/pictures?ed=2560
+- client-fingerprint: chrome
+  name: US_United States_vless_14288
   network: tcp
   port: 443
   reality-opts:
@@ -14723,125 +14798,7 @@ proxies:
   tls: true
   type: vless
   uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14317
-  network: ws
-  port: 8443
-  server: 165.232.39.212
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /html/shows?ed=2560
-- name: US_United States_vless_14329
-  network: ws
-  port: 443
-  server: 104.21.16.137
-  servername: 3-M17.kuWait-aiRLinE.KDNS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 3-m17.kUwaIT-AirLINe.KDnS.fr
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- name: US_United States_vless_14331
-  network: ws
-  port: 443
-  server: 104.21.71.47
-  servername: 0-M16.CHIaN-mai-x.kDnS.FR
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-M16.CHIaN-mai-x.kDnS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: US_United States_http_14335
-  port: 8181
-  server: 173.205.202.241
-  type: http
-- name: US_United States_http_14342
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: US_United States_http_14343
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: TunService
-  name: US_United States_vless_14349
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-  server: 104.245.240.8
-  servername: www.epson.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: bb20d3fc-fc15-0935-11c5-82775c39e6b0
-- name: US_United States_socks5_14352
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  udp: true
-  username: test123
-- name: US_United States_vless_14353
-  network: ws
-  port: 443
-  server: 104.21.78.48
-  servername: 8-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  ws-opts:
-    headers:
-      Host: 8-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14356
-  network: ws
-  port: 46000
-  server: 152.70.76.104
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /acg/series/help?ed=2560
-- name: US_United States_vless_14361
+- name: US_United States_vless_14289
   network: ws
   port: 443
   server: 104.21.91.102
@@ -14856,27 +14813,75 @@ proxies:
     headers:
       Host: 4-M16.aYUtTHAya2031.kdnS.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: US_United States_http_14363
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14290
+  network: ws
+  port: 8443
+  server: 165.232.39.212
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /html/shows?ed=2560
+- name: US_United States_http_14292
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
   sni: 149.34.248.65
   tls: true
   type: http
-- name: US_United States_http_14368
+- name: US_United States_http_14293
+  password: null
+  port: 443
+  server: 157.22.183.72
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: US_United States_http_14294
   port: 8023
   server: 96.84.121.105
   type: http
-- auth: f25f19f29ce3fb53a35bf1b35b452a43
-  name: US_United States_hysteria2_14372
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  port: 50160
-  server: 129.159.156.109
+- name: US_United States_http_14295
+  port: 8181
+  server: 173.205.202.241
+  type: http
+- auth: 633bc3be486b646190661ac2387c150a
+  name: US_United States_hysteria2_14297
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
+  port: 443
+  server: 152.67.115.203
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
   udp: true
-- name: US_United States_http_14379
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14304
+  network: ws
+  port: 46000
+  server: 152.70.76.104
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /acg/series/help?ed=2560
+- name: US_United States_http_14312
   password: e4b72b531a2d10900519
   port: 443
   server: 107.151.238.27
@@ -14884,19 +14889,95 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: US_United States_http_14382
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14313
+  network: ws
+  port: 443
+  server: 162.159.237.99
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /files/doc?ed=2560
+- name: US_United States_http_14316
   port: 443
   server: 149.22.86.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: US_United States_http_14384
+- name: US_United States_socks5_14334
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14343
+  network: ws
+  port: 443
+  server: 104.156.238.23
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /bt/image/categories?ed=2560
+- name: US_United States_http_14344
+  password: null
+  port: 443
+  server: 149.88.96.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  name: US_United States_vless_14345
+  network: ws
+  port: 443
+  server: 45.32.248.168
+  servername: mia9.pages.dev
+  tls: true
+  type: vless
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  ws-opts:
+    headers:
+      Host: mia9.pages.dev
+    path: /TG:@MiaChatChannel
+- cipher: 2022-blake3-chacha20-poly1305
+  name: US_United States_ss_14348
+  password: gfUQDQFFyto9dzLAec5MeJgPRwSwEedoPiuWL6+NTPA=
+  port: 45819
+  server: 158.178.151.166
+  type: ss
+- name: US_United States_http_14352
+  password: ''
   port: 8090
   server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
-- name: US_United States_http_14385
+  username: ''
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: US_United States_hysteria2_14353
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.9
+  skip-cert-verify: true
+  sni: hopp-germany-new.ddnsguru.com
+  type: hysteria2
+- name: US_United States_http_14362
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -14905,55 +14986,46 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: US_United States_http_14394
-  port: 8282
-  server: 208.95.22.65
-  type: http
-- name: US_United States_http_14395
-  port: 8282
-  server: 208.95.20.33
-  type: http
 - client-fingerprint: chrome
-  name: US_United States_trojan_14396
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14377
   network: ws
-  password: humanity
   port: 443
-  server: 104.16.174.46
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
+  server: 162.159.153.156
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /assignment
-- name: US_United States_socks5_14418
-  password: null
-  port: 1083
-  server: 161.35.90.93
-  type: socks5
-  udp: true
-  username: null
-- name: US_United States_http_14441
-  port: 8080
-  server: 38.52.135.222
-  type: http
-- name: US_United States_socks5_14446
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  skip-cert-verify: true
-  type: socks5
-  username: admin
-- name: US_United States_http_14449
+      Host: cdn8848.776676.xyz
+    path: /bd/thread/clips?ed=2560
+- name: US_United States_http_14379
   port: 443
-  server: 154.26.139.24
+  server: 216.107.139.82
   skip-cert-verify: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: US_United States_vless_14454
+  name: US_United States_vless_14380
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
+    short-id: d7676b6a468a03b3
+  server: 34.176.98.128
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
+- client-fingerprint: chrome
+  name: US_United States_vless_14383
   network: tcp
   port: 443
   reality-opts:
@@ -14966,41 +15038,39 @@ proxies:
   tls: true
   type: vless
   uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-- name: US_United States_http_14457
-  port: 999
-  server: 154.3.76.14
+- name: US_United States_http_14387
+  port: 8080
+  server: 38.52.135.222
   type: http
-- name: US_United States_http_14460
-  port: 30005
-  server: 63.175.157.2
-  type: http
-- name: US_United States_socks5_14461
-  password: null
-  port: 9050
-  server: 45.61.129.165
+- name: US_United States_socks5_14392
+  port: 1080
+  server: 141.148.158.143
   type: socks5
-  udp: true
-  username: null
-- name: US_United States_http_14465
-  port: 3056
-  server: 195.123.212.87
-  type: http
-- name: US_United States_hysteria2_14468
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
+- auth: f25f19f29ce3fb53a35bf1b35b452a43
+  name: US_United States_hysteria2_14411
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: www.bing.com
   type: hysteria2
   udp: true
+- name: US_United States_http_14414
+  password: 'null'
+  port: 443
+  server: fan.596189.xyz
+  sni: fan.596189.xyz
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: US_United States_vless_14473
+  name: US_United States_vless_14417
   network: ws
-  port: 443
-  server: 162.159.153.216
+  port: 8443
+  server: 45.38.139.23
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -15009,22 +15079,119 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /play?ed=2560
-- name: US_United States_http_14474
+    path: /jumping/class/bt?ed=2560
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: US_United States_vless_14419
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xa2oqWBhi_uW7Zns1Irp8OlAEGQFU_vKTUqUqbnG2Wg
+    short-id: cdf67af2
+  server: vera.kyras.pw
+  servername: vera.kyras.pw
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
+- name: US_United States_socks5_14422
+  password: null
+  port: 49158
+  server: 23.95.91.240
+  type: socks5
+  udp: true
+  username: null
+- name: US_United States_socks5_14426
+  port: 1083
+  server: 161.35.90.93
+  type: socks5
+- name: US_United States_http_14428
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_United States_http_14429
+  port: 999
+  server: 38.51.239.218
+  type: http
+- name: US_United States_http_14432
+  port: 3056
+  server: 195.123.212.87
+  type: http
+- cipher: 2022-blake3-aes-128-gcm
+  name: US_United States_ss_14434
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: ous1.337777777.xyz
+    mode: websocket
+    mux: true
+    path: /api/v1/stream/us1
+    tls: false
+  port: 80
+  server: www.syfe.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: US_United States_vless_14435
+  network: ws
+  port: 8443
+  server: 132.243.203.243
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /archive?ed=2560
+- name: US_United States_http_14436
   port: 999
   server: 38.56.249.10
   type: http
-- name: US_United States_http_14478
-  port: 999
-  server: 38.41.188.20
+- name: US_United States_socks5_14439
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
+- name: US_United States_http_14440
+  port: 8282
+  server: 208.95.20.33
   type: http
-- name: US_United States_http_14480
+- name: US_United States_http_14443
+  port: 999
+  server: 38.41.184.73
+  type: http
+- name: US_United States_http_14447
   port: 999
   server: 38.147.153.79
   type: http
-- name: US_United States_http_14482
+- name: US_United States_http_14448
+  password: null
   port: 999
-  server: 206.62.167.8
+  server: 154.3.76.14
+  type: http
+  username: null
+- name: US_United States_http_14453
+  port: 999
+  server: 38.172.170.104
+  type: http
+- name: US_United States_hysteria2_14456
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- name: US_United States_http_14461
+  port: 999
+  server: 8.243.167.51
   type: http
 proxy-groups:
 - name: 节点选择
@@ -15038,9 +15205,8 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_vmess_127
-  - US_United States_ss_128
-  - US_United States_ss_129
+  - US_United States_ss_026
+  - US_United States_ss_027
   - US_United States_vmess_61
   - US_United States_vmess_63
   - US_United States_ss_64
@@ -15120,6 +15286,7 @@ proxy-groups:
   - US_United States_vmess_6285
   - US_United States_vmess_6286
   - US_United States_vmess_6292
+  - US_United States_ss_6293
   - US_United States_socks5_6307
   - US_United States_http_6308
   - US_United States_http_6313
@@ -15140,6 +15307,7 @@ proxy-groups:
   - US_United States_http_6477
   - US_United States_http_6478
   - US_United States_ss_6480
+  - US_United States_vmess_6481
   - US_United States_trojan_6483
   - US_United States_trojan_6484
   - US_United States_trojan_6485
@@ -15453,22 +15621,19 @@ proxy-groups:
   - US_United States_vmess_61049
   - US_United States_vmess_61050
   - US_United States_vmess_61051
-  - US_United States_ss_61052
-  - US_United States_trojan_61055
+  - US_United States_trojan_61059
+  - US_United States_trojan_61062
   - US_United States_vmess_61067
-  - US_United States_ss_61073
   - US_United States_vmess_61077
   - US_United States_vmess_61078
   - US_United States_vmess_61079
   - US_United States_vmess_61082
   - US_United States_vmess_61088
-  - US_United States_trojan_61089
   - US_United States_ss_61095
   - US_United States_trojan_61097
   - US_United States_trojan_61098
   - US_United States_vmess_61101
   - US_United States_vmess_61111
-  - US_United States_trojan_61113
   - US_United States_ss_61116
   - US_United States_ss_61128
   - US_United States_vmess_61129
@@ -15516,6 +15681,7 @@ proxy-groups:
   - US_United States_trojan_61223
   - US_United States_trojan_61224
   - US_United States_trojan_61225
+  - US_United States_trojan_61226
   - US_United States_vmess_61227
   - US_United States_trojan_61228
   - US_United States_trojan_61239
@@ -15530,10 +15696,10 @@ proxy-groups:
   - US_United States_vmess_61250
   - US_United States_vmess_61251
   - US_United States_vmess_61252
-  - US_United States_trojan_61253
   - US_United States_vmess_61254
   - US_United States_vmess_61256
   - US_United States_vmess_61257
+  - US_United States_trojan_61258
   - US_United States_vmess_61259
   - US_United States_vmess_61260
   - US_United States_vmess_61262
@@ -15581,6 +15747,7 @@ proxy-groups:
   - US_United States_ss_61395
   - US_United States_ss_61399
   - US_United States_vmess_61400
+  - US_United States_ss_61402
   - US_United States_vmess_61403
   - US_United States_vmess_61404
   - US_United States_vmess_61405
@@ -15661,6 +15828,7 @@ proxy-groups:
   - US_United States_trojan_61670
   - US_United States_trojan_61671
   - US_United States_ss_61674
+  - US_United States_trojan_61678
   - US_United States_trojan_61681
   - US_United States_trojan_61692
   - US_United States_trojan_61693
@@ -15752,6 +15920,7 @@ proxy-groups:
   - US_United States_vmess_62018
   - US_United States_vmess_62020
   - US_United States_vmess_62023
+  - US_United States_vmess_62026
   - US_United States_vmess_62027
   - US_United States_vmess_62029
   - US_United States_vmess_62030
@@ -16350,127 +16519,126 @@ proxy-groups:
   - US_United States_vmess_64250
   - US_United States_vmess_64251
   - US_United States_vmess_64252
-  - US_United States_socks5_145
-  - US_United States_socks5_1413
+  - US_United States_vless_149
+  - US_United States_socks5_1411
+  - US_United States_ss_1413
   - US_United States_vless_1415
-  - US_United States_vless_1417
-  - US_United States_vless_1418
-  - US_United States_vless_1419
-  - US_United States_ss_1423
-  - US_United States_vless_1425
-  - US_United States_ss_1429
-  - US_United States_ss_1430
+  - US_United States_ss_1416
+  - US_United States_ss_1417
+  - US_United States_ss_1420
+  - US_United States_ss_1421
+  - US_United States_ss_1422
+  - US_United States_socks5_1423
+  - US_United States_ss_1424
+  - US_United States_ss_1425
+  - US_United States_ss_1427
+  - US_United States_vless_1428
   - US_United States_ss_1433
-  - US_United States_ss_1434
-  - US_United States_ss_1436
-  - US_United States_ss_1437
-  - US_United States_ss_1439
-  - US_United States_ss_1440
-  - US_United States_ss_1441
-  - US_United States_ss_1442
+  - US_United States_vless_1434
+  - US_United States_vless_1435
+  - US_United States_vless_1438
+  - US_United States_vless_1440
+  - US_United States_vless_1441
+  - US_United States_vless_1442
   - US_United States_ss_1443
-  - US_United States_ss_1444
   - US_United States_ss_1446
-  - US_United States_ss_1447
+  - US_United States_http_1447
+  - US_United States_vless_1448
+  - US_United States_vless_1449
   - US_United States_ss_1450
+  - US_United States_vless_1456
   - US_United States_vless_1457
+  - US_United States_vless_1458
   - US_United States_ss_1459
-  - US_United States_ss_1461
-  - US_United States_http_1463
-  - US_United States_ss_1468
-  - US_United States_ss_1469
-  - US_United States_vless_1476
-  - US_United States_ss_1477
-  - US_United States_ss_1481
-  - US_United States_ss_1483
-  - US_United States_ss_1484
-  - US_United States_vless_1485
-  - US_United States_ss_1486
-  - US_United States_vless_1489
-  - US_United States_vless_1490
-  - US_United States_http_1491
-  - US_United States_vless_1496
-  - US_United States_vless_1498
-  - US_United States_vless_14101
-  - US_United States_ss_14102
-  - US_United States_vless_14105
-  - US_United States_ss_14106
-  - US_United States_ss_14113
-  - US_United States_vless_14114
-  - US_United States_vless_14118
-  - US_United States_http_14121
-  - US_United States_http_14124
-  - US_United States_http_14126
-  - US_United States_http_14129
-  - US_United States_http_14132
-  - US_United States_http_14134
-  - US_United States_http_14138
-  - US_United States_http_14139
-  - US_United States_ss_14141
-  - US_United States_vless_14155
-  - US_United States_http_14156
-  - US_United States_http_14162
-  - US_United States_http_14163
-  - US_United States_anytls_14166
-  - US_United States_http_14173
-  - US_United States_socks5_14179
-  - US_United States_vless_14180
-  - US_United States_vless_14182
-  - US_United States_ss_14183
-  - US_United States_http_14184
-  - US_United States_http_14188
-  - US_United States_http_14214
-  - US_United States_ss_14227
-  - US_United States_http_14234
-  - US_United States_socks5_14235
-  - US_United States_vless_14241
-  - US_United States_ss_14242
-  - US_United States_vless_14262
-  - US_United States_vless_14276
-  - US_United States_vless_14278
-  - US_United States_vmess_14290
+  - US_United States_vless_1461
+  - US_United States_http_1462
+  - US_United States_vless_1464
+  - US_United States_http_1465
+  - US_United States_vless_1469
+  - US_United States_http_1474
+  - US_United States_http_1476
+  - US_United States_http_1481
+  - US_United States_vless_1482
+  - US_United States_http_1485
+  - US_United States_http_1486
+  - US_United States_vless_1491
+  - US_United States_http_1492
+  - US_United States_http_1495
+  - US_United States_vless_14103
+  - US_United States_http_14113
+  - US_United States_http_14122
+  - US_United States_http_14127
+  - US_United States_vless_14141
+  - US_United States_http_14151
+  - US_United States_http_14155
+  - US_United States_vless_14161
+  - US_United States_vless_14166
+  - US_United States_http_14172
+  - US_United States_vless_14174
+  - US_United States_vless_14192
+  - US_United States_http_14195
+  - US_United States_vless_14199
+  - US_United States_vless_14200
+  - US_United States_vless_14212
+  - US_United States_http_14222
+  - US_United States_vless_14224
+  - US_United States_vless_14227
+  - US_United States_http_14228
+  - US_United States_vless_14230
+  - US_United States_vless_14235
+  - US_United States_http_14240
+  - US_United States_vless_14248
+  - US_United States_vless_14249
+  - US_United States_hysteria2_14254
+  - US_United States_vless_14265
+  - US_United States_http_14279
+  - US_United States_vless_14287
+  - US_United States_vless_14288
+  - US_United States_vless_14289
+  - US_United States_vless_14290
+  - US_United States_http_14292
+  - US_United States_http_14293
   - US_United States_http_14294
-  - US_United States_http_14296
-  - US_United States_http_14298
+  - US_United States_http_14295
+  - US_United States_hysteria2_14297
+  - US_United States_vless_14304
   - US_United States_http_14312
   - US_United States_vless_14313
-  - US_United States_vless_14315
-  - US_United States_vless_14317
-  - US_United States_vless_14329
-  - US_United States_vless_14331
-  - US_United States_http_14335
-  - US_United States_http_14342
-  - US_United States_http_14343
-  - US_United States_vless_14349
-  - US_United States_socks5_14352
-  - US_United States_vless_14353
-  - US_United States_vless_14356
-  - US_United States_vless_14361
-  - US_United States_http_14363
-  - US_United States_http_14368
-  - US_United States_hysteria2_14372
+  - US_United States_http_14316
+  - US_United States_socks5_14334
+  - US_United States_vless_14343
+  - US_United States_http_14344
+  - US_United States_vless_14345
+  - US_United States_ss_14348
+  - US_United States_http_14352
+  - US_United States_hysteria2_14353
+  - US_United States_http_14362
+  - US_United States_vless_14377
   - US_United States_http_14379
-  - US_United States_http_14382
-  - US_United States_http_14384
-  - US_United States_http_14385
-  - US_United States_http_14394
-  - US_United States_http_14395
-  - US_United States_trojan_14396
-  - US_United States_socks5_14418
-  - US_United States_http_14441
-  - US_United States_socks5_14446
-  - US_United States_http_14449
-  - US_United States_vless_14454
-  - US_United States_http_14457
-  - US_United States_http_14460
-  - US_United States_socks5_14461
-  - US_United States_http_14465
-  - US_United States_hysteria2_14468
-  - US_United States_vless_14473
-  - US_United States_http_14474
-  - US_United States_http_14478
-  - US_United States_http_14480
-  - US_United States_http_14482
+  - US_United States_vless_14380
+  - US_United States_vless_14383
+  - US_United States_http_14387
+  - US_United States_socks5_14392
+  - US_United States_hysteria2_14411
+  - US_United States_http_14414
+  - US_United States_vless_14417
+  - US_United States_vless_14419
+  - US_United States_socks5_14422
+  - US_United States_socks5_14426
+  - US_United States_http_14428
+  - US_United States_http_14429
+  - US_United States_http_14432
+  - US_United States_ss_14434
+  - US_United States_vless_14435
+  - US_United States_http_14436
+  - US_United States_socks5_14439
+  - US_United States_http_14440
+  - US_United States_http_14443
+  - US_United States_http_14447
+  - US_United States_http_14448
+  - US_United States_http_14453
+  - US_United States_hysteria2_14456
+  - US_United States_http_14461
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -16483,9 +16651,8 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_vmess_127
-  - US_United States_ss_128
-  - US_United States_ss_129
+  - US_United States_ss_026
+  - US_United States_ss_027
   - US_United States_vmess_61
   - US_United States_vmess_63
   - US_United States_ss_64
@@ -16565,6 +16732,7 @@ proxy-groups:
   - US_United States_vmess_6285
   - US_United States_vmess_6286
   - US_United States_vmess_6292
+  - US_United States_ss_6293
   - US_United States_socks5_6307
   - US_United States_http_6308
   - US_United States_http_6313
@@ -16585,6 +16753,7 @@ proxy-groups:
   - US_United States_http_6477
   - US_United States_http_6478
   - US_United States_ss_6480
+  - US_United States_vmess_6481
   - US_United States_trojan_6483
   - US_United States_trojan_6484
   - US_United States_trojan_6485
@@ -16898,22 +17067,19 @@ proxy-groups:
   - US_United States_vmess_61049
   - US_United States_vmess_61050
   - US_United States_vmess_61051
-  - US_United States_ss_61052
-  - US_United States_trojan_61055
+  - US_United States_trojan_61059
+  - US_United States_trojan_61062
   - US_United States_vmess_61067
-  - US_United States_ss_61073
   - US_United States_vmess_61077
   - US_United States_vmess_61078
   - US_United States_vmess_61079
   - US_United States_vmess_61082
   - US_United States_vmess_61088
-  - US_United States_trojan_61089
   - US_United States_ss_61095
   - US_United States_trojan_61097
   - US_United States_trojan_61098
   - US_United States_vmess_61101
   - US_United States_vmess_61111
-  - US_United States_trojan_61113
   - US_United States_ss_61116
   - US_United States_ss_61128
   - US_United States_vmess_61129
@@ -16961,6 +17127,7 @@ proxy-groups:
   - US_United States_trojan_61223
   - US_United States_trojan_61224
   - US_United States_trojan_61225
+  - US_United States_trojan_61226
   - US_United States_vmess_61227
   - US_United States_trojan_61228
   - US_United States_trojan_61239
@@ -16975,10 +17142,10 @@ proxy-groups:
   - US_United States_vmess_61250
   - US_United States_vmess_61251
   - US_United States_vmess_61252
-  - US_United States_trojan_61253
   - US_United States_vmess_61254
   - US_United States_vmess_61256
   - US_United States_vmess_61257
+  - US_United States_trojan_61258
   - US_United States_vmess_61259
   - US_United States_vmess_61260
   - US_United States_vmess_61262
@@ -17026,6 +17193,7 @@ proxy-groups:
   - US_United States_ss_61395
   - US_United States_ss_61399
   - US_United States_vmess_61400
+  - US_United States_ss_61402
   - US_United States_vmess_61403
   - US_United States_vmess_61404
   - US_United States_vmess_61405
@@ -17106,6 +17274,7 @@ proxy-groups:
   - US_United States_trojan_61670
   - US_United States_trojan_61671
   - US_United States_ss_61674
+  - US_United States_trojan_61678
   - US_United States_trojan_61681
   - US_United States_trojan_61692
   - US_United States_trojan_61693
@@ -17197,6 +17366,7 @@ proxy-groups:
   - US_United States_vmess_62018
   - US_United States_vmess_62020
   - US_United States_vmess_62023
+  - US_United States_vmess_62026
   - US_United States_vmess_62027
   - US_United States_vmess_62029
   - US_United States_vmess_62030
@@ -17795,127 +17965,126 @@ proxy-groups:
   - US_United States_vmess_64250
   - US_United States_vmess_64251
   - US_United States_vmess_64252
-  - US_United States_socks5_145
-  - US_United States_socks5_1413
+  - US_United States_vless_149
+  - US_United States_socks5_1411
+  - US_United States_ss_1413
   - US_United States_vless_1415
-  - US_United States_vless_1417
-  - US_United States_vless_1418
-  - US_United States_vless_1419
-  - US_United States_ss_1423
-  - US_United States_vless_1425
-  - US_United States_ss_1429
-  - US_United States_ss_1430
+  - US_United States_ss_1416
+  - US_United States_ss_1417
+  - US_United States_ss_1420
+  - US_United States_ss_1421
+  - US_United States_ss_1422
+  - US_United States_socks5_1423
+  - US_United States_ss_1424
+  - US_United States_ss_1425
+  - US_United States_ss_1427
+  - US_United States_vless_1428
   - US_United States_ss_1433
-  - US_United States_ss_1434
-  - US_United States_ss_1436
-  - US_United States_ss_1437
-  - US_United States_ss_1439
-  - US_United States_ss_1440
-  - US_United States_ss_1441
-  - US_United States_ss_1442
+  - US_United States_vless_1434
+  - US_United States_vless_1435
+  - US_United States_vless_1438
+  - US_United States_vless_1440
+  - US_United States_vless_1441
+  - US_United States_vless_1442
   - US_United States_ss_1443
-  - US_United States_ss_1444
   - US_United States_ss_1446
-  - US_United States_ss_1447
+  - US_United States_http_1447
+  - US_United States_vless_1448
+  - US_United States_vless_1449
   - US_United States_ss_1450
+  - US_United States_vless_1456
   - US_United States_vless_1457
+  - US_United States_vless_1458
   - US_United States_ss_1459
-  - US_United States_ss_1461
-  - US_United States_http_1463
-  - US_United States_ss_1468
-  - US_United States_ss_1469
-  - US_United States_vless_1476
-  - US_United States_ss_1477
-  - US_United States_ss_1481
-  - US_United States_ss_1483
-  - US_United States_ss_1484
-  - US_United States_vless_1485
-  - US_United States_ss_1486
-  - US_United States_vless_1489
-  - US_United States_vless_1490
-  - US_United States_http_1491
-  - US_United States_vless_1496
-  - US_United States_vless_1498
-  - US_United States_vless_14101
-  - US_United States_ss_14102
-  - US_United States_vless_14105
-  - US_United States_ss_14106
-  - US_United States_ss_14113
-  - US_United States_vless_14114
-  - US_United States_vless_14118
-  - US_United States_http_14121
-  - US_United States_http_14124
-  - US_United States_http_14126
-  - US_United States_http_14129
-  - US_United States_http_14132
-  - US_United States_http_14134
-  - US_United States_http_14138
-  - US_United States_http_14139
-  - US_United States_ss_14141
-  - US_United States_vless_14155
-  - US_United States_http_14156
-  - US_United States_http_14162
-  - US_United States_http_14163
-  - US_United States_anytls_14166
-  - US_United States_http_14173
-  - US_United States_socks5_14179
-  - US_United States_vless_14180
-  - US_United States_vless_14182
-  - US_United States_ss_14183
-  - US_United States_http_14184
-  - US_United States_http_14188
-  - US_United States_http_14214
-  - US_United States_ss_14227
-  - US_United States_http_14234
-  - US_United States_socks5_14235
-  - US_United States_vless_14241
-  - US_United States_ss_14242
-  - US_United States_vless_14262
-  - US_United States_vless_14276
-  - US_United States_vless_14278
-  - US_United States_vmess_14290
+  - US_United States_vless_1461
+  - US_United States_http_1462
+  - US_United States_vless_1464
+  - US_United States_http_1465
+  - US_United States_vless_1469
+  - US_United States_http_1474
+  - US_United States_http_1476
+  - US_United States_http_1481
+  - US_United States_vless_1482
+  - US_United States_http_1485
+  - US_United States_http_1486
+  - US_United States_vless_1491
+  - US_United States_http_1492
+  - US_United States_http_1495
+  - US_United States_vless_14103
+  - US_United States_http_14113
+  - US_United States_http_14122
+  - US_United States_http_14127
+  - US_United States_vless_14141
+  - US_United States_http_14151
+  - US_United States_http_14155
+  - US_United States_vless_14161
+  - US_United States_vless_14166
+  - US_United States_http_14172
+  - US_United States_vless_14174
+  - US_United States_vless_14192
+  - US_United States_http_14195
+  - US_United States_vless_14199
+  - US_United States_vless_14200
+  - US_United States_vless_14212
+  - US_United States_http_14222
+  - US_United States_vless_14224
+  - US_United States_vless_14227
+  - US_United States_http_14228
+  - US_United States_vless_14230
+  - US_United States_vless_14235
+  - US_United States_http_14240
+  - US_United States_vless_14248
+  - US_United States_vless_14249
+  - US_United States_hysteria2_14254
+  - US_United States_vless_14265
+  - US_United States_http_14279
+  - US_United States_vless_14287
+  - US_United States_vless_14288
+  - US_United States_vless_14289
+  - US_United States_vless_14290
+  - US_United States_http_14292
+  - US_United States_http_14293
   - US_United States_http_14294
-  - US_United States_http_14296
-  - US_United States_http_14298
+  - US_United States_http_14295
+  - US_United States_hysteria2_14297
+  - US_United States_vless_14304
   - US_United States_http_14312
   - US_United States_vless_14313
-  - US_United States_vless_14315
-  - US_United States_vless_14317
-  - US_United States_vless_14329
-  - US_United States_vless_14331
-  - US_United States_http_14335
-  - US_United States_http_14342
-  - US_United States_http_14343
-  - US_United States_vless_14349
-  - US_United States_socks5_14352
-  - US_United States_vless_14353
-  - US_United States_vless_14356
-  - US_United States_vless_14361
-  - US_United States_http_14363
-  - US_United States_http_14368
-  - US_United States_hysteria2_14372
+  - US_United States_http_14316
+  - US_United States_socks5_14334
+  - US_United States_vless_14343
+  - US_United States_http_14344
+  - US_United States_vless_14345
+  - US_United States_ss_14348
+  - US_United States_http_14352
+  - US_United States_hysteria2_14353
+  - US_United States_http_14362
+  - US_United States_vless_14377
   - US_United States_http_14379
-  - US_United States_http_14382
-  - US_United States_http_14384
-  - US_United States_http_14385
-  - US_United States_http_14394
-  - US_United States_http_14395
-  - US_United States_trojan_14396
-  - US_United States_socks5_14418
-  - US_United States_http_14441
-  - US_United States_socks5_14446
-  - US_United States_http_14449
-  - US_United States_vless_14454
-  - US_United States_http_14457
-  - US_United States_http_14460
-  - US_United States_socks5_14461
-  - US_United States_http_14465
-  - US_United States_hysteria2_14468
-  - US_United States_vless_14473
-  - US_United States_http_14474
-  - US_United States_http_14478
-  - US_United States_http_14480
-  - US_United States_http_14482
+  - US_United States_vless_14380
+  - US_United States_vless_14383
+  - US_United States_http_14387
+  - US_United States_socks5_14392
+  - US_United States_hysteria2_14411
+  - US_United States_http_14414
+  - US_United States_vless_14417
+  - US_United States_vless_14419
+  - US_United States_socks5_14422
+  - US_United States_socks5_14426
+  - US_United States_http_14428
+  - US_United States_http_14429
+  - US_United States_http_14432
+  - US_United States_ss_14434
+  - US_United States_vless_14435
+  - US_United States_http_14436
+  - US_United States_socks5_14439
+  - US_United States_http_14440
+  - US_United States_http_14443
+  - US_United States_http_14447
+  - US_United States_http_14448
+  - US_United States_http_14453
+  - US_United States_hysteria2_14456
+  - US_United States_http_14461
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
