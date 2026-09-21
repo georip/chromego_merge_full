@@ -71,100 +71,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: US_United States_trojan_026
+- name: US_United States_trojan_027
   network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.188.109
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  password: d9f20a29-239e-46ab-82bb-fa0d69e480f9
+  port: 443
+  server: 104.17.156.140
+  skip-cert-verify: true
+  sni: zxcvz.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_027
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_028
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_029
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_trojan_030
-  network: ws
-  password: humanity
-  port: '443'
-  server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: US_United States_trojan_031
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.46
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
+      Host: zxcvz.pages.dev
+    path: /proxyip=proxy.seeck.cn/api/nodes?region=JP&limit=10&format=brand
 - name: US_United States_vless_122
   type: vless
   server: 68.64.180.201
@@ -383,6 +302,18 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
+- name: US_United States_trojan_1231
+  type: trojan
+  server: join-telegram-channel.tirexnet.kdns.fr
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
 - name: US_United States_trojan_1233
   type: trojan
   server: join-telegram-channel-tirexnet.trex.kdns.fr
@@ -414,6 +345,28 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
+  udp: true
+- name: US_United States_trojan_1240
+  type: trojan
+  server: 172.67.74.2
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: US_United States_trojan_1243
+  type: trojan
+  server: 172.67.188.109
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
   udp: true
 - name: US_United States_vless_1244
   type: vless
@@ -602,6 +555,16 @@ proxies:
 - name: US_United States_trojan_1276
   type: trojan
   server: 104.18.152.175
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: US_United States_trojan_1280
+  type: trojan
+  server: 104.16.174.46
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -1283,6 +1246,18 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
+- name: US_United States_trojan_12271
+  type: trojan
+  server: 104.16.174.14
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
 - name: US_United States_trojan_12272
   type: trojan
   server: 104.18.152.230
@@ -1486,22 +1461,20 @@ proxies:
       Host: shuma.ccwu.cc
   skip-cert-verify: true
   udp: true
-- name: US_United States_ss_162
-  server: 63.185.90.235
-  type: ss
-  country: 🇺🇸US
+- name: US_United States_http_1615
+  server: 38.28.193.188
   port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 439
-- name: US_United States_ss_163
-  server: 15.237.210.147
-  type: ss
-  country: 🇫🇷FR
+  type: http
+  tls: true
+  skip-cert-verify: true
+  delay: 1137
+- name: US_United States_http_1616
+  server: purposebydesig.club
   port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 772
+  type: http
+  password: None
+  tls: true
+  delay: 2246
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1514,12 +1487,7 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_trojan_026
   - US_United States_trojan_027
-  - US_United States_trojan_028
-  - US_United States_trojan_029
-  - US_United States_trojan_030
-  - US_United States_trojan_031
   - US_United States_vless_122
   - US_United States_vless_123
   - US_United States_vless_124
@@ -1537,9 +1505,12 @@ proxy-groups:
   - US_United States_vless_1228
   - US_United States_vless_1229
   - US_United States_trojan_1230
+  - US_United States_trojan_1231
   - US_United States_trojan_1233
   - US_United States_trojan_1235
   - US_United States_trojan_1238
+  - US_United States_trojan_1240
+  - US_United States_trojan_1243
   - US_United States_vless_1244
   - US_United States_trojan_1247
   - US_United States_vless_1249
@@ -1557,6 +1528,7 @@ proxy-groups:
   - US_United States_trojan_1273
   - US_United States_trojan_1275
   - US_United States_trojan_1276
+  - US_United States_trojan_1280
   - US_United States_trojan_1283
   - US_United States_trojan_1286
   - US_United States_trojan_1288
@@ -1609,6 +1581,7 @@ proxy-groups:
   - US_United States_trojan_12261
   - US_United States_trojan_12268
   - US_United States_trojan_12270
+  - US_United States_trojan_12271
   - US_United States_trojan_12272
   - US_United States_trojan_12275
   - US_United States_trojan_12281
@@ -1628,8 +1601,8 @@ proxy-groups:
   - US_United States_trojan_12337
   - US_United States_trojan_12388
   - US_United States_vless_12398
-  - US_United States_ss_162
-  - US_United States_ss_163
+  - US_United States_http_1615
+  - US_United States_http_1616
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1642,12 +1615,7 @@ proxy-groups:
   - US_United States_trojan_017
   - US_United States_trojan_020
   - US_United States_trojan_023
-  - US_United States_trojan_026
   - US_United States_trojan_027
-  - US_United States_trojan_028
-  - US_United States_trojan_029
-  - US_United States_trojan_030
-  - US_United States_trojan_031
   - US_United States_vless_122
   - US_United States_vless_123
   - US_United States_vless_124
@@ -1665,9 +1633,12 @@ proxy-groups:
   - US_United States_vless_1228
   - US_United States_vless_1229
   - US_United States_trojan_1230
+  - US_United States_trojan_1231
   - US_United States_trojan_1233
   - US_United States_trojan_1235
   - US_United States_trojan_1238
+  - US_United States_trojan_1240
+  - US_United States_trojan_1243
   - US_United States_vless_1244
   - US_United States_trojan_1247
   - US_United States_vless_1249
@@ -1685,6 +1656,7 @@ proxy-groups:
   - US_United States_trojan_1273
   - US_United States_trojan_1275
   - US_United States_trojan_1276
+  - US_United States_trojan_1280
   - US_United States_trojan_1283
   - US_United States_trojan_1286
   - US_United States_trojan_1288
@@ -1737,6 +1709,7 @@ proxy-groups:
   - US_United States_trojan_12261
   - US_United States_trojan_12268
   - US_United States_trojan_12270
+  - US_United States_trojan_12271
   - US_United States_trojan_12272
   - US_United States_trojan_12275
   - US_United States_trojan_12281
@@ -1756,8 +1729,8 @@ proxy-groups:
   - US_United States_trojan_12337
   - US_United States_trojan_12388
   - US_United States_vless_12398
-  - US_United States_ss_162
-  - US_United States_ss_163
+  - US_United States_http_1615
+  - US_United States_http_1616
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
