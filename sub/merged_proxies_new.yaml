@@ -25,26 +25,85 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- cipher: aes-128-gcm
+  name: US_United States_ss_012
+  password: 4efe1af272e7292139b889f6a63ee071
+  port: 18766
+  server: 64.74.163.69
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_135
+  name: US_United States_ss_022
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  port: 8388
+  server: 132.243.175.144
+  type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_023
+  password: xBStBEVqvGwHPocc
+  port: 8388
+  server: 64.176.2.21
+  type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_029
+  password: g5h5jleTRSyO3Rk4
+  port: 80
+  server: 149.102.132.184
+  type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_032
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+  port: 22073
+  server: ruot.ayucloudservices.nl
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_034
+  password: y7KeRTzmH0vXT2kp
+  port: 443
+  server: c3.nastuh.link
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_039
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
   server: 154.46.31.106
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_138
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 54.254.240.48
+- cipher: aes-256-gcm
+  name: US_United States_ss_041
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
   type: ss
-  udp: true
-- name: US_United States_trojan_147
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_045
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 20006
+  server: ss.043.node-for-bigairport.win
+  type: ss
+- cipher: aes-128-gcm
+  name: US_United States_ss_046
+  password: 2607008ac896b3443be9419d73d544d9
+  port: 16619
+  server: 66.23.206.124
+  type: ss
+- cipher: aes-128-gcm
+  name: US_United States_ss_047
+  password: e72a793d634d99748cf908d21fd935c3
+  port: 19049
+  server: 205.209.126.205
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_048
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 20006
+  server: ss.042.node-for-bigairport.win
+  type: ss
+- name: US_United States_trojan_052
   password: UX82473651
   port: 443
   server: cuddly-sheepdog.rooster465.autos
   sni: cuddly-sheepdog.rooster465.autos
   type: trojan
-- name: US_United States_trojan_152
+- name: US_United States_trojan_058
   network: ws
   password: humanity
   port: 443
@@ -55,7 +114,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: US_United States_trojan_155
+- name: US_United States_trojan_061
   network: ws
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
   port: 443
@@ -67,25 +126,25 @@ proxies:
     headers:
       Host: id1.nathaya.web.id
     path: /trojan
-- name: US_United States_trojan_156
+- name: US_United States_trojan_062
   password: UX82473651
   port: 443
   server: adapting-basilisk.rooster465.autos
   sni: adapting-basilisk.rooster465.autos
   type: trojan
-- name: US_United States_trojan_157
+- name: US_United States_trojan_063
   password: UX82473651
   port: 443
   server: sacred-anemone.rooster465.autos
   sni: sacred-anemone.rooster465.autos
   type: trojan
-- name: US_United States_trojan_158
+- name: US_United States_trojan_064
   password: UX82473651
   port: 443
-  server: loved-shark.rooster465.autos
+  server: 3.253.106.233
   sni: loved-shark.rooster465.autos
   type: trojan
-- name: US_United States_trojan_159
+- name: US_United States_trojan_065
   network: ws
   password: 0400697c-b581-4575-9d2f-0bbd4659312d
   port: 20230
@@ -94,61 +153,63 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: US_United States_trojan_160
+- name: US_United States_trojan_066
   password: UX82473651
   port: 443
   server: evident-ant.rooster465.autos
   sni: evident-ant.rooster465.autos
   type: trojan
-- name: US_United States_trojan_161
+- name: US_United States_trojan_067
   password: UX82473651
   port: 443
   server: allowed-poodle.rooster465.autos
   sni: allowed-poodle.rooster465.autos
   type: trojan
-- name: US_United States_trojan_162
+- name: US_United States_trojan_068
   password: UX82473651
   port: 443
   server: legible-ram.rooster465.autos
   sni: legible-ram.rooster465.autos
   type: trojan
-- name: US_United States_trojan_163
+- name: US_United States_trojan_069
   password: UX82473651
   port: 443
   server: live-stallion.rooster465.autos
   sni: live-stallion.rooster465.autos
   type: trojan
-- name: US_United States_trojan_164
+- name: US_United States_trojan_070
   password: UX82473651
   port: 443
   server: stable-python.rooster465.autos
   sni: stable-python.rooster465.autos
   type: trojan
-- name: US_United States_trojan_165
+- name: US_United States_trojan_071
+  network: tcp
   password: UX82473651
   port: 443
   server: warm-krill.rooster465.autos
+  skip-cert-verify: false
   sni: warm-krill.rooster465.autos
   type: trojan
-- name: US_United States_trojan_166
+- name: US_United States_trojan_072
   password: UX82473651
   port: 443
   server: normal-macaque.rooster465.autos
   sni: normal-macaque.rooster465.autos
   type: trojan
-- name: US_United States_trojan_167
+- name: US_United States_trojan_073
   password: UX82473651
   port: 443
   server: optimal-penguin.rooster465.autos
   sni: optimal-penguin.rooster465.autos
   type: trojan
-- name: US_United States_trojan_168
+- name: US_United States_trojan_074
   password: UX82473651
   port: 443
   server: amazed-mako.rooster465.autos
   sni: amazed-mako.rooster465.autos
   type: trojan
-- name: US_United States_trojan_169
+- name: US_United States_trojan_075
   network: tcp
   password: UX82473651
   port: 443
@@ -156,72 +217,72 @@ proxies:
   skip-cert-verify: false
   sni: equipped-stingray.rooster465.autos
   type: trojan
-- name: US_United States_trojan_170
+- name: US_United States_trojan_076
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
   sni: 45.32.52.173
   type: trojan
-- name: US_United States_trojan_171
+- name: US_United States_trojan_077
   password: UX82473651
   port: 443
   server: prime-corgi.rooster465.autos
   sni: prime-corgi.rooster465.autos
   type: trojan
-- name: US_United States_trojan_172
+- name: US_United States_trojan_078
   password: UX82473651
   port: 443
   server: 54.250.237.143
   type: trojan
-- name: US_United States_trojan_173
+- name: US_United States_trojan_079
   password: UX82473651
   port: 443
   server: musical-terrier.rooster465.autos
   sni: musical-terrier.rooster465.autos
   type: trojan
-- name: US_United States_trojan_174
+- name: US_United States_trojan_080
   password: UX82473651
   port: 443
   server: obliging-louse.rooster465.autos
   sni: obliging-louse.rooster465.autos
   type: trojan
-- name: US_United States_trojan_175
+- name: US_United States_trojan_081
   password: UX82473651
   port: 443
   server: winning-marten.rooster465.autos
   sni: winning-marten.rooster465.autos
   type: trojan
-- name: US_United States_trojan_176
+- name: US_United States_trojan_082
   password: UX82473651
   port: 443
   server: concrete-aardvark.rooster465.autos
   sni: concrete-aardvark.rooster465.autos
   type: trojan
-- name: US_United States_trojan_177
+- name: US_United States_trojan_083
   password: UX82473651
   port: 443
   server: cunning-grub.rooster465.autos
   sni: cunning-grub.rooster465.autos
   type: trojan
-- name: US_United States_trojan_178
+- name: US_United States_trojan_084
   password: UX82473651
   port: 443
   server: fancy-skink.rooster465.autos
   sni: fancy-skink.rooster465.autos
   type: trojan
-- name: US_United States_trojan_179
+- name: US_United States_trojan_085
   password: UX82473651
   port: 443
   server: glorious-lark.rooster465.autos
   sni: glorious-lark.rooster465.autos
   type: trojan
-- name: US_United States_trojan_180
+- name: US_United States_trojan_086
   password: UX82473651
   port: 443
   server: inviting-rabbit.rooster465.autos
   sni: inviting-rabbit.rooster465.autos
   type: trojan
-- name: US_United States_trojan_181
+- name: US_United States_trojan_087
   network: tcp
   password: UX82473651
   port: 443
@@ -229,135 +290,124 @@ proxies:
   skip-cert-verify: false
   sni: pure-kodiak.rooster465.autos
   type: trojan
-- name: US_United States_trojan_182
+- name: US_United States_trojan_088
+  network: tcp
   password: UX82473651
   port: 443
   server: central-jawfish.rooster465.autos
+  skip-cert-verify: false
   sni: central-jawfish.rooster465.autos
   type: trojan
-- name: US_United States_trojan_183
+- name: US_United States_trojan_089
   password: UX82473651
   port: 443
   server: working-tomcat.rooster465.autos
   sni: working-tomcat.rooster465.autos
   type: trojan
-- name: US_United States_trojan_184
-  password: UX82473651
-  port: 443
-  server: delicate-buck.rooster465.autos
-  sni: delicate-buck.rooster465.autos
-  type: trojan
-- name: US_United States_trojan_185
+- name: US_United States_trojan_090
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
   type: trojan
-- name: US_United States_trojan_187
+- name: US_United States_trojan_092
   password: humanity
   port: 443
   server: 144.31.182.130
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_188
+- name: US_United States_trojan_093
   password: humanity
   port: 443
   server: 45.38.3.25
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_193
-  password: humanity
-  port: 443
-  server: 144.31.205.106
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: US_United States_trojan_194
+- name: US_United States_trojan_099
   password: UX82473651
   port: 443
   server: simple-molly.rooster465.autos
   sni: simple-molly.rooster465.autos
   type: trojan
-- name: US_United States_trojan_195
+- name: US_United States_trojan_0100
   password: UX82473651
   port: 443
   server: inspired-hound.rooster465.autos
   sni: inspired-hound.rooster465.autos
   type: trojan
-- name: US_United States_trojan_196
+- name: US_United States_trojan_0101
   password: UX82473651
   port: 443
   server: intense-wildcat.rooster465.autos
   sni: intense-wildcat.rooster465.autos
   type: trojan
-- name: US_United States_trojan_197
+- name: US_United States_trojan_0102
   password: UX82473651
   port: 443
   server: joint-ewe.rooster465.autos
   sni: joint-ewe.rooster465.autos
   type: trojan
-- name: US_United States_trojan_198
+- name: US_United States_trojan_0103
   password: UX82473651
   port: 443
   server: moral-basilisk.rooster465.autos
   sni: moral-basilisk.rooster465.autos
   type: trojan
-- name: US_United States_trojan_199
+- name: US_United States_trojan_0104
   password: UX82473651
   port: 443
   server: brave-tomcat.rooster465.autos
   sni: brave-tomcat.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1100
+- name: US_United States_trojan_0105
   password: UX82473651
   port: 443
   server: fond-mammoth.rooster465.autos
   sni: fond-mammoth.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1101
+- name: US_United States_trojan_0106
   password: UX82473651
   port: 443
   server: rested-seahorse.rooster465.autos
   sni: rested-seahorse.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1102
+- name: US_United States_trojan_0107
   password: UX82473651
   port: 443
   server: ace-liger.rooster465.autos
   sni: ace-liger.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1103
+- name: US_United States_trojan_0108
   password: UX82473651
   port: 443
   server: musical-mouse.rooster465.autos
   sni: musical-mouse.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1104
+- name: US_United States_trojan_0109
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
   sni: 139.180.146.200
   type: trojan
-- name: US_United States_trojan_1105
+- name: US_United States_trojan_0110
   password: UX82473651
   port: 443
   server: inviting-ferret.rooster465.autos
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1106
+- name: US_United States_trojan_0111
   password: UX82473651
   port: 443
   server: pet-antelope.rooster465.autos
   sni: pet-antelope.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1107
+- name: US_United States_trojan_0112
   password: UX82473651
   port: 443
   server: real-cardinal.rooster465.autos
   sni: real-cardinal.rooster465.autos
   type: trojan
-- name: US_United States_trojan_1108
+- name: US_United States_trojan_0113
   network: ws
   password: e309e031-991e-4656-9934-44d10deb8fd8
   port: 2053
@@ -366,15 +416,27 @@ proxies:
   type: trojan
   ws-opts:
     path: /0962
+- name: US_United States_trojan_0114
+  network: ws
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  port: 443
+  server: us3-2.998998.best
+  skip-cert-verify: true
+  sni: nat3.xxai.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nat3.xxai.dpdns.org
+    path: '%2Fanyway'
 - cipher: aes-256-cfb
-  name: US_United States_ss_1110
+  name: US_United States_ss_0115
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1112
+  name: US_United States_vmess_0117
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -389,7 +451,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1113
+  name: US_United States_vmess_0118
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -404,7 +466,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1119
+  name: US_United States_vmess_0124
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -419,7 +481,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1120
+  name: US_United States_vmess_0125
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -434,7 +496,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1122
+  name: US_United States_vmess_0127
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -447,7 +509,7 @@ proxies:
     headers:
       Host: 53vXOVarmgcreAsv.v.3dns.vip
     path: /ws-vmess
-- name: US_United States_trojan_1125
+- name: US_United States_trojan_0130
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -455,7 +517,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_United States_trojan_1129
+- name: US_United States_trojan_0134
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -464,7 +526,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1137
+  name: US_United States_ss_0142
   password: amazonskr05
   port: 443
   server: 15.175.220.220
@@ -474,7 +536,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: US_United States_vmess_1138
+  name: US_United States_vmess_0143
   network: ws
   port: 443
   server: 4vJWBUhtW5vKHytB.v.3dns.vip
@@ -488,7 +550,7 @@ proxies:
       Host: 4vJWBUhtW5vKHytB.v.3dns.vip
     path: /ws-vmess
 - cipher: aes-256-cfb
-  name: US_United States_ss_1140
+  name: US_United States_ss_0145
   password: amazonskr05
   port: 443
   server: 13.135.199.253
@@ -505,7 +567,7 @@ proxies:
     method: GET
     path:
     - /x
-  name: US_United States_vmess_1143
+  name: US_United States_vmess_0148
   network: http
   port: 800
   server: 47.86.167.194
@@ -516,7 +578,7 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1144
+  name: US_United States_vmess_0149
   network: ws
   port: 443
   server: bYWXdhIRqKJj8XAZ.v.3dns.vip
@@ -531,7 +593,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1145
+  name: US_United States_vmess_0150
   network: ws
   port: 23026
   server: 47.244.120.197
@@ -545,17 +607,24 @@ proxies:
       Host: 47.244.120.197
     path: /arki
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1146
+  name: US_United States_ss_0151
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
   server: 13.125.180.150
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_0153
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 54.254.240.48
   type: ss
   udp: true
 - alpn:
   - http/1.1
   alterId: 0
   cipher: auto
-  name: US_United States_vmess_1149
+  name: US_United States_vmess_0155
   network: ws
   port: 443
   server: hadipowerplus.up.railway.app
@@ -575,150 +644,170 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US_United States_ss_135
-  - US_United States_ss_138
-  - US_United States_trojan_147
-  - US_United States_trojan_152
-  - US_United States_trojan_155
-  - US_United States_trojan_156
-  - US_United States_trojan_157
-  - US_United States_trojan_158
-  - US_United States_trojan_159
-  - US_United States_trojan_160
-  - US_United States_trojan_161
-  - US_United States_trojan_162
-  - US_United States_trojan_163
-  - US_United States_trojan_164
-  - US_United States_trojan_165
-  - US_United States_trojan_166
-  - US_United States_trojan_167
-  - US_United States_trojan_168
-  - US_United States_trojan_169
-  - US_United States_trojan_170
-  - US_United States_trojan_171
-  - US_United States_trojan_172
-  - US_United States_trojan_173
-  - US_United States_trojan_174
-  - US_United States_trojan_175
-  - US_United States_trojan_176
-  - US_United States_trojan_177
-  - US_United States_trojan_178
-  - US_United States_trojan_179
-  - US_United States_trojan_180
-  - US_United States_trojan_181
-  - US_United States_trojan_182
-  - US_United States_trojan_183
-  - US_United States_trojan_184
-  - US_United States_trojan_185
-  - US_United States_trojan_187
-  - US_United States_trojan_188
-  - US_United States_trojan_193
-  - US_United States_trojan_194
-  - US_United States_trojan_195
-  - US_United States_trojan_196
-  - US_United States_trojan_197
-  - US_United States_trojan_198
-  - US_United States_trojan_199
-  - US_United States_trojan_1100
-  - US_United States_trojan_1101
-  - US_United States_trojan_1102
-  - US_United States_trojan_1103
-  - US_United States_trojan_1104
-  - US_United States_trojan_1105
-  - US_United States_trojan_1106
-  - US_United States_trojan_1107
-  - US_United States_trojan_1108
-  - US_United States_ss_1110
-  - US_United States_vmess_1112
-  - US_United States_vmess_1113
-  - US_United States_vmess_1119
-  - US_United States_vmess_1120
-  - US_United States_vmess_1122
-  - US_United States_trojan_1125
-  - US_United States_trojan_1129
-  - US_United States_ss_1137
-  - US_United States_vmess_1138
-  - US_United States_ss_1140
-  - US_United States_vmess_1143
-  - US_United States_vmess_1144
-  - US_United States_vmess_1145
-  - US_United States_ss_1146
-  - US_United States_vmess_1149
+  - US_United States_ss_012
+  - US_United States_ss_022
+  - US_United States_ss_023
+  - US_United States_ss_029
+  - US_United States_ss_032
+  - US_United States_ss_034
+  - US_United States_ss_039
+  - US_United States_ss_041
+  - US_United States_ss_045
+  - US_United States_ss_046
+  - US_United States_ss_047
+  - US_United States_ss_048
+  - US_United States_trojan_052
+  - US_United States_trojan_058
+  - US_United States_trojan_061
+  - US_United States_trojan_062
+  - US_United States_trojan_063
+  - US_United States_trojan_064
+  - US_United States_trojan_065
+  - US_United States_trojan_066
+  - US_United States_trojan_067
+  - US_United States_trojan_068
+  - US_United States_trojan_069
+  - US_United States_trojan_070
+  - US_United States_trojan_071
+  - US_United States_trojan_072
+  - US_United States_trojan_073
+  - US_United States_trojan_074
+  - US_United States_trojan_075
+  - US_United States_trojan_076
+  - US_United States_trojan_077
+  - US_United States_trojan_078
+  - US_United States_trojan_079
+  - US_United States_trojan_080
+  - US_United States_trojan_081
+  - US_United States_trojan_082
+  - US_United States_trojan_083
+  - US_United States_trojan_084
+  - US_United States_trojan_085
+  - US_United States_trojan_086
+  - US_United States_trojan_087
+  - US_United States_trojan_088
+  - US_United States_trojan_089
+  - US_United States_trojan_090
+  - US_United States_trojan_092
+  - US_United States_trojan_093
+  - US_United States_trojan_099
+  - US_United States_trojan_0100
+  - US_United States_trojan_0101
+  - US_United States_trojan_0102
+  - US_United States_trojan_0103
+  - US_United States_trojan_0104
+  - US_United States_trojan_0105
+  - US_United States_trojan_0106
+  - US_United States_trojan_0107
+  - US_United States_trojan_0108
+  - US_United States_trojan_0109
+  - US_United States_trojan_0110
+  - US_United States_trojan_0111
+  - US_United States_trojan_0112
+  - US_United States_trojan_0113
+  - US_United States_trojan_0114
+  - US_United States_ss_0115
+  - US_United States_vmess_0117
+  - US_United States_vmess_0118
+  - US_United States_vmess_0124
+  - US_United States_vmess_0125
+  - US_United States_vmess_0127
+  - US_United States_trojan_0130
+  - US_United States_trojan_0134
+  - US_United States_ss_0142
+  - US_United States_vmess_0143
+  - US_United States_ss_0145
+  - US_United States_vmess_0148
+  - US_United States_vmess_0149
+  - US_United States_vmess_0150
+  - US_United States_ss_0151
+  - US_United States_ss_0153
+  - US_United States_vmess_0155
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - US_United States_ss_135
-  - US_United States_ss_138
-  - US_United States_trojan_147
-  - US_United States_trojan_152
-  - US_United States_trojan_155
-  - US_United States_trojan_156
-  - US_United States_trojan_157
-  - US_United States_trojan_158
-  - US_United States_trojan_159
-  - US_United States_trojan_160
-  - US_United States_trojan_161
-  - US_United States_trojan_162
-  - US_United States_trojan_163
-  - US_United States_trojan_164
-  - US_United States_trojan_165
-  - US_United States_trojan_166
-  - US_United States_trojan_167
-  - US_United States_trojan_168
-  - US_United States_trojan_169
-  - US_United States_trojan_170
-  - US_United States_trojan_171
-  - US_United States_trojan_172
-  - US_United States_trojan_173
-  - US_United States_trojan_174
-  - US_United States_trojan_175
-  - US_United States_trojan_176
-  - US_United States_trojan_177
-  - US_United States_trojan_178
-  - US_United States_trojan_179
-  - US_United States_trojan_180
-  - US_United States_trojan_181
-  - US_United States_trojan_182
-  - US_United States_trojan_183
-  - US_United States_trojan_184
-  - US_United States_trojan_185
-  - US_United States_trojan_187
-  - US_United States_trojan_188
-  - US_United States_trojan_193
-  - US_United States_trojan_194
-  - US_United States_trojan_195
-  - US_United States_trojan_196
-  - US_United States_trojan_197
-  - US_United States_trojan_198
-  - US_United States_trojan_199
-  - US_United States_trojan_1100
-  - US_United States_trojan_1101
-  - US_United States_trojan_1102
-  - US_United States_trojan_1103
-  - US_United States_trojan_1104
-  - US_United States_trojan_1105
-  - US_United States_trojan_1106
-  - US_United States_trojan_1107
-  - US_United States_trojan_1108
-  - US_United States_ss_1110
-  - US_United States_vmess_1112
-  - US_United States_vmess_1113
-  - US_United States_vmess_1119
-  - US_United States_vmess_1120
-  - US_United States_vmess_1122
-  - US_United States_trojan_1125
-  - US_United States_trojan_1129
-  - US_United States_ss_1137
-  - US_United States_vmess_1138
-  - US_United States_ss_1140
-  - US_United States_vmess_1143
-  - US_United States_vmess_1144
-  - US_United States_vmess_1145
-  - US_United States_ss_1146
-  - US_United States_vmess_1149
+  - US_United States_ss_012
+  - US_United States_ss_022
+  - US_United States_ss_023
+  - US_United States_ss_029
+  - US_United States_ss_032
+  - US_United States_ss_034
+  - US_United States_ss_039
+  - US_United States_ss_041
+  - US_United States_ss_045
+  - US_United States_ss_046
+  - US_United States_ss_047
+  - US_United States_ss_048
+  - US_United States_trojan_052
+  - US_United States_trojan_058
+  - US_United States_trojan_061
+  - US_United States_trojan_062
+  - US_United States_trojan_063
+  - US_United States_trojan_064
+  - US_United States_trojan_065
+  - US_United States_trojan_066
+  - US_United States_trojan_067
+  - US_United States_trojan_068
+  - US_United States_trojan_069
+  - US_United States_trojan_070
+  - US_United States_trojan_071
+  - US_United States_trojan_072
+  - US_United States_trojan_073
+  - US_United States_trojan_074
+  - US_United States_trojan_075
+  - US_United States_trojan_076
+  - US_United States_trojan_077
+  - US_United States_trojan_078
+  - US_United States_trojan_079
+  - US_United States_trojan_080
+  - US_United States_trojan_081
+  - US_United States_trojan_082
+  - US_United States_trojan_083
+  - US_United States_trojan_084
+  - US_United States_trojan_085
+  - US_United States_trojan_086
+  - US_United States_trojan_087
+  - US_United States_trojan_088
+  - US_United States_trojan_089
+  - US_United States_trojan_090
+  - US_United States_trojan_092
+  - US_United States_trojan_093
+  - US_United States_trojan_099
+  - US_United States_trojan_0100
+  - US_United States_trojan_0101
+  - US_United States_trojan_0102
+  - US_United States_trojan_0103
+  - US_United States_trojan_0104
+  - US_United States_trojan_0105
+  - US_United States_trojan_0106
+  - US_United States_trojan_0107
+  - US_United States_trojan_0108
+  - US_United States_trojan_0109
+  - US_United States_trojan_0110
+  - US_United States_trojan_0111
+  - US_United States_trojan_0112
+  - US_United States_trojan_0113
+  - US_United States_trojan_0114
+  - US_United States_ss_0115
+  - US_United States_vmess_0117
+  - US_United States_vmess_0118
+  - US_United States_vmess_0124
+  - US_United States_vmess_0125
+  - US_United States_vmess_0127
+  - US_United States_trojan_0130
+  - US_United States_trojan_0134
+  - US_United States_ss_0142
+  - US_United States_vmess_0143
+  - US_United States_ss_0145
+  - US_United States_vmess_0148
+  - US_United States_vmess_0149
+  - US_United States_vmess_0150
+  - US_United States_ss_0151
+  - US_United States_ss_0153
+  - US_United States_vmess_0155
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
