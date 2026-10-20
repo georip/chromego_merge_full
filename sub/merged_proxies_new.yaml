@@ -45,25 +45,24 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: US_United States_ss_028
-  password: g5h5jleTRSyO3Rk4
-  port: 80
-  server: 149.102.132.184
-  type: ss
-- cipher: aes-128-gcm
-  name: US_United States_ss_030
-  password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42
-  port: 40006
-  server: ruot.ayucloudservices.nl
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_033
+  name: US_United States_ss_031
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
-  udp: true
+- cipher: aes-256-gcm
+  name: US_United States_ss_033
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_037
+  name: US_United States_ss_034
   password: y7KeRTzmH0vXT2kp
   port: 443
   server: c3.nastuh.link
@@ -72,9 +71,21 @@ proxies:
   name: US_United States_ss_040
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 154.46.31.106
   type: ss
-- name: US_United States_trojan_052
+- cipher: aes-256-gcm
+  name: US_United States_ss_042
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_044
+  password: tfAcRikawhNoZAhu
+  port: 8388
+  server: 139.84.247.164
+  type: ss
+- name: US_United States_trojan_055
   network: ws
   password: humanity
   port: 443
@@ -85,14 +96,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: US_United States_trojan_055
+- name: US_United States_trojan_058
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_056
+- name: US_United States_trojan_059
   network: ws
   password: humanity
   port: 443
@@ -104,14 +115,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: US_United States_trojan_059
+- name: US_United States_trojan_062
   password: bad06c3525a6eaee1757b34776b83892
   port: 12001
   server: 4c2d5151.266nets.com
   skip-cert-verify: true
   sni: ixigua.com
   type: trojan
-- name: US_United States_trojan_062
+- name: US_United States_trojan_065
   network: ws
   password: 0400697c-b581-4575-9d2f-0bbd4659312d
   port: 20230
@@ -121,7 +132,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: US_United States_trojan_063
+  name: US_United States_trojan_066
   network: tcp
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
@@ -130,19 +141,19 @@ proxies:
   sni: 45.32.52.173
   type: trojan
   udp: true
-- name: US_United States_trojan_064
+- name: US_United States_trojan_067
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
   type: trojan
-- name: US_United States_trojan_065
+- name: US_United States_trojan_068
   password: humanity
   port: 443
   server: 161.35.192.122
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_067
+- name: US_United States_trojan_069
   password: humanity
   port: 443
   server: 46.101.110.34
@@ -152,75 +163,57 @@ proxies:
 - name: US_United States_trojan_070
   password: humanity
   port: 443
-  server: 209.38.37.132
+  server: 95.85.32.57
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_071
+- name: US_United States_trojan_073
   password: humanity
   port: 443
   server: 143.246.136.156
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_072
-  network: ws
+- name: US_United States_trojan_074
   password: humanity
   port: 443
   server: 164.92.200.68
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
   type: trojan
   ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- name: US_United States_trojan_074
+    path: '%2Fassignment'
+- name: US_United States_trojan_076
   password: humanity
   port: 443
   server: 209.38.109.222
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_080
+- name: US_United States_trojan_081
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
+  skip-cert-verify: true
   sni: 139.180.146.200
   type: trojan
-- name: US_United States_trojan_081
+- name: US_United States_trojan_082
   password: dba20dcb635e430fa4d3bfc303a149d2
   port: 443
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: true
   sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
   type: trojan
-- name: US_United States_trojan_082
+- name: US_United States_trojan_083
   password: f0eb8c92ce8946aaba856569cff1a16b
   port: 443
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: true
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   type: trojan
-- name: US_United States_trojan_083
+- name: US_United States_trojan_084
   password: ae7eb4dwyaz25pxwgq59
   port: 59689
   server: 66.23.203.21
   type: trojan
-- name: US_United States_trojan_084
-  network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  port: 443
-  server: us3-2.998998.best
-  skip-cert-verify: true
-  sni: nat3.xxai.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nat3.xxai.dpdns.org
-    path: '%2Fanyway'
 - cipher: aes-256-cfb
   name: US_United States_ss_085
   password: amazonskr05
@@ -318,45 +311,42 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_United States_trojan_0110
-  network: ws
-  password: e7TTceggMwUMg+aFN:F4
-  port: 443
-  server: 172.66.47.18
-  skip-cert-verify: false
-  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0111
+  name: US_United States_vmess_0110
   network: ws
-  port: 443
-  server: 47.76.57.83
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  port: 8443
+  server: 66.235.200.145
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
   ws-opts:
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
+      Host: aus.frnhk.xyz
+    path: /Sydney3
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_0111
+  network: ws
+  port: 8443
+  server: 206.238.239.109
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
+  ws-opts:
+    headers:
+      Host: uk.frnhk.xyz
+    path: /London31
 - alterId: 0
   cipher: auto
   name: US_United States_vmess_0113
   network: ws
   port: 443
-  server: 47.243.153.153
+  server: 47.243.194.125
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -364,8 +354,37 @@ proxies:
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
+      Host: nycqg19zkwacpm1b.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1110
+  network: ws
+  port: 8443
+  server: 199.34.228.160
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1c22bf94-702b-49ac-8f5e-24259beed2d8
+  ws-opts:
+    headers:
+      Host: aus.frnhk.xyz
+    path: /Sydney3
+- cipher: rc4-md5
+  name: US_United States_ss_1114
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.132
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: US_United States_ss_1115
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.79.198
+  type: ss
+  udp: true
 - name: US_United States_http_91
   server: 167.172.172.190
   port: 443
@@ -1375,14 +1394,6 @@ proxies:
   tls: true
   type: http
 - cipher: rc4-md5
-  name: US_United States_ss_1613
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
-  type: ss
-  udp: true
-  delay: 1028
-- cipher: rc4-md5
   name: US_United States_ss_1617
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
@@ -1390,14 +1401,6 @@ proxies:
   type: ss
   udp: true
   delay: 1413
-- cipher: rc4-md5
-  name: US_United States_ss_1618
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.132
-  type: ss
-  udp: true
-  delay: 1172
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1408,24 +1411,25 @@ proxy-groups:
   - US_United States_ss_022
   - US_United States_ss_024
   - US_United States_ss_028
-  - US_United States_ss_030
+  - US_United States_ss_031
   - US_United States_ss_033
-  - US_United States_ss_037
+  - US_United States_ss_034
   - US_United States_ss_040
-  - US_United States_trojan_052
+  - US_United States_ss_042
+  - US_United States_ss_044
   - US_United States_trojan_055
-  - US_United States_trojan_056
+  - US_United States_trojan_058
   - US_United States_trojan_059
   - US_United States_trojan_062
-  - US_United States_trojan_063
-  - US_United States_trojan_064
   - US_United States_trojan_065
+  - US_United States_trojan_066
   - US_United States_trojan_067
+  - US_United States_trojan_068
+  - US_United States_trojan_069
   - US_United States_trojan_070
-  - US_United States_trojan_071
-  - US_United States_trojan_072
+  - US_United States_trojan_073
   - US_United States_trojan_074
-  - US_United States_trojan_080
+  - US_United States_trojan_076
   - US_United States_trojan_081
   - US_United States_trojan_082
   - US_United States_trojan_083
@@ -1438,9 +1442,12 @@ proxy-groups:
   - US_United States_vmess_097
   - US_United States_trojan_0100
   - US_United States_trojan_0104
-  - US_United States_trojan_0110
+  - US_United States_vmess_0110
   - US_United States_vmess_0111
   - US_United States_vmess_0113
+  - US_United States_vmess_1110
+  - US_United States_ss_1114
+  - US_United States_ss_1115
   - US_United States_http_91
   - US_United States_vless_921
   - US_United States_vless_922
@@ -1582,9 +1589,7 @@ proxy-groups:
   - US_United States_vless_14492
   - US_United States_http_14497
   - US_United States_http_14498
-  - US_United States_ss_1613
   - US_United States_ss_1617
-  - US_United States_ss_1618
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1595,24 +1600,25 @@ proxy-groups:
   - US_United States_ss_022
   - US_United States_ss_024
   - US_United States_ss_028
-  - US_United States_ss_030
+  - US_United States_ss_031
   - US_United States_ss_033
-  - US_United States_ss_037
+  - US_United States_ss_034
   - US_United States_ss_040
-  - US_United States_trojan_052
+  - US_United States_ss_042
+  - US_United States_ss_044
   - US_United States_trojan_055
-  - US_United States_trojan_056
+  - US_United States_trojan_058
   - US_United States_trojan_059
   - US_United States_trojan_062
-  - US_United States_trojan_063
-  - US_United States_trojan_064
   - US_United States_trojan_065
+  - US_United States_trojan_066
   - US_United States_trojan_067
+  - US_United States_trojan_068
+  - US_United States_trojan_069
   - US_United States_trojan_070
-  - US_United States_trojan_071
-  - US_United States_trojan_072
+  - US_United States_trojan_073
   - US_United States_trojan_074
-  - US_United States_trojan_080
+  - US_United States_trojan_076
   - US_United States_trojan_081
   - US_United States_trojan_082
   - US_United States_trojan_083
@@ -1625,9 +1631,12 @@ proxy-groups:
   - US_United States_vmess_097
   - US_United States_trojan_0100
   - US_United States_trojan_0104
-  - US_United States_trojan_0110
+  - US_United States_vmess_0110
   - US_United States_vmess_0111
   - US_United States_vmess_0113
+  - US_United States_vmess_1110
+  - US_United States_ss_1114
+  - US_United States_ss_1115
   - US_United States_http_91
   - US_United States_vless_921
   - US_United States_vless_922
@@ -1769,9 +1778,7 @@ proxy-groups:
   - US_United States_vless_14492
   - US_United States_http_14497
   - US_United States_http_14498
-  - US_United States_ss_1613
   - US_United States_ss_1617
-  - US_United States_ss_1618
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
