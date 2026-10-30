@@ -44,84 +44,76 @@ proxies:
   server: 132.243.175.144
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_029
-  password: GEdoeeqLZtkJRgSa
+  name: US_United States_ss_024
+  password: xBStBEVqvGwHPocc
   port: 8388
-  server: 139.84.166.47
+  server: 64.176.2.21
+  type: ss
+- cipher: rc4-md5
+  name: US_United States_ss_025
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.132
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_041
-  password: qMvJmCbMduKUoeHq
-  port: 8388
-  server: 66.245.207.70
-  type: ss
-- cipher: aes-256-gcm
-  name: US_United States_ss_043
+  name: US_United States_ss_044
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
 - cipher: aes-128-gcm
-  name: US_United States_ss_045
+  name: US_United States_ss_046
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_052
+  name: US_United States_ss_055
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
-  server: 154.46.31.106
+  server: bogging-eyeteeth-fly.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_053
+  name: US_United States_ss_057
   password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
   port: 49917
-  server: 104.253.216.227
+  server: staging.lastilhame.monster
   type: ss
-- name: US_United States_trojan_056
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 45.63.30.142
-  sni: connectwithemployerstohireyouridealteam.com
-  type: trojan
-- name: US_United States_trojan_057
+- name: US_United States_trojan_060
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.238.104.154
-  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  server: 45.63.30.142
+  skip-cert-verify: true
+  sni: connectwithemployerstohireyouridealteam.com
   type: trojan
-- name: US_United States_trojan_058
+- name: US_United States_trojan_061
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.238.104.154
+  type: trojan
+- name: US_United States_trojan_062
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.7.205
   type: trojan
-- name: US_United States_trojan_061
-  network: tcp
+- name: US_United States_trojan_064
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.251
-  skip-cert-verify: false
-  sni: resources.discovergreatjobsandadvanceyourcareer.com
+  server: 66.163.118.244
   type: trojan
-- name: US_United States_trojan_062
+- name: US_United States_trojan_065
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.62
+  type: trojan
+- name: US_United States_trojan_066
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.166
   skip-cert-verify: false
   sni: learn.discovergreatjobsandadvanceyourcareer.com
-  type: trojan
-- name: US_United States_trojan_064
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.62
-  type: trojan
-- name: US_United States_trojan_065
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.244
   type: trojan
 - name: US_United States_trojan_070
   network: ws
@@ -157,6 +149,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.163.182
+  skip-cert-verify: true
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
   type: trojan
 - name: US_United States_trojan_078
@@ -185,8 +178,6 @@ proxies:
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
-  skip-cert-verify: true
-  sni: moltbot.doctoroyy.net
   type: trojan
 - alpn:
   - http/1.1
@@ -244,72 +235,82 @@ proxies:
     headers:
       Host: www.pleadcourt.org
     path: /assignment
-- name: US_United States_trojan_092
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_091
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
+- name: US_United States_trojan_093
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
+  sni: 139.180.146.200
+  type: trojan
+- name: US_United States_trojan_096
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.121
+  sni: www.unlockyourfuturefindyourperfectcareer.com
   type: trojan
 - name: US_United States_trojan_097
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.112.121
+  server: 66.163.122.113
+  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: US_United States_trojan_098
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.171
+  sni: learn.unlockyourfuturefindyourperfectcareer.com
   type: trojan
 - name: US_United States_trojan_099
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.7
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  type: trojan
-- name: US_United States_trojan_0100
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.112.242
-  type: trojan
-- name: US_United States_trojan_0101
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.122.81
-  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
+  server: 66.163.122.7
+  skip-cert-verify: true
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: US_United States_trojan_0100
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.158
+  skip-cert-verify: true
+  sni: resources.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: US_United States_trojan_0101
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.156.42
   type: trojan
 - name: US_United States_trojan_0102
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.155.23
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-- name: US_United States_trojan_0103
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.156.42
-  type: trojan
-- name: US_United States_trojan_0104
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.25
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
-  type: trojan
-- name: US_United States_trojan_0105
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.112.13
-  type: trojan
-- name: US_United States_trojan_0106
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.112.171
+  server: 66.163.112.242
+  skip-cert-verify: true
+  sni: resources.unlockyourfuturefindyourperfectcareer.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_0107
+  name: US_United States_ss_0103
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0109
+  name: US_United States_vmess_0105
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -324,7 +325,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0110
+  name: US_United States_vmess_0106
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -339,7 +340,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0116
+  name: US_United States_vmess_0112
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -354,7 +355,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0117
+  name: US_United States_vmess_0113
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -369,7 +370,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0119
+  name: US_United States_vmess_0115
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -382,7 +383,7 @@ proxies:
     headers:
       Host: 53vXOVarmgcreAsv.v.3dns.vip
     path: /ws-vmess
-- name: US_United States_trojan_0122
+- name: US_United States_trojan_0118
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -390,7 +391,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_United States_trojan_0126
+- name: US_United States_trojan_0122
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -398,41 +399,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: US_United States_vmess_0136
-  network: ws
-  port: 80
-  server: cd0.bmi.ir.kolman.com.de
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2da85937-93d9-4509-8491-63b1921cf447
-  ws-opts:
-    headers:
-      Host: bmi.ir.draft.co.impossible.com.ir.bmi.ir.com.iran.ir6.ifilmino.com
-    path: /f9bGbG7ZNy5L0tzXKZNxSX4q
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: US_United States_vmess_0137
-  network: ws
-  port: 80
-  server: bmi2.kolman.com.de
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2da85937-93d9-4509-8491-63b1921cf447
-  ws-opts:
-    headers:
-      Host: zeo6-lylp.uti.realoslo-norg.maniyadg7shard.ir
-    path: /f9bGbG7ZNy5L0tzXKZNxSX4q
-- name: US_United States_trojan_0138
+- name: US_United States_trojan_0128
   password: 5t6i121em5lkmsmk
   port: 29813
   server: en001.zestapp778.com
@@ -442,73 +409,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0139
-  network: ws
-  port: 443
-  server: 47.243.194.125
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_0140
-  network: ws
-  port: 443
-  server: rhhierkwrf6fhs2h.v.3dns.vip
-  servername: rhhierkwrf6fhs2h.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
-  ws-opts:
-    headers:
-      Host: rhhierkwrf6fhs2h.v.3dns.vip
-    path: /ws-vmess
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - openai.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: US_United States_vmess_0141
-  network: http
-  port: 52080
-  server: 47.242.81.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: US_United States_vmess_0142
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_0143
+  name: US_United States_vmess_0129
   network: ws
   port: 443
   server: rhHiErkwRf6fHs2H.v.3dns.vip
@@ -522,51 +423,118 @@ proxies:
     headers:
       Host: rhHiErkwRf6fHs2H.v.3dns.vip
     path: /ws-vmess
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_0145
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 3.35.214.122
-  type: ss
-  udp: true
 - alpn:
-  - http/1.1
-  name: US_United States_trojan_0147
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - openai.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: US_United States_vmess_0130
+  network: http
+  port: 52080
+  server: 47.242.81.94
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_0131
+  network: ws
+  port: 443
+  server: 47.76.57.83
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_0132
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: US_United States_vmess_0133
+  network: ws
+  port: 443
+  server: JP032010.ssgreen.org
+  servername: JP032010.ssgreen.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 47a2aa0a-fea0-43f3-bfcc-aa322c2a4769
+  ws-opts:
+    headers:
+      Host: JP032010.ssgreen.org
+    path: /wes
+- name: US_United States_trojan_0136
+  network: ws
+  password: '123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: US_United States_vmess_0137
+  network: ws
+  port: 443
+  server: US032021.ssgreen.org
+  servername: US032021.ssgreen.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0a4f9107-4074-4de8-aa16-ce456318c8a2
+  ws-opts:
+    headers:
+      Host: US032021.ssgreen.org
+    path: /wes
+- name: US_United States_trojan_0138
   network: ws
   password: humanity
   port: 443
-  server: 162.159.228.224
+  server: 162.159.91.211
   skip-cert-verify: true
-  sni: www.pleadcourt.org
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.pleadcourt.org
+      Host: www.calmlunch.com
     path: /assignment
-- name: US_United States_trojan_0148
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: longwanghen.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: longwanghen.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: US_United States_trojan_1132
-  network: tcp
-  password: 5t6i121em5lkmsmk
-  port: 15083
-  server: mx001.zestapp778.com
-  skip-cert-verify: false
-  sni: mx001.zestapp778.com
-  type: trojan
-  udp: true
 - type: vless
   name: US_United States_vless_121
   server: 103.133.1.160
@@ -1053,6 +1021,23 @@ proxies:
   servername: browseseniorrolesandenhanceyourcareertoday.com
   sni: browseseniorrolesandenhanceyourcareertoday.com
   skip-cert-verify: true
+- type: vmess
+  name: US_United States_vmess_1286
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: false
+  servername: 168.138.43.75
+  sni: 168.138.43.75
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
 - type: vless
   name: US_United States_vless_1287
   server: 168.222.43.53
@@ -1271,6 +1256,23 @@ proxies:
   reality-opts:
     public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
     short-id: 5a42dbd7e26a0415
+- type: vmess
+  name: US_United States_vmess_12108
+  server: 172.66.0.1
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  cipher: auto
+  alterId: 0
+  udp: true
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  sni: vmess.lbw666.dpdns.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
 - type: vless
   name: US_United States_vless_12109
   server: 172.66.0.162
@@ -1373,21 +1375,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- type: trojan
-  name: US_United States_trojan_12152
-  server: 198.62.62.23
-  port: 443
-  password: humanity
-  udp: true
-  tls: true
-  servername: www.calmlunch.com
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
 - type: vless
   name: US_United States_vless_12153
   server: 199.127.153.13
@@ -1473,14 +1460,14 @@ proxies:
   sni: www.connectingpeoplewithgreatjobs.com
   skip-cert-verify: true
 - type: trojan
-  name: US_United States_trojan_12174
-  server: 216.152.155.158
+  name: US_United States_trojan_12173
+  server: 216.152.155.131
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   tls: true
-  servername: resources.nextjobopportunityandclaimyouridealrole.com
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
+  servername: www.nextjobopportunityandclaimyouridealrole.com
+  sni: www.nextjobopportunityandclaimyouridealrole.com
   skip-cert-verify: true
 - type: trojan
   name: US_United States_trojan_12180
@@ -1730,6 +1717,16 @@ proxies:
   servername: courses.unlockyourfuturefindyourperfectcareer.com
   sni: courses.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: true
+- type: trojan
+  name: US_United States_trojan_12268
+  server: 66.163.112.76
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  tls: true
+  servername: api.unlockyourfuturefindyourperfectcareer.com
+  sni: api.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: true
 - type: vless
   name: US_United States_vless_12269
   server: 66.163.113.238
@@ -1887,6 +1884,19 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 - type: vless
+  name: US_United States_vless_12322
+  server: ae.privatevip.ir
+  port: 450
+  uuid: 7c730089-1791-4828-89b2-86e7e1663063
+  udp: true
+  tls: false
+  servername: ae.privatevip.ir
+  sni: ae.privatevip.ir
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- type: vless
   name: US_United States_vless_12324
   server: au001.zestapp778.com
   port: 35652
@@ -1930,6 +1940,14 @@ proxies:
   server: connect.hondamotor.site
   port: 10002
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- type: vless
+  name: US_United States_vless_12329
+  server: connect.wecantos.site
+  port: 10000
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
   udp: true
   tls: false
   skip-cert-verify: true
@@ -1990,6 +2008,19 @@ proxies:
   reality-opts:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
     short-id: a73f0410d728c823
+- type: vless
+  name: US_United States_vless_12356
+  server: nl.privatevip.ir
+  port: 447
+  uuid: 7c730089-1791-4828-89b2-86e7e1663063
+  udp: true
+  tls: false
+  servername: nl.privatevip.ir
+  sni: nl.privatevip.ir
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
 - type: vless
   name: US_United States_vless_12359
   server: ph001.zestapp778.com
@@ -2082,6 +2113,19 @@ proxies:
   sni: th001.zestapp778.com
   skip-cert-verify: true
   client-fingerprint: chrome
+- type: vless
+  name: US_United States_vless_12374
+  server: tr.privatevip.ir
+  port: 448
+  uuid: 7c730089-1791-4828-89b2-86e7e1663063
+  udp: true
+  tls: false
+  servername: tr.privatevip.ir
+  sni: tr.privatevip.ir
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
 - type: vless
   name: US_United States_vless_12377
   server: us001.zestapp778.com
@@ -2712,14 +2756,6 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: '8888'
-- name: US_United States_http_14120
-  password: null
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: US_United States_http_14126
   port: 443
   server: 137.175.22.116
@@ -2860,6 +2896,22 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- alterId: 0
+  cipher: auto
+  client-fingerprint: safari
+  name: US_United States_vmess_14207
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
 - name: US_United States_http_14210
   port: 9443
   server: 198.44.138.27
@@ -3430,19 +3482,18 @@ proxy-groups:
   - US_United States_ss_011
   - US_United States_ss_012
   - US_United States_ss_023
-  - US_United States_ss_029
-  - US_United States_ss_041
-  - US_United States_ss_043
-  - US_United States_ss_045
-  - US_United States_ss_052
-  - US_United States_ss_053
-  - US_United States_trojan_056
-  - US_United States_trojan_057
-  - US_United States_trojan_058
+  - US_United States_ss_024
+  - US_United States_ss_025
+  - US_United States_ss_044
+  - US_United States_ss_046
+  - US_United States_ss_055
+  - US_United States_ss_057
+  - US_United States_trojan_060
   - US_United States_trojan_061
   - US_United States_trojan_062
   - US_United States_trojan_064
   - US_United States_trojan_065
+  - US_United States_trojan_066
   - US_United States_trojan_070
   - US_United States_trojan_074
   - US_United States_trojan_075
@@ -3456,36 +3507,32 @@ proxy-groups:
   - US_United States_trojan_085
   - US_United States_trojan_088
   - US_United States_trojan_090
-  - US_United States_trojan_092
+  - US_United States_trojan_091
+  - US_United States_trojan_093
+  - US_United States_trojan_096
   - US_United States_trojan_097
+  - US_United States_trojan_098
   - US_United States_trojan_099
   - US_United States_trojan_0100
   - US_United States_trojan_0101
   - US_United States_trojan_0102
-  - US_United States_trojan_0103
-  - US_United States_trojan_0104
-  - US_United States_trojan_0105
-  - US_United States_trojan_0106
-  - US_United States_ss_0107
-  - US_United States_vmess_0109
-  - US_United States_vmess_0110
-  - US_United States_vmess_0116
-  - US_United States_vmess_0117
-  - US_United States_vmess_0119
+  - US_United States_ss_0103
+  - US_United States_vmess_0105
+  - US_United States_vmess_0106
+  - US_United States_vmess_0112
+  - US_United States_vmess_0113
+  - US_United States_vmess_0115
+  - US_United States_trojan_0118
   - US_United States_trojan_0122
-  - US_United States_trojan_0126
-  - US_United States_vmess_0136
+  - US_United States_trojan_0128
+  - US_United States_vmess_0129
+  - US_United States_vmess_0130
+  - US_United States_vmess_0131
+  - US_United States_vmess_0132
+  - US_United States_vmess_0133
+  - US_United States_trojan_0136
   - US_United States_vmess_0137
   - US_United States_trojan_0138
-  - US_United States_vmess_0139
-  - US_United States_vmess_0140
-  - US_United States_vmess_0141
-  - US_United States_vmess_0142
-  - US_United States_vmess_0143
-  - US_United States_ss_0145
-  - US_United States_trojan_0147
-  - US_United States_trojan_0148
-  - US_United States_trojan_1132
   - US_United States_vless_121
   - US_United States_vless_125
   - US_United States_vless_126
@@ -3523,6 +3570,7 @@ proxy-groups:
   - US_United States_vmess_1277
   - US_United States_trojan_1280
   - US_United States_trojan_1285
+  - US_United States_vmess_1286
   - US_United States_vless_1287
   - US_United States_vless_1293
   - US_United States_vless_1294
@@ -3539,6 +3587,7 @@ proxy-groups:
   - US_United States_vmess_12105
   - US_United States_vless_12106
   - US_United States_vless_12107
+  - US_United States_vmess_12108
   - US_United States_vless_12109
   - US_United States_vless_12110
   - US_United States_vless_12112
@@ -3546,7 +3595,6 @@ proxy-groups:
   - US_United States_vless_12147
   - US_United States_vless_12150
   - US_United States_vless_12151
-  - US_United States_trojan_12152
   - US_United States_vless_12153
   - US_United States_vless_12154
   - US_United States_vmess_12160
@@ -3554,7 +3602,7 @@ proxy-groups:
   - US_United States_trojan_12170
   - US_United States_trojan_12171
   - US_United States_trojan_12172
-  - US_United States_trojan_12174
+  - US_United States_trojan_12173
   - US_United States_trojan_12180
   - US_United States_trojan_12183
   - US_United States_trojan_12188
@@ -3576,6 +3624,7 @@ proxy-groups:
   - US_United States_trojan_12260
   - US_United States_trojan_12264
   - US_United States_trojan_12265
+  - US_United States_trojan_12268
   - US_United States_vless_12269
   - US_United States_trojan_12270
   - US_United States_trojan_12272
@@ -3589,15 +3638,18 @@ proxy-groups:
   - US_United States_vless_12299
   - US_United States_vless_12300
   - US_United States_trojan_12321
+  - US_United States_vless_12322
   - US_United States_vless_12324
   - US_United States_vless_12326
   - US_United States_vmess_12327
   - US_United States_vless_12328
+  - US_United States_vless_12329
   - US_United States_vless_12335
   - US_United States_vmess_12337
   - US_United States_vmess_12339
   - US_United States_vless_12341
   - US_United States_vless_12342
+  - US_United States_vless_12356
   - US_United States_vless_12359
   - US_United States_vless_12363
   - US_United States_vless_12364
@@ -3605,6 +3657,7 @@ proxy-groups:
   - US_United States_vless_12368
   - US_United States_vless_12369
   - US_United States_vless_12373
+  - US_United States_vless_12374
   - US_United States_vless_12377
   - US_United States_trojan_12378
   - US_United States_vless_12381
@@ -3671,7 +3724,6 @@ proxy-groups:
   - US_United States_http_14110
   - US_United States_http_14115
   - US_United States_socks5_14117
-  - US_United States_http_14120
   - US_United States_http_14126
   - US_United States_http_14132
   - US_United States_http_14136
@@ -3693,6 +3745,7 @@ proxy-groups:
   - US_United States_http_14197
   - US_United States_http_14201
   - US_United States_http_14203
+  - US_United States_vmess_14207
   - US_United States_http_14210
   - US_United States_http_14214
   - US_United States_http_14215
@@ -3775,19 +3828,18 @@ proxy-groups:
   - US_United States_ss_011
   - US_United States_ss_012
   - US_United States_ss_023
-  - US_United States_ss_029
-  - US_United States_ss_041
-  - US_United States_ss_043
-  - US_United States_ss_045
-  - US_United States_ss_052
-  - US_United States_ss_053
-  - US_United States_trojan_056
-  - US_United States_trojan_057
-  - US_United States_trojan_058
+  - US_United States_ss_024
+  - US_United States_ss_025
+  - US_United States_ss_044
+  - US_United States_ss_046
+  - US_United States_ss_055
+  - US_United States_ss_057
+  - US_United States_trojan_060
   - US_United States_trojan_061
   - US_United States_trojan_062
   - US_United States_trojan_064
   - US_United States_trojan_065
+  - US_United States_trojan_066
   - US_United States_trojan_070
   - US_United States_trojan_074
   - US_United States_trojan_075
@@ -3801,36 +3853,32 @@ proxy-groups:
   - US_United States_trojan_085
   - US_United States_trojan_088
   - US_United States_trojan_090
-  - US_United States_trojan_092
+  - US_United States_trojan_091
+  - US_United States_trojan_093
+  - US_United States_trojan_096
   - US_United States_trojan_097
+  - US_United States_trojan_098
   - US_United States_trojan_099
   - US_United States_trojan_0100
   - US_United States_trojan_0101
   - US_United States_trojan_0102
-  - US_United States_trojan_0103
-  - US_United States_trojan_0104
-  - US_United States_trojan_0105
-  - US_United States_trojan_0106
-  - US_United States_ss_0107
-  - US_United States_vmess_0109
-  - US_United States_vmess_0110
-  - US_United States_vmess_0116
-  - US_United States_vmess_0117
-  - US_United States_vmess_0119
+  - US_United States_ss_0103
+  - US_United States_vmess_0105
+  - US_United States_vmess_0106
+  - US_United States_vmess_0112
+  - US_United States_vmess_0113
+  - US_United States_vmess_0115
+  - US_United States_trojan_0118
   - US_United States_trojan_0122
-  - US_United States_trojan_0126
-  - US_United States_vmess_0136
+  - US_United States_trojan_0128
+  - US_United States_vmess_0129
+  - US_United States_vmess_0130
+  - US_United States_vmess_0131
+  - US_United States_vmess_0132
+  - US_United States_vmess_0133
+  - US_United States_trojan_0136
   - US_United States_vmess_0137
   - US_United States_trojan_0138
-  - US_United States_vmess_0139
-  - US_United States_vmess_0140
-  - US_United States_vmess_0141
-  - US_United States_vmess_0142
-  - US_United States_vmess_0143
-  - US_United States_ss_0145
-  - US_United States_trojan_0147
-  - US_United States_trojan_0148
-  - US_United States_trojan_1132
   - US_United States_vless_121
   - US_United States_vless_125
   - US_United States_vless_126
@@ -3868,6 +3916,7 @@ proxy-groups:
   - US_United States_vmess_1277
   - US_United States_trojan_1280
   - US_United States_trojan_1285
+  - US_United States_vmess_1286
   - US_United States_vless_1287
   - US_United States_vless_1293
   - US_United States_vless_1294
@@ -3884,6 +3933,7 @@ proxy-groups:
   - US_United States_vmess_12105
   - US_United States_vless_12106
   - US_United States_vless_12107
+  - US_United States_vmess_12108
   - US_United States_vless_12109
   - US_United States_vless_12110
   - US_United States_vless_12112
@@ -3891,7 +3941,6 @@ proxy-groups:
   - US_United States_vless_12147
   - US_United States_vless_12150
   - US_United States_vless_12151
-  - US_United States_trojan_12152
   - US_United States_vless_12153
   - US_United States_vless_12154
   - US_United States_vmess_12160
@@ -3899,7 +3948,7 @@ proxy-groups:
   - US_United States_trojan_12170
   - US_United States_trojan_12171
   - US_United States_trojan_12172
-  - US_United States_trojan_12174
+  - US_United States_trojan_12173
   - US_United States_trojan_12180
   - US_United States_trojan_12183
   - US_United States_trojan_12188
@@ -3921,6 +3970,7 @@ proxy-groups:
   - US_United States_trojan_12260
   - US_United States_trojan_12264
   - US_United States_trojan_12265
+  - US_United States_trojan_12268
   - US_United States_vless_12269
   - US_United States_trojan_12270
   - US_United States_trojan_12272
@@ -3934,15 +3984,18 @@ proxy-groups:
   - US_United States_vless_12299
   - US_United States_vless_12300
   - US_United States_trojan_12321
+  - US_United States_vless_12322
   - US_United States_vless_12324
   - US_United States_vless_12326
   - US_United States_vmess_12327
   - US_United States_vless_12328
+  - US_United States_vless_12329
   - US_United States_vless_12335
   - US_United States_vmess_12337
   - US_United States_vmess_12339
   - US_United States_vless_12341
   - US_United States_vless_12342
+  - US_United States_vless_12356
   - US_United States_vless_12359
   - US_United States_vless_12363
   - US_United States_vless_12364
@@ -3950,6 +4003,7 @@ proxy-groups:
   - US_United States_vless_12368
   - US_United States_vless_12369
   - US_United States_vless_12373
+  - US_United States_vless_12374
   - US_United States_vless_12377
   - US_United States_trojan_12378
   - US_United States_vless_12381
@@ -4016,7 +4070,6 @@ proxy-groups:
   - US_United States_http_14110
   - US_United States_http_14115
   - US_United States_socks5_14117
-  - US_United States_http_14120
   - US_United States_http_14126
   - US_United States_http_14132
   - US_United States_http_14136
@@ -4038,6 +4091,7 @@ proxy-groups:
   - US_United States_http_14197
   - US_United States_http_14201
   - US_United States_http_14203
+  - US_United States_vmess_14207
   - US_United States_http_14210
   - US_United States_http_14214
   - US_United States_http_14215
