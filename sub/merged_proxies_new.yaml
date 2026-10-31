@@ -38,12 +38,6 @@ proxies:
   server: 130.49.189.158
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_027
-  password: GEdoeeqLZtkJRgSa
-  port: 8388
-  server: 139.84.166.47
-  type: ss
-- cipher: aes-256-gcm
   name: US_United States_ss_040
   password: BeaUf9c0AEWH40Pu
   port: 8388
@@ -56,62 +50,71 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_051
+  name: US_United States_ss_049
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
   server: 154.46.31.106
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_054
-  password: AxIYWtskJWIIaefW
+  name: US_United States_ss_053
+  password: qpSevKaUXYQKvSjp
   port: 8388
-  server: 70.34.212.124
+  server: 139.180.220.175
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_055
+  name: US_United States_ss_054
   password: tfAcRikawhNoZAhu
   port: 8388
   server: 139.84.247.164
   type: ss
-- name: US_United States_trojan_058
+- name: US_United States_trojan_057
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 45.63.30.142
   sni: connectwithemployerstohireyouridealteam.com
   type: trojan
-- name: US_United States_trojan_059
+- name: US_United States_trojan_058
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.238.104.154
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  type: trojan
+- name: US_United States_trojan_059
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.89
   type: trojan
 - name: US_United States_trojan_060
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.7.205
   type: trojan
-- name: US_United States_trojan_062
+- name: US_United States_trojan_063
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.244
+  server: 66.163.118.251
+  skip-cert-verify: false
+  sni: resources.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: US_United States_trojan_063
+- name: US_United States_trojan_065
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.166
   skip-cert-verify: false
   sni: learn.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: US_United States_trojan_064
+- name: US_United States_trojan_066
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.62
+  server: 66.163.118.131
+  skip-cert-verify: false
+  sni: www.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: US_United States_trojan_065
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.251
-  type: trojan
-- name: US_United States_trojan_069
+- name: US_United States_trojan_070
   network: ws
   password: humanity
   port: 443
@@ -122,63 +125,56 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: US_United States_trojan_072
+- name: US_United States_trojan_074
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: US_United States_trojan_073
+- name: US_United States_trojan_075
   password: 5t6i121em5lkmsmk
   port: 29813
   server: en001.zestapp778.com
   skip-cert-verify: true
   sni: en001.zestapp778.com
   type: trojan
-- name: US_United States_trojan_074
+- name: US_United States_trojan_076
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.163.182
   skip-cert-verify: true
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
   type: trojan
-- name: US_United States_trojan_075
+- name: US_United States_trojan_077
   password: 5t6i121em5lkmsmk
   port: 42733
   server: in002.zestapp778.com
   skip-cert-verify: true
   sni: in002.zestapp778.com
   type: trojan
-- name: US_United States_trojan_076
+- name: US_United States_trojan_078
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
   sni: 45.32.52.173
   type: trojan
-- name: US_United States_trojan_077
+- name: US_United States_trojan_079
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
   sni: moltbot.doctoroyy.net
   type: trojan
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_078
-  network: ws
+- name: US_United States_trojan_080
   password: humanity
   port: 443
   server: 172.66.40.99
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.trusteeforward.com
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: US_United States_trojan_079
+  name: US_United States_trojan_081
   network: ws
   password: humanity
   port: 443
@@ -190,7 +186,7 @@ proxies:
     headers:
       Host: www.pleadcourt.org
     path: /assignment
-- name: US_United States_trojan_080
+- name: US_United States_trojan_082
   password: humanity
   port: 443
   server: 95.85.32.57
@@ -199,7 +195,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: US_United States_trojan_081
+  name: US_United States_trojan_083
   network: ws
   password: humanity
   port: 443
@@ -211,50 +207,48 @@ proxies:
     headers:
       Host: www.pleadcourt.org
     path: /assignment
-- name: US_United States_trojan_083
+- name: US_United States_trojan_085
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
   sni: 139.180.146.200
   type: trojan
-- name: US_United States_trojan_084
-  password: MiTiVPN
+- name: US_United States_trojan_086
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 167.82.64.120
+  server: 167.88.61.193
   type: trojan
 - name: US_United States_trojan_087
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.112.13
-  skip-cert-verify: false
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  server: 170.101.101.53
   type: trojan
 - name: US_United States_trojan_088
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.120
+  type: trojan
+- name: US_United States_trojan_090
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.76
+  sni: api.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+- name: US_United States_trojan_092
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.113
   sni: api.searchnationwidecareerchangehelperandguidancetoday.com
   type: trojan
-- name: US_United States_trojan_090
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.122.81
-  type: trojan
-- name: US_United States_trojan_091
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.176
-  sni: blog.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_092
+  name: US_United States_ss_093
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_094
+  name: US_United States_vmess_095
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -269,7 +263,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_095
+  name: US_United States_vmess_096
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -284,7 +278,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0101
+  name: US_United States_vmess_0102
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -299,7 +293,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0102
+  name: US_United States_vmess_0103
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -314,7 +308,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0104
+  name: US_United States_vmess_0105
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -327,7 +321,7 @@ proxies:
     headers:
       Host: 53vXOVarmgcreAsv.v.3dns.vip
     path: /ws-vmess
-- name: US_United States_trojan_0107
+- name: US_United States_trojan_0108
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -335,7 +329,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_United States_trojan_0111
+- name: US_United States_trojan_0112
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -343,38 +337,49 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: US_United States_trojan_0117
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.149.78
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: US_United States_trojan_0118
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.61.183
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_0120
+  name: US_United States_vmess_0118
+  network: ws
+  port: 53617
+  server: az-1.linkaa.xyz
+  servername: az-1.linkaa.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
+    path: /game/resources
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - openai.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: US_United States_vmess_0123
+  network: http
+  port: 52080
+  server: 47.242.81.94
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_0125
   network: ws
   port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
+  server: 47.243.194.125
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -382,80 +387,13 @@ proxies:
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
+      Host: nycqg19zkwacpm1b.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_0121
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
-- name: US_United States_trojan_0124
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.58.65
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0129
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.237.0.160
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0130
-  network: ws
-  password: humanity
-  port: 2053
-  server: 38.180.225.247
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: US_United States_trojan_0131
   network: ws
   password: humanity
   port: 443
-  server: 172.67.89.103
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0133
-  network: ws
-  password: humanity
-  port: 443
-  server: 38.180.100.80
+  server: 52.194.44.56
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -467,8 +405,8 @@ proxies:
 - name: US_United States_trojan_0134
   network: ws
   password: humanity
-  port: 8443
-  server: 199.119.137.32
+  port: 443
+  server: 172.67.74.177
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -477,11 +415,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US_United States_trojan_0135
+- name: US_United States_trojan_0136
   network: ws
   password: humanity
   port: 443
-  server: 104.18.39.55
+  server: 172.104.81.253
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -494,7 +432,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 168.143.108.38
+  server: 153.56.171.216
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -503,11 +441,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US_United States_trojan_0141
+- name: US_United States_trojan_0140
   network: ws
   password: humanity
-  port: 443
-  server: 104.18.46.59
+  port: 8443
+  server: 206.223.244.33
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -516,11 +454,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US_United States_trojan_0145
+- name: US_United States_trojan_0142
   network: ws
   password: humanity
   port: 443
-  server: 172.104.185.40
+  server: 198.41.216.1
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -529,11 +467,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US_United States_trojan_0147
+- name: US_United States_trojan_0144
   network: ws
   password: humanity
   port: 443
-  server: 3.112.41.210
+  server: 35.241.172.224
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -542,102 +480,11 @@ proxies:
     headers:
       Host: www.cordweave.com
     path: /assignment
-- name: US_United States_trojan_0148
+- name: US_United States_trojan_0146
   network: ws
   password: humanity
   port: 443
-  server: 172.64.151.20
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0150
-  network: ws
-  password: humanity
-  port: 443
-  server: 143.198.106.68
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0151
-  network: ws
-  password: humanity
-  port: 443
-  server: 207.57.123.112
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0152
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.128.253
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0153
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.159.71
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0154
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.28.254
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0155
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.65.1
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0156
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.17.238
+  server: 172.64.153.224
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -650,7 +497,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.145.43
+  server: 23.246.154.144
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -663,7 +510,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.251.219
+  server: 104.16.240.177
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -676,20 +523,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.144.215
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: US_United States_trojan_0160
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.3.162
+  server: 185.82.218.224
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -702,14 +536,27 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 172.64.151.20
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.cordweave.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
+      Host: www.cordweave.com
+    path: /assignment
+- name: US_United States_trojan_1118
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.150.181
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
     path: /assignment
 - type: vless
   name: US_United States_vless_1211
@@ -755,22 +602,6 @@ proxies:
   network: ws
   ws-opts:
     path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
-- type: vless
-  name: US_United States_vless_1216
-  server: 172.67.74.177
-  port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
-  udp: true
-  tls: true
-  servername: wallweb-4r0.pages.dev
-  sni: wallweb-4r0.pages.dev
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: wallweb-4r0.pages.dev
 - type: vmess
   name: US_United States_vmess_1217
   server: cf.0sm.com
@@ -788,23 +619,6 @@ proxies:
     path: /ws
     headers:
       Host: vmess.lbw666.dpdns.org
-- type: vmess
-  name: US_United States_vmess_1220
-  server: www.windowssearchtools.com
-  port: 443
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-  cipher: auto
-  alterId: 0
-  udp: true
-  tls: true
-  servername: www.windowssearchtools.com
-  sni: www.windowssearchtools.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /truth
-    headers:
-      Host: www.windowssearchtools.com
 - type: trojan
   name: US_United States_trojan_1223
   server: 162.159.149.157
@@ -1197,6 +1011,20 @@ proxies:
   ws-opts:
     path: /assignment
 - type: trojan
+  name: US_United States_trojan_1290
+  server: 104.18.72.213
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
   name: US_United States_trojan_1291
   server: 104.25.60.205
   port: 443
@@ -1220,19 +1048,6 @@ proxies:
   sni: www.calmlunch.com
   skip-cert-verify: true
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-- type: trojan
-  name: US_United States_trojan_1296
-  server: 198.41.216.1
-  port: 443
-  password: humanity
-  udp: true
-  tls: true
-  servername: www.cordweave.com
-  sni: www.cordweave.com
-  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /assignment
@@ -1317,19 +1132,6 @@ proxies:
     headers:
       Host: www.pleadcourt.org
 - type: trojan
-  name: US_United States_trojan_12111
-  server: 172.64.150.181
-  port: 443
-  password: humanity
-  udp: true
-  tls: true
-  servername: www.cordweave.com
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-- type: trojan
   name: US_United States_trojan_12112
   server: 104.27.203.207
   port: 443
@@ -1385,19 +1187,6 @@ proxies:
 - type: trojan
   name: US_United States_trojan_12131
   server: 141.133.174.88
-  port: 443
-  password: humanity
-  udp: true
-  tls: true
-  servername: www.cordweave.com
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-- type: trojan
-  name: US_United States_trojan_12136
-  server: 185.82.218.224
   port: 443
   password: humanity
   udp: true
@@ -1502,19 +1291,6 @@ proxies:
 - type: trojan
   name: US_United States_trojan_12161
   server: 172.64.154.144
-  port: 443
-  password: humanity
-  udp: true
-  tls: true
-  servername: www.cordweave.com
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-- type: trojan
-  name: US_United States_trojan_12162
-  server: 172.64.153.224
   port: 443
   password: humanity
   udp: true
@@ -1906,19 +1682,6 @@ proxies:
   ws-opts:
     path: /assignment
 - type: trojan
-  name: US_United States_trojan_12201
-  server: 104.16.240.177
-  port: 443
-  password: humanity
-  udp: true
-  tls: true
-  servername: www.cordweave.com
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-- type: trojan
   name: US_United States_trojan_12202
   server: 104.19.34.37
   port: 443
@@ -2173,6 +1936,13 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
+- name: US_United States_http_1427
+  password: None
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_http_1429
   password: 'null'
   port: 443
@@ -2323,6 +2093,12 @@ proxies:
   udp: true
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
   xudp: true
+- name: US_United States_http_1480
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_http_1482
   port: 443
   server: mmgr.club
@@ -2335,6 +2111,20 @@ proxies:
   port: 443
   server: webdrone.club
   skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: US_United States_http_1498
+  port: 443
+  server: 149.88.96.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_United States_http_14103
+  password: null
+  port: 443
+  server: 121.127.34.82
+  skip-cert-verify: true
   tls: true
   type: http
   username: null
@@ -2366,6 +2156,20 @@ proxies:
         (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /ws?ip=104.194.149.229:443
   xudp: true
+- name: US_United States_http_14126
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_United States_http_14127
+  password: None
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_http_14136
   password: None
   port: 8443
@@ -2401,9 +2205,24 @@ proxies:
   udp: true
   uuid: 689a62e4-37e7-41de-9e6a-f2a56368c9e2
   xudp: true
+- name: US_United States_http_14144
+  password: ''
+  port: 443
+  server: 149.22.85.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - name: US_United States_http_14147
   port: 443
   server: 149.22.88.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_United States_http_14155
+  port: 443
+  server: 23.133.176.14
   skip-cert-verify: true
   tls: true
   type: http
@@ -2411,6 +2230,14 @@ proxies:
   password: null
   port: 9443
   server: 198.44.138.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: US_United States_http_14161
+  password: null
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
@@ -2424,6 +2251,12 @@ proxies:
 - name: US_United States_http_14164
   port: 8443
   server: 54.190.176.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: US_United States_http_14167
+  port: 443
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
@@ -2465,6 +2298,14 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: US_United States_http_14210
+  password: null
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_http_14214
   port: 443
   server: 24.225.10.211
@@ -2507,6 +2348,14 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: US_United States_http_14232
+  password: null
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_http_14233
   password: null
   port: 443
@@ -2533,6 +2382,12 @@ proxies:
   tls: true
   type: http
   username: null
+- name: US_United States_http_14252
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_http_14258
   password: null
   port: 443
@@ -2541,6 +2396,12 @@ proxies:
   tls: true
   type: http
   username: null
+- name: US_United States_http_14261
+  port: 9443
+  server: 149.88.96.12
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: US_United States_http_14263
   port: 443
   server: 216.107.139.82
@@ -2561,12 +2422,28 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: US_United States_http_14272
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 82.196.9.7
+  sni: 52c40907.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
 - name: US_United States_http_14278
   port: 8090
   server: 173.42.49.102
   skip-cert-verify: true
   tls: true
   type: http
+- name: US_United States_http_14282
+  password: null
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: US_United States_http_14287
   port: 443
   server: 149.88.21.129
@@ -2654,6 +2531,11 @@ proxies:
   tls: true
   type: http
   username: null
+- name: US_United States_http_14343
+  password: None
+  port: 9090
+  server: 152.42.170.187
+  type: http
 - name: US_United States_http_14344
   password: null
   port: 9090
@@ -2810,22 +2692,6 @@ proxies:
   server: 8.243.167.51
   type: http
   username: null
-- alterId: 0
-  cipher: auto
-  client-fingerprint: safari
-  name: US_United States_vmess_14426
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
 - name: US_United States_http_14428
   password: null
   port: 443
@@ -2842,12 +2708,24 @@ proxies:
   tls: true
   type: http
   username: null
-- name: US_United States_http_14434
+- name: US_United States_http_14432
+  password: None
   port: 443
-  server: 149.22.86.1
+  server: 154.47.29.174
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: US_United States_http_14433
+  password: null
+  port: 8090
+  server: 184.188.139.2
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: US_United States_http_14435
   port: 465
   server: 38.225.40.143
@@ -2940,22 +2818,19 @@ proxy-groups:
   - DIRECT
   - US_United States_ss_011
   - US_United States_ss_012
-  - US_United States_ss_027
   - US_United States_ss_040
   - US_United States_ss_042
-  - US_United States_ss_051
+  - US_United States_ss_049
+  - US_United States_ss_053
   - US_United States_ss_054
-  - US_United States_ss_055
+  - US_United States_trojan_057
   - US_United States_trojan_058
   - US_United States_trojan_059
   - US_United States_trojan_060
-  - US_United States_trojan_062
   - US_United States_trojan_063
-  - US_United States_trojan_064
   - US_United States_trojan_065
-  - US_United States_trojan_069
-  - US_United States_trojan_072
-  - US_United States_trojan_073
+  - US_United States_trojan_066
+  - US_United States_trojan_070
   - US_United States_trojan_074
   - US_United States_trojan_075
   - US_United States_trojan_076
@@ -2964,54 +2839,42 @@ proxy-groups:
   - US_United States_trojan_079
   - US_United States_trojan_080
   - US_United States_trojan_081
+  - US_United States_trojan_082
   - US_United States_trojan_083
-  - US_United States_trojan_084
+  - US_United States_trojan_085
+  - US_United States_trojan_086
   - US_United States_trojan_087
   - US_United States_trojan_088
   - US_United States_trojan_090
-  - US_United States_trojan_091
-  - US_United States_ss_092
-  - US_United States_vmess_094
+  - US_United States_trojan_092
+  - US_United States_ss_093
   - US_United States_vmess_095
-  - US_United States_vmess_0101
+  - US_United States_vmess_096
   - US_United States_vmess_0102
-  - US_United States_vmess_0104
-  - US_United States_trojan_0107
-  - US_United States_trojan_0111
-  - US_United States_trojan_0117
-  - US_United States_trojan_0118
-  - US_United States_vmess_0120
-  - US_United States_vmess_0121
-  - US_United States_trojan_0124
-  - US_United States_trojan_0129
-  - US_United States_trojan_0130
+  - US_United States_vmess_0103
+  - US_United States_vmess_0105
+  - US_United States_trojan_0108
+  - US_United States_trojan_0112
+  - US_United States_vmess_0118
+  - US_United States_vmess_0123
+  - US_United States_vmess_0125
   - US_United States_trojan_0131
-  - US_United States_trojan_0133
   - US_United States_trojan_0134
-  - US_United States_trojan_0135
+  - US_United States_trojan_0136
   - US_United States_trojan_0139
-  - US_United States_trojan_0141
-  - US_United States_trojan_0145
-  - US_United States_trojan_0147
-  - US_United States_trojan_0148
-  - US_United States_trojan_0150
-  - US_United States_trojan_0151
-  - US_United States_trojan_0152
-  - US_United States_trojan_0153
-  - US_United States_trojan_0154
-  - US_United States_trojan_0155
-  - US_United States_trojan_0156
+  - US_United States_trojan_0140
+  - US_United States_trojan_0142
+  - US_United States_trojan_0144
+  - US_United States_trojan_0146
   - US_United States_trojan_0157
   - US_United States_trojan_0158
   - US_United States_trojan_0159
-  - US_United States_trojan_0160
   - US_United States_trojan_0161
+  - US_United States_trojan_1118
   - US_United States_vless_1211
   - US_United States_vless_1213
   - US_United States_trojan_1214
-  - US_United States_vless_1216
   - US_United States_vmess_1217
-  - US_United States_vmess_1220
   - US_United States_trojan_1223
   - US_United States_trojan_1224
   - US_United States_vless_1229
@@ -3041,22 +2904,20 @@ proxy-groups:
   - US_United States_trojan_1286
   - US_United States_trojan_1288
   - US_United States_trojan_1289
+  - US_United States_trojan_1290
   - US_United States_trojan_1291
   - US_United States_trojan_1295
-  - US_United States_trojan_1296
   - US_United States_trojan_1298
   - US_United States_trojan_1299
   - US_United States_trojan_12104
   - US_United States_trojan_12107
   - US_United States_trojan_12108
   - US_United States_trojan_12109
-  - US_United States_trojan_12111
   - US_United States_trojan_12112
   - US_United States_trojan_12115
   - US_United States_trojan_12117
   - US_United States_trojan_12120
   - US_United States_trojan_12131
-  - US_United States_trojan_12136
   - US_United States_trojan_12144
   - US_United States_trojan_12145
   - US_United States_trojan_12149
@@ -3065,7 +2926,6 @@ proxy-groups:
   - US_United States_trojan_12159
   - US_United States_trojan_12160
   - US_United States_trojan_12161
-  - US_United States_trojan_12162
   - US_United States_trojan_12163
   - US_United States_vless_12165
   - US_United States_trojan_12166
@@ -3095,7 +2955,6 @@ proxy-groups:
   - US_United States_trojan_12197
   - US_United States_trojan_12198
   - US_United States_trojan_12200
-  - US_United States_trojan_12201
   - US_United States_trojan_12202
   - US_United States_trojan_12204
   - US_United States_trojan_12205
@@ -3119,6 +2978,7 @@ proxy-groups:
   - US_United States_vless_1419
   - US_United States_http_1424
   - US_United States_vless_1425
+  - US_United States_http_1427
   - US_United States_http_1429
   - US_United States_http_1430
   - US_United States_http_1431
@@ -3137,36 +2997,51 @@ proxy-groups:
   - US_United States_http_1468
   - US_United States_http_1474
   - US_United States_vless_1476
+  - US_United States_http_1480
   - US_United States_http_1482
   - US_United States_http_1490
+  - US_United States_http_1498
+  - US_United States_http_14103
   - US_United States_http_14114
   - US_United States_vless_14123
+  - US_United States_http_14126
+  - US_United States_http_14127
   - US_United States_http_14136
   - US_United States_http_14138
   - US_United States_vless_14142
+  - US_United States_http_14144
   - US_United States_http_14147
+  - US_United States_http_14155
   - US_United States_http_14158
+  - US_United States_http_14161
   - US_United States_http_14163
   - US_United States_http_14164
+  - US_United States_http_14167
   - US_United States_trojan_14168
   - US_United States_http_14179
   - US_United States_http_14182
   - US_United States_http_14188
   - US_United States_http_14202
+  - US_United States_http_14210
   - US_United States_http_14214
   - US_United States_ss_14216
   - US_United States_http_14218
   - US_United States_http_14222
   - US_United States_http_14223
+  - US_United States_http_14232
   - US_United States_http_14233
   - US_United States_socks5_14234
   - US_United States_http_14237
   - US_United States_http_14244
+  - US_United States_http_14252
   - US_United States_http_14258
+  - US_United States_http_14261
   - US_United States_http_14263
   - US_United States_http_14267
   - US_United States_http_14271
+  - US_United States_http_14272
   - US_United States_http_14278
+  - US_United States_http_14282
   - US_United States_http_14287
   - US_United States_http_14301
   - US_United States_socks5_14308
@@ -3180,6 +3055,7 @@ proxy-groups:
   - US_United States_socks5_14333
   - US_United States_http_14334
   - US_United States_http_14339
+  - US_United States_http_14343
   - US_United States_http_14344
   - US_United States_socks5_14345
   - US_United States_http_14347
@@ -3201,10 +3077,10 @@ proxy-groups:
   - US_United States_http_14417
   - US_United States_http_14423
   - US_United States_http_14425
-  - US_United States_vmess_14426
   - US_United States_http_14428
   - US_United States_http_14431
-  - US_United States_http_14434
+  - US_United States_http_14432
+  - US_United States_http_14433
   - US_United States_http_14435
   - US_United States_http_14440
   - US_United States_socks5_14443
@@ -3226,22 +3102,19 @@ proxy-groups:
   proxies:
   - US_United States_ss_011
   - US_United States_ss_012
-  - US_United States_ss_027
   - US_United States_ss_040
   - US_United States_ss_042
-  - US_United States_ss_051
+  - US_United States_ss_049
+  - US_United States_ss_053
   - US_United States_ss_054
-  - US_United States_ss_055
+  - US_United States_trojan_057
   - US_United States_trojan_058
   - US_United States_trojan_059
   - US_United States_trojan_060
-  - US_United States_trojan_062
   - US_United States_trojan_063
-  - US_United States_trojan_064
   - US_United States_trojan_065
-  - US_United States_trojan_069
-  - US_United States_trojan_072
-  - US_United States_trojan_073
+  - US_United States_trojan_066
+  - US_United States_trojan_070
   - US_United States_trojan_074
   - US_United States_trojan_075
   - US_United States_trojan_076
@@ -3250,54 +3123,42 @@ proxy-groups:
   - US_United States_trojan_079
   - US_United States_trojan_080
   - US_United States_trojan_081
+  - US_United States_trojan_082
   - US_United States_trojan_083
-  - US_United States_trojan_084
+  - US_United States_trojan_085
+  - US_United States_trojan_086
   - US_United States_trojan_087
   - US_United States_trojan_088
   - US_United States_trojan_090
-  - US_United States_trojan_091
-  - US_United States_ss_092
-  - US_United States_vmess_094
+  - US_United States_trojan_092
+  - US_United States_ss_093
   - US_United States_vmess_095
-  - US_United States_vmess_0101
+  - US_United States_vmess_096
   - US_United States_vmess_0102
-  - US_United States_vmess_0104
-  - US_United States_trojan_0107
-  - US_United States_trojan_0111
-  - US_United States_trojan_0117
-  - US_United States_trojan_0118
-  - US_United States_vmess_0120
-  - US_United States_vmess_0121
-  - US_United States_trojan_0124
-  - US_United States_trojan_0129
-  - US_United States_trojan_0130
+  - US_United States_vmess_0103
+  - US_United States_vmess_0105
+  - US_United States_trojan_0108
+  - US_United States_trojan_0112
+  - US_United States_vmess_0118
+  - US_United States_vmess_0123
+  - US_United States_vmess_0125
   - US_United States_trojan_0131
-  - US_United States_trojan_0133
   - US_United States_trojan_0134
-  - US_United States_trojan_0135
+  - US_United States_trojan_0136
   - US_United States_trojan_0139
-  - US_United States_trojan_0141
-  - US_United States_trojan_0145
-  - US_United States_trojan_0147
-  - US_United States_trojan_0148
-  - US_United States_trojan_0150
-  - US_United States_trojan_0151
-  - US_United States_trojan_0152
-  - US_United States_trojan_0153
-  - US_United States_trojan_0154
-  - US_United States_trojan_0155
-  - US_United States_trojan_0156
+  - US_United States_trojan_0140
+  - US_United States_trojan_0142
+  - US_United States_trojan_0144
+  - US_United States_trojan_0146
   - US_United States_trojan_0157
   - US_United States_trojan_0158
   - US_United States_trojan_0159
-  - US_United States_trojan_0160
   - US_United States_trojan_0161
+  - US_United States_trojan_1118
   - US_United States_vless_1211
   - US_United States_vless_1213
   - US_United States_trojan_1214
-  - US_United States_vless_1216
   - US_United States_vmess_1217
-  - US_United States_vmess_1220
   - US_United States_trojan_1223
   - US_United States_trojan_1224
   - US_United States_vless_1229
@@ -3327,22 +3188,20 @@ proxy-groups:
   - US_United States_trojan_1286
   - US_United States_trojan_1288
   - US_United States_trojan_1289
+  - US_United States_trojan_1290
   - US_United States_trojan_1291
   - US_United States_trojan_1295
-  - US_United States_trojan_1296
   - US_United States_trojan_1298
   - US_United States_trojan_1299
   - US_United States_trojan_12104
   - US_United States_trojan_12107
   - US_United States_trojan_12108
   - US_United States_trojan_12109
-  - US_United States_trojan_12111
   - US_United States_trojan_12112
   - US_United States_trojan_12115
   - US_United States_trojan_12117
   - US_United States_trojan_12120
   - US_United States_trojan_12131
-  - US_United States_trojan_12136
   - US_United States_trojan_12144
   - US_United States_trojan_12145
   - US_United States_trojan_12149
@@ -3351,7 +3210,6 @@ proxy-groups:
   - US_United States_trojan_12159
   - US_United States_trojan_12160
   - US_United States_trojan_12161
-  - US_United States_trojan_12162
   - US_United States_trojan_12163
   - US_United States_vless_12165
   - US_United States_trojan_12166
@@ -3381,7 +3239,6 @@ proxy-groups:
   - US_United States_trojan_12197
   - US_United States_trojan_12198
   - US_United States_trojan_12200
-  - US_United States_trojan_12201
   - US_United States_trojan_12202
   - US_United States_trojan_12204
   - US_United States_trojan_12205
@@ -3405,6 +3262,7 @@ proxy-groups:
   - US_United States_vless_1419
   - US_United States_http_1424
   - US_United States_vless_1425
+  - US_United States_http_1427
   - US_United States_http_1429
   - US_United States_http_1430
   - US_United States_http_1431
@@ -3423,36 +3281,51 @@ proxy-groups:
   - US_United States_http_1468
   - US_United States_http_1474
   - US_United States_vless_1476
+  - US_United States_http_1480
   - US_United States_http_1482
   - US_United States_http_1490
+  - US_United States_http_1498
+  - US_United States_http_14103
   - US_United States_http_14114
   - US_United States_vless_14123
+  - US_United States_http_14126
+  - US_United States_http_14127
   - US_United States_http_14136
   - US_United States_http_14138
   - US_United States_vless_14142
+  - US_United States_http_14144
   - US_United States_http_14147
+  - US_United States_http_14155
   - US_United States_http_14158
+  - US_United States_http_14161
   - US_United States_http_14163
   - US_United States_http_14164
+  - US_United States_http_14167
   - US_United States_trojan_14168
   - US_United States_http_14179
   - US_United States_http_14182
   - US_United States_http_14188
   - US_United States_http_14202
+  - US_United States_http_14210
   - US_United States_http_14214
   - US_United States_ss_14216
   - US_United States_http_14218
   - US_United States_http_14222
   - US_United States_http_14223
+  - US_United States_http_14232
   - US_United States_http_14233
   - US_United States_socks5_14234
   - US_United States_http_14237
   - US_United States_http_14244
+  - US_United States_http_14252
   - US_United States_http_14258
+  - US_United States_http_14261
   - US_United States_http_14263
   - US_United States_http_14267
   - US_United States_http_14271
+  - US_United States_http_14272
   - US_United States_http_14278
+  - US_United States_http_14282
   - US_United States_http_14287
   - US_United States_http_14301
   - US_United States_socks5_14308
@@ -3466,6 +3339,7 @@ proxy-groups:
   - US_United States_socks5_14333
   - US_United States_http_14334
   - US_United States_http_14339
+  - US_United States_http_14343
   - US_United States_http_14344
   - US_United States_socks5_14345
   - US_United States_http_14347
@@ -3487,10 +3361,10 @@ proxy-groups:
   - US_United States_http_14417
   - US_United States_http_14423
   - US_United States_http_14425
-  - US_United States_vmess_14426
   - US_United States_http_14428
   - US_United States_http_14431
-  - US_United States_http_14434
+  - US_United States_http_14432
+  - US_United States_http_14433
   - US_United States_http_14435
   - US_United States_http_14440
   - US_United States_socks5_14443
