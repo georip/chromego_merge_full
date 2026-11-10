@@ -25,6 +25,38 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
+- name: US_United States_vless_152
+  server: cf02.564895.xyz
+  port: 2096
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: tw01.564895.xyz
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /asdasd
+    headers:
+      Host: tw01.564895.xyz
+  udp: true
+- name: US_United States_vless_154
+  server: cf01.564895.xyz
+  port: 2053
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: sg01.564895.xyz
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /asdasd
+    headers:
+      Host: sg01.564895.xyz
+  udp: true
 - name: US_United States_vless_158
   server: cf.danfeng.eu.org
   port: 8443
@@ -103,6 +135,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - US_United States_vless_152
+  - US_United States_vless_154
   - US_United States_vless_158
   - US_United States_vless_1516
   - US_United States_vless_1517
@@ -113,6 +147,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - US_United States_vless_152
+  - US_United States_vless_154
   - US_United States_vless_158
   - US_United States_vless_1516
   - US_United States_vless_1517
